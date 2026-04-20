@@ -1,186 +1,173 @@
 """
-Messages Telegram ultra-pro — formatage HTML riche, emojis, mise en page.
+Messages Telegram ultra-pro — simples, clairs, actionnables.
+Une phrase = une décision. Pas de jargon technique visible.
 """
 from datetime import datetime
 from typing import List, Dict, Optional
 
 
 class ProMessageBuilder:
-    """Construit des messages Telegram de niveau institutionnel."""
+    """Construit des messages Telegram lisibles et orientés action."""
 
-    DIVIDER = "━━━━━━━━━━━━━━━━━━━━━━━━━━━━"
-    SOFT_DIVIDER = "┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈"
+    DIVIDER = "━━━━━━━━━━━━━━━━━━━━━━━━"
 
     @staticmethod
     def startup() -> str:
-        """Message de démarrage du bot."""
         now = datetime.now().strftime("%d/%m/%Y — %H:%M")
         return (
-            f"🟢 <b>AlphaForge Bot — ACTIF</b>\n"
-            f"{ProMessageBuilder.DIVIDER}\n\n"
+            f"🟢 <b>AlphaForge — EN LIGNE</b>\n"
+            f"{ProMessageBuilder.DIVIDER}\n"
             f"📅 {now}\n"
-            f"🔬 Moteur : Composite Predictive Alpha (CPA)\n"
-            f"📊 Univers : S&P 500 · Nasdaq 100 · Euro Stoxx 50\n"
-            f"⚙️  Modèles : RIM+Bayes · FF5+MOM · OU-MLE · Kalman\n\n"
-            f"<i>Scan en cours...</i>"
+            f"<i>Analyse des marchés en cours…</i>"
         )
 
     @staticmethod
     def market_open_banner() -> str:
-        """Bannière ouverture marché."""
         return (
-            f"🔔 <b>MARKET OPEN — PRE-MARKET SCAN</b>\n"
-            f"{ProMessageBuilder.DIVIDER}\n"
-            f"📈 Analyse des signaux alpha quotidiens\n"
-            f"⚡ 500+ titres analysés en parallèle\n"
+            f"🔔 <b>SIGNAUX DU JOUR</b>\n"
+            f"{ProMessageBuilder.DIVIDER}"
         )
 
     @staticmethod
     def top_signals(results: List, universe: str, top_n: int = 10) -> str:
-        """Formate le top N signaux d'un univers avec design premium."""
+        """
+        Format simple et actionnable :
+        #1 🟢 ACHAT AAPL 185.20$ (+12%)
+        → Sous-évaluée de 18% selon fondamentaux
+        """
         top = sorted(results, key=lambda r: r.alpha, reverse=True)[:top_n]
         if not top:
-            return f"ℹ️  <i>Aucun signal {universe} détecté</i>"
+            return f"ℹ️ Aucun signal {universe}"
 
-        flag = {"SP500": "🇺🇸", "NASDAQ100": "🇺🇸💻", "EUROSTOXX50": "🇪🇺"}.get(universe, "🌍")
+        flag = {"SP500": "🇺🇸 SP500", "NASDAQ100": "💻 NASDAQ", "EUROSTOXX50": "🇪🇺 EUROSTOXX"}.get(universe, universe)
 
-        lines = [
-            f"\n{flag} <b>{universe} — TOP {len(top)} BUY SIGNALS</b>",
-            f"{ProMessageBuilder.SOFT_DIVIDER}",
-            "",
-        ]
+        lines = [f"\n<b>{flag}</b>\n"]
 
         for i, r in enumerate(top, 1):
-            # Barre de force visuelle
-            bar = ProMessageBuilder._alpha_bar(r.alpha)
-            rank_emoji = ["🥇", "🥈", "🥉"][i-1] if i <= 3 else f"<code>#{i:02d}</code>"
+            action = ProMessageBuilder._action(r.alpha)
+            price_str = f"{r.price:.2f}$" if r.price else "?"
 
-            # Ligne principale
+            # Potentiel
+            upside_str = ""
+            if r.upside_pct is not None:
+                if r.upside_pct > 0:
+                    upside_str = f"  <b>+{r.upside_pct:.0f}%</b> potentiel"
+                else:
+                    upside_str = f"  <b>{r.upside_pct:.0f}%</b>"
+
             lines.append(
-                f"{rank_emoji} <b>{r.ticker}</b>  {bar}  "
-                f"α<b>{r.alpha:+.3f}</b>"
+                f"<b>#{i}</b> {action} <b>{r.ticker}</b> · {price_str}{upside_str}"
             )
 
-            # Détails
-            details = []
-            if r.upside_pct is not None:
-                direction = "📈" if r.upside_pct > 0 else "📉"
-                details.append(f"{direction} {r.upside_pct:+.1f}%")
-            if r.price:
-                details.append(f"💵 {r.price:.2f}")
-            if r.confidence:
-                stars = "⭐" * int(r.confidence * 4 + 0.5)
-                details.append(f"{stars}")
-
-            if details:
-                lines.append(f"   {' · '.join(details)}")
-
-            # Composants dominants
-            components = {
-                "Value": r.value_gap,
-                "Factor": r.factor_premia,
-                "MeanRev": r.mean_reversion,
-                "InfoFlow": r.info_flow,
-            }
-            valid = {k: v for k, v in components.items() if v is not None}
-            if valid:
-                dominant = max(valid, key=lambda k: abs(valid[k]))
-                lines.append(
-                    f"   <i>Signal dominant : {dominant} ({valid[dominant]:+.3f})</i>"
-                )
-
-            if r.kelly_position and r.kelly_position > 0:
-                lines.append(f"   💼 Kelly suggéré : <b>{r.kelly_position:.1%}</b>")
-
+            # Une phrase claire : pourquoi ?
+            reason = ProMessageBuilder._simple_reason(r)
+            lines.append(f"   → <i>{reason}</i>")
             lines.append("")
 
         return "\n".join(lines)
 
     @staticmethod
     def market_summary(results_by_universe: Dict) -> str:
-        """Résumé marché global."""
+        strong_buy = sum(1 for rs in results_by_universe.values() for r in rs if r.alpha > 0.15)
+        buy = sum(1 for rs in results_by_universe.values() for r in rs if 0.05 < r.alpha <= 0.15)
+        sell = sum(1 for rs in results_by_universe.values() for r in rs if r.alpha < -0.05)
         total = sum(len(r) for r in results_by_universe.values())
-        strong_buy = sum(
-            1 for rs in results_by_universe.values() for r in rs if r.alpha > 0.15
-        )
-        buy = sum(
-            1 for rs in results_by_universe.values() for r in rs
-            if 0.05 < r.alpha <= 0.15
-        )
-        hold = sum(
-            1 for rs in results_by_universe.values() for r in rs
-            if -0.05 <= r.alpha <= 0.05
-        )
-        sell = sum(
-            1 for rs in results_by_universe.values() for r in rs if r.alpha < -0.05
-        )
 
         return (
-            f"\n📊 <b>VUE D'ENSEMBLE MARCHÉ</b>\n"
-            f"{ProMessageBuilder.SOFT_DIVIDER}\n\n"
-            f"📈 Titres analysés : <b>{total}</b>\n"
-            f"🚀 Strong Buy (α &gt; 15%)  : <b>{strong_buy}</b>\n"
-            f"🟢 Buy (α 5-15%)         : <b>{buy}</b>\n"
-            f"⚪ Hold (α ±5%)          : <b>{hold}</b>\n"
-            f"🔴 Sell/Avoid (α &lt; -5%) : <b>{sell}</b>\n"
+            f"📊 <b>RÉSUMÉ</b>\n"
+            f"{ProMessageBuilder.DIVIDER}\n"
+            f"📈 {total} actions analysées\n"
+            f"🚀 {strong_buy} opportunités fortes\n"
+            f"🟢 {buy} achats possibles\n"
+            f"🔴 {sell} à éviter"
         )
 
     @staticmethod
     def alert_flash(ticker: str, alpha: float, reason: str,
                     price: Optional[float] = None,
                     upside: Optional[float] = None) -> str:
-        """Alerte flash pour signal très fort."""
-        if alpha > 0.20:
-            emoji, tag = "🚨🚀", "STRONG BUY"
-        elif alpha > 0.10:
-            emoji, tag = "📈", "BUY"
-        elif alpha < -0.20:
-            emoji, tag = "🚨📉", "STRONG SELL"
-        elif alpha < -0.10:
-            emoji, tag = "📉", "SELL"
-        else:
-            emoji, tag = "📊", "SIGNAL"
-
+        action = ProMessageBuilder._action(alpha)
         msg = [
-            f"{emoji} <b>FLASH — {tag}</b>",
-            f"{ProMessageBuilder.SOFT_DIVIDER}",
-            f"🎯 <b>{ticker}</b>  →  α = <b>{alpha:+.4f}</b>",
+            f"🚨 <b>ALERTE {ticker}</b>",
+            f"{ProMessageBuilder.DIVIDER}",
+            f"{action}",
         ]
         if price:
-            msg.append(f"💵 Prix : {price:.2f}")
+            msg.append(f"💵 Prix : <b>{price:.2f}$</b>")
         if upside:
-            msg.append(f"🎁 Potentiel : {upside:+.1f}%")
-        msg.append(f"💡 {reason}")
-        msg.append(f"\n<i>⏰ {datetime.now().strftime('%H:%M:%S')}</i>")
+            msg.append(f"🎯 Potentiel : <b>+{upside:.0f}%</b>")
+        msg.append(f"\n💡 <b>Pourquoi ?</b>\n{reason}")
         return "\n".join(msg)
 
     @staticmethod
     def footer() -> str:
-        """Pied de message."""
         return (
-            f"\n{ProMessageBuilder.DIVIDER}\n"
-            f"🤖 <b>AlphaForge Bot</b> · CPA Engine v1.0\n"
-            f"📚 RIM+Bayes · FF5 · Ornstein-Uhlenbeck · Kalman\n"
-            f"⚠️  <i>Info uniquement — pas un conseil financier. DYOR.</i>"
+            f"{ProMessageBuilder.DIVIDER}\n"
+            f"🤖 AlphaForge · {datetime.now().strftime('%H:%M')}\n"
+            f"<i>⚠️ Information, pas un conseil. Décidez vous-même.</i>"
         )
 
-    @staticmethod
-    def heartbeat(iteration: int) -> str:
-        """Message de heartbeat pour la boucle."""
-        now = datetime.now().strftime("%H:%M:%S")
-        return (
-            f"💓 <b>Heartbeat #{iteration}</b>\n"
-            f"🕐 {now}\n"
-            f"<i>Bot opérationnel. Prochain scan dans quelques minutes.</i>"
-        )
+    # ── Méthodes privées ──────────────────────────────────────────────────────
 
     @staticmethod
-    def _alpha_bar(alpha: float, length: int = 10) -> str:
-        """Barre visuelle de l'alpha."""
-        normalized = max(-1.0, min(1.0, alpha / 0.3))  # normaliser sur ±30%
-        if normalized > 0:
-            filled = int(abs(normalized) * length)
-            return "🟩" * filled + "⬜" * (length - filled)
+    def _action(alpha: float) -> str:
+        """Retourne l'action claire selon le signal."""
+        if alpha > 0.20:
+            return "🟢🟢 <b>FORT ACHAT</b>"
+        elif alpha > 0.10:
+            return "🟢 <b>ACHAT</b>"
+        elif alpha > 0.05:
+            return "🟡 <b>OPPORTUNITÉ</b>"
+        elif alpha > -0.05:
+            return "⚪ <b>NEUTRE</b>"
+        elif alpha > -0.15:
+            return "🔴 <b>ÉVITER</b>"
         else:
-            filled = int(abs(normalized) * length)
-            return "🟥" * filled + "⬜" * (length - filled)
+            return "🔴🔴 <b>VENDRE</b>"
+
+    @staticmethod
+    def _simple_reason(r) -> str:
+        """
+        Une phrase claire et humaine expliquant POURQUOI cette recommandation.
+        Pas de jargon : juste l'essentiel.
+        """
+        components = {
+            "value": r.value_gap or 0,
+            "factor": r.factor_premia or 0,
+            "mean_rev": r.mean_reversion or 0,
+            "info": r.info_flow or 0,
+        }
+        # Trouver le signal dominant
+        dominant = max(components, key=lambda k: abs(components[k]))
+        val = components[dominant]
+
+        # Phrases claires selon le signal dominant
+        if dominant == "value":
+            if val > 0.08:
+                return f"Très sous-évaluée : prix bien en dessous de sa valeur réelle"
+            elif val > 0:
+                return f"Sous-évaluée selon ses fondamentaux financiers"
+            elif val < -0.08:
+                return f"Surévaluée : prix trop élevé vs fondamentaux"
+            else:
+                return f"Valorisation proche de la valeur intrinsèque"
+
+        elif dominant == "factor":
+            if val > 0:
+                return f"Profil qualité + valeur favorable historiquement"
+            else:
+                return f"Profil défavorable selon les facteurs de risque"
+
+        elif dominant == "mean_rev":
+            if val > 0:
+                return f"Sur-vendue à court terme — rebond attendu"
+            else:
+                return f"Sur-achetée — correction probable"
+
+        elif dominant == "info":
+            if val > 0:
+                return f"Momentum fort et élan positif sur les dernières semaines"
+            else:
+                return f"Tendance baissière et flux d'ordres négatif"
+
+        return "Signal neutre — attendre une meilleure configuration"
