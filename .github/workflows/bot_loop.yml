@@ -54,3 +54,5 @@ jobs:
           name: reports-${{ github.run_number }}
           path: data/reports/
           retention-days: 30
+
+# trigger
