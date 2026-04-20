@@ -122,7 +122,9 @@ class CPACalculator:
             result.value_gap = self.w1 * vg
             result.intrinsic_value = self.rim.intrinsic_value(fundamentals)
             if result.price and result.intrinsic_value:
-                result.upside_pct = (result.intrinsic_value / result.price - 1) * 100
+                raw_upside = (result.intrinsic_value / result.price - 1) * 100
+                # Cap à ±100% pour éviter les valeurs aberrantes (BV énorme)
+                result.upside_pct = float(max(-100.0, min(100.0, raw_upside)))
             alpha += result.value_gap
             weights_used += self.w1
             result.n_signals += 1

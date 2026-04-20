@@ -131,6 +131,7 @@ class ScannerAgent:
             fundamentals = fetch_fundamentals(ticker)
             if "error" in fundamentals or not fundamentals.get("price"):
                 return None, None
+            fundamentals["ticker"] = ticker
 
             # CPA
             cpa_result = self.calculator.compute(

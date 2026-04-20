@@ -209,14 +209,19 @@ class MLEnsembleDetector:
         ticker = fundamentals.get("ticker", "?") if fundamentals else "?"
 
         df = FeatureEngineer.compute_features(prices, fundamentals)
-        if df is None or len(df) < 200:
+        if df is None:
+            logger.debug(f"ML skip {ticker}: features None (prices<100)")
+            return None
+        if len(df) < 150:
+            logger.debug(f"ML skip {ticker}: only {len(df)} feature rows")
             return None
 
         # Features / labels
         feature_cols = [c for c in df.columns if c not in ["price", "logret"]]
         self.feature_names = feature_cols
 
-        X_all = df[feature_cols].values
+        # Remplacer inf/NaN éventuels
+        X_all = df[feature_cols].replace([np.inf, -np.inf], np.nan).fillna(0).values
         # Label : rendement futur > 0 (binaire)
         future_ret = np.log(
             df["price"].shift(-self.horizon) / df["price"]
@@ -233,7 +238,11 @@ class MLEnsembleDetector:
         y_train = y_all[train_mask.values].values
         y_strong_train = y_strong[train_mask.values].values
 
-        if len(X_train) < 80 or len(np.unique(y_train)) < 2:
+        if len(X_train) < 60:
+            logger.debug(f"ML skip {ticker}: train size {len(X_train)}<60")
+            return None
+        if len(np.unique(y_train)) < 2:
+            logger.debug(f"ML skip {ticker}: single class label")
             return None
 
         try:
@@ -294,7 +303,7 @@ class MLEnsembleDetector:
                 top_features=top_features,
             )
         except Exception as e:
-            logger.debug(f"ML fit failed for {ticker}: {e}")
+            logger.warning(f"ML fit failed for {ticker}: {type(e).__name__}: {e}")
             return None
 
 
