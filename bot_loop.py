@@ -19,10 +19,12 @@ if env_file.exists():
 
 sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
 
+from datetime import datetime
 from config.settings import UNIVERSES, TOP_N_SIGNALS
 from src.agents.scanner_agent import ScannerAgent
 from src.notifications.telegram_bot import TelegramNotifier
 from src.notifications.pro_messages import ProMessageBuilder
+from src.tracking.signal_tracker import SignalTracker, TrackedSignal
 
 logging.basicConfig(
     level=logging.INFO,
@@ -37,6 +39,7 @@ class AlphaForgeBot:
         self.test_mode = test_mode
         self.notifier = TelegramNotifier()
         self.msg = ProMessageBuilder()
+        self.tracker = SignalTracker()
         self.iteration = 0
         self.start_time = datetime.now()
 
@@ -91,6 +94,26 @@ class AlphaForgeBot:
                     time.sleep(1)
             except Exception as e:
                 logger.error(f"  ❌ {e}")
+
+        # Persistance des signaux actionnables (BUY / SELL uniquement, pas HOLD)
+        actionable = [
+            o for o in all_opportunities
+            if o.action in ("STRONG_BUY", "BUY", "STRONG_SELL", "SELL")
+            and o.price and o.stop_loss and o.take_profit
+        ]
+        if actionable:
+            tracked = [
+                TrackedSignal(
+                    ticker=o.ticker, action=o.action,
+                    entry_price=o.price, stop_loss=o.stop_loss,
+                    take_profit=o.take_profit, score=o.score,
+                    confidence=o.confidence, universe=o.universe,
+                    issued_at=datetime.utcnow().isoformat(),
+                )
+                for o in actionable
+            ]
+            self.tracker.save_batch(tracked)
+            logger.info(f"💾 {len(tracked)} signaux tracés")
 
         # Résumé
         self._send(self.msg.market_summary(all_opportunities, total_analyzed))

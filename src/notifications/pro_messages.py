@@ -79,10 +79,13 @@ class ProMessageBuilder:
             if o.kelly_position and o.kelly_position > 0.005:
                 lines.append(f"   💼 Allocation suggérée: <b>{o.kelly_position*100:.1f}%</b>")
 
-            # Stop/TP
+            # Stop/TP + R/R
             if o.stop_loss and o.take_profit and o.price:
+                rr_str = ""
+                if hasattr(o, "risk_reward") and o.risk_reward:
+                    rr_str = f" (R/R {o.risk_reward:.1f})"
                 lines.append(
-                    f"   🎯 TP: {o.take_profit:.2f}$ · 🛑 SL: {o.stop_loss:.2f}$"
+                    f"   🎯 TP: {o.take_profit:.2f}$ · 🛑 SL: {o.stop_loss:.2f}${rr_str}"
                 )
 
             # Risques
