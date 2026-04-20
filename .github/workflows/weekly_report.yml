@@ -1,0 +1,38 @@
+name: CPA Alpha Scanner — Rapport Hebdomadaire
+
+on:
+  # Chaque lundi à 6h00 UTC
+  schedule:
+    - cron: "0 6 * * 1"
+  workflow_dispatch:
+
+jobs:
+  weekly:
+    name: Rapport Hebdomadaire
+    runs-on: ubuntu-latest
+    timeout-minutes: 90
+
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+          cache: "pip"
+
+      - run: pip install -r requirements.txt
+
+      - name: Create data directories
+        run: mkdir -p data/cache data/reports
+
+      - name: Scan complet tous univers
+        env:
+          TELEGRAM_BOT_TOKEN: ${{ secrets.TELEGRAM_BOT_TOKEN }}
+          TELEGRAM_CHAT_ID: ${{ secrets.TELEGRAM_CHAT_ID }}
+        run: python main.py --universe SP500 NASDAQ100 EUROSTOXX50 --top 20
+
+      - uses: actions/upload-artifact@v4
+        with:
+          name: weekly-report-${{ github.run_number }}
+          path: data/reports/
+          retention-days: 90

@@ -1,0 +1,56 @@
+name: Setup Telegram Bot — Vérification
+
+on:
+  workflow_dispatch:
+    inputs:
+      test_message:
+        description: "Message de test à envoyer"
+        default: "🤖 CPA Scanner opérationnel !"
+        required: true
+
+jobs:
+  test-telegram:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+
+      - run: pip install requests
+
+      - name: Test Telegram connection
+        env:
+          TELEGRAM_BOT_TOKEN: ${{ secrets.TELEGRAM_BOT_TOKEN }}
+          TELEGRAM_CHAT_ID: ${{ secrets.TELEGRAM_CHAT_ID }}
+        run: |
+          python -c "
+          import os, requests, sys
+
+          token = os.getenv('TELEGRAM_BOT_TOKEN')
+          chat_id = os.getenv('TELEGRAM_CHAT_ID')
+
+          if not token or not chat_id:
+              print('ERROR: TELEGRAM_BOT_TOKEN ou TELEGRAM_CHAT_ID manquant!')
+              print('Aller dans Settings > Secrets and variables > Actions')
+              sys.exit(1)
+
+          # Vérifier le bot
+          info = requests.get(f'https://api.telegram.org/bot{token}/getMe').json()
+          if not info.get('ok'):
+              print(f'Bot invalide: {info}')
+              sys.exit(1)
+          print(f'Bot OK: @{info[\"result\"][\"username\"]}')
+
+          # Envoyer le message test
+          resp = requests.post(
+              f'https://api.telegram.org/bot{token}/sendMessage',
+              json={'chat_id': chat_id, 'text': '${{ github.event.inputs.test_message }}', 'parse_mode': 'HTML'}
+          ).json()
+
+          if resp.get('ok'):
+              print('Message envoyé avec succès !')
+          else:
+              print(f'Erreur: {resp}')
+              sys.exit(1)
+          "

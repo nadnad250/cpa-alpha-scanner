@@ -1,0 +1,90 @@
+name: CPA Alpha Scanner — Scan Quotidien
+
+on:
+  # Tous les jours ouvrés à 7h30 UTC (9h30 Paris, juste avant ouverture EU)
+  schedule:
+    - cron: "30 7 * * 1-5"
+
+  # Déclenchement manuel depuis GitHub Actions
+  workflow_dispatch:
+    inputs:
+      universe:
+        description: "Univers à scanner"
+        required: false
+        default: "SP500 NASDAQ100 EUROSTOXX50"
+        type: string
+      test_mode:
+        description: "Mode test (20 tickers)"
+        required: false
+        default: "false"
+        type: choice
+        options:
+          - "false"
+          - "true"
+
+jobs:
+  scan:
+    name: Scan CPA
+    runs-on: ubuntu-latest
+    timeout-minutes: 60
+
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v4
+
+      - name: Setup Python 3.11
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+          cache: "pip"
+
+      - name: Install dependencies
+        run: |
+          pip install --upgrade pip
+          pip install -r requirements.txt
+
+      - name: Create data directories
+        run: mkdir -p data/cache data/reports
+
+      - name: Run CPA Scanner
+        env:
+          TELEGRAM_BOT_TOKEN: ${{ secrets.TELEGRAM_BOT_TOKEN }}
+          TELEGRAM_CHAT_ID: ${{ secrets.TELEGRAM_CHAT_ID }}
+          RISK_FREE_RATE: "0.045"
+        run: |
+          if [ "${{ github.event.inputs.test_mode }}" = "true" ]; then
+            python main.py --test
+          else
+            python main.py
+          fi
+
+      - name: Upload reports
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: cpa-reports-${{ github.run_number }}
+          path: |
+            data/reports/
+            data/cpa_scanner.log
+          retention-days: 30
+
+      - name: Notify on failure
+        if: failure()
+        env:
+          TELEGRAM_BOT_TOKEN: ${{ secrets.TELEGRAM_BOT_TOKEN }}
+          TELEGRAM_CHAT_ID: ${{ secrets.TELEGRAM_CHAT_ID }}
+        run: |
+          python -c "
+          import os, requests
+          token = os.getenv('TELEGRAM_BOT_TOKEN')
+          chat_id = os.getenv('TELEGRAM_CHAT_ID')
+          if token and chat_id:
+              requests.post(
+                  f'https://api.telegram.org/bot{token}/sendMessage',
+                  json={
+                      'chat_id': chat_id,
+                      'text': '⛔ <b>CPA Scanner FAILED</b>\nRun: ${{ github.run_number }}\nCheck GitHub Actions logs.',
+                      'parse_mode': 'HTML'
+                  }
+              )
+          "
