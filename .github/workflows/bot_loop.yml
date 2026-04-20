@@ -1,52 +1,46 @@
-name: AlphaForge Bot — Boucle Continue
+name: AlphaForge Bot
 
-# Exécution périodique : toutes les 4h en semaine + manuel
 on:
   schedule:
-    # Toutes les 4 heures du lundi au vendredi (cron UTC)
     - cron: "0 6,10,14,18 * * 1-5"
   workflow_dispatch:
     inputs:
       mode:
-        description: "Mode d'exécution"
+        description: "Execution mode"
         required: true
         default: "once"
         type: choice
         options:
           - once
           - demo
-          - full
 
 jobs:
-  scan-and-notify:
+  scan:
     runs-on: ubuntu-latest
     timeout-minutes: 45
-
     steps:
-      - name: Checkout
-        uses: actions/checkout@v4
+      - uses: actions/checkout@v4
 
-      - name: Setup Python 3.11
-        uses: actions/setup-python@v5
+      - uses: actions/setup-python@v5
         with:
           python-version: "3.11"
           cache: "pip"
 
-      - name: Install dependencies
+      - name: Install deps
         run: |
           pip install --upgrade pip
           pip install -r requirements.txt
 
-      - name: Create data dirs
+      - name: Prepare dirs
         run: mkdir -p data/cache data/reports
 
-      - name: Run AlphaForge Bot (one cycle)
+      - name: Run bot
         env:
           TELEGRAM_BOT_TOKEN: ${{ secrets.TELEGRAM_BOT_TOKEN }}
           TELEGRAM_CHAT_ID: ${{ secrets.TELEGRAM_CHAT_ID }}
           RISK_FREE_RATE: "0.045"
+          MODE: ${{ github.event.inputs.mode || 'once' }}
         run: |
-          MODE="${{ github.event.inputs.mode || 'once' }}"
           if [ "$MODE" = "demo" ]; then
             python bot_loop.py --once --demo
           else
@@ -57,23 +51,6 @@ jobs:
         if: always()
         uses: actions/upload-artifact@v4
         with:
-          name: alphaforge-reports-${{ github.run_number }}
+          name: reports-${{ github.run_number }}
           path: data/reports/
           retention-days: 30
-
-      - name: Notify on failure
-        if: failure()
-        env:
-          TELEGRAM_BOT_TOKEN: ${{ secrets.TELEGRAM_BOT_TOKEN }}
-          TELEGRAM_CHAT_ID: ${{ secrets.TELEGRAM_CHAT_ID }}
-        run: |
-          python -c "
-          import os, requests
-          t = os.getenv('TELEGRAM_BOT_TOKEN'); c = os.getenv('TELEGRAM_CHAT_ID')
-          if t and c:
-              requests.post(f'https://api.telegram.org/bot{t}/sendMessage', json={
-                  'chat_id': c,
-                  'text': '⛔ <b>AlphaForge Bot — Run #${{ github.run_number }} FAILED</b>\nCheck GitHub Actions logs.',
-                  'parse_mode': 'HTML'
-              })
-          "
