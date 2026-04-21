@@ -20,7 +20,10 @@ if env_file.exists():
 sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
 
 from datetime import datetime
-from config.settings import UNIVERSES, TOP_N_SIGNALS
+from config.settings import (
+    UNIVERSES, TOP_PER_UNIVERSE, PREMIUM_MIN_SCORE,
+    PREMIUM_MIN_CONFIDENCE, PREMIUM_MIN_RR, MAX_GLOBAL_ALERTS,
+)
 from src.agents.scanner_agent import ScannerAgent
 from src.notifications.telegram_bot import TelegramNotifier
 from src.notifications.pro_messages import ProMessageBuilder
@@ -78,6 +81,7 @@ class AlphaForgeBot:
         all_opportunities = []
         total_analyzed = 0
 
+        # Scan de tous les univers (collecte)
         for universe in UNIVERSES:
             logger.info(f"🔍 Scan {universe}...")
             try:
@@ -86,20 +90,40 @@ class AlphaForgeBot:
                 opps = scanner.all_universe_opportunities()
                 all_opportunities.extend(opps)
                 total_analyzed += len(scanner.results)
-                logger.info(f"  ✅ {len(opps)} opportunités / {len(scanner.results)} analysés")
-
-                if opps:
-                    msg = self.msg.opportunities(opps, universe, top_n=TOP_N_SIGNALS)
-                    self._send(msg)
-                    time.sleep(1)
+                logger.info(
+                    f"  ✅ {len(opps)} opps / {len(scanner.results)} analysés"
+                )
             except Exception as e:
                 logger.error(f"  ❌ {e}")
 
-        # Persistance des signaux actionnables (BUY / SELL uniquement, pas HOLD)
-        actionable = [
+        # Filtre PREMIUM : crème de la crème
+        premium = [
             o for o in all_opportunities
-            if o.action in ("STRONG_BUY", "BUY", "STRONG_SELL", "SELL")
-            and o.price and o.stop_loss and o.take_profit
+            if abs(o.score) >= PREMIUM_MIN_SCORE
+            and o.confidence >= PREMIUM_MIN_CONFIDENCE
+            and (not o.risk_reward or o.risk_reward >= PREMIUM_MIN_RR)
+            and o.action in ("STRONG_BUY", "BUY", "STRONG_SELL", "SELL")
+        ]
+        logger.info(f"💎 {len(premium)} signaux premium / {len(all_opportunities)}")
+
+        # Envoi par univers (seulement ceux qui ont des signaux premium)
+        for universe in UNIVERSES:
+            block = self.msg.premium_block(
+                premium,
+                universe=universe,
+                top_n=TOP_PER_UNIVERSE,
+                min_score=PREMIUM_MIN_SCORE,
+                min_confidence=PREMIUM_MIN_CONFIDENCE,
+                min_rr=PREMIUM_MIN_RR,
+            )
+            if block:
+                self._send(block)
+                time.sleep(1)
+
+        # Persistance des signaux premium uniquement
+        actionable = [
+            o for o in premium
+            if o.price and o.stop_loss and o.take_profit
         ]
         if actionable:
             tracked = [
@@ -116,16 +140,19 @@ class AlphaForgeBot:
             logger.info(f"💾 {len(tracked)} signaux tracés")
 
         # Résumé
-        self._send(self.msg.market_summary(all_opportunities, total_analyzed))
+        self._send(self.msg.market_summary(
+            all_opportunities, total_analyzed, len(premium)
+        ))
 
-        # Flash sur les 3 meilleures opportunités
-        strong = sorted(
-            [o for o in all_opportunities if abs(o.score) > 0.35],
-            key=lambda o: abs(o.score), reverse=True,
-        )[:3]
-        for o in strong:
-            time.sleep(1)
-            self._send(self.msg.alert_flash(o))
+        # TOP ALERTES FLASH — les meilleures tous univers confondus
+        top_alerts = sorted(
+            premium, key=lambda o: abs(o.score) * o.confidence, reverse=True,
+        )[:MAX_GLOBAL_ALERTS]
+        if top_alerts:
+            self._send("\n🚨 <b>TOP ALERTES — TOUS MARCHÉS</b>")
+            for o in top_alerts:
+                time.sleep(1)
+                self._send(self.msg.alert_flash(o))
 
         self._send(self.msg.footer())
 

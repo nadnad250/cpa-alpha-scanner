@@ -6,7 +6,14 @@ TELEGRAM_BOT_TOKEN = os.getenv("TELEGRAM_BOT_TOKEN", "")
 TELEGRAM_CHAT_ID = os.getenv("TELEGRAM_CHAT_ID", "")
 
 # === Marchés ===
-UNIVERSES = ["SP500", "NASDAQ100", "EUROSTOXX50"]
+UNIVERSES = ["SP500", "NASDAQ100", "DOW30", "EUROSTOXX50", "CAC40", "DAX40", "FTSE100"]
+
+# Seuils "crème de la crème" — n'envoie QUE les signaux premium
+PREMIUM_MIN_SCORE = 0.35          # score composé |.| > 0.35
+PREMIUM_MIN_CONFIDENCE = 0.65     # confiance > 65%
+PREMIUM_MIN_RR = 2.0              # risk/reward >= 2
+TOP_PER_UNIVERSE = 5              # max 5 BUY + 5 SELL par univers
+MAX_GLOBAL_ALERTS = 10            # max 10 alertes flash globales/cycle
 
 # === Modèle CPA ===
 RISK_FREE_RATE = float(os.getenv("RISK_FREE_RATE", "0.045"))   # 4.5%

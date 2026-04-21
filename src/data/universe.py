@@ -54,12 +54,32 @@ def get_eurostoxx50_tickers() -> List[str]:
     return _eurostoxx50_fallback()
 
 
+def get_dow30_tickers() -> List[str]:
+    return _dow30_fallback()
+
+
+def get_cac40_tickers() -> List[str]:
+    return _cac40_fallback()
+
+
+def get_dax40_tickers() -> List[str]:
+    return _dax40_fallback()
+
+
+def get_ftse100_tickers() -> List[str]:
+    return _ftse100_fallback()
+
+
 def get_universe(name: str) -> List[str]:
     """Retourne la liste de tickers selon l'univers demandé."""
     dispatchers = {
         "SP500": get_sp500_tickers,
         "NASDAQ100": get_nasdaq100_tickers,
+        "DOW30": get_dow30_tickers,
         "EUROSTOXX50": get_eurostoxx50_tickers,
+        "CAC40": get_cac40_tickers,
+        "DAX40": get_dax40_tickers,
+        "FTSE100": get_ftse100_tickers,
     }
     fn = dispatchers.get(name.upper())
     if fn is None:
@@ -113,4 +133,50 @@ def _eurostoxx50_fallback() -> List[str]:
         "SIE.DE","STMPA.PA","SU.PA","TTE.PA","UCG.MI","UNA.AS","URW.AS",
         "VIE.PA","VOW3.DE","BN.PA","ABI.BR","KPN.AS","AD.AS","MT.AS",
         "EDF.PA",
+    ]
+
+
+def _dow30_fallback() -> List[str]:
+    """Dow Jones 30."""
+    return [
+        "AAPL","AMGN","AXP","BA","CAT","CRM","CSCO","CVX","DIS","DOW",
+        "GS","HD","HON","IBM","INTC","JNJ","JPM","KO","MCD","MMM",
+        "MRK","MSFT","NKE","PG","TRV","UNH","V","VZ","WBA","WMT",
+    ]
+
+
+def _cac40_fallback() -> List[str]:
+    """CAC 40 Paris."""
+    return [
+        "AC.PA","AI.PA","AIR.PA","ALO.PA","BN.PA","BNP.PA","CA.PA","CAP.PA",
+        "CS.PA","DG.PA","DSY.PA","EL.PA","EN.PA","ENGI.PA","ERF.PA","GLE.PA",
+        "HO.PA","KER.PA","LR.PA","MC.PA","ML.PA","OR.PA","ORA.PA","PUB.PA",
+        "RI.PA","RMS.PA","RNO.PA","SAF.PA","SAN.PA","SGO.PA","STLAP.PA",
+        "STMPA.PA","SU.PA","SW.PA","TEP.PA","TTE.PA","URW.AS","VIE.PA",
+        "VIV.PA","WLN.PA",
+    ]
+
+
+def _dax40_fallback() -> List[str]:
+    """DAX 40 Allemagne."""
+    return [
+        "ADS.DE","AIR.DE","ALV.DE","BAS.DE","BAYN.DE","BEI.DE","BMW.DE",
+        "BNR.DE","CBK.DE","CON.DE","1COV.DE","DB1.DE","DBK.DE","DHER.DE",
+        "DTE.DE","DTG.DE","DWNI.DE","EOAN.DE","FME.DE","FRE.DE","HEI.DE",
+        "HEN3.DE","HFG.DE","IFX.DE","LIN.DE","MBG.DE","MRK.DE","MTX.DE",
+        "MUV2.DE","P911.DE","PAH3.DE","QIA.DE","RWE.DE","SAP.DE","SHL.DE",
+        "SIE.DE","SRT3.DE","SY1.DE","VOW3.DE","ZAL.DE",
+    ]
+
+
+def _ftse100_fallback() -> List[str]:
+    """FTSE 100 Londres (sous-sélection des majors liquides)."""
+    return [
+        "AZN.L","SHEL.L","HSBA.L","ULVR.L","RIO.L","GSK.L","BP.L","VOD.L",
+        "LLOY.L","BARC.L","NWG.L","DGE.L","REL.L","BATS.L","NG.L","PRU.L",
+        "GLEN.L","AAL.L","BHP.L","CRH.L","LSEG.L","RKT.L","CPG.L","TSCO.L",
+        "AHT.L","BA.L","EXPN.L","FLTR.L","HL.L","IAG.L","IMB.L","IHG.L",
+        "III.L","JD.L","LAND.L","LGEN.L","MRO.L","NXT.L","PRU.L","PSON.L",
+        "RR.L","SBRY.L","SDR.L","SGE.L","SGRO.L","SN.L","SSE.L","STAN.L",
+        "SVT.L","TW.L","UU.L","WTB.L",
     ]
