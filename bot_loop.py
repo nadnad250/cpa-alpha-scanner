@@ -51,7 +51,12 @@ class AlphaForgeBot:
             sys.exit(1)
 
     def run(self, once: bool = False):
-        self._send(self.msg.startup())
+        # Charge les stats tracker existantes pour afficher le track record
+        try:
+            self._track_stats = self.tracker.performance_stats(lookback_days=90)
+        except Exception:
+            self._track_stats = None
+        self._send(self.msg.startup(stats=self._track_stats))
         logger.info("🚀 AlphaForge Bot démarré")
 
         try:
@@ -139,9 +144,10 @@ class AlphaForgeBot:
             self.tracker.save_batch(tracked)
             logger.info(f"💾 {len(tracked)} signaux tracés")
 
-        # Résumé
+        # Résumé avec stats tracker
         self._send(self.msg.market_summary(
-            all_opportunities, total_analyzed, len(premium)
+            all_opportunities, total_analyzed, len(premium),
+            stats=getattr(self, "_track_stats", None),
         ))
 
         # TOP ALERTES FLASH — les meilleures tous univers confondus

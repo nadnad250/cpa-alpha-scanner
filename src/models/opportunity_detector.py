@@ -22,6 +22,11 @@ from .cpa import CPAResult
 from .ml_ensemble import MLEnsembleDetector, MLSignal
 from .stop_system import compute_stops
 
+try:
+    from src.data.news_fetcher import get_news_sentiment
+except Exception:
+    get_news_sentiment = None
+
 logger = logging.getLogger(__name__)
 
 
@@ -51,6 +56,11 @@ class Opportunity:
 
     sector: str = ""
     universe: str = ""
+
+    # News & sentiment
+    news_score: Optional[float] = None      # [-1, +1]
+    top_news_title: Optional[str] = None
+    top_news_url: Optional[str] = None
 
 
 class OpportunityDetector:
@@ -86,10 +96,21 @@ class OpportunityDetector:
 
         regime_score = self._regime_score(prices, cpa_result)
 
+        # Sentiment des news (optionnel mais utile)
+        news_info = {"score": 0.0, "count": 0, "top_news": None}
+        if get_news_sentiment:
+            try:
+                news_info = get_news_sentiment(cpa_result.ticker)
+            except Exception as e:
+                logger.debug(f"News {cpa_result.ticker}: {e}")
+        news_score = news_info.get("score", 0.0)
+
+        # Score final incluant 10% sur les news
         final_score = (
             self.w_cpa * cpa_score
             + self.w_ml * ml_score
             + self.w_regime * regime_score
+            + 0.10 * news_score   # bonus/malus news
         )
 
         confidence = (
@@ -138,6 +159,13 @@ class OpportunityDetector:
             cpa_result, ml_signal, regime_score, final_score
         )
         opp.risk_flags = self._risk_flags(prices, fundamentals)
+
+        # News
+        opp.news_score = float(news_score)
+        top_news = news_info.get("top_news")
+        if top_news:
+            opp.top_news_title = top_news.get("title", "")[:100]
+            opp.top_news_url = top_news.get("url", "")
 
         return opp
 
