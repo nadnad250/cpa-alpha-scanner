@@ -1,0 +1,249 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Live Performance Tracker — CPA Alpha Scanner</title>
+  <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>⚡</text></svg>">
+  <link rel="stylesheet" href="assets/css/pages.css">
+  <script src="https://cdn.jsdelivr.net/npm/chart.js@4.4.1/dist/chart.umd.min.js"></script>
+  <style>
+    .hero-live { background:linear-gradient(135deg,rgba(16,185,129,.06),rgba(59,130,246,.06));border:1px solid rgba(16,185,129,.2);border-radius:20px;padding:28px;margin-bottom:24px;text-align:center }
+    .hero-live h1 { font-size:28px;font-weight:900;margin-bottom:8px;background:linear-gradient(135deg,#34d399,#3b82f6);-webkit-background-clip:text;-webkit-text-fill-color:transparent;background-clip:text }
+    .hero-live .sub { font-size:13px;color:var(--text2);max-width:560px;margin:0 auto 20px;line-height:1.7 }
+    .pulse-live { display:inline-flex;align-items:center;gap:8px;padding:5px 14px;background:rgba(16,185,129,.12);color:var(--buy-l);border:1px solid rgba(16,185,129,.3);border-radius:20px;font-size:11px;font-weight:700;letter-spacing:1px;margin-bottom:16px }
+    .pulse-live::before { content:'';width:7px;height:7px;background:var(--buy-l);border-radius:50%;animation:pulse 1.5s infinite }
+    @keyframes pulse { 0%,100% {opacity:1;transform:scale(1)} 50% {opacity:.5;transform:scale(.7)} }
+
+    .trade-card { background:var(--card);border:1px solid var(--border);border-radius:12px;padding:14px;transition:all .2s;display:grid;grid-template-columns:60px 1fr auto 80px;gap:14px;align-items:center }
+    .trade-card:hover { border-color:var(--accent) }
+    .trade-win { border-left:3px solid var(--buy-l) }
+    .trade-loss { border-left:3px solid var(--sell-l) }
+    .trade-icon { font-size:28px;text-align:center }
+    .trade-ticker { font-family:var(--mono);font-size:15px;font-weight:800 }
+    .trade-meta { font-size:11px;color:var(--text3);margin-top:2px }
+    .trade-dates { font-family:var(--mono);font-size:11px;color:var(--text3);text-align:right }
+    .trade-pnl { font-family:var(--mono);font-size:18px;font-weight:800;text-align:right }
+
+    .wait-box { background:rgba(59,130,246,.05);border:1px solid rgba(59,130,246,.2);border-radius:14px;padding:22px;text-align:center;margin:16px 0 }
+    .wait-icon { font-size:40px;margin-bottom:10px;display:inline-block;animation:float 2.5s ease-in-out infinite }
+    @keyframes float { 0%,100%{transform:translateY(0)} 50%{transform:translateY(-5px)} }
+  </style>
+</head>
+<body>
+
+  <nav class="snav">
+    <div class="snav-brand">
+      <div class="snav-icon">⚡</div>
+      <span class="snav-name">CPA Alpha</span>
+    </div>
+    <div class="snav-links">
+      <a class="snav-link" href="index.html">🏠 Accueil</a>
+      <a class="snav-link" href="dashboard.html">📊 Dashboard</a>
+      <a class="snav-link" href="stats.html">📈 Stats</a>
+      <a class="snav-link active" href="live.html">🔴 Live</a>
+      <a class="snav-link" href="pricing.html">💎 Premium</a>
+    </div>
+    <div class="snav-right">
+      <a href="login.html" class="btn btn-primary btn-sm">🚀 Accès Gratuit</a>
+    </div>
+  </nav>
+
+  <div class="page">
+
+    <div class="hero-live">
+      <div class="pulse-live">TRACKING EN TEMPS RÉEL</div>
+      <h1>Toutes les performances · sans filtre · sans truc</h1>
+      <p class="sub">
+        Chaque signal émis par le bot est tracé publiquement jusqu'à son TP ou son SL.
+        Pas de cherry-picking, pas de chiffres arrangés. Ce que vous voyez = la réalité 100 %.
+      </p>
+    </div>
+
+    <!-- KPI LIVE -->
+    <div class="kpis">
+      <div class="kpi">
+        <div class="kpi-icon">🎯</div>
+        <div class="kpi-lbl">Win Rate Live</div>
+        <div class="kpi-val green" id="k-winrate">—</div>
+        <div class="kpi-sub" id="k-winrate-sub">Sur X trades clôturés</div>
+      </div>
+      <div class="kpi">
+        <div class="kpi-icon">💰</div>
+        <div class="kpi-lbl">P&L Cumulé</div>
+        <div class="kpi-val green" id="k-pnl">—</div>
+        <div class="kpi-sub">Rendement réel</div>
+      </div>
+      <div class="kpi">
+        <div class="kpi-icon">📡</div>
+        <div class="kpi-lbl">Signaux Émis</div>
+        <div class="kpi-val blue" id="k-total">—</div>
+        <div class="kpi-sub" id="k-total-sub">— ouverts · — clôturés</div>
+      </div>
+      <div class="kpi">
+        <div class="kpi-icon">⚖️</div>
+        <div class="kpi-lbl">Ratio Moyen</div>
+        <div class="kpi-val gold" id="k-rr">—</div>
+        <div class="kpi-sub">Risk / Reward</div>
+      </div>
+    </div>
+
+    <!-- EQUITY CURVE -->
+    <div class="card" style="margin-bottom:16px">
+      <div class="card-head">
+        <h3>📈 Courbe de Performance</h3>
+        <span class="card-head-sub">P&L cumulé sur signaux clôturés</span>
+      </div>
+      <div class="card-body">
+        <div class="chart-wrap"><canvas id="chart-pnl"></canvas></div>
+      </div>
+    </div>
+
+    <!-- TRADES EN COURS -->
+    <div class="card" style="margin-bottom:16px">
+      <div class="card-head">
+        <h3>🔴 Trades en Cours</h3>
+        <span class="card-head-sub" id="open-sub">—</span>
+      </div>
+      <div class="card-body" id="open-trades"></div>
+    </div>
+
+    <!-- TRADES CLÔTURÉS -->
+    <div class="card">
+      <div class="card-head">
+        <h3>📋 Historique des Trades Clôturés</h3>
+        <span class="card-head-sub" id="closed-sub">—</span>
+      </div>
+      <div class="card-body" id="closed-trades"></div>
+    </div>
+
+    <div style="text-align:center;margin:28px 0;padding:24px;background:linear-gradient(135deg,rgba(59,130,246,.08),rgba(168,85,247,.08));border:1px solid rgba(59,130,246,.3);border-radius:18px">
+      <h2 style="font-size:20px;font-weight:800;margin-bottom:8px">Recevez les signaux en direct</h2>
+      <p style="font-size:13px;color:var(--text2);margin-bottom:16px">Tous les signaux publics ici sont envoyés en priorité sur Telegram + email aux membres Premium.</p>
+      <div style="display:flex;gap:12px;justify-content:center;flex-wrap:wrap">
+        <a href="login.html" class="btn btn-primary">🎁 Créer un compte gratuit</a>
+        <a href="pricing.html" class="btn btn-outline">💎 Voir Premium</a>
+      </div>
+    </div>
+
+  </div>
+
+  <script>
+    fetch('data/signals.json?t=' + Date.now())
+      .then(r => r.json())
+      .then(data => render(data))
+      .catch(() => render({ signals: [], stats: {}, eod: {} }));
+
+    function render(data) {
+      const sigs = data.signals || [];
+      const open = sigs.filter(s => s.status === 'open');
+      const closed = sigs.filter(s => s.status === 'tp_hit' || s.status === 'sl_hit').sort((a,b) => new Date(b.issued_at) - new Date(a.issued_at));
+      const wins = closed.filter(s => s.status === 'tp_hit');
+
+      // KPIs
+      const wr = closed.length ? Math.round(wins.length / closed.length * 100) : 0;
+      document.getElementById('k-winrate').textContent = closed.length ? wr + '%' : '—';
+      document.getElementById('k-winrate-sub').textContent = `Sur ${closed.length} trade${closed.length > 1 ? 's' : ''} clôturé${closed.length > 1 ? 's' : ''}`;
+
+      let totalPnl = 0;
+      closed.forEach(s => {
+        totalPnl += s.status === 'tp_hit' ? Math.abs(s.upside_pct || 0) : -Math.abs(s.upside_pct || 0);
+      });
+      const pnlEl = document.getElementById('k-pnl');
+      if (closed.length) {
+        pnlEl.textContent = (totalPnl >= 0 ? '+' : '') + totalPnl.toFixed(1) + '%';
+        pnlEl.className = 'kpi-val ' + (totalPnl >= 0 ? 'green' : 'red');
+      } else pnlEl.textContent = '—';
+
+      document.getElementById('k-total').textContent = sigs.length;
+      document.getElementById('k-total-sub').textContent = `${open.length} ouverts · ${closed.length} clôturés`;
+
+      const rrs = sigs.map(s => s.risk_reward).filter(Boolean);
+      document.getElementById('k-rr').textContent = rrs.length ? (rrs.reduce((a,b) => a+b, 0) / rrs.length).toFixed(1) + 'x' : '—';
+
+      // Equity curve
+      drawPnlChart(closed);
+
+      // Open trades
+      const openEl = document.getElementById('open-trades');
+      document.getElementById('open-sub').textContent = `${open.length} en cours`;
+      if (!open.length) {
+        openEl.innerHTML = wait('⏳', 'Aucun trade en cours pour le moment', 'Le bot scanne automatiquement et ouvrira des positions aux prochains cycles (9h30, 11h, 13h30, 15h30 NY).');
+      } else {
+        openEl.innerHTML = '<div style="display:flex;flex-direction:column;gap:8px">' + open.map(s => {
+          const isBuy = s.score > 0;
+          const icon = isBuy ? '🟢' : '🔴';
+          const dir = isBuy ? 'BUY' : 'SELL';
+          const dirColor = isBuy ? 'var(--buy-l)' : 'var(--sell-l)';
+          const dt = (s.issued_at || '').split('T')[0];
+          return `<div class="trade-card">
+            <div class="trade-icon">${icon}</div>
+            <div>
+              <div class="trade-ticker">${s.ticker} <span style="font-size:11px;color:${dirColor};margin-left:6px">${dir}</span></div>
+              <div class="trade-meta">${s.universe} · ${s.sector || '—'} · entrée $${(s.price || 0).toFixed(2)}</div>
+            </div>
+            <div class="trade-dates">Ouvert<br>${dt}</div>
+            <div class="trade-pnl" style="color:var(--text2)">⏳</div>
+          </div>`;
+        }).join('') + '</div>';
+      }
+
+      // Closed trades
+      const closedEl = document.getElementById('closed-trades');
+      document.getElementById('closed-sub').textContent = `${closed.length} clôturés`;
+      if (!closed.length) {
+        closedEl.innerHTML = wait('🎯', 'Les premiers trades clôturés apparaîtront ici', 'Chaque signal est suivi jusqu\'à son TP ou son SL. Les résultats complets s\'accumulent au fil des semaines — aucune manipulation possible.');
+      } else {
+        closedEl.innerHTML = '<div style="display:flex;flex-direction:column;gap:8px">' + closed.slice(0, 30).map(s => {
+          const isWin = s.status === 'tp_hit';
+          const icon = isWin ? '✅' : '❌';
+          const cls = isWin ? 'trade-win' : 'trade-loss';
+          const pnl = (isWin ? '+' : '−') + Math.abs(s.upside_pct || 0).toFixed(1) + '%';
+          const color = isWin ? 'var(--buy-l)' : 'var(--sell-l)';
+          const dt = (s.issued_at || '').split('T')[0];
+          return `<div class="trade-card ${cls}">
+            <div class="trade-icon">${icon}</div>
+            <div>
+              <div class="trade-ticker">${s.ticker} <span style="font-size:11px;color:var(--text3);margin-left:6px">${s.action.replace('_',' ')}</span></div>
+              <div class="trade-meta">${s.universe} · ${isWin ? 'Take Profit atteint' : 'Stop Loss touché'}</div>
+            </div>
+            <div class="trade-dates">Entrée<br>${dt}</div>
+            <div class="trade-pnl" style="color:${color}">${pnl}</div>
+          </div>`;
+        }).join('') + '</div>';
+      }
+    }
+
+    function wait(icon, title, text) {
+      return `<div class="wait-box">
+        <div class="wait-icon">${icon}</div>
+        <h3 style="font-size:15px;font-weight:700;margin-bottom:6px;color:var(--text)">${title}</h3>
+        <p style="font-size:12px;color:var(--text2);max-width:440px;margin:0 auto;line-height:1.7">${text}</p>
+      </div>`;
+    }
+
+    function drawPnlChart(closed) {
+      const ctx = document.getElementById('chart-pnl').getContext('2d');
+      const sorted = [...closed].sort((a,b) => new Date(a.issued_at) - new Date(b.issued_at));
+      let cum = 0;
+      const labels = ['Départ'];
+      const data = [0];
+      sorted.forEach((s, i) => {
+        cum += s.status === 'tp_hit' ? Math.abs(s.upside_pct || 0) : -Math.abs(s.upside_pct || 0);
+        labels.push('#' + (i + 1));
+        data.push(cum);
+      });
+      new Chart(ctx, {
+        type: 'line',
+        data: { labels, datasets: [{ label: 'P&L cumulé (%)', data, borderColor: '#34d399', backgroundColor: 'rgba(52,211,153,0.1)', fill: true, tension: 0.3, pointRadius: 3, pointBackgroundColor: '#34d399' }] },
+        options: { responsive: true, maintainAspectRatio: false, plugins: { legend: { display: false } }, scales: { y: { grid: { color: 'rgba(255,255,255,0.05)' }, ticks: { color: '#94a3b8', callback: v => v + '%' } }, x: { grid: { display: false }, ticks: { color: '#4a5568', maxTicksLimit: 10 } } } }
+      });
+    }
+
+    // Auto-refresh 2 min
+    setInterval(() => {
+      fetch('data/signals.json?t=' + Date.now()).then(r => r.json()).then(render).catch(() => {});
+    }, 2 * 60 * 1000);
+  </script>
+</body>
+</html>
