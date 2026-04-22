@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Premium — CPA Alpha Scanner</title>
+  <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>⚡</text></svg>">
+  <link rel="stylesheet" href="assets/css/pages.css">
+</head>
+<body>
+
+  <nav class="snav">
+    <div class="snav-brand">
+      <div class="snav-icon">⚡</div>
+      <span class="snav-name">CPA Alpha</span>
+    </div>
+    <div class="snav-links">
+      <a class="snav-link" href="dashboard.html">📊 Dashboard</a>
+      <a class="snav-link" href="stats.html">📈 Statistiques</a>
+      <a class="snav-link" href="referral.html">🎁 Parrainage</a>
+      <a class="snav-link" href="profile.html">👤 Profil</a>
+      <a class="snav-link active" href="pricing.html">💎 Premium</a>
+    </div>
+    <div class="snav-right">
+      <div class="snav-user" onclick="location.href='profile.html'">
+        <div class="snav-avatar" id="nav-avatar">?</div>
+        <span class="snav-uname" id="nav-uname">Invité</span>
+      </div>
+    </div>
+  </nav>
+
+  <div class="page">
+
+    <div class="phead" style="text-align:center;flex-direction:column;align-items:center">
+      <div>
+        <div class="phead-tag">ABONNEMENT</div>
+        <h1 class="phead-title">Débloquez la Puissance Complète</h1>
+        <p class="phead-sub" style="margin-top:10px">Signaux illimités · Telegram prioritaire · Rapport hebdo · Stats avancées</p>
+      </div>
+    </div>
+
+    <!-- PRICING CARDS -->
+    <div class="price-grid" style="margin-bottom:40px">
+      <!-- FREE -->
+      <div class="price-card">
+        <div class="price-name">Free</div>
+        <div class="price-val">0€</div>
+        <div class="price-per">Gratuit pour toujours</div>
+        <ul class="price-feats">
+          <li>3 signaux premium par jour</li>
+          <li>Dashboard de base</li>
+          <li>Historique 7 jours</li>
+          <li>Statistiques basiques</li>
+          <li>Système de parrainage</li>
+        </ul>
+        <a href="dashboard.html" class="btn btn-outline btn-block">Plan actuel</a>
+      </div>
+
+      <!-- MONTHLY -->
+      <div class="price-card popular">
+        <div class="price-name">Premium Mensuel</div>
+        <div class="price-val">9,90€</div>
+        <div class="price-per">par mois · sans engagement</div>
+        <ul class="price-feats">
+          <li><b>Signaux illimités</b> (15+/jour)</li>
+          <li>Alertes Telegram temps réel</li>
+          <li>Historique illimité</li>
+          <li>Statistiques avancées + graphiques</li>
+          <li>Rapport hebdo privé</li>
+          <li>Support prioritaire</li>
+          <li>Badge Premium ⭐</li>
+        </ul>
+        <button class="btn btn-primary btn-block" id="buy-monthly">💳 Souscrire — 9,90€/mois</button>
+        <div style="font-size:10px;color:var(--text3);margin-top:10px">Paiement sécurisé · Annulation à tout moment</div>
+      </div>
+
+      <!-- YEARLY -->
+      <div class="price-card">
+        <div class="price-name">Premium Annuel</div>
+        <div class="price-val">89€</div>
+        <div class="price-per">par an · soit 7,42€/mois</div>
+        <div class="price-save">💰 Économisez 26% (30,80€)</div>
+        <ul class="price-feats">
+          <li>Tout de Premium Mensuel</li>
+          <li><b>2 mois offerts</b></li>
+          <li>Backtest personnalisé</li>
+          <li>Accès beta aux nouvelles features</li>
+          <li>Badge Annuel 💎</li>
+        </ul>
+        <button class="btn btn-gold btn-block" id="buy-yearly">💳 Souscrire — 89€/an</button>
+        <div style="font-size:10px;color:var(--text3);margin-top:10px">Le meilleur rapport qualité/prix</div>
+      </div>
+
+      <!-- LIFETIME -->
+      <div class="price-card" style="border-color:rgba(245,158,11,.4)">
+        <div class="price-name" style="color:var(--gold)">Premium À Vie</div>
+        <div class="price-val" style="color:var(--gold)">299€</div>
+        <div class="price-per">paiement unique · accès illimité</div>
+        <div class="price-save">👑 Accès à vie garanti</div>
+        <ul class="price-feats">
+          <li>Tout de Premium Annuel</li>
+          <li><b>Paiement unique à vie</b></li>
+          <li>Appels 1-à-1 trimestriels</li>
+          <li>Rapport stratégique personnalisé</li>
+          <li>Badge À Vie 👑</li>
+          <li>Statut Founder Member</li>
+        </ul>
+        <button class="btn btn-gold btn-block" id="buy-lifetime">💳 Acquérir — 299€</button>
+        <div style="font-size:10px;color:var(--text3);margin-top:10px">Offre limitée aux 500 premiers clients</div>
+      </div>
+    </div>
+
+    <!-- ALTERNATIVE : PARRAINAGE -->
+    <div class="card" style="background:linear-gradient(135deg,rgba(16,185,129,.05),rgba(59,130,246,.05));border-color:rgba(16,185,129,.2);margin-bottom:24px">
+      <div class="card-body" style="display:flex;align-items:center;gap:24px;flex-wrap:wrap;padding:28px">
+        <div style="font-size:48px">🎁</div>
+        <div style="flex:1;min-width:240px">
+          <h3 style="font-size:18px;font-weight:800;margin-bottom:8px">Ou… Gagnez Premium <span style="color:var(--buy-l)">GRATUITEMENT</span></h3>
+          <p style="font-size:13px;color:var(--text2);line-height:1.6">Parrainez <b>3 amis</b> → débloquez <b>1 mois Premium gratuit</b>. Chaque parrainage supplémentaire ajoute des jours. Aucune limite !</p>
+        </div>
+        <a href="referral.html" class="btn btn-buy btn-lg">🎁 Commencer à parrainer</a>
+      </div>
+    </div>
+
+    <!-- FAQ -->
+    <div class="card">
+      <div class="card-head">
+        <h3>❓ Questions Fréquentes</h3>
+      </div>
+      <div class="card-body" style="display:flex;flex-direction:column;gap:18px">
+        <div>
+          <div style="font-weight:700;font-size:14px;margin-bottom:5px">Puis-je annuler à tout moment ?</div>
+          <div style="font-size:13px;color:var(--text2);line-height:1.6">Oui. L'abonnement mensuel est sans engagement — vous pouvez annuler à tout moment depuis votre profil. Votre accès reste actif jusqu'à la fin de la période payée.</div>
+        </div>
+        <div>
+          <div style="font-weight:700;font-size:14px;margin-bottom:5px">Les paiements sont-ils sécurisés ?</div>
+          <div style="font-size:13px;color:var(--text2);line-height:1.6">Oui, tous les paiements sont traités par <b>Stripe</b> (norme PCI DSS Level 1). Nous ne stockons jamais vos coordonnées bancaires.</div>
+        </div>
+        <div>
+          <div style="font-weight:700;font-size:14px;margin-bottom:5px">Que se passe-t-il si je parraine après avoir souscrit ?</div>
+          <div style="font-size:13px;color:var(--text2);line-height:1.6">Les jours Premium gagnés via parrainage s'ajoutent à votre abonnement payant — vous prolongez gratuitement votre accès.</div>
+        </div>
+        <div>
+          <div style="font-weight:700;font-size:14px;margin-bottom:5px">Garantie satisfait ou remboursé ?</div>
+          <div style="font-size:13px;color:var(--text2);line-height:1.6">Oui, <b>14 jours</b> de garantie sans condition sur tous les plans. Si vous n'êtes pas satisfait, on vous rembourse intégralement.</div>
+        </div>
+      </div>
+    </div>
+
+  </div>
+
+  <script>
+    const user = JSON.parse(localStorage.getItem('cpa_user') || 'null');
+    if (user) {
+      document.getElementById('nav-avatar').textContent = (user.name || 'U').charAt(0).toUpperCase();
+      document.getElementById('nav-uname').textContent  = user.name || 'Trader';
+    }
+
+    // ============================================================
+    //  STRIPE CHECKOUT — Remplacer par vos Payment Links réels
+    //  Créer sur : https://dashboard.stripe.com/payment-links
+    // ============================================================
+    const STRIPE_LINKS = {
+      monthly:  'https://buy.stripe.com/REMPLACER_MONTHLY_LINK',
+      yearly:   'https://buy.stripe.com/REMPLACER_YEARLY_LINK',
+      lifetime: 'https://buy.stripe.com/REMPLACER_LIFETIME_LINK',
+    };
+
+    function checkout(plan) {
+      const link = STRIPE_LINKS[plan];
+      if (link.includes('REMPLACER')) {
+        alert('⚠️ Lien Stripe non configuré.\n\n' +
+              '1. Créez un compte Stripe sur https://stripe.com\n' +
+              '2. Allez sur Payment Links\n' +
+              '3. Créez un lien pour chaque plan\n' +
+              '4. Remplacez les URLs dans pricing.html');
+        return;
+      }
+      const email = user?.email ? '?prefilled_email=' + encodeURIComponent(user.email) : '';
+      window.location.href = link + email;
+    }
+
+    document.getElementById('buy-monthly').addEventListener('click', () => checkout('monthly'));
+    document.getElementById('buy-yearly').addEventListener('click',  () => checkout('yearly'));
+    document.getElementById('buy-lifetime').addEventListener('click',() => checkout('lifetime'));
+  </script>
+</body>
+</html>

@@ -1,0 +1,422 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Statistiques — CPA Alpha Scanner</title>
+  <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>⚡</text></svg>">
+  <link rel="stylesheet" href="assets/css/pages.css">
+  <script src="https://cdn.jsdelivr.net/npm/chart.js@4.4.1/dist/chart.umd.min.js"></script>
+</head>
+<body>
+
+  <!-- NAV -->
+  <nav class="snav">
+    <div class="snav-brand">
+      <div class="snav-icon">⚡</div>
+      <span class="snav-name">CPA Alpha</span>
+    </div>
+    <div class="snav-links">
+      <a class="snav-link" href="dashboard.html">📊 Dashboard</a>
+      <a class="snav-link active" href="stats.html">📈 Statistiques</a>
+      <a class="snav-link" href="referral.html">🎁 Parrainage</a>
+      <a class="snav-link" href="profile.html">👤 Profil</a>
+      <a class="snav-link" href="pricing.html">💎 Premium</a>
+    </div>
+    <div class="snav-right">
+      <div class="snav-user" onclick="location.href='profile.html'" id="nav-user">
+        <div class="snav-avatar" id="nav-avatar">?</div>
+        <span class="snav-uname" id="nav-uname">Invité</span>
+      </div>
+    </div>
+  </nav>
+
+  <div class="page">
+    <div class="phead">
+      <div>
+        <div class="phead-tag">PERFORMANCE</div>
+        <h1 class="phead-title">Statistiques & Performance</h1>
+        <p class="phead-sub">Toutes les métriques du modèle CPA Alpha — en temps réel depuis le bot.</p>
+      </div>
+      <div>
+        <select id="period-select" class="btn-outline" style="padding:9px 14px;background:var(--bg3);color:var(--text);border:1px solid var(--border);border-radius:9px;font-size:13px">
+          <option value="7">7 derniers jours</option>
+          <option value="30" selected>30 derniers jours</option>
+          <option value="90">90 derniers jours</option>
+          <option value="all">Depuis le début</option>
+        </select>
+      </div>
+    </div>
+
+    <!-- KPI CARDS -->
+    <div class="kpis">
+      <div class="kpi">
+        <div class="kpi-icon">🎯</div>
+        <div class="kpi-lbl">Win Rate</div>
+        <div class="kpi-val green" id="kpi-winrate">—</div>
+        <div class="kpi-sub" id="kpi-winrate-sub">Sur X signaux clôturés</div>
+      </div>
+      <div class="kpi">
+        <div class="kpi-icon">💰</div>
+        <div class="kpi-lbl">P&L Cumulé</div>
+        <div class="kpi-val green" id="kpi-pnl">—</div>
+        <div class="kpi-sub" id="kpi-pnl-sub">Rendement théorique</div>
+      </div>
+      <div class="kpi">
+        <div class="kpi-icon">⚖️</div>
+        <div class="kpi-lbl">Profit Factor</div>
+        <div class="kpi-val blue" id="kpi-pf">—</div>
+        <div class="kpi-sub">Gains / Pertes</div>
+      </div>
+      <div class="kpi">
+        <div class="kpi-icon">📊</div>
+        <div class="kpi-lbl">Expectancy</div>
+        <div class="kpi-val purple" id="kpi-exp">—</div>
+        <div class="kpi-sub">P&L moyen par signal</div>
+      </div>
+      <div class="kpi">
+        <div class="kpi-icon">🔥</div>
+        <div class="kpi-lbl">Meilleure Série</div>
+        <div class="kpi-val gold" id="kpi-streak">—</div>
+        <div class="kpi-sub">Victoires consécutives</div>
+      </div>
+      <div class="kpi">
+        <div class="kpi-icon">📡</div>
+        <div class="kpi-lbl">Signaux Émis</div>
+        <div class="kpi-val" id="kpi-total">—</div>
+        <div class="kpi-sub" id="kpi-total-sub">— open · — closed</div>
+      </div>
+    </div>
+
+    <!-- CHARTS GRID -->
+    <div class="card-grid" style="grid-template-columns:2fr 1fr;gap:16px;margin-bottom:16px">
+      <div class="card">
+        <div class="card-head">
+          <h3>📈 Courbe de Performance</h3>
+          <span class="card-head-sub">Rendement cumulé</span>
+        </div>
+        <div class="card-body">
+          <div class="chart-wrap"><canvas id="chart-equity"></canvas></div>
+        </div>
+      </div>
+      <div class="card">
+        <div class="card-head">
+          <h3>🎯 Répartition</h3>
+          <span class="card-head-sub">TP / SL / Ouverts</span>
+        </div>
+        <div class="card-body">
+          <div class="chart-wrap"><canvas id="chart-outcome"></canvas></div>
+        </div>
+      </div>
+    </div>
+
+    <div class="card-grid" style="grid-template-columns:1fr 1fr;gap:16px;margin-bottom:16px">
+      <div class="card">
+        <div class="card-head">
+          <h3>📊 Performance Mensuelle</h3>
+          <span class="card-head-sub">P&L par mois</span>
+        </div>
+        <div class="card-body">
+          <div class="chart-wrap chart-sm"><canvas id="chart-monthly"></canvas></div>
+        </div>
+      </div>
+      <div class="card">
+        <div class="card-head">
+          <h3>🏭 Win Rate par Secteur</h3>
+          <span class="card-head-sub">Top 8 secteurs</span>
+        </div>
+        <div class="card-body">
+          <div class="chart-wrap chart-sm"><canvas id="chart-sectors"></canvas></div>
+        </div>
+      </div>
+    </div>
+
+    <!-- STATS BY ACTION TYPE -->
+    <div class="card" style="margin-bottom:16px">
+      <div class="card-head">
+        <h3>🎯 Performance par Type d'Action</h3>
+      </div>
+      <div class="card-body">
+        <div id="action-breakdown" style="display:grid;grid-template-columns:repeat(auto-fit,minmax(200px,1fr));gap:14px"></div>
+      </div>
+    </div>
+
+    <!-- BEST / WORST TRADES -->
+    <div class="card-grid" style="grid-template-columns:1fr 1fr;gap:16px;margin-bottom:16px">
+      <div class="card">
+        <div class="card-head">
+          <h3>🏆 Meilleurs Trades</h3>
+          <span class="card-head-sub">Top 5 gains</span>
+        </div>
+        <div style="overflow-x:auto">
+          <table class="tbl">
+            <thead><tr><th>Ticker</th><th>Action</th><th>Entrée</th><th>Sortie</th><th>Gain</th></tr></thead>
+            <tbody id="best-trades-body"></tbody>
+          </table>
+        </div>
+      </div>
+      <div class="card">
+        <div class="card-head">
+          <h3>📉 Pires Trades</h3>
+          <span class="card-head-sub">Top 5 pertes</span>
+        </div>
+        <div style="overflow-x:auto">
+          <table class="tbl">
+            <thead><tr><th>Ticker</th><th>Action</th><th>Entrée</th><th>Sortie</th><th>Perte</th></tr></thead>
+            <tbody id="worst-trades-body"></tbody>
+          </table>
+        </div>
+      </div>
+    </div>
+
+    <!-- RECENT HISTORY -->
+    <div class="card">
+      <div class="card-head">
+        <h3>🕐 Historique Récent</h3>
+        <span class="card-head-sub">50 derniers signaux clôturés</span>
+      </div>
+      <div style="overflow-x:auto">
+        <table class="tbl">
+          <thead>
+            <tr>
+              <th>Date</th><th>Ticker</th><th>Action</th><th>Entrée</th><th>Sortie</th>
+              <th>P&L</th><th>Durée</th><th>Statut</th>
+            </tr>
+          </thead>
+          <tbody id="history-body">
+            <tr><td colspan="8">
+              <div class="empty">
+                <div class="empty-icon">⏳</div>
+                <h4>En attente de données</h4>
+                <p>Les statistiques s'afficheront dès que le bot aura clôturé des signaux (TP atteints ou SL touchés).</p>
+              </div>
+            </td></tr>
+          </tbody>
+        </table>
+      </div>
+    </div>
+
+  </div>
+
+  <script type="module">
+    import { getTier } from './assets/js/points-system.js';
+
+    const user = JSON.parse(localStorage.getItem('cpa_user') || 'null');
+    if (user) {
+      document.getElementById('nav-avatar').textContent = (user.name || 'U').charAt(0).toUpperCase();
+      document.getElementById('nav-uname').textContent  = user.name || 'Trader';
+    }
+
+    // ---- Chargement données ----
+    let closedSignals = [];
+    let allSignals = [];
+
+    async function loadData() {
+      try {
+        const resp = await fetch('data/signals.json?t=' + Date.now());
+        const data = await resp.json();
+        allSignals = data.signals || [];
+        closedSignals = allSignals.filter(s => s.status === 'tp_hit' || s.status === 'sl_hit');
+        render(data);
+      } catch (e) {
+        console.error('Erreur chargement stats:', e);
+        render({ stats: {}, eod: {}, signals: [] });
+      }
+    }
+
+    function render(data) {
+      const stats = data.stats || {};
+      const eod = data.eod || {};
+
+      // ---- KPIs ----
+      const wr = Math.round((stats.win_rate || 0) * 100);
+      document.getElementById('kpi-winrate').textContent = wr + '%';
+      document.getElementById('kpi-winrate-sub').textContent = `Sur ${closedSignals.length} signaux clôturés`;
+
+      const pnl = ((eod.cumulative_pnl || 0) * 100).toFixed(2);
+      const pnlEl = document.getElementById('kpi-pnl');
+      pnlEl.textContent = (pnl >= 0 ? '+' : '') + pnl + '%';
+      pnlEl.className = 'kpi-val ' + (pnl >= 0 ? 'green' : 'red');
+
+      // Profit factor = sum(wins) / sum(|losses|)
+      const wins = closedSignals.filter(s => s.status === 'tp_hit');
+      const losses = closedSignals.filter(s => s.status === 'sl_hit');
+      const gainSum = wins.reduce((s, x) => s + Math.abs(x.upside_pct || 0), 0);
+      const lossSum = losses.reduce((s, x) => s + Math.abs(x.upside_pct || 0), 0);
+      const pf = lossSum > 0 ? (gainSum / lossSum).toFixed(2) : '—';
+      document.getElementById('kpi-pf').textContent = pf;
+
+      // Expectancy = avg P&L per signal
+      const totalPnl = closedSignals.reduce((s, x) => s + (x.status === 'tp_hit' ? Math.abs(x.upside_pct || 0) : -Math.abs(x.upside_pct || 0)), 0);
+      const exp = closedSignals.length > 0 ? (totalPnl / closedSignals.length).toFixed(2) : 0;
+      const expEl = document.getElementById('kpi-exp');
+      expEl.textContent = (exp >= 0 ? '+' : '') + exp + '%';
+      expEl.className = 'kpi-val ' + (exp >= 0 ? 'green' : 'red');
+
+      // Best winning streak
+      let bestStreak = 0, cur = 0;
+      closedSignals.forEach(s => { if (s.status === 'tp_hit') { cur++; bestStreak = Math.max(bestStreak, cur); } else cur = 0; });
+      document.getElementById('kpi-streak').textContent = bestStreak;
+
+      document.getElementById('kpi-total').textContent = allSignals.length;
+      document.getElementById('kpi-total-sub').textContent = `${allSignals.filter(s => s.status === 'open').length} ouverts · ${closedSignals.length} clôturés`;
+
+      // ---- Charts ----
+      drawEquityChart();
+      drawOutcomeChart(eod);
+      drawMonthlyChart();
+      drawSectorsChart();
+
+      // ---- Action breakdown ----
+      renderActionBreakdown();
+
+      // ---- Best / Worst trades ----
+      renderBestWorst();
+
+      // ---- History ----
+      renderHistory();
+    }
+
+    function drawEquityChart() {
+      const ctx = document.getElementById('chart-equity').getContext('2d');
+      const sorted = [...closedSignals].sort((a, b) => new Date(a.issued_at) - new Date(b.issued_at));
+      let cum = 0;
+      const labels = [];
+      const data = [0];
+      labels.push('Début');
+      sorted.forEach((s, i) => {
+        cum += s.status === 'tp_hit' ? Math.abs(s.upside_pct || 0) : -Math.abs(s.upside_pct || 0);
+        labels.push('#' + (i + 1));
+        data.push(cum);
+      });
+      new Chart(ctx, {
+        type: 'line',
+        data: { labels, datasets: [{ label: 'P&L cumulé (%)', data, borderColor: '#10b981', backgroundColor: 'rgba(16,185,129,0.1)', fill: true, tension: 0.3, pointRadius: 0 }] },
+        options: { responsive: true, maintainAspectRatio: false, plugins: { legend: { display: false } }, scales: { y: { grid: { color: 'rgba(255,255,255,0.05)' }, ticks: { color: '#94a3b8', callback: v => v + '%' } }, x: { grid: { display: false }, ticks: { color: '#4a5568', maxTicksLimit: 10 } } } }
+      });
+    }
+
+    function drawOutcomeChart(eod) {
+      const ctx = document.getElementById('chart-outcome').getContext('2d');
+      new Chart(ctx, {
+        type: 'doughnut',
+        data: {
+          labels: ['TP atteints', 'SL touchés', 'En cours'],
+          datasets: [{ data: [eod.tp_hit || 0, eod.sl_hit || 0, eod.open || 0], backgroundColor: ['#10b981', '#ef4444', '#3b82f6'], borderWidth: 0 }]
+        },
+        options: { responsive: true, maintainAspectRatio: false, plugins: { legend: { position: 'bottom', labels: { color: '#94a3b8', padding: 14, font: { size: 11 } } } }, cutout: '70%' }
+      });
+    }
+
+    function drawMonthlyChart() {
+      const ctx = document.getElementById('chart-monthly').getContext('2d');
+      const byMonth = {};
+      closedSignals.forEach(s => {
+        const m = (s.issued_at || '').substring(0, 7);
+        if (!byMonth[m]) byMonth[m] = 0;
+        byMonth[m] += s.status === 'tp_hit' ? Math.abs(s.upside_pct || 0) : -Math.abs(s.upside_pct || 0);
+      });
+      const labels = Object.keys(byMonth).sort();
+      const data = labels.map(l => byMonth[l]);
+      new Chart(ctx, {
+        type: 'bar',
+        data: { labels: labels.length ? labels : ['—'], datasets: [{ data: data.length ? data : [0], backgroundColor: data.map(v => v >= 0 ? '#10b981' : '#ef4444'), borderRadius: 6 }] },
+        options: { responsive: true, maintainAspectRatio: false, plugins: { legend: { display: false } }, scales: { y: { grid: { color: 'rgba(255,255,255,0.05)' }, ticks: { color: '#94a3b8', callback: v => v + '%' } }, x: { grid: { display: false }, ticks: { color: '#4a5568' } } } }
+      });
+    }
+
+    function drawSectorsChart() {
+      const ctx = document.getElementById('chart-sectors').getContext('2d');
+      const bySector = {};
+      closedSignals.forEach(s => {
+        const sec = s.sector || '—';
+        if (!bySector[sec]) bySector[sec] = { wins: 0, total: 0 };
+        bySector[sec].total++;
+        if (s.status === 'tp_hit') bySector[sec].wins++;
+      });
+      const entries = Object.entries(bySector).sort((a, b) => b[1].total - a[1].total).slice(0, 8);
+      new Chart(ctx, {
+        type: 'bar',
+        data: {
+          labels: entries.length ? entries.map(e => e[0]) : ['—'],
+          datasets: [{ label: 'Win Rate (%)', data: entries.length ? entries.map(e => Math.round(e[1].wins / e[1].total * 100)) : [0], backgroundColor: '#3b82f6', borderRadius: 6 }]
+        },
+        options: { indexAxis: 'y', responsive: true, maintainAspectRatio: false, plugins: { legend: { display: false } }, scales: { x: { max: 100, grid: { color: 'rgba(255,255,255,0.05)' }, ticks: { color: '#94a3b8', callback: v => v + '%' } }, y: { grid: { display: false }, ticks: { color: '#94a3b8', font: { size: 11 } } } } }
+      });
+    }
+
+    function renderActionBreakdown() {
+      const actions = ['STRONG_BUY', 'BUY', 'SELL', 'STRONG_SELL'];
+      const el = document.getElementById('action-breakdown');
+      el.innerHTML = actions.map(a => {
+        const subset = closedSignals.filter(s => s.action === a);
+        const wins = subset.filter(s => s.status === 'tp_hit').length;
+        const wr = subset.length ? Math.round(wins / subset.length * 100) : 0;
+        const color = wr >= 65 ? 'var(--buy-l)' : wr >= 50 ? 'var(--gold)' : 'var(--sell-l)';
+        return `<div class="smini">
+          <div style="font-size:10px;color:var(--text3);text-transform:uppercase;letter-spacing:.6px;margin-bottom:8px">${a.replace('_',' ')}</div>
+          <div class="smini-val" style="color:${color}">${wr}%</div>
+          <div class="smini-lbl">${wins}/${subset.length} gagnants</div>
+        </div>`;
+      }).join('');
+    }
+
+    function renderBestWorst() {
+      const sorted = [...closedSignals].sort((a, b) => {
+        const aP = a.status === 'tp_hit' ? Math.abs(a.upside_pct || 0) : -Math.abs(a.upside_pct || 0);
+        const bP = b.status === 'tp_hit' ? Math.abs(b.upside_pct || 0) : -Math.abs(b.upside_pct || 0);
+        return bP - aP;
+      });
+      const best = sorted.slice(0, 5);
+      const worst = sorted.slice(-5).reverse();
+
+      const rowHtml = (s, isWin) => {
+        const pnl = isWin ? '+' + Math.abs(s.upside_pct || 0).toFixed(1) + '%' : '−' + Math.abs(s.upside_pct || 0).toFixed(1) + '%';
+        const color = isWin ? 'var(--buy-l)' : 'var(--sell-l)';
+        return `<tr>
+          <td style="font-family:var(--mono);font-weight:700">${s.ticker}</td>
+          <td style="font-size:10px">${s.action.replace('_', ' ')}</td>
+          <td style="font-family:var(--mono);color:var(--text3)">$${(s.price || 0).toFixed(2)}</td>
+          <td style="font-family:var(--mono);color:var(--text3)">$${(s.take_profit || 0).toFixed(2)}</td>
+          <td style="font-family:var(--mono);font-weight:700;color:${color}">${pnl}</td>
+        </tr>`;
+      };
+
+      const bestBody = document.getElementById('best-trades-body');
+      const worstBody = document.getElementById('worst-trades-body');
+      if (best.length) bestBody.innerHTML = best.map(s => rowHtml(s, true)).join('');
+      else bestBody.innerHTML = '<tr><td colspan="5"><div class="empty"><div class="empty-icon">⏳</div><p>Pas encore de trades gagnants</p></div></td></tr>';
+      if (worst.length) worstBody.innerHTML = worst.map(s => rowHtml(s, false)).join('');
+      else worstBody.innerHTML = '<tr><td colspan="5"><div class="empty"><div class="empty-icon">✨</div><p>Aucune perte enregistrée</p></div></td></tr>';
+    }
+
+    function renderHistory() {
+      const recent = [...closedSignals].sort((a, b) => new Date(b.issued_at) - new Date(a.issued_at)).slice(0, 50);
+      const tbody = document.getElementById('history-body');
+      if (!recent.length) return;
+      tbody.innerHTML = recent.map(s => {
+        const isWin = s.status === 'tp_hit';
+        const pnl = (isWin ? '+' : '−') + Math.abs(s.upside_pct || 0).toFixed(1) + '%';
+        const color = isWin ? 'var(--buy-l)' : 'var(--sell-l)';
+        const statusIcon = isWin ? '✓ TP' : '✕ SL';
+        const date = s.issued_at ? s.issued_at.split('T')[0] : '—';
+        const badgeCls = s.action === 'STRONG_BUY' ? 'background:rgba(0,255,157,.1);color:#00ff9d' : s.action === 'BUY' ? 'background:rgba(16,185,129,.1);color:#34d399' : s.action === 'STRONG_SELL' ? 'background:rgba(255,23,68,.1);color:#ff1744' : 'background:rgba(239,68,68,.1);color:#f87171';
+        return `<tr>
+          <td style="color:var(--text3);font-size:11px">${date}</td>
+          <td style="font-family:var(--mono);font-weight:700">${s.ticker}</td>
+          <td><span style="padding:2px 8px;border-radius:5px;font-size:10px;font-weight:700;${badgeCls}">${s.action.replace('_',' ')}</span></td>
+          <td style="font-family:var(--mono)">$${(s.price || 0).toFixed(2)}</td>
+          <td style="font-family:var(--mono)">$${(s.take_profit || 0).toFixed(2)}</td>
+          <td style="font-family:var(--mono);font-weight:700;color:${color}">${pnl}</td>
+          <td style="color:var(--text3);font-size:11px">21j</td>
+          <td style="color:${color};font-weight:700;font-size:11px">${statusIcon}</td>
+        </tr>`;
+      }).join('');
+    }
+
+    loadData();
+    setInterval(loadData, 5 * 60 * 1000);
+    document.getElementById('period-select').addEventListener('change', () => loadData());
+  </script>
+</body>
+</html>

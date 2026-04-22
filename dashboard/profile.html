@@ -1,0 +1,232 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Profil — CPA Alpha Scanner</title>
+  <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>⚡</text></svg>">
+  <link rel="stylesheet" href="assets/css/pages.css">
+</head>
+<body>
+
+  <nav class="snav">
+    <div class="snav-brand">
+      <div class="snav-icon">⚡</div>
+      <span class="snav-name">CPA Alpha</span>
+    </div>
+    <div class="snav-links">
+      <a class="snav-link" href="dashboard.html">📊 Dashboard</a>
+      <a class="snav-link" href="stats.html">📈 Statistiques</a>
+      <a class="snav-link" href="referral.html">🎁 Parrainage</a>
+      <a class="snav-link active" href="profile.html">👤 Profil</a>
+      <a class="snav-link" href="pricing.html">💎 Premium</a>
+    </div>
+    <div class="snav-right">
+      <button class="btn btn-outline btn-sm" id="logout-btn">Déconnexion</button>
+    </div>
+  </nav>
+
+  <div class="page page-narrow">
+
+    <!-- PROFILE HERO -->
+    <div class="profile-hero">
+      <div class="profile-avatar-big" id="p-avatar">?</div>
+      <div class="profile-info">
+        <div class="profile-name" id="p-name">—</div>
+        <div class="profile-email" id="p-email">—</div>
+        <div class="profile-pills">
+          <span class="pill pill-tier" id="p-tier">🔵 Free</span>
+          <span class="pill pill-points" id="p-points">💎 0 points</span>
+          <span class="pill pill-premium" id="p-premium" style="display:none">⭐ Premium</span>
+          <span class="pill pill-member" id="p-member">📅 Membre depuis —</span>
+        </div>
+      </div>
+      <div style="display:flex;flex-direction:column;gap:8px">
+        <a href="pricing.html" class="btn btn-gold">⭐ Devenir Premium</a>
+        <a href="referral.html" class="btn btn-outline">🎁 Parrainer</a>
+      </div>
+    </div>
+
+    <!-- STATS ROW -->
+    <div class="kpis">
+      <div class="kpi">
+        <div class="kpi-icon">👁</div>
+        <div class="kpi-lbl">Signaux Vus</div>
+        <div class="kpi-val blue" id="p-views">0</div>
+      </div>
+      <div class="kpi">
+        <div class="kpi-icon">🤝</div>
+        <div class="kpi-lbl">Filleuls</div>
+        <div class="kpi-val green" id="p-refs">0</div>
+      </div>
+      <div class="kpi">
+        <div class="kpi-icon">🔥</div>
+        <div class="kpi-lbl">Série Connexion</div>
+        <div class="kpi-val gold" id="p-streak">0 jours</div>
+      </div>
+      <div class="kpi">
+        <div class="kpi-icon">🏅</div>
+        <div class="kpi-lbl">Badges Débloqués</div>
+        <div class="kpi-val purple" id="p-badges-count">0 / —</div>
+      </div>
+    </div>
+
+    <!-- BADGES COLLECTION -->
+    <div class="card" style="margin-bottom:16px">
+      <div class="card-head">
+        <h3>🏅 Collection de Badges</h3>
+        <span class="card-head-sub" id="badges-sub">— débloqués sur —</span>
+      </div>
+      <div class="card-body">
+        <div class="badges-grid" id="badges-grid"></div>
+      </div>
+    </div>
+
+    <!-- ACCOUNT DETAILS -->
+    <div class="card" style="margin-bottom:16px">
+      <div class="card-head">
+        <h3>⚙️ Paramètres du Compte</h3>
+      </div>
+      <div class="card-body">
+        <div style="display:grid;grid-template-columns:1fr 1fr;gap:14px">
+          <div>
+            <label style="font-size:11px;color:var(--text3);text-transform:uppercase;letter-spacing:1px;font-weight:600;margin-bottom:6px;display:block">Nom</label>
+            <input type="text" id="set-name" style="width:100%;padding:10px 12px;background:var(--bg3);border:1px solid var(--border);color:var(--text);border-radius:8px;font-size:13px;outline:none">
+          </div>
+          <div>
+            <label style="font-size:11px;color:var(--text3);text-transform:uppercase;letter-spacing:1px;font-weight:600;margin-bottom:6px;display:block">Email</label>
+            <input type="email" id="set-email" readonly style="width:100%;padding:10px 12px;background:var(--bg2);border:1px solid var(--border);color:var(--text3);border-radius:8px;font-size:13px">
+          </div>
+          <div>
+            <label style="font-size:11px;color:var(--text3);text-transform:uppercase;letter-spacing:1px;font-weight:600;margin-bottom:6px;display:block">Telegram @handle</label>
+            <input type="text" id="set-telegram" placeholder="@votre_handle" style="width:100%;padding:10px 12px;background:var(--bg3);border:1px solid var(--border);color:var(--text);border-radius:8px;font-size:13px;outline:none">
+          </div>
+          <div>
+            <label style="font-size:11px;color:var(--text3);text-transform:uppercase;letter-spacing:1px;font-weight:600;margin-bottom:6px;display:block">Fuseau horaire</label>
+            <select id="set-tz" style="width:100%;padding:10px 12px;background:var(--bg3);border:1px solid var(--border);color:var(--text);border-radius:8px;font-size:13px">
+              <option value="Europe/Paris">Europe/Paris (UTC+1)</option>
+              <option value="America/New_York">New York (UTC-5)</option>
+              <option value="America/Los_Angeles">Los Angeles (UTC-8)</option>
+              <option value="Asia/Tokyo">Tokyo (UTC+9)</option>
+              <option value="UTC">UTC</option>
+            </select>
+          </div>
+        </div>
+        <div style="margin-top:18px;display:flex;gap:10px">
+          <button class="btn btn-primary" id="save-btn">💾 Sauvegarder</button>
+          <button class="btn btn-outline">📧 Vérifier l'email</button>
+        </div>
+      </div>
+    </div>
+
+    <!-- NOTIFICATIONS -->
+    <div class="card" style="margin-bottom:16px">
+      <div class="card-head">
+        <h3>🔔 Notifications</h3>
+      </div>
+      <div class="card-body">
+        <div style="display:flex;flex-direction:column;gap:14px">
+          <label style="display:flex;align-items:center;justify-content:space-between;gap:10px;cursor:pointer">
+            <div><div style="font-size:13px;font-weight:600">Alertes Telegram</div><div style="font-size:11px;color:var(--text3);margin-top:2px">Recevoir les signaux en direct</div></div>
+            <input type="checkbox" checked style="width:40px;height:22px">
+          </label>
+          <label style="display:flex;align-items:center;justify-content:space-between;gap:10px;cursor:pointer">
+            <div><div style="font-size:13px;font-weight:600">Rapport quotidien par email</div><div style="font-size:11px;color:var(--text3);margin-top:2px">Bilan du jour chaque soir</div></div>
+            <input type="checkbox" style="width:40px;height:22px">
+          </label>
+          <label style="display:flex;align-items:center;justify-content:space-between;gap:10px;cursor:pointer">
+            <div><div style="font-size:13px;font-weight:600">Rapport hebdomadaire</div><div style="font-size:11px;color:var(--text3);margin-top:2px">Performance de la semaine (Premium)</div></div>
+            <input type="checkbox" style="width:40px;height:22px" disabled>
+          </label>
+        </div>
+      </div>
+    </div>
+
+    <!-- DANGER ZONE -->
+    <div class="card">
+      <div class="card-head">
+        <h3 style="color:var(--sell-l)">⚠️ Zone Sensible</h3>
+      </div>
+      <div class="card-body">
+        <div style="display:flex;justify-content:space-between;align-items:center;flex-wrap:wrap;gap:10px">
+          <div>
+            <div style="font-size:13px;font-weight:600">Supprimer mon compte</div>
+            <div style="font-size:11px;color:var(--text3);margin-top:3px">Toutes les données seront perdues — cette action est irréversible.</div>
+          </div>
+          <button class="btn btn-outline" style="border-color:var(--sell);color:var(--sell-l)">🗑 Supprimer</button>
+        </div>
+      </div>
+    </div>
+
+  </div>
+
+  <script type="module">
+    import { BADGES, RARITY, TIERS, getTier, computeBadges } from './assets/js/points-system.js';
+
+    const user = JSON.parse(localStorage.getItem('cpa_user') || 'null');
+    if (!user) { location.href = 'login.html'; }
+
+    // Normalize
+    user.points        = user.points || 50;
+    user.referrals     = user.referrals || 0;
+    user.signalsViewed = user.signalsViewed || 0;
+    user.loginStreak   = user.loginStreak || 1;
+    user.daysActive    = user.daysActive || 1;
+    user.badges        = user.badges || ['welcome'];
+
+    // Hero
+    document.getElementById('p-avatar').textContent = (user.name || 'U').charAt(0).toUpperCase();
+    document.getElementById('p-name').textContent   = user.name || 'Trader';
+    document.getElementById('p-email').textContent  = user.email || '—';
+
+    const tier = getTier(user.referrals);
+    document.getElementById('p-tier').textContent  = `${tier.icon} ${tier.name}`;
+    document.getElementById('p-points').textContent = `💎 ${user.points} points`;
+    if (user.premiumActive) document.getElementById('p-premium').style.display = '';
+    document.getElementById('p-member').textContent = '📅 Membre depuis ' + (user.joinedAt ? user.joinedAt.split('T')[0] : '—');
+
+    // Stats
+    document.getElementById('p-views').textContent  = user.signalsViewed;
+    document.getElementById('p-refs').textContent   = user.referrals;
+    document.getElementById('p-streak').textContent = user.loginStreak + ' jour' + (user.loginStreak > 1 ? 's' : '');
+
+    // Badges
+    const unlocked = computeBadges(user);
+    document.getElementById('p-badges-count').textContent = `${unlocked.length} / ${BADGES.length}`;
+    document.getElementById('badges-sub').textContent     = `${unlocked.length} débloqués sur ${BADGES.length}`;
+
+    const grid = document.getElementById('badges-grid');
+    grid.innerHTML = BADGES.map(b => {
+      const isUnlocked = unlocked.includes(b.id);
+      const r = RARITY[b.rarity];
+      return `<div class="badge-card ${isUnlocked ? 'unlocked' : 'locked'}" title="${b.desc}" style="border-color:${isUnlocked ? r.border : 'var(--border)'};${isUnlocked ? 'background:'+r.bg : ''}">
+        <span class="badge-rarity" style="background:${r.bg};color:${r.color}">${b.rarity}</span>
+        <span class="badge-icon">${b.icon}</span>
+        <div class="badge-name" style="${isUnlocked ? 'color:'+r.color : ''}">${b.name}</div>
+        <div class="badge-desc">${b.desc}</div>
+      </div>`;
+    }).join('');
+
+    // Settings
+    document.getElementById('set-name').value = user.name || '';
+    document.getElementById('set-email').value = user.email || '';
+    document.getElementById('set-telegram').value = user.telegramHandle || '';
+    document.getElementById('set-tz').value = user.timezone || 'Europe/Paris';
+
+    document.getElementById('save-btn').addEventListener('click', () => {
+      user.name          = document.getElementById('set-name').value;
+      user.telegramHandle = document.getElementById('set-telegram').value;
+      user.timezone      = document.getElementById('set-tz').value;
+      localStorage.setItem('cpa_user', JSON.stringify(user));
+      const btn = document.getElementById('save-btn');
+      btn.textContent = '✅ Sauvegardé';
+      setTimeout(() => btn.innerHTML = '💾 Sauvegarder', 2000);
+    });
+
+    document.getElementById('logout-btn').addEventListener('click', () => {
+      localStorage.removeItem('cpa_user');
+      location.href = 'login.html';
+    });
+  </script>
+</body>
+</html>

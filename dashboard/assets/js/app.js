@@ -145,10 +145,14 @@ function renderTable() {
   const tbody = document.getElementById('signals-tbody');
   if (!tbody) return;
   if (filteredSignals.length === 0) {
+    const isWaiting = allSignals.length === 0;
     tbody.innerHTML = `<tr><td colspan="12">
-      <div class="empty-state">
-        <div class="es-icon">📭</div>
-        <div class="es-text">Aucun signal correspondant aux filtres</div>
+      <div class="empty-state" style="padding:60px 20px">
+        <div class="es-icon" style="font-size:48px">${isWaiting ? '⏳' : '📭'}</div>
+        <div class="es-text" style="font-size:15px;font-weight:700;margin-bottom:6px">${isWaiting ? 'En attente du prochain scan' : 'Aucun signal correspondant aux filtres'}</div>
+        <div style="font-size:12px;color:var(--text3);max-width:420px;margin:0 auto;line-height:1.6">
+          ${isWaiting ? 'Le bot tourne automatiquement à 09:30, 11:00, 13:30 et 15:30 NY (Lun-Ven). Les signaux apparaîtront ici dès le prochain scan.' : 'Ajustez les filtres ou ouvrez un autre marché.'}
+        </div>
       </div></td></tr>`;
     return;
   }
