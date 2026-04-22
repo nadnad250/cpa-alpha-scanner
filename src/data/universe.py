@@ -66,6 +66,67 @@ def get_dax40_tickers() -> List[str]:
     return _dax40_fallback()
 
 
+def get_futures_commodities_tickers() -> List[str]:
+    """
+    Futures & commodités majeures (format Yahoo Finance).
+    Indices US : NQ (NASDAQ), ES (SP500), YM (DOW), RTY (Russell 2000)
+    Métaux : GC (or), SI (argent), HG (cuivre), PL (platine), PA (palladium)
+    Énergie : CL (WTI), BZ (Brent), NG (gaz nat), HO (fioul), RB (essence)
+    Agricoles : ZC (maïs), ZS (soja), ZW (blé), KC (café), SB (sucre), CT (coton)
+    Devises : 6E (EUR), 6B (GBP), 6J (JPY), DX (dollar index)
+    """
+    return [
+        # === INDICES FUTURES ===
+        "NQ=F",   # NASDAQ 100 futures
+        "ES=F",   # S&P 500 futures
+        "YM=F",   # Dow Jones futures
+        "RTY=F",  # Russell 2000 futures
+        # === MÉTAUX PRÉCIEUX ===
+        "GC=F",   # Gold (or)
+        "SI=F",   # Silver (argent)
+        "PL=F",   # Platinum
+        "PA=F",   # Palladium
+        "HG=F",   # Copper (cuivre)
+        # === ÉNERGIE ===
+        "CL=F",   # WTI Crude Oil (pétrole US)
+        "BZ=F",   # Brent Crude (pétrole Europe)
+        "NG=F",   # Natural Gas (gaz naturel)
+        "HO=F",   # Heating Oil (fioul)
+        "RB=F",   # RBOB Gasoline (essence)
+        # === DEVISES (dollar index + majeures) ===
+        "DX=F",   # US Dollar Index
+        "6E=F",   # EUR/USD futures
+        "6B=F",   # GBP/USD futures
+        "6J=F",   # JPY/USD futures
+        # === AGRICOLES ===
+        "ZC=F",   # Corn (maïs)
+        "ZS=F",   # Soybean (soja)
+        "ZW=F",   # Wheat (blé)
+        "KC=F",   # Coffee (café)
+        "SB=F",   # Sugar (sucre)
+        "CT=F",   # Cotton (coton)
+        "CC=F",   # Cocoa (cacao)
+    ]
+
+
+def get_crypto_tickers() -> List[str]:
+    """Principales crypto-monnaies (format Yahoo Finance)."""
+    return [
+        "BTC-USD",   # Bitcoin
+        "ETH-USD",   # Ethereum
+        "BNB-USD",   # Binance Coin
+        "SOL-USD",   # Solana
+        "XRP-USD",   # Ripple
+        "ADA-USD",   # Cardano
+        "AVAX-USD",  # Avalanche
+        "DOT-USD",   # Polkadot
+        "LINK-USD",  # Chainlink
+        "MATIC-USD", # Polygon
+        "LTC-USD",   # Litecoin
+        "DOGE-USD",  # Dogecoin
+    ]
+
+
 def get_ftse100_tickers() -> List[str]:
     return _ftse100_fallback()
 
@@ -80,6 +141,8 @@ def get_universe(name: str) -> List[str]:
         "CAC40": get_cac40_tickers,
         "DAX40": get_dax40_tickers,
         "FTSE100": get_ftse100_tickers,
+        "FUTURES_COMMODITIES": get_futures_commodities_tickers,
+        "CRYPTO": get_crypto_tickers,
     }
     fn = dispatchers.get(name.upper())
     if fn is None:

@@ -123,11 +123,35 @@ class OpportunityDetector:
         if abs(final_score) < self.min_score or confidence < self.min_confidence:
             return None
 
-        # COHÉRENCE ML : rejeter les signaux contradictoires
-        if final_score > 0 and ml_proba_up < 0.45:
-            return None  # BUY rejeté si ML bearish
-        if final_score < 0 and ml_proba_up > 0.55:
-            return None  # SELL rejeté si ML bullish
+        # COHÉRENCE ML : rejeter les signaux contradictoires (durci pour edge-pro)
+        if final_score > 0 and ml_proba_up < 0.55:
+            return None  # BUY rejeté si ML pas clairement bullish
+        if final_score < 0 and ml_proba_up > 0.45:
+            return None  # SELL rejeté si ML pas clairement bearish
+
+        # FILTRE TENDANCE MM200 : rejeter les signaux contre-tendance
+        try:
+            from config.settings import TREND_ALIGNMENT
+            if TREND_ALIGNMENT and prices is not None and len(prices) >= 200:
+                mm200 = prices["Close"].rolling(200).mean().iloc[-1]
+                current = prices["Close"].iloc[-1]
+                if final_score > 0 and current < mm200 * 0.92:
+                    return None  # BUY rejeté si prix bien sous MM200 (bear trend fort)
+                if final_score < 0 and current > mm200 * 1.08:
+                    return None  # SELL rejeté si prix bien au-dessus MM200 (bull trend fort)
+        except Exception:
+            pass  # Si pas de settings ou erreur, on laisse passer
+
+        # FILTRE VOLATILITÉ : rejeter les actifs trop volatils (meme stocks, crypto extrême)
+        try:
+            from config.settings import MAX_VOLATILITY
+            if prices is not None and len(prices) >= 30:
+                daily_ret = prices["Close"].pct_change().dropna().tail(60)
+                annual_vol = float(daily_ret.std() * (252 ** 0.5))
+                if annual_vol > MAX_VOLATILITY:
+                    return None
+        except Exception:
+            pass
 
         action = self._decide_action(final_score)
 
