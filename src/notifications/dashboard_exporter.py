@@ -51,10 +51,65 @@ def export_to_dashboard(
                     if s.get("status") == "open":
                         existing_open_by_key[key] = s
                     else:
-                        # Garder les clôturés des 7 derniers jours max
                         closed_history.append(s)
         except Exception as e:
             logger.warning(f"Existant non lisible: {e}")
+
+        # ---- SYNCHRONISATION TRACKER → DASHBOARD ----
+        # Charge les signaux ouverts du tracker qui ne seraient pas dans signals.json
+        # (garantit que le dashboard reflète fidèlement les positions actives)
+        if tracker:
+            try:
+                tracker_opens = tracker.load_open_signals()
+                for ts in tracker_opens:
+                    key = (ts.ticker, ts.action)
+                    if key in existing_open_by_key:
+                        continue  # Déjà dans signals.json
+                    # Convertir TrackedSignal → format dashboard
+                    isBuyT = (ts.score or 0) > 0
+                    upT = None
+                    if ts.entry_price and ts.take_profit:
+                        if isBuyT:
+                            upT = round((ts.take_profit - ts.entry_price) / ts.entry_price * 100, 1)
+                        else:
+                            upT = round((ts.entry_price - ts.take_profit) / ts.entry_price * 100, 1)
+                    rrT = None
+                    if ts.entry_price and ts.take_profit and ts.stop_loss:
+                        reward = abs(ts.take_profit - ts.entry_price)
+                        risk = abs(ts.entry_price - ts.stop_loss)
+                        rrT = round(reward / risk, 2) if risk > 0 else None
+                    pT = ts.confidence or 0.5
+                    bT = rrT or 2.0
+                    rawT = (pT * bT - (1 - pT)) / bT if bT > 0 else 0
+                    sfT = 0.7 + 0.6 * min(abs(ts.score or 0), 1.0)
+                    kellyT = max(0.025, min(0.10, rawT * 0.15 * sfT))
+                    existing_open_by_key[key] = {
+                        "ticker":         ts.ticker,
+                        "action":         ts.action,
+                        "price":          round(ts.entry_price, 2) if ts.entry_price else None,
+                        "take_profit":    round(ts.take_profit, 2) if ts.take_profit else None,
+                        "stop_loss":      round(ts.stop_loss, 2) if ts.stop_loss else None,
+                        "upside_pct":     upT,
+                        "confidence":     round(ts.confidence, 3),
+                        "score":          round(ts.score, 4),
+                        "risk_reward":    rrT,
+                        "kelly_position": round(kellyT, 3),
+                        "cpa_alpha":      None,
+                        "ml_proba_up":    None,
+                        "sector":         "—",
+                        "universe":       ts.universe or "—",
+                        "primary_reason": "Signal CPA Alpha (actif)",
+                        "secondary_reasons": [],
+                        "risk_flags":     [],
+                        "intrinsic_value": None,
+                        "value_gap":      0, "factor_premia": 0, "mean_reversion": 0, "info_flow": 0,
+                        "news_score":     None, "top_news_title": None, "top_news_url": None,
+                        "status":         "open",
+                        "issued_at":      ts.issued_at,
+                    }
+                logger.info(f"🔗 {len(tracker_opens)} signaux chargés depuis le tracker")
+            except Exception as e:
+                logger.warning(f"Sync tracker → dashboard échoué: {e}")
 
         # Limiter l'historique clôturé aux 50 plus récents
         closed_history = sorted(
