@@ -2,9 +2,9 @@ name: Deploy Dashboard to GitHub Pages
 
 on:
   push:
-    branches: [main]
+    branches: [main, master]
     paths:
-      - 'dashboard/**'    # déploie uniquement si le dashboard change
+      - 'dashboard/**'
   workflow_dispatch:
 
 permissions:

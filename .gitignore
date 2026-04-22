@@ -8,3 +8,10 @@ __pycache__/
 *.pkl
 *.log
 .DS_Store
+
+# Firebase Admin SDK — NE JAMAIS COMMITER
+*firebase-adminsdk*.json
+*service-account*.json
+serviceAccountKey.json
+*.pem
+*.key
