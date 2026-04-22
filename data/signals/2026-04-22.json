@@ -14,8 +14,8 @@
     "exit_price": null,
     "exit_date": null,
     "pnl_pct": null,
-    "max_favorable": null,
-    "max_adverse": null
+    "max_favorable": 5.406604332256482e-09,
+    "max_adverse": 5.406604332256482e-09
   },
   {
     "ticker": "PGR",
@@ -32,8 +32,8 @@
     "exit_price": null,
     "exit_date": null,
     "pnl_pct": null,
-    "max_favorable": null,
-    "max_adverse": null
+    "max_favorable": -3.312055241251996e-08,
+    "max_adverse": -3.312055241251996e-08
   },
   {
     "ticker": "FTNT",
@@ -50,8 +50,8 @@
     "exit_price": null,
     "exit_date": null,
     "pnl_pct": null,
-    "max_favorable": null,
-    "max_adverse": null
+    "max_favorable": 4.204971154450115e-08,
+    "max_adverse": 4.204971154450115e-08
   },
   {
     "ticker": "ODFL",
@@ -68,8 +68,8 @@
     "exit_price": null,
     "exit_date": null,
     "pnl_pct": null,
-    "max_favorable": null,
-    "max_adverse": null
+    "max_favorable": 1.9422042582362872e-08,
+    "max_adverse": 1.9422042582362872e-08
   },
   {
     "ticker": "ZAL.DE",
@@ -86,7 +86,7 @@
     "exit_price": null,
     "exit_date": null,
     "pnl_pct": null,
-    "max_favorable": null,
-    "max_adverse": null
+    "max_favorable": 2.6958991301609282e-08,
+    "max_adverse": 2.6958991301609282e-08
   }
 ]
