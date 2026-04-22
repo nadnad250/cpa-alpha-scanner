@@ -198,6 +198,13 @@ button{cursor:pointer;font-family:var(--font)}
 .empty h4{font-size:15px;font-weight:700;color:var(--text2);margin-bottom:6px}
 .empty p{font-size:13px;line-height:1.6;max-width:360px;margin:0 auto}
 
+/* ---- Heatmap mensuelle ---- */
+.heatmap-grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(90px,1fr));gap:8px}
+.heatcell{padding:12px 10px;border-radius:10px;border:1px solid var(--border);text-align:center;transition:transform .15s}
+.heatcell:hover{transform:scale(1.05);box-shadow:0 4px 12px rgba(0,0,0,.3)}
+.heatcell-month{font-size:10px;color:var(--text3);text-transform:uppercase;letter-spacing:.8px;font-weight:600;margin-bottom:4px}
+.heatcell-val{font-family:var(--mono);font-size:14px;font-weight:700;color:var(--text)}
+
 /* ---- Responsive ---- */
 @media(max-width:900px){
   .snav-links{display:none}

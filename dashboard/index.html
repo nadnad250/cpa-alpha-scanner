@@ -10,6 +10,21 @@
 </head>
 <body>
 
+  <!-- ========== LIVE TRADES TICKER ========== -->
+  <div id="live-ticker-wrap" style="display:none;position:fixed;top:0;left:0;right:0;z-index:200;background:linear-gradient(90deg,#070c18 0%,#0c1220 10%,#0c1220 90%,#070c18 100%);border-bottom:1px solid rgba(16,185,129,.25);overflow:hidden;height:36px;align-items:center;gap:14px;padding:0 16px;">
+    <span style="display:inline-flex;align-items:center;gap:6px;background:rgba(16,185,129,.15);color:#34d399;padding:3px 11px;border-radius:20px;font-size:10px;font-weight:800;letter-spacing:1px;white-space:nowrap;flex-shrink:0;border:1px solid rgba(16,185,129,.4);">
+      <span style="width:6px;height:6px;background:#34d399;border-radius:50%;animation:tpulse 1.5s infinite"></span>
+      LIVE TRADES
+    </span>
+    <div id="live-ticker-track" style="display:flex;gap:32px;white-space:nowrap;animation:ticker-scroll 50s linear infinite;font-size:12px;font-family:'JetBrains Mono',monospace;font-weight:600;"></div>
+  </div>
+  <style>
+    @keyframes ticker-scroll { from { transform:translateX(0); } to { transform:translateX(-50%); } }
+    @keyframes tpulse { 0%,100% { opacity:1; } 50% { opacity:.4; } }
+    body.has-ticker .l-nav { top: 36px !important; }
+    body.has-ticker { padding-top: 36px; }
+  </style>
+
   <!-- ========== NAVBAR ========== -->
   <nav class="l-nav">
     <div class="l-brand">
@@ -364,19 +379,108 @@
     </div>
   </section>
 
-  <!-- ========== FOOTER ========== -->
-  <footer>
-    <div style="display:flex;align-items:center;gap:10px">
-      <div class="l-brand-icon" style="width:28px;height:28px;font-size:13px">⚡</div>
-      <span style="font-size:13px;font-weight:700">CPA Alpha Scanner</span>
+  <!-- ========== AVERTISSEMENT RISQUES ========== -->
+  <section style="background:rgba(245,158,11,.04);border-top:1px solid rgba(245,158,11,.15);border-bottom:1px solid rgba(245,158,11,.15);padding:32px 48px">
+    <div style="max-width:900px;margin:0 auto;display:flex;align-items:flex-start;gap:16px">
+      <div style="font-size:30px;flex-shrink:0">⚠️</div>
+      <div>
+        <h4 style="font-size:14px;font-weight:700;color:#f59e0b;margin-bottom:8px;letter-spacing:.5px">AVERTISSEMENT IMPORTANT — RISQUE DE PERTE EN CAPITAL</h4>
+        <p style="font-size:12px;color:#94a3b8;line-height:1.7">
+          Les investissements sur les marchés financiers comportent un <b>risque de perte totale ou partielle</b> du capital investi. Les performances passées ne préjugent pas des performances futures. Les signaux diffusés par CPA Alpha Scanner sont fournis <b>à titre strictement informatif et pédagogique</b> et ne constituent en aucun cas un conseil en investissement, une recommandation personnalisée, ni une sollicitation à acheter ou vendre un instrument financier. Chaque utilisateur reste seul responsable de ses décisions de trading et doit consulter un <b>conseiller financier agréé AMF</b> avant toute opération. Les produits dérivés, futures, crypto-actifs peuvent entraîner des pertes supérieures à la mise initiale.
+        </p>
+      </div>
     </div>
-    <p>© 2026 CPA Alpha Scanner — Signaux à titre informatif. Non-conseil en investissement.</p>
-    <div style="display:flex;gap:20px;font-size:12px">
-      <a href="dashboard.html" style="color:var(--text3)">Dashboard</a>
-      <a href="login.html" style="color:var(--text3)">Connexion</a>
-      <a href="referral.html" style="color:var(--text3)">Parrainage</a>
+  </section>
+
+  <!-- ========== FOOTER ========== -->
+  <footer style="display:flex;flex-direction:column;gap:20px;padding:32px 48px">
+    <div style="display:flex;justify-content:space-between;flex-wrap:wrap;gap:20px;align-items:flex-start">
+      <div style="display:flex;align-items:center;gap:10px">
+        <div class="l-brand-icon" style="width:32px;height:32px;font-size:14px">⚡</div>
+        <div>
+          <div style="font-size:13px;font-weight:800">CPA Alpha Scanner</div>
+          <div style="font-size:10px;color:var(--text3)">Trading Intelligence</div>
+        </div>
+      </div>
+      <div style="display:flex;gap:40px;flex-wrap:wrap">
+        <div>
+          <div style="font-size:11px;font-weight:700;color:var(--text2);text-transform:uppercase;letter-spacing:1px;margin-bottom:8px">Produit</div>
+          <div style="display:flex;flex-direction:column;gap:5px;font-size:12px">
+            <a href="dashboard.html" style="color:var(--text3)">Dashboard</a>
+            <a href="stats.html" style="color:var(--text3)">Statistiques</a>
+            <a href="pricing.html" style="color:var(--text3)">Plans</a>
+            <a href="referral.html" style="color:var(--text3)">Parrainage</a>
+          </div>
+        </div>
+        <div>
+          <div style="font-size:11px;font-weight:700;color:var(--text2);text-transform:uppercase;letter-spacing:1px;margin-bottom:8px">Compte</div>
+          <div style="display:flex;flex-direction:column;gap:5px;font-size:12px">
+            <a href="login.html" style="color:var(--text3)">Connexion</a>
+            <a href="login.html" style="color:var(--text3)">Inscription</a>
+            <a href="profile.html" style="color:var(--text3)">Mon profil</a>
+          </div>
+        </div>
+        <div>
+          <div style="font-size:11px;font-weight:700;color:var(--text2);text-transform:uppercase;letter-spacing:1px;margin-bottom:8px">Légal</div>
+          <div style="display:flex;flex-direction:column;gap:5px;font-size:12px">
+            <a href="legal.html" style="color:var(--text3)">Mentions légales</a>
+            <a href="legal.html#privacy" style="color:var(--text3)">Confidentialité</a>
+            <a href="legal.html#terms" style="color:var(--text3)">CGU</a>
+            <a href="legal.html#risk" style="color:var(--text3)">Risques</a>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div style="border-top:1px solid var(--border);padding-top:16px;display:flex;justify-content:space-between;flex-wrap:wrap;gap:12px;font-size:11px;color:var(--text3)">
+      <div>© 2026 CPA Alpha Scanner · Signaux à titre informatif uniquement · Non-conseil en investissement</div>
+      <div>Développé avec ❤️ par des passionnés de finance quantitative</div>
     </div>
   </footer>
+
+  <!-- ========== COOKIE BANNER ========== -->
+  <div id="cookie-banner" style="display:none;position:fixed;bottom:20px;left:20px;right:20px;max-width:520px;margin:auto;background:rgba(12,18,32,.97);border:1px solid var(--border);border-radius:14px;padding:18px;z-index:1000;backdrop-filter:blur(12px);box-shadow:0 12px 40px rgba(0,0,0,.5)">
+    <div style="display:flex;gap:14px;align-items:flex-start">
+      <div style="font-size:22px">🍪</div>
+      <div style="flex:1">
+        <div style="font-size:13px;font-weight:700;margin-bottom:6px">Cookies et confidentialité</div>
+        <div style="font-size:11px;color:var(--text2);line-height:1.5">Nous utilisons uniquement des cookies techniques (auth + préférences). Aucun tracking publicitaire, aucune donnée vendue.</div>
+      </div>
+    </div>
+    <div style="display:flex;gap:8px;margin-top:12px">
+      <button onclick="acceptCookies()" class="btn btn-primary" style="flex:1;padding:8px 14px;font-size:12px">✓ Accepter</button>
+      <a href="legal.html#privacy" class="btn btn-outline" style="flex:1;padding:8px 14px;font-size:12px;text-align:center">En savoir plus</a>
+    </div>
+  </div>
+
+  <!-- ========== LIVE TICKER SCRIPT ========== -->
+  <script>
+    // Charge les signaux clôturés pour alimenter le bandeau
+    fetch('data/signals.json?t=' + Date.now()).then(r => r.json()).then(data => {
+      const closed = (data.signals || []).filter(s => s.status === 'tp_hit' || s.status === 'sl_hit').slice(0, 20);
+      if (!closed.length) return;
+      const items = closed.map(s => {
+        const isWin = s.status === 'tp_hit';
+        const icon = isWin ? '✅' : '❌';
+        const color = isWin ? '#34d399' : '#f87171';
+        const pct = Math.abs(s.upside_pct || 0).toFixed(1);
+        const sign = isWin ? '+' : '−';
+        return `<span style="color:${color}">${icon} ${s.ticker} ${sign}${pct}% ${isWin ? 'TP' : 'SL'}</span>`;
+      }).join('<span style="color:#4a5568;margin:0 4px">·</span>');
+      // Duplique pour loop infinie
+      document.getElementById('live-ticker-track').innerHTML = items + '<span style="color:#4a5568;margin:0 4px">·</span>' + items;
+      document.getElementById('live-ticker-wrap').style.display = 'flex';
+      document.body.classList.add('has-ticker');
+    }).catch(() => {});
+
+    // Cookie banner
+    if (!localStorage.getItem('cpa_cookies_accepted')) {
+      document.getElementById('cookie-banner').style.display = 'block';
+    }
+    function acceptCookies() {
+      localStorage.setItem('cpa_cookies_accepted', '1');
+      document.getElementById('cookie-banner').style.display = 'none';
+    }
+  </script>
 
 </body>
 </html>

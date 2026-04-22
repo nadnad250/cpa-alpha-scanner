@@ -48,19 +48,19 @@
       </div>
     </div>
 
-    <!-- KPI CARDS -->
+    <!-- KPI CARDS — Métriques PRO -->
     <div class="kpis">
       <div class="kpi">
         <div class="kpi-icon">🎯</div>
         <div class="kpi-lbl">Win Rate</div>
         <div class="kpi-val green" id="kpi-winrate">—</div>
-        <div class="kpi-sub" id="kpi-winrate-sub">Sur X signaux clôturés</div>
+        <div class="kpi-sub" id="kpi-winrate-sub">Sur X clôturés</div>
       </div>
       <div class="kpi">
         <div class="kpi-icon">💰</div>
         <div class="kpi-lbl">P&L Cumulé</div>
         <div class="kpi-val green" id="kpi-pnl">—</div>
-        <div class="kpi-sub" id="kpi-pnl-sub">Rendement théorique</div>
+        <div class="kpi-sub">Rendement théorique</div>
       </div>
       <div class="kpi">
         <div class="kpi-icon">⚖️</div>
@@ -72,19 +72,65 @@
         <div class="kpi-icon">📊</div>
         <div class="kpi-lbl">Expectancy</div>
         <div class="kpi-val purple" id="kpi-exp">—</div>
-        <div class="kpi-sub">P&L moyen par signal</div>
+        <div class="kpi-sub">Moy. par signal</div>
+      </div>
+      <div class="kpi">
+        <div class="kpi-icon">📈</div>
+        <div class="kpi-lbl">Sharpe Ratio</div>
+        <div class="kpi-val blue" id="kpi-sharpe">—</div>
+        <div class="kpi-sub">Annualisé · RF 4.5%</div>
+      </div>
+      <div class="kpi">
+        <div class="kpi-icon">🛡</div>
+        <div class="kpi-lbl">Sortino Ratio</div>
+        <div class="kpi-val purple" id="kpi-sortino">—</div>
+        <div class="kpi-sub">Downside only</div>
+      </div>
+      <div class="kpi">
+        <div class="kpi-icon">📉</div>
+        <div class="kpi-lbl">Max Drawdown</div>
+        <div class="kpi-val red" id="kpi-dd">—</div>
+        <div class="kpi-sub">Pire perte cumulée</div>
+      </div>
+      <div class="kpi">
+        <div class="kpi-icon">⚡</div>
+        <div class="kpi-lbl">Calmar Ratio</div>
+        <div class="kpi-val gold" id="kpi-calmar">—</div>
+        <div class="kpi-sub">Rdt annuel / Max DD</div>
       </div>
       <div class="kpi">
         <div class="kpi-icon">🔥</div>
         <div class="kpi-lbl">Meilleure Série</div>
-        <div class="kpi-val gold" id="kpi-streak">—</div>
-        <div class="kpi-sub">Victoires consécutives</div>
+        <div class="kpi-val green" id="kpi-streak">—</div>
+        <div class="kpi-sub">Gains consécutifs</div>
       </div>
       <div class="kpi">
         <div class="kpi-icon">📡</div>
         <div class="kpi-lbl">Signaux Émis</div>
         <div class="kpi-val" id="kpi-total">—</div>
         <div class="kpi-sub" id="kpi-total-sub">— open · — closed</div>
+      </div>
+    </div>
+
+    <!-- MONTHLY HEATMAP -->
+    <div class="card" style="margin-bottom:16px">
+      <div class="card-head">
+        <h3>📅 Heatmap Mensuelle</h3>
+        <span class="card-head-sub">Rendement P&L par mois · couleur = performance</span>
+      </div>
+      <div class="card-body">
+        <div id="monthly-heatmap" class="heatmap-grid"></div>
+      </div>
+    </div>
+
+    <!-- DRAWDOWN CHART -->
+    <div class="card" style="margin-bottom:16px">
+      <div class="card-head">
+        <h3>📉 Courbe de Drawdown</h3>
+        <span class="card-head-sub">Écart à la valeur pic (en %)</span>
+      </div>
+      <div class="card-body">
+        <div class="chart-wrap chart-sm"><canvas id="chart-drawdown"></canvas></div>
       </div>
     </div>
 
@@ -253,6 +299,41 @@
       expEl.textContent = (exp >= 0 ? '+' : '') + exp + '%';
       expEl.className = 'kpi-val ' + (exp >= 0 ? 'green' : 'red');
 
+      // ---- Métriques PRO : Sharpe, Sortino, Max DD, Calmar ----
+      const returns = closedSignals.map(s => s.status === 'tp_hit' ? Math.abs(s.upside_pct || 0) : -Math.abs(s.upside_pct || 0));
+      const mean = returns.length ? returns.reduce((a,b) => a+b, 0) / returns.length : 0;
+      const variance = returns.length ? returns.reduce((a,b) => a + (b - mean) ** 2, 0) / returns.length : 0;
+      const std = Math.sqrt(variance);
+      const RF_DAILY = 4.5 / 252;  // Risk-free rate quotidien (4.5% annuel / 252j)
+      // Sharpe annualisé (en supposant ~12 signaux/mois → ~144/an)
+      const freq = Math.max(returns.length, 1);
+      const sharpe = std > 0 ? ((mean - RF_DAILY * 21) / std) * Math.sqrt(freq / 12) : 0;
+
+      // Sortino (downside-only deviation)
+      const downside = returns.filter(r => r < 0);
+      const downStd = downside.length ? Math.sqrt(downside.reduce((a,b) => a + b*b, 0) / downside.length) : 0;
+      const sortino = downStd > 0 ? ((mean - RF_DAILY * 21) / downStd) * Math.sqrt(freq / 12) : 0;
+
+      // Max Drawdown
+      let peak = 0, cumul = 0, maxDD = 0;
+      returns.forEach(r => { cumul += r; peak = Math.max(peak, cumul); maxDD = Math.min(maxDD, cumul - peak); });
+
+      // Calmar = rendement annualisé / |MaxDD|
+      const totalReturn = returns.reduce((a,b) => a+b, 0);
+      const annReturn = returns.length ? totalReturn * (12 / Math.max(1, returns.length / 12)) : 0;
+      const calmar = maxDD < 0 ? (annReturn / Math.abs(maxDD)) : 0;
+
+      const setKpi = (id, val, fmt = 'num') => {
+        const el = document.getElementById(id);
+        if (!el) return;
+        if (fmt === 'num') el.textContent = val.toFixed(2);
+        if (fmt === 'pct') el.textContent = val.toFixed(2) + '%';
+      };
+      setKpi('kpi-sharpe', sharpe);
+      setKpi('kpi-sortino', sortino);
+      setKpi('kpi-dd', maxDD, 'pct');
+      setKpi('kpi-calmar', calmar);
+
       // Best winning streak
       let bestStreak = 0, cur = 0;
       closedSignals.forEach(s => { if (s.status === 'tp_hit') { cur++; bestStreak = Math.max(bestStreak, cur); } else cur = 0; });
@@ -263,9 +344,11 @@
 
       // ---- Charts ----
       drawEquityChart();
+      drawDrawdownChart();
       drawOutcomeChart(eod);
       drawMonthlyChart();
       drawSectorsChart();
+      drawMonthlyHeatmap();
 
       // ---- Action breakdown ----
       renderActionBreakdown();
@@ -306,6 +389,53 @@
         },
         options: { responsive: true, maintainAspectRatio: false, plugins: { legend: { position: 'bottom', labels: { color: '#94a3b8', padding: 14, font: { size: 11 } } } }, cutout: '70%' }
       });
+    }
+
+    function drawDrawdownChart() {
+      const ctx = document.getElementById('chart-drawdown').getContext('2d');
+      const sorted = [...closedSignals].sort((a, b) => new Date(a.issued_at) - new Date(b.issued_at));
+      let peak = 0, cum = 0;
+      const labels = ['Début'];
+      const dd = [0];
+      sorted.forEach((s, i) => {
+        cum += s.status === 'tp_hit' ? Math.abs(s.upside_pct || 0) : -Math.abs(s.upside_pct || 0);
+        peak = Math.max(peak, cum);
+        labels.push('#' + (i + 1));
+        dd.push(cum - peak);
+      });
+      new Chart(ctx, {
+        type: 'line',
+        data: { labels, datasets: [{ label: 'Drawdown (%)', data: dd, borderColor: '#ef4444', backgroundColor: 'rgba(239,68,68,0.15)', fill: true, tension: 0.2, pointRadius: 0 }] },
+        options: { responsive: true, maintainAspectRatio: false, plugins: { legend: { display: false } }, scales: { y: { grid: { color: 'rgba(255,255,255,0.05)' }, ticks: { color: '#94a3b8', callback: v => v + '%' } }, x: { grid: { display: false }, ticks: { color: '#4a5568', maxTicksLimit: 10 } } } }
+      });
+    }
+
+    function drawMonthlyHeatmap() {
+      const byMonth = {};
+      closedSignals.forEach(s => {
+        const m = (s.issued_at || '').substring(0, 7);
+        if (!m) return;
+        if (!byMonth[m]) byMonth[m] = 0;
+        byMonth[m] += s.status === 'tp_hit' ? Math.abs(s.upside_pct || 0) : -Math.abs(s.upside_pct || 0);
+      });
+      const months = Object.keys(byMonth).sort();
+      const el = document.getElementById('monthly-heatmap');
+      if (!months.length) {
+        el.innerHTML = '<div class="empty"><div class="empty-icon">📅</div><h4>En attente de données</h4><p>La heatmap apparaîtra dès que des signaux seront clôturés sur plusieurs mois.</p></div>';
+        return;
+      }
+      const max = Math.max(...months.map(m => Math.abs(byMonth[m])));
+      el.innerHTML = months.map(m => {
+        const v = byMonth[m];
+        const intensity = max > 0 ? Math.abs(v) / max : 0;
+        const bg = v >= 0 ? `rgba(16,185,129,${0.15 + intensity * 0.6})` : `rgba(239,68,68,${0.15 + intensity * 0.6})`;
+        const [y, mo] = m.split('-');
+        const moName = ['Jan','Fév','Mar','Avr','Mai','Jun','Jul','Aoû','Sep','Oct','Nov','Déc'][parseInt(mo)-1] || mo;
+        return `<div class="heatcell" style="background:${bg};border-color:${v >= 0 ? 'rgba(16,185,129,.4)' : 'rgba(239,68,68,.4)'}">
+          <div class="heatcell-month">${moName} ${y}</div>
+          <div class="heatcell-val">${v >= 0 ? '+' : ''}${v.toFixed(1)}%</div>
+        </div>`;
+      }).join('');
     }
 
     function drawMonthlyChart() {

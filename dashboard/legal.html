@@ -1,0 +1,228 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Mentions Légales & Risques — CPA Alpha Scanner</title>
+  <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>⚡</text></svg>">
+  <link rel="stylesheet" href="assets/css/pages.css">
+  <style>
+    .legal-nav{display:flex;gap:6px;flex-wrap:wrap;margin-bottom:28px;padding:14px;background:var(--card);border:1px solid var(--border);border-radius:12px;position:sticky;top:calc(var(--nav-h) + 12px);z-index:20;backdrop-filter:blur(10px)}
+    .legal-nav a{padding:6px 12px;font-size:12px;color:var(--text2);border-radius:6px;transition:all .15s;font-weight:500}
+    .legal-nav a:hover{background:var(--bg3);color:var(--text)}
+    .legal-sec{background:var(--card);border:1px solid var(--border);border-radius:var(--r-lg);padding:28px;margin-bottom:16px;scroll-margin-top:100px}
+    .legal-sec h2{font-size:20px;font-weight:800;margin-bottom:16px;display:flex;align-items:center;gap:10px;border-bottom:1px solid var(--border);padding-bottom:12px}
+    .legal-sec h3{font-size:14px;font-weight:700;margin:20px 0 10px;color:var(--text)}
+    .legal-sec p{font-size:13px;color:var(--text2);line-height:1.7;margin-bottom:10px}
+    .legal-sec ul{margin:10px 0 12px 20px;font-size:13px;color:var(--text2);line-height:1.8}
+    .legal-sec ul li{margin-bottom:4px}
+    .legal-sec strong{color:var(--text)}
+    .warn-block{background:rgba(245,158,11,.08);border:1px solid rgba(245,158,11,.3);border-radius:10px;padding:16px;margin:16px 0}
+    .warn-block h4{color:var(--gold);font-size:13px;font-weight:700;margin-bottom:8px}
+    .warn-block p{color:var(--text);font-size:12px;line-height:1.6;margin:0}
+    .info-row{display:grid;grid-template-columns:140px 1fr;gap:10px;padding:8px 0;border-bottom:1px solid var(--border);font-size:13px}
+    .info-row:last-child{border-bottom:none}
+    .info-row .lbl{color:var(--text3);font-weight:600}
+    .info-row .val{color:var(--text);font-family:var(--mono)}
+  </style>
+</head>
+<body>
+
+  <nav class="snav">
+    <div class="snav-brand">
+      <div class="snav-icon">⚡</div>
+      <span class="snav-name">CPA Alpha</span>
+    </div>
+    <div class="snav-links">
+      <a class="snav-link" href="index.html">🏠 Accueil</a>
+      <a class="snav-link" href="dashboard.html">📊 Dashboard</a>
+      <a class="snav-link" href="stats.html">📈 Stats</a>
+      <a class="snav-link" href="pricing.html">💎 Premium</a>
+    </div>
+    <div class="snav-right">
+      <a href="index.html" class="btn btn-outline btn-sm">← Retour</a>
+    </div>
+  </nav>
+
+  <div class="page page-narrow">
+    <div class="phead">
+      <div>
+        <div class="phead-tag">LÉGAL</div>
+        <h1 class="phead-title">Mentions Légales &amp; Conditions</h1>
+        <p class="phead-sub">Dernière mise à jour : 23 avril 2026</p>
+      </div>
+    </div>
+
+    <!-- SOMMAIRE -->
+    <div class="legal-nav">
+      <a href="#mentions">📄 Mentions légales</a>
+      <a href="#risk">⚠️ Risques</a>
+      <a href="#terms">📜 CGU</a>
+      <a href="#privacy">🔒 Confidentialité</a>
+      <a href="#cookies">🍪 Cookies</a>
+      <a href="#amf">🏛 AMF</a>
+    </div>
+
+    <!-- MENTIONS LÉGALES -->
+    <section class="legal-sec" id="mentions">
+      <h2>📄 Mentions Légales</h2>
+      <div class="info-row"><span class="lbl">Éditeur du site</span><span class="val">CPA Alpha Scanner</span></div>
+      <div class="info-row"><span class="lbl">Statut</span><span class="val">Projet à titre personnel / informatif</span></div>
+      <div class="info-row"><span class="lbl">Contact</span><span class="val">merouaninadir@gmail.com</span></div>
+      <div class="info-row"><span class="lbl">Hébergement</span><span class="val">GitHub Pages — GitHub Inc., 88 Colin P Kelly Jr St, San Francisco, CA</span></div>
+      <div class="info-row"><span class="lbl">Directeur publication</span><span class="val">Mérouane Nadir</span></div>
+      <div class="info-row"><span class="lbl">Nature</span><span class="val">Site informatif sur signaux de trading algorithmique</span></div>
+      <p style="margin-top:14px">Le présent site est édité à titre personnel et pédagogique. Il ne constitue pas une activité commerciale réglementée au sens des articles L.541-1 et suivants du Code monétaire et financier français.</p>
+    </section>
+
+    <!-- RISQUES -->
+    <section class="legal-sec" id="risk">
+      <h2>⚠️ Avertissement sur les Risques</h2>
+      <div class="warn-block">
+        <h4>⚠️ RISQUE DE PERTE EN CAPITAL</h4>
+        <p>Investir sur les marchés financiers comporte un <strong>risque de perte partielle ou totale</strong> du capital investi. Les performances passées ne préjugent en aucun cas des performances futures. Les produits dérivés, les futures et les crypto-actifs peuvent entraîner des pertes supérieures à votre mise initiale.</p>
+      </div>
+      <h3>Risques spécifiques aux signaux CPA Alpha</h3>
+      <ul>
+        <li><strong>Latence</strong> : le prix au moment où vous recevez le signal peut différer du prix d'entrée calculé</li>
+        <li><strong>Slippage</strong> : l'exécution réelle sur votre courtier peut être moins favorable</li>
+        <li><strong>Modèle probabiliste</strong> : un win rate de 78% signifie 22% de pertes — elles sont normales</li>
+        <li><strong>Futures &amp; crypto</strong> : volatilité élevée, effet de levier, risque de liquidation</li>
+        <li><strong>Gaps de marché</strong> : les Stop Loss peuvent être franchis sans exécution au prix visé</li>
+        <li><strong>Conditions extrêmes</strong> : crises, flash crash, défaillances techniques</li>
+      </ul>
+      <h3>Ce que vous devez faire</h3>
+      <ul>
+        <li>Ne jamais investir plus que ce que vous pouvez vous permettre de perdre</li>
+        <li>Consulter un <strong>conseiller financier agréé AMF / CIF</strong> avant toute opération</li>
+        <li>Diversifier et respecter la taille de position suggérée (Kelly fraction)</li>
+        <li>Utiliser systématiquement les stops</li>
+        <li>Se former à la gestion du risque (money management)</li>
+      </ul>
+    </section>
+
+    <!-- CGU -->
+    <section class="legal-sec" id="terms">
+      <h2>📜 Conditions Générales d'Utilisation</h2>
+      <h3>1. Acceptation</h3>
+      <p>L'utilisation du site CPA Alpha Scanner implique l'acceptation pleine et entière des présentes CGU. Si vous n'acceptez pas ces conditions, veuillez ne pas utiliser le site.</p>
+
+      <h3>2. Nature du service</h3>
+      <p>CPA Alpha Scanner diffuse des <strong>signaux de trading algorithmiques</strong> générés par un modèle propriétaire (CPA = Composite Predictive Alpha) combinant analyse fondamentale, factorielle et technique. Ces signaux sont fournis <strong>à titre strictement informatif et pédagogique</strong>.</p>
+
+      <h3>3. Non-conseil en investissement</h3>
+      <p>Les contenus du site <strong>ne constituent pas</strong> :</p>
+      <ul>
+        <li>Un conseil en investissement personnalisé (au sens de l'article L.321-1 du CMF)</li>
+        <li>Une recommandation d'investissement au sens du Règlement MAR (UE) n°596/2014</li>
+        <li>Une sollicitation à l'achat ou à la vente d'instruments financiers</li>
+        <li>Une prestation réglementée nécessitant un agrément AMF</li>
+      </ul>
+
+      <h3>4. Obligations de l'utilisateur</h3>
+      <ul>
+        <li>Utiliser le site dans le respect des lois applicables</li>
+        <li>Ne pas revendre, redistribuer ou commercialiser les signaux sans accord écrit</li>
+        <li>Ne pas tenter de pirater, scraper massivement ou contourner les protections</li>
+        <li>Respecter les droits d'auteur et de propriété intellectuelle</li>
+      </ul>
+
+      <h3>5. Abonnements payants</h3>
+      <p>Les abonnements Premium sont traités par <strong>Stripe, Inc.</strong> (PCI-DSS Level 1). Vous disposez d'un <strong>délai de rétractation de 14 jours</strong> conformément au Code de la consommation français. L'abonnement mensuel est sans engagement et peut être annulé à tout moment.</p>
+
+      <h3>6. Limitation de responsabilité</h3>
+      <p>CPA Alpha Scanner ne pourra être tenu responsable :</p>
+      <ul>
+        <li>Des pertes financières résultant de décisions prises sur la base des signaux</li>
+        <li>Des interruptions de service, retards, erreurs techniques</li>
+        <li>Des actes de tiers (piratage, usurpation, fraude)</li>
+        <li>De l'inadéquation des signaux à votre situation personnelle</li>
+      </ul>
+
+      <h3>7. Modification des CGU</h3>
+      <p>Ces CGU peuvent être modifiées à tout moment. Les utilisateurs seront informés par email ou notification sur le dashboard. La poursuite de l'utilisation après modification vaut acceptation.</p>
+
+      <h3>8. Droit applicable</h3>
+      <p>Les présentes CGU sont régies par le <strong>droit français</strong>. Tout litige relève de la compétence exclusive des tribunaux français.</p>
+    </section>
+
+    <!-- PRIVACY -->
+    <section class="legal-sec" id="privacy">
+      <h2>🔒 Politique de Confidentialité (RGPD)</h2>
+      <h3>Données collectées</h3>
+      <p>Conformément au RGPD (Règlement UE 2016/679) et à la Loi Informatique et Libertés, nous collectons :</p>
+      <ul>
+        <li><strong>Email + nom</strong> : pour créer et identifier votre compte</li>
+        <li><strong>Mot de passe hashé</strong> : via Firebase Authentication (bcrypt)</li>
+        <li><strong>Points, badges, historique</strong> : pour le système de parrainage</li>
+        <li><strong>Logs de connexion</strong> : date/heure pour sécurité (conservés 12 mois)</li>
+        <li><strong>Paiements</strong> : traités directement par Stripe, nous ne stockons jamais les données bancaires</li>
+      </ul>
+
+      <h3>Finalités</h3>
+      <ul>
+        <li>Fournir l'accès au dashboard et aux signaux</li>
+        <li>Gérer les abonnements et parrainages</li>
+        <li>Envoyer les alertes par email ou Telegram (si activées)</li>
+        <li>Prévenir la fraude et les abus</li>
+      </ul>
+
+      <h3>Vos droits</h3>
+      <p>Vous disposez des droits suivants (RGPD art. 15-22) :</p>
+      <ul>
+        <li>Accès à vos données</li>
+        <li>Rectification</li>
+        <li>Effacement ("droit à l'oubli")</li>
+        <li>Portabilité</li>
+        <li>Opposition au traitement</li>
+        <li>Réclamation auprès de la CNIL (<a href="https://www.cnil.fr" style="color:var(--accent)">cnil.fr</a>)</li>
+      </ul>
+      <p>Pour exercer vos droits : <strong>merouaninadir@gmail.com</strong></p>
+
+      <h3>Sous-traitants</h3>
+      <ul>
+        <li><strong>Google Firebase</strong> (Irlande) — Auth + Firestore</li>
+        <li><strong>Stripe Payments</strong> (USA/EU) — paiements</li>
+        <li><strong>GitHub Pages</strong> (USA) — hébergement statique</li>
+        <li><strong>Telegram</strong> (EU/international) — notifications opt-in</li>
+      </ul>
+      <p>Aucune donnée personnelle n'est vendue à des tiers.</p>
+
+      <h3>Durée de conservation</h3>
+      <p>Vos données sont conservées tant que votre compte est actif, puis supprimées 36 mois après la dernière connexion (ou immédiatement sur demande).</p>
+    </section>
+
+    <!-- COOKIES -->
+    <section class="legal-sec" id="cookies">
+      <h2>🍪 Politique Cookies</h2>
+      <p>Notre site utilise uniquement des <strong>cookies strictement nécessaires</strong> au fonctionnement :</p>
+      <ul>
+        <li><strong>Session Firebase</strong> : authentification utilisateur</li>
+        <li><strong>LocalStorage</strong> : préférences UI (thème, filtres)</li>
+        <li><strong>Consentement</strong> : mémoriser votre accord cookies</li>
+      </ul>
+      <p><strong>Aucun cookie publicitaire</strong>, aucun tracker tiers (Google Analytics, Meta Pixel, etc.), aucune donnée vendue.</p>
+    </section>
+
+    <!-- AMF / DISCLAIMER -->
+    <section class="legal-sec" id="amf">
+      <h2>🏛 Avertissement AMF / Statut Réglementaire</h2>
+      <div class="warn-block">
+        <h4>📌 STATUT NON-RÉGLEMENTÉ</h4>
+        <p>CPA Alpha Scanner n'est <strong>ni un PSI (Prestataire de Services d'Investissement)</strong>, ni un <strong>CIF (Conseiller en Investissements Financiers)</strong>, ni un <strong>CGP (Conseiller en Gestion de Patrimoine)</strong>. Le site ne fournit pas de conseil personnalisé et n'est pas enregistré auprès de l'AMF ni de l'ORIAS.</p>
+      </div>
+      <p>Les informations diffusées relèvent du <strong>contenu éditorial / pédagogique</strong> sur l'analyse quantitative, au même titre qu'un blog, une newsletter ou un cours en ligne. Vous êtes <strong>seul responsable</strong> de vos décisions d'investissement.</p>
+      <h3>Si vous cherchez un vrai conseil personnalisé</h3>
+      <p>Consultez l'annuaire ORIAS pour trouver un CIF agréé : <a href="https://www.orias.fr" target="_blank" style="color:var(--accent)">www.orias.fr</a></p>
+      <p>Ou contactez la liste noire des sites non autorisés de l'AMF : <a href="https://www.amf-france.org" target="_blank" style="color:var(--accent)">www.amf-france.org</a></p>
+    </section>
+
+    <div style="text-align:center;margin-top:28px;padding:20px;font-size:12px;color:var(--text3)">
+      Document généré automatiquement · Version 1.0 · 23 avril 2026<br>
+      En cas de doute, consultez un avocat ou un conseiller agréé.
+    </div>
+
+  </div>
+
+</body>
+</html>
