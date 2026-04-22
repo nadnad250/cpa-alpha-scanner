@@ -40,9 +40,37 @@ def export_to_dashboard(
         now = datetime.utcnow()
         today = now.date().isoformat()
 
-        # ---- Convertir les Opportunity en dict dashboard ----
+        # ---- Charger l'existant pour dédupliquer + préserver l'historique ----
+        existing_open_by_key = {}     # (ticker, action) -> signal existant ouvert
+        closed_history = []           # signaux clôturés (tp_hit/sl_hit) à garder
+        try:
+            if path.exists():
+                prev = json.loads(path.read_text(encoding="utf-8"))
+                for s in prev.get("signals", []):
+                    key = (s.get("ticker"), s.get("action"))
+                    if s.get("status") == "open":
+                        existing_open_by_key[key] = s
+                    else:
+                        # Garder les clôturés des 7 derniers jours max
+                        closed_history.append(s)
+        except Exception as e:
+            logger.warning(f"Existant non lisible: {e}")
+
+        # Limiter l'historique clôturé aux 50 plus récents
+        closed_history = sorted(
+            closed_history,
+            key=lambda s: s.get("issued_at", ""),
+            reverse=True
+        )[:50]
+
+        # ---- Convertir les nouvelles Opportunity + dédupliquer ----
         signals = []
+        seen_keys = set()   # dédup au sein du même scan
         for o in opportunities:
+            key = (o.ticker, o.action)
+            if key in seen_keys:
+                continue
+            seen_keys.add(key)
             isBuy = o.score > 0
             upside = None
             if o.price and o.take_profit:
@@ -51,13 +79,14 @@ def export_to_dashboard(
                 else:
                     upside = round((o.price - o.take_profit) / o.price * 100, 1)
 
-            # Fallback Kelly : quart-Kelly basé sur confidence + R/R, clampé [2%, 12%]
+            # Fallback Kelly : 1/7-Kelly + score factor pour varier selon conviction
             kelly = o.kelly_position
             if not kelly or kelly <= 0:
                 p = o.confidence or 0.5
                 b = o.risk_reward or 2.0
                 raw = (p * b - (1 - p)) / b if b > 0 else 0
-                kelly = max(0.02, min(0.12, raw * 0.25))
+                score_factor = 0.7 + 0.6 * min(abs(o.score or 0), 1.0)   # 0.7–1.3
+                kelly = max(0.025, min(0.10, raw * 0.15 * score_factor))
 
             sig = {
                 "ticker":           o.ticker,
@@ -86,20 +115,31 @@ def export_to_dashboard(
                 "top_news_title":   getattr(o, "top_news_title", None),
                 "top_news_url":     getattr(o, "top_news_url", None),
                 "status":           "open",
-                "issued_at":        now.isoformat(),
+                # Préserve issued_at du signal existant pour éviter de "rajeunir" un signal persistent
+                "issued_at":        existing_open_by_key.get(key, {}).get("issued_at", now.isoformat()),
+                "last_seen":        now.isoformat(),
             }
             signals.append(sig)
 
-        # Tri : STRONG_BUY > BUY > SELL > STRONG_SELL, puis par score
-        action_order = {"STRONG_BUY": 0, "BUY": 1, "STRONG_SELL": 2, "SELL": 3}
-        signals.sort(key=lambda s: (action_order.get(s["action"], 9), -abs(s["score"] or 0)))
+        # Ajoute les clôturés récents après les ouverts (pour historique visible)
+        all_signals = signals + closed_history
 
-        # ---- Stats globales ----
-        n = len(signals)
-        n_buy  = sum(1 for s in signals if s["score"] and s["score"] > 0)
+        # Tri : ouverts d'abord (STRONG_BUY > BUY > SELL > STRONG_SELL), puis clôturés par date desc
+        action_order = {"STRONG_BUY": 0, "BUY": 1, "STRONG_SELL": 2, "SELL": 3}
+        all_signals.sort(key=lambda s: (
+            0 if s.get("status") == "open" else 1,
+            action_order.get(s["action"], 9),
+            -abs(s.get("score") or 0),
+        ))
+        signals = all_signals
+
+        # ---- Stats globales (uniquement signaux ouverts) ----
+        open_sigs = [s for s in signals if s.get("status") == "open"]
+        n = len(open_sigs)
+        n_buy  = sum(1 for s in open_sigs if s["score"] and s["score"] > 0)
         n_sell = n - n_buy
-        avg_conf = round(sum(s["confidence"] for s in signals) / n, 3) if n else 0
-        rr_vals = [s["risk_reward"] for s in signals if s["risk_reward"]]
+        avg_conf = round(sum(s["confidence"] for s in open_sigs) / n, 3) if n else 0
+        rr_vals = [s["risk_reward"] for s in open_sigs if s["risk_reward"]]
         avg_rr = round(sum(rr_vals) / len(rr_vals), 2) if rr_vals else 0
 
         # ---- Stats EOD depuis le tracker ----

@@ -411,12 +411,13 @@ function fmt(n) {
   return n.toFixed(2);
 }
 
-// Fallback quart-Kelly si le bot n'a pas fourni d'allocation
+// Fallback Kelly fractionné + score factor → varie de 3% à 10% selon conviction
 function computeKellyFallback(s) {
   const p = s.confidence || 0.5;
   const b = s.risk_reward || 2.0;
   const raw = b > 0 ? (p * b - (1 - p)) / b : 0;
-  return Math.max(0.02, Math.min(0.12, raw * 0.25));
+  const scoreFactor = 0.7 + 0.6 * Math.min(Math.abs(s.score || 0), 1.0);  // 0.7-1.3
+  return Math.max(0.025, Math.min(0.10, raw * 0.15 * scoreFactor));
 }
 
 // ---- Embedded Demo (fallback) ----
