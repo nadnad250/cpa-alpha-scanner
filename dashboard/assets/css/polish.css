@@ -1,0 +1,449 @@
+/* =========================================================
+   POLISH — Améliorations visuelles premium du dashboard
+   Chargé APRÈS style.css pour surclasser les styles de base
+   ========================================================= */
+
+/* ---- Background cinétique subtil ---- */
+body::before {
+  content: '';
+  position: fixed;
+  inset: 0;
+  background:
+    radial-gradient(ellipse 60% 40% at 15% 20%, rgba(59,130,246,.06), transparent 60%),
+    radial-gradient(ellipse 50% 35% at 85% 80%, rgba(168,85,247,.06), transparent 60%),
+    radial-gradient(ellipse 40% 30% at 50% 50%, rgba(16,185,129,.03), transparent 60%);
+  pointer-events: none;
+  z-index: 0;
+}
+.navbar, .stats-bar, .page-body { position: relative; z-index: 1; }
+
+/* ---- Brand icon : animation pulse ---- */
+.brand-icon {
+  position: relative;
+  overflow: hidden;
+  animation: brand-glow 4s ease-in-out infinite;
+}
+.brand-icon::after {
+  content: '';
+  position: absolute;
+  inset: 0;
+  background: linear-gradient(135deg, transparent 40%, rgba(255,255,255,.2) 50%, transparent 60%);
+  animation: brand-shine 3s ease-in-out infinite;
+}
+@keyframes brand-glow {
+  0%, 100% { box-shadow: 0 0 20px rgba(59,130,246,.4); }
+  50%      { box-shadow: 0 0 30px rgba(168,85,247,.6); }
+}
+@keyframes brand-shine {
+  0%, 100% { transform: translateX(-100%); }
+  50%      { transform: translateX(100%); }
+}
+
+/* ---- Stats cards : amélioration hover + gradient ---- */
+.stat-card {
+  background: linear-gradient(135deg, var(--card), var(--bg2));
+  transition: all .2s cubic-bezier(.4,0,.2,1);
+  position: relative;
+  overflow: hidden;
+}
+.stat-card::before {
+  content: '';
+  position: absolute;
+  top: 0; left: 0; right: 0; height: 2px;
+  background: linear-gradient(90deg, var(--accent), var(--buy-light));
+  opacity: 0;
+  transition: opacity .2s;
+}
+.stat-card:hover::before { opacity: 1; }
+.stat-card:hover {
+  transform: translateY(-3px);
+  border-color: var(--accent);
+  box-shadow: 0 8px 24px rgba(0,0,0,.4), 0 0 20px rgba(59,130,246,.1);
+}
+.stat-card:hover .stat-icon { transform: scale(1.15) rotate(-5deg); }
+.stat-icon { transition: transform .2s cubic-bezier(.4,0,.2,1); }
+
+.stat-val {
+  background: linear-gradient(135deg, var(--text), var(--text2));
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  transition: all .2s;
+}
+.stat-val.green {
+  background: linear-gradient(135deg, var(--buy-light), #6ee7b7);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  text-shadow: 0 0 20px rgba(52,211,153,.3);
+}
+.stat-val.red {
+  background: linear-gradient(135deg, var(--sell-light), #fca5a5);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+}
+
+/* ---- Panel : glassmorphism subtil ---- */
+.signals-panel, .card {
+  background: linear-gradient(135deg, rgba(17,24,39,.85), rgba(12,18,32,.85));
+  backdrop-filter: blur(8px);
+  -webkit-backdrop-filter: blur(8px);
+  transition: border-color .2s;
+}
+
+/* ---- Panel header : glow accent ---- */
+.panel-head h2 {
+  background: linear-gradient(90deg, var(--text), var(--accent));
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+}
+
+/* ---- Filter buttons : state amélioré ---- */
+.fbtn {
+  transition: all .2s cubic-bezier(.4,0,.2,1);
+  position: relative;
+  overflow: hidden;
+}
+.fbtn::after {
+  content: '';
+  position: absolute; inset: 0;
+  background: linear-gradient(90deg, var(--accent), var(--purple, #a855f7));
+  opacity: 0;
+  transition: opacity .15s;
+  z-index: -1;
+}
+.fbtn:hover { transform: translateY(-1px); }
+.fbtn.active {
+  background: linear-gradient(135deg, var(--accent), #2563eb);
+  border-color: transparent;
+  box-shadow: 0 4px 12px rgba(59,130,246,.35);
+}
+.fbtn.buy-active {
+  background: linear-gradient(135deg, var(--buy), var(--buy-light));
+  border-color: transparent;
+  color: #fff !important;
+  box-shadow: 0 4px 12px rgba(16,185,129,.35);
+}
+.fbtn.sell-active {
+  background: linear-gradient(135deg, var(--sell), var(--sell-light));
+  border-color: transparent;
+  color: #fff !important;
+  box-shadow: 0 4px 12px rgba(239,68,68,.35);
+}
+
+/* ---- Table rows : fade-in au chargement ---- */
+.signals-table tbody tr {
+  animation: row-fade-in .4s cubic-bezier(.4,0,.2,1) backwards;
+  transition: all .15s;
+}
+.signals-table tbody tr:nth-child(1) { animation-delay: 0.02s; }
+.signals-table tbody tr:nth-child(2) { animation-delay: 0.04s; }
+.signals-table tbody tr:nth-child(3) { animation-delay: 0.06s; }
+.signals-table tbody tr:nth-child(4) { animation-delay: 0.08s; }
+.signals-table tbody tr:nth-child(5) { animation-delay: 0.10s; }
+.signals-table tbody tr:nth-child(6) { animation-delay: 0.12s; }
+.signals-table tbody tr:nth-child(n+7) { animation-delay: 0.14s; }
+@keyframes row-fade-in {
+  from { opacity: 0; transform: translateY(6px); }
+  to   { opacity: 1; transform: translateY(0); }
+}
+.signals-table tbody tr:hover {
+  background: linear-gradient(90deg, rgba(59,130,246,.04), rgba(168,85,247,.04));
+  transform: translateX(2px);
+}
+
+/* ---- Action badges : plus punchy ---- */
+.action-badge {
+  letter-spacing: .7px;
+  box-shadow: 0 2px 4px rgba(0,0,0,.2);
+  transition: all .2s;
+}
+.signals-table tbody tr:hover .action-badge {
+  transform: scale(1.05);
+}
+.badge-sb {
+  background: linear-gradient(135deg, rgba(0,255,157,.2), rgba(16,185,129,.15));
+  box-shadow: 0 0 10px rgba(0,255,157,.2);
+}
+.badge-ss {
+  background: linear-gradient(135deg, rgba(255,23,68,.2), rgba(239,68,68,.15));
+  box-shadow: 0 0 10px rgba(255,23,68,.2);
+}
+
+/* ---- Confidence bar : gradient + glow ---- */
+.conf-fill {
+  background: linear-gradient(90deg, currentColor, currentColor) !important;
+  position: relative;
+  overflow: hidden;
+}
+.conf-fill::after {
+  content: '';
+  position: absolute;
+  inset: 0;
+  background: linear-gradient(90deg, transparent, rgba(255,255,255,.3), transparent);
+  animation: conf-shimmer 2s ease-in-out infinite;
+}
+@keyframes conf-shimmer {
+  0%   { transform: translateX(-100%); }
+  100% { transform: translateX(100%); }
+}
+
+/* ---- Ticker : emphasis ---- */
+td.td-ticker {
+  position: relative;
+}
+td.td-ticker::before {
+  content: '';
+  position: absolute;
+  left: 0; top: 50%;
+  width: 3px; height: 0;
+  background: var(--accent);
+  transform: translateY(-50%);
+  transition: height .2s;
+  border-radius: 0 2px 2px 0;
+}
+.signals-table tbody tr:hover td.td-ticker::before { height: 24px; }
+
+/* ---- Price : fixed + bolder ---- */
+td.td-price {
+  font-size: 13px;
+  font-weight: 700;
+  color: var(--text);
+}
+
+/* ---- ALLOC : meilleure visibilité ---- */
+td.td-alloc {
+  font-weight: 700;
+  color: var(--accent);
+  position: relative;
+}
+td.td-alloc::before {
+  content: '💰';
+  font-size: 10px;
+  margin-right: 4px;
+  opacity: .6;
+}
+
+/* ---- Info button ---- */
+td.td-info .info-btn {
+  transition: all .2s cubic-bezier(.4,0,.2,1);
+  border-radius: 8px;
+}
+td.td-info .info-btn:hover {
+  transform: scale(1.15) rotate(8deg);
+  background: linear-gradient(135deg, rgba(59,130,246,.2), rgba(168,85,247,.2));
+  border-color: var(--accent);
+  box-shadow: 0 0 12px rgba(59,130,246,.3);
+}
+
+/* ---- Side panel cards ---- */
+.card {
+  animation: card-in .5s cubic-bezier(.4,0,.2,1) backwards;
+}
+.card:nth-of-type(1) { animation-delay: .1s; }
+.card:nth-of-type(2) { animation-delay: .2s; }
+.card:nth-of-type(3) { animation-delay: .3s; }
+.card:nth-of-type(4) { animation-delay: .4s; }
+@keyframes card-in {
+  from { opacity: 0; transform: translateY(12px); }
+  to   { opacity: 1; transform: translateY(0); }
+}
+.card:hover { border-color: var(--border2); }
+
+/* ---- EOD P&L : glow dynamique ---- */
+.eod-pnl-val.green {
+  animation: pnl-pulse 3s ease-in-out infinite;
+}
+@keyframes pnl-pulse {
+  0%, 100% { text-shadow: 0 0 12px rgba(52,211,153,.4); }
+  50%      { text-shadow: 0 0 24px rgba(52,211,153,.7); }
+}
+
+/* ---- Best signal : halo ---- */
+.best-inner {
+  position: relative;
+  overflow: hidden;
+}
+.best-inner::before {
+  content: '';
+  position: absolute;
+  top: -50%; left: -50%;
+  width: 200%; height: 200%;
+  background: radial-gradient(circle, rgba(0,255,157,.15), transparent 60%);
+  animation: halo 6s ease-in-out infinite;
+  pointer-events: none;
+}
+@keyframes halo {
+  0%, 100% { transform: translate(-10%,-10%); }
+  50%      { transform: translate(10%,10%); }
+}
+.best-ticker {
+  background: linear-gradient(135deg, var(--text), var(--buy-light));
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  letter-spacing: -.5px;
+}
+
+/* ---- Top list items ---- */
+.top-item {
+  transition: all .2s cubic-bezier(.4,0,.2,1);
+  position: relative;
+  overflow: hidden;
+}
+.top-item::before {
+  content: '';
+  position: absolute;
+  left: 0; top: 0; bottom: 0;
+  width: 3px;
+  background: linear-gradient(180deg, var(--accent), var(--purple, #a855f7));
+  transform: translateX(-100%);
+  transition: transform .2s;
+}
+.top-item:hover::before { transform: translateX(0); }
+.top-item:hover {
+  background: linear-gradient(90deg, rgba(59,130,246,.08), transparent);
+  border-color: var(--accent);
+  padding-left: 14px;
+}
+
+/* ---- Live dot : pulse améliorée ---- */
+.live-dot {
+  box-shadow: 0 0 8px var(--buy-light);
+  animation: live-pulse 1.5s ease-in-out infinite;
+}
+@keyframes live-pulse {
+  0%, 100% { opacity: 1; transform: scale(1); box-shadow: 0 0 8px var(--buy-light); }
+  50%      { opacity: .6; transform: scale(.8); box-shadow: 0 0 14px var(--buy-light); }
+}
+
+/* ---- Empty state amélioré ---- */
+.empty-state {
+  background: radial-gradient(ellipse at center, rgba(59,130,246,.03), transparent 70%);
+  border-radius: 12px;
+}
+.empty-state .es-icon {
+  animation: empty-float 3s ease-in-out infinite;
+  display: inline-block;
+}
+@keyframes empty-float {
+  0%, 100% { transform: translateY(0); }
+  50%      { transform: translateY(-6px); }
+}
+
+/* ---- Modal : entrée plus fluide ---- */
+.modal {
+  animation: modal-pop .3s cubic-bezier(.34,1.56,.64,1);
+}
+@keyframes modal-pop {
+  from { opacity: 0; transform: scale(.92) translateY(20px); }
+  to   { opacity: 1; transform: scale(1) translateY(0); }
+}
+.modal-overlay { animation: overlay-in .2s ease; }
+@keyframes overlay-in {
+  from { opacity: 0; }
+  to   { opacity: 1; }
+}
+
+/* ---- CPA component bars : animation ---- */
+.cpa-comp-fill {
+  animation: bar-expand .8s cubic-bezier(.4,0,.2,1) backwards;
+  position: relative;
+  overflow: hidden;
+}
+.cpa-comp-fill::after {
+  content: '';
+  position: absolute;
+  inset: 0;
+  background: linear-gradient(90deg, transparent, rgba(255,255,255,.25), transparent);
+  animation: conf-shimmer 2.5s ease-in-out infinite;
+}
+@keyframes bar-expand {
+  from { width: 0 !important; }
+}
+
+/* ---- Search input ---- */
+.search-wrap input {
+  transition: all .2s cubic-bezier(.4,0,.2,1);
+}
+.search-wrap input:focus {
+  background: var(--card);
+  box-shadow: 0 0 0 3px rgba(59,130,246,.15);
+}
+.search-wrap:hover .search-icon { color: var(--accent); }
+
+/* ---- Scroll to top hint ---- */
+.table-wrap { scroll-behavior: smooth; }
+.table-wrap::-webkit-scrollbar-track { background: transparent; }
+.table-wrap::-webkit-scrollbar-thumb {
+  background: linear-gradient(180deg, var(--accent), var(--purple, #a855f7));
+  border-radius: 3px;
+}
+
+/* ---- Toast : entrée + exit améliorés ---- */
+.toast {
+  background: linear-gradient(135deg, var(--card), var(--bg2));
+  border-left: 3px solid var(--buy-light);
+  box-shadow: 0 8px 32px rgba(0,0,0,.5), 0 0 20px rgba(52,211,153,.1);
+  animation: toast-slide .3s cubic-bezier(.4,0,.2,1);
+}
+@keyframes toast-slide {
+  from { opacity: 0; transform: translateX(20px); }
+  to   { opacity: 1; transform: translateX(0); }
+}
+
+/* ---- Clock : retouche ---- */
+.clock-time {
+  background: linear-gradient(135deg, var(--text), var(--accent));
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+}
+
+/* ---- Market status glow ---- */
+.mkt-status.open { box-shadow: 0 0 12px rgba(16,185,129,.2); }
+.mkt-status.closed { box-shadow: 0 0 12px rgba(239,68,68,.15); }
+
+/* ---- Refresh button animation ---- */
+#refresh-btn {
+  transition: transform .3s cubic-bezier(.4,0,.2,1);
+}
+#refresh-btn:hover {
+  transform: rotate(180deg);
+  background: linear-gradient(135deg, var(--accent), var(--purple, #a855f7)) !important;
+  color: #fff !important;
+  border-color: transparent !important;
+}
+
+/* ---- Focus visible pour accessibilité ---- */
+button:focus-visible, input:focus-visible, select:focus-visible, a:focus-visible {
+  outline: 2px solid var(--accent);
+  outline-offset: 2px;
+}
+
+/* ---- Responsive plus fluide ---- */
+@media (max-width: 640px) {
+  .stat-val { font-size: 17px; }
+  .signals-table { font-size: 11px; }
+  .signals-table tbody td { padding: 10px 10px; }
+  .action-badge { font-size: 9px; padding: 2px 7px; }
+}
+
+/* ---- Loading skeleton (à utiliser pendant fetch) ---- */
+.skeleton {
+  background: linear-gradient(90deg, var(--bg3) 0%, var(--card) 50%, var(--bg3) 100%);
+  background-size: 200% 100%;
+  animation: skeleton-wave 1.4s infinite;
+  border-radius: 6px;
+}
+@keyframes skeleton-wave {
+  0%   { background-position: 200% 0; }
+  100% { background-position: -200% 0; }
+}
+
+/* ---- Purple var (fallback si pas dans :root) ---- */
+:root {
+  --purple: #a855f7;
+}

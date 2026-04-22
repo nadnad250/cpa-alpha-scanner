@@ -51,6 +51,14 @@ def export_to_dashboard(
                 else:
                     upside = round((o.price - o.take_profit) / o.price * 100, 1)
 
+            # Fallback Kelly : quart-Kelly basé sur confidence + R/R, clampé [2%, 12%]
+            kelly = o.kelly_position
+            if not kelly or kelly <= 0:
+                p = o.confidence or 0.5
+                b = o.risk_reward or 2.0
+                raw = (p * b - (1 - p)) / b if b > 0 else 0
+                kelly = max(0.02, min(0.12, raw * 0.25))
+
             sig = {
                 "ticker":           o.ticker,
                 "action":           o.action,
@@ -61,7 +69,7 @@ def export_to_dashboard(
                 "confidence":       round(o.confidence, 3),
                 "score":            round(o.score, 4),
                 "risk_reward":      round(o.risk_reward, 2) if o.risk_reward else None,
-                "kelly_position":   round(o.kelly_position, 3) if o.kelly_position else None,
+                "kelly_position":   round(kelly, 3),
                 "cpa_alpha":        round(o.cpa_alpha, 4) if o.cpa_alpha else None,
                 "ml_proba_up":      round(o.ml_proba_up, 3) if o.ml_proba_up else None,
                 "sector":           o.sector or "—",

@@ -191,7 +191,7 @@ function buildRow(s, num) {
       </div>
     </td>
     <td class="td-rr ${rrCls}">${s.risk_reward.toFixed(1)}x</td>
-    <td class="td-alloc">${Math.round((s.kelly_position || 0) * 100)}%</td>
+    <td class="td-alloc">${Math.round((s.kelly_position || computeKellyFallback(s)) * 100)}%</td>
     <td class="td-time">${time}</td>
     <td class="td-info"><button class="info-btn" title="Détails">🔍</button></td>
   </tr>`;
@@ -409,6 +409,14 @@ function fmt(n) {
   if (n == null) return '—';
   if (n >= 1000) return n.toLocaleString('fr-FR', { minimumFractionDigits: 2, maximumFractionDigits: 2 });
   return n.toFixed(2);
+}
+
+// Fallback quart-Kelly si le bot n'a pas fourni d'allocation
+function computeKellyFallback(s) {
+  const p = s.confidence || 0.5;
+  const b = s.risk_reward || 2.0;
+  const raw = b > 0 ? (p * b - (1 - p)) / b : 0;
+  return Math.max(0.02, Math.min(0.12, raw * 0.25));
 }
 
 // ---- Embedded Demo (fallback) ----
