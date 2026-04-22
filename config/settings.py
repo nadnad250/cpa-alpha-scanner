@@ -13,20 +13,19 @@ UNIVERSES = [
     "CRYPTO",                 # BTC, ETH, SOL, etc.
 ]
 
-# === Seuils "EDGE PRO" — ultra-sélectifs pour win rate élevé ===
-PREMIUM_MIN_SCORE      = 0.45     # score composé |.| > 0.45 (était 0.35)
-PREMIUM_MIN_CONFIDENCE = 0.72     # confiance > 72% (était 65%)
-PREMIUM_MIN_RR         = 2.5      # risk/reward >= 2.5x (était 2.0)
-TOP_PER_UNIVERSE       = 3        # max 3 BUY + 3 SELL par univers (qualité > quantité)
-MAX_GLOBAL_ALERTS      = 8        # max 8 alertes flash globales/cycle (était 10)
+# === Seuils "EDGE PRO" — sélectifs mais réalistes ===
+PREMIUM_MIN_SCORE      = 0.40     # score composé |.| > 0.40 (compromis qualité/volume)
+PREMIUM_MIN_CONFIDENCE = 0.66     # confiance > 66%
+PREMIUM_MIN_RR         = 2.2      # risk/reward >= 2.2x
+TOP_PER_UNIVERSE       = 4        # max 4 BUY + 4 SELL par univers
+MAX_GLOBAL_ALERTS      = 10       # max 10 alertes flash globales/cycle
 
-# === Filtres de qualité supplémentaires ===
-MIN_ML_AGREEMENT       = 0.70     # La proba ML doit confirmer fortement la direction
-MIN_VOLUME_RATIO       = 0.8      # Volume récent / moyenne ≥ 0.8 (évite illiquide)
-MAX_VOLATILITY         = 0.80     # Volatilité annuelle max 80% (évite meme stocks)
-TREND_ALIGNMENT        = True     # Signal doit être aligné avec la tendance MM200
-REGIME_FILTER          = True     # Rejette les signaux en régime défavorable
-CORRELATION_MAX        = 0.85     # Évite 2 signaux trop corrélés (>85%)
+# === Filtres de qualité (soft — n'éliminent plus, juste pénalisent score) ===
+MIN_VOLUME_RATIO       = 0.5      # Relaxé pour futures/crypto
+MAX_VOLATILITY         = 1.20     # Crypto peut monter à ~100-120% vol annuelle
+TREND_ALIGNMENT        = False    # Désactivé — MM200 trop contraignant pour commodités
+REGIME_FILTER          = True
+CORRELATION_MAX        = 0.85
 
 # Poids CPA ajustés par type d'actif (futures/crypto = plus technique, moins fondamental)
 CPA_WEIGHTS_STOCKS     = (0.35, 0.25, 0.20, 0.20)  # Value, Factor, MeanRev, InfoFlow

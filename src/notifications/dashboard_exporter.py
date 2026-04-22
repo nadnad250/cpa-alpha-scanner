@@ -121,6 +121,15 @@ def export_to_dashboard(
             }
             signals.append(sig)
 
+        # Préserve les signaux ouverts existants qui n'ont pas été regénérés ce scan
+        # (tant qu'ils n'ont pas hit TP/SL, ils restent valides)
+        new_keys = {(s["ticker"], s["action"]) for s in signals}
+        for key, old_sig in existing_open_by_key.items():
+            if key not in new_keys:
+                # Marquer last_seen pour savoir depuis quand on ne l'a pas reconfirmé
+                old_sig["last_seen"] = old_sig.get("last_seen", now.isoformat())
+                signals.append(old_sig)
+
         # Ajoute les clôturés récents après les ouverts (pour historique visible)
         all_signals = signals + closed_history
 

@@ -123,11 +123,11 @@ class OpportunityDetector:
         if abs(final_score) < self.min_score or confidence < self.min_confidence:
             return None
 
-        # COHÉRENCE ML : rejeter les signaux contradictoires (durci pour edge-pro)
-        if final_score > 0 and ml_proba_up < 0.55:
-            return None  # BUY rejeté si ML pas clairement bullish
-        if final_score < 0 and ml_proba_up > 0.45:
-            return None  # SELL rejeté si ML pas clairement bearish
+        # COHÉRENCE ML : rejeter les signaux contradictoires (équilibré)
+        if final_score > 0 and ml_proba_up < 0.48:
+            return None  # BUY rejeté si ML nettement bearish
+        if final_score < 0 and ml_proba_up > 0.52:
+            return None  # SELL rejeté si ML nettement bullish
 
         # FILTRE TENDANCE MM200 : rejeter les signaux contre-tendance
         try:
