@@ -2,7 +2,9 @@ name: AlphaForge Bot
 
 on:
   schedule:
-    - cron: "0 6,10,14,18 * * 1-5"
+    # Heures NY : 09:30, 11:00, 13:30, 15:30 (UTC : 13:30, 15:00, 17:30, 19:30)
+    - cron: "30 13,17,19 * * 1-5"
+    - cron: "0 15 * * 1-5"
   workflow_dispatch:
     inputs:
       mode:
@@ -14,12 +16,17 @@ on:
           - once
           - demo
 
+permissions:
+  contents: write   # nécessaire pour commit signals.json
+
 jobs:
   scan:
     runs-on: ubuntu-latest
     timeout-minutes: 45
     steps:
       - uses: actions/checkout@v4
+        with:
+          token: ${{ secrets.GITHUB_TOKEN }}
 
       - uses: actions/setup-python@v5
         with:
@@ -32,19 +39,32 @@ jobs:
           pip install -r requirements.txt
 
       - name: Prepare dirs
-        run: mkdir -p data/cache data/reports
+        run: mkdir -p data/cache data/reports data/signals dashboard/data
 
       - name: Run bot
         env:
           TELEGRAM_BOT_TOKEN: ${{ secrets.TELEGRAM_BOT_TOKEN }}
           TELEGRAM_CHAT_ID: ${{ secrets.TELEGRAM_CHAT_ID }}
           RISK_FREE_RATE: "0.045"
+          DASHBOARD_PATH: "./dashboard/data/signals.json"
           MODE: ${{ github.event.inputs.mode || 'once' }}
         run: |
           if [ "$MODE" = "demo" ]; then
             python bot_loop.py --once --demo
           else
             python bot_loop.py --once
+          fi
+
+      - name: Commit dashboard data
+        run: |
+          git config user.name  "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add dashboard/data/signals.json data/signals/ || true
+          if git diff --staged --quiet; then
+            echo "Pas de changement à committer"
+          else
+            git commit -m "chore(bot): update signals $(date -u +'%Y-%m-%d %H:%M UTC')"
+            git push
           fi
 
       - name: Upload reports
@@ -54,5 +74,3 @@ jobs:
           name: reports-${{ github.run_number }}
           path: data/reports/
           retention-days: 30
-
-# trigger

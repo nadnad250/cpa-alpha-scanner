@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Connexion — CPA Alpha Scanner</title>
+  <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>⚡</text></svg>">
+  <link rel="stylesheet" href="assets/css/landing.css">
+  <style>
+    body { display:flex; align-items:center; justify-content:center; min-height:100vh; }
+    body::before { content:''; position:fixed; inset:0; background:radial-gradient(ellipse 70% 60% at 50% 40%,rgba(59,130,246,.08),transparent); pointer-events:none; }
+    .login-wrap { width:100%; max-width:440px; padding:24px; }
+    .login-card {
+      background:rgba(17,24,39,.95);
+      border:1px solid #1e2d45;
+      border-radius:20px;
+      padding:40px;
+      box-shadow:0 24px 80px rgba(0,0,0,.5);
+      backdrop-filter:blur(16px);
+    }
+    .login-logo { text-align:center; margin-bottom:32px; }
+    .login-logo-icon { width:60px;height:60px;background:linear-gradient(135deg,#3b82f6,#8b5cf6);border-radius:16px;display:inline-flex;align-items:center;justify-content:center;font-size:28px;margin-bottom:14px;box-shadow:0 0 30px rgba(59,130,246,.4); }
+    .login-logo h1 { font-size:20px;font-weight:800; }
+    .login-logo p { font-size:12px;color:#4a5568;margin-top:4px; }
+    .divider { height:1px;background:#1e2d45;margin:24px 0;position:relative; }
+    .divider::after { content:'ou';position:absolute;left:50%;top:-9px;transform:translateX(-50%);background:#111827;padding:0 10px;font-size:11px;color:#4a5568; }
+    .btn-google-big {
+      display:flex;align-items:center;justify-content:center;gap:12px;
+      width:100%;padding:14px 20px;border-radius:12px;
+      background:#fff;color:#1a1a1a;font-size:15px;font-weight:600;
+      border:none;cursor:pointer;transition:all .2s;
+      font-family:'Inter',sans-serif;
+    }
+    .btn-google-big:hover { background:#f5f5f5; transform:translateY(-1px); box-shadow:0 8px 20px rgba(0,0,0,.3); }
+    .btn-google-big img { width:20px;height:20px; }
+    .login-perks { display:flex;flex-direction:column;gap:10px;margin-bottom:28px; }
+    .perk { display:flex;align-items:center;gap:10px;font-size:13px;color:#94a3b8; }
+    .perk-icon { font-size:16px; }
+    .ref-input-wrap { margin-top:20px; }
+    .ref-input-wrap label { display:block;font-size:12px;color:#4a5568;margin-bottom:6px; }
+    .ref-input {
+      width:100%;padding:10px 14px;border-radius:9px;
+      background:#0c1220;border:1px solid #1e2d45;
+      color:#94a3b8;font-size:13px;outline:none;
+      font-family:'Inter',sans-serif;transition:border-color .2s;
+    }
+    .ref-input:focus { border-color:#3b82f6; color:#e2e8f0; }
+    .login-note { text-align:center;font-size:11px;color:#4a5568;margin-top:20px;line-height:1.6; }
+    .login-note a { color:#3b82f6; }
+    .error-msg { display:none;background:rgba(239,68,68,.1);border:1px solid rgba(239,68,68,.3);color:#f87171;padding:10px 14px;border-radius:9px;font-size:12px;margin-bottom:16px; }
+    .spinner { display:none;width:20px;height:20px;border:2px solid rgba(255,255,255,.2);border-top-color:#fff;border-radius:50%;animation:spin .6s linear infinite; }
+    @keyframes spin{to{transform:rotate(360deg)}}
+  </style>
+</head>
+<body>
+  <div class="login-wrap">
+    <div class="login-card">
+      <div class="login-logo">
+        <div class="login-logo-icon">⚡</div>
+        <h1>CPA Alpha Scanner</h1>
+        <p>Trading Algorithmique • Accès Gratuit</p>
+      </div>
+
+      <div class="login-perks">
+        <div class="perk"><span class="perk-icon">📊</span><span><strong>15+ signaux</strong> par jour sur NASDAQ &amp; S&P 500</span></div>
+        <div class="perk"><span class="perk-icon">🎯</span><span>Win rate <strong style="color:#34d399">78%</strong> — R/R moyen <strong>2.7x</strong></span></div>
+        <div class="perk"><span class="perk-icon">🎁</span><span><strong>50 crédits gratuits</strong> offerts à l'inscription</span></div>
+        <div class="perk"><span class="perk-icon">🤝</span><span>Parrainage = <strong style="color:#34d399">30 jours Premium</strong> gratuits</span></div>
+      </div>
+
+      <div class="error-msg" id="error-msg">Une erreur est survenue. Veuillez réessayer.</div>
+
+      <button class="btn-google-big" id="google-btn">
+        <img src="https://www.google.com/favicon.ico" alt="G">
+        <span id="btn-text">Continuer avec Google</span>
+        <div class="spinner" id="btn-spinner"></div>
+      </button>
+
+      <div class="ref-input-wrap">
+        <label for="ref-input">Code de parrainage (optionnel)</label>
+        <input type="text" id="ref-input" class="ref-input" placeholder="Ex: CPA-A1B2C3" autocomplete="off">
+      </div>
+
+      <p class="login-note">
+        En vous connectant, vous acceptez nos <a href="#">Conditions</a> et notre <a href="#">Politique de confidentialité</a>.<br>
+        Vos données ne sont jamais partagées ou vendues.
+      </p>
+    </div>
+
+    <p style="text-align:center;margin-top:16px;font-size:12px;color:#4a5568">
+      <a href="index.html" style="color:#3b82f6">← Retour à l'accueil</a>
+    </p>
+  </div>
+
+  <script type="module">
+    // ---- Récupère le code de parrainage depuis l'URL ----
+    const urlParams = new URLSearchParams(window.location.search);
+    const refFromUrl = urlParams.get('ref');
+    if (refFromUrl) {
+      document.getElementById('ref-input').value = refFromUrl;
+    }
+
+    document.getElementById('google-btn').addEventListener('click', async () => {
+      const btn = document.getElementById('google-btn');
+      const txt = document.getElementById('btn-text');
+      const spin = document.getElementById('btn-spinner');
+      const err  = document.getElementById('error-msg');
+      const refCode = document.getElementById('ref-input').value.trim().toUpperCase() || null;
+
+      btn.disabled = true;
+      txt.textContent = 'Connexion en cours…';
+      spin.style.display = 'block';
+      err.style.display = 'none';
+
+      try {
+        // ---- DEMO MODE (Firebase non configuré) ----
+        // Simule une connexion et redirige vers le dashboard
+        const demoUser = {
+          uid: 'demo_' + Math.random().toString(36).substr(2,8),
+          email: 'demo@cpaalpha.app',
+          name: 'Trader Demo',
+          credits: 50,
+          premiumDays: 0,
+          refCode: 'CPA-DEMO01',
+          referrals: 0,
+          tier: 'free',
+          joinedAt: new Date().toISOString()
+        };
+        localStorage.setItem('cpa_user', JSON.stringify(demoUser));
+
+        // En production avec Firebase, importer loginWithGoogle depuis auth.js :
+        // const { loginWithGoogle } = await import('./assets/js/auth.js');
+        // await loginWithGoogle(refCode);
+
+        // Redirection vers le dashboard
+        setTimeout(() => { window.location.href = 'dashboard.html'; }, 800);
+
+      } catch (e) {
+        btn.disabled = false;
+        txt.textContent = 'Continuer avec Google';
+        spin.style.display = 'none';
+        err.style.display = 'block';
+        err.textContent = 'Erreur : ' + (e.message || 'Veuillez réessayer.');
+      }
+    });
+  </script>
+</body>
+</html>

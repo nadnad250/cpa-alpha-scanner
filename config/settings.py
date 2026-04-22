@@ -49,3 +49,9 @@ ALPHA_THRESHOLD = 0.05  # seuil minimum alpha (5%)
 # === Données ===
 DATA_PERIOD = "3y"       # période historique yfinance
 CACHE_DIR = "data/cache"
+
+# === Dashboard Web ===
+# Chemin vers le fichier signals.json du dashboard web.
+# Laisser vide ("") pour utiliser le chemin automatique (../vitrine  2/dashboard/data/signals.json)
+# Ou définir DASHBOARD_PATH dans .env.local pour personnaliser.
+DASHBOARD_PATH = os.getenv("DASHBOARD_PATH", "")

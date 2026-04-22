@@ -1,0 +1,307 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>CPA Alpha Scanner — Dashboard</title>
+  <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>⚡</text></svg>">
+  <link rel="stylesheet" href="assets/css/style.css">
+</head>
+<body>
+
+  <!-- ===================== NAVBAR ===================== -->
+  <nav class="navbar">
+    <div class="nav-brand">
+      <div class="brand-icon">⚡</div>
+      <div class="brand-text">
+        <span class="brand-name">CPA Alpha Scanner</span>
+        <span class="brand-sub">Trading Intelligence</span>
+      </div>
+    </div>
+
+    <div class="nav-tickers">
+      <div class="ticker-item">
+        <span class="ti-name">NASDAQ</span>
+        <span class="ti-val">17 832</span>
+        <span class="ti-chg up">+0.84%</span>
+      </div>
+      <div class="ticker-item">
+        <span class="ti-name">S&P 500</span>
+        <span class="ti-val">5 248</span>
+        <span class="ti-chg up">+0.62%</span>
+      </div>
+      <div class="ticker-item">
+        <span class="ti-name">DOW</span>
+        <span class="ti-val">38 904</span>
+        <span class="ti-chg down">−0.18%</span>
+      </div>
+      <div class="ticker-item">
+        <span class="ti-name">VIX</span>
+        <span class="ti-val">15.42</span>
+        <span class="ti-chg down">−2.1%</span>
+      </div>
+    </div>
+
+    <div class="nav-right">
+      <div class="live-pill">
+        <div class="live-dot"></div>
+        <span>LIVE</span>
+      </div>
+      <div class="clock-wrap">
+        <div class="clock-time" id="clock-time">--:--:--</div>
+        <div class="clock-date" id="clock-date">--- -- ----</div>
+      </div>
+      <div class="mkt-status open" id="market-status">
+        <div class="mkt-status-dot"></div>
+        <span id="status-text">Ouvert</span>
+      </div>
+    </div>
+  </nav>
+
+  <!-- ===================== STATS BAR ===================== -->
+  <section class="stats-bar">
+    <div class="stat-card">
+      <span class="stat-icon">📊</span>
+      <div class="stat-info">
+        <div class="stat-val blue" id="stat-total">—</div>
+        <div class="stat-lbl">Signaux du Jour</div>
+      </div>
+    </div>
+    <div class="stat-card">
+      <span class="stat-icon">🎯</span>
+      <div class="stat-info">
+        <div class="stat-val green" id="stat-winrate">—</div>
+        <div class="stat-lbl">Win Rate</div>
+      </div>
+    </div>
+    <div class="stat-card">
+      <span class="stat-icon">💡</span>
+      <div class="stat-info">
+        <div class="stat-val" id="stat-confidence">—</div>
+        <div class="stat-lbl">Confiance Moy.</div>
+      </div>
+    </div>
+    <div class="stat-card">
+      <span class="stat-icon">⚖️</span>
+      <div class="stat-info">
+        <div class="stat-val gold" id="stat-rr">—</div>
+        <div class="stat-lbl">R/R Moyen</div>
+      </div>
+    </div>
+    <div class="stat-card">
+      <span class="stat-icon">📈</span>
+      <div class="stat-info">
+        <div class="stat-val" id="stat-active">—</div>
+        <div class="stat-lbl">Positions Actives</div>
+      </div>
+    </div>
+    <div class="stat-card">
+      <span class="stat-icon">💰</span>
+      <div class="stat-info">
+        <div class="stat-val green" id="stat-pnl">—</div>
+        <div class="stat-lbl">P&amp;L Jour</div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===================== PAGE BODY ===================== -->
+  <div class="page-body">
+
+    <!-- ======= LEFT: SIGNALS PANEL ======= -->
+    <section class="signals-panel">
+      <div class="panel-head">
+        <div class="panel-title">
+          <h2>📡 Signaux Actifs</h2>
+          <span class="signal-badge" id="signal-badge">— signaux</span>
+        </div>
+        <div class="panel-controls">
+          <div class="search-wrap">
+            <span class="search-icon">🔍</span>
+            <input type="text" id="search-input" placeholder="Ticker, secteur…" autocomplete="off">
+          </div>
+          <div class="filter-group">
+            <button class="fbtn active" data-filter="all">Tous</button>
+            <button class="fbtn" data-filter="BUY">📈 Achat</button>
+            <button class="fbtn" data-filter="SELL">📉 Vente</button>
+          </div>
+          <select class="univ-select" id="univ-filter">
+            <option value="all">Tous marchés</option>
+            <option value="NASDAQ100">NASDAQ 100</option>
+            <option value="SP500">S&P 500</option>
+            <option value="DOW30">DOW 30</option>
+          </select>
+          <button id="refresh-btn" title="Actualiser" class="fbtn" style="font-size:16px;padding:6px 10px;">⟳</button>
+        </div>
+      </div>
+
+      <div class="table-wrap">
+        <table class="signals-table">
+          <thead>
+            <tr>
+              <th>#</th>
+              <th>TICKER</th>
+              <th>ACTION</th>
+              <th>PRIX</th>
+              <th>TAKE PROFIT</th>
+              <th>STOP LOSS</th>
+              <th>POTENTIEL</th>
+              <th>CONFIANCE</th>
+              <th>R/R</th>
+              <th>ALLOC.</th>
+              <th>HEURE</th>
+              <th>ℹ</th>
+            </tr>
+          </thead>
+          <tbody id="signals-tbody">
+            <tr><td colspan="12">
+              <div class="empty-state">
+                <div class="es-icon">⏳</div>
+                <div class="es-text">Chargement des signaux…</div>
+              </div>
+            </td></tr>
+          </tbody>
+        </table>
+      </div>
+    </section>
+
+    <!-- ======= RIGHT: SIDE PANEL ======= -->
+    <aside class="side-panel">
+
+      <!-- EOD Tracker -->
+      <div class="card">
+        <div class="card-head">
+          <h3>📅 Bilan du Jour</h3>
+          <span class="card-meta" id="eod-date"></span>
+        </div>
+        <div class="card-body">
+          <div class="eod-row">
+            <div class="eod-stat">
+              <div class="eod-val green" id="eod-won">—</div>
+              <div class="eod-lbl">TP Atteints</div>
+            </div>
+            <div class="eod-stat">
+              <div class="eod-val red" id="eod-lost">—</div>
+              <div class="eod-lbl">SL Touchés</div>
+            </div>
+            <div class="eod-stat">
+              <div class="eod-val grey" id="eod-open">—</div>
+              <div class="eod-lbl">En Cours</div>
+            </div>
+          </div>
+          <div class="prog-wrap">
+            <div class="prog-label">
+              <span>Taux de réussite</span>
+              <span class="prog-val" id="eod-rate" style="color:var(--buy-light)">—</span>
+            </div>
+            <div class="prog-track">
+              <div class="prog-fill" id="eod-bar" style="width:0%"></div>
+            </div>
+          </div>
+          <div class="eod-pnl-row">
+            <span class="eod-pnl-label">P&amp;L Cumulé</span>
+            <span class="eod-pnl-val green" id="eod-cumulative">—</span>
+          </div>
+        </div>
+      </div>
+
+      <!-- Best Signal -->
+      <div class="card">
+        <div class="card-head">
+          <h3>🏆 Meilleur Signal</h3>
+        </div>
+        <div class="card-body" id="best-signal-body">
+          <div class="empty-state" style="padding:20px">
+            <div class="es-icon">⏳</div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Top 6 by confidence -->
+      <div class="card">
+        <div class="card-head">
+          <h3>⭐ Top Signaux</h3>
+          <span class="card-meta">Par confiance</span>
+        </div>
+        <ul class="top-list" id="top-list"></ul>
+      </div>
+
+      <!-- Sector breakdown -->
+      <div class="card">
+        <div class="card-head">
+          <h3>🏭 Par Secteur</h3>
+        </div>
+        <div class="sector-inner" id="sector-bars"></div>
+      </div>
+
+    </aside>
+  </div><!-- /page-body -->
+
+  <!-- ===================== MODAL ===================== -->
+  <div class="modal-overlay" id="modal-overlay">
+    <div class="modal">
+      <div class="modal-top">
+        <div>
+          <div class="modal-ticker-big" id="modal-ticker">—</div>
+          <div style="font-size:11px;color:var(--text3);margin-top:3px" id="modal-universe">—</div>
+        </div>
+        <div class="modal-action-big" id="modal-action-big"></div>
+        <button class="modal-close" id="modal-close">✕</button>
+      </div>
+
+      <div class="modal-content">
+        <div class="modal-grid">
+          <!-- Prix & Cibles -->
+          <div class="modal-block">
+            <div class="modal-block-title">📊 Prix &amp; Cibles</div>
+            <div class="modal-row"><span>Prix actuel</span><span id="md-price">—</span></div>
+            <div class="modal-row"><span>Take Profit</span><span id="md-tp" style="color:var(--buy-light)">—</span></div>
+            <div class="modal-row"><span>Stop Loss</span><span id="md-sl" style="color:var(--sell-light)">—</span></div>
+            <div class="modal-row"><span>Valeur Intrinsèque</span><span id="md-intrinsic" style="color:var(--gold)">—</span></div>
+            <div class="modal-row"><span>Potentiel</span><span id="md-upside">—</span></div>
+          </div>
+          <!-- Signal -->
+          <div class="modal-block">
+            <div class="modal-block-title">🎯 Analyse Signal</div>
+            <div class="modal-row"><span>Score CPA</span><span id="md-cpa">—</span></div>
+            <div class="modal-row"><span>Score Global</span><span id="md-score">—</span></div>
+            <div class="modal-row"><span>Confiance</span><span id="md-confidence">—</span></div>
+            <div class="modal-row"><span>Risk / Reward</span><span id="md-rr">—</span></div>
+            <div class="modal-row"><span>ML Prob. Hausse</span><span id="md-ml">—</span></div>
+            <div class="modal-row"><span>Allocation Kelly</span><span id="md-kelly">—</span></div>
+            <div class="modal-row"><span>Statut</span><span id="md-status">—</span></div>
+          </div>
+        </div>
+
+        <!-- CPA Components -->
+        <div class="modal-block full">
+          <div class="modal-block-title">🧮 Décomposition CPA Alpha</div>
+          <div class="cpa-components" id="md-cpa-components"></div>
+        </div>
+
+        <!-- Reason -->
+        <div class="modal-block full">
+          <div class="modal-block-title">💡 Raison Principale</div>
+          <div class="modal-reason" id="md-reason">—</div>
+        </div>
+
+        <!-- News -->
+        <div class="modal-block full" id="md-news-block">
+          <div class="modal-block-title">📰 Dernière Actualité</div>
+          <div class="modal-news" id="md-news">—</div>
+        </div>
+
+        <!-- Risk flags -->
+        <div class="modal-block full" id="md-risk-block">
+          <div class="modal-block-title">⚠️ Risques Identifiés</div>
+          <div id="md-risks"></div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Toast -->
+  <div class="toast hidden" id="toast"></div>
+
+  <script src="assets/js/app.js"></script>
+</body>
+</html>

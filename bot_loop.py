@@ -28,6 +28,7 @@ from src.agents.scanner_agent import ScannerAgent
 from src.notifications.telegram_bot import TelegramNotifier
 from src.notifications.pro_messages import ProMessageBuilder
 from src.tracking.signal_tracker import SignalTracker, TrackedSignal
+from src.notifications.dashboard_exporter import export_to_dashboard
 
 logging.basicConfig(
     level=logging.INFO,
@@ -143,6 +144,15 @@ class AlphaForgeBot:
             ]
             self.tracker.save_batch(tracked)
             logger.info(f"💾 {len(tracked)} signaux tracés")
+
+        # ── Export vers le dashboard web ──────────────────────────
+        from config.settings import DASHBOARD_PATH
+        export_to_dashboard(
+            opportunities=actionable if actionable else premium,
+            tracker=self.tracker,
+            dashboard_path=DASHBOARD_PATH or None,
+        )
+        # ──────────────────────────────────────────────────────────
 
         # Résumé avec stats tracker
         self._send(self.msg.market_summary(

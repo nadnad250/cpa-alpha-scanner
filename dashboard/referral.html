@@ -1,0 +1,279 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Parrainage &amp; Crédits — CPA Alpha Scanner</title>
+  <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>⚡</text></svg>">
+  <link rel="stylesheet" href="assets/css/style.css">
+  <style>
+    .ref-page { max-width: 900px; margin: calc(64px + 20px) auto 40px; padding: 0 24px; display: flex; flex-direction: column; gap: 20px; }
+    .profile-card { background:var(--card); border:1px solid var(--border); border-radius:var(--r-lg); padding:28px; display:flex; align-items:center; gap:24px; }
+    .profile-avatar { width:64px;height:64px;border-radius:50%;background:linear-gradient(135deg,#3b82f6,#8b5cf6);display:flex;align-items:center;justify-content:center;font-size:26px;font-weight:800;color:#fff;flex-shrink:0; }
+    .profile-info h2 { font-size:18px;font-weight:800; }
+    .profile-info p { font-size:12px;color:var(--text3);margin-top:3px; }
+    .profile-badges { display:flex;gap:8px;margin-top:10px;flex-wrap:wrap; }
+    .tier-pill { display:inline-flex;align-items:center;gap:5px;padding:3px 12px;border-radius:20px;font-size:11px;font-weight:700; }
+    .tier-free   { background:rgba(59,130,246,.12); color:var(--accent); border:1px solid rgba(59,130,246,.3); }
+    .tier-bronze { background:rgba(180,83,9,.12); color:#b45309; border:1px solid rgba(180,83,9,.3); }
+    .tier-silver { background:rgba(148,163,184,.12); color:#94a3b8; border:1px solid rgba(148,163,184,.3); }
+    .tier-gold   { background:rgba(245,158,11,.12); color:var(--gold); border:1px solid rgba(245,158,11,.3); }
+    .credits-pill { background:rgba(16,185,129,.12); color:var(--buy-light); border:1px solid rgba(16,185,129,.3); }
+
+    .ref-card { background:var(--card); border:1px solid var(--border); border-radius:var(--r-lg); padding:28px; }
+    .ref-card h3 { font-size:15px;font-weight:700;margin-bottom:6px; }
+    .ref-card p.sub { font-size:12px;color:var(--text3);margin-bottom:20px; }
+    .ref-link-box { display:flex;gap:8px; }
+    .ref-link-input { flex:1;background:var(--bg3);border:1px solid var(--border);border-radius:9px;padding:11px 14px;color:var(--buy-light);font-family:var(--mono);font-size:13px;font-weight:600;outline:none;cursor:pointer; }
+    .copy-btn { background:var(--accent);color:#fff;border:none;border-radius:9px;padding:11px 20px;font-size:13px;font-weight:600;cursor:pointer;font-family:var(--font);transition:all .2s;white-space:nowrap; }
+    .copy-btn:hover { background:#2563eb; }
+    .share-btns { display:flex;gap:10px;margin-top:12px;flex-wrap:wrap; }
+    .share-btn { display:inline-flex;align-items:center;gap:7px;padding:8px 16px;border-radius:8px;font-size:12px;font-weight:600;cursor:pointer;border:none;transition:all .2s;font-family:var(--font); }
+    .share-tg { background:rgba(0,136,204,.15);color:#0088cc;border:1px solid rgba(0,136,204,.3); }
+    .share-wa { background:rgba(37,211,102,.15);color:#25d366;border:1px solid rgba(37,211,102,.3); }
+    .share-tw { background:rgba(29,161,242,.15);color:#1da1f2;border:1px solid rgba(29,161,242,.3); }
+    .share-cp { background:var(--bg3);color:var(--text2);border:1px solid var(--border); }
+
+    .stats-mini { display:grid;grid-template-columns:repeat(3,1fr);gap:12px;margin-top:20px; }
+    .stat-mini { background:var(--bg3);border:1px solid var(--border);border-radius:var(--r);padding:14px;text-align:center; }
+    .stat-mini-val { font-family:var(--mono);font-size:24px;font-weight:800;line-height:1;color:var(--buy-light); }
+    .stat-mini-lbl { font-size:10px;color:var(--text3);margin-top:4px;text-transform:uppercase;letter-spacing:.6px; }
+
+    .tier-progress { display:flex;flex-direction:column;gap:14px; }
+    .tier-row { display:flex;align-items:center;gap:14px; }
+    .tier-icon-big { font-size:28px;width:44px;text-align:center; }
+    .tier-bar-wrap { flex:1; }
+    .tier-bar-head { display:flex;justify-content:space-between;font-size:11px;margin-bottom:5px; }
+    .tier-bar-name { font-weight:700; }
+    .tier-bar-req  { color:var(--text3); }
+    .tier-bar-track { height:6px;background:var(--bg3);border-radius:3px;overflow:hidden; }
+    .tier-bar-fill  { height:100%;border-radius:3px;background:linear-gradient(90deg,var(--accent),#8b5cf6); }
+    .tier-reward-tag { background:var(--bg2);border:1px solid var(--border);border-radius:6px;padding:4px 10px;font-size:11px;color:var(--text2);white-space:nowrap; }
+
+    .history-table { width:100%;border-collapse:collapse; }
+    .history-table thead th { padding:8px 12px;text-align:left;font-size:10px;color:var(--text3);font-weight:600;text-transform:uppercase;letter-spacing:1px;border-bottom:1px solid var(--border); }
+    .history-table tbody td { padding:10px 12px;font-size:12px;border-bottom:1px solid var(--border); }
+    .history-table tbody tr:last-child td { border-bottom:none; }
+    .history-table tbody tr:hover { background:var(--card2); }
+    .hist-credit { color:var(--buy-light);font-family:var(--mono);font-weight:600; }
+    .hist-debit  { color:var(--sell-light);font-family:var(--mono);font-weight:600; }
+  </style>
+</head>
+<body>
+
+  <!-- NAVBAR minimal -->
+  <nav class="navbar">
+    <div class="nav-brand">
+      <div class="brand-icon">⚡</div>
+      <div class="brand-text">
+        <span class="brand-name">CPA Alpha Scanner</span>
+        <span class="brand-sub">Parrainage &amp; Crédits</span>
+      </div>
+    </div>
+    <div class="nav-right">
+      <a href="dashboard.html" class="fbtn" style="background:var(--bg3);border:1px solid var(--border);color:var(--text2);padding:7px 14px;border-radius:7px;font-size:12px;font-weight:500">📊 Dashboard</a>
+      <a href="index.html" class="fbtn" style="background:var(--bg3);border:1px solid var(--border);color:var(--text2);padding:7px 14px;border-radius:7px;font-size:12px;font-weight:500">🏠 Accueil</a>
+      <button id="logout-btn" style="background:transparent;border:1px solid var(--border);color:var(--text3);padding:7px 14px;border-radius:7px;font-size:12px;cursor:pointer">Déconnexion</button>
+    </div>
+  </nav>
+
+  <div class="ref-page">
+
+    <!-- PROFIL -->
+    <div class="profile-card" id="profile-card">
+      <div class="profile-avatar" id="avatar-txt">?</div>
+      <div class="profile-info">
+        <h2 id="user-name">Chargement…</h2>
+        <p id="user-email">—</p>
+        <div class="profile-badges">
+          <span class="tier-pill tier-free" id="tier-badge">🔵 Free</span>
+          <span class="tier-pill credits-pill" id="credits-badge">💎 50 crédits</span>
+          <span class="tier-pill" style="background:rgba(245,158,11,.1);color:var(--gold);border:1px solid rgba(245,158,11,.3)" id="premium-badge">⭐ 0 jours Premium</span>
+        </div>
+      </div>
+    </div>
+
+    <!-- LIEN DE PARRAINAGE -->
+    <div class="ref-card">
+      <h3>🎁 Votre Lien de Parrainage</h3>
+      <p class="sub">Partagez ce lien — chaque inscription vous rapporte <strong style="color:var(--buy-light)">+30 jours Premium + 100 crédits</strong>.</p>
+      <div class="ref-link-box">
+        <input type="text" class="ref-link-input" id="ref-link-input" readonly value="Chargement…">
+        <button class="copy-btn" id="copy-btn">📋 Copier</button>
+      </div>
+      <div class="share-btns">
+        <button class="share-btn share-tg" id="share-tg">✈ Telegram</button>
+        <button class="share-btn share-wa" id="share-wa">💬 WhatsApp</button>
+        <button class="share-btn share-tw" id="share-tw">🐦 Twitter / X</button>
+        <button class="share-btn share-cp" id="share-code">📎 Copier le code seul</button>
+      </div>
+      <div class="stats-mini">
+        <div class="stat-mini">
+          <div class="stat-mini-val" id="stat-referrals">0</div>
+          <div class="stat-mini-lbl">Filleuls actifs</div>
+        </div>
+        <div class="stat-mini">
+          <div class="stat-mini-val" id="stat-credits">50</div>
+          <div class="stat-mini-lbl">Crédits totaux</div>
+        </div>
+        <div class="stat-mini">
+          <div class="stat-mini-val" id="stat-premium">0</div>
+          <div class="stat-mini-lbl">Jours Premium</div>
+        </div>
+      </div>
+    </div>
+
+    <!-- PROGRESSION TIERS -->
+    <div class="ref-card">
+      <h3>🏆 Votre Progression</h3>
+      <p class="sub">Atteignez les niveaux supérieurs en parrainant plus d'amis.</p>
+      <div class="tier-progress" id="tier-progress">
+        <!-- Rempli par JS -->
+      </div>
+    </div>
+
+    <!-- HISTORIQUE -->
+    <div class="ref-card">
+      <h3>📋 Historique des Crédits</h3>
+      <p class="sub">Toutes vos transactions de crédits et jours Premium.</p>
+      <table class="history-table">
+        <thead>
+          <tr>
+            <th>Date</th>
+            <th>Événement</th>
+            <th>Crédits</th>
+            <th>Jours Premium</th>
+          </tr>
+        </thead>
+        <tbody id="history-body">
+          <tr><td colspan="4" style="text-align:center;color:var(--text3);padding:20px">Aucune transaction pour l'instant.</td></tr>
+        </tbody>
+      </table>
+    </div>
+
+  </div>
+
+  <script>
+    const TIERS = [
+      { name: 'Bronze 🥉', req: 3,  reward: 'Signaux illimités',       color: '#b45309' },
+      { name: 'Silver 🥈', req: 10, reward: '+ Alertes Telegram',      color: '#94a3b8' },
+      { name: 'Gold 🥇',   req: 25, reward: '+ Rapport hebdo privé',   color: '#f59e0b' },
+    ];
+
+    function getUser() {
+      try { return JSON.parse(localStorage.getItem('cpa_user')); } catch { return null; }
+    }
+
+    function buildRefLink(refCode) {
+      const base = window.location.origin + window.location.pathname.replace('referral.html','');
+      return `${base}login.html?ref=${refCode}`;
+    }
+
+    function renderTierProgress(referrals) {
+      const el = document.getElementById('tier-progress');
+      el.innerHTML = TIERS.map(t => {
+        const pct = Math.min(100, Math.round((referrals / t.req) * 100));
+        const done = referrals >= t.req;
+        return `<div class="tier-row">
+          <div class="tier-icon-big">${done ? '✅' : '🔒'}</div>
+          <div class="tier-bar-wrap">
+            <div class="tier-bar-head">
+              <span class="tier-bar-name" style="color:${done ? t.color : 'var(--text2)'}">${t.name}</span>
+              <span class="tier-bar-req">${referrals}/${t.req} filleuls</span>
+            </div>
+            <div class="tier-bar-track">
+              <div class="tier-bar-fill" style="width:${pct}%;${done ? 'background:linear-gradient(90deg,'+t.color+','+t.color+'88)' : ''}"></div>
+            </div>
+          </div>
+          <div class="tier-reward-tag" style="${done ? 'border-color:'+t.color+';color:'+t.color : ''}">${t.reward}</div>
+        </div>`;
+      }).join('');
+    }
+
+    function getTierName(r) {
+      if (r >= 25) return { html: '🥇 Gold',   cls: 'tier-gold' };
+      if (r >= 10) return { html: '🥈 Silver', cls: 'tier-silver' };
+      if (r >=  3) return { html: '🥉 Bronze', cls: 'tier-bronze' };
+      return { html: '🔵 Free', cls: 'tier-free' };
+    }
+
+    function renderHistory(user) {
+      const tbody = document.getElementById('history-body');
+      const events = [
+        { date: user.joinedAt ? user.joinedAt.split('T')[0] : '—', event: '🎉 Inscription', credits: '+50', premium: '—' },
+      ];
+      if (user.referrals > 0) {
+        events.push({ date: '—', event: `🤝 ${user.referrals} parrainage(s)`, credits: '+' + (user.referrals * 100), premium: '+' + (user.referrals * 30) + ' jours' });
+      }
+      tbody.innerHTML = events.map(e => `
+        <tr>
+          <td style="color:var(--text3);font-family:var(--mono);font-size:11px">${e.date}</td>
+          <td>${e.event}</td>
+          <td class="hist-credit">${e.credits}</td>
+          <td style="color:var(--gold);font-family:var(--mono)">${e.premium}</td>
+        </tr>`).join('');
+    }
+
+    // ---- INIT ----
+    const user = getUser();
+    if (!user) { window.location.href = 'login.html'; }
+    else {
+      const refCode = user.refCode || ('CPA-' + (user.uid || 'DEMO01').substring(0,6).toUpperCase());
+      const refLink = buildRefLink(refCode);
+      const referrals = user.referrals || 0;
+      const credits = user.credits || 50;
+      const premiumDays = user.premiumDays || 0;
+      const tier = getTierName(referrals);
+      const initials = (user.name || 'T').charAt(0).toUpperCase();
+
+      document.getElementById('avatar-txt').textContent = initials;
+      document.getElementById('user-name').textContent = user.name || 'Trader';
+      document.getElementById('user-email').textContent = user.email || '—';
+      document.getElementById('tier-badge').textContent = tier.html;
+      document.getElementById('tier-badge').className = 'tier-pill ' + tier.cls;
+      document.getElementById('credits-badge').textContent = '💎 ' + credits + ' crédits';
+      document.getElementById('premium-badge').textContent = '⭐ ' + premiumDays + ' jours Premium';
+      document.getElementById('ref-link-input').value = refLink;
+      document.getElementById('stat-referrals').textContent = referrals;
+      document.getElementById('stat-credits').textContent = credits;
+      document.getElementById('stat-premium').textContent = premiumDays;
+
+      renderTierProgress(referrals);
+      renderHistory(user);
+
+      // Copier lien
+      document.getElementById('copy-btn').addEventListener('click', () => {
+        navigator.clipboard.writeText(refLink).then(() => {
+          document.getElementById('copy-btn').textContent = '✅ Copié !';
+          setTimeout(() => document.getElementById('copy-btn').textContent = '📋 Copier', 2000);
+        });
+      });
+
+      // Copier code seul
+      document.getElementById('share-code').addEventListener('click', () => {
+        navigator.clipboard.writeText(refCode).then(() => {
+          document.getElementById('share-code').textContent = '✅ Code copié';
+          setTimeout(() => document.getElementById('share-code').textContent = '📎 Copier le code seul', 2000);
+        });
+      });
+
+      const msg = encodeURIComponent(`🚀 J'utilise CPA Alpha Scanner pour des signaux de trading algorithmiques premium — 78% win rate ! Accès gratuit avec mon lien : ${refLink}`);
+
+      document.getElementById('share-tg').addEventListener('click', () => {
+        window.open(`https://t.me/share/url?url=${encodeURIComponent(refLink)}&text=${msg}`);
+      });
+      document.getElementById('share-wa').addEventListener('click', () => {
+        window.open(`https://wa.me/?text=${msg}`);
+      });
+      document.getElementById('share-tw').addEventListener('click', () => {
+        window.open(`https://twitter.com/intent/tweet?text=${msg}`);
+      });
+
+      document.getElementById('logout-btn').addEventListener('click', () => {
+        localStorage.removeItem('cpa_user');
+        window.location.href = 'login.html';
+      });
+    }
+  </script>
+</body>
+</html>
