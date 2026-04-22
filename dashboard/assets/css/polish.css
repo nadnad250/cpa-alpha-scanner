@@ -447,3 +447,139 @@ button:focus-visible, input:focus-visible, select:focus-visible, a:focus-visible
 :root {
   --purple: #a855f7;
 }
+
+/* =========================================================
+   LIVE PRICES + PROGRESSION BAR
+   ========================================================= */
+
+/* Cellule prix entrée/live stackée */
+.live-price-wrap {
+  display: flex;
+  flex-direction: column;
+  gap: 1px;
+  margin-top: 2px;
+}
+.live-price {
+  font-family: var(--mono);
+  font-weight: 700;
+  font-size: 12px;
+  animation: price-pulse 2s ease-in-out;
+}
+.live-chg {
+  font-family: var(--mono);
+  font-weight: 600;
+  font-size: 10px;
+}
+@keyframes price-pulse {
+  0%   { transform: scale(1); }
+  30%  { transform: scale(1.08); }
+  100% { transform: scale(1); }
+}
+
+/* Header colonne progression */
+th:nth-child(7) { min-width: 170px; }
+
+/* Progression bar */
+.prog-signal {
+  display: flex;
+  flex-direction: column;
+  gap: 3px;
+  min-width: 150px;
+}
+.prog-signal-bar {
+  position: relative;
+  height: 14px;
+  background: linear-gradient(90deg,
+    rgba(239,68,68,.15) 0%,
+    rgba(239,68,68,.08) 40%,
+    rgba(94,107,138,.15) 48%,
+    rgba(94,107,138,.15) 52%,
+    rgba(16,185,129,.08) 60%,
+    rgba(16,185,129,.15) 100%);
+  border-radius: 7px;
+  border: 1px solid var(--border);
+  overflow: hidden;
+}
+
+/* Labels SL / TP sur la barre */
+.prog-signal-sl {
+  position: absolute;
+  left: 4px;
+  top: 50%;
+  transform: translateY(-50%);
+  font-size: 8px;
+  font-weight: 700;
+  color: var(--sell-light);
+  letter-spacing: .5px;
+  pointer-events: none;
+}
+.prog-signal-tp {
+  position: absolute;
+  right: 4px;
+  top: 50%;
+  transform: translateY(-50%);
+  font-size: 8px;
+  font-weight: 700;
+  color: var(--buy-light);
+  letter-spacing: .5px;
+  pointer-events: none;
+}
+
+/* Trait vertical central = prix d'entrée */
+.prog-signal-entry {
+  position: absolute;
+  left: 50%;
+  top: 2px; bottom: 2px;
+  width: 2px;
+  background: rgba(255,255,255,.4);
+  border-radius: 1px;
+  transform: translateX(-50%);
+}
+
+/* Fill entre entry et position */
+.prog-signal-fill-up {
+  position: absolute;
+  left: 50%;
+  top: 0; bottom: 0;
+  background: linear-gradient(90deg, rgba(16,185,129,.3), rgba(16,185,129,.6));
+  transition: width .6s cubic-bezier(.4,0,.2,1);
+}
+.prog-signal-fill-down {
+  position: absolute;
+  right: 50%;
+  top: 0; bottom: 0;
+  background: linear-gradient(90deg, rgba(239,68,68,.6), rgba(239,68,68,.3));
+  transition: width .6s cubic-bezier(.4,0,.2,1);
+}
+
+/* Marker = position actuelle */
+.prog-signal-marker {
+  position: absolute;
+  top: 50%;
+  width: 12px;
+  height: 12px;
+  border-radius: 50%;
+  border: 2px solid var(--bg2);
+  transform: translate(-50%, -50%);
+  transition: left .6s cubic-bezier(.4,0,.2,1);
+  z-index: 2;
+  animation: marker-pulse 1.5s ease-in-out infinite;
+}
+@keyframes marker-pulse {
+  0%, 100% { transform: translate(-50%, -50%) scale(1); }
+  50%      { transform: translate(-50%, -50%) scale(1.2); }
+}
+
+/* Pourcentage progression sous la barre */
+.prog-signal-pct {
+  font-family: var(--mono);
+  font-size: 11px;
+  font-weight: 700;
+  text-align: center;
+}
+
+/* Prix cell layout */
+td.td-price {
+  font-size: 12px;
+  line-height: 1.3;
+}

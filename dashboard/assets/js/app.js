@@ -8,20 +8,88 @@ let filteredSignals = [];
 let activeFilter = 'all';
 let activeUniverse = 'all';
 let searchQuery = '';
+let livePrices = {};   // { ticker: { price, changePct, time } }
 
 // ---- Init ----
-document.addEventListener('DOMContentLoaded', () => {
+document.addEventListener('DOMContentLoaded', async () => {
   startClock();
   checkMarketStatus();
-  loadSignals();
+  await loadSignals();
+  await refreshLivePrices();
   bindControls();
   setInterval(checkMarketStatus, 60000);
-  // Auto-refresh toutes les 5 minutes (coïncide avec les cycles du bot)
-  setInterval(() => {
-    loadSignals();
-    showToast('🔄 Signaux actualisés automatiquement');
-  }, 5 * 60 * 1000);
+  // Auto-refresh signaux (fichier JSON) toutes les 5 min
+  setInterval(() => loadSignals(), 5 * 60 * 1000);
+  // Auto-refresh prix live toutes les 60 secondes
+  setInterval(() => refreshLivePrices(), 60 * 1000);
 });
+
+// ---- Fetch live prices (Yahoo Finance via CORS proxy) ----
+async function refreshLivePrices() {
+  if (!allSignals.length) return;
+  const tickers = [...new Set(allSignals.filter(s => s.status === 'open').map(s => s.ticker))];
+  if (!tickers.length) return;
+
+  // Batch via Yahoo v7 quote endpoint + corsproxy.io
+  try {
+    const symbols = tickers.join(',');
+    const yahooUrl = `https://query1.finance.yahoo.com/v7/finance/quote?symbols=${symbols}`;
+    const url = `https://corsproxy.io/?${encodeURIComponent(yahooUrl)}`;
+    const resp = await fetch(url, { cache: 'no-store' });
+    if (!resp.ok) throw new Error('fetch failed');
+    const data = await resp.json();
+    const quotes = data?.quoteResponse?.result || [];
+    quotes.forEach(q => {
+      if (q.symbol && q.regularMarketPrice != null) {
+        livePrices[q.symbol] = {
+          price:     q.regularMarketPrice,
+          changePct: q.regularMarketChangePercent || 0,
+          time:      q.regularMarketTime || Date.now() / 1000,
+        };
+      }
+    });
+    // Indicateur visuel : dot vert dans navbar
+    const liveDot = document.querySelector('.live-dot');
+    if (liveDot) {
+      liveDot.style.background = 'var(--buy-light)';
+      liveDot.style.boxShadow = '0 0 12px var(--buy-light)';
+    }
+    renderTable();  // redraw avec prix live
+  } catch (e) {
+    console.warn('Live prices unavailable:', e.message);
+    // Fallback : tente allorigins
+    try {
+      const symbols = tickers.join(',');
+      const yahooUrl = `https://query1.finance.yahoo.com/v7/finance/quote?symbols=${symbols}`;
+      const url2 = `https://api.allorigins.win/raw?url=${encodeURIComponent(yahooUrl)}`;
+      const resp = await fetch(url2, { cache: 'no-store' });
+      const data = await resp.json();
+      const quotes = data?.quoteResponse?.result || [];
+      quotes.forEach(q => {
+        if (q.symbol && q.regularMarketPrice != null) {
+          livePrices[q.symbol] = { price: q.regularMarketPrice, changePct: q.regularMarketChangePercent || 0, time: q.regularMarketTime };
+        }
+      });
+      renderTable();
+    } catch {/* ok, on laisse les prix du bot */}
+  }
+}
+
+// ---- Progression calculée du signal (SL ← Entry ← Current → TP) ----
+function computeProgression(s, current) {
+  if (!current || !s.price || !s.take_profit || !s.stop_loss) return null;
+  const entry = s.price, tp = s.take_profit, sl = s.stop_loss;
+  const isBuy = s.score > 0;
+  let pct;  // -100 = SL, 0 = entry, +100 = TP
+  if (isBuy) {
+    if (current >= entry) pct = ((current - entry) / (tp - entry)) * 100;
+    else                  pct = -((entry - current) / (entry - sl)) * 100;
+  } else {
+    if (current <= entry) pct = ((entry - current) / (entry - tp)) * 100;
+    else                  pct = -((current - entry) / (sl - entry)) * 100;
+  }
+  return Math.max(-120, Math.min(120, pct));
+}
 
 // ---- Clock ----
 function startClock() {
@@ -168,22 +236,60 @@ function buildRow(s, num) {
   const actionLabel = s.action === 'STRONG_BUY' ? '⬆⬆ STRONG BUY' : s.action === 'BUY' ? '⬆ BUY' : s.action === 'STRONG_SELL' ? '⬇⬇ STRONG SELL' : '⬇ SELL';
   const confPct = Math.round(s.confidence * 100);
   const confColor = confPct >= 80 ? 'var(--buy-light)' : confPct >= 70 ? 'var(--gold)' : 'var(--sell-light)';
-  const upClass = isBuy ? 'td-up-pos' : 'td-up-neg';
-  const upSign = isBuy ? '+' : '';
   const rrCls = s.risk_reward >= 2.5 ? 'rr-good' : s.risk_reward >= 2.0 ? 'rr-ok' : 'rr-bad';
-  const statusMap = { open: '● EN COURS', tp_hit: '✓ TP', sl_hit: '✕ SL', expired: '○ EXPIRÉ' };
-  const statusCls = { open: 'status-dot-open', tp_hit: 'status-dot-tp', sl_hit: 'status-dot-sl', expired: '' };
   const rowCls = s.status === 'tp_hit' ? 'tp-row' : s.status === 'sl_hit' ? 'sl-row' : '';
   const time = s.issued_at ? s.issued_at.split('T')[1].substring(0,5) : '--:--';
   const idx = allSignals.indexOf(s);
+
+  // ---- Prix live + variation % depuis l'entrée ----
+  const live = livePrices[s.ticker];
+  let livePriceCell = `<span style="color:var(--text3);font-size:10px">—</span>`;
+  let progBar = '';
+  if (live && live.price) {
+    const pctFromEntry = isBuy
+      ? ((live.price - s.price) / s.price) * 100
+      : ((s.price - live.price) / s.price) * 100;
+    const goingWell = pctFromEntry >= 0;
+    const color = goingWell ? 'var(--buy-light)' : 'var(--sell-light)';
+    const arrow = goingWell ? '▲' : '▼';
+    livePriceCell = `
+      <div class="live-price-wrap">
+        <span class="live-price" style="color:${color}">$${fmt(live.price)}</span>
+        <span class="live-chg" style="color:${color}">${arrow} ${Math.abs(pctFromEntry).toFixed(2)}%</span>
+      </div>`;
+
+    // Progression : -100% = SL touché, 0% = au prix d'entrée, +100% = TP atteint
+    const prog = computeProgression(s, live.price);
+    if (prog !== null) {
+      const posOnBar = Math.max(0, Math.min(100, 50 + prog / 2)); // 0..100 sur la barre
+      const progColor = prog > 0 ? 'var(--buy-light)' : 'var(--sell-light)';
+      progBar = `
+        <div class="prog-signal" title="SL ← Entry → TP — progression: ${prog.toFixed(0)}%">
+          <div class="prog-signal-bar">
+            <div class="prog-signal-sl">SL</div>
+            <div class="prog-signal-entry"></div>
+            <div class="prog-signal-tp">TP</div>
+            <div class="prog-signal-marker" style="left:${posOnBar}%;background:${progColor};box-shadow:0 0 8px ${progColor}"></div>
+            ${prog > 0 ? `<div class="prog-signal-fill-up" style="width:${posOnBar - 50}%"></div>` : ''}
+            ${prog < 0 ? `<div class="prog-signal-fill-down" style="width:${50 - posOnBar}%"></div>` : ''}
+          </div>
+          <span class="prog-signal-pct" style="color:${progColor}">${prog > 0 ? '+' : ''}${prog.toFixed(0)}%</span>
+        </div>`;
+    }
+  }
+
   return `<tr class="${rowCls}" data-idx="${idx}">
     <td class="td-num">${num}</td>
     <td class="td-ticker">${s.ticker}<span class="ticker-sub">${s.universe}</span></td>
     <td><span class="action-badge ${badgeCls}">${actionLabel}</span></td>
-    <td class="td-price">$${fmt(s.price)}</td>
+    <td class="td-price">
+      <div style="font-size:10px;color:var(--text3);margin-bottom:2px">ENTRÉE</div>
+      $${fmt(s.price)}
+      ${live && live.price ? `<div style="font-size:9px;color:var(--text3);margin-top:3px">LIVE</div>${livePriceCell}` : ''}
+    </td>
     <td class="td-tp">$${fmt(s.take_profit)}</td>
     <td class="td-sl">$${fmt(s.stop_loss)}</td>
-    <td class="${upClass}">${upSign}${Math.abs(s.upside_pct).toFixed(1)}%</td>
+    <td class="td-progression">${progBar || `<span style="color:var(--text3);font-size:10px">⏳ En attente prix live</span>`}</td>
     <td>
       <div class="conf-wrap">
         <div class="conf-bar"><div class="conf-fill" style="width:${confPct}%;background:${confColor}"></div></div>
