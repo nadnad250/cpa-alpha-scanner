@@ -1,31 +1,48 @@
 // ============================================================
 //  FIREBASE CONFIG — CPA Alpha Scanner
-//  1. Créer un projet sur https://console.firebase.google.com
-//  2. Activer Authentication → Google Sign-In
-//  3. Activer Firestore Database
-//  4. Remplacer les valeurs ci-dessous par celles de votre projet
+//  Projet : cpa-alpha-scanner
 // ============================================================
 
-const FIREBASE_CONFIG = {
-  apiKey:            "VOTRE_API_KEY",
-  authDomain:        "votre-projet.firebaseapp.com",
-  projectId:         "votre-projet-id",
-  storageBucket:     "votre-projet.appspot.com",
-  messagingSenderId: "VOTRE_SENDER_ID",
-  appId:             "VOTRE_APP_ID"
+import { initializeApp } from "https://www.gstatic.com/firebasejs/10.12.0/firebase-app.js";
+import {
+  getAuth,
+  GoogleAuthProvider,
+  signInWithPopup,
+  signInWithEmailAndPassword,
+  createUserWithEmailAndPassword,
+  sendPasswordResetEmail,
+  updateProfile,
+  signOut,
+  onAuthStateChanged,
+} from "https://www.gstatic.com/firebasejs/10.12.0/firebase-auth.js";
+import {
+  getFirestore,
+  doc, getDoc, setDoc, updateDoc, increment,
+  collection, query, where, getDocs, orderBy, limit, arrayUnion,
+  serverTimestamp,
+} from "https://www.gstatic.com/firebasejs/10.12.0/firebase-firestore.js";
+
+const firebaseConfig = {
+  apiKey:            "AIzaSyB33-yGJ-lUouAmIjzPJtemnJ_iihdTLeo",
+  authDomain:        "cpa-alpha-scanner.firebaseapp.com",
+  projectId:         "cpa-alpha-scanner",
+  storageBucket:     "cpa-alpha-scanner.firebasestorage.app",
+  messagingSenderId: "1069312116229",
+  appId:             "1:1069312116229:web:30d8046f18164eb7053e6c",
+  measurementId:     "G-WQR5PKH001",
 };
 
-// ---- Initialisation ----
-import { initializeApp }              from "https://www.gstatic.com/firebasejs/10.12.0/firebase-app.js";
-import { getAuth, GoogleAuthProvider, signInWithPopup, signOut, onAuthStateChanged }
-                                      from "https://www.gstatic.com/firebasejs/10.12.0/firebase-auth.js";
-import { getFirestore, doc, getDoc, setDoc, updateDoc, increment, collection, query, where, getDocs }
-                                      from "https://www.gstatic.com/firebasejs/10.12.0/firebase-firestore.js";
-
-const app  = initializeApp(FIREBASE_CONFIG);
-const auth = getAuth(app);
-const db   = getFirestore(app);
+const app      = initializeApp(firebaseConfig);
+const auth     = getAuth(app);
+const db       = getFirestore(app);
 const provider = new GoogleAuthProvider();
 
-export { auth, db, provider, GoogleAuthProvider, signInWithPopup, signOut, onAuthStateChanged,
-         doc, getDoc, setDoc, updateDoc, increment, collection, query, where, getDocs };
+export {
+  app, auth, db, provider,
+  GoogleAuthProvider, signInWithPopup, signInWithEmailAndPassword,
+  createUserWithEmailAndPassword, sendPasswordResetEmail, updateProfile,
+  signOut, onAuthStateChanged,
+  doc, getDoc, setDoc, updateDoc, increment,
+  collection, query, where, getDocs, orderBy, limit, arrayUnion,
+  serverTimestamp,
+};

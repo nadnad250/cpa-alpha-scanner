@@ -166,115 +166,98 @@
       });
     });
 
-    // ---- Auth helper (DEMO localStorage — pour Firebase, remplacer par vraies calls) ----
-    function createUser({ name, email, password }) {
-      const users = JSON.parse(localStorage.getItem('cpa_users_db') || '{}');
-      if (users[email]) throw new Error('Cet email est déjà utilisé');
-      const uid = 'u_' + Math.random().toString(36).substring(2, 10);
-      const refCode = 'CPA-' + uid.substring(2, 8).toUpperCase();
-      const user = {
-        uid, name, email,
-        passwordHash: btoa(password),  // ATTENTION: pas sécurisé côté client — utiliser Firebase Auth en prod
-        refCode,
-        referredBy: refFromUrl || null,
-        points: 50 + (refFromUrl ? 50 : 0),
-        premiumDays: refFromUrl ? 7 : 0,
-        referrals: 0,
-        joinedAt: new Date().toISOString(),
-        lastLogin: new Date().toISOString(),
-        badges: ['welcome'],
-        history: [{ date: new Date().toISOString().split('T')[0], action: 'Inscription', points: 50, status: 'credit' }],
+    // ---- Firebase Auth ----
+    import('./assets/js/auth-service.js').then(({ signInEmail, signUpEmail, signInGoogle, resetPassword }) => {
+
+      const mapError = (e) => {
+        const code = e.code || '';
+        if (code === 'auth/email-already-in-use')   return 'Cet email est déjà utilisé';
+        if (code === 'auth/invalid-email')          return 'Email invalide';
+        if (code === 'auth/weak-password')          return 'Mot de passe trop faible (6 caractères min.)';
+        if (code === 'auth/user-not-found')         return 'Aucun compte avec cet email';
+        if (code === 'auth/wrong-password')         return 'Mot de passe incorrect';
+        if (code === 'auth/invalid-credential')     return 'Email ou mot de passe incorrect';
+        if (code === 'auth/popup-closed-by-user')   return 'Connexion Google annulée';
+        if (code === 'auth/network-request-failed') return 'Erreur réseau — vérifiez votre connexion';
+        return e.message || 'Erreur inconnue';
       };
-      if (refFromUrl) user.history.push({ date: new Date().toISOString().split('T')[0], action: 'Bonus parrainage', points: 50, status: 'credit' });
-      users[email] = user;
-      localStorage.setItem('cpa_users_db', JSON.stringify(users));
-      localStorage.setItem('cpa_user', JSON.stringify(user));
-      return user;
-    }
 
-    function signIn({ email, password }) {
-      const users = JSON.parse(localStorage.getItem('cpa_users_db') || '{}');
-      const user = users[email];
-      if (!user) throw new Error('Aucun compte avec cet email');
-      if (user.passwordHash !== btoa(password)) throw new Error('Mot de passe incorrect');
-      user.lastLogin = new Date().toISOString();
-      users[email] = user;
-      localStorage.setItem('cpa_users_db', JSON.stringify(users));
-      localStorage.setItem('cpa_user', JSON.stringify(user));
-      return user;
-    }
+      // ---- Sign In handler ----
+      document.getElementById('form-signin').addEventListener('submit', async (e) => {
+        e.preventDefault();
+        const err = document.getElementById('err-signin');
+        const btn = e.target.querySelector('button[type=submit]');
+        err.style.display = 'none';
+        btn.disabled = true; btn.textContent = '⏳ Connexion...';
+        try {
+          await signInEmail(
+            document.getElementById('si-email').value.trim().toLowerCase(),
+            document.getElementById('si-pwd').value,
+          );
+          location.href = 'dashboard.html';
+        } catch (ex) {
+          err.textContent = '⚠️ ' + mapError(ex);
+          err.style.display = 'block';
+          btn.disabled = false; btn.textContent = '🔐 Se connecter';
+        }
+      });
 
-    function googleSignIn() {
-      // Mode démo — crée un compte "Google" générique
-      const uid = 'g_' + Math.random().toString(36).substring(2, 10);
-      const user = {
-        uid,
-        name: 'Google User',
-        email: 'user' + uid.substring(2, 5) + '@gmail.com',
-        refCode: 'CPA-' + uid.substring(2, 8).toUpperCase(),
-        referredBy: refFromUrl || null,
-        points: 50 + (refFromUrl ? 50 : 0),
-        premiumDays: refFromUrl ? 7 : 0,
-        referrals: 0,
-        joinedAt: new Date().toISOString(),
-        lastLogin: new Date().toISOString(),
-        badges: ['welcome'],
-        emailVerified: true,
-        history: [{ date: new Date().toISOString().split('T')[0], action: 'Inscription Google', points: 50, status: 'credit' }],
+      // ---- Sign Up handler ----
+      document.getElementById('form-signup').addEventListener('submit', async (e) => {
+        e.preventDefault();
+        const err = document.getElementById('err-signup');
+        const ok  = document.getElementById('ok-signup');
+        const btn = e.target.querySelector('button[type=submit]');
+        err.style.display = 'none'; ok.style.display = 'none';
+        btn.disabled = true; btn.textContent = '⏳ Création...';
+        try {
+          await signUpEmail(
+            document.getElementById('su-email').value.trim().toLowerCase(),
+            document.getElementById('su-pwd').value,
+            document.getElementById('su-name').value.trim(),
+            refFromUrl,
+          );
+          ok.textContent = '✅ Compte créé ! Redirection...';
+          ok.style.display = 'block';
+          setTimeout(() => location.href = 'dashboard.html', 800);
+        } catch (ex) {
+          err.textContent = '⚠️ ' + mapError(ex);
+          err.style.display = 'block';
+          btn.disabled = false; btn.textContent = '✨ Créer mon compte';
+        }
+      });
+
+      // ---- Google handlers ----
+      const handleGoogle = async (errId) => {
+        const err = document.getElementById(errId);
+        err.style.display = 'none';
+        try {
+          await signInGoogle(refFromUrl);
+          location.href = 'dashboard.html';
+        } catch (ex) {
+          err.textContent = '⚠️ ' + mapError(ex);
+          err.style.display = 'block';
+        }
       };
-      localStorage.setItem('cpa_user', JSON.stringify(user));
-      return user;
-    }
+      document.getElementById('google-signin').addEventListener('click', () => handleGoogle('err-signin'));
+      document.getElementById('google-signup').addEventListener('click', () => handleGoogle('err-signup'));
 
-    // ---- Sign In handler ----
-    document.getElementById('form-signin').addEventListener('submit', (e) => {
-      e.preventDefault();
-      const err = document.getElementById('err-signin');
-      err.style.display = 'none';
-      try {
-        signIn({
-          email: document.getElementById('si-email').value.trim().toLowerCase(),
-          password: document.getElementById('si-pwd').value,
-        });
-        location.href = 'dashboard.html';
-      } catch (e) {
-        err.textContent = '⚠️ ' + e.message;
-        err.style.display = 'block';
-      }
-    });
-
-    // ---- Sign Up handler ----
-    document.getElementById('form-signup').addEventListener('submit', (e) => {
-      e.preventDefault();
-      const err = document.getElementById('err-signup');
-      const ok = document.getElementById('ok-signup');
-      err.style.display = 'none';
-      ok.style.display = 'none';
-      try {
-        createUser({
-          name: document.getElementById('su-name').value.trim(),
-          email: document.getElementById('su-email').value.trim().toLowerCase(),
-          password: document.getElementById('su-pwd').value,
-        });
-        ok.textContent = '✅ Compte créé ! Redirection...';
-        ok.style.display = 'block';
-        setTimeout(() => location.href = 'dashboard.html', 800);
-      } catch (e) {
-        err.textContent = '⚠️ ' + e.message;
-        err.style.display = 'block';
-      }
-    });
-
-    // ---- Google handlers ----
-    document.getElementById('google-signin').addEventListener('click', () => { googleSignIn(); location.href = 'dashboard.html'; });
-    document.getElementById('google-signup').addEventListener('click', () => { googleSignIn(); location.href = 'dashboard.html'; });
-
-    // ---- Forgot pwd ----
-    document.getElementById('forgot-link').addEventListener('click', (e) => {
-      e.preventDefault();
-      const email = document.getElementById('si-email').value.trim();
-      if (!email) { alert('Saisissez d\'abord votre email'); return; }
-      alert('Un email de réinitialisation sera envoyé à ' + email + '.\n\n(Feature backend à connecter avec Firebase Auth ou SMTP)');
+      // ---- Forgot password ----
+      document.getElementById('forgot-link').addEventListener('click', async (e) => {
+        e.preventDefault();
+        const email = document.getElementById('si-email').value.trim();
+        if (!email) { alert('Saisissez d\'abord votre email dans le champ ci-dessus.'); return; }
+        try {
+          await resetPassword(email);
+          alert('✅ Email de réinitialisation envoyé à ' + email + '.\nVérifiez votre boîte de réception.');
+        } catch (ex) {
+          alert('⚠️ ' + mapError(ex));
+        }
+      });
+    }).catch(e => {
+      console.error('Firebase non chargé:', e);
+      document.getElementById('err-signin').textContent = '⚠️ Firebase non configuré — voir console';
+      document.getElementById('err-signin').style.display = 'block';
     });
   </script>
 </body>
