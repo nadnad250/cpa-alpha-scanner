@@ -278,9 +278,15 @@ function buildRow(s, num) {
     }
   }
 
+  const tvHref = tradingViewUrl(s.ticker, s.universe);
   return `<tr class="${rowCls}" data-idx="${idx}">
     <td class="td-num">${num}</td>
-    <td class="td-ticker">${s.ticker}<span class="ticker-sub">${s.universe}</span></td>
+    <td class="td-ticker" onclick="event.stopPropagation()">
+      <a href="${tvHref}" target="_blank" rel="noopener noreferrer" class="ticker-link" title="Ouvrir ${s.ticker} dans TradingView">
+        ${s.ticker}<span class="ext-icon">↗</span>
+      </a>
+      <span class="ticker-sub">${s.universe}</span>
+    </td>
     <td><span class="action-badge ${badgeCls}">${actionLabel}</span></td>
     <td class="td-price">
       <div style="font-size:10px;color:var(--text3);margin-bottom:2px">ENTRÉE</div>
@@ -371,7 +377,9 @@ function openModal(idx) {
   const s = allSignals[idx];
   if (!s) return;
   const isBuy = s.score > 0;
-  document.getElementById('modal-ticker').textContent = s.ticker;
+  const tvHref = tradingViewUrl(s.ticker, s.universe);
+  const modalTicker = document.getElementById('modal-ticker');
+  modalTicker.innerHTML = `<a href="${tvHref}" target="_blank" rel="noopener" class="modal-ticker-link" title="Voir sur TradingView">${s.ticker}<span class="ext-icon-big">↗</span></a>`;
   document.getElementById('modal-universe').textContent = s.universe + ' · ' + s.sector;
   const ab = document.getElementById('modal-action-big');
   const badgeCls = s.action === 'STRONG_BUY' ? 'badge-sb' : s.action === 'BUY' ? 'badge-b' : s.action === 'STRONG_SELL' ? 'badge-ss' : 'badge-s';
@@ -515,6 +523,33 @@ function fmt(n) {
   if (n == null) return '—';
   if (n >= 1000) return n.toLocaleString('fr-FR', { minimumFractionDigits: 2, maximumFractionDigits: 2 });
   return n.toFixed(2);
+}
+
+// ---- Convertir ticker yfinance → symbole TradingView ----
+const UNIVERSE_EXCHANGE = {
+  SP500: 'NYSE', NASDAQ100: 'NASDAQ', DOW30: 'NYSE',
+  DAX40: 'XETR', CAC40: 'EURONEXT', FTSE100: 'LSE', EUROSTOXX50: 'EURONEXT',
+};
+const SUFFIX_EXCHANGE = {
+  DE: 'XETR', PA: 'EURONEXT', L: 'LSE', MI: 'MIL',
+  AS: 'AMS',  MC: 'BME',      HK: 'HKEX', T: 'TSE',
+  TO: 'TSX',  SW: 'SIX',      BR: 'EURONEXT', VI: 'VIE',
+};
+// Tickers NASDAQ courants (quand pas de suffixe)
+const NASDAQ_TICKERS = new Set('AAPL MSFT GOOGL GOOG AMZN META NVDA TSLA AMD INTC NFLX ADBE CSCO AVGO COST PEP CMCSA TMUS QCOM INTU TXN AMGN SBUX CHTR BKNG PYPL FTNT ODFL ADP ISRG MDLZ GILD MU REGN ADI VRTX LRCX PANW KLAC ASML MELI ORLY SNPS CDNS MNST CRWD ABNB MRNA CTAS NXPI PCAR FAST EA PAYX ROST IDXX CPRT CTSH DXCM DLTR XEL BIIB ANSS FANG KHC GEHC ON SIRI WDAY WBD LULU TTD TEAM ZS DASH MAR'.split(' '));
+
+function tradingViewUrl(ticker, universe) {
+  const parts = (ticker || '').split('.');
+  let tvSymbol;
+  if (parts.length === 2 && SUFFIX_EXCHANGE[parts[1]]) {
+    tvSymbol = `${SUFFIX_EXCHANGE[parts[1]]}:${parts[0]}`;
+  } else if (NASDAQ_TICKERS.has(ticker)) {
+    tvSymbol = `NASDAQ:${ticker}`;
+  } else {
+    const exch = UNIVERSE_EXCHANGE[universe] || 'NASDAQ';
+    tvSymbol = `${exch}:${ticker}`;
+  }
+  return `https://www.tradingview.com/chart/?symbol=${encodeURIComponent(tvSymbol)}`;
 }
 
 // Fallback Kelly fractionné + score factor → varie de 3% à 10% selon conviction
