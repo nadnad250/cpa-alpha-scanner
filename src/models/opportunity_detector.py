@@ -62,6 +62,12 @@ class Opportunity:
     top_news_title: Optional[str] = None
     top_news_url: Optional[str] = None
 
+    # CPA — 4 composantes (pour décomposition dans le dashboard)
+    value_gap: Optional[float] = None       # [-1, +1] — sous/sur-évaluation fondamentale
+    factor_premia: Optional[float] = None   # [-1, +1] — facteurs Fama-French
+    mean_reversion: Optional[float] = None  # [-1, +1] — Ornstein-Uhlenbeck
+    info_flow: Optional[float] = None       # [-1, +1] — flux d'information Kalman
+
 
 class OpportunityDetector:
     def __init__(
@@ -169,6 +175,11 @@ class OpportunityDetector:
             kelly_position=cpa_result.kelly_position,
             sector=cpa_result.sector,
             universe=cpa_result.universe,
+            # Décomposition CPA (les 4 composantes)
+            value_gap=cpa_result.value_gap,
+            factor_premia=cpa_result.factor_premia,
+            mean_reversion=cpa_result.mean_reversion,
+            info_flow=cpa_result.info_flow,
         )
 
         # Stop / TP via ATR (plus précis que vol simple)
