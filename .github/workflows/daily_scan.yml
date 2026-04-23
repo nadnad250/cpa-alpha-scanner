@@ -64,6 +64,9 @@ jobs:
         run: |
           git config user.name  "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          cp dashboard/data/signals.json /tmp/signals_fresh.json 2>/dev/null || true
+          mkdir -p /tmp/signals_fresh && cp -r data/signals/* /tmp/signals_fresh/ 2>/dev/null || true
+
           git add dashboard/data/signals.json data/signals/ || true
           if git diff --staged --quiet; then
             echo "Pas de changement à committer"
@@ -74,8 +77,17 @@ jobs:
                 echo "Push réussi tentative $i"
                 break
               fi
-              echo "Collision détectée — rebase + retry ($i/5)"
-              git pull --rebase origin master
+              echo "Collision ($i/5) — reset hard + restore + replay"
+              git fetch origin master
+              git reset --hard origin/master
+              cp /tmp/signals_fresh.json dashboard/data/signals.json 2>/dev/null || true
+              cp -r /tmp/signals_fresh/* data/signals/ 2>/dev/null || true
+              git add dashboard/data/signals.json data/signals/ || true
+              if git diff --staged --quiet; then
+                echo "Remote contient déjà nos données"
+                break
+              fi
+              git commit -m "chore(bot): update signals $(date -u +'%Y-%m-%d %H:%M UTC') [daily_scan retry $i]"
               sleep 2
             done
           fi
