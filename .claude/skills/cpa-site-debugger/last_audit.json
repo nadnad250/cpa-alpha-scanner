@@ -1,0 +1,113 @@
+{
+  "truth": {
+    "total_signals": 58,
+    "open_count": 58,
+    "tp_hit_count": 0,
+    "sl_hit_count": 0,
+    "closed_count": 0,
+    "win_rate": null,
+    "pnl_total_realized": 0,
+    "pnl_live_sum": -5.62,
+    "stuck_open": [
+      {
+        "ticker": "IBM",
+        "action": "STRONG_SELL",
+        "entry": 251.86,
+        "current": 231.24,
+        "tp": 233.59,
+        "sl": 259.42,
+        "issue": "devrait être tp_hit"
+      },
+      {
+        "ticker": "TXN",
+        "action": "STRONG_SELL",
+        "entry": 236.31,
+        "current": 278.72,
+        "tp": 218.58,
+        "sl": 243.4,
+        "issue": "devrait être sl_hit"
+      }
+    ],
+    "duplicates": {},
+    "action_distribution": {
+      "STRONG_SELL": 56,
+      "SELL": 2
+    },
+    "universe_distribution": {
+      "CAC40": 8,
+      "DAX40": 4,
+      "NASDAQ100": 17,
+      "FTSE100": 6,
+      "EUROSTOXX50": 4,
+      "DOW30": 1,
+      "SP500": 17,
+      "FUTURES_COMMODITIES": 1
+    }
+  },
+  "code_bugs": [],
+  "dependencies": {
+    "dashboard.html": {
+      "js": [],
+      "css": []
+    },
+    "index.html": {
+      "js": [],
+      "css": [
+        "assets/css/landing.css"
+      ]
+    },
+    "legal.html": {
+      "js": [],
+      "css": [
+        "assets/css/pages.css"
+      ]
+    },
+    "live.html": {
+      "js": [
+        "https://cdn.jsdelivr.net/npm/chart.js@4.4.1/dist/chart.umd.min.js"
+      ],
+      "css": [
+        "assets/css/pages.css"
+      ]
+    },
+    "login.html": {
+      "js": [],
+      "css": [
+        "assets/css/pages.css"
+      ]
+    },
+    "pricing.html": {
+      "js": [],
+      "css": [
+        "assets/css/pages.css"
+      ]
+    },
+    "profile.html": {
+      "js": [],
+      "css": [
+        "assets/css/pages.css"
+      ]
+    },
+    "referral.html": {
+      "js": [],
+      "css": [
+        "assets/css/pages.css"
+      ]
+    },
+    "stats.html": {
+      "js": [
+        "https://cdn.jsdelivr.net/npm/chart.js@4.4.1/dist/chart.umd.min.js"
+      ],
+      "css": [
+        "assets/css/pages.css"
+      ]
+    }
+  },
+  "summary": {
+    "total_bugs": 2,
+    "critical_bugs": 2,
+    "high_bugs": 0,
+    "medium_bugs": 0,
+    "low_bugs": 0
+  }
+}
