@@ -54,6 +54,7 @@ def main() -> int:
 
     now_iso = datetime.now(timezone.utc).isoformat()
     updated = 0
+    auto_closed = 0
     for sig in signals:
         if sig.get("status") != "open":
             continue
@@ -70,7 +71,43 @@ def main() -> int:
         sig["current_price"] = current
         sig["current_price_time"] = now_iso
 
-        # P&L % depuis l'entrée
+        # ================================================================
+        # AUTO-CLÔTURE : détecte si le prix a franchi TP ou SL
+        # ================================================================
+        closed_reason = None
+        exit_price = None
+        if entry and tp and sl:
+            if is_buy:
+                if current >= tp:
+                    closed_reason = "tp_hit"
+                    exit_price = tp        # pris au niveau du TP (conservateur)
+                elif current <= sl:
+                    closed_reason = "sl_hit"
+                    exit_price = sl
+            else:  # SHORT
+                if current <= tp:
+                    closed_reason = "tp_hit"
+                    exit_price = tp
+                elif current >= sl:
+                    closed_reason = "sl_hit"
+                    exit_price = sl
+
+        if closed_reason:
+            sig["status"] = closed_reason
+            sig["exit_price"] = exit_price
+            sig["exit_date"] = now_iso
+            # P&L réalisé au niveau du TP/SL
+            if is_buy:
+                sig["pnl_pct"] = round(((exit_price - entry) / entry) * 100, 2)
+                sig["pnl_pct_live"] = sig["pnl_pct"]
+            else:
+                sig["pnl_pct"] = round(((entry - exit_price) / entry) * 100, 2)
+                sig["pnl_pct_live"] = sig["pnl_pct"]
+            auto_closed += 1
+            log.info(f"  🎯 {ticker} AUTO-CLOSED: {closed_reason} @ ${exit_price} (P&L {sig['pnl_pct']:+.2f}%)")
+            continue  # pas de progression pour un signal clôturé
+
+        # P&L % depuis l'entrée (ouvert)
         if entry and entry > 0:
             if is_buy:
                 sig["pnl_pct_live"] = round(((current - entry) / entry) * 100, 2)
@@ -100,7 +137,10 @@ def main() -> int:
         json.dumps(data, indent=2, ensure_ascii=False),
         encoding="utf-8"
     )
-    log.info(f"✅ {updated} signaux mis à jour avec prix live ({len(latest_prices)}/{len(tickers)} fetchés)")
+    msg = f"✅ {updated} signaux mis à jour avec prix live ({len(latest_prices)}/{len(tickers)} fetchés)"
+    if auto_closed:
+        msg += f" · 🎯 {auto_closed} AUTO-CLÔTURÉS (TP/SL touchés)"
+    log.info(msg)
     return 0
 
 
