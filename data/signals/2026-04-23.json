@@ -14,8 +14,8 @@
     "exit_price": null,
     "exit_date": null,
     "pnl_pct": null,
-    "max_favorable": null,
-    "max_adverse": null
+    "max_favorable": -0.012924877070961864,
+    "max_adverse": -0.012924877070961864
   },
   {
     "ticker": "DXCM",
@@ -32,8 +32,8 @@
     "exit_price": null,
     "exit_date": null,
     "pnl_pct": null,
-    "max_favorable": null,
-    "max_adverse": null
+    "max_favorable": 0.011196960054574098,
+    "max_adverse": 0.011196960054574098
   },
   {
     "ticker": "ADBE",
@@ -50,8 +50,8 @@
     "exit_price": null,
     "exit_date": null,
     "pnl_pct": null,
-    "max_favorable": null,
-    "max_adverse": null
+    "max_favorable": 0.06626554767703734,
+    "max_adverse": 0.06626554767703734
   },
   {
     "ticker": "PGR",
@@ -68,8 +68,8 @@
     "exit_price": null,
     "exit_date": null,
     "pnl_pct": null,
-    "max_favorable": null,
-    "max_adverse": null
+    "max_favorable": -0.012924877070961864,
+    "max_adverse": -0.012924877070961864
   },
   {
     "ticker": "TXN",
@@ -82,12 +82,12 @@
     "universe": "SP500",
     "issued_at": "2026-04-23T09:46:26.819654",
     "horizon_days": 21,
-    "status": "open",
-    "exit_price": null,
-    "exit_date": null,
-    "pnl_pct": null,
-    "max_favorable": null,
-    "max_adverse": null
+    "status": "sl_hit",
+    "exit_price": 243.40000287737166,
+    "exit_date": "2026-04-23",
+    "pnl_pct": -0.030002974386914055,
+    "max_favorable": -0.1943210654916344,
+    "max_adverse": -0.1943210654916344
   },
   {
     "ticker": "SIRI",
@@ -104,8 +104,8 @@
     "exit_price": null,
     "exit_date": null,
     "pnl_pct": null,
-    "max_favorable": null,
-    "max_adverse": null
+    "max_favorable": 0.00213827512473267,
+    "max_adverse": 0.00213827512473267
   },
   {
     "ticker": "INTC",
@@ -122,8 +122,8 @@
     "exit_price": null,
     "exit_date": null,
     "pnl_pct": null,
-    "max_favorable": null,
-    "max_adverse": null
+    "max_favorable": -0.023134652662737537,
+    "max_adverse": -0.023134652662737537
   },
   {
     "ticker": "PGR",
@@ -140,8 +140,8 @@
     "exit_price": null,
     "exit_date": null,
     "pnl_pct": null,
-    "max_favorable": null,
-    "max_adverse": null
+    "max_favorable": -0.012924877070961864,
+    "max_adverse": -0.012924877070961864
   },
   {
     "ticker": "MSFT",
@@ -158,8 +158,8 @@
     "exit_price": null,
     "exit_date": null,
     "pnl_pct": null,
-    "max_favorable": null,
-    "max_adverse": null
+    "max_favorable": 0.039660907326988855,
+    "max_adverse": 0.039660907326988855
   },
   {
     "ticker": "PGR",
@@ -176,8 +176,8 @@
     "exit_price": null,
     "exit_date": null,
     "pnl_pct": null,
-    "max_favorable": null,
-    "max_adverse": null
+    "max_favorable": -0.012924877070961864,
+    "max_adverse": -0.012924877070961864
   },
   {
     "ticker": "ISRG",
@@ -194,8 +194,8 @@
     "exit_price": null,
     "exit_date": null,
     "pnl_pct": null,
-    "max_favorable": null,
-    "max_adverse": null
+    "max_favorable": 0.009925132698774358,
+    "max_adverse": 0.009925132698774358
   },
   {
     "ticker": "BLK",
@@ -212,8 +212,8 @@
     "exit_price": null,
     "exit_date": null,
     "pnl_pct": null,
-    "max_favorable": null,
-    "max_adverse": null
+    "max_favorable": 0.00847085498590551,
+    "max_adverse": 0.00847085498590551
   },
   {
     "ticker": "PYPL",
@@ -230,8 +230,8 @@
     "exit_price": null,
     "exit_date": null,
     "pnl_pct": null,
-    "max_favorable": null,
-    "max_adverse": null
+    "max_favorable": 0.028699726669269794,
+    "max_adverse": 0.028699726669269794
   },
   {
     "ticker": "SHW",
@@ -248,8 +248,8 @@
     "exit_price": null,
     "exit_date": null,
     "pnl_pct": null,
-    "max_favorable": null,
-    "max_adverse": null
+    "max_favorable": -0.007489194874263458,
+    "max_adverse": -0.007489194874263458
   },
   {
     "ticker": "ZTS",
@@ -266,8 +266,8 @@
     "exit_price": null,
     "exit_date": null,
     "pnl_pct": null,
-    "max_favorable": null,
-    "max_adverse": null
+    "max_favorable": 0.01242343806506336,
+    "max_adverse": 0.01242343806506336
   },
   {
     "ticker": "AON",
@@ -284,8 +284,8 @@
     "exit_price": null,
     "exit_date": null,
     "pnl_pct": null,
-    "max_favorable": null,
-    "max_adverse": null
+    "max_favorable": 0.010096073063104276,
+    "max_adverse": 0.010096073063104276
   },
   {
     "ticker": "SPGI",
@@ -302,8 +302,8 @@
     "exit_price": null,
     "exit_date": null,
     "pnl_pct": null,
-    "max_favorable": null,
-    "max_adverse": null
+    "max_favorable": 0.022335548079773587,
+    "max_adverse": 0.022335548079773587
   },
   {
     "ticker": "MSFT",
@@ -320,8 +320,8 @@
     "exit_price": null,
     "exit_date": null,
     "pnl_pct": null,
-    "max_favorable": null,
-    "max_adverse": null
+    "max_favorable": 0.039660907326988855,
+    "max_adverse": 0.039660907326988855
   },
   {
     "ticker": "NFLX",
@@ -338,8 +338,8 @@
     "exit_price": null,
     "exit_date": null,
     "pnl_pct": null,
-    "max_favorable": null,
-    "max_adverse": null
+    "max_favorable": 0.004504507777517977,
+    "max_adverse": 0.004504507777517977
   },
   {
     "ticker": "ISRG",
@@ -356,8 +356,8 @@
     "exit_price": null,
     "exit_date": null,
     "pnl_pct": null,
-    "max_favorable": null,
-    "max_adverse": null
+    "max_favorable": 0.009925132698774358,
+    "max_adverse": 0.009925132698774358
   },
   {
     "ticker": "KHC",
@@ -374,8 +374,8 @@
     "exit_price": null,
     "exit_date": null,
     "pnl_pct": null,
-    "max_favorable": null,
-    "max_adverse": null
+    "max_favorable": -0.003654605452466497,
+    "max_adverse": -0.003654605452466497
   },
   {
     "ticker": "SNPS",
@@ -392,8 +392,8 @@
     "exit_price": null,
     "exit_date": null,
     "pnl_pct": null,
-    "max_favorable": null,
-    "max_adverse": null
+    "max_favorable": 0.04276493713381462,
+    "max_adverse": 0.04276493713381462
   },
   {
     "ticker": "CEG",
@@ -410,8 +410,8 @@
     "exit_price": null,
     "exit_date": null,
     "pnl_pct": null,
-    "max_favorable": null,
-    "max_adverse": null
+    "max_favorable": -0.019536108837135566,
+    "max_adverse": -0.019536108837135566
   },
   {
     "ticker": "IDXX",
@@ -428,8 +428,8 @@
     "exit_price": null,
     "exit_date": null,
     "pnl_pct": null,
-    "max_favorable": null,
-    "max_adverse": null
+    "max_favorable": 0.03012018211155662,
+    "max_adverse": 0.03012018211155662
   },
   {
     "ticker": "MSFT",
@@ -446,8 +446,8 @@
     "exit_price": null,
     "exit_date": null,
     "pnl_pct": null,
-    "max_favorable": null,
-    "max_adverse": null
+    "max_favorable": 0.039660907326988855,
+    "max_adverse": 0.039660907326988855
   },
   {
     "ticker": "IBM",
@@ -460,12 +460,12 @@
     "universe": "DOW30",
     "issued_at": "2026-04-23T10:55:46.568936",
     "horizon_days": 21,
-    "status": "open",
-    "exit_price": null,
-    "exit_date": null,
-    "pnl_pct": null,
-    "max_favorable": null,
-    "max_adverse": null
+    "status": "tp_hit",
+    "exit_price": 233.58857012067523,
+    "exit_date": "2026-04-23",
+    "pnl_pct": 0.07254597744510753,
+    "max_favorable": 0.08250614694252889,
+    "max_adverse": 0.08250614694252889
   },
   {
     "ticker": "OR.PA",
@@ -482,8 +482,8 @@
     "exit_price": null,
     "exit_date": null,
     "pnl_pct": null,
-    "max_favorable": null,
-    "max_adverse": null
+    "max_favorable": -0.009128758500511844,
+    "max_adverse": -0.009128758500511844
   },
   {
     "ticker": "DTE.DE",
@@ -500,8 +500,8 @@
     "exit_price": null,
     "exit_date": null,
     "pnl_pct": null,
-    "max_favorable": null,
-    "max_adverse": null
+    "max_favorable": 0.008642395151404096,
+    "max_adverse": 0.008642395151404096
   },
   {
     "ticker": "ADS.DE",
@@ -518,8 +518,8 @@
     "exit_price": null,
     "exit_date": null,
     "pnl_pct": null,
-    "max_favorable": null,
-    "max_adverse": null
+    "max_favorable": 0.011453070125156506,
+    "max_adverse": 0.011453070125156506
   },
   {
     "ticker": "SGO.PA",
@@ -536,8 +536,8 @@
     "exit_price": null,
     "exit_date": null,
     "pnl_pct": null,
-    "max_favorable": null,
-    "max_adverse": null
+    "max_favorable": -0.015356541424601806,
+    "max_adverse": -0.015356541424601806
   },
   {
     "ticker": "HO.PA",
@@ -554,8 +554,8 @@
     "exit_price": null,
     "exit_date": null,
     "pnl_pct": null,
-    "max_favorable": null,
-    "max_adverse": null
+    "max_favorable": -0.0045529675010024554,
+    "max_adverse": -0.0045529675010024554
   },
   {
     "ticker": "PUB.PA",
@@ -572,8 +572,8 @@
     "exit_price": null,
     "exit_date": null,
     "pnl_pct": null,
-    "max_favorable": null,
-    "max_adverse": null
+    "max_favorable": 0.0040921067337856025,
+    "max_adverse": 0.0040921067337856025
   },
   {
     "ticker": "OR.PA",
@@ -590,8 +590,8 @@
     "exit_price": null,
     "exit_date": null,
     "pnl_pct": null,
-    "max_favorable": null,
-    "max_adverse": null
+    "max_favorable": -0.009128758500511844,
+    "max_adverse": -0.009128758500511844
   },
   {
     "ticker": "AC.PA",
@@ -608,8 +608,8 @@
     "exit_price": null,
     "exit_date": null,
     "pnl_pct": null,
-    "max_favorable": null,
-    "max_adverse": null
+    "max_favorable": -0.008185234105508992,
+    "max_adverse": -0.008185234105508992
   },
   {
     "ticker": "RNO.PA",
@@ -626,8 +626,8 @@
     "exit_price": null,
     "exit_date": null,
     "pnl_pct": null,
-    "max_favorable": null,
-    "max_adverse": null
+    "max_favorable": 0.028939891813985555,
+    "max_adverse": 0.028939891813985555
   },
   {
     "ticker": "SGO.PA",
@@ -644,8 +644,8 @@
     "exit_price": null,
     "exit_date": null,
     "pnl_pct": null,
-    "max_favorable": null,
-    "max_adverse": null
+    "max_favorable": -0.015356541424601806,
+    "max_adverse": -0.015356541424601806
   },
   {
     "ticker": "SW.PA",
@@ -662,8 +662,8 @@
     "exit_price": null,
     "exit_date": null,
     "pnl_pct": null,
-    "max_favorable": null,
-    "max_adverse": null
+    "max_favorable": -0.0014058500109371407,
+    "max_adverse": -0.0014058500109371407
   },
   {
     "ticker": "CON.DE",
@@ -680,8 +680,8 @@
     "exit_price": null,
     "exit_date": null,
     "pnl_pct": null,
-    "max_favorable": null,
-    "max_adverse": null
+    "max_favorable": -0.0178023280359764,
+    "max_adverse": -0.0178023280359764
   },
   {
     "ticker": "ADS.DE",
@@ -698,8 +698,8 @@
     "exit_price": null,
     "exit_date": null,
     "pnl_pct": null,
-    "max_favorable": null,
-    "max_adverse": null
+    "max_favorable": 0.011453070125156506,
+    "max_adverse": 0.011453070125156506
   },
   {
     "ticker": "SHL.DE",
@@ -716,8 +716,8 @@
     "exit_price": null,
     "exit_date": null,
     "pnl_pct": null,
-    "max_favorable": null,
-    "max_adverse": null
+    "max_favorable": 0.010998041773353655,
+    "max_adverse": 0.010998041773353655
   },
   {
     "ticker": "ZAL.DE",
@@ -734,8 +734,8 @@
     "exit_price": null,
     "exit_date": null,
     "pnl_pct": null,
-    "max_favorable": null,
-    "max_adverse": null
+    "max_favorable": 0.017387386735294514,
+    "max_adverse": 0.017387386735294514
   },
   {
     "ticker": "LAND.L",
@@ -752,8 +752,8 @@
     "exit_price": null,
     "exit_date": null,
     "pnl_pct": null,
-    "max_favorable": null,
-    "max_adverse": null
+    "max_favorable": -0.004163197335553705,
+    "max_adverse": -0.004163197335553705
   },
   {
     "ticker": "REL.L",
@@ -770,8 +770,8 @@
     "exit_price": null,
     "exit_date": null,
     "pnl_pct": null,
-    "max_favorable": null,
-    "max_adverse": null
+    "max_favorable": 0.006293965198074787,
+    "max_adverse": 0.006293965198074787
   },
   {
     "ticker": "SGRO.L",
@@ -788,8 +788,8 @@
     "exit_price": null,
     "exit_date": null,
     "pnl_pct": null,
-    "max_favorable": null,
-    "max_adverse": null
+    "max_favorable": -0.0028161253267124813,
+    "max_adverse": -0.0028161253267124813
   },
   {
     "ticker": "IMB.L",
@@ -806,8 +806,8 @@
     "exit_price": null,
     "exit_date": null,
     "pnl_pct": null,
-    "max_favorable": null,
-    "max_adverse": null
+    "max_favorable": -0.004347826086956522,
+    "max_adverse": -0.004347826086956522
   },
   {
     "ticker": "EXPN.L",
@@ -824,8 +824,8 @@
     "exit_price": null,
     "exit_date": null,
     "pnl_pct": null,
-    "max_favorable": null,
-    "max_adverse": null
+    "max_favorable": 0.007328448177402185,
+    "max_adverse": 0.007328448177402185
   },
   {
     "ticker": "MCO",
@@ -842,8 +842,8 @@
     "exit_price": null,
     "exit_date": null,
     "pnl_pct": null,
-    "max_favorable": null,
-    "max_adverse": null
+    "max_favorable": 0.004839938172883921,
+    "max_adverse": 0.004839938172883921
   },
   {
     "ticker": "ISRG",
@@ -860,8 +860,8 @@
     "exit_price": null,
     "exit_date": null,
     "pnl_pct": null,
-    "max_favorable": null,
-    "max_adverse": null
+    "max_favorable": 0.0012514969667124147,
+    "max_adverse": 0.0012514969667124147
   },
   {
     "ticker": "SHW",
@@ -878,8 +878,8 @@
     "exit_price": null,
     "exit_date": null,
     "pnl_pct": null,
-    "max_favorable": null,
-    "max_adverse": null
+    "max_favorable": -0.004238118167678443,
+    "max_adverse": -0.004238118167678443
   },
   {
     "ticker": "BLK",
@@ -896,8 +896,8 @@
     "exit_price": null,
     "exit_date": null,
     "pnl_pct": null,
-    "max_favorable": null,
-    "max_adverse": null
+    "max_favorable": 0.004131181354228199,
+    "max_adverse": 0.004131181354228199
   },
   {
     "ticker": "MSFT",
@@ -914,8 +914,8 @@
     "exit_price": null,
     "exit_date": null,
     "pnl_pct": null,
-    "max_favorable": null,
-    "max_adverse": null
+    "max_favorable": 0.0026627644772825735,
+    "max_adverse": 0.0026627644772825735
   },
   {
     "ticker": "ZTS",
@@ -932,8 +932,8 @@
     "exit_price": null,
     "exit_date": null,
     "pnl_pct": null,
-    "max_favorable": null,
-    "max_adverse": null
+    "max_favorable": 0.005867509883988646,
+    "max_adverse": 0.005867509883988646
   },
   {
     "ticker": "AON",
@@ -950,8 +950,8 @@
     "exit_price": null,
     "exit_date": null,
     "pnl_pct": null,
-    "max_favorable": null,
-    "max_adverse": null
+    "max_favorable": 0.009308029520533596,
+    "max_adverse": 0.009308029520533596
   },
   {
     "ticker": "ABT",
@@ -968,8 +968,8 @@
     "exit_price": null,
     "exit_date": null,
     "pnl_pct": null,
-    "max_favorable": null,
-    "max_adverse": null
+    "max_favorable": -0.006585070551658163,
+    "max_adverse": -0.006585070551658163
   },
   {
     "ticker": "CRWD",
@@ -986,8 +986,8 @@
     "exit_price": null,
     "exit_date": null,
     "pnl_pct": null,
-    "max_favorable": null,
-    "max_adverse": null
+    "max_favorable": -0.004284233350103702,
+    "max_adverse": -0.004284233350103702
   },
   {
     "ticker": "ISRG",
@@ -1004,8 +1004,8 @@
     "exit_price": null,
     "exit_date": null,
     "pnl_pct": null,
-    "max_favorable": null,
-    "max_adverse": null
+    "max_favorable": 0.0012514969667124147,
+    "max_adverse": 0.0012514969667124147
   },
   {
     "ticker": "NFLX",
@@ -1022,8 +1022,8 @@
     "exit_price": null,
     "exit_date": null,
     "pnl_pct": null,
-    "max_favorable": null,
-    "max_adverse": null
+    "max_favorable": 0.006634214133103478,
+    "max_adverse": 0.006634214133103478
   },
   {
     "ticker": "PANW",
@@ -1040,8 +1040,8 @@
     "exit_price": null,
     "exit_date": null,
     "pnl_pct": null,
-    "max_favorable": null,
-    "max_adverse": null
+    "max_favorable": -0.011740693422121489,
+    "max_adverse": -0.011740693422121489
   },
   {
     "ticker": "FTNT",
@@ -1058,8 +1058,8 @@
     "exit_price": null,
     "exit_date": null,
     "pnl_pct": null,
-    "max_favorable": null,
-    "max_adverse": null
+    "max_favorable": -0.0043080169435163835,
+    "max_adverse": -0.0043080169435163835
   },
   {
     "ticker": "TMUS",
@@ -1076,8 +1076,8 @@
     "exit_price": null,
     "exit_date": null,
     "pnl_pct": null,
-    "max_favorable": null,
-    "max_adverse": null
+    "max_favorable": -0.002531291064256315,
+    "max_adverse": -0.002531291064256315
   },
   {
     "ticker": "KHC",
@@ -1094,8 +1094,8 @@
     "exit_price": null,
     "exit_date": null,
     "pnl_pct": null,
-    "max_favorable": null,
-    "max_adverse": null
+    "max_favorable": 0.0007323120810652291,
+    "max_adverse": 0.0007323120810652291
   },
   {
     "ticker": "MSFT",
@@ -1112,8 +1112,8 @@
     "exit_price": null,
     "exit_date": null,
     "pnl_pct": null,
-    "max_favorable": null,
-    "max_adverse": null
+    "max_favorable": 0.0026627644772825735,
+    "max_adverse": 0.0026627644772825735
   },
   {
     "ticker": "CEG",
@@ -1130,8 +1130,8 @@
     "exit_price": null,
     "exit_date": null,
     "pnl_pct": null,
-    "max_favorable": null,
-    "max_adverse": null
+    "max_favorable": -0.023152559065061046,
+    "max_adverse": -0.023152559065061046
   },
   {
     "ticker": "IDXX",
@@ -1148,8 +1148,8 @@
     "exit_price": null,
     "exit_date": null,
     "pnl_pct": null,
-    "max_favorable": null,
-    "max_adverse": null
+    "max_favorable": 0.0170246078108434,
+    "max_adverse": 0.0170246078108434
   },
   {
     "ticker": "BKR",
@@ -1166,8 +1166,8 @@
     "exit_price": null,
     "exit_date": null,
     "pnl_pct": null,
-    "max_favorable": null,
-    "max_adverse": null
+    "max_favorable": 0.00416927325865463,
+    "max_adverse": 0.00416927325865463
   },
   {
     "ticker": "MSFT",
@@ -1184,8 +1184,8 @@
     "exit_price": null,
     "exit_date": null,
     "pnl_pct": null,
-    "max_favorable": null,
-    "max_adverse": null
+    "max_favorable": 0.0026627644772825735,
+    "max_adverse": 0.0026627644772825735
   },
   {
     "ticker": "SAF.PA",
@@ -1202,8 +1202,8 @@
     "exit_price": null,
     "exit_date": null,
     "pnl_pct": null,
-    "max_favorable": null,
-    "max_adverse": null
+    "max_favorable": -0.0017953321364452424,
+    "max_adverse": -0.0017953321364452424
   },
   {
     "ticker": "DTE.DE",
@@ -1220,8 +1220,8 @@
     "exit_price": null,
     "exit_date": null,
     "pnl_pct": null,
-    "max_favorable": null,
-    "max_adverse": null
+    "max_favorable": 0.0010885091928334873,
+    "max_adverse": 0.0010885091928334873
   },
   {
     "ticker": "ADS.DE",
@@ -1238,8 +1238,8 @@
     "exit_price": null,
     "exit_date": null,
     "pnl_pct": null,
-    "max_favorable": null,
-    "max_adverse": null
+    "max_favorable": 0.010390497287598612,
+    "max_adverse": 0.010390497287598612
   },
   {
     "ticker": "SGO.PA",
@@ -1256,8 +1256,8 @@
     "exit_price": null,
     "exit_date": null,
     "pnl_pct": null,
-    "max_favorable": null,
-    "max_adverse": null
+    "max_favorable": -0.00957552591959634,
+    "max_adverse": -0.00957552591959634
   },
   {
     "ticker": "OR.PA",
@@ -1274,8 +1274,8 @@
     "exit_price": null,
     "exit_date": null,
     "pnl_pct": null,
-    "max_favorable": null,
-    "max_adverse": null
+    "max_favorable": -0.007370694461312255,
+    "max_adverse": -0.007370694461312255
   },
   {
     "ticker": "HO.PA",
@@ -1292,8 +1292,8 @@
     "exit_price": null,
     "exit_date": null,
     "pnl_pct": null,
-    "max_favorable": null,
-    "max_adverse": null
+    "max_favorable": -0.008309085784138758,
+    "max_adverse": -0.008309085784138758
   },
   {
     "ticker": "PUB.PA",
@@ -1310,8 +1310,8 @@
     "exit_price": null,
     "exit_date": null,
     "pnl_pct": null,
-    "max_favorable": null,
-    "max_adverse": null
+    "max_favorable": -0.0010282423318505346,
+    "max_adverse": -0.0010282423318505346
   },
   {
     "ticker": "AC.PA",
@@ -1328,8 +1328,8 @@
     "exit_price": null,
     "exit_date": null,
     "pnl_pct": null,
-    "max_favorable": null,
-    "max_adverse": null
+    "max_favorable": 0.000231896791475764,
+    "max_adverse": 0.000231896791475764
   },
   {
     "ticker": "SAF.PA",
@@ -1346,8 +1346,8 @@
     "exit_price": null,
     "exit_date": null,
     "pnl_pct": null,
-    "max_favorable": null,
-    "max_adverse": null
+    "max_favorable": -0.0017953321364452424,
+    "max_adverse": -0.0017953321364452424
   },
   {
     "ticker": "RNO.PA",
@@ -1364,8 +1364,8 @@
     "exit_price": null,
     "exit_date": null,
     "pnl_pct": null,
-    "max_favorable": null,
-    "max_adverse": null
+    "max_favorable": 0.016878954164541406,
+    "max_adverse": 0.016878954164541406
   },
   {
     "ticker": "VIV.PA",
@@ -1382,8 +1382,8 @@
     "exit_price": null,
     "exit_date": null,
     "pnl_pct": null,
-    "max_favorable": null,
-    "max_adverse": null
+    "max_favorable": 0.001841628529529396,
+    "max_adverse": 0.001841628529529396
   },
   {
     "ticker": "SGO.PA",
@@ -1400,8 +1400,8 @@
     "exit_price": null,
     "exit_date": null,
     "pnl_pct": null,
-    "max_favorable": null,
-    "max_adverse": null
+    "max_favorable": -0.00957552591959634,
+    "max_adverse": -0.00957552591959634
   },
   {
     "ticker": "SW.PA",
@@ -1418,8 +1418,8 @@
     "exit_price": null,
     "exit_date": null,
     "pnl_pct": null,
-    "max_favorable": null,
-    "max_adverse": null
+    "max_favorable": -0.000936807458238736,
+    "max_adverse": -0.000936807458238736
   },
   {
     "ticker": "WLN.PA",
@@ -1436,8 +1436,8 @@
     "exit_price": null,
     "exit_date": null,
     "pnl_pct": null,
-    "max_favorable": null,
-    "max_adverse": null
+    "max_favorable": 0.012073162055171793,
+    "max_adverse": 0.012073162055171793
   },
   {
     "ticker": "CON.DE",
@@ -1454,8 +1454,8 @@
     "exit_price": null,
     "exit_date": null,
     "pnl_pct": null,
-    "max_favorable": null,
-    "max_adverse": null
+    "max_favorable": -0.009436829449379238,
+    "max_adverse": -0.009436829449379238
   },
   {
     "ticker": "DTE.DE",
@@ -1472,8 +1472,8 @@
     "exit_price": null,
     "exit_date": null,
     "pnl_pct": null,
-    "max_favorable": null,
-    "max_adverse": null
+    "max_favorable": 0.0010885091928334873,
+    "max_adverse": 0.0010885091928334873
   },
   {
     "ticker": "ADS.DE",
@@ -1490,8 +1490,8 @@
     "exit_price": null,
     "exit_date": null,
     "pnl_pct": null,
-    "max_favorable": null,
-    "max_adverse": null
+    "max_favorable": 0.010390497287598612,
+    "max_adverse": 0.010390497287598612
   },
   {
     "ticker": "SHL.DE",
@@ -1508,8 +1508,8 @@
     "exit_price": null,
     "exit_date": null,
     "pnl_pct": null,
-    "max_favorable": null,
-    "max_adverse": null
+    "max_favorable": 0.0069022302401124756,
+    "max_adverse": 0.0069022302401124756
   },
   {
     "ticker": "ZAL.DE",
@@ -1526,8 +1526,8 @@
     "exit_price": null,
     "exit_date": null,
     "pnl_pct": null,
-    "max_favorable": null,
-    "max_adverse": null
+    "max_favorable": 0.0031659468327750197,
+    "max_adverse": 0.0031659468327750197
   },
   {
     "ticker": "REL.L",
@@ -1544,8 +1544,8 @@
     "exit_price": null,
     "exit_date": null,
     "pnl_pct": null,
-    "max_favorable": null,
-    "max_adverse": null
+    "max_favorable": -0.00411522633744856,
+    "max_adverse": -0.00411522633744856
   },
   {
     "ticker": "IMB.L",
@@ -1562,8 +1562,8 @@
     "exit_price": null,
     "exit_date": null,
     "pnl_pct": null,
-    "max_favorable": null,
-    "max_adverse": null
+    "max_favorable": 0.0025188916876574307,
+    "max_adverse": 0.0025188916876574307
   },
   {
     "ticker": "EXPN.L",
@@ -1580,8 +1580,8 @@
     "exit_price": null,
     "exit_date": null,
     "pnl_pct": null,
-    "max_favorable": null,
-    "max_adverse": null
+    "max_favorable": 0.0034955633234740524,
+    "max_adverse": 0.0034955633234740524
   },
   {
     "ticker": "MSFT",
@@ -1598,8 +1598,8 @@
     "exit_price": null,
     "exit_date": null,
     "pnl_pct": null,
-    "max_favorable": null,
-    "max_adverse": null
+    "max_favorable": 0.013513032542799163,
+    "max_adverse": 0.013513032542799163
   },
   {
     "ticker": "AXP",
@@ -1616,8 +1616,8 @@
     "exit_price": null,
     "exit_date": null,
     "pnl_pct": null,
-    "max_favorable": null,
-    "max_adverse": null
+    "max_favorable": 0.0109907547798169,
+    "max_adverse": 0.0109907547798169
   },
   {
     "ticker": "PGR",
@@ -1634,8 +1634,8 @@
     "exit_price": null,
     "exit_date": null,
     "pnl_pct": null,
-    "max_favorable": null,
-    "max_adverse": null
+    "max_favorable": 0.0010216900308713853,
+    "max_adverse": 0.0010216900308713853
   },
   {
     "ticker": "ISRG",
@@ -1652,8 +1652,8 @@
     "exit_price": null,
     "exit_date": null,
     "pnl_pct": null,
-    "max_favorable": null,
-    "max_adverse": null
+    "max_favorable": 0.001584704691148993,
+    "max_adverse": 0.001584704691148993
   },
   {
     "ticker": "SHW",
@@ -1670,8 +1670,8 @@
     "exit_price": null,
     "exit_date": null,
     "pnl_pct": null,
-    "max_favorable": null,
-    "max_adverse": null
+    "max_favorable": -0.009718619844231183,
+    "max_adverse": -0.009718619844231183
   },
   {
     "ticker": "ZTS",
@@ -1688,8 +1688,8 @@
     "exit_price": null,
     "exit_date": null,
     "pnl_pct": null,
-    "max_favorable": null,
-    "max_adverse": null
+    "max_favorable": 0.003776844990611588,
+    "max_adverse": 0.003776844990611588
   },
   {
     "ticker": "AON",
@@ -1706,8 +1706,8 @@
     "exit_price": null,
     "exit_date": null,
     "pnl_pct": null,
-    "max_favorable": null,
-    "max_adverse": null
+    "max_favorable": 0.002712373447806213,
+    "max_adverse": 0.002712373447806213
   },
   {
     "ticker": "ABT",
@@ -1724,8 +1724,8 @@
     "exit_price": null,
     "exit_date": null,
     "pnl_pct": null,
-    "max_favorable": null,
-    "max_adverse": null
+    "max_favorable": -0.012480877566603791,
+    "max_adverse": -0.012480877566603791
   },
   {
     "ticker": "CRWD",
@@ -1742,8 +1742,8 @@
     "exit_price": null,
     "exit_date": null,
     "pnl_pct": null,
-    "max_favorable": null,
-    "max_adverse": null
+    "max_favorable": 0.008724456058317202,
+    "max_adverse": 0.008724456058317202
   },
   {
     "ticker": "PANW",
@@ -1760,8 +1760,8 @@
     "exit_price": null,
     "exit_date": null,
     "pnl_pct": null,
-    "max_favorable": null,
-    "max_adverse": null
+    "max_favorable": -0.0020247987612355307,
+    "max_adverse": -0.0020247987612355307
   },
   {
     "ticker": "FTNT",
@@ -1778,8 +1778,8 @@
     "exit_price": null,
     "exit_date": null,
     "pnl_pct": null,
-    "max_favorable": null,
-    "max_adverse": null
+    "max_favorable": -0.0010886916200612924,
+    "max_adverse": -0.0010886916200612924
   },
   {
     "ticker": "ISRG",
@@ -1796,8 +1796,8 @@
     "exit_price": null,
     "exit_date": null,
     "pnl_pct": null,
-    "max_favorable": null,
-    "max_adverse": null
+    "max_favorable": 0.001584704691148993,
+    "max_adverse": 0.001584704691148993
   },
   {
     "ticker": "TMUS",
@@ -1814,8 +1814,8 @@
     "exit_price": null,
     "exit_date": null,
     "pnl_pct": null,
-    "max_favorable": null,
-    "max_adverse": null
+    "max_favorable": 0.0010294573314524127,
+    "max_adverse": 0.0010294573314524127
   },
   {
     "ticker": "MSFT",
@@ -1832,8 +1832,8 @@
     "exit_price": null,
     "exit_date": null,
     "pnl_pct": null,
-    "max_favorable": null,
-    "max_adverse": null
+    "max_favorable": 0.013513032542799163,
+    "max_adverse": 0.013513032542799163
   },
   {
     "ticker": "KHC",
@@ -1850,8 +1850,8 @@
     "exit_price": null,
     "exit_date": null,
     "pnl_pct": null,
-    "max_favorable": null,
-    "max_adverse": null
+    "max_favorable": -0.005491959421258158,
+    "max_adverse": -0.005491959421258158
   },
   {
     "ticker": "NFLX",
@@ -1868,8 +1868,8 @@
     "exit_price": null,
     "exit_date": null,
     "pnl_pct": null,
-    "max_favorable": null,
-    "max_adverse": null
+    "max_favorable": 0.0035961602187298846,
+    "max_adverse": 0.0035961602187298846
   },
   {
     "ticker": "SNPS",
@@ -1886,8 +1886,8 @@
     "exit_price": null,
     "exit_date": null,
     "pnl_pct": null,
-    "max_favorable": null,
-    "max_adverse": null
+    "max_favorable": 0.010836721257720266,
+    "max_adverse": 0.010836721257720266
   },
   {
     "ticker": "AXP",
@@ -1904,8 +1904,8 @@
     "exit_price": null,
     "exit_date": null,
     "pnl_pct": null,
-    "max_favorable": null,
-    "max_adverse": null
+    "max_favorable": 0.0109907547798169,
+    "max_adverse": 0.0109907547798169
   },
   {
     "ticker": "MSFT",
@@ -1922,8 +1922,8 @@
     "exit_price": null,
     "exit_date": null,
     "pnl_pct": null,
-    "max_favorable": null,
-    "max_adverse": null
+    "max_favorable": 0.013513032542799163,
+    "max_adverse": 0.013513032542799163
   },
   {
     "ticker": "SAF.PA",
@@ -1940,8 +1940,8 @@
     "exit_price": null,
     "exit_date": null,
     "pnl_pct": null,
-    "max_favorable": null,
-    "max_adverse": null
+    "max_favorable": 0.003927168868261416,
+    "max_adverse": 0.003927168868261416
   },
   {
     "ticker": "DTE.DE",
@@ -1958,8 +1958,8 @@
     "exit_price": null,
     "exit_date": null,
     "pnl_pct": null,
-    "max_favorable": null,
-    "max_adverse": null
+    "max_favorable": -0.0003633970438048052,
+    "max_adverse": -0.0003633970438048052
   },
   {
     "ticker": "SGO.PA",
@@ -1976,8 +1976,8 @@
     "exit_price": null,
     "exit_date": null,
     "pnl_pct": null,
-    "max_favorable": null,
-    "max_adverse": null
+    "max_favorable": -0.002569990273276961,
+    "max_adverse": -0.002569990273276961
   },
   {
     "ticker": "ADS.DE",
@@ -1994,8 +1994,8 @@
     "exit_price": null,
     "exit_date": null,
     "pnl_pct": null,
-    "max_favorable": null,
-    "max_adverse": null
+    "max_favorable": 0.0032478808840446507,
+    "max_adverse": 0.0032478808840446507
   },
   {
     "ticker": "HO.PA",
@@ -2012,8 +2012,8 @@
     "exit_price": null,
     "exit_date": null,
     "pnl_pct": null,
-    "max_favorable": null,
-    "max_adverse": null
+    "max_favorable": 0.0012345804599086935,
+    "max_adverse": 0.0012345804599086935
   },
   {
     "ticker": "PUB.PA",
@@ -2030,8 +2030,8 @@
     "exit_price": null,
     "exit_date": null,
     "pnl_pct": null,
-    "max_favorable": null,
-    "max_adverse": null
+    "max_favorable": -0.0007709747290924644,
+    "max_adverse": -0.0007709747290924644
   },
   {
     "ticker": "AC.PA",
@@ -2048,8 +2048,8 @@
     "exit_price": null,
     "exit_date": null,
     "pnl_pct": null,
-    "max_favorable": null,
-    "max_adverse": null
+    "max_favorable": 0.0030064613702229298,
+    "max_adverse": 0.0030064613702229298
   },
   {
     "ticker": "SAF.PA",
@@ -2066,8 +2066,8 @@
     "exit_price": null,
     "exit_date": null,
     "pnl_pct": null,
-    "max_favorable": null,
-    "max_adverse": null
+    "max_favorable": 0.003927168868261416,
+    "max_adverse": 0.003927168868261416
   },
   {
     "ticker": "VIV.PA",
@@ -2084,8 +2084,8 @@
     "exit_price": null,
     "exit_date": null,
     "pnl_pct": null,
-    "max_favorable": null,
-    "max_adverse": null
+    "max_favorable": 0.002759897500523288,
+    "max_adverse": 0.002759897500523288
   },
   {
     "ticker": "RNO.PA",
@@ -2102,8 +2102,8 @@
     "exit_price": null,
     "exit_date": null,
     "pnl_pct": null,
-    "max_favorable": null,
-    "max_adverse": null
+    "max_favorable": 0.006437050555732277,
+    "max_adverse": 0.006437050555732277
   },
   {
     "ticker": "SGO.PA",
@@ -2120,8 +2120,8 @@
     "exit_price": null,
     "exit_date": null,
     "pnl_pct": null,
-    "max_favorable": null,
-    "max_adverse": null
+    "max_favorable": -0.002569990273276961,
+    "max_adverse": -0.002569990273276961
   },
   {
     "ticker": "SW.PA",
@@ -2138,8 +2138,8 @@
     "exit_price": null,
     "exit_date": null,
     "pnl_pct": null,
-    "max_favorable": null,
-    "max_adverse": null
+    "max_favorable": 0.00046768759432182265,
+    "max_adverse": 0.00046768759432182265
   },
   {
     "ticker": "WLN.PA",
@@ -2156,8 +2156,8 @@
     "exit_price": null,
     "exit_date": null,
     "pnl_pct": null,
-    "max_favorable": null,
-    "max_adverse": null
+    "max_favorable": -0.004207539692165776,
+    "max_adverse": -0.004207539692165776
   },
   {
     "ticker": "CON.DE",
@@ -2174,8 +2174,8 @@
     "exit_price": null,
     "exit_date": null,
     "pnl_pct": null,
-    "max_favorable": null,
-    "max_adverse": null
+    "max_favorable": -0.00332828585210627,
+    "max_adverse": -0.00332828585210627
   },
   {
     "ticker": "FRE.DE",
@@ -2192,8 +2192,8 @@
     "exit_price": null,
     "exit_date": null,
     "pnl_pct": null,
-    "max_favorable": null,
-    "max_adverse": null
+    "max_favorable": 2.2489003797657856e-08,
+    "max_adverse": 2.2489003797657856e-08
   },
   {
     "ticker": "DTE.DE",
@@ -2210,8 +2210,8 @@
     "exit_price": null,
     "exit_date": null,
     "pnl_pct": null,
-    "max_favorable": null,
-    "max_adverse": null
+    "max_favorable": -0.0003633970438048052,
+    "max_adverse": -0.0003633970438048052
   },
   {
     "ticker": "ADS.DE",
@@ -2228,8 +2228,8 @@
     "exit_price": null,
     "exit_date": null,
     "pnl_pct": null,
-    "max_favorable": null,
-    "max_adverse": null
+    "max_favorable": 0.0032478808840446507,
+    "max_adverse": 0.0032478808840446507
   },
   {
     "ticker": "SHL.DE",
@@ -2246,8 +2246,8 @@
     "exit_price": null,
     "exit_date": null,
     "pnl_pct": null,
-    "max_favorable": null,
-    "max_adverse": null
+    "max_favorable": 0.003048746654569659,
+    "max_adverse": 0.003048746654569659
   },
   {
     "ticker": "ZAL.DE",
@@ -2264,8 +2264,8 @@
     "exit_price": null,
     "exit_date": null,
     "pnl_pct": null,
-    "max_favorable": null,
-    "max_adverse": null
+    "max_favorable": -0.0031862046211809237,
+    "max_adverse": -0.0031862046211809237
   },
   {
     "ticker": "REL.L",
@@ -2282,8 +2282,8 @@
     "exit_price": null,
     "exit_date": null,
     "pnl_pct": null,
-    "max_favorable": null,
-    "max_adverse": null
+    "max_favorable": -0.0014925373134328358,
+    "max_adverse": -0.0014925373134328358
   },
   {
     "ticker": "IMB.L",
@@ -2300,8 +2300,8 @@
     "exit_price": null,
     "exit_date": null,
     "pnl_pct": null,
-    "max_favorable": null,
-    "max_adverse": null
+    "max_favorable": 0.0019801980198019802,
+    "max_adverse": 0.0019801980198019802
   },
   {
     "ticker": "EXPN.L",
@@ -2318,8 +2318,8 @@
     "exit_price": null,
     "exit_date": null,
     "pnl_pct": null,
-    "max_favorable": null,
-    "max_adverse": null
+    "max_favorable": 0.0007190364911019234,
+    "max_adverse": 0.0007190364911019234
   },
   {
     "ticker": "SB=F",
@@ -2336,8 +2336,8 @@
     "exit_price": null,
     "exit_date": null,
     "pnl_pct": null,
-    "max_favorable": null,
-    "max_adverse": null
+    "max_favorable": -0.002162914097352143,
+    "max_adverse": -0.002162914097352143
   },
   {
     "ticker": "META",
@@ -2354,8 +2354,8 @@
     "exit_price": null,
     "exit_date": null,
     "pnl_pct": null,
-    "max_favorable": null,
-    "max_adverse": null
+    "max_favorable": -0.0025857851001026,
+    "max_adverse": -0.0025857851001026
   },
   {
     "ticker": "PGR",
@@ -2372,8 +2372,8 @@
     "exit_price": null,
     "exit_date": null,
     "pnl_pct": null,
-    "max_favorable": null,
-    "max_adverse": null
+    "max_favorable": 0.003010430536272402,
+    "max_adverse": 0.003010430536272402
   },
   {
     "ticker": "SHW",
@@ -2390,8 +2390,8 @@
     "exit_price": null,
     "exit_date": null,
     "pnl_pct": null,
-    "max_favorable": null,
-    "max_adverse": null
+    "max_favorable": -0.009899816545863173,
+    "max_adverse": -0.009899816545863173
   },
   {
     "ticker": "RTX",
@@ -2408,8 +2408,8 @@
     "exit_price": null,
     "exit_date": null,
     "pnl_pct": null,
-    "max_favorable": null,
-    "max_adverse": null
+    "max_favorable": -0.0047632561039945304,
+    "max_adverse": -0.0047632561039945304
   },
   {
     "ticker": "ISRG",
@@ -2426,8 +2426,8 @@
     "exit_price": null,
     "exit_date": null,
     "pnl_pct": null,
-    "max_favorable": null,
-    "max_adverse": null
+    "max_favorable": 0.0014493658713100454,
+    "max_adverse": 0.0014493658713100454
   },
   {
     "ticker": "MCO",
@@ -2444,8 +2444,8 @@
     "exit_price": null,
     "exit_date": null,
     "pnl_pct": null,
-    "max_favorable": null,
-    "max_adverse": null
+    "max_favorable": -0.00044234458369047384,
+    "max_adverse": -0.00044234458369047384
   },
   {
     "ticker": "MSFT",
@@ -2462,8 +2462,8 @@
     "exit_price": null,
     "exit_date": null,
     "pnl_pct": null,
-    "max_favorable": null,
-    "max_adverse": null
+    "max_favorable": -0.00345143850164126,
+    "max_adverse": -0.00345143850164126
   },
   {
     "ticker": "AXP",
@@ -2480,8 +2480,8 @@
     "exit_price": null,
     "exit_date": null,
     "pnl_pct": null,
-    "max_favorable": null,
-    "max_adverse": null
+    "max_favorable": -0.005555692392337919,
+    "max_adverse": -0.005555692392337919
   },
   {
     "ticker": "ZTS",
@@ -2498,8 +2498,8 @@
     "exit_price": null,
     "exit_date": null,
     "pnl_pct": null,
-    "max_favorable": null,
-    "max_adverse": null
+    "max_favorable": -0.004022644219851647,
+    "max_adverse": -0.004022644219851647
   },
   {
     "ticker": "AON",
@@ -2516,8 +2516,8 @@
     "exit_price": null,
     "exit_date": null,
     "pnl_pct": null,
-    "max_favorable": null,
-    "max_adverse": null
+    "max_favorable": -0.0032557054311300707,
+    "max_adverse": -0.0032557054311300707
   },
   {
     "ticker": "ABT",
@@ -2534,8 +2534,8 @@
     "exit_price": null,
     "exit_date": null,
     "pnl_pct": null,
-    "max_favorable": null,
-    "max_adverse": null
+    "max_favorable": -0.014368798474647275,
+    "max_adverse": -0.014368798474647275
   },
   {
     "ticker": "CRWD",
@@ -2552,8 +2552,8 @@
     "exit_price": null,
     "exit_date": null,
     "pnl_pct": null,
-    "max_favorable": null,
-    "max_adverse": null
+    "max_favorable": -0.011026461494753446,
+    "max_adverse": -0.011026461494753446
   },
   {
     "ticker": "META",
@@ -2570,8 +2570,8 @@
     "exit_price": null,
     "exit_date": null,
     "pnl_pct": null,
-    "max_favorable": null,
-    "max_adverse": null
+    "max_favorable": -0.0025857851001026,
+    "max_adverse": -0.0025857851001026
   },
   {
     "ticker": "PANW",
@@ -2588,8 +2588,8 @@
     "exit_price": null,
     "exit_date": null,
     "pnl_pct": null,
-    "max_favorable": null,
-    "max_adverse": null
+    "max_favorable": -0.009588241855082271,
+    "max_adverse": -0.009588241855082271
   },
   {
     "ticker": "FTNT",
@@ -2606,8 +2606,8 @@
     "exit_price": null,
     "exit_date": null,
     "pnl_pct": null,
-    "max_favorable": null,
-    "max_adverse": null
+    "max_favorable": -0.004125238245941119,
+    "max_adverse": -0.004125238245941119
   },
   {
     "ticker": "TMUS",
@@ -2624,8 +2624,8 @@
     "exit_price": null,
     "exit_date": null,
     "pnl_pct": null,
-    "max_favorable": null,
-    "max_adverse": null
+    "max_favorable": 0.0014406620827437321,
+    "max_adverse": 0.0014406620827437321
   },
   {
     "ticker": "ISRG",
@@ -2642,8 +2642,8 @@
     "exit_price": null,
     "exit_date": null,
     "pnl_pct": null,
-    "max_favorable": null,
-    "max_adverse": null
+    "max_favorable": 0.0014493658713100454,
+    "max_adverse": 0.0014493658713100454
   },
   {
     "ticker": "KHC",
@@ -2660,8 +2660,8 @@
     "exit_price": null,
     "exit_date": null,
     "pnl_pct": null,
-    "max_favorable": null,
-    "max_adverse": null
+    "max_favorable": -0.0050319905468660915,
+    "max_adverse": -0.0050319905468660915
   },
   {
     "ticker": "MSFT",
@@ -2678,8 +2678,8 @@
     "exit_price": null,
     "exit_date": null,
     "pnl_pct": null,
-    "max_favorable": null,
-    "max_adverse": null
+    "max_favorable": -0.00345143850164126,
+    "max_adverse": -0.00345143850164126
   },
   {
     "ticker": "CEG",
@@ -2696,8 +2696,8 @@
     "exit_price": null,
     "exit_date": null,
     "pnl_pct": null,
-    "max_favorable": null,
-    "max_adverse": null
+    "max_favorable": -0.0051843336320534375,
+    "max_adverse": -0.0051843336320534375
   },
   {
     "ticker": "NFLX",
@@ -2714,8 +2714,8 @@
     "exit_price": null,
     "exit_date": null,
     "pnl_pct": null,
-    "max_favorable": null,
-    "max_adverse": null
+    "max_favorable": -0.0016726886615681487,
+    "max_adverse": -0.0016726886615681487
   },
   {
     "ticker": "MSFT",
@@ -2732,8 +2732,8 @@
     "exit_price": null,
     "exit_date": null,
     "pnl_pct": null,
-    "max_favorable": null,
-    "max_adverse": null
+    "max_favorable": -0.00345143850164126,
+    "max_adverse": -0.00345143850164126
   },
   {
     "ticker": "AXP",
@@ -2750,8 +2750,8 @@
     "exit_price": null,
     "exit_date": null,
     "pnl_pct": null,
-    "max_favorable": null,
-    "max_adverse": null
+    "max_favorable": -0.005555692392337919,
+    "max_adverse": -0.005555692392337919
   },
   {
     "ticker": "SAF.PA",
@@ -2768,8 +2768,8 @@
     "exit_price": null,
     "exit_date": null,
     "pnl_pct": null,
-    "max_favorable": null,
-    "max_adverse": null
+    "max_favorable": 0.0,
+    "max_adverse": 0.0
   },
   {
     "ticker": "DTE.DE",
@@ -2786,8 +2786,8 @@
     "exit_price": null,
     "exit_date": null,
     "pnl_pct": null,
-    "max_favorable": null,
-    "max_adverse": null
+    "max_favorable": -2.4941718368166787e-08,
+    "max_adverse": -2.4941718368166787e-08
   },
   {
     "ticker": "SGO.PA",
@@ -2804,8 +2804,8 @@
     "exit_price": null,
     "exit_date": null,
     "pnl_pct": null,
-    "max_favorable": null,
-    "max_adverse": null
+    "max_favorable": 4.302657766945605e-08,
+    "max_adverse": 4.302657766945605e-08
   },
   {
     "ticker": "ADS.DE",
@@ -2822,8 +2822,8 @@
     "exit_price": null,
     "exit_date": null,
     "pnl_pct": null,
-    "max_favorable": null,
-    "max_adverse": null
+    "max_favorable": -4.419634779641088e-08,
+    "max_adverse": -4.419634779641088e-08
   },
   {
     "ticker": "HO.PA",
@@ -2840,8 +2840,8 @@
     "exit_price": null,
     "exit_date": null,
     "pnl_pct": null,
-    "max_favorable": null,
-    "max_adverse": null
+    "max_favorable": 1.257419777969228e-08,
+    "max_adverse": 1.257419777969228e-08
   },
   {
     "ticker": "PUB.PA",
@@ -2858,8 +2858,8 @@
     "exit_price": null,
     "exit_date": null,
     "pnl_pct": null,
-    "max_favorable": null,
-    "max_adverse": null
+    "max_favorable": 3.526684677327333e-08,
+    "max_adverse": 3.526684677327333e-08
   },
   {
     "ticker": "AC.PA",
@@ -2876,8 +2876,8 @@
     "exit_price": null,
     "exit_date": null,
     "pnl_pct": null,
-    "max_favorable": null,
-    "max_adverse": null
+    "max_favorable": -1.4158004246542199e-08,
+    "max_adverse": -1.4158004246542199e-08
   },
   {
     "ticker": "SAF.PA",
@@ -2894,8 +2894,8 @@
     "exit_price": null,
     "exit_date": null,
     "pnl_pct": null,
-    "max_favorable": null,
-    "max_adverse": null
+    "max_favorable": 0.0,
+    "max_adverse": 0.0
   },
   {
     "ticker": "RNO.PA",
@@ -2912,8 +2912,8 @@
     "exit_price": null,
     "exit_date": null,
     "pnl_pct": null,
-    "max_favorable": null,
-    "max_adverse": null
+    "max_favorable": -2.7186051099538067e-08,
+    "max_adverse": -2.7186051099538067e-08
   },
   {
     "ticker": "SGO.PA",
@@ -2930,8 +2930,8 @@
     "exit_price": null,
     "exit_date": null,
     "pnl_pct": null,
-    "max_favorable": null,
-    "max_adverse": null
+    "max_favorable": 4.302657766945605e-08,
+    "max_adverse": 4.302657766945605e-08
   },
   {
     "ticker": "SW.PA",
@@ -2948,8 +2948,8 @@
     "exit_price": null,
     "exit_date": null,
     "pnl_pct": null,
-    "max_favorable": null,
-    "max_adverse": null
+    "max_favorable": -3.927156749849041e-08,
+    "max_adverse": -3.927156749849041e-08
   },
   {
     "ticker": "WLN.PA",
@@ -2966,8 +2966,8 @@
     "exit_price": null,
     "exit_date": null,
     "pnl_pct": null,
-    "max_favorable": null,
-    "max_adverse": null
+    "max_favorable": 3.379816445336666e-08,
+    "max_adverse": 3.379816445336666e-08
   },
   {
     "ticker": "CON.DE",
@@ -2984,8 +2984,8 @@
     "exit_price": null,
     "exit_date": null,
     "pnl_pct": null,
-    "max_favorable": null,
-    "max_adverse": null
+    "max_favorable": 4.601564753148217e-09,
+    "max_adverse": 4.601564753148217e-09
   },
   {
     "ticker": "ADS.DE",
@@ -3002,8 +3002,8 @@
     "exit_price": null,
     "exit_date": null,
     "pnl_pct": null,
-    "max_favorable": null,
-    "max_adverse": null
+    "max_favorable": -4.419634779641088e-08,
+    "max_adverse": -4.419634779641088e-08
   },
   {
     "ticker": "SHL.DE",
@@ -3020,8 +3020,8 @@
     "exit_price": null,
     "exit_date": null,
     "pnl_pct": null,
-    "max_favorable": null,
-    "max_adverse": null
+    "max_favorable": -3.393670075443059e-08,
+    "max_adverse": -3.393670075443059e-08
   },
   {
     "ticker": "REL.L",
@@ -3038,8 +3038,8 @@
     "exit_price": null,
     "exit_date": null,
     "pnl_pct": null,
-    "max_favorable": null,
-    "max_adverse": null
+    "max_favorable": 0.0,
+    "max_adverse": 0.0
   },
   {
     "ticker": "EXPN.L",
@@ -3056,8 +3056,8 @@
     "exit_price": null,
     "exit_date": null,
     "pnl_pct": null,
-    "max_favorable": null,
-    "max_adverse": null
+    "max_favorable": 0.0,
+    "max_adverse": 0.0
   },
   {
     "ticker": "SB=F",
@@ -3074,8 +3074,8 @@
     "exit_price": null,
     "exit_date": null,
     "pnl_pct": null,
-    "max_favorable": null,
-    "max_adverse": null
+    "max_favorable": 2.7443865245882833e-08,
+    "max_adverse": 2.7443865245882833e-08
   },
   {
     "ticker": "BLK",
@@ -3092,8 +3092,8 @@
     "exit_price": null,
     "exit_date": null,
     "pnl_pct": null,
-    "max_favorable": null,
-    "max_adverse": null
+    "max_favorable": 0.0013082706516328476,
+    "max_adverse": 0.0013082706516328476
   },
   {
     "ticker": "PGR",
@@ -3110,8 +3110,8 @@
     "exit_price": null,
     "exit_date": null,
     "pnl_pct": null,
-    "max_favorable": null,
-    "max_adverse": null
+    "max_favorable": 0.005473206281823697,
+    "max_adverse": 0.005473206281823697
   },
   {
     "ticker": "SHW",
@@ -3128,8 +3128,8 @@
     "exit_price": null,
     "exit_date": null,
     "pnl_pct": null,
-    "max_favorable": null,
-    "max_adverse": null
+    "max_favorable": -0.004148524711490606,
+    "max_adverse": -0.004148524711490606
   },
   {
     "ticker": "RTX",
@@ -3146,8 +3146,8 @@
     "exit_price": null,
     "exit_date": null,
     "pnl_pct": null,
-    "max_favorable": null,
-    "max_adverse": null
+    "max_favorable": 0.0008915465744020699,
+    "max_adverse": 0.0008915465744020699
   },
   {
     "ticker": "META",
@@ -3164,8 +3164,8 @@
     "exit_price": null,
     "exit_date": null,
     "pnl_pct": null,
-    "max_favorable": null,
-    "max_adverse": null
+    "max_favorable": -0.0011999884775236744,
+    "max_adverse": -0.0011999884775236744
   },
   {
     "ticker": "MCO",
@@ -3182,8 +3182,8 @@
     "exit_price": null,
     "exit_date": null,
     "pnl_pct": null,
-    "max_favorable": null,
-    "max_adverse": null
+    "max_favorable": 0.003107356083578028,
+    "max_adverse": 0.003107356083578028
   },
   {
     "ticker": "ISRG",
@@ -3200,8 +3200,8 @@
     "exit_price": null,
     "exit_date": null,
     "pnl_pct": null,
-    "max_favorable": null,
-    "max_adverse": null
+    "max_favorable": 0.0028841696270993306,
+    "max_adverse": 0.0028841696270993306
   },
   {
     "ticker": "ZTS",
@@ -3218,8 +3218,8 @@
     "exit_price": null,
     "exit_date": null,
     "pnl_pct": null,
-    "max_favorable": null,
-    "max_adverse": null
+    "max_favorable": -0.005109531121449304,
+    "max_adverse": -0.005109531121449304
   },
   {
     "ticker": "AXP",
@@ -3236,8 +3236,8 @@
     "exit_price": null,
     "exit_date": null,
     "pnl_pct": null,
-    "max_favorable": null,
-    "max_adverse": null
+    "max_favorable": -0.006047934665999523,
+    "max_adverse": -0.006047934665999523
   },
   {
     "ticker": "AON",
@@ -3254,8 +3254,8 @@
     "exit_price": null,
     "exit_date": null,
     "pnl_pct": null,
-    "max_favorable": null,
-    "max_adverse": null
+    "max_favorable": -0.0006803907917170008,
+    "max_adverse": -0.0006803907917170008
   },
   {
     "ticker": "MSFT",
@@ -3272,8 +3272,8 @@
     "exit_price": null,
     "exit_date": null,
     "pnl_pct": null,
-    "max_favorable": null,
-    "max_adverse": null
+    "max_favorable": -0.003076180710537372,
+    "max_adverse": -0.003076180710537372
   },
   {
     "ticker": "ABT",
@@ -3290,8 +3290,8 @@
     "exit_price": null,
     "exit_date": null,
     "pnl_pct": null,
-    "max_favorable": null,
-    "max_adverse": null
+    "max_favorable": -0.010268771651011442,
+    "max_adverse": -0.010268771651011442
   },
   {
     "ticker": "CDNS",
@@ -3308,8 +3308,8 @@
     "exit_price": null,
     "exit_date": null,
     "pnl_pct": null,
-    "max_favorable": null,
-    "max_adverse": null
+    "max_favorable": -0.0023277633044183742,
+    "max_adverse": -0.0023277633044183742
   },
   {
     "ticker": "PANW",
@@ -3326,8 +3326,8 @@
     "exit_price": null,
     "exit_date": null,
     "pnl_pct": null,
-    "max_favorable": null,
-    "max_adverse": null
+    "max_favorable": -0.0007800474584266871,
+    "max_adverse": -0.0007800474584266871
   },
   {
     "ticker": "CRWD",
@@ -3344,8 +3344,8 @@
     "exit_price": null,
     "exit_date": null,
     "pnl_pct": null,
-    "max_favorable": null,
-    "max_adverse": null
+    "max_favorable": -0.004284233350103702,
+    "max_adverse": -0.004284233350103702
   },
   {
     "ticker": "FTNT",
@@ -3362,8 +3362,8 @@
     "exit_price": null,
     "exit_date": null,
     "pnl_pct": null,
-    "max_favorable": null,
-    "max_adverse": null
+    "max_favorable": -0.003759880366652103,
+    "max_adverse": -0.003759880366652103
   },
   {
     "ticker": "ISRG",
@@ -3380,8 +3380,8 @@
     "exit_price": null,
     "exit_date": null,
     "pnl_pct": null,
-    "max_favorable": null,
-    "max_adverse": null
+    "max_favorable": 0.0028841696270993306,
+    "max_adverse": 0.0028841696270993306
   },
   {
     "ticker": "KHC",
@@ -3398,8 +3398,8 @@
     "exit_price": null,
     "exit_date": null,
     "pnl_pct": null,
-    "max_favorable": null,
-    "max_adverse": null
+    "max_favorable": 0.0012093090134615637,
+    "max_adverse": 0.0012093090134615637
   },
   {
     "ticker": "TMUS",
@@ -3416,8 +3416,8 @@
     "exit_price": null,
     "exit_date": null,
     "pnl_pct": null,
-    "max_favorable": null,
-    "max_adverse": null
+    "max_favorable": 0.00203117617967888,
+    "max_adverse": 0.00203117617967888
   },
   {
     "ticker": "META",
@@ -3434,8 +3434,8 @@
     "exit_price": null,
     "exit_date": null,
     "pnl_pct": null,
-    "max_favorable": null,
-    "max_adverse": null
+    "max_favorable": -0.0011999884775236744,
+    "max_adverse": -0.0011999884775236744
   },
   {
     "ticker": "CEG",
@@ -3452,8 +3452,8 @@
     "exit_price": null,
     "exit_date": null,
     "pnl_pct": null,
-    "max_favorable": null,
-    "max_adverse": null
+    "max_favorable": -0.0061861670057801405,
+    "max_adverse": -0.0061861670057801405
   },
   {
     "ticker": "NFLX",
@@ -3470,8 +3470,8 @@
     "exit_price": null,
     "exit_date": null,
     "pnl_pct": null,
-    "max_favorable": null,
-    "max_adverse": null
+    "max_favorable": 0.002739729306213098,
+    "max_adverse": 0.002739729306213098
   },
   {
     "ticker": "MSFT",
@@ -3488,8 +3488,8 @@
     "exit_price": null,
     "exit_date": null,
     "pnl_pct": null,
-    "max_favorable": null,
-    "max_adverse": null
+    "max_favorable": -0.003076180710537372,
+    "max_adverse": -0.003076180710537372
   },
   {
     "ticker": "PAYX",
@@ -3506,8 +3506,8 @@
     "exit_price": null,
     "exit_date": null,
     "pnl_pct": null,
-    "max_favorable": null,
-    "max_adverse": null
+    "max_favorable": -0.0020933996060178753,
+    "max_adverse": -0.0020933996060178753
   },
   {
     "ticker": "AXP",
@@ -3524,8 +3524,8 @@
     "exit_price": null,
     "exit_date": null,
     "pnl_pct": null,
-    "max_favorable": null,
-    "max_adverse": null
+    "max_favorable": -0.006047934665999523,
+    "max_adverse": -0.006047934665999523
   },
   {
     "ticker": "MSFT",
@@ -3542,8 +3542,8 @@
     "exit_price": null,
     "exit_date": null,
     "pnl_pct": null,
-    "max_favorable": null,
-    "max_adverse": null
+    "max_favorable": -0.003076180710537372,
+    "max_adverse": -0.003076180710537372
   },
   {
     "ticker": "SAF.PA",
@@ -3560,8 +3560,8 @@
     "exit_price": null,
     "exit_date": null,
     "pnl_pct": null,
-    "max_favorable": null,
-    "max_adverse": null
+    "max_favorable": 0.0,
+    "max_adverse": 0.0
   },
   {
     "ticker": "DTE.DE",
@@ -3578,8 +3578,8 @@
     "exit_price": null,
     "exit_date": null,
     "pnl_pct": null,
-    "max_favorable": null,
-    "max_adverse": null
+    "max_favorable": -2.4941718368166787e-08,
+    "max_adverse": -2.4941718368166787e-08
   },
   {
     "ticker": "SGO.PA",
@@ -3596,8 +3596,8 @@
     "exit_price": null,
     "exit_date": null,
     "pnl_pct": null,
-    "max_favorable": null,
-    "max_adverse": null
+    "max_favorable": 4.302657766945605e-08,
+    "max_adverse": 4.302657766945605e-08
   },
   {
     "ticker": "ADS.DE",
@@ -3614,8 +3614,8 @@
     "exit_price": null,
     "exit_date": null,
     "pnl_pct": null,
-    "max_favorable": null,
-    "max_adverse": null
+    "max_favorable": -4.419634779641088e-08,
+    "max_adverse": -4.419634779641088e-08
   },
   {
     "ticker": "HO.PA",
@@ -3632,8 +3632,8 @@
     "exit_price": null,
     "exit_date": null,
     "pnl_pct": null,
-    "max_favorable": null,
-    "max_adverse": null
+    "max_favorable": 1.257419777969228e-08,
+    "max_adverse": 1.257419777969228e-08
   },
   {
     "ticker": "PUB.PA",
@@ -3650,8 +3650,8 @@
     "exit_price": null,
     "exit_date": null,
     "pnl_pct": null,
-    "max_favorable": null,
-    "max_adverse": null
+    "max_favorable": 3.526684677327333e-08,
+    "max_adverse": 3.526684677327333e-08
   },
   {
     "ticker": "SAF.PA",
@@ -3668,8 +3668,8 @@
     "exit_price": null,
     "exit_date": null,
     "pnl_pct": null,
-    "max_favorable": null,
-    "max_adverse": null
+    "max_favorable": 0.0,
+    "max_adverse": 0.0
   },
   {
     "ticker": "AC.PA",
@@ -3686,8 +3686,8 @@
     "exit_price": null,
     "exit_date": null,
     "pnl_pct": null,
-    "max_favorable": null,
-    "max_adverse": null
+    "max_favorable": -1.4158004246542199e-08,
+    "max_adverse": -1.4158004246542199e-08
   },
   {
     "ticker": "VIV.PA",
@@ -3704,8 +3704,8 @@
     "exit_price": null,
     "exit_date": null,
     "pnl_pct": null,
-    "max_favorable": null,
-    "max_adverse": null
+    "max_favorable": 7.917960260390439e-09,
+    "max_adverse": 7.917960260390439e-09
   },
   {
     "ticker": "RNO.PA",
@@ -3722,8 +3722,8 @@
     "exit_price": null,
     "exit_date": null,
     "pnl_pct": null,
-    "max_favorable": null,
-    "max_adverse": null
+    "max_favorable": -2.7186051099538067e-08,
+    "max_adverse": -2.7186051099538067e-08
   },
   {
     "ticker": "SGO.PA",
@@ -3740,8 +3740,8 @@
     "exit_price": null,
     "exit_date": null,
     "pnl_pct": null,
-    "max_favorable": null,
-    "max_adverse": null
+    "max_favorable": 4.302657766945605e-08,
+    "max_adverse": 4.302657766945605e-08
   },
   {
     "ticker": "SW.PA",
@@ -3758,8 +3758,8 @@
     "exit_price": null,
     "exit_date": null,
     "pnl_pct": null,
-    "max_favorable": null,
-    "max_adverse": null
+    "max_favorable": -3.927156749849041e-08,
+    "max_adverse": -3.927156749849041e-08
   },
   {
     "ticker": "SU.PA",
@@ -3776,8 +3776,8 @@
     "exit_price": null,
     "exit_date": null,
     "pnl_pct": null,
-    "max_favorable": null,
-    "max_adverse": null
+    "max_favorable": -2.2206714943651563e-08,
+    "max_adverse": -2.2206714943651563e-08
   },
   {
     "ticker": "WLN.PA",
@@ -3794,8 +3794,8 @@
     "exit_price": null,
     "exit_date": null,
     "pnl_pct": null,
-    "max_favorable": null,
-    "max_adverse": null
+    "max_favorable": 3.379816445336666e-08,
+    "max_adverse": 3.379816445336666e-08
   },
   {
     "ticker": "CON.DE",
@@ -3812,8 +3812,8 @@
     "exit_price": null,
     "exit_date": null,
     "pnl_pct": null,
-    "max_favorable": null,
-    "max_adverse": null
+    "max_favorable": 4.601564753148217e-09,
+    "max_adverse": 4.601564753148217e-09
   },
   {
     "ticker": "FRE.DE",
@@ -3830,8 +3830,8 @@
     "exit_price": null,
     "exit_date": null,
     "pnl_pct": null,
-    "max_favorable": null,
-    "max_adverse": null
+    "max_favorable": 2.2489003797657856e-08,
+    "max_adverse": 2.2489003797657856e-08
   },
   {
     "ticker": "DTE.DE",
@@ -3848,8 +3848,8 @@
     "exit_price": null,
     "exit_date": null,
     "pnl_pct": null,
-    "max_favorable": null,
-    "max_adverse": null
+    "max_favorable": -2.4941718368166787e-08,
+    "max_adverse": -2.4941718368166787e-08
   },
   {
     "ticker": "ADS.DE",
@@ -3866,8 +3866,8 @@
     "exit_price": null,
     "exit_date": null,
     "pnl_pct": null,
-    "max_favorable": null,
-    "max_adverse": null
+    "max_favorable": -4.419634779641088e-08,
+    "max_adverse": -4.419634779641088e-08
   },
   {
     "ticker": "SHL.DE",
@@ -3884,8 +3884,8 @@
     "exit_price": null,
     "exit_date": null,
     "pnl_pct": null,
-    "max_favorable": null,
-    "max_adverse": null
+    "max_favorable": -3.393670075443059e-08,
+    "max_adverse": -3.393670075443059e-08
   },
   {
     "ticker": "ZAL.DE",
@@ -3902,8 +3902,8 @@
     "exit_price": null,
     "exit_date": null,
     "pnl_pct": null,
-    "max_favorable": null,
-    "max_adverse": null
+    "max_favorable": -4.1539353203387085e-08,
+    "max_adverse": -4.1539353203387085e-08
   },
   {
     "ticker": "REL.L",
@@ -3920,8 +3920,8 @@
     "exit_price": null,
     "exit_date": null,
     "pnl_pct": null,
-    "max_favorable": null,
-    "max_adverse": null
+    "max_favorable": 0.0,
+    "max_adverse": 0.0
   },
   {
     "ticker": "IMB.L",
@@ -3938,8 +3938,8 @@
     "exit_price": null,
     "exit_date": null,
     "pnl_pct": null,
-    "max_favorable": null,
-    "max_adverse": null
+    "max_favorable": 0.0,
+    "max_adverse": 0.0
   },
   {
     "ticker": "WTB.L",
@@ -3956,8 +3956,8 @@
     "exit_price": null,
     "exit_date": null,
     "pnl_pct": null,
-    "max_favorable": null,
-    "max_adverse": null
+    "max_favorable": 0.0,
+    "max_adverse": 0.0
   },
   {
     "ticker": "EXPN.L",
@@ -3974,8 +3974,8 @@
     "exit_price": null,
     "exit_date": null,
     "pnl_pct": null,
-    "max_favorable": null,
-    "max_adverse": null
+    "max_favorable": 0.0,
+    "max_adverse": 0.0
   },
   {
     "ticker": "ZTS",
@@ -3992,8 +3992,8 @@
     "exit_price": null,
     "exit_date": null,
     "pnl_pct": null,
-    "max_favorable": null,
-    "max_adverse": null
+    "max_favorable": 0.0008178936886595595,
+    "max_adverse": 0.0008178936886595595
   },
   {
     "ticker": "AON",
@@ -4010,8 +4010,8 @@
     "exit_price": null,
     "exit_date": null,
     "pnl_pct": null,
-    "max_favorable": null,
-    "max_adverse": null
+    "max_favorable": 0.0018817362538367706,
+    "max_adverse": 0.0018817362538367706
   },
   {
     "ticker": "ABT",
@@ -4028,8 +4028,8 @@
     "exit_price": null,
     "exit_date": null,
     "pnl_pct": null,
-    "max_favorable": null,
-    "max_adverse": null
+    "max_favorable": -0.0009741677338845458,
+    "max_adverse": -0.0009741677338845458
   },
   {
     "ticker": "ISRG",
@@ -4046,8 +4046,8 @@
     "exit_price": null,
     "exit_date": null,
     "pnl_pct": null,
-    "max_favorable": null,
-    "max_adverse": null
+    "max_favorable": 0.0019384943736972381,
+    "max_adverse": 0.0019384943736972381
   },
   {
     "ticker": "KHC",
@@ -4064,8 +4064,8 @@
     "exit_price": null,
     "exit_date": null,
     "pnl_pct": null,
-    "max_favorable": null,
-    "max_adverse": null
+    "max_favorable": 0.0027235899521338607,
+    "max_adverse": 0.0027235899521338607
   },
   {
     "ticker": "TMUS",
@@ -4082,8 +4082,8 @@
     "exit_price": null,
     "exit_date": null,
     "pnl_pct": null,
-    "max_favorable": null,
-    "max_adverse": null
+    "max_favorable": 0.005279306385347229,
+    "max_adverse": 0.005279306385347229
   },
   {
     "ticker": "NFLX",
@@ -4100,8 +4100,8 @@
     "exit_price": null,
     "exit_date": null,
     "pnl_pct": null,
-    "max_favorable": null,
-    "max_adverse": null
+    "max_favorable": 0.004097559225464032,
+    "max_adverse": 0.004097559225464032
   },
   {
     "ticker": "PAYX",
@@ -4118,8 +4118,8 @@
     "exit_price": null,
     "exit_date": null,
     "pnl_pct": null,
-    "max_favorable": null,
-    "max_adverse": null
+    "max_favorable": 0.0018657051334264381,
+    "max_adverse": 0.0018657051334264381
   },
   {
     "ticker": "SGO.PA",
@@ -4136,8 +4136,8 @@
     "exit_price": null,
     "exit_date": null,
     "pnl_pct": null,
-    "max_favorable": null,
-    "max_adverse": null
+    "max_favorable": 4.302657766945605e-08,
+    "max_adverse": 4.302657766945605e-08
   },
   {
     "ticker": "DTE.DE",
@@ -4154,8 +4154,8 @@
     "exit_price": null,
     "exit_date": null,
     "pnl_pct": null,
-    "max_favorable": null,
-    "max_adverse": null
+    "max_favorable": -2.4941718368166787e-08,
+    "max_adverse": -2.4941718368166787e-08
   },
   {
     "ticker": "ADS.DE",
@@ -4172,8 +4172,8 @@
     "exit_price": null,
     "exit_date": null,
     "pnl_pct": null,
-    "max_favorable": null,
-    "max_adverse": null
+    "max_favorable": -4.419634779641088e-08,
+    "max_adverse": -4.419634779641088e-08
   },
   {
     "ticker": "RNO.PA",
@@ -4190,8 +4190,8 @@
     "exit_price": null,
     "exit_date": null,
     "pnl_pct": null,
-    "max_favorable": null,
-    "max_adverse": null
+    "max_favorable": -2.7186051099538067e-08,
+    "max_adverse": -2.7186051099538067e-08
   },
   {
     "ticker": "SGO.PA",
@@ -4208,8 +4208,8 @@
     "exit_price": null,
     "exit_date": null,
     "pnl_pct": null,
-    "max_favorable": null,
-    "max_adverse": null
+    "max_favorable": 4.302657766945605e-08,
+    "max_adverse": 4.302657766945605e-08
   },
   {
     "ticker": "SW.PA",
@@ -4226,8 +4226,8 @@
     "exit_price": null,
     "exit_date": null,
     "pnl_pct": null,
-    "max_favorable": null,
-    "max_adverse": null
+    "max_favorable": -3.927156749849041e-08,
+    "max_adverse": -3.927156749849041e-08
   },
   {
     "ticker": "DTE.DE",
@@ -4244,8 +4244,8 @@
     "exit_price": null,
     "exit_date": null,
     "pnl_pct": null,
-    "max_favorable": null,
-    "max_adverse": null
+    "max_favorable": -2.4941718368166787e-08,
+    "max_adverse": -2.4941718368166787e-08
   },
   {
     "ticker": "ADS.DE",
@@ -4262,8 +4262,8 @@
     "exit_price": null,
     "exit_date": null,
     "pnl_pct": null,
-    "max_favorable": null,
-    "max_adverse": null
+    "max_favorable": -4.419634779641088e-08,
+    "max_adverse": -4.419634779641088e-08
   },
   {
     "ticker": "SHL.DE",
@@ -4280,8 +4280,8 @@
     "exit_price": null,
     "exit_date": null,
     "pnl_pct": null,
-    "max_favorable": null,
-    "max_adverse": null
+    "max_favorable": -3.393670075443059e-08,
+    "max_adverse": -3.393670075443059e-08
   },
   {
     "ticker": "REL.L",
@@ -4298,8 +4298,8 @@
     "exit_price": null,
     "exit_date": null,
     "pnl_pct": null,
-    "max_favorable": null,
-    "max_adverse": null
+    "max_favorable": 0.0,
+    "max_adverse": 0.0
   },
   {
     "ticker": "IMB.L",
@@ -4316,8 +4316,8 @@
     "exit_price": null,
     "exit_date": null,
     "pnl_pct": null,
-    "max_favorable": null,
-    "max_adverse": null
+    "max_favorable": 0.0,
+    "max_adverse": 0.0
   },
   {
     "ticker": "EXPN.L",
@@ -4334,8 +4334,8 @@
     "exit_price": null,
     "exit_date": null,
     "pnl_pct": null,
-    "max_favorable": null,
-    "max_adverse": null
+    "max_favorable": 0.0,
+    "max_adverse": 0.0
   },
   {
     "ticker": "DSY.PA",
@@ -4352,8 +4352,8 @@
     "exit_price": null,
     "exit_date": null,
     "pnl_pct": null,
-    "max_favorable": null,
-    "max_adverse": null
+    "max_favorable": 3.168188751977338e-08,
+    "max_adverse": 3.168188751977338e-08
   },
   {
     "ticker": "VRSK",
@@ -4370,7 +4370,7 @@
     "exit_price": null,
     "exit_date": null,
     "pnl_pct": null,
-    "max_favorable": null,
-    "max_adverse": null
+    "max_favorable": 3.445588511107483e-09,
+    "max_adverse": 3.445588511107483e-09
   }
 ]
