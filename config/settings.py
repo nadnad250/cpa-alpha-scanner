@@ -24,6 +24,11 @@ MAX_GLOBAL_ALERTS      = 8        # 10 → 8 : focus sur les meilleurs
 # Évite 10 signaux tech en même temps (risque concentration)
 MAX_PER_SECTOR         = 3
 
+# Cap absolu sur positions ouvertes simultanées — TOP DU TOP
+# Le bot peut générer 50 signaux premium, mais seul le top 10 passe.
+# Garantit un portefeuille concentré sur la meilleure conviction.
+MAX_OPEN_SIGNALS       = 10
+
 # === Filtres de qualité (soft — n'éliminent plus, juste pénalisent score) ===
 MIN_VOLUME_RATIO       = 0.5      # Relaxé pour futures/crypto
 MAX_VOLATILITY         = 1.20     # Crypto peut monter à ~100-120% vol annuelle

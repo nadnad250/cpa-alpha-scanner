@@ -118,3 +118,46 @@ User demande "signaux de qualité". Simulation sur 57 signaux existants :
 - Pas de vide sectoriel (pas 0 tech pendant 3 jours) ?
 
 ---
+
+## 2026-04-23 (3) — Cap absolu 10 positions ouvertes
+
+### Demande user
+"Maxi 10 positions ouvertes, top du top uniquement"
+
+### Changement
+| Paramètre | Avant | Après | Fichier |
+|-----------|-------|-------|---------|
+| MAX_OPEN_SIGNALS | ∞ | **10** | config/settings.py |
+
+### Enforcement
+Dans `src/notifications/dashboard_exporter.py` :
+- Après tous les filtres (score/conf/RR/secteur)
+- Si `len(opens) > MAX_OPEN_SIGNALS` → tri par `|score| × confidence` desc
+- Garde les 10 meilleurs, log les rejetés
+
+### Logique de sélection "top of top"
+```python
+open_sigs.sort(key=lambda s: abs(s.score) * s.confidence, reverse=True)
+kept = open_sigs[:MAX_OPEN_SIGNALS]
+```
+= signaux avec **haute conviction** (score fort) **et** **haute fiabilité** (confidence élevée)
+
+### Pipeline de filtres complet (après ce changement)
+1. PREMIUM_MIN_SCORE ≥ 0.48
+2. PREMIUM_MIN_CONFIDENCE ≥ 0.70
+3. PREMIUM_MIN_RR ≥ 2.5
+4. 3/4 composantes CPA alignées
+5. Cohérence ML (proba_up)
+6. MAX_PER_SECTOR = 3
+7. **MAX_OPEN_SIGNALS = 10** ← CAP FINAL
+
+### Impact attendu
+- Dashboard : toujours ≤ 10 lignes dans "Signaux Actifs"
+- Portefeuille concentré sur la meilleure conviction
+- Signaux faibles (<0.50 × 0.75 = 0.375) éliminés même s'ils passent les autres filtres
+
+### Commits
+- `?`  : MAX_OPEN_SIGNALS=10 dans settings.py
+- `?`  : enforcement dans dashboard_exporter.py
+
+---

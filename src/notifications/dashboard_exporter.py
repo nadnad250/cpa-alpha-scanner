@@ -226,8 +226,37 @@ def export_to_dashboard(
         if auto_closed_count:
             logger.info(f"✅ {auto_closed_count} signaux auto-clôturés par l'exporter")
 
+        # ================================================================
+        # CAP MAX_OPEN_SIGNALS : on ne garde que le TOP des opens
+        # Tri par qualité (|score| × confidence), le reste est jeté.
+        # ================================================================
+        try:
+            from config.settings import MAX_OPEN_SIGNALS
+        except ImportError:
+            MAX_OPEN_SIGNALS = 10
+
+        open_sigs = [s for s in signals if s.get("status") == "open"]
+        other_sigs = [s for s in signals if s.get("status") != "open"]
+
+        if len(open_sigs) > MAX_OPEN_SIGNALS:
+            # Priorise : status "open" déjà sur le site > nouveaux
+            # Puis tri par qualité = |score| × confidence
+            open_sigs.sort(
+                key=lambda s: abs(s.get("score") or 0) * (s.get("confidence") or 0),
+                reverse=True,
+            )
+            kept = open_sigs[:MAX_OPEN_SIGNALS]
+            dropped = open_sigs[MAX_OPEN_SIGNALS:]
+            logger.info(
+                f"🎯 CAP {MAX_OPEN_SIGNALS} positions ouvertes — "
+                f"{len(dropped)} signaux faibles retirés (tickers: {[s['ticker'] for s in dropped[:10]]})"
+            )
+            signals = kept + other_sigs
+        else:
+            signals = open_sigs + other_sigs
+
         # Ajoute les clôturés récents après les ouverts (pour historique visible)
-        all_signals = signals + closed_history
+        all_signals = signals + [s for s in closed_history if s not in signals]
 
         # Tri : ouverts d'abord (STRONG_BUY > BUY > SELL > STRONG_SELL), puis clôturés par date desc
         action_order = {"STRONG_BUY": 0, "BUY": 1, "STRONG_SELL": 2, "SELL": 3}
