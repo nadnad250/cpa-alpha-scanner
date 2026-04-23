@@ -59,21 +59,32 @@ class OrnsteinUhlenbeckModel:
         Signal = θ · (μ - P_current).
         Positif → en dessous de la moyenne (acheter),
         Négatif → au-dessus (éviter/vendre).
+        Avec FALLBACK z-score 20j si le modèle OU échoue.
         """
-        if not self.fit(prices):
+        if self.fit(prices):
+            current_log_p = np.log(float(prices.dropna().iloc[-1]))
+            deviation = self.mu - current_log_p
+            if self.sigma and self.sigma > 0:
+                z_score = deviation / self.sigma
+                signal = np.tanh(z_score)
+            else:
+                signal = np.tanh(self.theta * deviation)
+            return float(signal)
+
+        # ---- FALLBACK : z-score simple 20 jours ----
+        # Si OU MLE échoue (trend fort, historique court, etc.),
+        # utiliser un z-score plus robuste
+        series = prices.dropna()
+        if len(series) < 20:
             return None
-
-        current_log_p = np.log(float(prices.dropna().iloc[-1]))
-        deviation = self.mu - current_log_p
-
-        # Signal normalisé par σ (z-score OU)
-        if self.sigma and self.sigma > 0:
-            z_score = deviation / self.sigma
-            signal = np.tanh(z_score)  # borné [-1, 1]
-        else:
-            signal = np.tanh(self.theta * deviation)
-
-        return float(signal)
+        tail = series.tail(20)
+        mean = tail.mean()
+        std = tail.std()
+        if std <= 0:
+            return None
+        z = (mean - float(series.iloc[-1])) / std
+        # tanh pour borner [-1, +1], signal positif si sous-moyenne
+        return float(np.tanh(z / 2.0))
 
     def half_life_days(self) -> Optional[float]:
         """Demi-vie du processus en jours."""

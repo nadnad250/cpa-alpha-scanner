@@ -118,26 +118,50 @@ class CPACalculator:
 
         # ── Composant 1 : Value Gap ────────────────────────────────────────────
         vg = self.rim.value_gap_signal(fundamentals)
+
+        # FALLBACK : distance à la MA200 comme proxy de sur/sous-valorisation
+        # Pour futures/crypto qui n'ont pas de fondamentaux
+        if vg is None and not prices.empty and len(prices) >= 200:
+            ma200 = float(prices.tail(200).mean())
+            current = float(prices.iloc[-1])
+            if ma200 > 0:
+                # Écart normalisé : +20% vs MA200 → -0.6 (sur-évalué), -20% → +0.6 (sous-évalué)
+                gap = (ma200 - current) / ma200
+                vg = float(np.tanh(gap * 4.0))
+
         if vg is not None:
+            # Clamp value_gap à [-1, 1] (éviter valeurs aberrantes comme -3.07)
+            vg = float(max(-1.0, min(1.0, vg)))
             result.value_gap = self.w1 * vg
             result.intrinsic_value = self.rim.intrinsic_value(fundamentals)
             if result.price and result.intrinsic_value:
                 raw_upside = (result.intrinsic_value / result.price - 1) * 100
-                # Cap à ±100% pour éviter les valeurs aberrantes (BV énorme)
                 result.upside_pct = float(max(-100.0, min(100.0, raw_upside)))
             alpha += result.value_gap
             weights_used += self.w1
             result.n_signals += 1
 
         # ── Composant 2 : Factor Premia ────────────────────────────────────────
+        phi = None
         if ff_factors is not None and not prices.empty:
             returns = np.log(prices / prices.shift(1)).dropna()
             phi = self.ff_model.factor_premium_signal(returns, ff_factors)
-            if phi is not None:
-                result.factor_premia = self.w2 * phi
-                alpha += result.factor_premia
-                weights_used += self.w2
-                result.n_signals += 1
+
+        # FALLBACK : momentum 3m + 6m en normalized z-score
+        # Si Fama-French indispo, au moins capturer le momentum simple
+        if phi is None and not prices.empty and len(prices) >= 126:
+            mom_3m = float(prices.iloc[-1] / prices.iloc[-63] - 1) if len(prices) >= 63 else 0
+            mom_6m = float(prices.iloc[-1] / prices.iloc[-126] - 1) if len(prices) >= 126 else 0
+            # Combiné 60% court-terme + 40% moyen-terme
+            combined = 0.6 * mom_3m + 0.4 * mom_6m
+            # tanh clamp [-1, 1] avec échelle (~30% mvmt → saturation)
+            phi = float(np.tanh(combined * 3.5))
+
+        if phi is not None:
+            result.factor_premia = self.w2 * phi
+            alpha += result.factor_premia
+            weights_used += self.w2
+            result.n_signals += 1
 
         # ── Composant 3 : Mean Reversion (OU) ─────────────────────────────────
         if not prices.empty:
