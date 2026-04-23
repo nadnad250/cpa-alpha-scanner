@@ -1,20 +1,20 @@
 {
-  "generated_at": "2026-04-22T22:34:36.307400",
-  "date": "2026-04-22",
+  "generated_at": "2026-04-23T08:48:40.766678",
+  "date": "2026-04-23",
   "stats": {
-    "total": 7,
+    "total": 9,
     "buy_signals": 0,
-    "sell_signals": 7,
-    "avg_confidence": 0.679,
-    "avg_rr": 2.43,
+    "sell_signals": 9,
+    "avg_confidence": 0.686,
+    "avg_rr": 2.44,
     "win_rate": 0.0,
-    "active_positions": 8,
+    "active_positions": 11,
     "daily_pnl": 0.0
   },
   "eod": {
     "tp_hit": 0,
     "sl_hit": 0,
-    "open": 8,
+    "open": 11,
     "cumulative_pnl": 0.0
   },
   "signals": [
@@ -88,6 +88,75 @@
       "status": "open",
       "issued_at": "2026-04-22T22:34:36.306438",
       "last_seen": "2026-04-22T22:34:36.307400"
+    },
+    {
+      "ticker": "ADBE",
+      "action": "STRONG_SELL",
+      "price": 255.94,
+      "take_profit": 230.34,
+      "stop_loss": 266.18,
+      "upside_pct": 10.0,
+      "confidence": 0.704,
+      "score": -0.6465,
+      "risk_reward": 2.5,
+      "kelly_position": 0.096,
+      "cpa_alpha": -0.5526,
+      "ml_proba_up": 0.261,
+      "sector": "Technology",
+      "universe": "NASDAQ100",
+      "primary_reason": "Surévaluée vs fondamentaux (risque baisse)",
+      "secondary_reasons": [
+        "IA : 74% baisse sur 21 jours",
+        "Surcote théorique -52%"
+      ],
+      "risk_flags": [
+        "⚠️ Drawdown récent -46%"
+      ],
+      "intrinsic_value": 123.5,
+      "value_gap": 0,
+      "factor_premia": 0,
+      "mean_reversion": 0,
+      "info_flow": 0,
+      "news_score": 0.25,
+      "top_news_title": "Apple and Best Buy just changed leadership. Here are other top CEO departures in 2026.",
+      "top_news_url": "https://finance.yahoo.com/markets/stocks/article/apple-and-best-buy-just-changed-leadership-here-are-other-top-ceo-departures-in-2026-171310537.html",
+      "status": "open",
+      "issued_at": "2026-04-23T08:48:40.766102",
+      "last_seen": "2026-04-23T08:48:40.766678"
+    },
+    {
+      "ticker": "DXCM",
+      "action": "STRONG_SELL",
+      "price": 63.41,
+      "take_profit": 58.15,
+      "stop_loss": 65.51,
+      "upside_pct": 8.3,
+      "confidence": 0.722,
+      "score": -0.5772,
+      "risk_reward": 2.5,
+      "kelly_position": 0.096,
+      "cpa_alpha": -0.9181,
+      "ml_proba_up": 0.413,
+      "sector": "Healthcare",
+      "universe": "NASDAQ100",
+      "primary_reason": "Surévaluée vs fondamentaux (risque baisse)",
+      "secondary_reasons": [
+        "Surcote théorique -78%"
+      ],
+      "risk_flags": [
+        "⚠️ Drawdown récent -39%"
+      ],
+      "intrinsic_value": 13.68,
+      "value_gap": 0,
+      "factor_premia": 0,
+      "mean_reversion": 0,
+      "info_flow": 0,
+      "news_score": 0.1,
+      "top_news_title": "DexCom (DXCM) Upgraded to Buy: Here's Why",
+      "top_news_url": "https://finance.yahoo.com/markets/stocks/articles/dexcom-dxcm-upgraded-buy-heres-160004917.html",
+      "status": "open",
+      "issued_at": "2026-04-23T08:48:40.766099",
+      "last_seen": "2026-04-23T08:48:40.766678"
     },
     {
       "ticker": "ODFL",
@@ -180,7 +249,7 @@
       "top_news_url": "https://finance.yahoo.com/markets/stocks/articles/cb-q1-earnings-revenues-beat-145500522.html",
       "status": "open",
       "issued_at": "2026-04-22T22:34:36.306406",
-      "last_seen": "2026-04-22T22:34:36.307400"
+      "last_seen": "2026-04-23T08:48:40.766678"
     },
     {
       "ticker": "PGR",
