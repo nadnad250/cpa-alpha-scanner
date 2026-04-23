@@ -4336,5 +4336,23 @@
     "pnl_pct": null,
     "max_favorable": null,
     "max_adverse": null
+  },
+  {
+    "ticker": "DSY.PA",
+    "action": "STRONG_SELL",
+    "entry_price": 19.265,
+    "stop_loss": 19.96857131958008,
+    "take_profit": 17.506071701049805,
+    "score": -0.7088737520554311,
+    "confidence": 0.7425538459067726,
+    "universe": "CAC40",
+    "issued_at": "2026-04-23T19:59:02.882469",
+    "horizon_days": 21,
+    "status": "open",
+    "exit_price": null,
+    "exit_date": null,
+    "pnl_pct": null,
+    "max_favorable": null,
+    "max_adverse": null
   }
 ]
