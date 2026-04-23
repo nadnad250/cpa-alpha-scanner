@@ -185,6 +185,47 @@ def export_to_dashboard(
                 old_sig["last_seen"] = old_sig.get("last_seen", now.isoformat())
                 signals.append(old_sig)
 
+        # ================================================================
+        # AUTO-CLÔTURE : vérifie si current_price a franchi TP ou SL
+        # Partagé avec update_live_prices.py pour garantir la cohérence.
+        # ================================================================
+        auto_closed_count = 0
+        for sig in signals:
+            if sig.get("status") != "open":
+                continue
+            entry = sig.get("price")
+            tp = sig.get("take_profit")
+            sl = sig.get("stop_loss")
+            current = sig.get("current_price")
+            if not all([entry, tp, sl, current]):
+                continue
+            is_buy = (sig.get("score") or 0) > 0
+            exit_px = None; reason = None
+            if is_buy:
+                if current >= tp:
+                    exit_px, reason = tp, "tp_hit"
+                elif current <= sl:
+                    exit_px, reason = sl, "sl_hit"
+            else:  # SHORT
+                if current <= tp:
+                    exit_px, reason = tp, "tp_hit"
+                elif current >= sl:
+                    exit_px, reason = sl, "sl_hit"
+            if reason:
+                sig["status"] = reason
+                sig["exit_price"] = exit_px
+                sig["exit_date"] = now.isoformat()
+                if is_buy:
+                    sig["pnl_pct"] = round(((exit_px - entry) / entry) * 100, 2)
+                else:
+                    sig["pnl_pct"] = round(((entry - exit_px) / entry) * 100, 2)
+                sig["pnl_pct_live"] = sig["pnl_pct"]
+                auto_closed_count += 1
+                logger.info(f"  🎯 {sig['ticker']} AUTO-CLOSED (exporter): {reason} @ ${exit_px} P&L {sig['pnl_pct']:+.2f}%")
+
+        if auto_closed_count:
+            logger.info(f"✅ {auto_closed_count} signaux auto-clôturés par l'exporter")
+
         # Ajoute les clôturés récents après les ouverts (pour historique visible)
         all_signals = signals + closed_history
 
