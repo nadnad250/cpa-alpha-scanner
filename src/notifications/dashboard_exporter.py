@@ -272,7 +272,12 @@ def export_to_dashboard(
             signals = open_sigs + other_sigs
 
         # Ajoute les clôturés récents après les ouverts (pour historique visible)
-        all_signals = signals + [s for s in closed_history if s not in signals]
+        # Dédup par clé stable (status, ticker, action) — plus correct et O(1) au lieu de O(n²)
+        existing_keys = {(s.get("status"), s.get("ticker"), s.get("action")) for s in signals}
+        all_signals = signals + [
+            s for s in closed_history
+            if (s.get("status"), s.get("ticker"), s.get("action")) not in existing_keys
+        ]
 
         # Tri : ouverts d'abord (STRONG_BUY > BUY > SELL > STRONG_SELL), puis clôturés par date desc
         action_order = {"STRONG_BUY": 0, "BUY": 1, "STRONG_SELL": 2, "SELL": 3}
