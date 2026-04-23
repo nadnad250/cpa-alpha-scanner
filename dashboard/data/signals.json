@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-04-23T19:59:02.887756",
+  "generated_at": "2026-04-23T20:11:47.109316+00:00",
   "date": "2026-04-23",
   "stats": {
     "total": 60,
@@ -55,7 +55,7 @@
       "issued_at": "2026-04-23T14:14:45.170625",
       "last_seen": "2026-04-23T18:57:04.747724",
       "current_price": 0.28,
-      "current_price_time": "2026-04-23T19:44:27.481780+00:00",
+      "current_price_time": "2026-04-23T20:11:47.109316+00:00",
       "pnl_pct_live": 3.45,
       "progression_pct": 10.0
     },
@@ -93,7 +93,11 @@
       "top_news_url": "https://finance.yahoo.com/markets/stocks/articles/dassault-syst-mes-enxtpa-dsy-060856850.html",
       "status": "open",
       "issued_at": "2026-04-23T19:59:02.882469",
-      "last_seen": "2026-04-23T19:59:02.887756"
+      "last_seen": "2026-04-23T19:59:02.887756",
+      "current_price": 19.19,
+      "current_price_time": "2026-04-23T20:11:47.109316+00:00",
+      "pnl_pct_live": 0.42,
+      "progression_pct": 4.5
     },
     {
       "ticker": "ADBE",
@@ -129,10 +133,10 @@
       "status": "open",
       "issued_at": "2026-04-23T08:48:40.766102",
       "last_seen": "2026-04-23T08:48:40.766678",
-      "current_price": 237.96,
-      "current_price_time": "2026-04-23T19:44:27.481780+00:00",
-      "pnl_pct_live": 7.03,
-      "progression_pct": 70.2
+      "current_price": 239.01,
+      "current_price_time": "2026-04-23T20:11:47.109316+00:00",
+      "pnl_pct_live": 6.61,
+      "progression_pct": 66.1
     },
     {
       "ticker": "ZAL.DE",
@@ -169,7 +173,7 @@
       "issued_at": "2026-04-22T20:39:14.205742",
       "last_seen": "2026-04-23T18:57:04.747724",
       "current_price": 22.0,
-      "current_price_time": "2026-04-23T19:44:27.481780+00:00",
+      "current_price_time": "2026-04-23T20:11:47.109316+00:00",
       "pnl_pct_live": 0.18,
       "progression_pct": 1.9
     },
@@ -208,7 +212,7 @@
       "issued_at": "2026-04-23T10:55:46.568960",
       "last_seen": "2026-04-23T19:35:19.669899",
       "current_price": 42.74,
-      "current_price_time": "2026-04-23T19:44:27.481780+00:00",
+      "current_price_time": "2026-04-23T20:11:47.109316+00:00",
       "pnl_pct_live": 0.0,
       "progression_pct": 0.0
     },
@@ -245,10 +249,10 @@
       "status": "open",
       "issued_at": "2026-04-23T14:14:45.170594",
       "last_seen": "2026-04-23T14:14:45.173284",
-      "current_price": 64.21,
-      "current_price_time": "2026-04-23T19:44:27.481780+00:00",
-      "pnl_pct_live": 0.85,
-      "progression_pct": 11.0
+      "current_price": 64.5,
+      "current_price_time": "2026-04-23T20:11:47.109316+00:00",
+      "pnl_pct_live": 0.4,
+      "progression_pct": 5.2
     },
     {
       "ticker": "DXCM",
@@ -283,10 +287,10 @@
       "status": "open",
       "issued_at": "2026-04-23T08:48:40.766099",
       "last_seen": "2026-04-23T08:48:40.766678",
-      "current_price": 62.47,
-      "current_price_time": "2026-04-23T19:44:27.481780+00:00",
-      "pnl_pct_live": 1.48,
-      "progression_pct": 17.9
+      "current_price": 62.7,
+      "current_price_time": "2026-04-23T20:11:47.109316+00:00",
+      "pnl_pct_live": 1.12,
+      "progression_pct": 13.5
     },
     {
       "ticker": "WTB.L",
@@ -322,7 +326,7 @@
       "issued_at": "2026-04-23T18:57:04.742355",
       "last_seen": "2026-04-23T18:57:04.747724",
       "current_price": 2443.0,
-      "current_price_time": "2026-04-23T19:44:27.481780+00:00",
+      "current_price_time": "2026-04-23T20:11:47.109316+00:00",
       "pnl_pct_live": -0.58,
       "progression_pct": -19.2
     },
@@ -359,10 +363,10 @@
       "status": "open",
       "issued_at": "2026-04-23T09:46:26.819662",
       "last_seen": "2026-04-23T09:46:26.820627",
-      "current_price": 66.04,
-      "current_price_time": "2026-04-23T19:44:27.481780+00:00",
-      "pnl_pct_live": -1.18,
-      "progression_pct": -15.7
+      "current_price": 66.85,
+      "current_price_time": "2026-04-23T20:11:47.109316+00:00",
+      "pnl_pct_live": -2.42,
+      "progression_pct": -32.1
     },
     {
       "ticker": "ODFL",
@@ -393,10 +397,10 @@
       "status": "open",
       "issued_at": "2026-04-22T20:39:14.205738",
       "last_seen": "2026-04-22T22:34:36.307400",
-      "current_price": 222.73,
-      "current_price_time": "2026-04-23T19:44:27.481780+00:00",
-      "pnl_pct_live": -1.25,
-      "progression_pct": -36.2
+      "current_price": 222.79,
+      "current_price_time": "2026-04-23T20:11:47.109316+00:00",
+      "pnl_pct_live": -1.28,
+      "progression_pct": -37.0
     },
     {
       "ticker": "SU.PA",
@@ -432,7 +436,7 @@
       "issued_at": "2026-04-23T18:57:04.742326",
       "last_seen": "2026-04-23T18:57:04.747724",
       "current_price": 275.35,
-      "current_price_time": "2026-04-23T19:44:27.481780+00:00",
+      "current_price_time": "2026-04-23T20:11:47.109316+00:00",
       "pnl_pct_live": -0.18,
       "progression_pct": -4.4
     },
@@ -468,7 +472,7 @@
       "issued_at": "2026-04-23T10:55:46.568967",
       "last_seen": "2026-04-23T19:35:19.669899",
       "current_price": 36.03,
-      "current_price_time": "2026-04-23T19:44:27.481780+00:00",
+      "current_price_time": "2026-04-23T20:11:47.109316+00:00",
       "pnl_pct_live": -0.17,
       "progression_pct": -5.6
     },
@@ -506,7 +510,7 @@
       "issued_at": "2026-04-23T10:55:46.568979",
       "last_seen": "2026-04-23T19:35:19.669899",
       "current_price": 2775.0,
-      "current_price_time": "2026-04-23T19:44:27.481780+00:00",
+      "current_price_time": "2026-04-23T20:11:47.109316+00:00",
       "pnl_pct_live": 0.16,
       "progression_pct": 1.6
     },
@@ -536,9 +540,15 @@
       "news_score": null,
       "top_news_title": null,
       "top_news_url": null,
-      "status": "open",
+      "status": "tp_hit",
       "issued_at": "2026-04-23T10:55:46.568936",
-      "last_seen": "2026-04-23T19:59:02.887756"
+      "last_seen": "2026-04-23T19:59:02.887756",
+      "current_price": 231.04,
+      "current_price_time": "2026-04-23T20:11:47.109316+00:00",
+      "exit_price": 233.59,
+      "exit_date": "2026-04-23T20:11:47.109316+00:00",
+      "pnl_pct": 7.25,
+      "pnl_pct_live": 7.25
     },
     {
       "ticker": "SIRI",
@@ -573,10 +583,10 @@
       "status": "open",
       "issued_at": "2026-04-23T09:46:26.819658",
       "last_seen": "2026-04-23T09:46:26.820627",
-      "current_price": 27.98,
-      "current_price_time": "2026-04-23T19:44:27.481780+00:00",
-      "pnl_pct_live": 0.29,
-      "progression_pct": 2.7
+      "current_price": 28.01,
+      "current_price_time": "2026-04-23T20:11:47.109316+00:00",
+      "pnl_pct_live": 0.18,
+      "progression_pct": 1.7
     },
     {
       "ticker": "TXN",
@@ -604,9 +614,15 @@
       "news_score": null,
       "top_news_title": null,
       "top_news_url": null,
-      "status": "open",
+      "status": "sl_hit",
       "issued_at": "2026-04-23T09:46:26.819654",
-      "last_seen": "2026-04-23T19:59:02.887756"
+      "last_seen": "2026-04-23T19:59:02.887756",
+      "current_price": 282.41,
+      "current_price_time": "2026-04-23T20:11:47.109316+00:00",
+      "exit_price": 243.4,
+      "exit_date": "2026-04-23T20:11:47.109316+00:00",
+      "pnl_pct": -3.0,
+      "pnl_pct_live": -3.0
     },
     {
       "ticker": "VIV.PA",
@@ -643,7 +659,7 @@
       "issued_at": "2026-04-22T22:34:36.306438",
       "last_seen": "2026-04-23T18:57:04.747724",
       "current_price": 2.18,
-      "current_price_time": "2026-04-23T19:44:27.481780+00:00",
+      "current_price_time": "2026-04-23T20:11:47.109316+00:00",
       "pnl_pct_live": -0.46,
       "progression_pct": -10.0
     },
@@ -679,7 +695,7 @@
       "issued_at": "2026-04-23T10:55:46.568975",
       "last_seen": "2026-04-23T10:55:46.570741",
       "current_price": 716.4,
-      "current_price_time": "2026-04-23T19:44:27.481780+00:00",
+      "current_price_time": "2026-04-23T20:11:47.109316+00:00",
       "pnl_pct_live": -0.87,
       "progression_pct": -29.1
     },
@@ -716,10 +732,10 @@
       "status": "open",
       "issued_at": "2026-04-23T18:57:04.742284",
       "last_seen": "2026-04-23T19:35:19.669899",
-      "current_price": 90.57,
-      "current_price_time": "2026-04-23T19:44:27.481780+00:00",
-      "pnl_pct_live": 0.6,
-      "progression_pct": 8.4
+      "current_price": 90.96,
+      "current_price_time": "2026-04-23T20:11:47.109316+00:00",
+      "pnl_pct_live": 0.18,
+      "progression_pct": 2.4
     },
     {
       "ticker": "ABT",
@@ -754,10 +770,10 @@
       "status": "open",
       "issued_at": "2026-04-23T14:14:45.170570",
       "last_seen": "2026-04-23T19:35:19.669899",
-      "current_price": 92.21,
-      "current_price_time": "2026-04-23T19:44:27.481780+00:00",
-      "pnl_pct_live": 0.19,
-      "progression_pct": 2.4
+      "current_price": 92.41,
+      "current_price_time": "2026-04-23T20:11:47.109316+00:00",
+      "pnl_pct_live": -0.02,
+      "progression_pct": -0.7
     },
     {
       "ticker": "SB=F",
@@ -791,7 +807,7 @@
       "issued_at": "2026-04-23T15:43:34.032224",
       "last_seen": "2026-04-23T18:02:07.677652",
       "current_price": 13.9,
-      "current_price_time": "2026-04-23T19:44:27.481780+00:00",
+      "current_price_time": "2026-04-23T20:11:47.109316+00:00",
       "pnl_pct_live": 0.0,
       "progression_pct": 0.0
     },
@@ -828,10 +844,10 @@
       "status": "open",
       "issued_at": "2026-04-23T10:55:46.568879",
       "last_seen": "2026-04-23T18:57:04.747724",
-      "current_price": 415.28,
-      "current_price_time": "2026-04-23T19:44:27.481780+00:00",
-      "pnl_pct_live": -0.19,
-      "progression_pct": -5.8
+      "current_price": 415.75,
+      "current_price_time": "2026-04-23T20:11:47.109316+00:00",
+      "pnl_pct_live": -0.31,
+      "progression_pct": -9.2
     },
     {
       "ticker": "IDXX",
@@ -864,10 +880,10 @@
       "status": "open",
       "issued_at": "2026-04-23T10:55:46.568932",
       "last_seen": "2026-04-23T14:14:45.173284",
-      "current_price": 560.26,
-      "current_price_time": "2026-04-23T19:44:27.481780+00:00",
-      "pnl_pct_live": 1.82,
-      "progression_pct": 19.6
+      "current_price": 561.0,
+      "current_price_time": "2026-04-23T20:11:47.109316+00:00",
+      "pnl_pct_live": 1.69,
+      "progression_pct": 18.2
     },
     {
       "ticker": "CEG",
@@ -902,10 +918,10 @@
       "status": "open",
       "issued_at": "2026-04-23T10:55:46.568929",
       "last_seen": "2026-04-23T18:57:04.747724",
-      "current_price": 290.61,
-      "current_price_time": "2026-04-23T19:44:27.481780+00:00",
-      "pnl_pct_live": 0.12,
-      "progression_pct": 1.3
+      "current_price": 292.77,
+      "current_price_time": "2026-04-23T20:11:47.109316+00:00",
+      "pnl_pct_live": -0.62,
+      "progression_pct": -16.1
     },
     {
       "ticker": "IMB.L",
@@ -939,7 +955,7 @@
       "issued_at": "2026-04-23T10:55:46.568977",
       "last_seen": "2026-04-23T19:35:19.669899",
       "current_price": 2775.0,
-      "current_price_time": "2026-04-23T19:44:27.481780+00:00",
+      "current_price_time": "2026-04-23T20:11:47.109316+00:00",
       "pnl_pct_live": -0.11,
       "progression_pct": -3.5
     },
@@ -977,7 +993,7 @@
       "issued_at": "2026-04-23T10:55:46.568943",
       "last_seen": "2026-04-23T19:35:19.669899",
       "current_price": 138.5,
-      "current_price_time": "2026-04-23T19:44:27.481780+00:00",
+      "current_price_time": "2026-04-23T20:11:47.109316+00:00",
       "pnl_pct_live": -0.29,
       "progression_pct": -8.0
     },
@@ -1013,7 +1029,7 @@
       "issued_at": "2026-04-23T10:55:46.568954",
       "last_seen": "2026-04-23T18:57:04.747724",
       "current_price": 43.2,
-      "current_price_time": "2026-04-23T19:44:27.481780+00:00",
+      "current_price_time": "2026-04-23T20:11:47.109316+00:00",
       "pnl_pct_live": -0.21,
       "progression_pct": -5.5
     },
@@ -1049,7 +1065,7 @@
       "issued_at": "2026-04-23T10:55:46.568941",
       "last_seen": "2026-04-23T19:35:19.669899",
       "current_price": 27.5,
-      "current_price_time": "2026-04-23T19:44:27.481780+00:00",
+      "current_price_time": "2026-04-23T20:11:47.109316+00:00",
       "pnl_pct_live": 0.11,
       "progression_pct": 1.2
     },
@@ -1086,10 +1102,10 @@
       "status": "open",
       "issued_at": "2026-04-23T10:55:46.568927",
       "last_seen": "2026-04-23T15:43:34.035840",
-      "current_price": 455.12,
-      "current_price_time": "2026-04-23T19:44:27.481780+00:00",
-      "pnl_pct_live": 1.46,
-      "progression_pct": 14.2
+      "current_price": 456.85,
+      "current_price_time": "2026-04-23T20:11:47.109316+00:00",
+      "pnl_pct_live": 1.08,
+      "progression_pct": 10.5
     },
     {
       "ticker": "AXP",
@@ -1122,10 +1138,10 @@
       "status": "open",
       "issued_at": "2026-04-23T15:43:34.032127",
       "last_seen": "2026-04-23T18:57:04.747724",
-      "current_price": 316.35,
-      "current_price_time": "2026-04-23T19:44:27.481780+00:00",
-      "pnl_pct_live": 0.09,
-      "progression_pct": 1.2
+      "current_price": 318.56,
+      "current_price_time": "2026-04-23T20:11:47.109316+00:00",
+      "pnl_pct_live": -0.61,
+      "progression_pct": -19.9
     },
     {
       "ticker": "SAF.PA",
@@ -1159,7 +1175,7 @@
       "issued_at": "2026-04-23T14:14:45.170598",
       "last_seen": "2026-04-23T18:57:04.747724",
       "current_price": 279.9,
-      "current_price_time": "2026-04-23T19:44:27.481780+00:00",
+      "current_price_time": "2026-04-23T20:11:47.109316+00:00",
       "pnl_pct_live": -0.32,
       "progression_pct": -3.6
     },
@@ -1196,10 +1212,10 @@
       "status": "open",
       "issued_at": "2026-04-23T10:55:46.568916",
       "last_seen": "2026-04-23T10:55:46.570741",
-      "current_price": 438.39,
-      "current_price_time": "2026-04-23T19:44:27.481780+00:00",
-      "pnl_pct_live": 2.38,
-      "progression_pct": 35.2
+      "current_price": 439.02,
+      "current_price_time": "2026-04-23T20:11:47.109316+00:00",
+      "pnl_pct_live": 2.24,
+      "progression_pct": 33.2
     },
     {
       "ticker": "FRE.DE",
@@ -1233,7 +1249,7 @@
       "issued_at": "2026-04-23T15:43:34.032206",
       "last_seen": "2026-04-23T18:57:04.747724",
       "current_price": 40.72,
-      "current_price_time": "2026-04-23T19:44:27.481780+00:00",
+      "current_price_time": "2026-04-23T20:11:47.109316+00:00",
       "pnl_pct_live": -0.02,
       "progression_pct": -0.8
     },
@@ -1271,7 +1287,7 @@
       "issued_at": "2026-04-23T10:55:46.568963",
       "last_seen": "2026-04-23T18:57:04.747724",
       "current_price": 66.14,
-      "current_price_time": "2026-04-23T19:44:27.481780+00:00",
+      "current_price_time": "2026-04-23T20:11:47.109316+00:00",
       "pnl_pct_live": 0.27,
       "progression_pct": 2.7
     },
@@ -1308,10 +1324,10 @@
       "status": "open",
       "issued_at": "2026-04-23T10:55:46.568905",
       "last_seen": "2026-04-23T10:55:46.570741",
-      "current_price": 49.67,
-      "current_price_time": "2026-04-23T19:44:27.481780+00:00",
-      "pnl_pct_live": 3.03,
-      "progression_pct": 41.6
+      "current_price": 49.76,
+      "current_price_time": "2026-04-23T20:11:47.109316+00:00",
+      "pnl_pct_live": 2.85,
+      "progression_pct": 39.1
     },
     {
       "ticker": "MCO",
@@ -1346,10 +1362,10 @@
       "status": "open",
       "issued_at": "2026-04-23T14:14:45.170533",
       "last_seen": "2026-04-23T18:57:04.747724",
-      "current_price": 453.71,
-      "current_price_time": "2026-04-23T19:44:27.481780+00:00",
-      "pnl_pct_live": 0.01,
-      "progression_pct": 0.1
+      "current_price": 452.35,
+      "current_price_time": "2026-04-23T20:11:47.109316+00:00",
+      "pnl_pct_live": 0.31,
+      "progression_pct": 4.1
     },
     {
       "ticker": "FTNT",
@@ -1384,10 +1400,10 @@
       "status": "open",
       "issued_at": "2026-04-22T20:39:14.205734",
       "last_seen": "2026-04-23T18:57:04.747724",
-      "current_price": 82.66,
-      "current_price_time": "2026-04-23T19:44:27.481780+00:00",
-      "pnl_pct_live": -0.25,
-      "progression_pct": -5.9
+      "current_price": 82.77,
+      "current_price_time": "2026-04-23T20:11:47.109316+00:00",
+      "pnl_pct_live": -0.39,
+      "progression_pct": -9.0
     },
     {
       "ticker": "AON",
@@ -1420,10 +1436,10 @@
       "status": "open",
       "issued_at": "2026-04-23T10:55:46.568914",
       "last_seen": "2026-04-23T19:35:19.669899",
-      "current_price": 323.35,
-      "current_price_time": "2026-04-23T19:44:27.481780+00:00",
-      "pnl_pct_live": 0.25,
-      "progression_pct": 3.0
+      "current_price": 323.6,
+      "current_price_time": "2026-04-23T20:11:47.109316+00:00",
+      "pnl_pct_live": 0.18,
+      "progression_pct": 2.1
     },
     {
       "ticker": "LAND.L",
@@ -1457,7 +1473,7 @@
       "issued_at": "2026-04-23T10:55:46.568971",
       "last_seen": "2026-04-23T10:55:46.570741",
       "current_price": 604.5,
-      "current_price_time": "2026-04-23T19:44:27.481780+00:00",
+      "current_price_time": "2026-04-23T20:11:47.109316+00:00",
       "pnl_pct_live": -0.67,
       "progression_pct": -22.2
     },
@@ -1494,10 +1510,10 @@
       "status": "open",
       "issued_at": "2026-04-23T18:02:07.673151",
       "last_seen": "2026-04-23T18:57:04.747724",
-      "current_price": 659.41,
-      "current_price_time": "2026-04-23T19:44:27.481780+00:00",
-      "pnl_pct_live": -0.16,
-      "progression_pct": -3.7
+      "current_price": 659.33,
+      "current_price_time": "2026-04-23T20:11:47.109316+00:00",
+      "pnl_pct_live": -0.15,
+      "progression_pct": -3.4
     },
     {
       "ticker": "PUB.PA",
@@ -1531,7 +1547,7 @@
       "issued_at": "2026-04-23T10:55:46.568949",
       "last_seen": "2026-04-23T18:57:04.747724",
       "current_price": 77.88,
-      "current_price_time": "2026-04-23T19:44:27.481780+00:00",
+      "current_price_time": "2026-04-23T20:11:47.109316+00:00",
       "pnl_pct_live": 0.0,
       "progression_pct": 0.0
     },
@@ -1568,10 +1584,10 @@
       "status": "open",
       "issued_at": "2026-04-23T14:14:45.170573",
       "last_seen": "2026-04-23T18:57:04.747724",
-      "current_price": 444.12,
-      "current_price_time": "2026-04-23T19:44:27.481780+00:00",
-      "pnl_pct_live": -0.14,
-      "progression_pct": -1.8
+      "current_price": 445.3,
+      "current_price_time": "2026-04-23T20:11:47.109316+00:00",
+      "pnl_pct_live": -0.41,
+      "progression_pct": -5.2
     },
     {
       "ticker": "RTX",
@@ -1604,10 +1620,10 @@
       "status": "open",
       "issued_at": "2026-04-23T18:02:07.673182",
       "last_seen": "2026-04-23T18:57:04.747724",
-      "current_price": 179.34,
-      "current_price_time": "2026-04-23T19:44:27.481780+00:00",
-      "pnl_pct_live": 0.07,
-      "progression_pct": 0.9
+      "current_price": 179.29,
+      "current_price_time": "2026-04-23T20:11:47.109316+00:00",
+      "pnl_pct_live": 0.09,
+      "progression_pct": 1.3
     },
     {
       "ticker": "NFLX",
@@ -1642,10 +1658,10 @@
       "status": "open",
       "issued_at": "2026-04-23T10:55:46.568921",
       "last_seen": "2026-04-23T19:35:19.669899",
-      "current_price": 92.98,
-      "current_price_time": "2026-04-23T19:44:27.481780+00:00",
-      "pnl_pct_live": 0.24,
-      "progression_pct": 2.0
+      "current_price": 92.83,
+      "current_price_time": "2026-04-23T20:11:47.109316+00:00",
+      "pnl_pct_live": 0.4,
+      "progression_pct": 3.3
     },
     {
       "ticker": "PANW",
@@ -1680,10 +1696,10 @@
       "status": "open",
       "issued_at": "2026-04-23T14:14:45.170579",
       "last_seen": "2026-04-23T18:57:04.747724",
-      "current_price": 173.38,
-      "current_price_time": "2026-04-23T19:44:27.481780+00:00",
-      "pnl_pct_live": -0.18,
-      "progression_pct": -2.6
+      "current_price": 173.21,
+      "current_price_time": "2026-04-23T20:11:47.109316+00:00",
+      "pnl_pct_live": -0.08,
+      "progression_pct": -1.2
     },
     {
       "ticker": "ZTS",
@@ -1719,10 +1735,10 @@
       "status": "open",
       "issued_at": "2026-04-23T10:55:46.568911",
       "last_seen": "2026-04-23T19:35:19.669899",
-      "current_price": 115.79,
-      "current_price_time": "2026-04-23T19:44:27.481780+00:00",
-      "pnl_pct_live": 0.32,
-      "progression_pct": 4.5
+      "current_price": 116.05,
+      "current_price_time": "2026-04-23T20:11:47.109316+00:00",
+      "pnl_pct_live": 0.09,
+      "progression_pct": 1.3
     },
     {
       "ticker": "SHW",
@@ -1757,10 +1773,10 @@
       "status": "open",
       "issued_at": "2026-04-23T10:55:46.568908",
       "last_seen": "2026-04-23T18:57:04.747724",
-      "current_price": 336.27,
-      "current_price_time": "2026-04-23T19:44:27.481780+00:00",
-      "pnl_pct_live": -0.0,
-      "progression_pct": -0.1
+      "current_price": 337.73,
+      "current_price_time": "2026-04-23T20:11:47.109316+00:00",
+      "pnl_pct_live": -0.44,
+      "progression_pct": -14.6
     },
     {
       "ticker": "PGR",
@@ -1794,10 +1810,10 @@
       "status": "open",
       "issued_at": "2026-04-22T22:34:36.306406",
       "last_seen": "2026-04-23T18:57:04.747724",
-      "current_price": 205.7,
-      "current_price_time": "2026-04-23T19:44:27.481780+00:00",
-      "pnl_pct_live": 0.37,
-      "progression_pct": 5.3
+      "current_price": 205.32,
+      "current_price_time": "2026-04-23T20:11:47.109316+00:00",
+      "pnl_pct_live": 0.55,
+      "progression_pct": 8.0
     },
     {
       "ticker": "REL.L",
@@ -1834,7 +1850,7 @@
       "issued_at": "2026-04-23T10:55:46.568973",
       "last_seen": "2026-04-23T19:35:19.669899",
       "current_price": 2680.0,
-      "current_price_time": "2026-04-23T19:44:27.481780+00:00",
+      "current_price_time": "2026-04-23T20:11:47.109316+00:00",
       "pnl_pct_live": 0.15,
       "progression_pct": 1.9
     },
@@ -1869,10 +1885,10 @@
       "status": "open",
       "issued_at": "2026-04-23T10:55:46.568903",
       "last_seen": "2026-04-23T18:57:04.747724",
-      "current_price": 1053.01,
-      "current_price_time": "2026-04-23T19:44:27.481780+00:00",
-      "pnl_pct_live": 0.17,
-      "progression_pct": 2.5
+      "current_price": 1053.36,
+      "current_price_time": "2026-04-23T20:11:47.109316+00:00",
+      "pnl_pct_live": 0.14,
+      "progression_pct": 2.1
     },
     {
       "ticker": "RNO.PA",
@@ -1909,7 +1925,7 @@
       "issued_at": "2026-04-23T10:55:46.568956",
       "last_seen": "2026-04-23T19:35:19.669899",
       "current_price": 31.04,
-      "current_price_time": "2026-04-23T19:44:27.481780+00:00",
+      "current_price_time": "2026-04-23T20:11:47.109316+00:00",
       "pnl_pct_live": -0.55,
       "progression_pct": -16.5
     },
@@ -1947,10 +1963,10 @@
       "status": "open",
       "issued_at": "2026-04-23T14:14:45.170584",
       "last_seen": "2026-04-23T19:35:19.669899",
-      "current_price": 194.71,
-      "current_price_time": "2026-04-23T19:44:27.481780+00:00",
-      "pnl_pct_live": 0.2,
-      "progression_pct": 2.8
+      "current_price": 194.07,
+      "current_price_time": "2026-04-23T20:11:47.109316+00:00",
+      "pnl_pct_live": 0.53,
+      "progression_pct": 7.4
     },
     {
       "ticker": "KHC",
@@ -1983,10 +1999,10 @@
       "status": "open",
       "issued_at": "2026-04-23T10:55:46.568925",
       "last_seen": "2026-04-23T19:35:19.669899",
-      "current_price": 21.98,
-      "current_price_time": "2026-04-23T19:44:27.481780+00:00",
-      "pnl_pct_live": 0.23,
-      "progression_pct": 3.2
+      "current_price": 21.99,
+      "current_price_time": "2026-04-23T20:11:47.109316+00:00",
+      "pnl_pct_live": 0.18,
+      "progression_pct": 2.5
     },
     {
       "ticker": "HO.PA",
@@ -2020,7 +2036,7 @@
       "issued_at": "2026-04-23T10:55:46.568947",
       "last_seen": "2026-04-23T18:57:04.747724",
       "current_price": 242.7,
-      "current_price_time": "2026-04-23T19:44:27.481780+00:00",
+      "current_price_time": "2026-04-23T20:11:47.109316+00:00",
       "pnl_pct_live": 0.0,
       "progression_pct": 0.0
     },
@@ -2055,10 +2071,10 @@
       "status": "open",
       "issued_at": "2026-04-23T10:55:46.568900",
       "last_seen": "2026-04-23T19:35:19.669899",
-      "current_price": 479.98,
-      "current_price_time": "2026-04-23T19:44:27.481780+00:00",
-      "pnl_pct_live": -0.05,
-      "progression_pct": -1.4
+      "current_price": 478.82,
+      "current_price_time": "2026-04-23T20:11:47.109316+00:00",
+      "pnl_pct_live": 0.19,
+      "progression_pct": 2.3
     },
     {
       "ticker": "CDNS",
@@ -2091,10 +2107,10 @@
       "status": "open",
       "issued_at": "2026-04-23T18:57:04.742252",
       "last_seen": "2026-04-23T18:57:04.747724",
-      "current_price": 313.0,
-      "current_price_time": "2026-04-23T19:44:27.481780+00:00",
-      "pnl_pct_live": 0.19,
-      "progression_pct": 1.1
+      "current_price": 314.44,
+      "current_price_time": "2026-04-23T20:11:47.109316+00:00",
+      "pnl_pct_live": -0.27,
+      "progression_pct": -4.0
     },
     {
       "ticker": "OR.PA",
@@ -2128,7 +2144,7 @@
       "issued_at": "2026-04-23T10:55:46.568939",
       "last_seen": "2026-04-23T14:14:45.173284",
       "current_price": 376.3,
-      "current_price_time": "2026-04-23T19:44:27.481780+00:00",
+      "current_price_time": "2026-04-23T20:11:47.109316+00:00",
       "pnl_pct_live": -0.86,
       "progression_pct": -23.3
     },
@@ -2166,7 +2182,7 @@
       "issued_at": "2026-04-23T10:55:46.568945",
       "last_seen": "2026-04-23T19:35:19.669899",
       "current_price": 77.68,
-      "current_price_time": "2026-04-23T19:44:27.481780+00:00",
+      "current_price_time": "2026-04-23T20:11:47.109316+00:00",
       "pnl_pct_live": 0.44,
       "progression_pct": 4.0
     },
@@ -2199,10 +2215,10 @@
       "status": "open",
       "issued_at": "2026-04-22T20:39:14.205729",
       "last_seen": "2026-04-22T22:34:36.307400",
-      "current_price": 205.7,
-      "current_price_time": "2026-04-23T19:44:27.481780+00:00",
-      "pnl_pct_live": -1.48,
-      "progression_pct": -49.2
+      "current_price": 205.32,
+      "current_price_time": "2026-04-23T20:11:47.109316+00:00",
+      "pnl_pct_live": -1.29,
+      "progression_pct": -42.9
     },
     {
       "ticker": "MRK",
@@ -2233,10 +2249,10 @@
       "status": "open",
       "issued_at": "2026-04-22T20:39:14.205700",
       "last_seen": "2026-04-22T22:34:36.307400",
-      "current_price": 114.79,
-      "current_price_time": "2026-04-23T19:44:27.481780+00:00",
-      "pnl_pct_live": -1.68,
-      "progression_pct": -56.0
+      "current_price": 114.62,
+      "current_price_time": "2026-04-23T20:11:47.109316+00:00",
+      "pnl_pct_live": -1.53,
+      "progression_pct": -51.0
     },
     {
       "ticker": "IBM",
