@@ -9,6 +9,7 @@ let activeFilter = 'all';
 let activeUniverse = 'all';
 let searchQuery = '';
 let livePrices = {};   // { ticker: { price, changePct, time } }
+let simPerPos = parseInt(localStorage.getItem('cpa_sim_per_pos') || '100', 10);
 
 // ---- Init ----
 document.addEventListener('DOMContentLoaded', async () => {
@@ -147,17 +148,20 @@ function renderStats(stats, eod) {
   s('stat-confidence', Math.round(stats.avg_confidence * 100) + '%');
   s('stat-rr', stats.avg_rr.toFixed(1));
   s('stat-active', stats.active_positions);
-  // ---- P&L LIVE : agrège les signaux ouverts (temps réel) ----
+  // ---- P&L LIVE + SIMULATION $ : agrège tous les signaux ouverts ----
   const pnlEl = document.getElementById('stat-pnl');
+  const simPnlEl = document.getElementById('stat-sim-pnl');
+  const simPerEl = document.getElementById('sim-per-pos');
+  if (simPerEl) simPerEl.textContent = '$' + simPerPos;
+
+  const opens = allSignals.filter(s => s.status === 'open');
+  const withLive = opens.filter(s => typeof s.pnl_pct_live === 'number');
+
   if (pnlEl) {
-    const opens = allSignals.filter(s => s.status === 'open');
-    const withLive = opens.filter(s => typeof s.pnl_pct_live === 'number');
     if (withLive.length) {
-      // Moyenne pondérée par allocation (reflète le P&L portefeuille réel)
       const totWeight = withLive.reduce((a, s) => a + (s.kelly_position || 0.05), 0);
       const weightedPnl = withLive.reduce((a, s) => a + (s.pnl_pct_live * (s.kelly_position || 0.05)), 0);
       const avgPnl = totWeight > 0 ? weightedPnl / totWeight : 0;
-      // Somme brute (nette de toutes les positions, utile pour voir l'exposition globale)
       const sumPnl = withLive.reduce((a, s) => a + s.pnl_pct_live, 0);
       pnlEl.innerHTML = `${avgPnl >= 0 ? '+' : ''}${avgPnl.toFixed(2)}%<div style="font-size:10px;color:var(--text3);font-weight:400;margin-top:2px">Σ ${sumPnl >= 0 ? '+' : ''}${sumPnl.toFixed(1)}% · ${withLive.length} pos.</div>`;
       pnlEl.className = 'stat-val ' + (avgPnl >= 0 ? 'green' : 'red');
@@ -166,6 +170,22 @@ function renderStats(stats, eod) {
       pnlEl.textContent = (pnl >= 0 ? '+' : '') + (pnl * 100).toFixed(1) + '%';
       pnlEl.className = 'stat-val ' + (pnl >= 0 ? 'green' : 'red');
     }
+  }
+
+  // ---- SIMULATION $ : chaque position = simPerPos dollars ----
+  if (simPnlEl) {
+    const nPos = opens.length;
+    const totalInvested = nPos * simPerPos;
+    // Gain $ = Σ (simPerPos × pnl_pct / 100) pour chaque position ouverte
+    const gainDollar = withLive.reduce((a, s) => a + (simPerPos * (s.pnl_pct_live || 0) / 100), 0);
+    const fmtUSD = (v) => {
+      const sign = v >= 0 ? '+' : '−';
+      const abs = Math.abs(v);
+      if (abs >= 10000) return sign + '$' + (abs / 1000).toFixed(1) + 'k';
+      return sign + '$' + abs.toFixed(2);
+    };
+    simPnlEl.innerHTML = `${fmtUSD(gainDollar)}<div style="font-size:10px;color:var(--text3);font-weight:400;margin-top:2px">sur $${totalInvested.toLocaleString('en-US')} investi</div>`;
+    simPnlEl.className = 'stat-val ' + (gainDollar >= 0 ? 'green' : 'red');
   }
   if (!eod) return;
   const total = (eod.tp_hit || 0) + (eod.sl_hit || 0);
@@ -257,6 +277,11 @@ function buildRow(s, num) {
     if (prog !== null) {
       const posOnBar = Math.max(0, Math.min(100, 50 + prog / 2)); // 0..100 sur la barre
       const progColor = prog > 0 ? 'var(--buy-light)' : 'var(--sell-light)';
+      // Gain/perte en $ pour ce signal (basé sur simPerPos)
+      const dollarPnl = simPerPos * (live.price && s.price
+        ? (isBuy ? (live.price - s.price) / s.price : (s.price - live.price) / s.price)
+        : 0);
+      const dollarStr = `${dollarPnl >= 0 ? '+' : '−'}$${Math.abs(dollarPnl).toFixed(2)}`;
       progBar = `
         <div class="prog-signal" title="SL ← Entry → TP — progression: ${prog.toFixed(0)}%">
           <div class="prog-signal-bar">
@@ -267,7 +292,10 @@ function buildRow(s, num) {
             ${prog > 0 ? `<div class="prog-signal-fill-up" style="width:${posOnBar - 50}%"></div>` : ''}
             ${prog < 0 ? `<div class="prog-signal-fill-down" style="width:${50 - posOnBar}%"></div>` : ''}
           </div>
-          <span class="prog-signal-pct" style="color:${progColor}">${prog > 0 ? '+' : ''}${prog.toFixed(0)}%</span>
+          <div style="display:flex;justify-content:space-between;align-items:center;margin-top:2px">
+            <span class="prog-signal-pct" style="color:${progColor}">${prog > 0 ? '+' : ''}${prog.toFixed(0)}%</span>
+            <span style="font-family:var(--mono);font-size:10px;color:${progColor};font-weight:600">${dollarStr}</span>
+          </div>
         </div>`;
     }
   }
@@ -517,6 +545,58 @@ function bindControls() {
   document.getElementById('modal-close').addEventListener('click', closeModal);
   document.getElementById('modal-overlay').addEventListener('click', e => { if (e.target === e.currentTarget) closeModal(); });
   document.addEventListener('keydown', e => { if (e.key === 'Escape') closeModal(); });
+
+  // ---- Simulation modal ----
+  const simCard   = document.getElementById('sim-card');
+  const simModal  = document.getElementById('sim-modal');
+  const simInput  = document.getElementById('sim-input');
+  const simSave   = document.getElementById('sim-save');
+  const simClose  = document.getElementById('sim-close');
+  const simPreview = document.getElementById('sim-preview');
+
+  function updateSimPreview() {
+    if (!simPreview) return;
+    const val = parseInt(simInput.value, 10) || 0;
+    const opens = allSignals.filter(s => s.status === 'open');
+    const withLive = opens.filter(s => typeof s.pnl_pct_live === 'number');
+    const total = opens.length * val;
+    const gain = withLive.reduce((a, s) => a + (val * (s.pnl_pct_live || 0) / 100), 0);
+    simPreview.innerHTML = `
+      <div style="display:flex;justify-content:space-between;margin-bottom:4px"><span>Investissement total :</span><strong style="color:var(--text)">$${total.toLocaleString('en-US')}</strong></div>
+      <div style="display:flex;justify-content:space-between;margin-bottom:4px"><span>Sur ${opens.length} positions ouvertes</span><span></span></div>
+      <div style="display:flex;justify-content:space-between;padding-top:6px;border-top:1px solid var(--border)"><span>Gain/Perte live :</span><strong style="color:${gain >= 0 ? 'var(--buy-light)' : 'var(--sell-light)'}">${gain >= 0 ? '+' : '−'}$${Math.abs(gain).toFixed(2)}</strong></div>
+    `;
+  }
+
+  if (simCard && simModal) {
+    simCard.addEventListener('click', () => {
+      simInput.value = simPerPos;
+      updateSimPreview();
+      simModal.style.display = 'flex';
+    });
+    simClose.addEventListener('click', () => { simModal.style.display = 'none'; });
+    simModal.addEventListener('click', (e) => { if (e.target === simModal) simModal.style.display = 'none'; });
+    simInput.addEventListener('input', updateSimPreview);
+    document.querySelectorAll('.sim-preset').forEach(btn => {
+      btn.addEventListener('click', () => {
+        simInput.value = btn.dataset.v;
+        updateSimPreview();
+      });
+    });
+    simSave.addEventListener('click', () => {
+      const v = Math.max(10, Math.min(100000, parseInt(simInput.value, 10) || 100));
+      simPerPos = v;
+      localStorage.setItem('cpa_sim_per_pos', String(v));
+      simModal.style.display = 'none';
+      // Re-render avec le nouveau montant
+      if (allSignals.length) {
+        const data = { stats: {}, eod: {}, signals: allSignals };
+        // Récupère les dernières stats depuis localStorage ou re-fetch
+        loadSignals();
+      }
+      showToast(`💰 Simulation ajustée à $${v}/position`);
+    });
+  }
 
   // Refresh button
   const refBtn = document.getElementById('refresh-btn');
