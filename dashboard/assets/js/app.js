@@ -147,11 +147,25 @@ function renderStats(stats, eod) {
   s('stat-confidence', Math.round(stats.avg_confidence * 100) + '%');
   s('stat-rr', stats.avg_rr.toFixed(1));
   s('stat-active', stats.active_positions);
-  const pnl = stats.daily_pnl;
+  // ---- P&L LIVE : agrège les signaux ouverts (temps réel) ----
   const pnlEl = document.getElementById('stat-pnl');
   if (pnlEl) {
-    pnlEl.textContent = (pnl >= 0 ? '+' : '') + (pnl * 100).toFixed(1) + '%';
-    pnlEl.className = 'stat-val ' + (pnl >= 0 ? 'green' : 'red');
+    const opens = allSignals.filter(s => s.status === 'open');
+    const withLive = opens.filter(s => typeof s.pnl_pct_live === 'number');
+    if (withLive.length) {
+      // Moyenne pondérée par allocation (reflète le P&L portefeuille réel)
+      const totWeight = withLive.reduce((a, s) => a + (s.kelly_position || 0.05), 0);
+      const weightedPnl = withLive.reduce((a, s) => a + (s.pnl_pct_live * (s.kelly_position || 0.05)), 0);
+      const avgPnl = totWeight > 0 ? weightedPnl / totWeight : 0;
+      // Somme brute (nette de toutes les positions, utile pour voir l'exposition globale)
+      const sumPnl = withLive.reduce((a, s) => a + s.pnl_pct_live, 0);
+      pnlEl.innerHTML = `${avgPnl >= 0 ? '+' : ''}${avgPnl.toFixed(2)}%<div style="font-size:10px;color:var(--text3);font-weight:400;margin-top:2px">Σ ${sumPnl >= 0 ? '+' : ''}${sumPnl.toFixed(1)}% · ${withLive.length} pos.</div>`;
+      pnlEl.className = 'stat-val ' + (avgPnl >= 0 ? 'green' : 'red');
+    } else {
+      const pnl = stats.daily_pnl || 0;
+      pnlEl.textContent = (pnl >= 0 ? '+' : '') + (pnl * 100).toFixed(1) + '%';
+      pnlEl.className = 'stat-val ' + (pnl >= 0 ? 'green' : 'red');
+    }
   }
   if (!eod) return;
   const total = (eod.tp_hit || 0) + (eod.sl_hit || 0);
