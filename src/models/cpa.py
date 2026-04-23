@@ -119,18 +119,13 @@ class CPACalculator:
         # ── Composant 1 : Value Gap ────────────────────────────────────────────
         vg = self.rim.value_gap_signal(fundamentals)
 
-        # FALLBACK : distance à la MA200 comme proxy de sur/sous-valorisation
-        # Pour futures/crypto qui n'ont pas de fondamentaux
-        if vg is None and not prices.empty and len(prices) >= 200:
-            ma200 = float(prices.tail(200).mean())
-            current = float(prices.iloc[-1])
-            if ma200 > 0:
-                # Écart normalisé : +20% vs MA200 → -0.6 (sur-évalué), -20% → +0.6 (sous-évalué)
-                gap = (ma200 - current) / ma200
-                vg = float(np.tanh(gap * 4.0))
+        # Pas de fallback MA200 pour value_gap : il créait un biais contrarian
+        # (marché haussier → tout au-dessus MA200 → signal "vendre" permanent).
+        # Si fondamentaux indispos, value_gap reste None ; les 3 autres composants
+        # (factor_premia, mean_reversion, info_flow) couvrent suffisamment.
 
         if vg is not None:
-            # Clamp value_gap à [-1, 1] (éviter valeurs aberrantes comme -3.07)
+            # Clamp à [-1, 1] (éviter valeurs aberrantes comme -3.07)
             vg = float(max(-1.0, min(1.0, vg)))
             result.value_gap = self.w1 * vg
             result.intrinsic_value = self.rim.intrinsic_value(fundamentals)
