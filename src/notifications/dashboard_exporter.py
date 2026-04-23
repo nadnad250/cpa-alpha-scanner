@@ -220,10 +220,12 @@ def export_to_dashboard(
                     sl_hit   = perf.get("sl_hit", 0)
                     win_rate = round(perf.get("win_rate", 0), 3)
                     daily_pnl = round(perf.get("avg_pnl", 0) / 100, 4)
-                open_sigs = tracker.load_open_signals()
-                open_pos  = len(open_sigs)
             except Exception as e:
                 logger.warning(f"Stats tracker non disponibles: {e}")
+
+        # Force cohérence : active_positions = nb de signaux ouverts affichés
+        # (évite le décalage "12 signaux du jour" vs "15 positions actives")
+        open_pos = n
 
         data = {
             "generated_at": now.isoformat(),
