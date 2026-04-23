@@ -5,67 +5,87 @@ on:
   schedule:
     - cron: "30 7 * * 1-5"
 
-  # Déclenchement manuel depuis GitHub Actions
   workflow_dispatch:
     inputs:
-      universe:
-        description: "Univers à scanner"
-        required: false
-        default: "SP500 NASDAQ100 EUROSTOXX50"
-        type: string
-      test_mode:
-        description: "Mode test (20 tickers)"
-        required: false
-        default: "false"
+      mode:
+        description: "Execution mode"
+        required: true
+        default: "once"
         type: choice
         options:
-          - "false"
-          - "true"
+          - once
+          - demo
+
+permissions:
+  contents: write
+
+# Empêche les collisions avec bot_loop.yml
+concurrency:
+  group: alphaforge-bot
+  cancel-in-progress: false
 
 jobs:
   scan:
-    name: Scan CPA
     runs-on: ubuntu-latest
-    timeout-minutes: 60
-
+    timeout-minutes: 45
     steps:
-      - name: Checkout code
-        uses: actions/checkout@v4
+      - uses: actions/checkout@v4
+        with:
+          token: ${{ secrets.GITHUB_TOKEN }}
 
-      - name: Setup Python 3.11
-        uses: actions/setup-python@v5
+      - uses: actions/setup-python@v5
         with:
           python-version: "3.11"
           cache: "pip"
 
-      - name: Install dependencies
+      - name: Install deps
         run: |
           pip install --upgrade pip
           pip install -r requirements.txt
 
-      - name: Create data directories
-        run: mkdir -p data/cache data/reports
+      - name: Prepare dirs
+        run: mkdir -p data/cache data/reports data/signals dashboard/data
 
-      - name: Run CPA Scanner
+      - name: Run bot (avec export dashboard)
         env:
           TELEGRAM_BOT_TOKEN: ${{ secrets.TELEGRAM_BOT_TOKEN }}
           TELEGRAM_CHAT_ID: ${{ secrets.TELEGRAM_CHAT_ID }}
           RISK_FREE_RATE: "0.045"
+          DASHBOARD_PATH: "./dashboard/data/signals.json"
+          MODE: ${{ github.event.inputs.mode || 'once' }}
         run: |
-          if [ "${{ github.event.inputs.test_mode }}" = "true" ]; then
-            python main.py --test
+          if [ "$MODE" = "demo" ]; then
+            python bot_loop.py --once --demo
           else
-            python main.py
+            python bot_loop.py --once
+          fi
+
+      - name: Commit dashboard data
+        run: |
+          git config user.name  "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add dashboard/data/signals.json data/signals/ || true
+          if git diff --staged --quiet; then
+            echo "Pas de changement à committer"
+          else
+            git commit -m "chore(bot): update signals $(date -u +'%Y-%m-%d %H:%M UTC') [daily_scan]"
+            for i in 1 2 3 4 5; do
+              if git push; then
+                echo "Push réussi tentative $i"
+                break
+              fi
+              echo "Collision détectée — rebase + retry ($i/5)"
+              git pull --rebase origin master
+              sleep 2
+            done
           fi
 
       - name: Upload reports
         if: always()
         uses: actions/upload-artifact@v4
         with:
-          name: cpa-reports-${{ github.run_number }}
-          path: |
-            data/reports/
-            data/cpa_scanner.log
+          name: reports-${{ github.run_number }}
+          path: data/reports/
           retention-days: 30
 
       - name: Notify on failure
