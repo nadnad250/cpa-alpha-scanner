@@ -4354,5 +4354,23 @@
     "pnl_pct": null,
     "max_favorable": null,
     "max_adverse": null
+  },
+  {
+    "ticker": "VRSK",
+    "action": "STRONG_SELL",
+    "entry_price": 177.14,
+    "stop_loss": 183.43142543247765,
+    "take_profit": 161.41143641880578,
+    "score": -0.7951785105821981,
+    "confidence": 0.7560198132537571,
+    "universe": "NASDAQ100",
+    "issued_at": "2026-04-23T21:14:16.660820",
+    "horizon_days": 21,
+    "status": "open",
+    "exit_price": null,
+    "exit_date": null,
+    "pnl_pct": null,
+    "max_favorable": null,
+    "max_adverse": null
   }
 ]
