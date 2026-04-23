@@ -135,6 +135,24 @@ class OpportunityDetector:
         if final_score < 0 and ml_proba_up > 0.52:
             return None  # SELL rejeté si ML nettement bullish
 
+        # FILTRE QUALITÉ : cohérence multi-facteurs
+        # On exige qu'au moins 3 des 4 composantes CPA (parmi celles disponibles)
+        # pointent dans la même direction que le score final.
+        # Évite les signaux dominés par une seule composante (ex: value_gap très négatif
+        # alors que momentum et info_flow sont positifs).
+        direction = 1 if final_score > 0 else -1
+        available_components = [
+            getattr(cpa_result, k) for k in
+            ["value_gap", "factor_premia", "mean_reversion", "info_flow"]
+            if getattr(cpa_result, k, None) is not None
+        ]
+        if len(available_components) >= 3:
+            aligned = sum(1 for c in available_components if (c * direction) > 0)
+            # Au moins 3 composantes alignées (ou toutes si on en a 3)
+            threshold = 3 if len(available_components) >= 4 else len(available_components) - 1
+            if aligned < threshold:
+                return None  # Signaux trop contradictoires entre les facteurs
+
         # FILTRE TENDANCE MM200 : rejeter les signaux contre-tendance
         try:
             from config.settings import TREND_ALIGNMENT
