@@ -1,0 +1,12 @@
+{
+  "metrics": {
+    "total_signals": 11,
+    "open": 11,
+    "closed": 0,
+    "message": "Pas encore assez de trades clôturés pour analyser. Attendre 10+ clôtures."
+  },
+  "patterns": [
+    "Échantillon insuffisant (< 10 clôturés) — attendre plus de trades avant tuning."
+  ],
+  "n_signals_analyzed": 11
+}
