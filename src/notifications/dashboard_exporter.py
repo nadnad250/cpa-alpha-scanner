@@ -42,18 +42,25 @@ def export_to_dashboard(
 
         # ---- Charger l'existant pour dédupliquer + préserver l'historique ----
         existing_open_by_key = {}     # (ticker, action) -> signal existant ouvert
-        closed_history = []           # signaux clôturés (tp_hit/sl_hit) à garder
+        closed_by_key = {}            # (ticker, action, exit_date) -> signal clôturé (DÉDUPLIQUÉ)
         try:
             if path.exists():
                 prev = json.loads(path.read_text(encoding="utf-8"))
                 for s in prev.get("signals", []):
-                    key = (s.get("ticker"), s.get("action"))
                     if s.get("status") == "open":
+                        key = (s.get("ticker"), s.get("action"))
                         existing_open_by_key[key] = s
                     else:
-                        closed_history.append(s)
+                        # Dédup strict par (status, ticker, action)
+                        # Un ticker+action ne peut avoir qu'UN tp_hit ou UN sl_hit
+                        # (évite 4×IBM tp_hit qui s'accumule à chaque scan)
+                        ckey = (s.get("status"), s.get("ticker"), s.get("action"))
+                        if ckey not in closed_by_key:
+                            closed_by_key[ckey] = s
         except Exception as e:
             logger.warning(f"Existant non lisible: {e}")
+
+        closed_history = list(closed_by_key.values())
 
         # ---- SYNCHRONISATION TRACKER → DASHBOARD ----
         # Charge les signaux ouverts du tracker qui ne seraient pas dans signals.json
