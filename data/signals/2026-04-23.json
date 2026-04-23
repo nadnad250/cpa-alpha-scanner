@@ -4372,41 +4372,5 @@
     "pnl_pct": null,
     "max_favorable": 3.445588511107483e-09,
     "max_adverse": 3.445588511107483e-09
-  },
-  {
-    "ticker": "BP.L",
-    "action": "STRONG_BUY",
-    "entry_price": 570.3,
-    "stop_loss": 534.3892573765346,
-    "take_profit": 660.0768565586635,
-    "score": 0.499996713880608,
-    "confidence": 0.9144814809916348,
-    "universe": "FTSE100",
-    "issued_at": "2026-04-23T21:49:08.281759",
-    "horizon_days": 21,
-    "status": "open",
-    "exit_price": null,
-    "exit_date": null,
-    "pnl_pct": null,
-    "max_favorable": null,
-    "max_adverse": null
-  },
-  {
-    "ticker": "SGE.L",
-    "action": "STRONG_SELL",
-    "entry_price": 888.2,
-    "stop_loss": 921.6000156947545,
-    "take_profit": 804.6999607631138,
-    "score": -0.6129615350608711,
-    "confidence": 0.7432987656264367,
-    "universe": "FTSE100",
-    "issued_at": "2026-04-23T21:49:08.281781",
-    "horizon_days": 21,
-    "status": "open",
-    "exit_price": null,
-    "exit_date": null,
-    "pnl_pct": null,
-    "max_favorable": null,
-    "max_adverse": null
   }
 ]
