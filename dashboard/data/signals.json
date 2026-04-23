@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-04-23T14:14:45.173284",
+  "generated_at": "2026-04-23T14:21:54.260692+00:00",
   "date": "2026-04-23",
   "stats": {
     "total": 50,
@@ -53,7 +53,11 @@
       "top_news_url": "https://finance.yahoo.com/news/shift4-payments-expands-ecosystem-bambora-151147370.html",
       "status": "open",
       "issued_at": "2026-04-23T14:14:45.170625",
-      "last_seen": "2026-04-23T14:14:45.173284"
+      "last_seen": "2026-04-23T14:14:45.173284",
+      "current_price": 0.29,
+      "current_price_time": "2026-04-23T14:21:54.260692+00:00",
+      "pnl_pct_live": 0.0,
+      "progression_pct": 0.0
     },
     {
       "ticker": "ZAL.DE",
@@ -88,7 +92,11 @@
       "top_news_url": "https://finance.yahoo.com/news/zalando-se-zldsf-q4-2025-010117955.html",
       "status": "open",
       "issued_at": "2026-04-22T20:39:14.205742",
-      "last_seen": "2026-04-23T14:14:45.173284"
+      "last_seen": "2026-04-23T14:14:45.173284",
+      "current_price": 21.96,
+      "current_price_time": "2026-04-23T14:21:54.260692+00:00",
+      "pnl_pct_live": 0.68,
+      "progression_pct": 7.2
     },
     {
       "ticker": "ADBE",
@@ -124,10 +132,10 @@
       "status": "open",
       "issued_at": "2026-04-23T08:48:40.766102",
       "last_seen": "2026-04-23T08:48:40.766678",
-      "current_price": 241.51,
-      "current_price_time": "2026-04-23T13:34:39.594252+00:00",
-      "pnl_pct_live": 5.64,
-      "progression_pct": 56.4
+      "current_price": 235.73,
+      "current_price_time": "2026-04-23T14:21:54.260692+00:00",
+      "pnl_pct_live": 7.9,
+      "progression_pct": 78.9
     },
     {
       "ticker": "BKR",
@@ -161,7 +169,11 @@
       "top_news_url": "https://www.marketbeat.com/originals/3-etfs-to-benefit-from-oil-price-surge-without-direct-investment/?utm_source=yahoofinance&utm_medium=yahoofinance",
       "status": "open",
       "issued_at": "2026-04-23T14:14:45.170594",
-      "last_seen": "2026-04-23T14:14:45.173284"
+      "last_seen": "2026-04-23T14:14:45.173284",
+      "current_price": 64.56,
+      "current_price_time": "2026-04-23T14:21:54.260692+00:00",
+      "pnl_pct_live": 0.31,
+      "progression_pct": 4.0
     },
     {
       "ticker": "DXCM",
@@ -196,10 +208,10 @@
       "status": "open",
       "issued_at": "2026-04-23T08:48:40.766099",
       "last_seen": "2026-04-23T08:48:40.766678",
-      "current_price": 63.55,
-      "current_price_time": "2026-04-23T13:34:39.594252+00:00",
-      "pnl_pct_live": -0.22,
-      "progression_pct": -6.7
+      "current_price": 63.6,
+      "current_price_time": "2026-04-23T14:21:54.260692+00:00",
+      "pnl_pct_live": -0.3,
+      "progression_pct": -9.0
     },
     {
       "ticker": "EXPN.L",
@@ -233,7 +245,11 @@
       "top_news_url": "https://www.barrons.com/articles/equifax-earnings-stock-price-a515fb42?siteid=yhoof2&yptr=yahoo",
       "status": "open",
       "issued_at": "2026-04-23T10:55:46.568979",
-      "last_seen": "2026-04-23T14:14:45.173284"
+      "last_seen": "2026-04-23T14:14:45.173284",
+      "current_price": 2783.0,
+      "current_price_time": "2026-04-23T14:21:54.260692+00:00",
+      "pnl_pct_live": 0.22,
+      "progression_pct": 2.2
     },
     {
       "ticker": "INTC",
@@ -268,10 +284,10 @@
       "status": "open",
       "issued_at": "2026-04-23T09:46:26.819662",
       "last_seen": "2026-04-23T09:46:26.820627",
-      "current_price": 67.03,
-      "current_price_time": "2026-04-23T13:34:39.594252+00:00",
-      "pnl_pct_live": -2.7,
-      "progression_pct": -35.8
+      "current_price": 67.02,
+      "current_price_time": "2026-04-23T14:21:54.260692+00:00",
+      "pnl_pct_live": -2.68,
+      "progression_pct": -35.6
     },
     {
       "ticker": "ODFL",
@@ -302,10 +318,10 @@
       "status": "open",
       "issued_at": "2026-04-22T20:39:14.205738",
       "last_seen": "2026-04-22T22:34:36.307400",
-      "current_price": 224.4,
-      "current_price_time": "2026-04-23T13:34:39.594252+00:00",
-      "pnl_pct_live": -2.01,
-      "progression_pct": -58.2
+      "current_price": 223.75,
+      "current_price_time": "2026-04-23T14:21:54.260692+00:00",
+      "pnl_pct_live": -1.71,
+      "progression_pct": -49.6
     },
     {
       "ticker": "SHL.DE",
@@ -337,7 +353,11 @@
       "top_news_url": "https://www.medicaldevice-network.com/news/screenpoint-medical-raises-16m-with-continued-investment-from-siemens-healthineers/",
       "status": "open",
       "issued_at": "2026-04-23T10:55:46.568967",
-      "last_seen": "2026-04-23T14:14:45.173284"
+      "last_seen": "2026-04-23T14:14:45.173284",
+      "current_price": 36.18,
+      "current_price_time": "2026-04-23T14:21:54.260692+00:00",
+      "pnl_pct_live": 0.11,
+      "progression_pct": 1.6
     },
     {
       "ticker": "SW.PA",
@@ -371,7 +391,11 @@
       "top_news_url": "https://www.verdictfoodservice.com/news/sodexo-cuts-annual-guidance/",
       "status": "open",
       "issued_at": "2026-04-23T10:55:46.568960",
-      "last_seen": "2026-04-23T14:14:45.173284"
+      "last_seen": "2026-04-23T14:14:45.173284",
+      "current_price": 42.68,
+      "current_price_time": "2026-04-23T14:21:54.260692+00:00",
+      "pnl_pct_live": 0.05,
+      "progression_pct": 0.3
     },
     {
       "ticker": "SGO.PA",
@@ -405,7 +429,11 @@
       "top_news_url": "https://finance.yahoo.com/markets/stocks/articles/look-compagnie-saint-gobain-enxtpa-141215712.html",
       "status": "open",
       "issued_at": "2026-04-23T10:55:46.568945",
-      "last_seen": "2026-04-23T14:14:45.173284"
+      "last_seen": "2026-04-23T14:14:45.173284",
+      "current_price": 77.3,
+      "current_price_time": "2026-04-23T14:21:54.260692+00:00",
+      "pnl_pct_live": -0.03,
+      "progression_pct": -0.6
     },
     {
       "ticker": "ABT",
@@ -439,7 +467,11 @@
       "top_news_url": "https://finance.yahoo.com/sectors/healthcare/articles/abbott-cancerguard-progress-adds-dimension-170725199.html",
       "status": "open",
       "issued_at": "2026-04-23T14:14:45.170570",
-      "last_seen": "2026-04-23T14:14:45.173284"
+      "last_seen": "2026-04-23T14:14:45.173284",
+      "current_price": 91.79,
+      "current_price_time": "2026-04-23T14:21:54.260692+00:00",
+      "pnl_pct_live": 0.1,
+      "progression_pct": 1.2
     },
     {
       "ticker": "IBM",
@@ -472,9 +504,9 @@
       "status": "open",
       "issued_at": "2026-04-23T10:55:46.568936",
       "last_seen": "2026-04-23T10:55:46.570741",
-      "current_price": 228.1,
-      "current_price_time": "2026-04-23T13:34:39.594252+00:00",
-      "pnl_pct_live": 9.43,
+      "current_price": 227.99,
+      "current_price_time": "2026-04-23T14:21:54.260692+00:00",
+      "pnl_pct_live": 9.48,
       "progression_pct": 120
     },
     {
@@ -507,7 +539,11 @@
       "top_news_url": "https://www.wsj.com/business/earnings/imperial-brands-to-post-rise-in-adjusted-operating-profit-9522dc6e?siteid=yhoof2&yptr=yahoo",
       "status": "open",
       "issued_at": "2026-04-23T10:55:46.568977",
-      "last_seen": "2026-04-23T14:14:45.173284"
+      "last_seen": "2026-04-23T14:14:45.173284",
+      "current_price": 2778.5,
+      "current_price_time": "2026-04-23T14:21:54.260692+00:00",
+      "pnl_pct_live": 0.02,
+      "progression_pct": 0.2
     },
     {
       "ticker": "SIRI",
@@ -542,10 +578,10 @@
       "status": "open",
       "issued_at": "2026-04-23T09:46:26.819658",
       "last_seen": "2026-04-23T09:46:26.820627",
-      "current_price": 28.29,
-      "current_price_time": "2026-04-23T13:34:39.594252+00:00",
-      "pnl_pct_live": -0.82,
-      "progression_pct": -19.2
+      "current_price": 28.19,
+      "current_price_time": "2026-04-23T14:21:54.260692+00:00",
+      "pnl_pct_live": -0.46,
+      "progression_pct": -10.8
     },
     {
       "ticker": "ADS.DE",
@@ -579,7 +615,11 @@
       "top_news_url": "https://finance.yahoo.com/markets/stocks/articles/nikes-inventory-fixes-boosting-global-162400626.html",
       "status": "open",
       "issued_at": "2026-04-23T10:55:46.568943",
-      "last_seen": "2026-04-23T14:14:45.173284"
+      "last_seen": "2026-04-23T14:14:45.173284",
+      "current_price": 139.4,
+      "current_price_time": "2026-04-23T14:21:54.260692+00:00",
+      "pnl_pct_live": 0.11,
+      "progression_pct": 1.3
     },
     {
       "ticker": "TXN",
@@ -614,9 +654,9 @@
       "status": "open",
       "issued_at": "2026-04-23T09:46:26.819654",
       "last_seen": "2026-04-23T09:46:26.820627",
-      "current_price": 270.45,
-      "current_price_time": "2026-04-23T13:34:39.594252+00:00",
-      "pnl_pct_live": -14.45,
+      "current_price": 273.74,
+      "current_price_time": "2026-04-23T14:21:54.260692+00:00",
+      "pnl_pct_live": -15.84,
       "progression_pct": -120
     },
     {
@@ -652,7 +692,11 @@
       "top_news_url": "https://finance.yahoo.com/news/vivendi-vivhy-moves-buy-rationale-170004064.html",
       "status": "open",
       "issued_at": "2026-04-22T22:34:36.306438",
-      "last_seen": "2026-04-23T14:14:45.173284"
+      "last_seen": "2026-04-23T14:14:45.173284",
+      "current_price": 2.17,
+      "current_price_time": "2026-04-23T14:21:54.260692+00:00",
+      "pnl_pct_live": 0.0,
+      "progression_pct": 0.0
     },
     {
       "ticker": "RNO.PA",
@@ -687,7 +731,11 @@
       "top_news_url": "https://finance.yahoo.com/video/renault-q1-sales-beat-forecasts-111725710.html",
       "status": "open",
       "issued_at": "2026-04-23T10:55:46.568956",
-      "last_seen": "2026-04-23T14:14:45.173284"
+      "last_seen": "2026-04-23T14:14:45.173284",
+      "current_price": 31.37,
+      "current_price_time": "2026-04-23T14:21:54.260692+00:00",
+      "pnl_pct_live": 0.1,
+      "progression_pct": 1.2
     },
     {
       "ticker": "SGRO.L",
@@ -720,10 +768,10 @@
       "status": "open",
       "issued_at": "2026-04-23T10:55:46.568975",
       "last_seen": "2026-04-23T10:55:46.570741",
-      "current_price": 710.8,
-      "current_price_time": "2026-04-23T13:34:39.594252+00:00",
-      "pnl_pct_live": -0.08,
-      "progression_pct": -2.8
+      "current_price": 714.6,
+      "current_price_time": "2026-04-23T14:21:54.260692+00:00",
+      "pnl_pct_live": -0.62,
+      "progression_pct": -20.6
     },
     {
       "ticker": "DTE.DE",
@@ -755,7 +803,11 @@
       "top_news_url": "https://www.investors.com/news/technology/att-stock-att-earnings-news-q12026/?src=A00220&yptr=yahoo",
       "status": "open",
       "issued_at": "2026-04-23T10:55:46.568941",
-      "last_seen": "2026-04-23T14:14:45.173284"
+      "last_seen": "2026-04-23T14:14:45.173284",
+      "current_price": 27.63,
+      "current_price_time": "2026-04-23T14:21:54.260692+00:00",
+      "pnl_pct_live": -0.25,
+      "progression_pct": -6.9
     },
     {
       "ticker": "REL.L",
@@ -790,7 +842,11 @@
       "top_news_url": "https://finance.yahoo.com/news/relx-relx-upgraded-strong-buy-170002292.html",
       "status": "open",
       "issued_at": "2026-04-23T10:55:46.568973",
-      "last_seen": "2026-04-23T14:14:45.173284"
+      "last_seen": "2026-04-23T14:14:45.173284",
+      "current_price": 2671.0,
+      "current_price_time": "2026-04-23T14:21:54.260692+00:00",
+      "pnl_pct_live": 0.07,
+      "progression_pct": 1.0
     },
     {
       "ticker": "IDXX",
@@ -822,7 +878,11 @@
       "top_news_url": "https://finance.yahoo.com/markets/stocks/articles/idexx-idxx-beat-estimates-again-161004271.html",
       "status": "open",
       "issued_at": "2026-04-23T10:55:46.568932",
-      "last_seen": "2026-04-23T14:14:45.173284"
+      "last_seen": "2026-04-23T14:14:45.173284",
+      "current_price": 571.01,
+      "current_price_time": "2026-04-23T14:21:54.260692+00:00",
+      "pnl_pct_live": -0.06,
+      "progression_pct": -1.7
     },
     {
       "ticker": "CEG",
@@ -856,7 +916,11 @@
       "top_news_url": "https://www.fool.com/investing/2026/04/21/why-constellation-energy-stock-is-falling-today/",
       "status": "open",
       "issued_at": "2026-04-23T10:55:46.568929",
-      "last_seen": "2026-04-23T14:14:45.173284"
+      "last_seen": "2026-04-23T14:14:45.173284",
+      "current_price": 285.69,
+      "current_price_time": "2026-04-23T14:21:54.260692+00:00",
+      "pnl_pct_live": 0.16,
+      "progression_pct": 1.7
     },
     {
       "ticker": "AON",
@@ -888,7 +952,11 @@
       "top_news_url": "https://finance.yahoo.com/markets/stocks/articles/aon-expands-data-center-insurance-172200526.html",
       "status": "open",
       "issued_at": "2026-04-23T10:55:46.568914",
-      "last_seen": "2026-04-23T14:14:45.173284"
+      "last_seen": "2026-04-23T14:14:45.173284",
+      "current_price": 327.42,
+      "current_price_time": "2026-04-23T14:21:54.260692+00:00",
+      "pnl_pct_live": -0.25,
+      "progression_pct": -7.7
     },
     {
       "ticker": "SAF.PA",
@@ -920,7 +988,11 @@
       "top_news_url": "https://www.wsj.com/business/earnings/safran-posts-double-digit-revenue-growth-on-surge-in-engine-deliveries-fcc3e1ea?siteid=yhoof2&yptr=yahoo",
       "status": "open",
       "issued_at": "2026-04-23T14:14:45.170598",
-      "last_seen": "2026-04-23T14:14:45.173284"
+      "last_seen": "2026-04-23T14:14:45.173284",
+      "current_price": 281.0,
+      "current_price_time": "2026-04-23T14:21:54.260692+00:00",
+      "pnl_pct_live": -0.9,
+      "progression_pct": -10.1
     },
     {
       "ticker": "CON.DE",
@@ -954,7 +1026,11 @@
       "top_news_url": "https://finance.yahoo.com/news/why-continental-aktiengesellschaft-etr-con-070928817.html",
       "status": "open",
       "issued_at": "2026-04-23T10:55:46.568963",
-      "last_seen": "2026-04-23T14:14:45.173284"
+      "last_seen": "2026-04-23T14:14:45.173284",
+      "current_price": 65.78,
+      "current_price_time": "2026-04-23T14:21:54.260692+00:00",
+      "pnl_pct_live": -0.12,
+      "progression_pct": -3.1
     },
     {
       "ticker": "SPGI",
@@ -989,10 +1065,10 @@
       "status": "open",
       "issued_at": "2026-04-23T10:55:46.568916",
       "last_seen": "2026-04-23T10:55:46.570741",
-      "current_price": 444.93,
-      "current_price_time": "2026-04-23T13:34:39.594252+00:00",
-      "pnl_pct_live": 0.92,
-      "progression_pct": 13.6
+      "current_price": 439.75,
+      "current_price_time": "2026-04-23T14:21:54.260692+00:00",
+      "pnl_pct_live": 2.07,
+      "progression_pct": 30.8
     },
     {
       "ticker": "ZTS",
@@ -1027,7 +1103,11 @@
       "top_news_url": "https://finance.yahoo.com/markets/stocks/articles/zoetis-zts-stock-slides-market-221505315.html",
       "status": "open",
       "issued_at": "2026-04-23T10:55:46.568911",
-      "last_seen": "2026-04-23T14:14:45.173284"
+      "last_seen": "2026-04-23T14:14:45.173284",
+      "current_price": 117.1,
+      "current_price_time": "2026-04-23T14:21:54.260692+00:00",
+      "pnl_pct_live": -0.3,
+      "progression_pct": -10.0
     },
     {
       "ticker": "SNPS",
@@ -1062,10 +1142,10 @@
       "status": "open",
       "issued_at": "2026-04-23T10:55:46.568927",
       "last_seen": "2026-04-23T10:55:46.570741",
-      "current_price": 463.96,
-      "current_price_time": "2026-04-23T13:34:39.594252+00:00",
-      "pnl_pct_live": 2.79,
-      "progression_pct": 31.6
+      "current_price": 461.73,
+      "current_price_time": "2026-04-23T14:21:54.260692+00:00",
+      "pnl_pct_live": 3.25,
+      "progression_pct": 36.9
     },
     {
       "ticker": "KHC",
@@ -1097,7 +1177,11 @@
       "top_news_url": "https://finance.yahoo.com/markets/stocks/articles/kraft-heinz-khc-valuation-check-201139883.html",
       "status": "open",
       "issued_at": "2026-04-23T10:55:46.568925",
-      "last_seen": "2026-04-23T14:14:45.173284"
+      "last_seen": "2026-04-23T14:14:45.173284",
+      "current_price": 21.95,
+      "current_price_time": "2026-04-23T14:21:54.260692+00:00",
+      "pnl_pct_live": 0.18,
+      "progression_pct": 2.6
     },
     {
       "ticker": "AC.PA",
@@ -1129,7 +1213,11 @@
       "top_news_url": "https://www.hotelmanagement-network.com/news/msrei-quinspark-sell-pullman-paris-tour-eiffel-hotel/",
       "status": "open",
       "issued_at": "2026-04-23T10:55:46.568954",
-      "last_seen": "2026-04-23T14:14:45.173284"
+      "last_seen": "2026-04-23T14:14:45.173284",
+      "current_price": 43.19,
+      "current_price_time": "2026-04-23T14:21:54.260692+00:00",
+      "pnl_pct_live": -0.16,
+      "progression_pct": -4.3
     },
     {
       "ticker": "MSFT",
@@ -1163,7 +1251,11 @@
       "top_news_url": "https://finance.yahoo.com/markets/stocks/articles/microsoft-msft-rides-ai-wave-133414976.html",
       "status": "open",
       "issued_at": "2026-04-23T10:55:46.568879",
-      "last_seen": "2026-04-23T14:14:45.173284"
+      "last_seen": "2026-04-23T14:14:45.173284",
+      "current_price": 418.26,
+      "current_price_time": "2026-04-23T14:21:54.260692+00:00",
+      "pnl_pct_live": -0.34,
+      "progression_pct": -10.4
     },
     {
       "ticker": "TMUS",
@@ -1197,7 +1289,11 @@
       "top_news_url": "https://finance.yahoo.com/video/t-mobile-reportedly-in-merger-talks-adobes-25b-stock-buyback-142745188.html",
       "status": "open",
       "issued_at": "2026-04-23T14:14:45.170584",
-      "last_seen": "2026-04-23T14:14:45.173284"
+      "last_seen": "2026-04-23T14:14:45.173284",
+      "current_price": 194.21,
+      "current_price_time": "2026-04-23T14:21:54.260692+00:00",
+      "pnl_pct_live": -0.33,
+      "progression_pct": -10.8
     },
     {
       "ticker": "PYPL",
@@ -1232,10 +1328,10 @@
       "status": "open",
       "issued_at": "2026-04-23T10:55:46.568905",
       "last_seen": "2026-04-23T10:55:46.570741",
-      "current_price": 50.42,
-      "current_price_time": "2026-04-23T13:34:39.594252+00:00",
-      "pnl_pct_live": 1.56,
-      "progression_pct": 21.4
+      "current_price": 49.85,
+      "current_price_time": "2026-04-23T14:21:54.260692+00:00",
+      "pnl_pct_live": 2.67,
+      "progression_pct": 36.7
     },
     {
       "ticker": "FTNT",
@@ -1269,7 +1365,11 @@
       "top_news_url": "https://www.fool.com/coverage/stock-market-today/2026/04/20/stock-market-today-april-20-blackberry-surges-after-qnx-expands-integration-with-nvidia-edge-ai-platform/",
       "status": "open",
       "issued_at": "2026-04-22T20:39:14.205734",
-      "last_seen": "2026-04-23T14:14:45.173284"
+      "last_seen": "2026-04-23T14:14:45.173284",
+      "current_price": 82.36,
+      "current_price_time": "2026-04-23T14:21:54.260692+00:00",
+      "pnl_pct_live": 0.06,
+      "progression_pct": 0.6
     },
     {
       "ticker": "PANW",
@@ -1303,7 +1403,11 @@
       "top_news_url": "https://finance.yahoo.com/markets/stocks/articles/too-consider-palo-alto-networks-170805114.html",
       "status": "open",
       "issued_at": "2026-04-23T14:14:45.170579",
-      "last_seen": "2026-04-23T14:14:45.173284"
+      "last_seen": "2026-04-23T14:14:45.173284",
+      "current_price": 171.57,
+      "current_price_time": "2026-04-23T14:21:54.260692+00:00",
+      "pnl_pct_live": -0.22,
+      "progression_pct": -3.0
     },
     {
       "ticker": "PUB.PA",
@@ -1335,7 +1439,11 @@
       "top_news_url": "https://finance.yahoo.com/sectors/technology/articles/microsoft-ai-alliances-reframe-patent-221321209.html",
       "status": "open",
       "issued_at": "2026-04-23T10:55:46.568949",
-      "last_seen": "2026-04-23T14:14:45.173284"
+      "last_seen": "2026-04-23T14:14:45.173284",
+      "current_price": 77.54,
+      "current_price_time": "2026-04-23T14:21:54.260692+00:00",
+      "pnl_pct_live": 0.33,
+      "progression_pct": 4.0
     },
     {
       "ticker": "BLK",
@@ -1367,7 +1475,11 @@
       "top_news_url": "https://finance.yahoo.com/markets/stocks/articles/victory-giant-surges-debut-biggest-024933263.html",
       "status": "open",
       "issued_at": "2026-04-23T10:55:46.568903",
-      "last_seen": "2026-04-23T14:14:45.173284"
+      "last_seen": "2026-04-23T14:14:45.173284",
+      "current_price": 1061.14,
+      "current_price_time": "2026-04-23T14:21:54.260692+00:00",
+      "pnl_pct_live": -0.31,
+      "progression_pct": -10.4
     },
     {
       "ticker": "LAND.L",
@@ -1400,10 +1512,10 @@
       "status": "open",
       "issued_at": "2026-04-23T10:55:46.568971",
       "last_seen": "2026-04-23T10:55:46.570741",
-      "current_price": 603.9,
-      "current_price_time": "2026-04-23T13:34:39.594252+00:00",
-      "pnl_pct_live": -0.57,
-      "progression_pct": -18.9
+      "current_price": 604.5,
+      "current_price_time": "2026-04-23T14:21:54.260692+00:00",
+      "pnl_pct_live": -0.67,
+      "progression_pct": -22.2
     },
     {
       "ticker": "SHW",
@@ -1437,7 +1549,11 @@
       "top_news_url": "https://finance.yahoo.com/markets/stocks/articles/sherwin-williams-shw-reports-next-140018476.html",
       "status": "open",
       "issued_at": "2026-04-23T10:55:46.568908",
-      "last_seen": "2026-04-23T14:14:45.173284"
+      "last_seen": "2026-04-23T14:14:45.173284",
+      "current_price": 336.3,
+      "current_price_time": "2026-04-23T14:21:54.260692+00:00",
+      "pnl_pct_live": -0.02,
+      "progression_pct": -0.6
     },
     {
       "ticker": "NFLX",
@@ -1471,7 +1587,11 @@
       "top_news_url": "https://www.wsj.com/business/media/netflix-boosts-stock-buyback-program-by-25-billion-b8a66c9e",
       "status": "open",
       "issued_at": "2026-04-23T10:55:46.568921",
-      "last_seen": "2026-04-23T14:14:45.173284"
+      "last_seen": "2026-04-23T14:14:45.173284",
+      "current_price": 93.61,
+      "current_price_time": "2026-04-23T14:21:54.260692+00:00",
+      "pnl_pct_live": -0.18,
+      "progression_pct": -3.8
     },
     {
       "ticker": "ISRG",
@@ -1503,7 +1623,11 @@
       "top_news_url": "https://finance.yahoo.com/markets/stocks/articles/intuitive-surgical-balances-growth-ai-210712260.html",
       "status": "open",
       "issued_at": "2026-04-23T10:55:46.568900",
-      "last_seen": "2026-04-23T14:14:45.173284"
+      "last_seen": "2026-04-23T14:14:45.173284",
+      "current_price": 483.05,
+      "current_price_time": "2026-04-23T14:21:54.260692+00:00",
+      "pnl_pct_live": -0.76,
+      "progression_pct": -22.1
     },
     {
       "ticker": "MCO",
@@ -1537,7 +1661,11 @@
       "top_news_url": "https://finance.yahoo.com/markets/stocks/articles/moodys-corp-mco-q1-2026-070455417.html",
       "status": "open",
       "issued_at": "2026-04-23T14:14:45.170533",
-      "last_seen": "2026-04-23T14:14:45.173284"
+      "last_seen": "2026-04-23T14:14:45.173284",
+      "current_price": 455.52,
+      "current_price_time": "2026-04-23T14:21:54.260692+00:00",
+      "pnl_pct_live": -0.21,
+      "progression_pct": -7.1
     },
     {
       "ticker": "PGR",
@@ -1571,10 +1699,10 @@
       "status": "open",
       "issued_at": "2026-04-22T22:34:36.306406",
       "last_seen": "2026-04-23T10:55:46.570741",
-      "current_price": 202.41,
-      "current_price_time": "2026-04-23T13:34:39.594252+00:00",
-      "pnl_pct_live": 0.15,
-      "progression_pct": 2.2
+      "current_price": 205.18,
+      "current_price_time": "2026-04-23T14:21:54.260692+00:00",
+      "pnl_pct_live": -1.22,
+      "progression_pct": -40.6
     },
     {
       "ticker": "CRWD",
@@ -1608,7 +1736,11 @@
       "top_news_url": "https://finance.yahoo.com/markets/stocks/articles/crowdstrike-expands-japac-mssp-partnerships-220610718.html",
       "status": "open",
       "issued_at": "2026-04-23T14:14:45.170573",
-      "last_seen": "2026-04-23T14:14:45.173284"
+      "last_seen": "2026-04-23T14:14:45.173284",
+      "current_price": 443.58,
+      "current_price_time": "2026-04-23T14:21:54.260692+00:00",
+      "pnl_pct_live": -0.02,
+      "progression_pct": -0.3
     },
     {
       "ticker": "HO.PA",
@@ -1640,7 +1772,11 @@
       "top_news_url": "https://www.euronews.com/2026/04/21/thales-reports-strong-growth-as-defence-orders-jump-on-iran-war-tensions?utm_source=yahoo&utm_campaign=feeds_business_articles_2024&utm_medium=referral",
       "status": "open",
       "issued_at": "2026-04-23T10:55:46.568947",
-      "last_seen": "2026-04-23T14:14:45.173284"
+      "last_seen": "2026-04-23T14:14:45.173284",
+      "current_price": 240.8,
+      "current_price_time": "2026-04-23T14:21:54.260692+00:00",
+      "pnl_pct_live": -0.04,
+      "progression_pct": -1.2
     },
     {
       "ticker": "OR.PA",
@@ -1672,7 +1808,11 @@
       "top_news_url": "https://qz.com/loreal-first-quarter-2026-sales-stock-gain-042326",
       "status": "open",
       "issued_at": "2026-04-23T10:55:46.568939",
-      "last_seen": "2026-04-23T14:14:45.173284"
+      "last_seen": "2026-04-23T14:14:45.173284",
+      "current_price": 373.75,
+      "current_price_time": "2026-04-23T14:21:54.260692+00:00",
+      "pnl_pct_live": -0.17,
+      "progression_pct": -4.7
     },
     {
       "ticker": "PGR",
@@ -1703,10 +1843,10 @@
       "status": "open",
       "issued_at": "2026-04-22T20:39:14.205729",
       "last_seen": "2026-04-22T22:34:36.307400",
-      "current_price": 202.41,
-      "current_price_time": "2026-04-23T13:34:39.594252+00:00",
-      "pnl_pct_live": 0.15,
-      "progression_pct": 2.2
+      "current_price": 205.18,
+      "current_price_time": "2026-04-23T14:21:54.260692+00:00",
+      "pnl_pct_live": -1.22,
+      "progression_pct": -40.6
     },
     {
       "ticker": "MRK",
@@ -1737,10 +1877,10 @@
       "status": "open",
       "issued_at": "2026-04-22T20:39:14.205700",
       "last_seen": "2026-04-22T22:34:36.307400",
-      "current_price": 113.85,
-      "current_price_time": "2026-04-23T13:34:39.594252+00:00",
-      "pnl_pct_live": -0.85,
-      "progression_pct": -28.3
+      "current_price": 114.25,
+      "current_price_time": "2026-04-23T14:21:54.260692+00:00",
+      "pnl_pct_live": -1.2,
+      "progression_pct": -40.1
     }
   ]
 }
