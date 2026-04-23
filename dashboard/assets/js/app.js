@@ -271,7 +271,13 @@ function buildRow(s, num) {
     <td class="td-price">
       <div style="font-size:10px;color:var(--text3);margin-bottom:2px">ENTRÉE</div>
       $${fmt(s.price)}
-      ${live && live.price ? `<div style="font-size:9px;color:var(--text3);margin-top:3px">LIVE</div>${livePriceCell}` : ''}
+      ${(() => {
+        const mkt = getMarketStatus(s.universe, s.ticker);
+        if (live && live.price) {
+          return `<div style="font-size:9px;color:var(--text3);margin-top:3px">LIVE · <span style="color:${mkt.open ? 'var(--buy-light)' : 'var(--sell-light)'};font-weight:600">${mkt.open ? '🟢' : '🔴 '+mkt.short}</span></div>${livePriceCell}`;
+        }
+        return `<div style="font-size:9px;color:var(--text3);margin-top:3px">${mkt.label}</div>`;
+      })()}
     </td>
     <td class="td-tp">$${fmt(s.take_profit)}</td>
     <td class="td-sl">$${fmt(s.stop_loss)}</td>
@@ -530,6 +536,42 @@ function tradingViewUrl(ticker, universe) {
     tvSymbol = `${exch}:${ticker}`;
   }
   return `https://www.tradingview.com/chart/?symbol=${encodeURIComponent(tvSymbol)}`;
+}
+
+// ---- Détection du statut du marché pour un ticker donné ----
+function getMarketStatus(universe, ticker) {
+  const now = new Date();
+  const day = now.getUTCDay();      // 0 = Dim, 6 = Sam
+  const hoursUTC = now.getUTCHours() + now.getUTCMinutes() / 60;
+  const isWeekend = (day === 0 || day === 6);
+
+  // Crypto = 24/7
+  if (universe === 'CRYPTO' || (ticker || '').endsWith('-USD')) {
+    return { open: true, label: '🟢 24/7', short: '24/7' };
+  }
+  // Week-end : tout fermé
+  if (isWeekend) return { open: false, label: '🔴 Week-end', short: 'WE' };
+
+  // Futures : quasi 24h (NQ/ES/GC/CL) - ouvert sauf maintenance
+  if ((ticker || '').endsWith('=F')) {
+    return { open: true, label: '🟢 Futures', short: 'Fut' };
+  }
+  // Europe : 08:00-16:30 UTC (09:00-17:30 Paris)
+  if (['DAX40', 'CAC40', 'EUROSTOXX50', 'FTSE100'].includes(universe) ||
+      /\.(DE|PA|L|AS|MI|MC|BR)$/.test(ticker || '')) {
+    const open = hoursUTC >= 8 && hoursUTC < 16.5;
+    return open
+      ? { open: true,  label: '🟢 Ouvert',  short: 'EU' }
+      : { open: false, label: '🔴 Fermé EU', short: 'EU' };
+  }
+  // US : 13:30-20:00 UTC (09:30-16:00 NY)
+  if (['SP500', 'NASDAQ100', 'DOW30'].includes(universe)) {
+    const open = hoursUTC >= 13.5 && hoursUTC < 20;
+    return open
+      ? { open: true,  label: '🟢 Ouvert',  short: 'NYSE' }
+      : { open: false, label: '🔴 Fermé NYSE', short: 'NYSE' };
+  }
+  return { open: true, label: '🟢', short: '?' };
 }
 
 // Fallback Kelly fractionné + score factor → varie de 3% à 10% selon conviction
