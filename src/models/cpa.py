@@ -125,8 +125,11 @@ class CPACalculator:
         # (factor_premia, mean_reversion, info_flow) couvrent suffisamment.
 
         if vg is not None:
-            # Clamp à [-1, 1] (éviter valeurs aberrantes comme -3.07)
-            vg = float(max(-1.0, min(1.0, vg)))
+            # Clamp asymétrique : [-0.30, +1.0]
+            # Le RIM est souvent trop pessimiste sur les stocks de croissance
+            # (ex: NVDA, MSFT) — on limite le signal SELL à -0.30 max pour
+            # éviter qu'il domine les 3 autres composantes.
+            vg = float(max(-0.30, min(1.0, vg)))
             result.value_gap = self.w1 * vg
             result.intrinsic_value = self.rim.intrinsic_value(fundamentals)
             if result.price and result.intrinsic_value:
