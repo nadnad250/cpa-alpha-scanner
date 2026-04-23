@@ -24,54 +24,34 @@ document.addEventListener('DOMContentLoaded', async () => {
   setInterval(() => refreshLivePrices(), 60 * 1000);
 });
 
-// ---- Fetch live prices (Yahoo Finance via CORS proxy) ----
+// ---- Live prices depuis signals.json (écrit par le bot Python toutes les 15 min) ----
 async function refreshLivePrices() {
-  if (!allSignals.length) return;
-  const tickers = [...new Set(allSignals.filter(s => s.status === 'open').map(s => s.ticker))];
-  if (!tickers.length) return;
-
-  // Batch via Yahoo v7 quote endpoint + corsproxy.io
+  // Les prix sont désormais écrits directement dans signals.json par le workflow
+  // live_prices.yml toutes les 15 min pendant les heures de marché.
+  // On relit juste le fichier pour récupérer current_price sur chaque signal.
   try {
-    const symbols = tickers.join(',');
-    const yahooUrl = `https://query1.finance.yahoo.com/v7/finance/quote?symbols=${symbols}`;
-    const url = `https://corsproxy.io/?${encodeURIComponent(yahooUrl)}`;
-    const resp = await fetch(url, { cache: 'no-store' });
+    const resp = await fetch('data/signals.json?t=' + Date.now(), { cache: 'no-store' });
     if (!resp.ok) throw new Error('fetch failed');
     const data = await resp.json();
-    const quotes = data?.quoteResponse?.result || [];
-    quotes.forEach(q => {
-      if (q.symbol && q.regularMarketPrice != null) {
-        livePrices[q.symbol] = {
-          price:     q.regularMarketPrice,
-          changePct: q.regularMarketChangePercent || 0,
-          time:      q.regularMarketTime || Date.now() / 1000,
+    (data.signals || []).forEach(s => {
+      if (s.current_price != null) {
+        livePrices[s.ticker] = {
+          price:     s.current_price,
+          changePct: s.pnl_pct_live || 0,
+          time:      s.current_price_time || new Date().toISOString(),
+          progression: s.progression_pct,
         };
       }
     });
-    // Indicateur visuel : dot vert dans navbar
+    // Dot vert dans navbar = tout est à jour
     const liveDot = document.querySelector('.live-dot');
     if (liveDot) {
       liveDot.style.background = 'var(--buy-light)';
       liveDot.style.boxShadow = '0 0 12px var(--buy-light)';
     }
-    renderTable();  // redraw avec prix live
+    renderTable();
   } catch (e) {
-    console.warn('Live prices unavailable:', e.message);
-    // Fallback : tente allorigins
-    try {
-      const symbols = tickers.join(',');
-      const yahooUrl = `https://query1.finance.yahoo.com/v7/finance/quote?symbols=${symbols}`;
-      const url2 = `https://api.allorigins.win/raw?url=${encodeURIComponent(yahooUrl)}`;
-      const resp = await fetch(url2, { cache: 'no-store' });
-      const data = await resp.json();
-      const quotes = data?.quoteResponse?.result || [];
-      quotes.forEach(q => {
-        if (q.symbol && q.regularMarketPrice != null) {
-          livePrices[q.symbol] = { price: q.regularMarketPrice, changePct: q.regularMarketChangePercent || 0, time: q.regularMarketTime };
-        }
-      });
-      renderTable();
-    } catch {/* ok, on laisse les prix du bot */}
+    console.warn('Prix live indisponibles:', e.message);
   }
 }
 

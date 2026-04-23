@@ -1,0 +1,52 @@
+name: Live Prices Updater
+
+on:
+  schedule:
+    # Toutes les 15 min pendant les heures de marché (UTC)
+    # 07:00-21:00 UTC couvre Bourse Europe (08:00-17:30 Paris) + NYSE (13:30-20:00 Paris)
+    - cron: "*/15 7-21 * * 1-5"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+# Évite les collisions avec les autres workflows bot
+concurrency:
+  group: alphaforge-prices
+  cancel-in-progress: true
+
+jobs:
+  update:
+    runs-on: ubuntu-latest
+    timeout-minutes: 4
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          token: ${{ secrets.GITHUB_TOKEN }}
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+          cache: "pip"
+
+      - name: Install minimal deps
+        run: pip install --quiet yfinance pandas
+
+      - name: Update live prices
+        run: python tools/update_live_prices.py
+
+      - name: Commit if changed
+        run: |
+          git config user.name  "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add dashboard/data/signals.json
+          if git diff --staged --quiet; then
+            echo "Pas de changement"
+          else
+            git commit -m "chore(prices): live $(date -u +'%H:%M UTC')"
+            for i in 1 2 3 4 5; do
+              if git push; then break; fi
+              git pull --rebase origin master
+              sleep 2
+            done
+          fi
