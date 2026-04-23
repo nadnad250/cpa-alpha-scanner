@@ -124,5 +124,23 @@
     "pnl_pct": null,
     "max_favorable": null,
     "max_adverse": null
+  },
+  {
+    "ticker": "PGR",
+    "action": "STRONG_SELL",
+    "entry_price": 202.71,
+    "stop_loss": 208.7913,
+    "take_profit": 189.04213588169642,
+    "score": -0.41316164400106953,
+    "confidence": 0.6696351177792952,
+    "universe": "SP500",
+    "issued_at": "2026-04-23T10:10:50.627286",
+    "horizon_days": 21,
+    "status": "open",
+    "exit_price": null,
+    "exit_date": null,
+    "pnl_pct": null,
+    "max_favorable": null,
+    "max_adverse": null
   }
 ]

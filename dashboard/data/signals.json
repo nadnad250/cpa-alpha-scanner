@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-04-23T09:46:26.820627",
+  "generated_at": "2026-04-23T10:10:50.628267",
   "date": "2026-04-23",
   "stats": {
     "total": 12,
@@ -8,13 +8,13 @@
     "avg_confidence": 0.692,
     "avg_rr": 2.46,
     "win_rate": 0.0,
-    "active_positions": 15,
+    "active_positions": 12,
     "daily_pnl": 0.0
   },
   "eod": {
     "tp_hit": 0,
     "sl_hit": 0,
-    "open": 15,
+    "open": 12,
     "cumulative_pnl": 0.0
   },
   "signals": [
@@ -375,7 +375,7 @@
       "top_news_url": "https://finance.yahoo.com/markets/stocks/articles/cb-q1-earnings-revenues-beat-145500522.html",
       "status": "open",
       "issued_at": "2026-04-22T22:34:36.306406",
-      "last_seen": "2026-04-23T09:46:26.820627"
+      "last_seen": "2026-04-23T10:10:50.628267"
     },
     {
       "ticker": "PGR",
