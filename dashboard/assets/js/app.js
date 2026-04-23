@@ -398,13 +398,36 @@ function openModal(idx) {
   const cpaEl = document.getElementById('md-cpa-components');
   if (cpaEl) {
     cpaEl.innerHTML = comps.map(c => {
-      const val = s[c.key] || 0;
-      const pct = Math.min(Math.abs(val) * 100, 100);
-      const pos = val >= 0;
+      const raw = s[c.key];
+      // Non calculé → "—" discret
+      if (raw === null || raw === undefined) {
+        return `<div class="cpa-comp-row">
+          <div class="cpa-comp-label">
+            <span class="cpa-comp-name">${c.name} <span style="color:var(--text3);font-size:10px">(${c.weight})</span></span>
+            <span class="cpa-comp-score" style="color:var(--text3)">— non calculé</span>
+          </div>
+          <div class="cpa-comp-track"><div style="height:100%;opacity:.3;background:var(--border);width:100%"></div></div>
+        </div>`;
+      }
+      // Valeur à 0 exact → stratégiquement affichée mais discrète (vieux signal sans data)
+      if (raw === 0) {
+        return `<div class="cpa-comp-row">
+          <div class="cpa-comp-label">
+            <span class="cpa-comp-name">${c.name} <span style="color:var(--text3);font-size:10px">(${c.weight})</span></span>
+            <span class="cpa-comp-score" style="color:var(--text3)">0.000 · neutre</span>
+          </div>
+          <div class="cpa-comp-track"><div style="height:100%;opacity:.2;background:var(--border);width:100%"></div></div>
+        </div>`;
+      }
+      // Normalise avec tanh pour garder visuellement [-1, +1]
+      const normalized = Math.tanh(raw);
+      const pct = Math.min(Math.abs(normalized) * 100, 100);
+      const pos = raw >= 0;
+      const displayVal = Math.abs(raw) > 2 ? raw.toFixed(2) : raw.toFixed(3);
       return `<div class="cpa-comp-row">
         <div class="cpa-comp-label">
           <span class="cpa-comp-name">${c.name} <span style="color:var(--text3);font-size:10px">(${c.weight})</span></span>
-          <span class="cpa-comp-score" style="color:${pos ? 'var(--buy-light)' : 'var(--sell-light)'}">${pos ? '+' : ''}${val.toFixed(3)}</span>
+          <span class="cpa-comp-score" style="color:${pos ? 'var(--buy-light)' : 'var(--sell-light)'}">${pos ? '+' : ''}${displayVal}</span>
         </div>
         <div class="cpa-comp-track">
           <div class="cpa-comp-fill ${pos ? 'cpa-pos' : 'cpa-neg'}" style="width:${pct}%"></div>
