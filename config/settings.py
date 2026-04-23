@@ -29,6 +29,11 @@ MAX_PER_SECTOR         = 3
 # Garantit un portefeuille concentré sur la meilleure conviction.
 MAX_OPEN_SIGNALS       = 10
 
+# Historique des signaux clôturés conservés dans signals.json
+# Évite que le fichier grossisse à l'infini (chaque jour +10-20 clôtures).
+# Au-delà, les plus anciens sont retirés mais restent dans data/signals/YYYY-MM-DD.json
+MAX_CLOSED_HISTORY     = 200
+
 # === Filtres de qualité (soft — n'éliminent plus, juste pénalisent score) ===
 MIN_VOLUME_RATIO       = 0.5      # Relaxé pour futures/crypto
 MAX_VOLATILITY         = 1.20     # Crypto peut monter à ~100-120% vol annuelle

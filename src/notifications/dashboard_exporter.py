@@ -60,7 +60,16 @@ def export_to_dashboard(
         except Exception as e:
             logger.warning(f"Existant non lisible: {e}")
 
-        closed_history = list(closed_by_key.values())
+        # Cap sur l'historique clôturé (évite grossissement infini du JSON)
+        try:
+            from config.settings import MAX_CLOSED_HISTORY
+        except ImportError:
+            MAX_CLOSED_HISTORY = 200
+        closed_history = sorted(
+            closed_by_key.values(),
+            key=lambda s: s.get("exit_date") or s.get("issued_at") or "",
+            reverse=True,
+        )[:MAX_CLOSED_HISTORY]
 
         # ---- SYNCHRONISATION TRACKER → DASHBOARD ----
         # Charge les signaux ouverts du tracker qui ne seraient pas dans signals.json
