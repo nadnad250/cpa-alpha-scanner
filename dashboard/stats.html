@@ -271,69 +271,91 @@
       }
     }
 
+    // Helper : P&L réel (priorise pnl_pct réalisé sinon fallback upside_pct)
+    function realizedPnl(s) {
+      if (typeof s.pnl_pct === 'number') return s.pnl_pct;
+      const up = Math.abs(s.upside_pct || 0);
+      return s.status === 'tp_hit' ? up : -up;
+    }
+
     function render(data) {
-      const stats = data.stats || {};
-      const eod = data.eod || {};
-
-      // ---- KPIs ----
-      const wr = Math.round((stats.win_rate || 0) * 100);
-      document.getElementById('kpi-winrate').textContent = wr + '%';
-      document.getElementById('kpi-winrate-sub').textContent = `Sur ${closedSignals.length} signaux clôturés`;
-
-      const pnl = ((eod.cumulative_pnl || 0) * 100).toFixed(2);
-      const pnlEl = document.getElementById('kpi-pnl');
-      pnlEl.textContent = (pnl >= 0 ? '+' : '') + pnl + '%';
-      pnlEl.className = 'kpi-val ' + (pnl >= 0 ? 'green' : 'red');
-
-      // Profit factor = sum(wins) / sum(|losses|)
+      // ---- WINS / LOSSES (calcul direct, ignore stats/eod du tracker) ----
       const wins = closedSignals.filter(s => s.status === 'tp_hit');
       const losses = closedSignals.filter(s => s.status === 'sl_hit');
-      const gainSum = wins.reduce((s, x) => s + Math.abs(x.upside_pct || 0), 0);
-      const lossSum = losses.reduce((s, x) => s + Math.abs(x.upside_pct || 0), 0);
-      const pf = lossSum > 0 ? (gainSum / lossSum).toFixed(2) : '—';
+      const nClosed = wins.length + losses.length;
+
+      // ---- Win Rate ----
+      const winRate = nClosed > 0 ? wins.length / nClosed : null;
+      const wr = winRate !== null ? Math.round(winRate * 100) : null;
+      document.getElementById('kpi-winrate').textContent = wr !== null ? wr + '%' : '—';
+      document.getElementById('kpi-winrate-sub').textContent = nClosed > 0
+        ? `Sur ${nClosed} clôturés (${wins.length} TP / ${losses.length} SL)`
+        : 'En attente de clôtures';
+
+      // ---- P&L Cumulé (calcul direct depuis pnl_pct réalisé) ----
+      const totalPnl = closedSignals.reduce((a, s) => a + realizedPnl(s), 0);
+      const pnlEl = document.getElementById('kpi-pnl');
+      pnlEl.textContent = nClosed > 0
+        ? (totalPnl >= 0 ? '+' : '') + totalPnl.toFixed(2) + '%'
+        : '—';
+      pnlEl.className = 'kpi-val ' + (totalPnl >= 0 ? 'green' : 'red');
+
+      // ---- Profit factor = sum(wins P&L) / sum(|losses P&L|) ----
+      const gainSum = wins.reduce((a, s) => a + Math.abs(realizedPnl(s)), 0);
+      const lossSum = losses.reduce((a, s) => a + Math.abs(realizedPnl(s)), 0);
+      const pf = lossSum > 0 ? (gainSum / lossSum).toFixed(2) : (gainSum > 0 ? '∞' : '—');
       document.getElementById('kpi-pf').textContent = pf;
 
-      // Expectancy = avg P&L per signal
-      const totalPnl = closedSignals.reduce((s, x) => s + (x.status === 'tp_hit' ? Math.abs(x.upside_pct || 0) : -Math.abs(x.upside_pct || 0)), 0);
-      const exp = closedSignals.length > 0 ? (totalPnl / closedSignals.length).toFixed(2) : 0;
+      // ---- Expectancy = moyenne P&L par trade ----
+      const exp = nClosed > 0 ? (totalPnl / nClosed) : 0;
       const expEl = document.getElementById('kpi-exp');
-      expEl.textContent = (exp >= 0 ? '+' : '') + exp + '%';
+      expEl.textContent = nClosed > 0 ? (exp >= 0 ? '+' : '') + exp.toFixed(2) + '%' : '—';
       expEl.className = 'kpi-val ' + (exp >= 0 ? 'green' : 'red');
 
       // ---- Métriques PRO : Sharpe, Sortino, Max DD, Calmar ----
-      const returns = closedSignals.map(s => s.status === 'tp_hit' ? Math.abs(s.upside_pct || 0) : -Math.abs(s.upside_pct || 0));
+      // Sharpe/Sortino non fiables sous 10 trades → affichés "N/A"
+      const returns = closedSignals.map(realizedPnl);
+      const RELIABILITY_MIN = 10;
+
       const mean = returns.length ? returns.reduce((a,b) => a+b, 0) / returns.length : 0;
       const variance = returns.length ? returns.reduce((a,b) => a + (b - mean) ** 2, 0) / returns.length : 0;
       const std = Math.sqrt(variance);
-      const RF_DAILY = 4.5 / 252;  // Risk-free rate quotidien (4.5% annuel / 252j)
-      // Sharpe annualisé (en supposant ~12 signaux/mois → ~144/an)
-      const freq = Math.max(returns.length, 1);
-      const sharpe = std > 0 ? ((mean - RF_DAILY * 21) / std) * Math.sqrt(freq / 12) : 0;
-
-      // Sortino (downside-only deviation)
+      // Sharpe annualisé : hypothèse ~10 trades/mois → ~120/an
+      const ANNUAL_FACTOR = Math.sqrt(120 / Math.max(1, returns.length));
+      const RF_PER_TRADE = 4.5 / 120;  // 4.5% annuel / ~120 trades/an
+      const sharpeRaw = std > 0 ? ((mean - RF_PER_TRADE) / std) * ANNUAL_FACTOR : 0;
       const downside = returns.filter(r => r < 0);
       const downStd = downside.length ? Math.sqrt(downside.reduce((a,b) => a + b*b, 0) / downside.length) : 0;
-      const sortino = downStd > 0 ? ((mean - RF_DAILY * 21) / downStd) * Math.sqrt(freq / 12) : 0;
+      const sortinoRaw = downStd > 0 ? ((mean - RF_PER_TRADE) / downStd) * ANNUAL_FACTOR : 0;
 
-      // Max Drawdown
+      // Max Drawdown (courbe equity cumulative)
       let peak = 0, cumul = 0, maxDD = 0;
       returns.forEach(r => { cumul += r; peak = Math.max(peak, cumul); maxDD = Math.min(maxDD, cumul - peak); });
 
-      // Calmar = rendement annualisé / |MaxDD|
-      const totalReturn = returns.reduce((a,b) => a+b, 0);
-      const annReturn = returns.length ? totalReturn * (12 / Math.max(1, returns.length / 12)) : 0;
-      const calmar = maxDD < 0 ? (annReturn / Math.abs(maxDD)) : 0;
+      // Calmar = rendement total × (annualisation estimée) / |MaxDD|
+      const annualizedReturn = returns.length ? totalPnl * (120 / returns.length) : 0;
+      const calmarRaw = maxDD < 0 ? (annualizedReturn / Math.abs(maxDD)) : (totalPnl > 0 ? Infinity : 0);
 
-      const setKpi = (id, val, fmt = 'num') => {
+      const setKpi = (id, val, fmt = 'num', reliable = true) => {
         const el = document.getElementById(id);
         if (!el) return;
+        if (!reliable) { el.textContent = 'N/A'; return; }
+        if (!isFinite(val)) { el.textContent = '∞'; return; }
         if (fmt === 'num') el.textContent = val.toFixed(2);
         if (fmt === 'pct') el.textContent = val.toFixed(2) + '%';
       };
-      setKpi('kpi-sharpe', sharpe);
-      setKpi('kpi-sortino', sortino);
-      setKpi('kpi-dd', maxDD, 'pct');
-      setKpi('kpi-calmar', calmar);
+      const reliableStats = nClosed >= RELIABILITY_MIN;
+      setKpi('kpi-sharpe',  sharpeRaw, 'num', reliableStats);
+      setKpi('kpi-sortino', sortinoRaw, 'num', reliableStats);
+      setKpi('kpi-dd',      maxDD, 'pct');
+      setKpi('kpi-calmar',  calmarRaw, 'num', reliableStats);
+      // Ajoute une note si échantillon insuffisant
+      if (!reliableStats) {
+        ['kpi-sharpe','kpi-sortino','kpi-calmar'].forEach(id => {
+          const el = document.getElementById(id);
+          if (el) el.title = `Non fiable avec < ${RELIABILITY_MIN} trades (actuel : ${nClosed})`;
+        });
+      }
 
       // Best winning streak
       let bestStreak = 0, cur = 0;
@@ -369,7 +391,7 @@
       const data = [0];
       labels.push('Début');
       sorted.forEach((s, i) => {
-        cum += s.status === 'tp_hit' ? Math.abs(s.upside_pct || 0) : -Math.abs(s.upside_pct || 0);
+        cum += realizedPnl(s);
         labels.push('#' + (i + 1));
         data.push(cum);
       });
@@ -399,7 +421,7 @@
       const labels = ['Début'];
       const dd = [0];
       sorted.forEach((s, i) => {
-        cum += s.status === 'tp_hit' ? Math.abs(s.upside_pct || 0) : -Math.abs(s.upside_pct || 0);
+        cum += realizedPnl(s);
         peak = Math.max(peak, cum);
         labels.push('#' + (i + 1));
         dd.push(cum - peak);
@@ -417,7 +439,7 @@
         const m = (s.issued_at || '').substring(0, 7);
         if (!m) return;
         if (!byMonth[m]) byMonth[m] = 0;
-        byMonth[m] += s.status === 'tp_hit' ? Math.abs(s.upside_pct || 0) : -Math.abs(s.upside_pct || 0);
+        byMonth[m] += realizedPnl(s);
       });
       const months = Object.keys(byMonth).sort();
       const el = document.getElementById('monthly-heatmap');
@@ -445,7 +467,7 @@
       closedSignals.forEach(s => {
         const m = (s.issued_at || '').substring(0, 7);
         if (!byMonth[m]) byMonth[m] = 0;
-        byMonth[m] += s.status === 'tp_hit' ? Math.abs(s.upside_pct || 0) : -Math.abs(s.upside_pct || 0);
+        byMonth[m] += realizedPnl(s);
       });
       const labels = Object.keys(byMonth).sort();
       const data = labels.map(l => byMonth[l]);
@@ -538,7 +560,8 @@
       if (!recent.length) return;
       tbody.innerHTML = recent.map(s => {
         const isWin = s.status === 'tp_hit';
-        const pnl = (isWin ? '+' : '−') + Math.abs(s.upside_pct || 0).toFixed(1) + '%';
+        const realPnl = realizedPnl(s);
+        const pnl = (realPnl >= 0 ? '+' : '−') + Math.abs(realPnl).toFixed(2) + '%';
         const color = isWin ? 'var(--buy-l)' : 'var(--sell-l)';
         const statusIcon = isWin ? '✓ TP' : '✕ SL';
         const date = s.issued_at ? s.issued_at.split('T')[0] : '—';
