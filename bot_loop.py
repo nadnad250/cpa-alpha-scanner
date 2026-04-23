@@ -103,13 +103,36 @@ class AlphaForgeBot:
                 logger.error(f"  ❌ {e}")
 
         # Filtre PREMIUM : crème de la crème
-        premium = [
+        premium_raw = [
             o for o in all_opportunities
             if abs(o.score) >= PREMIUM_MIN_SCORE
             and o.confidence >= PREMIUM_MIN_CONFIDENCE
             and (not o.risk_reward or o.risk_reward >= PREMIUM_MIN_RR)
             and o.action in ("STRONG_BUY", "BUY", "STRONG_SELL", "SELL")
         ]
+
+        # FILTRE DIVERSIFICATION SECTORIELLE
+        # Max N signaux par secteur (évite concentration ex: 10 signaux tech)
+        # On garde les meilleurs par |score| × confidence dans chaque secteur
+        try:
+            from config.settings import MAX_PER_SECTOR
+        except ImportError:
+            MAX_PER_SECTOR = 3
+
+        # Tri global par qualité (score × confidence) décroissant
+        premium_raw.sort(key=lambda o: abs(o.score or 0) * (o.confidence or 0), reverse=True)
+        premium = []
+        sector_counts: dict[str, int] = {}
+        for o in premium_raw:
+            sec = o.sector or "—"
+            if sector_counts.get(sec, 0) >= MAX_PER_SECTOR:
+                continue
+            premium.append(o)
+            sector_counts[sec] = sector_counts.get(sec, 0) + 1
+
+        n_dropped = len(premium_raw) - len(premium)
+        if n_dropped:
+            logger.info(f"🏷 Diversification : {n_dropped} signaux retirés (max {MAX_PER_SECTOR}/secteur)")
         logger.info(f"💎 {len(premium)} signaux premium / {len(all_opportunities)}")
 
         # Envoi par univers (seulement ceux qui ont des signaux premium)
