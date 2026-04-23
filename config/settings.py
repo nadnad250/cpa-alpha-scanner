@@ -13,12 +13,16 @@ UNIVERSES = [
     "CRYPTO",                 # BTC, ETH, SOL, etc.
 ]
 
-# === Seuils "EDGE PRO" — sélectifs mais réalistes ===
-PREMIUM_MIN_SCORE      = 0.40     # score composé |.| > 0.40 (compromis qualité/volume)
-PREMIUM_MIN_CONFIDENCE = 0.66     # confiance > 66%
-PREMIUM_MIN_RR         = 2.2      # risk/reward >= 2.2x
-TOP_PER_UNIVERSE       = 4        # max 4 BUY + 4 SELL par univers
-MAX_GLOBAL_ALERTS      = 10       # max 10 alertes flash globales/cycle
+# === Seuils "EDGE PRO" — qualité > quantité ===
+PREMIUM_MIN_SCORE      = 0.48     # 0.40 → 0.48 : exige plus de conviction (+20%)
+PREMIUM_MIN_CONFIDENCE = 0.70     # 0.66 → 0.70 : IBM (winner) avait 0.71
+PREMIUM_MIN_RR         = 2.5      # 2.2 → 2.5 : seuil standard pros
+TOP_PER_UNIVERSE       = 3        # 4 → 3 : qualité > quantité
+MAX_GLOBAL_ALERTS      = 8        # 10 → 8 : focus sur les meilleurs
+
+# Diversification sectorielle — max N signaux ouverts par secteur
+# Évite 10 signaux tech en même temps (risque concentration)
+MAX_PER_SECTOR         = 3
 
 # === Filtres de qualité (soft — n'éliminent plus, juste pénalisent score) ===
 MIN_VOLUME_RATIO       = 0.5      # Relaxé pour futures/crypto
