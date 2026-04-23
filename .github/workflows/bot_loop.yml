@@ -61,39 +61,46 @@ jobs:
           fi
 
       - name: Commit dashboard data
+        id: commit_step
         run: |
           git config user.name  "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          # Sauvegarder nos fichiers fraîchement générés
           cp dashboard/data/signals.json /tmp/signals_fresh.json 2>/dev/null || true
           mkdir -p /tmp/signals_fresh && cp -r data/signals/* /tmp/signals_fresh/ 2>/dev/null || true
 
           git add dashboard/data/signals.json data/signals/ || true
           if git diff --staged --quiet; then
+            echo "changed=false" >> $GITHUB_OUTPUT
             echo "Pas de changement à committer"
           else
             git commit -m "chore(bot): update signals $(date -u +'%Y-%m-%d %H:%M UTC')"
-            # Push robuste : en cas de collision, reset + restore + replay
             for i in 1 2 3 4 5; do
               if git push; then
                 echo "Push réussi tentative $i"
+                echo "changed=true" >> $GITHUB_OUTPUT
                 break
               fi
-              echo "Collision détectée ($i/5) — fetch + reset + replay nos fichiers"
+              echo "Collision détectée ($i/5)"
               git fetch origin master
               git reset --hard origin/master
-              # Restaurer nos fichiers fraîchement générés (écrase remote pour ces fichiers)
               cp /tmp/signals_fresh.json dashboard/data/signals.json 2>/dev/null || true
               cp -r /tmp/signals_fresh/* data/signals/ 2>/dev/null || true
               git add dashboard/data/signals.json data/signals/ || true
               if git diff --staged --quiet; then
-                echo "Pas de différence après reset — le remote a déjà nos données"
+                echo "changed=false" >> $GITHUB_OUTPUT
                 break
               fi
               git commit -m "chore(bot): update signals $(date -u +'%Y-%m-%d %H:%M UTC') [retry $i]"
               sleep 2
             done
           fi
+
+      # GITHUB_TOKEN ne déclenche pas les workflows auto → force Pages deploy
+      - name: Trigger Pages deploy
+        if: steps.commit_step.outputs.changed == 'true'
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: gh workflow run deploy-pages.yml --ref master || true
 
       - name: Upload reports
         if: always()

@@ -61,6 +61,7 @@ jobs:
           fi
 
       - name: Commit dashboard data
+        id: commit_step
         run: |
           git config user.name  "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
@@ -69,28 +70,35 @@ jobs:
 
           git add dashboard/data/signals.json data/signals/ || true
           if git diff --staged --quiet; then
+            echo "changed=false" >> $GITHUB_OUTPUT
             echo "Pas de changement à committer"
           else
             git commit -m "chore(bot): update signals $(date -u +'%Y-%m-%d %H:%M UTC') [daily_scan]"
             for i in 1 2 3 4 5; do
               if git push; then
-                echo "Push réussi tentative $i"
+                echo "changed=true" >> $GITHUB_OUTPUT
                 break
               fi
-              echo "Collision ($i/5) — reset hard + restore + replay"
+              echo "Collision ($i/5)"
               git fetch origin master
               git reset --hard origin/master
               cp /tmp/signals_fresh.json dashboard/data/signals.json 2>/dev/null || true
               cp -r /tmp/signals_fresh/* data/signals/ 2>/dev/null || true
               git add dashboard/data/signals.json data/signals/ || true
               if git diff --staged --quiet; then
-                echo "Remote contient déjà nos données"
+                echo "changed=false" >> $GITHUB_OUTPUT
                 break
               fi
               git commit -m "chore(bot): update signals $(date -u +'%Y-%m-%d %H:%M UTC') [daily_scan retry $i]"
               sleep 2
             done
           fi
+
+      - name: Trigger Pages deploy
+        if: steps.commit_step.outputs.changed == 'true'
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: gh workflow run deploy-pages.yml --ref master || true
 
       - name: Upload reports
         if: always()

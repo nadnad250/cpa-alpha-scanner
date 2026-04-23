@@ -36,6 +36,7 @@ jobs:
         run: python tools/update_live_prices.py
 
       - name: Commit if changed
+        id: commit_step
         run: |
           git config user.name  "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
@@ -43,25 +44,34 @@ jobs:
 
           git add dashboard/data/signals.json
           if git diff --staged --quiet; then
+            echo "changed=false" >> $GITHUB_OUTPUT
             echo "Pas de changement"
           else
             git commit -m "chore(prices): live $(date -u +'%H:%M UTC')"
             for i in 1 2 3 4 5; do
               if git push; then
                 echo "Push OK tentative $i"
+                echo "changed=true" >> $GITHUB_OUTPUT
                 break
               fi
               echo "Collision ($i/5) — reset + restore"
               git fetch origin master
               git reset --hard origin/master
-              # Ré-exécute le script pour prendre en compte les nouveaux signaux remote
               python tools/update_live_prices.py
               git add dashboard/data/signals.json
               if git diff --staged --quiet; then
                 echo "Pas de diff après re-run — OK"
+                echo "changed=false" >> $GITHUB_OUTPUT
                 break
               fi
               git commit -m "chore(prices): live $(date -u +'%H:%M UTC') [retry $i]"
               sleep 2
             done
           fi
+
+      # GITHUB_TOKEN ne déclenche pas les workflows auto → on le force manuellement
+      - name: Trigger Pages deploy
+        if: steps.commit_step.outputs.changed == 'true'
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: gh workflow run deploy-pages.yml --ref master || true
