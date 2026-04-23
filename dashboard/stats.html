@@ -493,31 +493,42 @@
     }
 
     function renderBestWorst() {
-      const sorted = [...closedSignals].sort((a, b) => {
-        const aP = a.status === 'tp_hit' ? Math.abs(a.upside_pct || 0) : -Math.abs(a.upside_pct || 0);
-        const bP = b.status === 'tp_hit' ? Math.abs(b.upside_pct || 0) : -Math.abs(b.upside_pct || 0);
-        return bP - aP;
-      });
-      const best = sorted.slice(0, 5);
-      const worst = sorted.slice(-5).reverse();
+      // Sépare strictement gagnants (tp_hit) vs perdants (sl_hit)
+      const wins  = closedSignals.filter(s => s.status === 'tp_hit');
+      const losses = closedSignals.filter(s => s.status === 'sl_hit');
 
-      const rowHtml = (s, isWin) => {
-        const pnl = isWin ? '+' + Math.abs(s.upside_pct || 0).toFixed(1) + '%' : '−' + Math.abs(s.upside_pct || 0).toFixed(1) + '%';
+      // P&L réel : privilégie pnl_pct (réalisé) sinon upside_pct (cible)
+      const pnlOf = (s) => {
+        if (typeof s.pnl_pct === 'number') return s.pnl_pct;
+        const up = Math.abs(s.upside_pct || 0);
+        return s.status === 'tp_hit' ? up : -up;
+      };
+
+      // Best = tp_hit triés par P&L décroissant (top 5)
+      const best = [...wins].sort((a, b) => pnlOf(b) - pnlOf(a)).slice(0, 5);
+      // Worst = sl_hit triés par P&L croissant (top 5 pires pertes)
+      const worst = [...losses].sort((a, b) => pnlOf(a) - pnlOf(b)).slice(0, 5);
+
+      const rowHtml = (s) => {
+        const pnl = pnlOf(s);
+        const isWin = pnl >= 0;
+        const pnlStr = (isWin ? '+' : '−') + Math.abs(pnl).toFixed(1) + '%';
         const color = isWin ? 'var(--buy-l)' : 'var(--sell-l)';
+        const exitPrice = s.exit_price || s.take_profit || 0;
         return `<tr>
           <td style="font-family:var(--mono);font-weight:700">${s.ticker}</td>
           <td style="font-size:10px">${s.action.replace('_', ' ')}</td>
           <td style="font-family:var(--mono);color:var(--text3)">$${(s.price || 0).toFixed(2)}</td>
-          <td style="font-family:var(--mono);color:var(--text3)">$${(s.take_profit || 0).toFixed(2)}</td>
-          <td style="font-family:var(--mono);font-weight:700;color:${color}">${pnl}</td>
+          <td style="font-family:var(--mono);color:var(--text3)">$${exitPrice.toFixed(2)}</td>
+          <td style="font-family:var(--mono);font-weight:700;color:${color}">${pnlStr}</td>
         </tr>`;
       };
 
       const bestBody = document.getElementById('best-trades-body');
       const worstBody = document.getElementById('worst-trades-body');
-      if (best.length) bestBody.innerHTML = best.map(s => rowHtml(s, true)).join('');
+      if (best.length) bestBody.innerHTML = best.map(rowHtml).join('');
       else bestBody.innerHTML = '<tr><td colspan="5"><div class="empty"><div class="empty-icon">⏳</div><p>Pas encore de trades gagnants</p></div></td></tr>';
-      if (worst.length) worstBody.innerHTML = worst.map(s => rowHtml(s, false)).join('');
+      if (worst.length) worstBody.innerHTML = worst.map(rowHtml).join('');
       else worstBody.innerHTML = '<tr><td colspan="5"><div class="empty"><div class="empty-icon">✨</div><p>Aucune perte enregistrée</p></div></td></tr>';
     }
 
