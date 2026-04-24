@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-04-24T14:12:44.402221",
+  "generated_at": "2026-04-24T14:35:14.679676+00:00",
   "date": "2026-04-24",
   "stats": {
     "total": 10,
@@ -55,7 +55,7 @@
       "issued_at": "2026-04-23T14:14:45.170625",
       "last_seen": "2026-04-23T18:57:04.747724",
       "current_price": 0.27,
-      "current_price_time": "2026-04-24T13:53:16.836051+00:00",
+      "current_price_time": "2026-04-24T14:35:14.679676+00:00",
       "pnl_pct_live": 6.9,
       "progression_pct": 20.0
     },
@@ -95,10 +95,10 @@
       "status": "open",
       "issued_at": "2026-04-23T21:14:16.660820",
       "last_seen": "2026-04-23T21:14:16.665964",
-      "current_price": 177.92,
-      "current_price_time": "2026-04-24T13:53:16.836051+00:00",
-      "pnl_pct_live": -0.44,
-      "progression_pct": -12.4
+      "current_price": 177.45,
+      "current_price_time": "2026-04-24T14:35:14.679676+00:00",
+      "pnl_pct_live": -0.18,
+      "progression_pct": -4.9
     },
     {
       "ticker": "DSY.PA",
@@ -135,10 +135,10 @@
       "status": "open",
       "issued_at": "2026-04-23T19:59:02.882469",
       "last_seen": "2026-04-23T19:59:02.887756",
-      "current_price": 19.63,
-      "current_price_time": "2026-04-24T13:53:16.836051+00:00",
-      "pnl_pct_live": -1.87,
-      "progression_pct": -51.4
+      "current_price": 19.49,
+      "current_price_time": "2026-04-24T14:35:14.679676+00:00",
+      "pnl_pct_live": -1.14,
+      "progression_pct": -31.4
     },
     {
       "ticker": "VIV.PA",
@@ -168,7 +168,11 @@
       "top_news_url": null,
       "status": "open",
       "issued_at": "2026-04-22T22:34:36.306438",
-      "last_seen": "2026-04-24T14:12:44.402221"
+      "last_seen": "2026-04-24T14:12:44.402221",
+      "current_price": 2.17,
+      "current_price_time": "2026-04-24T14:35:14.679676+00:00",
+      "pnl_pct_live": 0.46,
+      "progression_pct": 3.0
     },
     {
       "ticker": "ADBE",
@@ -204,10 +208,10 @@
       "status": "open",
       "issued_at": "2026-04-23T08:48:40.766102",
       "last_seen": "2026-04-23T08:48:40.766678",
-      "current_price": 240.48,
-      "current_price_time": "2026-04-24T13:53:16.836051+00:00",
-      "pnl_pct_live": 6.04,
-      "progression_pct": 60.4
+      "current_price": 240.45,
+      "current_price_time": "2026-04-24T14:35:14.679676+00:00",
+      "pnl_pct_live": 6.05,
+      "progression_pct": 60.5
     },
     {
       "ticker": "ZAL.DE",
@@ -243,10 +247,10 @@
       "status": "open",
       "issued_at": "2026-04-22T20:39:14.205742",
       "last_seen": "2026-04-23T18:57:04.747724",
-      "current_price": 21.88,
-      "current_price_time": "2026-04-24T13:53:16.836051+00:00",
-      "pnl_pct_live": 0.73,
-      "progression_pct": 7.6
+      "current_price": 21.89,
+      "current_price_time": "2026-04-24T14:35:14.679676+00:00",
+      "pnl_pct_live": 0.68,
+      "progression_pct": 7.1
     },
     {
       "ticker": "SW.PA",
@@ -282,10 +286,10 @@
       "status": "open",
       "issued_at": "2026-04-23T10:55:46.568960",
       "last_seen": "2026-04-23T19:35:19.669899",
-      "current_price": 42.9,
-      "current_price_time": "2026-04-24T13:53:16.836051+00:00",
-      "pnl_pct_live": -0.37,
-      "progression_pct": -5.5
+      "current_price": 43.16,
+      "current_price_time": "2026-04-24T14:35:14.679676+00:00",
+      "pnl_pct_live": -0.98,
+      "progression_pct": -14.4
     },
     {
       "ticker": "BKR",
@@ -313,9 +317,15 @@
       "news_score": null,
       "top_news_title": null,
       "top_news_url": null,
-      "status": "open",
+      "status": "sl_hit",
       "issued_at": "2026-04-23T14:14:45.170594",
-      "last_seen": "2026-04-24T14:12:44.402221"
+      "last_seen": "2026-04-24T14:12:44.402221",
+      "current_price": 67.56,
+      "current_price_time": "2026-04-24T14:35:14.679676+00:00",
+      "exit_price": 66.75,
+      "exit_date": "2026-04-24T14:35:14.679676+00:00",
+      "pnl_pct": -3.07,
+      "pnl_pct_live": -3.07
     },
     {
       "ticker": "P911.DE",
@@ -345,7 +355,11 @@
       "top_news_url": null,
       "status": "open",
       "issued_at": "2026-04-24T08:22:54.228274",
-      "last_seen": "2026-04-24T14:12:44.402221"
+      "last_seen": "2026-04-24T14:12:44.402221",
+      "current_price": 41.32,
+      "current_price_time": "2026-04-24T14:35:14.679676+00:00",
+      "pnl_pct_live": -0.19,
+      "progression_pct": -5.8
     },
     {
       "ticker": "SU.PA",
@@ -380,10 +394,10 @@
       "status": "open",
       "issued_at": "2026-04-23T18:57:04.742326",
       "last_seen": "2026-04-23T18:57:04.747724",
-      "current_price": 274.5,
-      "current_price_time": "2026-04-24T13:53:16.836051+00:00",
-      "pnl_pct_live": 0.13,
-      "progression_pct": 1.2
+      "current_price": 275.35,
+      "current_price_time": "2026-04-24T14:35:14.679676+00:00",
+      "pnl_pct_live": -0.18,
+      "progression_pct": -4.4
     },
     {
       "ticker": "BKR",
