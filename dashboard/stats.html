@@ -5,7 +5,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Statistiques — CPA Alpha Scanner</title>
   <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>⚡</text></svg>">
-  <link rel="stylesheet" href="assets/css/pages.css?v=202604242">
+  <link rel="stylesheet" href="assets/css/pages.css?v=202604245">
   <script src="https://cdn.jsdelivr.net/npm/chart.js@4.4.1/dist/chart.umd.min.js"></script>
 </head>
 <body>
@@ -365,26 +365,40 @@
       document.getElementById('kpi-total').textContent = allSignals.length;
       document.getElementById('kpi-total-sub').textContent = `${allSignals.filter(s => s.status === 'open').length} ouverts · ${closedSignals.length} clôturés`;
 
-      // ---- Charts ----
-      drawEquityChart();
-      drawDrawdownChart();
-      drawOutcomeChart(eod);
-      drawMonthlyChart();
-      drawSectorsChart();
-      drawMonthlyHeatmap();
-
-      // ---- Action breakdown ----
-      renderActionBreakdown();
-
-      // ---- Best / Worst trades ----
-      renderBestWorst();
+      // ---- Charts & sections (isolés : une erreur n'en bloque pas une autre) ----
+      const safeCalls = [
+        ['chart-equity',   drawEquityChart],
+        ['chart-drawdown', drawDrawdownChart],
+        ['chart-outcome',  () => drawOutcomeChart(eod)],
+        ['chart-monthly',  drawMonthlyChart],
+        ['chart-sectors',  drawSectorsChart],
+        ['heatmap',        drawMonthlyHeatmap],
+        ['action-break',   renderActionBreakdown],
+        ['best-worst',     renderBestWorst],
+      ];
+      for (const [name, fn] of safeCalls) {
+        try { fn(); }
+        catch (e) { console.error(`[stats.${name}] ${e.message}`); }
+      }
 
       // ---- History ----
       renderHistory();
     }
 
+    // Registre global pour détruire les charts avant réaffichage
+    // (évite "Canvas is already in use" sur le setInterval 5 min)
+    const chartRegistry = {};
+    function mountChart(canvasId, cfg) {
+      const canvas = document.getElementById(canvasId);
+      if (!canvas) return null;
+      if (chartRegistry[canvasId]) {
+        try { chartRegistry[canvasId].destroy(); } catch (_) {}
+      }
+      chartRegistry[canvasId] = new Chart(canvas.getContext('2d'), cfg);
+      return chartRegistry[canvasId];
+    }
+
     function drawEquityChart() {
-      const ctx = document.getElementById('chart-equity').getContext('2d');
       const sorted = [...closedSignals].sort((a, b) => new Date(a.issued_at) - new Date(b.issued_at));
       let cum = 0;
       const labels = [];
@@ -395,7 +409,7 @@
         labels.push('#' + (i + 1));
         data.push(cum);
       });
-      new Chart(ctx, {
+      mountChart('chart-equity', {
         type: 'line',
         data: { labels, datasets: [{ label: 'P&L cumulé (%)', data, borderColor: '#10b981', backgroundColor: 'rgba(16,185,129,0.1)', fill: true, tension: 0.3, pointRadius: 0 }] },
         options: { responsive: true, maintainAspectRatio: false, plugins: { legend: { display: false } }, scales: { y: { grid: { color: 'rgba(255,255,255,0.05)' }, ticks: { color: '#94a3b8', callback: v => v + '%' } }, x: { grid: { display: false }, ticks: { color: '#4a5568', maxTicksLimit: 10 } } } }
@@ -403,8 +417,7 @@
     }
 
     function drawOutcomeChart(eod) {
-      const ctx = document.getElementById('chart-outcome').getContext('2d');
-      new Chart(ctx, {
+      mountChart('chart-outcome', {
         type: 'doughnut',
         data: {
           labels: ['TP atteints', 'SL touchés', 'En cours'],
@@ -415,7 +428,6 @@
     }
 
     function drawDrawdownChart() {
-      const ctx = document.getElementById('chart-drawdown').getContext('2d');
       const sorted = [...closedSignals].sort((a, b) => new Date(a.issued_at) - new Date(b.issued_at));
       let peak = 0, cum = 0;
       const labels = ['Début'];
@@ -426,7 +438,7 @@
         labels.push('#' + (i + 1));
         dd.push(cum - peak);
       });
-      new Chart(ctx, {
+      mountChart('chart-drawdown', {
         type: 'line',
         data: { labels, datasets: [{ label: 'Drawdown (%)', data: dd, borderColor: '#ef4444', backgroundColor: 'rgba(239,68,68,0.15)', fill: true, tension: 0.2, pointRadius: 0 }] },
         options: { responsive: true, maintainAspectRatio: false, plugins: { legend: { display: false } }, scales: { y: { grid: { color: 'rgba(255,255,255,0.05)' }, ticks: { color: '#94a3b8', callback: v => v + '%' } }, x: { grid: { display: false }, ticks: { color: '#4a5568', maxTicksLimit: 10 } } } }
@@ -462,7 +474,6 @@
     }
 
     function drawMonthlyChart() {
-      const ctx = document.getElementById('chart-monthly').getContext('2d');
       const byMonth = {};
       closedSignals.forEach(s => {
         const m = (s.issued_at || '').substring(0, 7);
@@ -471,15 +482,15 @@
       });
       const labels = Object.keys(byMonth).sort();
       const data = labels.map(l => byMonth[l]);
-      new Chart(ctx, {
+      const bg = data.length ? data.map(v => v >= 0 ? '#10b981' : '#ef4444') : ['#374151'];
+      mountChart('chart-monthly', {
         type: 'bar',
-        data: { labels: labels.length ? labels : ['—'], datasets: [{ data: data.length ? data : [0], backgroundColor: data.map(v => v >= 0 ? '#10b981' : '#ef4444'), borderRadius: 6 }] },
+        data: { labels: labels.length ? labels : ['—'], datasets: [{ data: data.length ? data : [0], backgroundColor: bg, borderRadius: 6 }] },
         options: { responsive: true, maintainAspectRatio: false, plugins: { legend: { display: false } }, scales: { y: { grid: { color: 'rgba(255,255,255,0.05)' }, ticks: { color: '#94a3b8', callback: v => v + '%' } }, x: { grid: { display: false }, ticks: { color: '#4a5568' } } } }
       });
     }
 
     function drawSectorsChart() {
-      const ctx = document.getElementById('chart-sectors').getContext('2d');
       const bySector = {};
       closedSignals.forEach(s => {
         const sec = s.sector || '—';
@@ -488,7 +499,7 @@
         if (s.status === 'tp_hit') bySector[sec].wins++;
       });
       const entries = Object.entries(bySector).sort((a, b) => b[1].total - a[1].total).slice(0, 8);
-      new Chart(ctx, {
+      mountChart('chart-sectors', {
         type: 'bar',
         data: {
           labels: entries.length ? entries.map(e => e[0]) : ['—'],
