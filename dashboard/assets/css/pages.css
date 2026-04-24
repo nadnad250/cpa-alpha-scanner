@@ -26,6 +26,8 @@ button{cursor:pointer;font-family:var(--font)}
 .snav-icon{width:36px;height:36px;background:linear-gradient(135deg,#3b82f6,#8b5cf6);border-radius:9px;display:flex;align-items:center;justify-content:center;font-size:17px;box-shadow:0 0 20px rgba(59,130,246,.35)}
 .snav-name{font-size:15px;font-weight:800;letter-spacing:.3px}
 .snav-links{display:flex;gap:4px;flex:1;margin-left:24px}
+.snav-burger{display:none;background:var(--bg3);border:1px solid var(--border);color:var(--text);width:38px;height:36px;border-radius:8px;cursor:pointer;font-size:16px;align-items:center;justify-content:center}
+.snav-burger:hover{border-color:var(--accent)}
 .snav-link{padding:8px 14px;font-size:13px;color:var(--text2);border-radius:7px;transition:all .15s;font-weight:500}
 .snav-link:hover{background:var(--bg3);color:var(--text)}
 .snav-link.active{background:rgba(59,130,246,.12);color:var(--accent)}
@@ -207,7 +209,16 @@ button{cursor:pointer;font-family:var(--font)}
 
 /* ---- Responsive ---- */
 @media(max-width:900px){
-  .snav-links{display:none}
+  .snav-links{
+    display:none;
+    position:fixed;top:var(--nav-h);left:0;right:0;
+    background:var(--bg2);border-bottom:1px solid var(--border);
+    flex-direction:column;padding:12px 16px;gap:2px;
+    box-shadow:0 8px 24px rgba(0,0,0,.4);z-index:99;
+  }
+  .snav-links.open{display:flex}
+  .snav-links .snav-link{padding:12px 14px;font-size:14px}
+  .snav-burger{display:inline-flex}
   .page{margin-top:calc(var(--nav-h) + 12px);padding:0 12px}
   .phead-title{font-size:22px}
   .points-balance{font-size:38px}

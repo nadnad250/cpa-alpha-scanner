@@ -4,7 +4,7 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>CPA Alpha Scanner — Signaux de Trading Algorithmique</title>
-  <meta name="description" content="Signaux de trading algorithmiques haute précision. IA + mathématiques financières. Win rate 78%, R/R 2.7x.">
+  <meta name="description" content="Signaux de trading algorithmiques — combine analyse quantitative, ML, et contexte macro FRED. Performance tracée publiquement en live.">
   <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>⚡</text></svg>">
   <link rel="stylesheet" href="assets/css/landing.css">
 </head>
@@ -225,18 +225,18 @@
     </div>
     <div class="hero-stats">
       <div class="hstat">
-        <div class="hstat-val green">78%</div>
-        <div class="hstat-lbl">Win Rate</div>
+        <div class="hstat-val green" id="hero-winrate">—</div>
+        <div class="hstat-lbl">Win Rate <span style="font-size:9px;color:var(--text3)">(live)</span></div>
       </div>
       <div class="hero-divider"></div>
       <div class="hstat">
-        <div class="hstat-val blue">2.7x</div>
+        <div class="hstat-val blue" id="hero-rr">—</div>
         <div class="hstat-lbl">R/R Moyen</div>
       </div>
       <div class="hero-divider"></div>
       <div class="hstat">
-        <div class="hstat-val gold">15+</div>
-        <div class="hstat-lbl">Signaux / Jour</div>
+        <div class="hstat-val gold" id="hero-open">—</div>
+        <div class="hstat-lbl">Positions Actives</div>
       </div>
       <div class="hero-divider"></div>
       <div class="hstat">
@@ -650,6 +650,18 @@
           winEl.textContent = wr + '%';
           winEl.style.color = wr >= 60 ? '#34d399' : wr >= 45 ? '#fbbf24' : '#f87171';
         }
+
+        // ---- HERO STATS DYNAMIQUES (plus de hardcode marketing) ----
+        const opens = sigs.filter(s => s.status === 'open');
+        const wrEl = document.getElementById('hero-winrate');
+        const rrEl = document.getElementById('hero-rr');
+        const opEl = document.getElementById('hero-open');
+        if (wrEl) wrEl.textContent = nClosed >= 2 ? Math.round((wins / nClosed) * 100) + '%' : 'N/A';
+        if (rrEl) {
+          const rrs = opens.map(s => s.risk_reward).filter(r => typeof r === 'number');
+          rrEl.textContent = rrs.length ? (rrs.reduce((a, b) => a + b, 0) / rrs.length).toFixed(1) + 'x' : '—';
+        }
+        if (opEl) opEl.textContent = opens.length || '—';
       }).catch(() => {});
     }
     function pill_closed(s) {
