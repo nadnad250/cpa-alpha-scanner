@@ -14,8 +14,8 @@
     "exit_price": null,
     "exit_date": null,
     "pnl_pct": null,
-    "max_favorable": null,
-    "max_adverse": null
+    "max_favorable": -0.025647700254095355,
+    "max_adverse": -0.025647700254095355
   },
   {
     "ticker": "P911.DE",
@@ -32,8 +32,8 @@
     "exit_price": null,
     "exit_date": null,
     "pnl_pct": null,
-    "max_favorable": null,
-    "max_adverse": null
+    "max_favorable": 0.0031522645404568257,
+    "max_adverse": 0.0031522645404568257
   },
   {
     "ticker": "DLTR",
@@ -50,7 +50,7 @@
     "exit_price": null,
     "exit_date": null,
     "pnl_pct": null,
-    "max_favorable": null,
-    "max_adverse": null
+    "max_favorable": -0.006206963437106009,
+    "max_adverse": -0.006206963437106009
   }
 ]

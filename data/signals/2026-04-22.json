@@ -14,7 +14,7 @@
     "exit_price": null,
     "exit_date": null,
     "pnl_pct": null,
-    "max_favorable": 5.406604332256482e-09,
+    "max_favorable": 0.00876958520791119,
     "max_adverse": -0.015324676646133677
   },
   {
@@ -32,7 +32,7 @@
     "exit_price": null,
     "exit_date": null,
     "pnl_pct": null,
-    "max_favorable": -3.312055241251996e-08,
+    "max_favorable": 0.008978346457261952,
     "max_adverse": -0.012924877070961864
   },
   {
@@ -86,7 +86,7 @@
     "exit_price": null,
     "exit_date": null,
     "pnl_pct": null,
-    "max_favorable": 0.026501726345965405,
+    "max_favorable": 0.030918704326077004,
     "max_adverse": 2.6958991301609282e-08
   },
   {
@@ -104,7 +104,7 @@
     "exit_price": null,
     "exit_date": null,
     "pnl_pct": null,
-    "max_favorable": -3.312055241251996e-08,
+    "max_favorable": 0.008978346457261952,
     "max_adverse": -0.012924877070961864
   },
   {
@@ -122,7 +122,7 @@
     "exit_price": null,
     "exit_date": null,
     "pnl_pct": null,
-    "max_favorable": 0.007326015185960558,
+    "max_favorable": 0.010988971689245277,
     "max_adverse": -6.986624953788997e-09
   },
   {
@@ -140,7 +140,7 @@
     "exit_price": null,
     "exit_date": null,
     "pnl_pct": null,
-    "max_favorable": 0.026501726345965405,
+    "max_favorable": 0.030918704326077004,
     "max_adverse": 2.6958991301609282e-08
   }
 ]
