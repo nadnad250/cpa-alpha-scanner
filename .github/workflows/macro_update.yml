@@ -1,0 +1,54 @@
+name: Macro Context Updater
+
+on:
+  schedule:
+    - cron: "15 */6 * * *"   # toutes les 6h (00:15, 06:15, 12:15, 18:15 UTC)
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: alphaforge-macro
+  cancel-in-progress: true
+
+jobs:
+  update:
+    runs-on: ubuntu-latest
+    timeout-minutes: 3
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          token: ${{ secrets.GITHUB_TOKEN }}
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+          cache: "pip"
+
+      - name: Install minimal deps
+        run: pip install --quiet requests
+
+      - name: Update macro context
+        env:
+          FRED_API_KEY: ${{ secrets.FRED_API_KEY }}
+        run: python tools/update_macro.py
+
+      - name: Commit if changed
+        run: |
+          git config user.name  "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add dashboard/data/macro.json
+          if git diff --staged --quiet; then
+            echo "Pas de changement"
+          else
+            git commit -m "chore(macro): FRED update $(date -u +'%Y-%m-%d %H:%M UTC')"
+            for i in 1 2 3; do
+              if git push; then break; fi
+              git fetch origin master && git reset --hard origin/master
+              python tools/update_macro.py
+              git add dashboard/data/macro.json
+              git commit -m "chore(macro): FRED update $(date -u +'%Y-%m-%d %H:%M UTC') [retry $i]"
+              sleep 2
+            done
+          fi
