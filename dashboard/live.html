@@ -134,6 +134,13 @@
       .then(data => render(data))
       .catch(() => render({ signals: [], stats: {}, eod: {} }));
 
+    // Helper : P&L réel (privilégie pnl_pct réalisé)
+    function realizedPnl(s) {
+      if (typeof s.pnl_pct === 'number') return s.pnl_pct;
+      const up = Math.abs(s.upside_pct || 0);
+      return s.status === 'tp_hit' ? up : -up;
+    }
+
     function render(data) {
       const sigs = data.signals || [];
       const open = sigs.filter(s => s.status === 'open');
@@ -147,7 +154,7 @@
 
       let totalPnl = 0;
       closed.forEach(s => {
-        totalPnl += s.status === 'tp_hit' ? Math.abs(s.upside_pct || 0) : -Math.abs(s.upside_pct || 0);
+        totalPnl += realizedPnl(s);
       });
       const pnlEl = document.getElementById('k-pnl');
       if (closed.length) {
@@ -198,7 +205,8 @@
           const isWin = s.status === 'tp_hit';
           const icon = isWin ? '✅' : '❌';
           const cls = isWin ? 'trade-win' : 'trade-loss';
-          const pnl = (isWin ? '+' : '−') + Math.abs(s.upside_pct || 0).toFixed(1) + '%';
+          const realP = realizedPnl(s);
+          const pnl = (realP >= 0 ? '+' : '−') + Math.abs(realP).toFixed(2) + '%';
           const color = isWin ? 'var(--buy-l)' : 'var(--sell-l)';
           const dt = (s.issued_at || '').split('T')[0];
           return `<div class="trade-card ${cls}">
@@ -229,7 +237,7 @@
       const labels = ['Départ'];
       const data = [0];
       sorted.forEach((s, i) => {
-        cum += s.status === 'tp_hit' ? Math.abs(s.upside_pct || 0) : -Math.abs(s.upside_pct || 0);
+        cum += realizedPnl(s);
         labels.push('#' + (i + 1));
         data.push(cum);
       });
