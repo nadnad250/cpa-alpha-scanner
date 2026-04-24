@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-04-24T13:10:24.094172+00:00",
+  "generated_at": "2026-04-24T13:53:16.836051+00:00",
   "date": "2026-04-23",
   "stats": {
     "total": 10,
@@ -55,7 +55,7 @@
       "issued_at": "2026-04-23T14:14:45.170625",
       "last_seen": "2026-04-23T18:57:04.747724",
       "current_price": 0.27,
-      "current_price_time": "2026-04-24T13:10:24.094172+00:00",
+      "current_price_time": "2026-04-24T13:53:16.836051+00:00",
       "pnl_pct_live": 6.9,
       "progression_pct": 20.0
     },
@@ -95,10 +95,10 @@
       "status": "open",
       "issued_at": "2026-04-23T21:14:16.660820",
       "last_seen": "2026-04-23T21:14:16.665964",
-      "current_price": 177.15,
-      "current_price_time": "2026-04-24T13:10:24.094172+00:00",
-      "pnl_pct_live": -0.01,
-      "progression_pct": -0.2
+      "current_price": 177.92,
+      "current_price_time": "2026-04-24T13:53:16.836051+00:00",
+      "pnl_pct_live": -0.44,
+      "progression_pct": -12.4
     },
     {
       "ticker": "DSY.PA",
@@ -135,10 +135,10 @@
       "status": "open",
       "issued_at": "2026-04-23T19:59:02.882469",
       "last_seen": "2026-04-23T19:59:02.887756",
-      "current_price": 19.55,
-      "current_price_time": "2026-04-24T13:10:24.094172+00:00",
-      "pnl_pct_live": -1.45,
-      "progression_pct": -40.0
+      "current_price": 19.63,
+      "current_price_time": "2026-04-24T13:53:16.836051+00:00",
+      "pnl_pct_live": -1.87,
+      "progression_pct": -51.4
     },
     {
       "ticker": "ADBE",
@@ -174,10 +174,10 @@
       "status": "open",
       "issued_at": "2026-04-23T08:48:40.766102",
       "last_seen": "2026-04-23T08:48:40.766678",
-      "current_price": 239.01,
-      "current_price_time": "2026-04-24T13:10:24.094172+00:00",
-      "pnl_pct_live": 6.61,
-      "progression_pct": 66.1
+      "current_price": 240.48,
+      "current_price_time": "2026-04-24T13:53:16.836051+00:00",
+      "pnl_pct_live": 6.04,
+      "progression_pct": 60.4
     },
     {
       "ticker": "ZAL.DE",
@@ -213,10 +213,10 @@
       "status": "open",
       "issued_at": "2026-04-22T20:39:14.205742",
       "last_seen": "2026-04-23T18:57:04.747724",
-      "current_price": 22.01,
-      "current_price_time": "2026-04-24T13:10:24.094172+00:00",
-      "pnl_pct_live": 0.14,
-      "progression_pct": 1.4
+      "current_price": 21.88,
+      "current_price_time": "2026-04-24T13:53:16.836051+00:00",
+      "pnl_pct_live": 0.73,
+      "progression_pct": 7.6
     },
     {
       "ticker": "SW.PA",
@@ -252,10 +252,10 @@
       "status": "open",
       "issued_at": "2026-04-23T10:55:46.568960",
       "last_seen": "2026-04-23T19:35:19.669899",
-      "current_price": 42.8,
-      "current_price_time": "2026-04-24T13:10:24.094172+00:00",
-      "pnl_pct_live": -0.14,
-      "progression_pct": -2.1
+      "current_price": 42.9,
+      "current_price_time": "2026-04-24T13:53:16.836051+00:00",
+      "pnl_pct_live": -0.37,
+      "progression_pct": -5.5
     },
     {
       "ticker": "BKR",
@@ -287,13 +287,16 @@
       "news_score": 0,
       "top_news_title": "3 ETFs to Benefit From Oil Price Surge Without Direct Investment",
       "top_news_url": "https://www.marketbeat.com/originals/3-etfs-to-benefit-from-oil-price-surge-without-direct-investment/?utm_source=yahoofinance&utm_medium=yahoofinance",
-      "status": "open",
+      "status": "sl_hit",
       "issued_at": "2026-04-23T14:14:45.170594",
       "last_seen": "2026-04-23T14:14:45.173284",
-      "current_price": 64.5,
-      "current_price_time": "2026-04-24T13:10:24.094172+00:00",
-      "pnl_pct_live": 0.4,
-      "progression_pct": 5.2
+      "current_price": 67.17,
+      "current_price_time": "2026-04-24T13:53:16.836051+00:00",
+      "pnl_pct_live": -3.07,
+      "progression_pct": 5.2,
+      "exit_price": 66.75,
+      "exit_date": "2026-04-24T13:53:16.836051+00:00",
+      "pnl_pct": -3.07
     },
     {
       "ticker": "DXCM",
@@ -328,10 +331,10 @@
       "status": "open",
       "issued_at": "2026-04-23T08:48:40.766099",
       "last_seen": "2026-04-23T08:48:40.766678",
-      "current_price": 62.7,
-      "current_price_time": "2026-04-24T13:10:24.094172+00:00",
-      "pnl_pct_live": 1.12,
-      "progression_pct": 13.5
+      "current_price": 61.47,
+      "current_price_time": "2026-04-24T13:53:16.836051+00:00",
+      "pnl_pct_live": 3.06,
+      "progression_pct": 36.9
     },
     {
       "ticker": "SU.PA",
@@ -366,10 +369,10 @@
       "status": "open",
       "issued_at": "2026-04-23T18:57:04.742326",
       "last_seen": "2026-04-23T18:57:04.747724",
-      "current_price": 273.8,
-      "current_price_time": "2026-04-24T13:10:24.094172+00:00",
-      "pnl_pct_live": 0.38,
-      "progression_pct": 3.7
+      "current_price": 274.5,
+      "current_price_time": "2026-04-24T13:53:16.836051+00:00",
+      "pnl_pct_live": 0.13,
+      "progression_pct": 1.2
     },
     {
       "ticker": "SB=F",
@@ -402,10 +405,10 @@
       "status": "open",
       "issued_at": "2026-04-23T15:43:34.032224",
       "last_seen": "2026-04-23T18:02:07.677652",
-      "current_price": 13.98,
-      "current_price_time": "2026-04-24T13:10:24.094172+00:00",
-      "pnl_pct_live": -0.58,
-      "progression_pct": -18.2
+      "current_price": 14.06,
+      "current_price_time": "2026-04-24T13:53:16.836051+00:00",
+      "pnl_pct_live": -1.15,
+      "progression_pct": -36.4
     },
     {
       "ticker": "IBM",
