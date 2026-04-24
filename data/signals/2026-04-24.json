@@ -1,0 +1,38 @@
+[
+  {
+    "ticker": "DSY.PA",
+    "action": "STRONG_SELL",
+    "entry_price": 19.105,
+    "stop_loss": 19.81714267185756,
+    "take_profit": 17.324643320356095,
+    "score": -0.7302696214460669,
+    "confidence": 0.7421924947493503,
+    "universe": "CAC40",
+    "issued_at": "2026-04-24T08:22:54.228252",
+    "horizon_days": 21,
+    "status": "open",
+    "exit_price": null,
+    "exit_date": null,
+    "pnl_pct": null,
+    "max_favorable": null,
+    "max_adverse": null
+  },
+  {
+    "ticker": "P911.DE",
+    "action": "STRONG_SELL",
+    "entry_price": 41.24,
+    "stop_loss": 42.63000047956194,
+    "take_profit": 37.764998801095146,
+    "score": -0.55265181057958,
+    "confidence": 0.8132000119300807,
+    "universe": "DAX40",
+    "issued_at": "2026-04-24T08:22:54.228274",
+    "horizon_days": 21,
+    "status": "open",
+    "exit_price": null,
+    "exit_date": null,
+    "pnl_pct": null,
+    "max_favorable": null,
+    "max_adverse": null
+  }
+]
