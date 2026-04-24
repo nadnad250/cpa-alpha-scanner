@@ -10,19 +10,180 @@
 </head>
 <body>
 
-  <!-- ========== LIVE TRADES TICKER ========== -->
-  <div id="live-ticker-wrap" style="display:none;position:fixed;top:0;left:0;right:0;z-index:200;background:linear-gradient(90deg,#070c18 0%,#0c1220 10%,#0c1220 90%,#070c18 100%);border-bottom:1px solid rgba(16,185,129,.25);overflow:hidden;height:36px;align-items:center;gap:14px;padding:0 16px;">
-    <span style="display:inline-flex;align-items:center;gap:6px;background:rgba(16,185,129,.15);color:#34d399;padding:3px 11px;border-radius:20px;font-size:10px;font-weight:800;letter-spacing:1px;white-space:nowrap;flex-shrink:0;border:1px solid rgba(16,185,129,.4);">
-      <span style="width:6px;height:6px;background:#34d399;border-radius:50%;animation:tpulse 1.5s infinite"></span>
-      LIVE TRADES
-    </span>
-    <div id="live-ticker-track" style="display:flex;gap:32px;white-space:nowrap;animation:ticker-scroll 50s linear infinite;font-size:12px;font-family:'JetBrains Mono',monospace;font-weight:600;"></div>
+  <!-- ========== LIVE TRADES TICKER (redesign pro) ========== -->
+  <div id="live-ticker-wrap">
+    <div class="lt-badge">
+      <span class="lt-dot"></span>
+      <span>LIVE TRADES</span>
+    </div>
+    <div class="lt-stream">
+      <div class="lt-track" id="live-ticker-track"></div>
+    </div>
+    <div class="lt-stats" id="lt-stats">
+      <span class="lt-stat-win">—</span>
+      <span class="lt-stat-lbl">Win Rate</span>
+    </div>
   </div>
+
   <style>
-    @keyframes ticker-scroll { from { transform:translateX(0); } to { transform:translateX(-50%); } }
-    @keyframes tpulse { 0%,100% { opacity:1; } 50% { opacity:.4; } }
-    body.has-ticker .l-nav { top: 36px !important; }
-    body.has-ticker { padding-top: 36px; }
+    /* ---- Bandeau ---- */
+    #live-ticker-wrap {
+      display: none;
+      position: fixed;
+      top: 0; left: 0; right: 0;
+      z-index: 200;
+      height: 42px;
+      background: linear-gradient(90deg,
+        rgba(7,12,24,.98) 0%,
+        rgba(12,18,32,.98) 50%,
+        rgba(7,12,24,.98) 100%);
+      backdrop-filter: blur(8px);
+      border-bottom: 1px solid rgba(16,185,129,.3);
+      box-shadow: 0 2px 12px rgba(0,0,0,.35);
+      align-items: center;
+      gap: 14px;
+      padding: 0 18px;
+      font-family: 'JetBrains Mono', monospace;
+    }
+
+    /* ---- Badge LIVE (gauche, fixe) ---- */
+    .lt-badge {
+      display: inline-flex;
+      align-items: center;
+      gap: 7px;
+      background: linear-gradient(135deg, rgba(16,185,129,.18), rgba(16,185,129,.08));
+      color: #34d399;
+      padding: 5px 12px;
+      border-radius: 20px;
+      font-size: 10px;
+      font-weight: 800;
+      letter-spacing: 1.2px;
+      white-space: nowrap;
+      flex-shrink: 0;
+      border: 1px solid rgba(16,185,129,.45);
+      box-shadow: 0 0 12px rgba(16,185,129,.15);
+      z-index: 2;
+    }
+    .lt-dot {
+      width: 7px; height: 7px;
+      background: #34d399;
+      border-radius: 50%;
+      box-shadow: 0 0 8px #34d399;
+      animation: tpulse 1.5s infinite;
+    }
+    @keyframes tpulse {
+      0%, 100% { opacity: 1; transform: scale(1); }
+      50%      { opacity: .4; transform: scale(.7); }
+    }
+
+    /* ---- Stream (flux de trades) avec fade gauche+droite ---- */
+    .lt-stream {
+      flex: 1;
+      overflow: hidden;
+      position: relative;
+      height: 100%;
+      -webkit-mask-image: linear-gradient(90deg, transparent 0, #000 40px, #000 calc(100% - 40px), transparent 100%);
+              mask-image: linear-gradient(90deg, transparent 0, #000 40px, #000 calc(100% - 40px), transparent 100%);
+    }
+    .lt-track {
+      display: flex;
+      align-items: center;
+      height: 100%;
+      gap: 12px;
+      white-space: nowrap;
+      animation: lt-scroll 60s linear infinite;
+      will-change: transform;
+    }
+    .lt-track:hover { animation-play-state: paused; }
+
+    /* ---- Pills de trades ---- */
+    .lt-trade {
+      display: inline-flex;
+      align-items: center;
+      gap: 8px;
+      padding: 5px 12px;
+      border-radius: 8px;
+      font-size: 12px;
+      font-weight: 700;
+      white-space: nowrap;
+      border: 1px solid transparent;
+      flex-shrink: 0;
+      transition: transform .15s;
+    }
+    .lt-trade.win {
+      background: linear-gradient(135deg, rgba(16,185,129,.15), rgba(16,185,129,.05));
+      color: #34d399;
+      border-color: rgba(16,185,129,.3);
+    }
+    .lt-trade.loss {
+      background: linear-gradient(135deg, rgba(239,68,68,.15), rgba(239,68,68,.05));
+      color: #f87171;
+      border-color: rgba(239,68,68,.3);
+    }
+    .lt-trade:hover {
+      transform: translateY(-1px);
+      filter: brightness(1.2);
+    }
+    .lt-icon { font-size: 11px; }
+    .lt-ticker { letter-spacing: .3px; }
+    .lt-pnl { font-size: 11px; opacity: .9; }
+    .lt-tag {
+      font-size: 9px;
+      letter-spacing: .8px;
+      opacity: .6;
+      padding: 1px 5px;
+      border-radius: 3px;
+      background: rgba(255,255,255,.06);
+    }
+    .lt-sep {
+      width: 3px; height: 3px;
+      border-radius: 50%;
+      background: rgba(74,85,104,.5);
+      flex-shrink: 0;
+    }
+
+    @keyframes lt-scroll {
+      from { transform: translateX(0); }
+      to   { transform: translateX(-50%); }
+    }
+
+    /* ---- Stats à droite (win rate live) ---- */
+    .lt-stats {
+      display: inline-flex;
+      flex-direction: column;
+      align-items: flex-end;
+      gap: 0;
+      flex-shrink: 0;
+      padding-left: 14px;
+      border-left: 1px solid rgba(255,255,255,.06);
+      min-width: 70px;
+    }
+    .lt-stat-win {
+      font-size: 13px;
+      font-weight: 800;
+      color: #34d399;
+      line-height: 1;
+    }
+    .lt-stat-lbl {
+      font-size: 8px;
+      text-transform: uppercase;
+      letter-spacing: 1px;
+      color: #64748b;
+      margin-top: 2px;
+    }
+
+    body.has-ticker .l-nav { top: 42px !important; }
+    body.has-ticker { padding-top: 42px; }
+
+    /* ---- Responsive ---- */
+    @media (max-width: 640px) {
+      #live-ticker-wrap { height: 38px; padding: 0 10px; gap: 8px; }
+      .lt-badge { font-size: 9px; padding: 3px 9px; }
+      .lt-trade { font-size: 11px; padding: 4px 9px; }
+      .lt-stats { display: none; }
+      body.has-ticker .l-nav { top: 38px !important; }
+      body.has-ticker { padding-top: 38px; }
+    }
   </style>
 
   <!-- ========== NAVBAR ========== -->
@@ -455,23 +616,76 @@
 
   <!-- ========== LIVE TICKER SCRIPT ========== -->
   <script>
-    // Charge les signaux clôturés pour alimenter le bandeau
-    fetch('data/signals.json?t=' + Date.now()).then(r => r.json()).then(data => {
-      const closed = (data.signals || []).filter(s => s.status === 'tp_hit' || s.status === 'sl_hit').slice(0, 20);
-      if (!closed.length) return;
-      const items = closed.map(s => {
-        const isWin = s.status === 'tp_hit';
-        const icon = isWin ? '✅' : '❌';
-        const color = isWin ? '#34d399' : '#f87171';
-        const pct = Math.abs(s.upside_pct || 0).toFixed(1);
-        const sign = isWin ? '+' : '−';
-        return `<span style="color:${color}">${icon} ${s.ticker} ${sign}${pct}% ${isWin ? 'TP' : 'SL'}</span>`;
-      }).join('<span style="color:#4a5568;margin:0 4px">·</span>');
-      // Duplique pour loop infinie
-      document.getElementById('live-ticker-track').innerHTML = items + '<span style="color:#4a5568;margin:0 4px">·</span>' + items;
+    // Charge les signaux clôturés + ouvert à P&L live pour alimenter le bandeau
+    function renderLiveTicker() {
+      fetch('data/signals.json?t=' + Date.now()).then(r => r.json()).then(data => {
+        const sigs = data.signals || [];
+        const closed = sigs.filter(s => s.status === 'tp_hit' || s.status === 'sl_hit');
+        // Ouverts avec un mouvement live > 2 % pour qu'il y ait du dynamisme
+        const liveHot = sigs.filter(s =>
+          s.status === 'open' && typeof s.pnl_pct_live === 'number' && Math.abs(s.pnl_pct_live) >= 2
+        ).sort((a, b) => Math.abs(b.pnl_pct_live) - Math.abs(a.pnl_pct_live)).slice(0, 15);
+
+        if (!closed.length && !liveHot.length) {
+          // Fallback : afficher les meilleurs ouverts
+          const top = sigs.filter(s => s.status === 'open').slice(0, 10);
+          if (!top.length) return;
+          const items = top.map(pill_open).join(sep());
+          mountTicker(items);
+          return;
+        }
+
+        const items = [
+          ...closed.slice(0, 25).map(pill_closed),
+          ...liveHot.map(pill_open),
+        ].join(sep());
+        mountTicker(items);
+
+        // Win rate compact à droite
+        const wins = closed.filter(s => s.status === 'tp_hit').length;
+        const nClosed = closed.length;
+        const winEl = document.querySelector('.lt-stat-win');
+        if (nClosed >= 2 && winEl) {
+          const wr = Math.round((wins / nClosed) * 100);
+          winEl.textContent = wr + '%';
+          winEl.style.color = wr >= 60 ? '#34d399' : wr >= 45 ? '#fbbf24' : '#f87171';
+        }
+      }).catch(() => {});
+    }
+    function pill_closed(s) {
+      const isWin = s.status === 'tp_hit';
+      const sign = isWin ? '+' : '−';
+      const pnl = typeof s.pnl_pct === 'number'
+        ? Math.abs(s.pnl_pct).toFixed(1)
+        : Math.abs(s.upside_pct || 0).toFixed(1);
+      return `<span class="lt-trade ${isWin ? 'win' : 'loss'}">
+        <span class="lt-icon">${isWin ? '✓' : '✕'}</span>
+        <span class="lt-ticker">${s.ticker}</span>
+        <span class="lt-pnl">${sign}${pnl}%</span>
+        <span class="lt-tag">${isWin ? 'TP' : 'SL'}</span>
+      </span>`;
+    }
+    function pill_open(s) {
+      const isGoingUp = (s.pnl_pct_live || 0) >= 0;
+      const sign = isGoingUp ? '+' : '−';
+      const pnl = Math.abs(s.pnl_pct_live || 0).toFixed(1);
+      return `<span class="lt-trade ${isGoingUp ? 'win' : 'loss'}" style="opacity:.9">
+        <span class="lt-icon">${isGoingUp ? '▲' : '▼'}</span>
+        <span class="lt-ticker">${s.ticker}</span>
+        <span class="lt-pnl">${sign}${pnl}%</span>
+        <span class="lt-tag">LIVE</span>
+      </span>`;
+    }
+    function sep() { return '<span class="lt-sep"></span>'; }
+    function mountTicker(html) {
+      // Duplication pour scroll infini seamless
+      document.getElementById('live-ticker-track').innerHTML = html + sep() + html;
       document.getElementById('live-ticker-wrap').style.display = 'flex';
       document.body.classList.add('has-ticker');
-    }).catch(() => {});
+    }
+    renderLiveTicker();
+    // Rafraîchit toutes les 2 min pour capter les nouveaux TP/SL
+    setInterval(renderLiveTicker, 2 * 60 * 1000);
 
     // Cookie banner
     if (!localStorage.getItem('cpa_cookies_accepted')) {

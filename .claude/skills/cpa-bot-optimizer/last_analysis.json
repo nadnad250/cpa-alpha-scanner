@@ -1,12 +1,58 @@
 {
   "metrics": {
-    "total_signals": 11,
-    "open": 11,
-    "closed": 0,
-    "message": "Pas encore assez de trades clôturés pour analyser. Attendre 10+ clôtures."
+    "total_signals": 229,
+    "open": 227,
+    "closed": 2,
+    "wins": 1,
+    "losses": 1,
+    "win_rate": 0.5,
+    "profit_factor": 0.97,
+    "expectancy_pct": -0.1,
+    "total_pnl_pct": -0.2,
+    "median_pnl": -0.1,
+    "best_trade": 7.3,
+    "worst_trade": -7.5,
+    "by_action": {
+      "STRONG_SELL": {
+        "n": 2,
+        "win_rate": 0.5,
+        "avg_pnl": -0.1
+      }
+    },
+    "by_universe": {
+      "DOW30": {
+        "n": 1,
+        "win_rate": 1.0,
+        "avg_pnl": 7.3
+      },
+      "SP500": {
+        "n": 1,
+        "win_rate": 0.0,
+        "avg_pnl": -7.5
+      }
+    },
+    "by_sector": {},
+    "winners_vs_losers": {
+      "avg_confidence_winners": 0.676,
+      "avg_confidence_losers": 0.72,
+      "avg_score_winners": 0.495,
+      "avg_score_losers": 0.486,
+      "avg_rr_winners": 2.42,
+      "avg_rr_losers": 2.5
+    },
+    "by_confidence_bucket": {
+      "0.65-0.70": {
+        "n": 1,
+        "win_rate": 1.0
+      },
+      "0.70-0.75": {
+        "n": 1,
+        "win_rate": 0.0
+      }
+    }
   },
   "patterns": [
     "Échantillon insuffisant (< 10 clôturés) — attendre plus de trades avant tuning."
   ],
-  "n_signals_analyzed": 11
+  "n_signals_analyzed": 229
 }
