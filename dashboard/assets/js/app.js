@@ -224,7 +224,9 @@ function applyFilters() {
     if (activeUniverse !== 'all' && s.universe !== activeUniverse) return false;
     if (searchQuery) {
       const q = searchQuery.toLowerCase();
-      if (!s.ticker.toLowerCase().includes(q) && !s.sector.toLowerCase().includes(q)) return false;
+      const t = (s.ticker || '').toLowerCase();
+      const sec = (s.sector || '').toLowerCase();
+      if (!t.includes(q) && !sec.includes(q)) return false;
     }
     return true;
   });
@@ -351,7 +353,9 @@ function buildRow(s, num) {
 
 // ---- Best Signal ----
 function renderBestSignal() {
-  const best = [...allSignals].sort((a, b) => Math.abs(b.score) - Math.abs(a.score))[0];
+  // Uniquement signaux ouverts (pas les tp_hit/sl_hit)
+  const opens = allSignals.filter(s => s.status === 'open');
+  const best = [...opens].sort((a, b) => Math.abs(b.score) - Math.abs(a.score))[0];
   if (!best) return;
   const el = document.getElementById('best-signal-body');
   if (!el) return;
@@ -374,7 +378,8 @@ function renderBestSignal() {
 
 // ---- Top Signals List ----
 function renderTopList() {
-  const top = [...allSignals].sort((a, b) => b.confidence - a.confidence).slice(0, 6);
+  const opens = allSignals.filter(s => s.status === 'open');
+  const top = [...opens].sort((a, b) => b.confidence - a.confidence).slice(0, 6);
   const ul = document.getElementById('top-list');
   if (!ul) return;
   ul.innerHTML = top.map((s, i) => {
@@ -395,7 +400,11 @@ function renderTopList() {
 // ---- Sector Breakdown ----
 function renderSectors() {
   const counts = {};
-  allSignals.forEach(s => { counts[s.sector] = (counts[s.sector] || 0) + 1; });
+  const opens = allSignals.filter(s => s.status === 'open');
+  opens.forEach(s => {
+    const sec = s.sector || '—';
+    counts[sec] = (counts[sec] || 0) + 1;
+  });
   const max = Math.max(...Object.values(counts));
   const sorted = Object.entries(counts).sort((a, b) => b[1] - a[1]);
   const el = document.getElementById('sector-bars');
