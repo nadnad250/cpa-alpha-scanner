@@ -34,5 +34,23 @@
     "pnl_pct": null,
     "max_favorable": null,
     "max_adverse": null
+  },
+  {
+    "ticker": "DLTR",
+    "action": "STRONG_SELL",
+    "entry_price": 103.11,
+    "stop_loss": 107.59571232386998,
+    "take_profit": 91.89571919032505,
+    "score": -0.6463622558624726,
+    "confidence": 0.7034044255256842,
+    "universe": "NASDAQ100",
+    "issued_at": "2026-04-24T17:51:55.440782",
+    "horizon_days": 21,
+    "status": "open",
+    "exit_price": null,
+    "exit_date": null,
+    "pnl_pct": null,
+    "max_favorable": null,
+    "max_adverse": null
   }
 ]
