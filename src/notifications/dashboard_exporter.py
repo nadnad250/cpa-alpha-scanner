@@ -243,8 +243,11 @@ def export_to_dashboard(
             logger.info(f"✅ {auto_closed_count} signaux auto-clôturés par l'exporter")
 
         # ================================================================
-        # CAP MAX_OPEN_SIGNALS : on ne garde que le TOP des opens
-        # Tri par qualité (|score| × confidence), le reste est jeté.
+        # LOGIQUE DE SLOTS : MAX_OPEN_SIGNALS positions simultanées
+        # Règle absolue : les signaux EXISTANTS (déjà dans signals.json)
+        # restent jusqu'à TP/SL — jamais éjectés par un new "mieux noté".
+        # Seuls les slots libérés par clôtures accueillent de nouveaux signaux,
+        # sélectionnés par |score| × confidence décroissant.
         # ================================================================
         try:
             from config.settings import MAX_OPEN_SIGNALS
@@ -254,22 +257,62 @@ def export_to_dashboard(
         open_sigs = [s for s in signals if s.get("status") == "open"]
         other_sigs = [s for s in signals if s.get("status") != "open"]
 
-        if len(open_sigs) > MAX_OPEN_SIGNALS:
-            # Priorise : status "open" déjà sur le site > nouveaux
-            # Puis tri par qualité = |score| × confidence
-            open_sigs.sort(
+        # Identifier existants vs nouveaux
+        # (existant = était dans signals.json précédent comme status='open')
+        prev_open_keys = {
+            (k[0], k[1])  # (ticker, action)
+            for k, s in existing_open_by_key.items()
+            if s.get("status") == "open"
+        }
+        existing_still_open = [
+            s for s in open_sigs
+            if (s.get("ticker"), s.get("action")) in prev_open_keys
+        ]
+        new_arrivals = [
+            s for s in open_sigs
+            if (s.get("ticker"), s.get("action")) not in prev_open_keys
+        ]
+
+        # Safeguard : si jamais on dépasse MAX (cas edge), tronquer par qualité
+        if len(existing_still_open) > MAX_OPEN_SIGNALS:
+            existing_still_open.sort(
                 key=lambda s: abs(s.get("score") or 0) * (s.get("confidence") or 0),
                 reverse=True,
             )
-            kept = open_sigs[:MAX_OPEN_SIGNALS]
-            dropped = open_sigs[MAX_OPEN_SIGNALS:]
-            logger.info(
-                f"🎯 CAP {MAX_OPEN_SIGNALS} positions ouvertes — "
-                f"{len(dropped)} signaux faibles retirés (tickers: {[s['ticker'] for s in dropped[:10]]})"
+            existing_still_open = existing_still_open[:MAX_OPEN_SIGNALS]
+
+        # Slots restants pour de nouveaux signaux
+        slots_left = MAX_OPEN_SIGNALS - len(existing_still_open)
+
+        if slots_left > 0 and new_arrivals:
+            # Tri des new par qualité décroissante
+            new_arrivals.sort(
+                key=lambda s: abs(s.get("score") or 0) * (s.get("confidence") or 0),
+                reverse=True,
             )
-            signals = kept + other_sigs
+            accepted_new = new_arrivals[:slots_left]
+            rejected_new = new_arrivals[slots_left:]
+            logger.info(
+                f"🎯 SLOTS : {len(existing_still_open)} existants gardés, "
+                f"{len(accepted_new)}/{len(new_arrivals)} nouveaux acceptés "
+                f"(slots libres: {slots_left})"
+            )
+            if rejected_new:
+                logger.info(
+                    f"   💤 {len(rejected_new)} nouveaux rejetés (déjà 10 slots): "
+                    f"{[s['ticker'] for s in rejected_new[:10]]}"
+                )
+            open_sigs = existing_still_open + accepted_new
         else:
-            signals = open_sigs + other_sigs
+            # Aucun slot libre : on garde uniquement les existants
+            if new_arrivals:
+                logger.info(
+                    f"💤 0 slot libre — {len(new_arrivals)} nouveaux signaux ignorés "
+                    f"(attendez qu'un TP/SL libère une place)"
+                )
+            open_sigs = existing_still_open
+
+        signals = open_sigs + other_sigs
 
         # Ajoute les clôturés récents après les ouverts (pour historique visible)
         # Dédup par clé stable (status, ticker, action) — plus correct et O(1) au lieu de O(n²)
