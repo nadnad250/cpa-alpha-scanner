@@ -345,20 +345,28 @@ def export_to_dashboard(
         win_rate = 0.0
         daily_pnl = 0.0
 
-        if tracker:
-            try:
-                perf = tracker.performance_stats(lookback_days=1)
-                if perf:
-                    total_closed = perf.get("total_signals", 0)
-                    tp_hit   = perf.get("tp_hit", 0)
-                    sl_hit   = perf.get("sl_hit", 0)
-                    win_rate = round(perf.get("win_rate", 0), 3)
-                    daily_pnl = round(perf.get("avg_pnl", 0) / 100, 4)
-            except Exception as e:
-                logger.warning(f"Stats tracker non disponibles: {e}")
+        # ================================================================
+        # STATS EOD : calcul direct depuis les signaux clôturés dans signals
+        # (évite dépendance au tracker dont les clés diffèrent :
+        #  tracker.performance_stats() → total/wins/losses/win_rate/expectancy
+        #  alors qu'on lisait total_signals/tp_hit/sl_hit/avg_pnl = None)
+        # ================================================================
+        closed_sigs = [s for s in signals if s.get("status") in ("tp_hit", "sl_hit")]
+        tp_hit = sum(1 for s in closed_sigs if s.get("status") == "tp_hit")
+        sl_hit = sum(1 for s in closed_sigs if s.get("status") == "sl_hit")
+        n_closed = tp_hit + sl_hit
+        win_rate = round(tp_hit / n_closed, 3) if n_closed > 0 else 0.0
+
+        # P&L cumulé : somme des pnl_pct réalisés (privilégie pnl_pct, fallback upside_pct signé)
+        def _real_pnl(s):
+            if isinstance(s.get("pnl_pct"), (int, float)):
+                return float(s["pnl_pct"])
+            up = abs(float(s.get("upside_pct") or 0))
+            return up if s.get("status") == "tp_hit" else -up
+        total_pnl_pct = sum(_real_pnl(s) for s in closed_sigs)
+        daily_pnl = round(total_pnl_pct / 100, 4)   # en fraction pour compat
 
         # Force cohérence : active_positions = nb de signaux ouverts affichés
-        # (évite le décalage "12 signaux du jour" vs "15 positions actives")
         open_pos = n
 
         data = {
