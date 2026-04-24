@@ -214,6 +214,10 @@ function renderStats(stats, eod) {
 // ---- Filter & Render ----
 function applyFilters() {
   filteredSignals = allSignals.filter(s => {
+    // Dashboard = UNIQUEMENT positions ouvertes
+    // Les TP/SL clôturés sont visibles sur /live.html et /stats.html
+    if (s.status !== 'open') return false;
+
     const isBuy = s.score > 0;
     if (activeFilter === 'BUY'  && !isBuy)  return false;
     if (activeFilter === 'SELL' && isBuy)   return false;
