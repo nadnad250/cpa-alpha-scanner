@@ -279,6 +279,20 @@
     }
 
     function render(data) {
+      // Définis eod pour le drawOutcomeChart (sinon undefined → erreur)
+      const eod = data.eod || {};
+
+      // ---- FILTRE PÉRIODE : applique le sélecteur sur closedSignals ----
+      const periodVal = document.getElementById('period-select')?.value || '30';
+      if (periodVal !== 'all') {
+        const days = parseInt(periodVal, 10);
+        const cutoff = new Date(Date.now() - days * 86400000);
+        closedSignals = closedSignals.filter(s => {
+          const dt = new Date(s.exit_date || s.issued_at || 0);
+          return dt >= cutoff;
+        });
+      }
+
       // ---- WINS / LOSSES (calcul direct, ignore stats/eod du tracker) ----
       const wins = closedSignals.filter(s => s.status === 'tp_hit');
       const losses = closedSignals.filter(s => s.status === 'sl_hit');
@@ -582,7 +596,7 @@
           <td style="font-family:var(--mono);font-weight:700">${s.ticker}</td>
           <td><span style="padding:2px 8px;border-radius:5px;font-size:10px;font-weight:700;${badgeCls}">${s.action.replace('_',' ')}</span></td>
           <td style="font-family:var(--mono)">$${(s.price || 0).toFixed(2)}</td>
-          <td style="font-family:var(--mono)">$${(s.take_profit || 0).toFixed(2)}</td>
+          <td style="font-family:var(--mono)">$${((s.exit_price ?? s.take_profit) || 0).toFixed(2)}</td>
           <td style="font-family:var(--mono);font-weight:700;color:${color}">${pnl}</td>
           <td style="color:var(--text3);font-size:11px">21j</td>
           <td style="color:${color};font-weight:700;font-size:11px">${statusIcon}</td>
