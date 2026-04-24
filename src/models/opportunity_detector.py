@@ -235,10 +235,17 @@ class OpportunityDetector:
             return "STRONG_SELL"
 
     def _regime_score(self, prices: pd.Series, cpa: CPAResult) -> float:
+        """
+        Régime combiné : 70% technique (ticker-specific) + 30% macro (FRED).
+        Le macro ajoute du contexte système (yield curve, VIX, Fed) qui
+        s'applique à tous les signaux — utile en cas de récession ou risk-off.
+        """
         if len(prices) < 63:
             return 0.0
         returns = np.log(prices / prices.shift(1)).dropna()
         score = 0.0
+
+        # ---- Composante technique (spécifique au ticker) ----
         ret_3m = float(returns.tail(63).sum())
         score += np.clip(ret_3m * 2, -0.5, 0.5)
         vol = float(returns.tail(21).std() * np.sqrt(252))
@@ -249,6 +256,17 @@ class OpportunityDetector:
         dd = (prices.tail(63) / prices.tail(63).cummax() - 1).min()
         if dd > -0.10:
             score += 0.15
+
+        # ---- Composante macro (FRED, cache 6h) ----
+        try:
+            from src.data.fred_fetcher import get_macro_context
+            macro = get_macro_context()
+            if macro.regime != "unknown":
+                # Pondération 0.30 pour éviter que le macro domine
+                score += 0.30 * macro.regime_score
+        except Exception as e:
+            logger.debug(f"Macro context indispo: {e}")
+
         return float(np.clip(score, -1, 1))
 
     def _build_reasons(
