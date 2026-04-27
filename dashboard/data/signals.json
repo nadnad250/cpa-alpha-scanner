@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-04-27T16:03:46.960373+00:00",
+  "generated_at": "2026-04-27T16:50:43.121646+00:00",
   "date": "2026-04-27",
   "stats": {
     "total": 10,
@@ -54,10 +54,10 @@
       "status": "open",
       "issued_at": "2026-04-27T14:19:58.544261",
       "last_seen": "2026-04-27T14:19:58.544997",
-      "current_price": 23.56,
-      "current_price_time": "2026-04-27T16:03:46.960373+00:00",
-      "pnl_pct_live": -1.55,
-      "progression_pct": -19.3
+      "current_price": 23.5,
+      "current_price_time": "2026-04-27T16:50:43.121646+00:00",
+      "pnl_pct_live": -1.29,
+      "progression_pct": -16.0
     },
     {
       "ticker": "WLN.PA",
@@ -96,7 +96,7 @@
       "issued_at": "2026-04-23T14:14:45.170625",
       "last_seen": "2026-04-23T18:57:04.747724",
       "current_price": 0.27,
-      "current_price_time": "2026-04-27T16:03:46.960373+00:00",
+      "current_price_time": "2026-04-27T16:50:43.121646+00:00",
       "pnl_pct_live": 6.9,
       "progression_pct": 20.0
     },
@@ -136,10 +136,10 @@
       "status": "open",
       "issued_at": "2026-04-23T21:14:16.660820",
       "last_seen": "2026-04-23T21:14:16.665964",
-      "current_price": 179.05,
-      "current_price_time": "2026-04-27T16:03:46.960373+00:00",
-      "pnl_pct_live": -1.08,
-      "progression_pct": -30.4
+      "current_price": 177.34,
+      "current_price_time": "2026-04-27T16:50:43.121646+00:00",
+      "pnl_pct_live": -0.11,
+      "progression_pct": -3.2
     },
     {
       "ticker": "DSY.PA",
@@ -177,7 +177,7 @@
       "issued_at": "2026-04-23T19:59:02.882469",
       "last_seen": "2026-04-23T19:59:02.887756",
       "current_price": 19.25,
-      "current_price_time": "2026-04-27T16:03:46.960373+00:00",
+      "current_price_time": "2026-04-27T16:50:43.121646+00:00",
       "pnl_pct_live": 0.1,
       "progression_pct": 1.1
     },
@@ -211,7 +211,7 @@
       "issued_at": "2026-04-22T22:34:36.306438",
       "last_seen": "2026-04-24T14:12:44.402221",
       "current_price": 2.14,
-      "current_price_time": "2026-04-27T16:03:46.960373+00:00",
+      "current_price_time": "2026-04-27T16:50:43.121646+00:00",
       "pnl_pct_live": 1.83,
       "progression_pct": 12.1
     },
@@ -249,10 +249,10 @@
       "status": "open",
       "issued_at": "2026-04-23T08:48:40.766102",
       "last_seen": "2026-04-23T08:48:40.766678",
-      "current_price": 240.37,
-      "current_price_time": "2026-04-27T16:03:46.960373+00:00",
-      "pnl_pct_live": 6.08,
-      "progression_pct": 60.8
+      "current_price": 240.91,
+      "current_price_time": "2026-04-27T16:50:43.121646+00:00",
+      "pnl_pct_live": 5.87,
+      "progression_pct": 58.7
     },
     {
       "ticker": "DLTR",
@@ -287,10 +287,10 @@
       "status": "open",
       "issued_at": "2026-04-24T17:51:55.440782",
       "last_seen": "2026-04-24T17:51:55.441396",
-      "current_price": 97.81,
-      "current_price_time": "2026-04-27T16:03:46.960373+00:00",
-      "pnl_pct_live": 5.14,
-      "progression_pct": 47.3
+      "current_price": 98.24,
+      "current_price_time": "2026-04-27T16:50:43.121646+00:00",
+      "pnl_pct_live": 4.72,
+      "progression_pct": 43.4
     },
     {
       "ticker": "SW.PA",
@@ -327,7 +327,7 @@
       "issued_at": "2026-04-23T10:55:46.568960",
       "last_seen": "2026-04-23T19:35:19.669899",
       "current_price": 42.56,
-      "current_price_time": "2026-04-27T16:03:46.960373+00:00",
+      "current_price_time": "2026-04-27T16:50:43.121646+00:00",
       "pnl_pct_live": 0.42,
       "progression_pct": 2.5
     },
@@ -366,7 +366,7 @@
       "issued_at": "2026-04-22T20:39:14.205742",
       "last_seen": "2026-04-27T15:43:26.428190",
       "current_price": 21.88,
-      "current_price_time": "2026-04-27T16:03:46.960373+00:00",
+      "current_price_time": "2026-04-27T16:50:43.121646+00:00",
       "pnl_pct_live": -0.32,
       "progression_pct": -9.1
     },
@@ -404,7 +404,7 @@
       "issued_at": "2026-04-23T18:57:04.742326",
       "last_seen": "2026-04-23T18:57:04.747724",
       "current_price": 275.65,
-      "current_price_time": "2026-04-27T16:03:46.960373+00:00",
+      "current_price_time": "2026-04-27T16:50:43.121646+00:00",
       "pnl_pct_live": -0.29,
       "progression_pct": -7.0
     },
