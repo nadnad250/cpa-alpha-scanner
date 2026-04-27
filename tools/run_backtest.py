@@ -29,7 +29,7 @@ END_DATE        = "2026-01-01"
 INITIAL_CAPITAL = 10_000
 FEE_BPS         = 10        # 10 bps = 0.10 % frais par trade (entrée + sortie)
 POSITION_PCT    = 0.95      # 95 % du capital par trade (5 % cash)
-MAX_HOLD_DAYS   = 21   # horizon CPA standard
+MAX_HOLD_DAYS   = 1    # intraday : 24h max
 
 
 # ============================================================
@@ -336,7 +336,7 @@ def main():
             "en production (version technique : mean-reversion + info-flow + trend filter). "
             "Score = 0.45×MeanRev(zscore20j) + 0.40×InfoFlow(EMA20/50 + momentum 3m) + 0.15×Trend(MA200). "
             "Entrée si |score| ≥ 0.40 et aligné trend. "
-            "Sorties : TP = +2×ATR, SL = -1×ATR, time-stop 21 jours. "
+            "Sorties : TP = +2×ATR, SL = -1×ATR, time-stop 24h (intraday). "
             "Frais 0.10 % par trade. "
             f"Capital initial {INITIAL_CAPITAL}€, {int(POSITION_PCT*100)}% par position. "
             "NB : le bot en production ajoute 2 signaux supplémentaires (value gap sur fondamentaux + factor premia Fama-French) "

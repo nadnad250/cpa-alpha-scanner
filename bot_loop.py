@@ -162,6 +162,7 @@ class AlphaForgeBot:
                     take_profit=o.take_profit, score=o.score,
                     confidence=o.confidence, universe=o.universe,
                     issued_at=datetime.utcnow().isoformat(),
+                    horizon_days=1, horizon_hours=24,   # intraday
                 )
                 for o in actionable
             ]

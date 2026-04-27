@@ -83,7 +83,8 @@ class OpportunityDetector:
         self.w_regime = w_regime
         self.min_score = min_score
         self.min_confidence = min_confidence
-        self.ml = MLEnsembleDetector(horizon=21)
+        # Intraday : ML prédit 1 jour (24h) au lieu de 21 jours
+        self.ml = MLEnsembleDetector(horizon=1)
 
     def detect(
         self,
@@ -314,9 +315,9 @@ class OpportunityDetector:
         secondary = []
         if ml:
             if final_score > 0 and ml.proba_up > 0.60:
-                secondary.append(f"IA : {ml.proba_up*100:.0f}% hausse sur 21 jours")
+                secondary.append(f"IA : {ml.proba_up*100:.0f}% hausse sur 24h")
             if final_score < 0 and ml.proba_up < 0.40:
-                secondary.append(f"IA : {(1-ml.proba_up)*100:.0f}% baisse sur 21 jours")
+                secondary.append(f"IA : {(1-ml.proba_up)*100:.0f}% baisse sur 24h")
             if final_score > 0 and ml.proba_strong_up > 0.50:
                 secondary.append(f"Probabilité +5% : {ml.proba_strong_up*100:.0f}%")
 

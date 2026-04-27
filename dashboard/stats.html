@@ -599,7 +599,14 @@
           <td style="font-family:var(--mono)">$${(s.price || 0).toFixed(2)}</td>
           <td style="font-family:var(--mono)">$${((s.exit_price ?? s.take_profit) || 0).toFixed(2)}</td>
           <td style="font-family:var(--mono);font-weight:700;color:${color}">${pnl}</td>
-          <td style="color:var(--text3);font-size:11px">21j</td>
+          <td style="color:var(--text3);font-size:11px">${(() => {
+            try {
+              const t1 = new Date(s.issued_at);
+              const t2 = new Date(s.exit_date || Date.now());
+              const h = Math.max(0, (t2 - t1) / 3600000);
+              return h < 1 ? Math.round(h * 60) + 'min' : h < 24 ? h.toFixed(1) + 'h' : Math.floor(h/24) + 'j';
+            } catch { return '—'; }
+          })()}</td>
           <td style="color:${color};font-weight:700;font-size:11px">${statusIcon}</td>
         </tr>`;
       }).join('');
