@@ -264,7 +264,8 @@
         const resp = await fetch('data/signals.json?t=' + Date.now());
         const data = await resp.json();
         allSignals = data.signals || [];
-        closedSignals = allSignals.filter(s => s.status === 'tp_hit' || s.status === 'sl_hit');
+        closedSignals = allSignals.filter(s =>
+          s.status === 'tp_hit' || s.status === 'sl_hit' || s.status === 'expired');
         render(data);
       } catch (e) {
         console.error('Erreur chargement stats:', e);
@@ -294,9 +295,11 @@
         });
       }
 
-      // ---- WINS / LOSSES (calcul direct, ignore stats/eod du tracker) ----
-      const wins = closedSignals.filter(s => s.status === 'tp_hit');
-      const losses = closedSignals.filter(s => s.status === 'sl_hit');
+      // ---- WINS / LOSSES (intraday : tp_hit + expired profitable = win) ----
+      const wins = closedSignals.filter(s =>
+        s.status === 'tp_hit' || (s.status === 'expired' && realizedPnl(s) > 0));
+      const losses = closedSignals.filter(s =>
+        s.status === 'sl_hit' || (s.status === 'expired' && realizedPnl(s) <= 0));
       const nClosed = wins.length + losses.length;
 
       // ---- Win Rate ----

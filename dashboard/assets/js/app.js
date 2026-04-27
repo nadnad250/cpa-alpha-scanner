@@ -199,6 +199,9 @@ function renderStats(stats, eod) {
   const setEl = (id, val) => { const el = document.getElementById(id); if (el) el.textContent = val; };
   setEl('eod-won', eod.tp_hit || 0);
   setEl('eod-lost', eod.sl_hit || 0);
+  // Expirés (intraday > 24h) : compté depuis allSignals
+  const expiredCount = allSignals.filter(s => s.status === 'expired').length;
+  setEl('eod-expired', expiredCount);
   setEl('eod-open', eod.open || 0);
   setEl('eod-rate', rate + '%');
   const barEl = document.getElementById('eod-bar');

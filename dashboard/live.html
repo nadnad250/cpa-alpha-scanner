@@ -145,8 +145,11 @@
     function render(data) {
       const sigs = data.signals || [];
       const open = sigs.filter(s => s.status === 'open');
-      const closed = sigs.filter(s => s.status === 'tp_hit' || s.status === 'sl_hit').sort((a,b) => new Date(b.issued_at) - new Date(a.issued_at));
-      const wins = closed.filter(s => s.status === 'tp_hit');
+      const closed = sigs.filter(s =>
+        s.status === 'tp_hit' || s.status === 'sl_hit' || s.status === 'expired'
+      ).sort((a,b) => new Date(b.exit_date || b.issued_at) - new Date(a.exit_date || a.issued_at));
+      // Win = tp_hit OU expired profitable (intraday)
+      const wins = closed.filter(s => s.status === 'tp_hit' || (s.status === 'expired' && realizedPnl(s) > 0));
 
       // KPIs
       const wr = closed.length ? Math.round(wins.length / closed.length * 100) : 0;
