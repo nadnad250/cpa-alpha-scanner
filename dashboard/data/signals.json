@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-04-27T14:19:58.544997",
+  "generated_at": "2026-04-27T14:29:41.442472+00:00",
   "date": "2026-04-27",
   "stats": {
     "total": 10,
@@ -53,7 +53,11 @@
       "top_news_url": "https://finance.yahoo.com/markets/stocks/articles/dramabox-deal-boost-trade-desks-124200278.html",
       "status": "open",
       "issued_at": "2026-04-27T14:19:58.544261",
-      "last_seen": "2026-04-27T14:19:58.544997"
+      "last_seen": "2026-04-27T14:19:58.544997",
+      "current_price": 23.43,
+      "current_price_time": "2026-04-27T14:29:41.442472+00:00",
+      "pnl_pct_live": -0.99,
+      "progression_pct": -12.3
     },
     {
       "ticker": "WLN.PA",
@@ -92,7 +96,7 @@
       "issued_at": "2026-04-23T14:14:45.170625",
       "last_seen": "2026-04-23T18:57:04.747724",
       "current_price": 0.27,
-      "current_price_time": "2026-04-27T13:35:11.876963+00:00",
+      "current_price_time": "2026-04-27T14:29:41.442472+00:00",
       "pnl_pct_live": 6.9,
       "progression_pct": 20.0
     },
@@ -132,10 +136,10 @@
       "status": "open",
       "issued_at": "2026-04-23T21:14:16.660820",
       "last_seen": "2026-04-23T21:14:16.665964",
-      "current_price": 175.59,
-      "current_price_time": "2026-04-27T13:35:11.876963+00:00",
-      "pnl_pct_live": 0.88,
-      "progression_pct": 9.9
+      "current_price": 179.29,
+      "current_price_time": "2026-04-27T14:29:41.442472+00:00",
+      "pnl_pct_live": -1.21,
+      "progression_pct": -34.2
     },
     {
       "ticker": "DSY.PA",
@@ -172,10 +176,10 @@
       "status": "open",
       "issued_at": "2026-04-23T19:59:02.882469",
       "last_seen": "2026-04-23T19:59:02.887756",
-      "current_price": 19.48,
-      "current_price_time": "2026-04-27T13:35:11.876963+00:00",
-      "pnl_pct_live": -1.09,
-      "progression_pct": -30.0
+      "current_price": 19.37,
+      "current_price_time": "2026-04-27T14:29:41.442472+00:00",
+      "pnl_pct_live": -0.52,
+      "progression_pct": -14.3
     },
     {
       "ticker": "VIV.PA",
@@ -207,7 +211,7 @@
       "issued_at": "2026-04-22T22:34:36.306438",
       "last_seen": "2026-04-24T14:12:44.402221",
       "current_price": 2.12,
-      "current_price_time": "2026-04-27T13:35:11.876963+00:00",
+      "current_price_time": "2026-04-27T14:29:41.442472+00:00",
       "pnl_pct_live": 2.75,
       "progression_pct": 18.2
     },
@@ -245,10 +249,10 @@
       "status": "open",
       "issued_at": "2026-04-23T08:48:40.766102",
       "last_seen": "2026-04-23T08:48:40.766678",
-      "current_price": 240.1,
-      "current_price_time": "2026-04-27T13:35:11.876963+00:00",
-      "pnl_pct_live": 6.19,
-      "progression_pct": 61.9
+      "current_price": 243.0,
+      "current_price_time": "2026-04-27T14:29:41.442472+00:00",
+      "pnl_pct_live": 5.06,
+      "progression_pct": 50.5
     },
     {
       "ticker": "DLTR",
@@ -283,10 +287,10 @@
       "status": "open",
       "issued_at": "2026-04-24T17:51:55.440782",
       "last_seen": "2026-04-24T17:51:55.441396",
-      "current_price": 102.04,
-      "current_price_time": "2026-04-27T13:35:11.876963+00:00",
-      "pnl_pct_live": 1.04,
-      "progression_pct": 9.5
+      "current_price": 99.48,
+      "current_price_time": "2026-04-27T14:29:41.442472+00:00",
+      "pnl_pct_live": 3.52,
+      "progression_pct": 32.4
     },
     {
       "ticker": "SW.PA",
@@ -322,10 +326,10 @@
       "status": "open",
       "issued_at": "2026-04-23T10:55:46.568960",
       "last_seen": "2026-04-23T19:35:19.669899",
-      "current_price": 42.74,
-      "current_price_time": "2026-04-27T13:35:11.876963+00:00",
-      "pnl_pct_live": 0.0,
-      "progression_pct": 0.0
+      "current_price": 42.86,
+      "current_price_time": "2026-04-27T14:29:41.442472+00:00",
+      "pnl_pct_live": -0.28,
+      "progression_pct": -4.1
     },
     {
       "ticker": "ZAL.DE",
@@ -360,7 +364,11 @@
       "top_news_url": "https://finance.yahoo.com/news/zalando-se-zldsf-q4-2025-010117955.html",
       "status": "open",
       "issued_at": "2026-04-22T20:39:14.205742",
-      "last_seen": "2026-04-27T14:19:58.544997"
+      "last_seen": "2026-04-27T14:19:58.544997",
+      "current_price": 21.94,
+      "current_price_time": "2026-04-27T14:29:41.442472+00:00",
+      "pnl_pct_live": 0.18,
+      "progression_pct": 2.1
     },
     {
       "ticker": "SU.PA",
@@ -395,10 +403,10 @@
       "status": "open",
       "issued_at": "2026-04-23T18:57:04.742326",
       "last_seen": "2026-04-23T18:57:04.747724",
-      "current_price": 277.35,
-      "current_price_time": "2026-04-27T13:35:11.876963+00:00",
-      "pnl_pct_live": -0.91,
-      "progression_pct": -21.8
+      "current_price": 276.3,
+      "current_price_time": "2026-04-27T14:29:41.442472+00:00",
+      "pnl_pct_live": -0.53,
+      "progression_pct": -12.7
     },
     {
       "ticker": "BKR",
