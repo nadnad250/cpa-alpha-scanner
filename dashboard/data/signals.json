@@ -1,11 +1,11 @@
 {
-  "generated_at": "2026-04-27T17:32:02.515300+00:00",
+  "generated_at": "2026-04-27T17:58:57.092178",
   "date": "2026-04-27",
   "stats": {
     "total": 10,
     "buy_signals": 0,
     "sell_signals": 10,
-    "avg_confidence": 0.747,
+    "avg_confidence": 0.746,
     "avg_rr": 2.5,
     "win_rate": 0.333,
     "active_positions": 10,
@@ -334,21 +334,21 @@
     {
       "ticker": "ZAL.DE",
       "action": "STRONG_SELL",
-      "price": 21.81,
-      "take_profit": 19.88,
-      "stop_loss": 22.58,
+      "price": 21.84,
+      "take_profit": 19.93,
+      "stop_loss": 22.61,
       "upside_pct": 8.8,
-      "confidence": 0.75,
-      "score": -0.6038,
+      "confidence": 0.749,
+      "score": -0.6085,
       "risk_reward": 2.5,
       "kelly_position": 0.1,
-      "cpa_alpha": -0.5831,
-      "ml_proba_up": 0.27,
+      "cpa_alpha": -0.5821,
+      "ml_proba_up": 0.264,
       "sector": "Consumer Cyclical",
       "universe": "DAX40",
       "primary_reason": "Tendance étendue — correction attendue",
       "secondary_reasons": [
-        "IA : 73% baisse sur 21 jours",
+        "IA : 74% baisse sur 21 jours",
         "Surcote théorique -89%"
       ],
       "risk_flags": [
@@ -356,7 +356,7 @@
       ],
       "intrinsic_value": 2.46,
       "value_gap": -0.105,
-      "factor_premia": -0.1051,
+      "factor_premia": -0.1042,
       "mean_reversion": -0.2,
       "info_flow": -0.1548,
       "news_score": 0.45,
@@ -364,11 +364,7 @@
       "top_news_url": "https://finance.yahoo.com/news/zalando-se-zldsf-q4-2025-010117955.html",
       "status": "open",
       "issued_at": "2026-04-22T20:39:14.205742",
-      "last_seen": "2026-04-27T15:43:26.428190",
-      "current_price": 21.88,
-      "current_price_time": "2026-04-27T17:32:02.515300+00:00",
-      "pnl_pct_live": -0.32,
-      "progression_pct": -9.1
+      "last_seen": "2026-04-27T17:58:57.092178"
     },
     {
       "ticker": "SU.PA",

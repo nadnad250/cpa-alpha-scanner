@@ -88,5 +88,23 @@
     "pnl_pct": null,
     "max_favorable": null,
     "max_adverse": null
+  },
+  {
+    "ticker": "ZAL.DE",
+    "action": "STRONG_SELL",
+    "entry_price": 21.84,
+    "stop_loss": 22.605714372907364,
+    "take_profit": 19.925714067731583,
+    "score": -0.6085450523831886,
+    "confidence": 0.7493068496694344,
+    "universe": "DAX40",
+    "issued_at": "2026-04-27T17:58:57.091333",
+    "horizon_days": 21,
+    "status": "open",
+    "exit_price": null,
+    "exit_date": null,
+    "pnl_pct": null,
+    "max_favorable": null,
+    "max_adverse": null
   }
 ]
