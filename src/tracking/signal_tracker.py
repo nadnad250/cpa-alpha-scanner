@@ -37,8 +37,10 @@ class TrackedSignal:
     score: float
     confidence: float
     universe: str
-    issued_at: str          # ISO date
-    horizon_days: int = 21
+    issued_at: str          # ISO datetime
+    # Intraday : horizon en heures (24h max), legacy field kept for backward compat
+    horizon_days: int = 1
+    horizon_hours: int = 24
     status: str = "open"    # open / tp_hit / sl_hit / expired / closed
     exit_price: Optional[float] = None
     exit_date: Optional[str] = None
@@ -129,8 +131,10 @@ class SignalTracker:
 
         for sig in open_sigs:
             try:
-                issued_date = datetime.fromisoformat(sig.issued_at).date()
-                days_elapsed = (datetime.utcnow().date() - issued_date).days
+                # Intraday : on raisonne en heures, plus en jours
+                issued_dt = datetime.fromisoformat(sig.issued_at.replace("Z", "+00:00").replace("+00:00", ""))
+                hours_elapsed = (datetime.utcnow() - issued_dt).total_seconds() / 3600.0
+                issued_date = issued_dt.date()
 
                 prices = prices_getter(sig.ticker)
                 if prices is None or len(prices) == 0:
@@ -177,8 +181,9 @@ class SignalTracker:
                         sig.pnl_pct = (sig.entry_price - sig.stop_loss) / sig.entry_price
                         closed = True
 
-                # Expiration
-                if not closed and days_elapsed >= sig.horizon_days:
+                # Expiration intraday : 24h max
+                horizon_h = getattr(sig, "horizon_hours", 24) or 24
+                if not closed and hours_elapsed >= horizon_h:
                     sig.status = "expired"
                     sig.exit_price = last
                     if is_buy:

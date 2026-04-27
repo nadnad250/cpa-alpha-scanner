@@ -213,20 +213,34 @@ def export_to_dashboard(
             tp = sig.get("take_profit")
             sl = sig.get("stop_loss")
             current = sig.get("current_price")
-            if not all([entry, tp, sl, current]):
-                continue
             is_buy = (sig.get("score") or 0) > 0
             exit_px = None; reason = None
-            if is_buy:
-                if current >= tp:
-                    exit_px, reason = tp, "tp_hit"
-                elif current <= sl:
-                    exit_px, reason = sl, "sl_hit"
-            else:  # SHORT
-                if current <= tp:
-                    exit_px, reason = tp, "tp_hit"
-                elif current >= sl:
-                    exit_px, reason = sl, "sl_hit"
+
+            # 1) Time-stop intraday 24h max
+            try:
+                issued = (sig.get("issued_at") or "").replace("Z", "")
+                if "+" in issued:
+                    issued = issued.split("+")[0]
+                if issued:
+                    issued_dt = datetime.fromisoformat(issued)
+                    hours_open = (now - issued_dt).total_seconds() / 3600.0
+                    if hours_open >= 24 and current is not None:
+                        exit_px, reason = current, "expired"
+            except Exception:
+                pass
+
+            # 2) TP/SL franchi
+            if not reason and all([entry, tp, sl, current]):
+                if is_buy:
+                    if current >= tp:
+                        exit_px, reason = tp, "tp_hit"
+                    elif current <= sl:
+                        exit_px, reason = sl, "sl_hit"
+                else:  # SHORT
+                    if current <= tp:
+                        exit_px, reason = tp, "tp_hit"
+                    elif current >= sl:
+                        exit_px, reason = sl, "sl_hit"
             if reason:
                 sig["status"] = reason
                 sig["exit_price"] = exit_px

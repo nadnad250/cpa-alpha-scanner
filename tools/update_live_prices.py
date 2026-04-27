@@ -72,11 +72,28 @@ def main() -> int:
         sig["current_price_time"] = now_iso
 
         # ================================================================
-        # AUTO-CLÔTURE : détecte si le prix a franchi TP ou SL
+        # AUTO-CLÔTURE : TP/SL franchi OU horizon 24h dépassé (intraday)
         # ================================================================
         closed_reason = None
         exit_price = None
-        if entry and tp and sl:
+
+        # 1) Time-stop intraday : 24h max
+        try:
+            issued_str = sig.get("issued_at", "").replace("Z", "")
+            if issued_str:
+                # Gère les ISO avec/sans timezone
+                if "+" in issued_str:
+                    issued_str = issued_str.split("+")[0]
+                issued_dt = datetime.fromisoformat(issued_str)
+                hours_open = (datetime.utcnow() - issued_dt).total_seconds() / 3600.0
+                if hours_open >= 24:
+                    closed_reason = "expired"
+                    exit_price = current   # exit au prix courant
+        except Exception:
+            pass
+
+        # 2) TP/SL franchi (seulement si pas déjà time-stop)
+        if not closed_reason and entry and tp and sl:
             if is_buy:
                 if current >= tp:
                     closed_reason = "tp_hit"

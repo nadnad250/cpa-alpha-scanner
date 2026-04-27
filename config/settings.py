@@ -29,6 +29,12 @@ MAX_PER_SECTOR         = 3
 # Garantit un portefeuille concentré sur la meilleure conviction.
 MAX_OPEN_SIGNALS       = 10
 
+# === HORIZON INTRADAY ===
+# Le bot opère en intraday : tout signal doit être clôturé dans 24h max.
+# Si TP/SL pas atteints en 24h → auto-clôture au prix courant (time stop).
+HORIZON_HOURS          = 24
+MAX_HOLD_HOURS         = 24       # alias explicite
+
 # Historique des signaux clôturés conservés dans signals.json
 # Évite que le fichier grossisse à l'infini (chaque jour +10-20 clôtures).
 # Au-delà, les plus anciens sont retirés mais restent dans data/signals/YYYY-MM-DD.json
