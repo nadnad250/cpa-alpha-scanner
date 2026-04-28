@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-04-28T14:37:19.067723+00:00",
+  "generated_at": "2026-04-28T15:34:16.738628+00:00",
   "date": "2026-04-28",
   "stats": {
     "total": 10,
@@ -299,10 +299,10 @@
       "status": "open",
       "issued_at": "2026-04-28T08:24:32.894519",
       "last_seen": "2026-04-28T14:21:03.415548",
-      "current_price": 8008.0,
-      "current_price_time": "2026-04-28T14:37:19.067723+00:00",
-      "pnl_pct_live": 1.69,
-      "progression_pct": 17.1
+      "current_price": 8010.0,
+      "current_price_time": "2026-04-28T15:34:16.738628+00:00",
+      "pnl_pct_live": 1.67,
+      "progression_pct": 16.9
     },
     {
       "ticker": "P911.DE",
