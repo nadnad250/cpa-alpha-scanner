@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-04-28T14:21:03.415548",
+  "generated_at": "2026-04-28T14:37:19.067723+00:00",
   "date": "2026-04-28",
   "stats": {
     "total": 10,
@@ -44,9 +44,15 @@
       "news_score": null,
       "top_news_title": null,
       "top_news_url": null,
-      "status": "open",
+      "status": "expired",
       "issued_at": "2026-04-23T14:14:45.170625",
-      "last_seen": "2026-04-28T14:21:03.415548"
+      "last_seen": "2026-04-28T14:21:03.415548",
+      "current_price": 0.29,
+      "current_price_time": "2026-04-28T14:37:19.067723+00:00",
+      "exit_price": 0.29,
+      "exit_date": "2026-04-28T14:37:19.067723+00:00",
+      "pnl_pct": 0.0,
+      "pnl_pct_live": 0.0
     },
     {
       "ticker": "VRSK",
@@ -74,9 +80,15 @@
       "news_score": null,
       "top_news_title": null,
       "top_news_url": null,
-      "status": "open",
+      "status": "expired",
       "issued_at": "2026-04-23T21:14:16.660820",
-      "last_seen": "2026-04-28T14:21:03.415548"
+      "last_seen": "2026-04-28T14:21:03.415548",
+      "current_price": 178.99,
+      "current_price_time": "2026-04-28T14:37:19.067723+00:00",
+      "exit_price": 178.99,
+      "exit_date": "2026-04-28T14:37:19.067723+00:00",
+      "pnl_pct": -1.04,
+      "pnl_pct_live": -1.04
     },
     {
       "ticker": "DSY.PA",
@@ -104,9 +116,15 @@
       "news_score": null,
       "top_news_title": null,
       "top_news_url": null,
-      "status": "open",
+      "status": "expired",
       "issued_at": "2026-04-23T19:59:02.882469",
-      "last_seen": "2026-04-28T14:21:03.415548"
+      "last_seen": "2026-04-28T14:21:03.415548",
+      "current_price": 18.95,
+      "current_price_time": "2026-04-28T14:37:19.067723+00:00",
+      "exit_price": 18.95,
+      "exit_date": "2026-04-28T14:37:19.067723+00:00",
+      "pnl_pct": 1.66,
+      "pnl_pct_live": 1.66
     },
     {
       "ticker": "ZAL.DE",
@@ -134,9 +152,15 @@
       "news_score": null,
       "top_news_title": null,
       "top_news_url": null,
-      "status": "open",
+      "status": "expired",
       "issued_at": "2026-04-22T20:39:14.205742",
-      "last_seen": "2026-04-28T14:21:03.415548"
+      "last_seen": "2026-04-28T14:21:03.415548",
+      "current_price": 21.23,
+      "current_price_time": "2026-04-28T14:37:19.067723+00:00",
+      "exit_price": 21.23,
+      "exit_date": "2026-04-28T14:37:19.067723+00:00",
+      "pnl_pct": 6.23,
+      "pnl_pct_live": 6.23
     },
     {
       "ticker": "ADBE",
@@ -164,9 +188,15 @@
       "news_score": null,
       "top_news_title": null,
       "top_news_url": null,
-      "status": "open",
+      "status": "expired",
       "issued_at": "2026-04-23T08:48:40.766102",
-      "last_seen": "2026-04-28T14:21:03.415548"
+      "last_seen": "2026-04-28T14:21:03.415548",
+      "current_price": 242.72,
+      "current_price_time": "2026-04-28T14:37:19.067723+00:00",
+      "exit_price": 242.72,
+      "exit_date": "2026-04-28T14:37:19.067723+00:00",
+      "pnl_pct": 5.17,
+      "pnl_pct_live": 5.17
     },
     {
       "ticker": "DLTR",
@@ -194,9 +224,15 @@
       "news_score": null,
       "top_news_title": null,
       "top_news_url": null,
-      "status": "open",
+      "status": "expired",
       "issued_at": "2026-04-24T17:51:55.440782",
-      "last_seen": "2026-04-28T14:21:03.415548"
+      "last_seen": "2026-04-28T14:21:03.415548",
+      "current_price": 96.44,
+      "current_price_time": "2026-04-28T14:37:19.067723+00:00",
+      "exit_price": 96.44,
+      "exit_date": "2026-04-28T14:37:19.067723+00:00",
+      "pnl_pct": 6.47,
+      "pnl_pct_live": 6.47
     },
     {
       "ticker": "DXCM",
@@ -224,9 +260,15 @@
       "news_score": null,
       "top_news_title": null,
       "top_news_url": null,
-      "status": "open",
+      "status": "expired",
       "issued_at": "2026-04-23T08:48:40.766099",
-      "last_seen": "2026-04-28T14:21:03.415548"
+      "last_seen": "2026-04-28T14:21:03.415548",
+      "current_price": 60.58,
+      "current_price_time": "2026-04-28T14:37:19.067723+00:00",
+      "exit_price": 60.58,
+      "exit_date": "2026-04-28T14:37:19.067723+00:00",
+      "pnl_pct": 4.46,
+      "pnl_pct_live": 4.46
     },
     {
       "ticker": "FLTR.L",
@@ -256,7 +298,11 @@
       "top_news_url": null,
       "status": "open",
       "issued_at": "2026-04-28T08:24:32.894519",
-      "last_seen": "2026-04-28T14:21:03.415548"
+      "last_seen": "2026-04-28T14:21:03.415548",
+      "current_price": 8008.0,
+      "current_price_time": "2026-04-28T14:37:19.067723+00:00",
+      "pnl_pct_live": 1.69,
+      "progression_pct": 17.1
     },
     {
       "ticker": "P911.DE",
@@ -284,9 +330,15 @@
       "news_score": null,
       "top_news_title": null,
       "top_news_url": null,
-      "status": "open",
+      "status": "expired",
       "issued_at": "2026-04-24T08:22:54.228274",
-      "last_seen": "2026-04-28T14:21:03.415548"
+      "last_seen": "2026-04-28T14:21:03.415548",
+      "current_price": 40.73,
+      "current_price_time": "2026-04-28T14:37:19.067723+00:00",
+      "exit_price": 40.73,
+      "exit_date": "2026-04-28T14:37:19.067723+00:00",
+      "pnl_pct": 1.24,
+      "pnl_pct_live": 1.24
     },
     {
       "ticker": "SU.PA",
@@ -314,9 +366,15 @@
       "news_score": null,
       "top_news_title": null,
       "top_news_url": null,
-      "status": "open",
+      "status": "expired",
       "issued_at": "2026-04-23T18:57:04.742326",
-      "last_seen": "2026-04-28T14:21:03.415548"
+      "last_seen": "2026-04-28T14:21:03.415548",
+      "current_price": 271.45,
+      "current_price_time": "2026-04-28T14:37:19.067723+00:00",
+      "exit_price": 271.45,
+      "exit_date": "2026-04-28T14:37:19.067723+00:00",
+      "pnl_pct": 1.24,
+      "pnl_pct_live": 1.24
     },
     {
       "ticker": "TTD",
