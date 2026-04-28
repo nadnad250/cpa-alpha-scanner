@@ -1,5 +1,11 @@
 """
-Bot Loop — scanne CPA + ML et envoie les opportunités sur Telegram.
+Bot Loop — scanne NASDAQ Top et envoie les opportunités intraday sur Telegram.
+
+Mode INTRADAY AGRESSIF :
+- Univers : NASDAQ-100 + mid-caps haute volatilité
+- Horizon : 24h max (time-stop forcé)
+- Objectif : +5%/jour via portefeuille concentré (≤10 positions)
+- Dédup Telegram : pas de répétition d'un signal déjà envoyé / déjà ouvert
 """
 import argparse
 import logging
@@ -19,14 +25,17 @@ if env_file.exists():
 
 sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
 
-from datetime import datetime
 from config.settings import (
     UNIVERSES, TOP_PER_UNIVERSE, PREMIUM_MIN_SCORE,
     PREMIUM_MIN_CONFIDENCE, PREMIUM_MIN_RR, MAX_GLOBAL_ALERTS,
+    MAX_PER_SECTOR, MAX_OPEN_SIGNALS, TELEGRAM_DEDUP_HOURS,
 )
 from src.agents.scanner_agent import ScannerAgent
 from src.notifications.telegram_bot import TelegramNotifier
 from src.notifications.pro_messages import ProMessageBuilder
+from src.notifications.telegram_dedup import (
+    filter_new_signals, get_open_tickers_from_signals_json,
+)
 from src.tracking.signal_tracker import SignalTracker, TrackedSignal
 from src.notifications.dashboard_exporter import export_to_dashboard
 
@@ -35,6 +44,8 @@ logging.basicConfig(
     format="%(asctime)s | %(levelname)s | %(message)s",
 )
 logger = logging.getLogger("bot_loop")
+
+DASHBOARD_SIGNALS_PATH = Path(__file__).parent / "dashboard" / "data" / "signals.json"
 
 
 class AlphaForgeBot:
@@ -48,17 +59,16 @@ class AlphaForgeBot:
         self.start_time = datetime.now()
 
         if not self.notifier.token or not self.notifier.chat_id:
-            logger.error("❌ TELEGRAM_BOT_TOKEN/CHAT_ID manquants")
+            logger.error("TELEGRAM_BOT_TOKEN/CHAT_ID manquants")
             sys.exit(1)
 
     def run(self, once: bool = False):
-        # Charge les stats tracker existantes pour afficher le track record
         try:
             self._track_stats = self.tracker.performance_stats(lookback_days=90)
         except Exception:
             self._track_stats = None
         self._send(self.msg.startup(stats=self._track_stats))
-        logger.info("🚀 AlphaForge Bot démarré")
+        logger.info("AlphaForge Bot démarré (NASDAQ INTRADAY)")
 
         try:
             while True:
@@ -81,13 +91,11 @@ class AlphaForgeBot:
             self._send("⏸ Bot arrêté")
 
     def _run_cycle(self):
-        self._send(self.msg.market_open_banner())
-
         max_tickers = 15 if self.test_mode else None
         all_opportunities = []
         total_analyzed = 0
 
-        # Scan de tous les univers (collecte)
+        # Scan NASDAQ uniquement (univers défini en settings)
         for universe in UNIVERSES:
             logger.info(f"🔍 Scan {universe}...")
             try:
@@ -102,7 +110,7 @@ class AlphaForgeBot:
             except Exception as e:
                 logger.error(f"  ❌ {e}")
 
-        # Filtre PREMIUM : crème de la crème
+        # Filtre PREMIUM intraday
         premium_raw = [
             o for o in all_opportunities
             if abs(o.score) >= PREMIUM_MIN_SCORE
@@ -111,20 +119,17 @@ class AlphaForgeBot:
             and o.action in ("STRONG_BUY", "BUY", "STRONG_SELL", "SELL")
         ]
 
-        # FILTRE DIVERSIFICATION SECTORIELLE
-        # Max N signaux par secteur (évite concentration ex: 10 signaux tech)
-        # On garde les meilleurs par |score| × confidence dans chaque secteur
-        try:
-            from config.settings import MAX_PER_SECTOR
-        except ImportError:
-            MAX_PER_SECTOR = 3
+        # Tri qualité décroissante
+        premium_raw.sort(
+            key=lambda o: abs(o.score or 0) * (o.confidence or 0),
+            reverse=True,
+        )
 
-        # Tri global par qualité (score × confidence) décroissant
-        premium_raw.sort(key=lambda o: abs(o.score or 0) * (o.confidence or 0), reverse=True)
+        # Diversification sectorielle
         premium = []
         sector_counts: dict[str, int] = {}
         for o in premium_raw:
-            sec = o.sector or "—"
+            sec = (o.sector or "—")
             if sector_counts.get(sec, 0) >= MAX_PER_SECTOR:
                 continue
             premium.append(o)
@@ -132,26 +137,57 @@ class AlphaForgeBot:
 
         n_dropped = len(premium_raw) - len(premium)
         if n_dropped:
-            logger.info(f"🏷 Diversification : {n_dropped} signaux retirés (max {MAX_PER_SECTOR}/secteur)")
+            logger.info(f"🏷 Diversification : {n_dropped} retirés (max {MAX_PER_SECTOR}/secteur)")
         logger.info(f"💎 {len(premium)} signaux premium / {len(all_opportunities)}")
 
-        # Envoi par univers (seulement ceux qui ont des signaux premium)
-        for universe in UNIVERSES:
-            block = self.msg.premium_block(
-                premium,
-                universe=universe,
-                top_n=TOP_PER_UNIVERSE,
-                min_score=PREMIUM_MIN_SCORE,
-                min_confidence=PREMIUM_MIN_CONFIDENCE,
-                min_rr=PREMIUM_MIN_RR,
-            )
-            if block:
-                self._send(block)
-                time.sleep(1)
+        # ── DÉDUP TELEGRAM ─────────────────────────────────────────
+        # Skip les tickers déjà ouverts ou notifiés < TELEGRAM_DEDUP_HOURS
+        open_tickers = get_open_tickers_from_signals_json(DASHBOARD_SIGNALS_PATH)
+        before = len(premium)
+        fresh_signals = filter_new_signals(
+            premium, open_tickers, cooldown_hours=TELEGRAM_DEDUP_HOURS,
+        )
+        skipped = before - len(fresh_signals)
+        logger.info(f"🔁 Dédup : {skipped} skippés (déjà notifiés/ouverts)")
 
-        # Persistance des signaux premium uniquement
+        # Limite : on n'envoie au max que MAX_GLOBAL_ALERTS nouveaux signaux
+        # (le tracker capera de toute façon à MAX_OPEN_SIGNALS au total)
+        slots_libres = max(0, MAX_OPEN_SIGNALS - len(open_tickers))
+        n_to_send = min(len(fresh_signals), MAX_GLOBAL_ALERTS, slots_libres)
+        to_send = fresh_signals[:n_to_send]
+
+        # ── ENVOI TELEGRAM ─────────────────────────────────────────
+        if not to_send:
+            self._send(self.msg.no_new_signals(
+                open_count=len(open_tickers),
+                dedup_skipped=skipped,
+            ))
+        else:
+            # Header unique
+            self._send(self._build_header(
+                n_signals=len(to_send),
+                open_count=len(open_tickers),
+                slots_libres=slots_libres,
+            ))
+            # Séparation BUY / SELL
+            buys = [o for o in to_send if o.action in ("BUY", "STRONG_BUY")]
+            sells = [o for o in to_send if o.action in ("SELL", "STRONG_SELL")]
+
+            if buys:
+                self._send("\n🟢 <b>OPPORTUNITÉS LONG</b>\n" + ProMessageBuilder.DIVIDER)
+                for i, o in enumerate(buys, 1):
+                    self._send(self.msg.premium_signal(o, i))
+                    time.sleep(0.5)
+
+            if sells:
+                self._send("\n🔴 <b>OPPORTUNITÉS SHORT</b>\n" + ProMessageBuilder.DIVIDER)
+                for i, o in enumerate(sells, 1):
+                    self._send(self.msg.premium_signal(o, i))
+                    time.sleep(0.5)
+
+        # ── PERSISTANCE TRACKER + DASHBOARD ────────────────────────
         actionable = [
-            o for o in premium
+            o for o in to_send
             if o.price and o.stop_loss and o.take_profit
         ]
         if actionable:
@@ -162,41 +198,40 @@ class AlphaForgeBot:
                     take_profit=o.take_profit, score=o.score,
                     confidence=o.confidence, universe=o.universe,
                     issued_at=datetime.utcnow().isoformat(),
-                    horizon_days=1, horizon_hours=24,   # intraday
+                    horizon_days=1, horizon_hours=24,
                 )
                 for o in actionable
             ]
             self.tracker.save_batch(tracked)
             logger.info(f"💾 {len(tracked)} signaux tracés")
 
-        # ── Export vers le dashboard web ──────────────────────────
+        # Export dashboard (avec premium pour stats même si pas envoyés)
         from config.settings import DASHBOARD_PATH
         export_to_dashboard(
             opportunities=actionable if actionable else premium,
             tracker=self.tracker,
             dashboard_path=DASHBOARD_PATH or None,
         )
-        # ──────────────────────────────────────────────────────────
 
-        # Résumé avec stats tracker
+        # ── RÉSUMÉ FINAL (concis) ──────────────────────────────────
         self._send(self.msg.market_summary(
             all_opportunities, total_analyzed, len(premium),
             stats=getattr(self, "_track_stats", None),
         ))
-
-        # TOP ALERTES FLASH — les meilleures tous univers confondus
-        top_alerts = sorted(
-            premium, key=lambda o: abs(o.score) * o.confidence, reverse=True,
-        )[:MAX_GLOBAL_ALERTS]
-        if top_alerts:
-            self._send("\n🚨 <b>TOP ALERTES — TOUS MARCHÉS</b>")
-            for o in top_alerts:
-                time.sleep(1)
-                self._send(self.msg.alert_flash(o))
-
         self._send(self.msg.footer())
 
+    def _build_header(self, n_signals: int, open_count: int, slots_libres: int) -> str:
+        return (
+            f"💎 <b>{n_signals} NOUVEAU{'X' if n_signals > 1 else ''} SIGNAL"
+            f"{'S' if n_signals > 1 else ''} INTRADAY</b>\n"
+            f"{ProMessageBuilder.DIVIDER}\n"
+            f"📂 Positions : {open_count}/{open_count + slots_libres} · "
+            f"⏱ Horizon 24h max"
+        )
+
     def _send(self, text: str):
+        if not text or not text.strip():
+            return
         ok = self.notifier.send_chunk(text)
         if ok:
             logger.info(f"📤 Envoyé ({len(text)} chars)")

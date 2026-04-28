@@ -175,7 +175,12 @@ def _sp500_fallback() -> List[str]:
 
 
 def _nasdaq100_fallback() -> List[str]:
-    return [
+    """
+    NASDAQ-100 + mid-caps tech haute volatilité (mouvements 2-5%/jour).
+    Les mid-caps semi/IA/crypto ajoutées sont des "movers" intraday classiques.
+    """
+    ndx100 = [
+        # === MEGA CAPS TECH (les plus liquides) ===
         "AAPL","MSFT","AMZN","NVDA","GOOGL","GOOG","META","TSLA","AVGO","ASML",
         "COST","CSCO","ADBE","PEP","NFLX","AMD","TMUS","INTC","INTU","QCOM",
         "CMCSA","HON","TXN","AMAT","ISRG","BKNG","LRCX","VRTX","REGN","MU",
@@ -184,6 +189,45 @@ def _nasdaq100_fallback() -> List[str]:
         "WDAY","DXCM","EXC","FAST","ODFL","EA","ROST","XEL","DLTR","PAYX",
         "CPRT","KHC","BKR","ON","CEG","TTD","VRSK","ZS","ANSS","SIRI","FANG",
     ]
+    # === HIGH-VOL INTRADAY MOVERS (NASDAQ mid-caps & growth) ===
+    # Beta > 1.5, ATR > 3% : ces tickers bougent vraiment dans la journée.
+    movers = [
+        "SMCI",   # Super Micro Computer (IA hardware, ATR ~6%)
+        "PLTR",   # Palantir (IA government, ATR ~4%)
+        "COIN",   # Coinbase (proxy crypto, ATR ~5%)
+        "MARA",   # Marathon Digital (BTC mining)
+        "RIOT",   # Riot Platforms (BTC mining)
+        "ARM",    # Arm Holdings (semi IA)
+        "MRVL",   # Marvell Technology (semi)
+        "WOLF",   # Wolfspeed (SiC semi)
+        "RBLX",   # Roblox
+        "HOOD",   # Robinhood
+        "SOFI",   # SoFi Technologies
+        "DKNG",   # DraftKings
+        "AFRM",   # Affirm
+        "PYPL",   # PayPal
+        "SQ",     # Block
+        "SNOW",   # Snowflake
+        "DDOG",   # Datadog
+        "MDB",    # MongoDB
+        "NET",    # Cloudflare
+        "OKTA",   # Okta
+        "DOCU",   # DocuSign
+        "ZM",     # Zoom
+        "ROKU",   # Roku
+        "PINS",   # Pinterest
+        "SHOP",   # Shopify
+        "TEAM",   # Atlassian
+        "CRSP",   # CRISPR Therapeutics
+        "MRNA",   # Moderna
+        "BNTX",   # BioNTech
+    ]
+    seen, result = set(), []
+    for t in ndx100 + movers:
+        if t not in seen:
+            seen.add(t)
+            result.append(t)
+    return result
 
 
 def _eurostoxx50_fallback() -> List[str]:

@@ -5,29 +5,32 @@ import os
 TELEGRAM_BOT_TOKEN = os.getenv("TELEGRAM_BOT_TOKEN", "")
 TELEGRAM_CHAT_ID = os.getenv("TELEGRAM_CHAT_ID", "")
 
-# === Marchés ===
-UNIVERSES = [
-    "SP500", "NASDAQ100", "DOW30",
-    "EUROSTOXX50", "CAC40", "DAX40", "FTSE100",
-    "FUTURES_COMMODITIES",    # NQ, ES, GC (or), CL (pétrole), NG, devises, agri
-    "CRYPTO",                 # BTC, ETH, SOL, etc.
-]
+# === Marchés — NASDAQ TOP UNIQUEMENT (intraday agressif) ===
+# Focus exclusif : NASDAQ 100 (mega-caps tech haute liquidité, mouvements 2-5%/jour)
+# Pas de SP500/Europe/futures/crypto : trop dilué pour 5%/jour.
+# Le NDX-100 = ~100 tickers déjà filtrés par capitalisation et volume.
+UNIVERSES = ["NASDAQ100"]
 
-# === Seuils "EDGE PRO" — qualité > quantité ===
-PREMIUM_MIN_SCORE      = 0.48     # 0.40 → 0.48 : exige plus de conviction (+20%)
-PREMIUM_MIN_CONFIDENCE = 0.70     # 0.66 → 0.70 : IBM (winner) avait 0.71
-PREMIUM_MIN_RR         = 2.5      # 2.2 → 2.5 : seuil standard pros
-TOP_PER_UNIVERSE       = 3        # 4 → 3 : qualité > quantité
-MAX_GLOBAL_ALERTS      = 8        # 10 → 8 : focus sur les meilleurs
+# === Seuils "EDGE INTRADAY AGRESSIF" — objectif 5%/jour ===
+# Univers réduit (~100 tickers) → on peut relâcher légèrement le score
+# mais ON RENFORCE confidence + R/R pour viser quality intraday.
+PREMIUM_MIN_SCORE      = 0.42     # 0.48 → 0.42 : univers + petit, signaux + rares
+PREMIUM_MIN_CONFIDENCE = 0.72     # 0.70 → 0.72 : exige forte conviction
+PREMIUM_MIN_RR         = 2.8      # 2.5 → 2.8 : pour 5%/jour il faut R/R élevé
+TOP_PER_UNIVERSE       = 10       # 3 → 10 : un seul univers maintenant
+MAX_GLOBAL_ALERTS      = 10       # aligné sur MAX_OPEN_SIGNALS
 
-# Diversification sectorielle — max N signaux ouverts par secteur
-# Évite 10 signaux tech en même temps (risque concentration)
-MAX_PER_SECTOR         = 3
+# Diversification sectorielle — au sein du NASDAQ
+# NDX-100 = 60% tech → on doit forcer quelques non-tech (consumer, biotech)
+MAX_PER_SECTOR         = 4
 
 # Cap absolu sur positions ouvertes simultanées — TOP DU TOP
-# Le bot peut générer 50 signaux premium, mais seul le top 10 passe.
-# Garantit un portefeuille concentré sur la meilleure conviction.
 MAX_OPEN_SIGNALS       = 10
+
+# === DÉDUP TELEGRAM ===
+# Ne jamais renvoyer un signal pour un ticker déjà en position ouverte.
+# Le bot scanne 4×/jour, mais ne notifie que les nouveautés.
+TELEGRAM_DEDUP_HOURS   = 24       # cooldown par (ticker, action)
 
 # === HORIZON INTRADAY ===
 # Le bot opère en intraday : tout signal doit être clôturé dans 24h max.

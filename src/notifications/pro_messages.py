@@ -47,29 +47,39 @@ class ProMessageBuilder:
 
     @staticmethod
     def startup(stats: Optional[Dict] = None) -> str:
-        now = datetime.now().strftime("%d/%m/%Y %H:%M")
+        now = datetime.now().strftime("%d/%m %H:%M")
         lines = [
-            f"🟢 <b>ALPHAFORGE PRO</b>",
+            f"⚡ <b>ALPHAFORGE — NASDAQ INTRADAY</b>",
             f"{ProMessageBuilder.DIVIDER}",
-            f"📅 {now}",
-            f"🎯 <b>Crème de la crème</b> — score&gt;0.35 · conf&gt;65%",
+            f"📅 {now} · 🎯 24h max · 🚀 Objectif +5%/j",
         ]
         if stats and stats.get("total", 0) > 0:
             wr = stats["win_rate"] * 100
             pf = stats["profit_factor"]
             pf_str = "∞" if pf == float("inf") else f"{pf:.2f}"
             lines.append(
-                f"📊 Track : <b>{stats['total']}</b> trades · "
+                f"📊 <b>{stats['total']}</b> trades · "
                 f"WR <b>{wr:.0f}%</b> · PF <b>{pf_str}</b>"
             )
         return "\n".join(lines)
 
     @staticmethod
     def market_open_banner() -> str:
-        return (
-            f"🔔 <b>SIGNAUX PREMIUM DU JOUR</b>\n"
-            f"{ProMessageBuilder.DIVIDER}"
-        )
+        # Plus utilisé — le startup() suffit. Conservé pour compat.
+        return ""
+
+    @staticmethod
+    def no_new_signals(open_count: int, dedup_skipped: int) -> str:
+        """Quand aucun nouveau signal après dédup."""
+        lines = [
+            f"💤 <b>Aucun nouveau signal</b>",
+            f"{ProMessageBuilder.DIVIDER}",
+            f"📂 Positions ouvertes : <b>{open_count}</b>/10",
+        ]
+        if dedup_skipped:
+            lines.append(f"🔁 Déjà notifiés : {dedup_skipped} (cooldown 24h)")
+        lines.append("<i>Prochain scan dans quelques heures</i>")
+        return "\n".join(lines)
 
     @staticmethod
     def premium_signal(o, rank: int) -> str:

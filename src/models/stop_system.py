@@ -38,28 +38,35 @@ def compute_stops(
     prices: pd.Series,
     entry_price: float,
     action: str,
-    target_rr: float = 2.5,
+    target_rr: float = 2.8,
 ) -> Dict[str, float]:
     """
-    Calcule SL/TP ajustés selon la volatilité (ATR).
+    Calcule SL/TP ajustés pour INTRADAY (24h max horizon).
 
-    Règles :
-    - k_sl adaptatif : 1.5× ATR (faible vol) à 2.5× ATR (haute vol)
-    - k_tp = k_sl × target_rr (minimum R/R 2.5:1)
-    - SL min 3%, max 15% du prix
-    - TP min 5%, max 40% du prix
+    Règles intraday agressif :
+    - k_sl adaptatif : 1.0× ATR (faible vol) à 2.0× ATR (haute vol)
+    - k_tp = k_sl × target_rr (R/R 2.8:1 par défaut → settings.PREMIUM_MIN_RR)
+    - SL min 1.5%, max 5% du prix (stops serrés pour intraday)
+    - TP min 3%, max 15% du prix (cible réaliste sur 24h)
     """
     atr = _atr(prices, period=14)
     vol = _realized_vol(prices, window=21)
 
-    # k_sl adaptatif selon volatilité annualisée
+    # k_sl adaptatif INTRADAY (multiplicateurs réduits car horizon 24h)
     vol_ann = vol * np.sqrt(252)
     if vol_ann < 0.25:
-        k_sl = 1.5
+        k_sl = 1.0
     elif vol_ann < 0.45:
-        k_sl = 2.0
+        k_sl = 1.5
     else:
-        k_sl = 2.5
+        k_sl = 2.0
+
+    # Lire target_rr depuis settings si dispo (priorité settings > param)
+    try:
+        from config.settings import PREMIUM_MIN_RR
+        target_rr = max(target_rr, float(PREMIUM_MIN_RR))
+    except Exception:
+        pass
 
     k_tp = k_sl * target_rr
 
@@ -72,11 +79,11 @@ def compute_stops(
         stop = entry_price + k_sl * atr
         take = entry_price - k_tp * atr
 
-    # Contraintes absolues
-    min_sl_dist = entry_price * 0.03
-    max_sl_dist = entry_price * 0.15
-    min_tp_dist = entry_price * 0.05
-    max_tp_dist = entry_price * 0.40
+    # Contraintes INTRADAY (resserrées vs swing trading)
+    min_sl_dist = entry_price * 0.015   # 1.5% min (tight stops intraday)
+    max_sl_dist = entry_price * 0.05    # 5% max (au-delà = pas intraday)
+    min_tp_dist = entry_price * 0.03    # 3% min (cible réaliste 24h)
+    max_tp_dist = entry_price * 0.15    # 15% max (1 std dev mega-cap NDX)
 
     sl_dist = abs(entry_price - stop)
     tp_dist = abs(take - entry_price)

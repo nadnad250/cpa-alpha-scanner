@@ -136,11 +136,11 @@ class OpportunityDetector:
         if final_score < 0 and ml_proba_up > 0.52:
             return None  # SELL rejeté si ML nettement bullish
 
-        # FILTRE QUALITÉ : cohérence multi-facteurs
-        # On exige qu'au moins 3 des 4 composantes CPA (parmi celles disponibles)
-        # pointent dans la même direction que le score final.
-        # Évite les signaux dominés par une seule composante (ex: value_gap très négatif
-        # alors que momentum et info_flow sont positifs).
+        # FILTRE QUALITÉ : cohérence multi-facteurs (assoupli pour intraday NASDAQ)
+        # Pour intraday, on exige 2/4 composantes alignées (au lieu de 3/4) car :
+        # - Univers réduit (~130 tickers) → trop strict tue trop de candidats
+        # - Sur 24h, momentum (info_flow) prime sur value_gap fondamental
+        # - On compense avec score/conf/RR plus exigeants en amont
         direction = 1 if final_score > 0 else -1
         available_components = [
             getattr(cpa_result, k) for k in
@@ -149,10 +149,10 @@ class OpportunityDetector:
         ]
         if len(available_components) >= 3:
             aligned = sum(1 for c in available_components if (c * direction) > 0)
-            # Au moins 3 composantes alignées (ou toutes si on en a 3)
-            threshold = 3 if len(available_components) >= 4 else len(available_components) - 1
+            # Au moins la moitié alignées
+            threshold = max(2, (len(available_components) + 1) // 2)
             if aligned < threshold:
-                return None  # Signaux trop contradictoires entre les facteurs
+                return None
 
         # FILTRE TENDANCE MM200 : rejeter les signaux contre-tendance
         try:
@@ -167,7 +167,8 @@ class OpportunityDetector:
         except Exception:
             pass  # Si pas de settings ou erreur, on laisse passer
 
-        # FILTRE VOLATILITÉ : rejeter les actifs trop volatils (meme stocks, crypto extrême)
+        # FILTRE VOLATILITÉ : rejeter SEULEMENT les extremes (crypto-like)
+        # Pour intraday NASDAQ, vol 100-120% (SMCI, COIN, MARA) est OK et désirable.
         try:
             from config.settings import MAX_VOLATILITY
             if prices is not None and len(prices) >= 30:
