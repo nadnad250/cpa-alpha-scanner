@@ -22,6 +22,7 @@ Requires env var FRED_API_KEY (secret GitHub).
 """
 import logging
 import os
+import time
 from dataclasses import dataclass, field
 from datetime import datetime, timedelta
 from typing import Optional
@@ -63,32 +64,43 @@ def _fetch_latest(series_id: str, api_key: str) -> Optional[float]:
         if now - ts < CACHE_TTL:
             return val
 
-    try:
-        params = {
-            "series_id":        series_id,
-            "api_key":          api_key,
-            "file_type":        "json",
-            "sort_order":       "desc",
-            "limit":            5,   # dernières 5 obs pour skip les "."
-        }
-        r = requests.get(FRED_BASE, params=params, timeout=8)
-        if r.status_code != 200:
-            logger.warning(f"FRED {series_id} HTTP {r.status_code}")
+    params = {
+        "series_id":        series_id,
+        "api_key":          api_key,
+        "file_type":        "json",
+        "sort_order":       "desc",
+        "limit":            5,   # dernières 5 obs pour skip les "."
+    }
+    # Retry up to 3 times with exponential backoff on transient errors (5xx, timeout)
+    for attempt in range(3):
+        try:
+            r = requests.get(FRED_BASE, params=params, timeout=10)
+            if r.status_code == 200:
+                obs = r.json().get("observations", [])
+                for o in obs:
+                    v = o.get("value")
+                    if v and v != ".":
+                        try:
+                            val = float(v)
+                            _cache[series_id] = (now, val)
+                            return val
+                        except ValueError:
+                            continue
+                return None
+            # 4xx = erreur définitive (clé invalide, série inconnue) — pas de retry
+            if 400 <= r.status_code < 500:
+                logger.warning(f"FRED {series_id} HTTP {r.status_code} (no retry)")
+                return None
+            # 5xx = erreur serveur transitoire — retry
+            logger.warning(f"FRED {series_id} HTTP {r.status_code} (attempt {attempt + 1}/3)")
+        except (requests.Timeout, requests.ConnectionError) as e:
+            logger.warning(f"FRED {series_id} network error: {e} (attempt {attempt + 1}/3)")
+        except Exception as e:
+            logger.warning(f"FRED {series_id} unexpected error: {e}")
             return None
-        obs = r.json().get("observations", [])
-        for o in obs:
-            v = o.get("value")
-            if v and v != ".":
-                try:
-                    val = float(v)
-                    _cache[series_id] = (now, val)
-                    return val
-                except ValueError:
-                    continue
-        return None
-    except Exception as e:
-        logger.warning(f"FRED {series_id} error: {e}")
-        return None
+        if attempt < 2:
+            time.sleep(2 ** attempt)   # 1s, 2s
+    return None
 
 
 def get_macro_context() -> MacroContext:
