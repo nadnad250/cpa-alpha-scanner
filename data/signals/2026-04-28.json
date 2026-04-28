@@ -17,5 +17,24 @@
     "pnl_pct": null,
     "max_favorable": null,
     "max_adverse": null
+  },
+  {
+    "ticker": "VIV.PA",
+    "action": "STRONG_SELL",
+    "entry_price": 2.076,
+    "stop_loss": 2.171757842063904,
+    "take_profit": 1.8366053948402405,
+    "score": -0.5050004811058244,
+    "confidence": 0.8038355659692459,
+    "universe": "CAC40",
+    "issued_at": "2026-04-28T14:21:03.414688",
+    "horizon_days": 1,
+    "horizon_hours": 24,
+    "status": "open",
+    "exit_price": null,
+    "exit_date": null,
+    "pnl_pct": null,
+    "max_favorable": null,
+    "max_adverse": null
   }
 ]
