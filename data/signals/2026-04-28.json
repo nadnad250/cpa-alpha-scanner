@@ -15,8 +15,8 @@
     "exit_price": null,
     "exit_date": null,
     "pnl_pct": null,
-    "max_favorable": null,
-    "max_adverse": null
+    "max_favorable": 0.015958752762091823,
+    "max_adverse": 0.015958752762091823
   },
   {
     "ticker": "VIV.PA",
@@ -34,8 +34,8 @@
     "exit_price": null,
     "exit_date": null,
     "pnl_pct": null,
-    "max_favorable": null,
-    "max_adverse": null
+    "max_favorable": 0.00481696303409881,
+    "max_adverse": 0.00481696303409881
   },
   {
     "ticker": "ZAL.DE",
@@ -53,8 +53,8 @@
     "exit_price": null,
     "exit_date": null,
     "pnl_pct": null,
-    "max_favorable": null,
-    "max_adverse": null
+    "max_favorable": -1.440867712626143e-08,
+    "max_adverse": -1.440867712626143e-08
   },
   {
     "ticker": "ZAL.DE",
@@ -72,8 +72,8 @@
     "exit_price": null,
     "exit_date": null,
     "pnl_pct": null,
-    "max_favorable": null,
-    "max_adverse": null
+    "max_favorable": -1.440867712626143e-08,
+    "max_adverse": -1.440867712626143e-08
   },
   {
     "ticker": "ZAL.DE",
@@ -91,8 +91,8 @@
     "exit_price": null,
     "exit_date": null,
     "pnl_pct": null,
-    "max_favorable": null,
-    "max_adverse": null
+    "max_favorable": -1.440867712626143e-08,
+    "max_adverse": -1.440867712626143e-08
   },
   {
     "ticker": "BNTX",
@@ -110,8 +110,8 @@
     "exit_price": null,
     "exit_date": null,
     "pnl_pct": null,
-    "max_favorable": null,
-    "max_adverse": null
+    "max_favorable": 2.3921284070877296e-08,
+    "max_adverse": 2.3921284070877296e-08
   },
   {
     "ticker": "KHC",
@@ -129,8 +129,8 @@
     "exit_price": null,
     "exit_date": null,
     "pnl_pct": null,
-    "max_favorable": null,
-    "max_adverse": null
+    "max_favorable": 3.055832250447849e-08,
+    "max_adverse": 3.055832250447849e-08
   },
   {
     "ticker": "PAYX",
@@ -148,8 +148,8 @@
     "exit_price": null,
     "exit_date": null,
     "pnl_pct": null,
-    "max_favorable": null,
-    "max_adverse": null
+    "max_favorable": 2.3477640000374684e-08,
+    "max_adverse": 2.3477640000374684e-08
   },
   {
     "ticker": "TMUS",
@@ -167,8 +167,8 @@
     "exit_price": null,
     "exit_date": null,
     "pnl_pct": null,
-    "max_favorable": null,
-    "max_adverse": null
+    "max_favorable": -6.537613143406536e-09,
+    "max_adverse": -6.537613143406536e-09
   },
   {
     "ticker": "CMCSA",
@@ -186,8 +186,8 @@
     "exit_price": null,
     "exit_date": null,
     "pnl_pct": null,
-    "max_favorable": null,
-    "max_adverse": null
+    "max_favorable": 2.208218390262063e-08,
+    "max_adverse": 2.208218390262063e-08
   },
   {
     "ticker": "NFLX",
@@ -205,7 +205,7 @@
     "exit_price": null,
     "exit_date": null,
     "pnl_pct": null,
-    "max_favorable": null,
-    "max_adverse": null
+    "max_favorable": 3.638163639071161e-08,
+    "max_adverse": 3.638163639071161e-08
   }
 ]

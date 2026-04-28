@@ -10,11 +10,12 @@
     "universe": "CAC40",
     "issued_at": "2026-04-24T08:22:54.228252",
     "horizon_days": 21,
-    "status": "open",
-    "exit_price": null,
-    "exit_date": null,
-    "pnl_pct": null,
-    "max_favorable": -0.025647700254095355,
+    "horizon_hours": 24,
+    "status": "expired",
+    "exit_price": 18.795000076293945,
+    "exit_date": "2026-04-28",
+    "pnl_pct": 0.01622611482366161,
+    "max_favorable": 0.01622611482366161,
     "max_adverse": -0.025647700254095355
   },
   {
@@ -28,11 +29,12 @@
     "universe": "DAX40",
     "issued_at": "2026-04-24T08:22:54.228274",
     "horizon_days": 21,
-    "status": "open",
-    "exit_price": null,
-    "exit_date": null,
-    "pnl_pct": null,
-    "max_favorable": 0.0031522645404568257,
+    "horizon_hours": 24,
+    "status": "expired",
+    "exit_price": 40.81999969482422,
+    "exit_date": "2026-04-28",
+    "pnl_pct": 0.01018429449989775,
+    "max_favorable": 0.013579042066542694,
     "max_adverse": 0.0031522645404568257
   },
   {
@@ -46,11 +48,12 @@
     "universe": "NASDAQ100",
     "issued_at": "2026-04-24T17:51:55.440782",
     "horizon_days": 21,
-    "status": "open",
-    "exit_price": null,
-    "exit_date": null,
-    "pnl_pct": null,
-    "max_favorable": -0.006206963437106009,
+    "horizon_hours": 24,
+    "status": "expired",
+    "exit_price": 98.22000122070312,
+    "exit_date": "2026-04-28",
+    "pnl_pct": 0.04742506817279483,
+    "max_favorable": 0.04955872369314324,
     "max_adverse": -0.006206963437106009
   }
 ]

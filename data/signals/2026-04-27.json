@@ -10,12 +10,13 @@
     "universe": "NASDAQ100",
     "issued_at": "2026-04-27T14:19:58.544261",
     "horizon_days": 21,
-    "status": "open",
-    "exit_price": null,
-    "exit_date": null,
-    "pnl_pct": null,
-    "max_favorable": null,
-    "max_adverse": null
+    "horizon_hours": 24,
+    "status": "expired",
+    "exit_price": 23.229999542236328,
+    "exit_date": "2026-04-28",
+    "pnl_pct": -0.0015089261580654382,
+    "max_favorable": 0.002371227003731959,
+    "max_adverse": -0.0015089261580654382
   },
   {
     "ticker": "ZAL.DE",
@@ -28,12 +29,13 @@
     "universe": "DAX40",
     "issued_at": "2026-04-27T14:19:58.544283",
     "horizon_days": 21,
-    "status": "open",
-    "exit_price": null,
-    "exit_date": null,
-    "pnl_pct": null,
-    "max_favorable": null,
-    "max_adverse": null
+    "horizon_hours": 24,
+    "status": "expired",
+    "exit_price": 21.18000030517578,
+    "exit_date": "2026-04-28",
+    "pnl_pct": 0.03639671041056502,
+    "max_favorable": 0.03639671041056502,
+    "max_adverse": 0.006369419809468144
   },
   {
     "ticker": "ABT",
@@ -46,12 +48,13 @@
     "universe": "SP500",
     "issued_at": "2026-04-27T14:19:58.544288",
     "horizon_days": 21,
-    "status": "open",
-    "exit_price": null,
-    "exit_date": null,
-    "pnl_pct": null,
-    "max_favorable": null,
-    "max_adverse": null
+    "horizon_hours": 24,
+    "status": "expired",
+    "exit_price": 93.86000061035156,
+    "exit_date": "2026-04-28",
+    "pnl_pct": -0.012622727482485325,
+    "max_favorable": -0.0011867844617306589,
+    "max_adverse": -0.012622727482485325
   },
   {
     "ticker": "IDXX",
@@ -64,12 +67,13 @@
     "universe": "NASDAQ100",
     "issued_at": "2026-04-27T14:19:58.544291",
     "horizon_days": 21,
-    "status": "open",
-    "exit_price": null,
-    "exit_date": null,
-    "pnl_pct": null,
-    "max_favorable": null,
-    "max_adverse": null
+    "horizon_hours": 24,
+    "status": "expired",
+    "exit_price": 568.2999877929688,
+    "exit_date": "2026-04-28",
+    "pnl_pct": 0.005068343047525451,
+    "max_favorable": 0.005068343047525451,
+    "max_adverse": -0.006573958467828324
   },
   {
     "ticker": "ZAL.DE",
@@ -82,12 +86,13 @@
     "universe": "DAX40",
     "issued_at": "2026-04-27T15:43:26.427288",
     "horizon_days": 21,
-    "status": "open",
-    "exit_price": null,
-    "exit_date": null,
-    "pnl_pct": null,
-    "max_favorable": null,
-    "max_adverse": null
+    "horizon_hours": 24,
+    "status": "expired",
+    "exit_price": 21.18000030517578,
+    "exit_date": "2026-04-28",
+    "pnl_pct": 0.02888581819459961,
+    "max_favorable": 0.02888581819459961,
+    "max_adverse": -0.0013755228146672125
   },
   {
     "ticker": "ZAL.DE",
@@ -100,12 +105,13 @@
     "universe": "DAX40",
     "issued_at": "2026-04-27T17:58:57.091333",
     "horizon_days": 21,
-    "status": "open",
-    "exit_price": null,
-    "exit_date": null,
-    "pnl_pct": null,
-    "max_favorable": null,
-    "max_adverse": null
+    "horizon_hours": 24,
+    "status": "expired",
+    "exit_price": 21.18000030517578,
+    "exit_date": "2026-04-28",
+    "pnl_pct": 0.030219766246530156,
+    "max_favorable": 0.030219766246530156,
+    "max_adverse": -6.986625035124018e-09
   },
   {
     "ticker": "ZAL.DE",
@@ -118,12 +124,13 @@
     "universe": "DAX40",
     "issued_at": "2026-04-27T20:01:34.329143",
     "horizon_days": 21,
-    "status": "open",
-    "exit_price": null,
-    "exit_date": null,
-    "pnl_pct": null,
-    "max_favorable": null,
-    "max_adverse": null
+    "horizon_hours": 24,
+    "status": "expired",
+    "exit_price": 21.18000030517578,
+    "exit_date": "2026-04-28",
+    "pnl_pct": 0.030219766246530156,
+    "max_favorable": 0.030219766246530156,
+    "max_adverse": -6.986625035124018e-09
   },
   {
     "ticker": "VIV.PA",
@@ -136,11 +143,12 @@
     "universe": "CAC40",
     "issued_at": "2026-04-27T20:01:34.329163",
     "horizon_days": 21,
-    "status": "open",
-    "exit_price": null,
-    "exit_date": null,
-    "pnl_pct": null,
-    "max_favorable": null,
-    "max_adverse": null
+    "horizon_hours": 24,
+    "status": "expired",
+    "exit_price": 2.065999984741211,
+    "exit_date": "2026-04-28",
+    "pnl_pct": 0.030046955520558197,
+    "max_favorable": 0.030046955520558197,
+    "max_adverse": -5.3728130551798784e-08
   }
 ]
