@@ -12,12 +12,13 @@ TELEGRAM_CHAT_ID = os.getenv("TELEGRAM_CHAT_ID", "")
 UNIVERSES = ["NASDAQ100"]
 
 # === Seuils "EDGE INTRADAY AGRESSIF" — objectif 5%/jour ===
-# Univers réduit (~100 tickers) → on peut relâcher légèrement le score
-# mais ON RENFORCE confidence + R/R pour viser quality intraday.
-PREMIUM_MIN_SCORE      = 0.42     # 0.48 → 0.42 : univers + petit, signaux + rares
-PREMIUM_MIN_CONFIDENCE = 0.72     # 0.70 → 0.72 : exige forte conviction
-PREMIUM_MIN_RR         = 2.8      # 2.5 → 2.8 : pour 5%/jour il faut R/R élevé
-TOP_PER_UNIVERSE       = 10       # 3 → 10 : un seul univers maintenant
+# Univers réduit (~130 tickers NDX + movers) → on calibre pour
+# laisser passer ~5-10 premium par scan (ratio ~10-15% des opps brutes).
+# Test du 28/04 : 60 opps brutes / 98 analysés, 0 premium avec 0.42/0.72/2.8 trop strict.
+PREMIUM_MIN_SCORE      = 0.38     # 0.42 → 0.38 : laisser passer + de signaux
+PREMIUM_MIN_CONFIDENCE = 0.68     # 0.72 → 0.68 : IBM (winner réf) avait 0.71
+PREMIUM_MIN_RR         = 2.5      # 2.8 → 2.5 : standard pros, atteignable avec stops serrés
+TOP_PER_UNIVERSE       = 10       # un seul univers maintenant
 MAX_GLOBAL_ALERTS      = 10       # aligné sur MAX_OPEN_SIGNALS
 
 # Diversification sectorielle — au sein du NASDAQ
