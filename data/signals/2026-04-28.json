@@ -1,0 +1,21 @@
+[
+  {
+    "ticker": "FLTR.L",
+    "action": "STRONG_SELL",
+    "entry_price": 8146.0,
+    "stop_loss": 8468.0,
+    "take_profit": 7341.0,
+    "score": -0.5563104742834134,
+    "confidence": 0.7503150701191686,
+    "universe": "FTSE100",
+    "issued_at": "2026-04-28T08:24:32.894519",
+    "horizon_days": 1,
+    "horizon_hours": 24,
+    "status": "open",
+    "exit_price": null,
+    "exit_date": null,
+    "pnl_pct": null,
+    "max_favorable": null,
+    "max_adverse": null
+  }
+]
