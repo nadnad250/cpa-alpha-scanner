@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-04-29T16:18:51.726865+00:00",
+  "generated_at": "2026-04-29T17:01:52.028483+00:00",
   "date": "2026-04-29",
   "stats": {
     "total": 10,
@@ -51,10 +51,10 @@
       "status": "open",
       "issued_at": "2026-04-29T15:43:53.167471",
       "last_seen": "2026-04-29T15:43:53.168344",
-      "current_price": 98.29,
-      "current_price_time": "2026-04-29T16:18:51.726865+00:00",
-      "pnl_pct_live": -0.07,
-      "progression_pct": -1.4
+      "current_price": 98.06,
+      "current_price_time": "2026-04-29T17:01:52.028483+00:00",
+      "pnl_pct_live": -0.31,
+      "progression_pct": -6.1
     },
     {
       "ticker": "FLTR.L",
@@ -199,10 +199,10 @@
       "status": "open",
       "issued_at": "2026-04-29T08:20:07.096790",
       "last_seen": "2026-04-29T08:20:07.097452",
-      "current_price": 136.65,
-      "current_price_time": "2026-04-29T16:18:51.726865+00:00",
-      "pnl_pct_live": 3.21,
-      "progression_pct": 21.5
+      "current_price": 136.75,
+      "current_price_time": "2026-04-29T17:01:52.028483+00:00",
+      "pnl_pct_live": 3.14,
+      "progression_pct": 21.0
     },
     {
       "ticker": "BNTX",
@@ -233,10 +233,10 @@
       "status": "open",
       "issued_at": "2026-04-28T20:50:15.627349",
       "last_seen": "2026-04-29T08:20:07.097452",
-      "current_price": 100.54,
-      "current_price_time": "2026-04-29T16:18:51.726865+00:00",
-      "pnl_pct_live": 1.49,
-      "progression_pct": 17.3
+      "current_price": 100.31,
+      "current_price_time": "2026-04-29T17:01:52.028483+00:00",
+      "pnl_pct_live": 1.71,
+      "progression_pct": 19.9
     },
     {
       "ticker": "PAYX",
@@ -304,10 +304,10 @@
       "status": "open",
       "issued_at": "2026-04-28T20:50:15.627376",
       "last_seen": "2026-04-29T08:20:07.097452",
-      "current_price": 22.53,
-      "current_price_time": "2026-04-29T16:18:51.726865+00:00",
-      "pnl_pct_live": -0.27,
-      "progression_pct": -15.8
+      "current_price": 22.55,
+      "current_price_time": "2026-04-29T17:01:52.028483+00:00",
+      "pnl_pct_live": -0.36,
+      "progression_pct": -21.1
     },
     {
       "ticker": "PYPL",
@@ -342,10 +342,10 @@
       "status": "open",
       "issued_at": "2026-04-29T08:20:07.096807",
       "last_seen": "2026-04-29T08:20:07.097452",
-      "current_price": 49.93,
-      "current_price_time": "2026-04-29T16:18:51.726865+00:00",
-      "pnl_pct_live": -0.58,
-      "progression_pct": -24.6
+      "current_price": 49.94,
+      "current_price_time": "2026-04-29T17:01:52.028483+00:00",
+      "pnl_pct_live": -0.6,
+      "progression_pct": -25.4
     },
     {
       "ticker": "NFLX",
@@ -380,10 +380,10 @@
       "status": "open",
       "issued_at": "2026-04-29T08:20:07.096812",
       "last_seen": "2026-04-29T08:20:07.097452",
-      "current_price": 92.31,
-      "current_price_time": "2026-04-29T16:18:51.726865+00:00",
-      "pnl_pct_live": -0.04,
-      "progression_pct": -1.0
+      "current_price": 92.1,
+      "current_price_time": "2026-04-29T17:01:52.028483+00:00",
+      "pnl_pct_live": 0.18,
+      "progression_pct": 1.6
     },
     {
       "ticker": "TTD",
