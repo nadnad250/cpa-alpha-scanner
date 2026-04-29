@@ -55,5 +55,43 @@
     "pnl_pct": null,
     "max_favorable": null,
     "max_adverse": null
+  },
+  {
+    "ticker": "FTNT",
+    "action": "SELL",
+    "entry_price": 85.215,
+    "stop_loss": 87.71785884312222,
+    "take_profit": 78.20699523925782,
+    "score": -0.3956642272555271,
+    "confidence": 0.7149227977143541,
+    "universe": "NASDAQ100",
+    "issued_at": "2026-04-29T14:26:53.755794",
+    "horizon_days": 1,
+    "horizon_hours": 24,
+    "status": "open",
+    "exit_price": null,
+    "exit_date": null,
+    "pnl_pct": null,
+    "max_favorable": null,
+    "max_adverse": null
+  },
+  {
+    "ticker": "PANW",
+    "action": "STRONG_SELL",
+    "entry_price": 179.445,
+    "stop_loss": 187.96285496303014,
+    "take_profit": 155.59500610351563,
+    "score": -0.4008068368667757,
+    "confidence": 0.6907170781034102,
+    "universe": "NASDAQ100",
+    "issued_at": "2026-04-29T14:26:53.755821",
+    "horizon_days": 1,
+    "horizon_hours": 24,
+    "status": "open",
+    "exit_price": null,
+    "exit_date": null,
+    "pnl_pct": null,
+    "max_favorable": null,
+    "max_adverse": null
   }
 ]
