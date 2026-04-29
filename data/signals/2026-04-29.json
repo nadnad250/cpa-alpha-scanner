@@ -131,5 +131,43 @@
     "pnl_pct": null,
     "max_favorable": null,
     "max_adverse": null
+  },
+  {
+    "ticker": "OKTA",
+    "action": "STRONG_SELL",
+    "entry_price": 75.46,
+    "stop_loss": 79.23299999999999,
+    "take_profit": 64.67400451660156,
+    "score": -0.5865196413598254,
+    "confidence": 0.7273459671749056,
+    "universe": "NASDAQ100",
+    "issued_at": "2026-04-29T18:26:53.951614",
+    "horizon_days": 1,
+    "horizon_hours": 24,
+    "status": "open",
+    "exit_price": null,
+    "exit_date": null,
+    "pnl_pct": null,
+    "max_favorable": null,
+    "max_adverse": null
+  },
+  {
+    "ticker": "CEG",
+    "action": "STRONG_SELL",
+    "entry_price": 296.175,
+    "stop_loss": 310.5549961635045,
+    "take_profit": 255.9110107421875,
+    "score": -0.4406287374654354,
+    "confidence": 0.8164269280962391,
+    "universe": "NASDAQ100",
+    "issued_at": "2026-04-29T18:26:53.951639",
+    "horizon_days": 1,
+    "horizon_hours": 24,
+    "status": "open",
+    "exit_price": null,
+    "exit_date": null,
+    "pnl_pct": null,
+    "max_favorable": null,
+    "max_adverse": null
   }
 ]
