@@ -11,12 +11,12 @@
     "issued_at": "2026-04-28T08:24:32.894519",
     "horizon_days": 1,
     "horizon_hours": 24,
-    "status": "open",
-    "exit_price": null,
-    "exit_date": null,
-    "pnl_pct": null,
+    "status": "expired",
+    "exit_price": 8094.0,
+    "exit_date": "2026-04-29",
+    "pnl_pct": 0.006383501104836729,
     "max_favorable": 0.015958752762091823,
-    "max_adverse": 0.015958752762091823
+    "max_adverse": 0.006383501104836729
   },
   {
     "ticker": "VIV.PA",
@@ -30,12 +30,12 @@
     "issued_at": "2026-04-28T14:21:03.414688",
     "horizon_days": 1,
     "horizon_hours": 24,
-    "status": "open",
-    "exit_price": null,
-    "exit_date": null,
-    "pnl_pct": null,
+    "status": "expired",
+    "exit_price": 2.072000026702881,
+    "exit_date": "2026-04-29",
+    "pnl_pct": 0.0019267694109437418,
     "max_favorable": 0.00481696303409881,
-    "max_adverse": 0.00481696303409881
+    "max_adverse": 0.0019267694109437418
   },
   {
     "ticker": "ZAL.DE",
@@ -49,11 +49,11 @@
     "issued_at": "2026-04-28T15:56:40.693261",
     "horizon_days": 1,
     "horizon_hours": 24,
-    "status": "open",
-    "exit_price": null,
-    "exit_date": null,
-    "pnl_pct": null,
-    "max_favorable": -1.440867712626143e-08,
+    "status": "expired",
+    "exit_price": 21.15999984741211,
+    "exit_date": "2026-04-29",
+    "pnl_pct": 0.0009442942676057762,
+    "max_favorable": 0.0009442942676057762,
     "max_adverse": -1.440867712626143e-08
   },
   {
@@ -68,11 +68,11 @@
     "issued_at": "2026-04-28T18:06:17.100375",
     "horizon_days": 1,
     "horizon_hours": 24,
-    "status": "open",
-    "exit_price": null,
-    "exit_date": null,
-    "pnl_pct": null,
-    "max_favorable": -1.440867712626143e-08,
+    "status": "expired",
+    "exit_price": 21.15999984741211,
+    "exit_date": "2026-04-29",
+    "pnl_pct": 0.0009442942676057762,
+    "max_favorable": 0.0009442942676057762,
     "max_adverse": -1.440867712626143e-08
   },
   {
@@ -87,11 +87,11 @@
     "issued_at": "2026-04-28T20:05:47.668604",
     "horizon_days": 1,
     "horizon_hours": 24,
-    "status": "open",
-    "exit_price": null,
-    "exit_date": null,
-    "pnl_pct": null,
-    "max_favorable": -1.440867712626143e-08,
+    "status": "expired",
+    "exit_price": 21.15999984741211,
+    "exit_date": "2026-04-29",
+    "pnl_pct": 0.0009442942676057762,
+    "max_favorable": 0.0009442942676057762,
     "max_adverse": -1.440867712626143e-08
   },
   {
@@ -106,11 +106,11 @@
     "issued_at": "2026-04-28T20:50:15.627349",
     "horizon_days": 1,
     "horizon_hours": 24,
-    "status": "open",
-    "exit_price": null,
-    "exit_date": null,
-    "pnl_pct": null,
-    "max_favorable": 2.3921284070877296e-08,
+    "status": "expired",
+    "exit_price": 101.56999969482422,
+    "exit_date": "2026-04-29",
+    "pnl_pct": 0.004801100383850515,
+    "max_favorable": 0.004801100383850515,
     "max_adverse": 2.3921284070877296e-08
   },
   {
@@ -125,11 +125,11 @@
     "issued_at": "2026-04-28T20:50:15.627376",
     "horizon_days": 1,
     "horizon_hours": 24,
-    "status": "open",
-    "exit_price": null,
-    "exit_date": null,
-    "pnl_pct": null,
-    "max_favorable": 3.055832250447849e-08,
+    "status": "expired",
+    "exit_price": 22.420000076293945,
+    "exit_date": "2026-04-29",
+    "pnl_pct": 0.0022251857457077683,
+    "max_favorable": 0.0022251857457077683,
     "max_adverse": 3.055832250447849e-08
   },
   {
@@ -144,12 +144,12 @@
     "issued_at": "2026-04-28T20:50:15.627380",
     "horizon_days": 1,
     "horizon_hours": 24,
-    "status": "open",
-    "exit_price": null,
-    "exit_date": null,
-    "pnl_pct": null,
+    "status": "sl_hit",
+    "exit_price": 92.9978569139753,
+    "exit_date": "2026-04-29",
+    "pnl_pct": -0.02206678661364219,
     "max_favorable": 2.3477640000374684e-08,
-    "max_adverse": 2.3477640000374684e-08
+    "max_adverse": -0.0336301027778637
   },
   {
     "ticker": "TMUS",
@@ -163,12 +163,12 @@
     "issued_at": "2026-04-28T20:50:15.627383",
     "horizon_days": 1,
     "horizon_hours": 24,
-    "status": "open",
-    "exit_price": null,
-    "exit_date": null,
-    "pnl_pct": null,
+    "status": "sl_hit",
+    "exit_price": 191.6346456037249,
+    "exit_date": "2026-04-29",
+    "pnl_pct": -0.026320938323290983,
     "max_favorable": -6.537613143406536e-09,
-    "max_adverse": -6.537613143406536e-09
+    "max_adverse": -0.06132175540352032
   },
   {
     "ticker": "CMCSA",
@@ -182,11 +182,11 @@
     "issued_at": "2026-04-28T20:50:15.627386",
     "horizon_days": 1,
     "horizon_hours": 24,
-    "status": "open",
-    "exit_price": null,
-    "exit_date": null,
-    "pnl_pct": null,
-    "max_favorable": 2.208218390262063e-08,
+    "status": "expired",
+    "exit_price": 26.760000228881836,
+    "exit_date": "2026-04-29",
+    "pnl_pct": 0.031837907782856896,
+    "max_favorable": 0.031837907782856896,
     "max_adverse": 2.208218390262063e-08
   },
   {
@@ -201,11 +201,11 @@
     "issued_at": "2026-04-28T20:50:15.627389",
     "horizon_days": 1,
     "horizon_hours": 24,
-    "status": "open",
-    "exit_price": null,
-    "exit_date": null,
-    "pnl_pct": null,
-    "max_favorable": 3.638163639071161e-08,
+    "status": "expired",
+    "exit_price": 92.12000274658203,
+    "exit_date": "2026-04-29",
+    "pnl_pct": 0.0016256340459300399,
+    "max_favorable": 0.0016256340459300399,
     "max_adverse": 3.638163639071161e-08
   }
 ]
