@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-04-29T08:20:07.097452",
+  "generated_at": "2026-04-29T08:35:25.221481+00:00",
   "date": "2026-04-29",
   "stats": {
     "total": 10,
@@ -44,9 +44,15 @@
       "news_score": null,
       "top_news_title": null,
       "top_news_url": null,
-      "status": "open",
+      "status": "expired",
       "issued_at": "2026-04-28T08:24:32.894519",
-      "last_seen": "2026-04-29T08:20:07.097452"
+      "last_seen": "2026-04-29T08:20:07.097452",
+      "current_price": 8118.0,
+      "current_price_time": "2026-04-29T08:35:25.221481+00:00",
+      "exit_price": 8118.0,
+      "exit_date": "2026-04-29T08:35:25.221481+00:00",
+      "pnl_pct": 0.34,
+      "pnl_pct_live": 0.34
     },
     {
       "ticker": "ZAL.DE",
@@ -76,7 +82,11 @@
       "top_news_url": null,
       "status": "open",
       "issued_at": "2026-04-28T15:56:40.693261",
-      "last_seen": "2026-04-29T08:20:07.097452"
+      "last_seen": "2026-04-29T08:20:07.097452",
+      "current_price": 21.34,
+      "current_price_time": "2026-04-29T08:35:25.221481+00:00",
+      "pnl_pct_live": -0.76,
+      "progression_pct": -23.9
     },
     {
       "ticker": "VIV.PA",
@@ -106,7 +116,11 @@
       "top_news_url": null,
       "status": "open",
       "issued_at": "2026-04-28T14:21:03.414688",
-      "last_seen": "2026-04-29T08:20:07.097452"
+      "last_seen": "2026-04-29T08:20:07.097452",
+      "current_price": 2.06,
+      "current_price_time": "2026-04-29T08:35:25.221481+00:00",
+      "pnl_pct_live": 0.96,
+      "progression_pct": 8.3
     },
     {
       "ticker": "PLTR",
@@ -141,7 +155,11 @@
       "top_news_url": "https://finance.yahoo.com/markets/stocks/articles/palantir-stock-falls-citi-trims-175911782.html",
       "status": "open",
       "issued_at": "2026-04-29T08:20:07.096790",
-      "last_seen": "2026-04-29T08:20:07.097452"
+      "last_seen": "2026-04-29T08:20:07.097452",
+      "current_price": 141.17,
+      "current_price_time": "2026-04-29T08:35:25.221481+00:00",
+      "pnl_pct_live": 0.01,
+      "progression_pct": 0.0
     },
     {
       "ticker": "BNTX",
@@ -171,7 +189,11 @@
       "top_news_url": null,
       "status": "open",
       "issued_at": "2026-04-28T20:50:15.627349",
-      "last_seen": "2026-04-29T08:20:07.097452"
+      "last_seen": "2026-04-29T08:20:07.097452",
+      "current_price": 102.09,
+      "current_price_time": "2026-04-29T08:35:25.221481+00:00",
+      "pnl_pct_live": -0.03,
+      "progression_pct": -1.0
     },
     {
       "ticker": "PAYX",
@@ -201,7 +223,11 @@
       "top_news_url": null,
       "status": "open",
       "issued_at": "2026-04-28T20:50:15.627380",
-      "last_seen": "2026-04-29T08:20:07.097452"
+      "last_seen": "2026-04-29T08:20:07.097452",
+      "current_price": 91.01,
+      "current_price_time": "2026-04-29T08:35:25.221481+00:00",
+      "pnl_pct_live": -0.02,
+      "progression_pct": -1.0
     },
     {
       "ticker": "KHC",
@@ -231,7 +257,11 @@
       "top_news_url": null,
       "status": "open",
       "issued_at": "2026-04-28T20:50:15.627376",
-      "last_seen": "2026-04-29T08:20:07.097452"
+      "last_seen": "2026-04-29T08:20:07.097452",
+      "current_price": 22.47,
+      "current_price_time": "2026-04-29T08:35:25.221481+00:00",
+      "pnl_pct_live": 0.0,
+      "progression_pct": 0.0
     },
     {
       "ticker": "PYPL",
@@ -265,7 +295,11 @@
       "top_news_url": "https://finance.yahoo.com/video/elon-musk-set-to-face-off-against-sam-altman-in-openai-trial-133047008.html",
       "status": "open",
       "issued_at": "2026-04-29T08:20:07.096807",
-      "last_seen": "2026-04-29T08:20:07.097452"
+      "last_seen": "2026-04-29T08:20:07.097452",
+      "current_price": 49.64,
+      "current_price_time": "2026-04-29T08:35:25.221481+00:00",
+      "pnl_pct_live": 0.0,
+      "progression_pct": 0.0
     },
     {
       "ticker": "TMUS",
@@ -295,7 +329,11 @@
       "top_news_url": null,
       "status": "open",
       "issued_at": "2026-04-28T20:50:15.627383",
-      "last_seen": "2026-04-29T08:20:07.097452"
+      "last_seen": "2026-04-29T08:20:07.097452",
+      "current_price": 186.63,
+      "current_price_time": "2026-04-29T08:35:25.221481+00:00",
+      "pnl_pct_live": 0.05,
+      "progression_pct": 0.7
     },
     {
       "ticker": "NFLX",
@@ -329,7 +367,11 @@
       "top_news_url": "https://www.fool.com/investing/2026/04/28/i-want-to-buy-netflix-stock-just-not-at-this-price/",
       "status": "open",
       "issued_at": "2026-04-29T08:20:07.096812",
-      "last_seen": "2026-04-29T08:20:07.097452"
+      "last_seen": "2026-04-29T08:20:07.097452",
+      "current_price": 92.31,
+      "current_price_time": "2026-04-29T08:35:25.221481+00:00",
+      "pnl_pct_live": -0.04,
+      "progression_pct": -1.0
     },
     {
       "ticker": "TTD",
