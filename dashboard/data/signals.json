@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-04-29T14:54:31.806701+00:00",
+  "generated_at": "2026-04-29T15:40:46.330276+00:00",
   "date": "2026-04-29",
   "stats": {
     "total": 10,
@@ -83,10 +83,10 @@
       "status": "open",
       "issued_at": "2026-04-28T15:56:40.693261",
       "last_seen": "2026-04-29T08:20:07.097452",
-      "current_price": 21.12,
-      "current_price_time": "2026-04-29T14:54:31.806701+00:00",
-      "pnl_pct_live": 0.28,
-      "progression_pct": 3.6
+      "current_price": 21.09,
+      "current_price_time": "2026-04-29T15:40:46.330276+00:00",
+      "pnl_pct_live": 0.42,
+      "progression_pct": 5.4
     },
     {
       "ticker": "PLTR",
@@ -122,10 +122,10 @@
       "status": "open",
       "issued_at": "2026-04-29T08:20:07.096790",
       "last_seen": "2026-04-29T08:20:07.097452",
-      "current_price": 136.13,
-      "current_price_time": "2026-04-29T14:54:31.806701+00:00",
-      "pnl_pct_live": 3.58,
-      "progression_pct": 23.9
+      "current_price": 136.89,
+      "current_price_time": "2026-04-29T15:40:46.330276+00:00",
+      "pnl_pct_live": 3.04,
+      "progression_pct": 20.3
     },
     {
       "ticker": "BNTX",
@@ -156,10 +156,10 @@
       "status": "open",
       "issued_at": "2026-04-28T20:50:15.627349",
       "last_seen": "2026-04-29T08:20:07.097452",
-      "current_price": 100.57,
-      "current_price_time": "2026-04-29T14:54:31.806701+00:00",
-      "pnl_pct_live": 1.46,
-      "progression_pct": 17.0
+      "current_price": 100.5,
+      "current_price_time": "2026-04-29T15:40:46.330276+00:00",
+      "pnl_pct_live": 1.53,
+      "progression_pct": 17.8
     },
     {
       "ticker": "PAYX",
@@ -190,10 +190,10 @@
       "status": "open",
       "issued_at": "2026-04-28T20:50:15.627380",
       "last_seen": "2026-04-29T08:20:07.097452",
-      "current_price": 92.93,
-      "current_price_time": "2026-04-29T14:54:31.806701+00:00",
-      "pnl_pct_live": -2.13,
-      "progression_pct": -96.5
+      "current_price": 92.81,
+      "current_price_time": "2026-04-29T15:40:46.330276+00:00",
+      "pnl_pct_live": -2.0,
+      "progression_pct": -90.5
     },
     {
       "ticker": "KHC",
@@ -224,10 +224,10 @@
       "status": "open",
       "issued_at": "2026-04-28T20:50:15.627376",
       "last_seen": "2026-04-29T08:20:07.097452",
-      "current_price": 22.33,
-      "current_price_time": "2026-04-29T14:54:31.806701+00:00",
-      "pnl_pct_live": 0.62,
-      "progression_pct": 13.2
+      "current_price": 22.34,
+      "current_price_time": "2026-04-29T15:40:46.330276+00:00",
+      "pnl_pct_live": 0.58,
+      "progression_pct": 12.3
     },
     {
       "ticker": "PYPL",
@@ -262,10 +262,10 @@
       "status": "open",
       "issued_at": "2026-04-29T08:20:07.096807",
       "last_seen": "2026-04-29T08:20:07.097452",
-      "current_price": 50.06,
-      "current_price_time": "2026-04-29T14:54:31.806701+00:00",
-      "pnl_pct_live": -0.85,
-      "progression_pct": -35.6
+      "current_price": 49.94,
+      "current_price_time": "2026-04-29T15:40:46.330276+00:00",
+      "pnl_pct_live": -0.6,
+      "progression_pct": -25.4
     },
     {
       "ticker": "CMCSA",
@@ -296,10 +296,10 @@
       "status": "open",
       "issued_at": "2026-04-28T20:50:15.627386",
       "last_seen": "2026-04-29T14:26:53.756589",
-      "current_price": 27.2,
-      "current_price_time": "2026-04-29T14:54:31.806701+00:00",
-      "pnl_pct_live": 1.59,
-      "progression_pct": 10.9
+      "current_price": 27.12,
+      "current_price_time": "2026-04-29T15:40:46.330276+00:00",
+      "pnl_pct_live": 1.88,
+      "progression_pct": 12.9
     },
     {
       "ticker": "TMUS",
@@ -370,10 +370,10 @@
       "status": "open",
       "issued_at": "2026-04-29T08:20:07.096812",
       "last_seen": "2026-04-29T08:20:07.097452",
-      "current_price": 92.57,
-      "current_price_time": "2026-04-29T14:54:31.806701+00:00",
-      "pnl_pct_live": -0.33,
-      "progression_pct": -7.8
+      "current_price": 92.31,
+      "current_price_time": "2026-04-29T15:40:46.330276+00:00",
+      "pnl_pct_live": -0.04,
+      "progression_pct": -1.0
     },
     {
       "ticker": "TTD",
