@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-04-29T20:26:49.619163+00:00",
+  "generated_at": "2026-04-29T20:50:41.036485+00:00",
   "date": "2026-04-29",
   "stats": {
     "total": 10,
@@ -52,7 +52,7 @@
       "issued_at": "2026-04-29T15:43:53.167471",
       "last_seen": "2026-04-29T15:43:53.168344",
       "current_price": 98.9,
-      "current_price_time": "2026-04-29T20:26:49.619163+00:00",
+      "current_price_time": "2026-04-29T20:50:41.036485+00:00",
       "pnl_pct_live": 0.55,
       "progression_pct": 3.7
     },
@@ -92,7 +92,7 @@
       "issued_at": "2026-04-29T18:26:53.951614",
       "last_seen": "2026-04-29T18:26:53.952762",
       "current_price": 76.18,
-      "current_price_time": "2026-04-29T20:26:49.619163+00:00",
+      "current_price_time": "2026-04-29T20:50:41.036485+00:00",
       "pnl_pct_live": -0.95,
       "progression_pct": -19.1
     },
@@ -239,7 +239,7 @@
       "issued_at": "2026-04-29T08:20:07.096790",
       "last_seen": "2026-04-29T08:20:07.097452",
       "current_price": 137.98,
-      "current_price_time": "2026-04-29T20:26:49.619163+00:00",
+      "current_price_time": "2026-04-29T20:50:41.036485+00:00",
       "pnl_pct_live": 2.27,
       "progression_pct": 15.2
     },
@@ -269,13 +269,16 @@
       "news_score": null,
       "top_news_title": null,
       "top_news_url": null,
-      "status": "open",
+      "status": "expired",
       "issued_at": "2026-04-28T20:50:15.627349",
       "last_seen": "2026-04-29T08:20:07.097452",
       "current_price": 101.57,
-      "current_price_time": "2026-04-29T20:26:49.619163+00:00",
+      "current_price_time": "2026-04-29T20:50:41.036485+00:00",
       "pnl_pct_live": 0.48,
-      "progression_pct": 5.6
+      "progression_pct": 5.6,
+      "exit_price": 101.57,
+      "exit_date": "2026-04-29T20:50:41.036485+00:00",
+      "pnl_pct": 0.48
     },
     {
       "ticker": "PAYX",
@@ -339,13 +342,16 @@
       "news_score": null,
       "top_news_title": null,
       "top_news_url": null,
-      "status": "open",
+      "status": "expired",
       "issued_at": "2026-04-28T20:50:15.627376",
       "last_seen": "2026-04-29T08:20:07.097452",
       "current_price": 22.42,
-      "current_price_time": "2026-04-29T20:26:49.619163+00:00",
+      "current_price_time": "2026-04-29T20:50:41.036485+00:00",
       "pnl_pct_live": 0.22,
-      "progression_pct": 4.7
+      "progression_pct": 4.7,
+      "exit_price": 22.42,
+      "exit_date": "2026-04-29T20:50:41.036485+00:00",
+      "pnl_pct": 0.22
     },
     {
       "ticker": "CEG",
@@ -382,7 +388,7 @@
       "issued_at": "2026-04-29T18:26:53.951639",
       "last_seen": "2026-04-29T18:26:53.952762",
       "current_price": 297.0,
-      "current_price_time": "2026-04-29T20:26:49.619163+00:00",
+      "current_price_time": "2026-04-29T20:50:41.036485+00:00",
       "pnl_pct_live": -0.28,
       "progression_pct": -5.7
     },
