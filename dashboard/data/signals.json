@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-04-30T14:23:35.514895",
+  "generated_at": "2026-04-30T14:50:29.178821+00:00",
   "date": "2026-04-30",
   "stats": {
     "total": 10,
@@ -51,10 +51,10 @@
       "status": "open",
       "issued_at": "2026-04-29T15:43:53.167471",
       "last_seen": "2026-04-29T15:43:53.168344",
-      "current_price": 99.01,
-      "current_price_time": "2026-04-30T13:57:27.297864+00:00",
-      "pnl_pct_live": 0.66,
-      "progression_pct": 4.4
+      "current_price": 99.65,
+      "current_price_time": "2026-04-30T14:50:29.178821+00:00",
+      "pnl_pct_live": 1.31,
+      "progression_pct": 8.7
     },
     {
       "ticker": "OKTA",
@@ -91,10 +91,10 @@
       "status": "open",
       "issued_at": "2026-04-29T18:26:53.951614",
       "last_seen": "2026-04-29T18:26:53.952762",
-      "current_price": 73.69,
-      "current_price_time": "2026-04-30T13:57:27.297864+00:00",
-      "pnl_pct_live": 2.35,
-      "progression_pct": 16.4
+      "current_price": 74.1,
+      "current_price_time": "2026-04-30T14:50:29.178821+00:00",
+      "pnl_pct_live": 1.8,
+      "progression_pct": 12.6
     },
     {
       "ticker": "PLTR",
@@ -122,9 +122,15 @@
       "news_score": null,
       "top_news_title": null,
       "top_news_url": null,
-      "status": "open",
+      "status": "expired",
       "issued_at": "2026-04-29T08:20:07.096790",
-      "last_seen": "2026-04-30T14:23:35.514895"
+      "last_seen": "2026-04-30T14:23:35.514895",
+      "current_price": 139.62,
+      "current_price_time": "2026-04-30T14:50:29.178821+00:00",
+      "exit_price": 139.62,
+      "exit_date": "2026-04-30T14:50:29.178821+00:00",
+      "pnl_pct": 1.1,
+      "pnl_pct_live": 1.1
     },
     {
       "ticker": "BNTX",
@@ -159,10 +165,10 @@
       "status": "open",
       "issued_at": "2026-04-30T08:20:49.177168",
       "last_seen": "2026-04-30T08:20:49.177937",
-      "current_price": 104.18,
-      "current_price_time": "2026-04-30T13:57:27.297864+00:00",
-      "pnl_pct_live": -2.57,
-      "progression_pct": -82.1
+      "current_price": 104.13,
+      "current_price_time": "2026-04-30T14:50:29.178821+00:00",
+      "pnl_pct_live": -2.52,
+      "progression_pct": -80.5
     },
     {
       "ticker": "PAYX",
@@ -197,10 +203,10 @@
       "status": "open",
       "issued_at": "2026-04-30T08:20:49.177192",
       "last_seen": "2026-04-30T08:20:49.177937",
-      "current_price": 92.36,
-      "current_price_time": "2026-04-30T13:57:27.297864+00:00",
-      "pnl_pct_live": 1.8,
-      "progression_pct": 28.5
+      "current_price": 93.46,
+      "current_price_time": "2026-04-30T14:50:29.178821+00:00",
+      "pnl_pct_live": 0.63,
+      "progression_pct": 9.9
     },
     {
       "ticker": "CMCSA",
@@ -231,10 +237,10 @@
       "status": "open",
       "issued_at": "2026-04-30T08:20:49.177201",
       "last_seen": "2026-04-30T08:20:49.177937",
-      "current_price": 26.88,
-      "current_price_time": "2026-04-30T13:57:27.297864+00:00",
-      "pnl_pct_live": -0.45,
-      "progression_pct": -9.0
+      "current_price": 27.09,
+      "current_price_time": "2026-04-30T14:50:29.178821+00:00",
+      "pnl_pct_live": -1.23,
+      "progression_pct": -24.6
     },
     {
       "ticker": "DLTR",
@@ -269,7 +275,11 @@
       "top_news_url": "https://www.wsj.com/finance/stocks/global-stocks-markets-dow-news-04-27-2026-a3cc163f?siteid=yhoof2&yptr=yahoo",
       "status": "open",
       "issued_at": "2026-04-30T14:23:35.514104",
-      "last_seen": "2026-04-30T14:23:35.514895"
+      "last_seen": "2026-04-30T14:23:35.514895",
+      "current_price": 96.71,
+      "current_price_time": "2026-04-30T14:50:29.178821+00:00",
+      "pnl_pct_live": 0.59,
+      "progression_pct": 6.3
     },
     {
       "ticker": "CEG",
@@ -305,10 +315,10 @@
       "status": "open",
       "issued_at": "2026-04-29T18:26:53.951639",
       "last_seen": "2026-04-29T18:26:53.952762",
-      "current_price": 306.28,
-      "current_price_time": "2026-04-30T13:57:27.297864+00:00",
-      "pnl_pct_live": -3.41,
-      "progression_pct": -70.3
+      "current_price": 309.81,
+      "current_price_time": "2026-04-30T14:50:29.178821+00:00",
+      "pnl_pct_live": -4.6,
+      "progression_pct": -94.9
     },
     {
       "ticker": "KHC",
@@ -341,10 +351,10 @@
       "status": "open",
       "issued_at": "2026-04-30T08:20:49.177197",
       "last_seen": "2026-04-30T08:20:49.177937",
-      "current_price": 22.59,
-      "current_price_time": "2026-04-30T13:57:27.297864+00:00",
-      "pnl_pct_live": -0.76,
-      "progression_pct": -48.6
+      "current_price": 22.61,
+      "current_price_time": "2026-04-30T14:50:29.178821+00:00",
+      "pnl_pct_live": -0.85,
+      "progression_pct": -54.3
     },
     {
       "ticker": "MSFT",
@@ -375,10 +385,10 @@
       "status": "open",
       "issued_at": "2026-04-29T20:03:12.712424",
       "last_seen": "2026-04-30T08:20:49.177937",
-      "current_price": 406.18,
-      "current_price_time": "2026-04-30T13:57:27.297864+00:00",
-      "pnl_pct_live": 4.31,
-      "progression_pct": 55.8
+      "current_price": 405.29,
+      "current_price_time": "2026-04-30T14:50:29.178821+00:00",
+      "pnl_pct_live": 4.52,
+      "progression_pct": 58.5
     },
     {
       "ticker": "TTD",
