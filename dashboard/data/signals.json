@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-04-30T18:25:28.958262",
+  "generated_at": "2026-04-30T18:46:04.954326+00:00",
   "date": "2026-04-30",
   "stats": {
     "total": 10,
@@ -49,7 +49,11 @@
       "top_news_url": "https://www.fool.com/investing/2026/04/29/poet-technologies-crashed-again-today-is-the-ai-st/",
       "status": "open",
       "issued_at": "2026-04-30T18:25:28.957456",
-      "last_seen": "2026-04-30T18:25:28.958262"
+      "last_seen": "2026-04-30T18:25:28.958262",
+      "current_price": 163.45,
+      "current_price_time": "2026-04-30T18:46:04.954326+00:00",
+      "pnl_pct_live": 0.07,
+      "progression_pct": 0.4
     },
     {
       "ticker": "ON",
@@ -77,9 +81,15 @@
       "news_score": null,
       "top_news_title": null,
       "top_news_url": null,
-      "status": "open",
+      "status": "expired",
       "issued_at": "2026-04-29T15:43:53.167471",
-      "last_seen": "2026-04-30T18:25:28.958262"
+      "last_seen": "2026-04-30T18:25:28.958262",
+      "current_price": 100.63,
+      "current_price_time": "2026-04-30T18:46:04.954326+00:00",
+      "exit_price": 100.63,
+      "exit_date": "2026-04-30T18:46:04.954326+00:00",
+      "pnl_pct": 2.31,
+      "pnl_pct_live": 2.31
     },
     {
       "ticker": "OKTA",
@@ -113,13 +123,16 @@
       "news_score": 0.2,
       "top_news_title": "Raymond James Is Betting Okta Stock Can Gain from Here. Should You Buy Shares Now?",
       "top_news_url": "https://www.barchart.com/story/news/1429982/raymond-james-is-betting-okta-stock-can-gain-from-here-should-you-buy-shares-now",
-      "status": "open",
+      "status": "expired",
       "issued_at": "2026-04-29T18:26:53.951614",
       "last_seen": "2026-04-29T18:26:53.952762",
-      "current_price": 73.48,
-      "current_price_time": "2026-04-30T18:09:27.728082+00:00",
-      "pnl_pct_live": 2.62,
-      "progression_pct": 18.4
+      "current_price": 73.57,
+      "current_price_time": "2026-04-30T18:46:04.954326+00:00",
+      "pnl_pct_live": 2.5,
+      "progression_pct": 18.4,
+      "exit_price": 73.57,
+      "exit_date": "2026-04-30T18:46:04.954326+00:00",
+      "pnl_pct": 2.5
     },
     {
       "ticker": "PLTR",
@@ -147,9 +160,15 @@
       "news_score": null,
       "top_news_title": null,
       "top_news_url": null,
-      "status": "open",
+      "status": "expired",
       "issued_at": "2026-04-29T08:20:07.096790",
-      "last_seen": "2026-04-30T18:25:28.958262"
+      "last_seen": "2026-04-30T18:25:28.958262",
+      "current_price": 139.8,
+      "current_price_time": "2026-04-30T18:46:04.954326+00:00",
+      "exit_price": 139.8,
+      "exit_date": "2026-04-30T18:46:04.954326+00:00",
+      "pnl_pct": 0.98,
+      "pnl_pct_live": 0.98
     },
     {
       "ticker": "PAYX",
@@ -184,10 +203,10 @@
       "status": "open",
       "issued_at": "2026-04-30T08:20:49.177192",
       "last_seen": "2026-04-30T17:03:53.536595",
-      "current_price": 93.04,
-      "current_price_time": "2026-04-30T18:09:27.728082+00:00",
-      "pnl_pct_live": 0.05,
-      "progression_pct": 0.9
+      "current_price": 93.17,
+      "current_price_time": "2026-04-30T18:46:04.954326+00:00",
+      "pnl_pct_live": -0.09,
+      "progression_pct": -4.1
     },
     {
       "ticker": "DLTR",
@@ -223,10 +242,10 @@
       "status": "open",
       "issued_at": "2026-04-30T14:23:35.514104",
       "last_seen": "2026-04-30T14:23:35.514895",
-      "current_price": 96.95,
-      "current_price_time": "2026-04-30T18:09:27.728082+00:00",
-      "pnl_pct_live": 0.34,
-      "progression_pct": 3.6
+      "current_price": 97.36,
+      "current_price_time": "2026-04-30T18:46:04.954326+00:00",
+      "pnl_pct_live": -0.08,
+      "progression_pct": -2.5
     },
     {
       "ticker": "CEG",
@@ -254,9 +273,15 @@
       "news_score": null,
       "top_news_title": null,
       "top_news_url": null,
-      "status": "open",
+      "status": "expired",
       "issued_at": "2026-04-29T18:26:53.951639",
-      "last_seen": "2026-04-30T18:25:28.958262"
+      "last_seen": "2026-04-30T18:25:28.958262",
+      "current_price": 310.5,
+      "current_price_time": "2026-04-30T18:46:04.954326+00:00",
+      "exit_price": 310.5,
+      "exit_date": "2026-04-30T18:46:04.954326+00:00",
+      "pnl_pct": -4.83,
+      "pnl_pct_live": -4.83
     },
     {
       "ticker": "KHC",
@@ -289,10 +314,10 @@
       "status": "open",
       "issued_at": "2026-04-30T08:20:49.177197",
       "last_seen": "2026-04-30T17:03:53.536595",
-      "current_price": 22.6,
-      "current_price_time": "2026-04-30T18:09:27.728082+00:00",
-      "pnl_pct_live": 0.09,
-      "progression_pct": 2.0
+      "current_price": 22.72,
+      "current_price_time": "2026-04-30T18:46:04.954326+00:00",
+      "pnl_pct_live": -0.44,
+      "progression_pct": -27.8
     },
     {
       "ticker": "BNTX",
@@ -327,10 +352,10 @@
       "status": "open",
       "issued_at": "2026-04-30T08:20:49.177168",
       "last_seen": "2026-04-30T17:03:53.536595",
-      "current_price": 103.88,
-      "current_price_time": "2026-04-30T18:09:27.728082+00:00",
-      "pnl_pct_live": 0.11,
-      "progression_pct": 1.3
+      "current_price": 103.83,
+      "current_price_time": "2026-04-30T18:46:04.954326+00:00",
+      "pnl_pct_live": 0.15,
+      "progression_pct": 1.9
     },
     {
       "ticker": "MSFT",
@@ -361,10 +386,10 @@
       "status": "open",
       "issued_at": "2026-04-29T20:03:12.712424",
       "last_seen": "2026-04-30T08:20:49.177937",
-      "current_price": 404.45,
-      "current_price_time": "2026-04-30T18:09:27.728082+00:00",
-      "pnl_pct_live": 4.71,
-      "progression_pct": 61.1
+      "current_price": 407.46,
+      "current_price_time": "2026-04-30T18:46:04.954326+00:00",
+      "pnl_pct_live": 4.01,
+      "progression_pct": 51.9
     },
     {
       "ticker": "ON",
