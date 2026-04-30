@@ -11,12 +11,12 @@
     "issued_at": "2026-04-29T08:20:07.096790",
     "horizon_days": 1,
     "horizon_hours": 24,
-    "status": "open",
-    "exit_price": null,
-    "exit_date": null,
-    "pnl_pct": null,
+    "status": "expired",
+    "exit_price": 139.11000061035156,
+    "exit_date": "2026-04-30",
+    "pnl_pct": 0.014662129123448393,
     "max_favorable": 0.022736922930279655,
-    "max_adverse": 0.022736922930279655
+    "max_adverse": 0.014662129123448393
   },
   {
     "ticker": "PYPL",
@@ -49,12 +49,12 @@
     "issued_at": "2026-04-29T08:20:07.096812",
     "horizon_days": 1,
     "horizon_hours": 24,
-    "status": "open",
-    "exit_price": null,
-    "exit_date": null,
-    "pnl_pct": null,
+    "status": "expired",
+    "exit_price": 93.61000061035156,
+    "exit_date": "2026-04-30",
+    "pnl_pct": -0.014522603341839888,
     "max_favorable": 0.0016256340459300399,
-    "max_adverse": 0.0016256340459300399
+    "max_adverse": -0.014522603341839888
   },
   {
     "ticker": "FTNT",
@@ -68,11 +68,11 @@
     "issued_at": "2026-04-29T14:26:53.755794",
     "horizon_days": 1,
     "horizon_hours": 24,
-    "status": "open",
-    "exit_price": null,
-    "exit_date": null,
-    "pnl_pct": null,
-    "max_favorable": -0.010502852905610035,
+    "status": "expired",
+    "exit_price": 84.30999755859375,
+    "exit_date": "2026-04-30",
+    "pnl_pct": 0.010620224624846018,
+    "max_favorable": 0.010620224624846018,
     "max_adverse": -0.010502852905610035
   },
   {
@@ -87,11 +87,11 @@
     "issued_at": "2026-04-29T14:26:53.755821",
     "horizon_days": 1,
     "horizon_hours": 24,
-    "status": "open",
-    "exit_price": null,
-    "exit_date": null,
-    "pnl_pct": null,
-    "max_favorable": -0.01167484904083602,
+    "status": "expired",
+    "exit_price": 179.32000732421875,
+    "exit_date": "2026-04-30",
+    "pnl_pct": 0.0006965514546587711,
+    "max_favorable": 0.0006965514546587711,
     "max_adverse": -0.01167484904083602
   },
   {
@@ -106,11 +106,11 @@
     "issued_at": "2026-04-29T15:43:53.167471",
     "horizon_days": 1,
     "horizon_hours": 24,
-    "status": "open",
-    "exit_price": null,
-    "exit_date": null,
-    "pnl_pct": null,
-    "max_favorable": 0.00508337342773041,
+    "status": "expired",
+    "exit_price": 100.80999755859375,
+    "exit_date": "2026-04-30",
+    "pnl_pct": 0.024908474568866922,
+    "max_favorable": 0.024908474568866922,
     "max_adverse": 0.00508337342773041
   },
   {
@@ -125,11 +125,11 @@
     "issued_at": "2026-04-29T17:05:42.422615",
     "horizon_days": 1,
     "horizon_hours": 24,
-    "status": "open",
-    "exit_price": null,
-    "exit_date": null,
-    "pnl_pct": null,
-    "max_favorable": -0.00827544174469759,
+    "status": "expired",
+    "exit_price": 179.32000732421875,
+    "exit_date": "2026-04-30",
+    "pnl_pct": 0.004054388646383012,
+    "max_favorable": 0.004054388646383012,
     "max_adverse": -0.00827544174469759
   },
   {
@@ -144,11 +144,11 @@
     "issued_at": "2026-04-29T18:26:53.951614",
     "horizon_days": 1,
     "horizon_hours": 24,
-    "status": "open",
-    "exit_price": null,
-    "exit_date": null,
-    "pnl_pct": null,
-    "max_favorable": -0.009276486378337945,
+    "status": "expired",
+    "exit_price": 73.6500015258789,
+    "exit_date": "2026-04-30",
+    "pnl_pct": 0.023986197642739036,
+    "max_favorable": 0.023986197642739036,
     "max_adverse": -0.009276486378337945
   },
   {
@@ -163,12 +163,12 @@
     "issued_at": "2026-04-29T18:26:53.951639",
     "horizon_days": 1,
     "horizon_hours": 24,
-    "status": "open",
-    "exit_price": null,
-    "exit_date": null,
-    "pnl_pct": null,
+    "status": "sl_hit",
+    "exit_price": 310.5549961635045,
+    "exit_date": "2026-04-30",
+    "pnl_pct": -0.048552363175502565,
     "max_favorable": -0.0027855153203342232,
-    "max_adverse": -0.0027855153203342232
+    "max_adverse": -0.05680763062378657
   },
   {
     "ticker": "MSFT",
@@ -182,11 +182,11 @@
     "issued_at": "2026-04-29T20:03:12.712424",
     "horizon_days": 1,
     "horizon_hours": 24,
-    "status": "open",
-    "exit_price": null,
-    "exit_date": null,
-    "pnl_pct": null,
-    "max_favorable": 2.0131277045036916e-08,
+    "status": "expired",
+    "exit_price": 407.7799987792969,
+    "exit_date": "2026-04-30",
+    "pnl_pct": 0.03929699199147883,
+    "max_favorable": 0.03929699199147883,
     "max_adverse": 2.0131277045036916e-08
   },
   {
@@ -201,11 +201,11 @@
     "issued_at": "2026-04-29T20:03:12.712454",
     "horizon_days": 1,
     "horizon_hours": 24,
-    "status": "open",
-    "exit_price": null,
-    "exit_date": null,
-    "pnl_pct": null,
-    "max_favorable": 2.695899123186618e-08,
+    "status": "expired",
+    "exit_price": 50.13999938964844,
+    "exit_date": "2026-04-30",
+    "pnl_pct": 0.0157047626688567,
+    "max_favorable": 0.0157047626688567,
     "max_adverse": 2.695899123186618e-08
   },
   {
@@ -220,11 +220,11 @@
     "issued_at": "2026-04-29T20:03:12.712458",
     "horizon_days": 1,
     "horizon_hours": 24,
-    "status": "open",
-    "exit_price": null,
-    "exit_date": null,
-    "pnl_pct": null,
+    "status": "expired",
+    "exit_price": 93.61000061035156,
+    "exit_date": "2026-04-30",
+    "pnl_pct": -0.016174561553968278,
     "max_favorable": -2.981526299069178e-08,
-    "max_adverse": -2.981526299069178e-08
+    "max_adverse": -0.016174561553968278
   }
 ]

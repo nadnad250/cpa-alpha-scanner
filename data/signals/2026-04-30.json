@@ -15,8 +15,8 @@
     "exit_price": null,
     "exit_date": null,
     "pnl_pct": null,
-    "max_favorable": null,
-    "max_adverse": null
+    "max_favorable": -0.018509372336735202,
+    "max_adverse": -0.018509372336735202
   },
   {
     "ticker": "PAYX",
@@ -34,8 +34,8 @@
     "exit_price": null,
     "exit_date": null,
     "pnl_pct": null,
-    "max_favorable": null,
-    "max_adverse": null
+    "max_favorable": 0.015098381143881217,
+    "max_adverse": 0.015098381143881217
   },
   {
     "ticker": "KHC",
@@ -53,8 +53,8 @@
     "exit_price": null,
     "exit_date": null,
     "pnl_pct": null,
-    "max_favorable": null,
-    "max_adverse": null
+    "max_favorable": -0.010704721115615863,
+    "max_adverse": -0.010704721115615863
   },
   {
     "ticker": "CMCSA",
@@ -72,8 +72,8 @@
     "exit_price": null,
     "exit_date": null,
     "pnl_pct": null,
-    "max_favorable": null,
-    "max_adverse": null
+    "max_favorable": -0.010463412388914132,
+    "max_adverse": -0.010463412388914132
   },
   {
     "ticker": "DLTR",
@@ -91,8 +91,8 @@
     "exit_price": null,
     "exit_date": null,
     "pnl_pct": null,
-    "max_favorable": null,
-    "max_adverse": null
+    "max_favorable": 0.0017475266205637194,
+    "max_adverse": 0.0017475266205637194
   },
   {
     "ticker": "NFLX",
@@ -110,8 +110,8 @@
     "exit_price": null,
     "exit_date": null,
     "pnl_pct": null,
-    "max_favorable": null,
-    "max_adverse": null
+    "max_favorable": -0.006072337152469889,
+    "max_adverse": -0.006072337152469889
   },
   {
     "ticker": "MRVL",
@@ -129,8 +129,8 @@
     "exit_price": null,
     "exit_date": null,
     "pnl_pct": null,
-    "max_favorable": null,
-    "max_adverse": null
+    "max_favorable": 0.011081142993047457,
+    "max_adverse": 0.011081142993047457
   },
   {
     "ticker": "FTNT",
@@ -148,8 +148,8 @@
     "exit_price": null,
     "exit_date": null,
     "pnl_pct": null,
-    "max_favorable": null,
-    "max_adverse": null
+    "max_favorable": 0.0011847226798512806,
+    "max_adverse": 0.0011847226798512806
   },
   {
     "ticker": "META",
@@ -167,7 +167,7 @@
     "exit_price": null,
     "exit_date": null,
     "pnl_pct": null,
-    "max_favorable": null,
-    "max_adverse": null
+    "max_favorable": 0.0012731183069232474,
+    "max_adverse": 0.0012731183069232474
   }
 ]
