@@ -93,5 +93,24 @@
     "pnl_pct": null,
     "max_favorable": null,
     "max_adverse": null
+  },
+  {
+    "ticker": "NFLX",
+    "action": "SELL",
+    "entry_price": 93.045,
+    "stop_loss": 95.66839047023228,
+    "take_profit": 85.69950668334961,
+    "score": -0.3937856541575742,
+    "confidence": 0.744883719510236,
+    "universe": "NASDAQ100",
+    "issued_at": "2026-04-30T15:39:39.816824",
+    "horizon_days": 1,
+    "horizon_hours": 24,
+    "status": "open",
+    "exit_price": null,
+    "exit_date": null,
+    "pnl_pct": null,
+    "max_favorable": null,
+    "max_adverse": null
   }
 ]
