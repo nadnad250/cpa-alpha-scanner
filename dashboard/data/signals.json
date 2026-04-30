@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-04-30T17:32:13.458629+00:00",
+  "generated_at": "2026-04-30T18:09:27.728082+00:00",
   "date": "2026-04-30",
   "stats": {
     "total": 10,
@@ -89,10 +89,10 @@
       "status": "open",
       "issued_at": "2026-04-29T18:26:53.951614",
       "last_seen": "2026-04-29T18:26:53.952762",
-      "current_price": 73.51,
-      "current_price_time": "2026-04-30T17:32:13.458629+00:00",
-      "pnl_pct_live": 2.58,
-      "progression_pct": 18.1
+      "current_price": 73.48,
+      "current_price_time": "2026-04-30T18:09:27.728082+00:00",
+      "pnl_pct_live": 2.62,
+      "progression_pct": 18.4
     },
     {
       "ticker": "PLTR",
@@ -159,10 +159,10 @@
       "status": "open",
       "issued_at": "2026-04-30T08:20:49.177201",
       "last_seen": "2026-04-30T08:20:49.177937",
-      "current_price": 26.91,
-      "current_price_time": "2026-04-30T17:32:13.458629+00:00",
-      "pnl_pct_live": -0.56,
-      "progression_pct": -11.2
+      "current_price": 27.03,
+      "current_price_time": "2026-04-30T18:09:27.728082+00:00",
+      "pnl_pct_live": -1.01,
+      "progression_pct": -20.1
     },
     {
       "ticker": "PAYX",
@@ -197,10 +197,10 @@
       "status": "open",
       "issued_at": "2026-04-30T08:20:49.177192",
       "last_seen": "2026-04-30T17:03:53.536595",
-      "current_price": 93.25,
-      "current_price_time": "2026-04-30T17:32:13.458629+00:00",
-      "pnl_pct_live": -0.17,
-      "progression_pct": -8.1
+      "current_price": 93.04,
+      "current_price_time": "2026-04-30T18:09:27.728082+00:00",
+      "pnl_pct_live": 0.05,
+      "progression_pct": 0.9
     },
     {
       "ticker": "DLTR",
@@ -236,10 +236,10 @@
       "status": "open",
       "issued_at": "2026-04-30T14:23:35.514104",
       "last_seen": "2026-04-30T14:23:35.514895",
-      "current_price": 97.01,
-      "current_price_time": "2026-04-30T17:32:13.458629+00:00",
-      "pnl_pct_live": 0.28,
-      "progression_pct": 3.0
+      "current_price": 96.95,
+      "current_price_time": "2026-04-30T18:09:27.728082+00:00",
+      "pnl_pct_live": 0.34,
+      "progression_pct": 3.6
     },
     {
       "ticker": "CEG",
@@ -267,13 +267,16 @@
       "news_score": null,
       "top_news_title": null,
       "top_news_url": null,
-      "status": "open",
+      "status": "sl_hit",
       "issued_at": "2026-04-29T18:26:53.951639",
       "last_seen": "2026-04-30T17:03:53.536595",
-      "current_price": 310.45,
-      "current_price_time": "2026-04-30T17:32:13.458629+00:00",
-      "pnl_pct_live": -4.82,
-      "progression_pct": -99.3
+      "current_price": 311.08,
+      "current_price_time": "2026-04-30T18:09:27.728082+00:00",
+      "pnl_pct_live": -4.85,
+      "progression_pct": -99.3,
+      "exit_price": 310.55,
+      "exit_date": "2026-04-30T18:09:27.728082+00:00",
+      "pnl_pct": -4.85
     },
     {
       "ticker": "KHC",
@@ -307,7 +310,7 @@
       "issued_at": "2026-04-30T08:20:49.177197",
       "last_seen": "2026-04-30T17:03:53.536595",
       "current_price": 22.6,
-      "current_price_time": "2026-04-30T17:32:13.458629+00:00",
+      "current_price_time": "2026-04-30T18:09:27.728082+00:00",
       "pnl_pct_live": 0.09,
       "progression_pct": 2.0
     },
@@ -344,10 +347,10 @@
       "status": "open",
       "issued_at": "2026-04-30T08:20:49.177168",
       "last_seen": "2026-04-30T17:03:53.536595",
-      "current_price": 103.89,
-      "current_price_time": "2026-04-30T17:32:13.458629+00:00",
-      "pnl_pct_live": 0.1,
-      "progression_pct": 1.2
+      "current_price": 103.88,
+      "current_price_time": "2026-04-30T18:09:27.728082+00:00",
+      "pnl_pct_live": 0.11,
+      "progression_pct": 1.3
     },
     {
       "ticker": "MSFT",
@@ -378,10 +381,10 @@
       "status": "open",
       "issued_at": "2026-04-29T20:03:12.712424",
       "last_seen": "2026-04-30T08:20:49.177937",
-      "current_price": 401.59,
-      "current_price_time": "2026-04-30T17:32:13.458629+00:00",
-      "pnl_pct_live": 5.39,
-      "progression_pct": 69.8
+      "current_price": 404.45,
+      "current_price_time": "2026-04-30T18:09:27.728082+00:00",
+      "pnl_pct_live": 4.71,
+      "progression_pct": 61.1
     },
     {
       "ticker": "ON",
