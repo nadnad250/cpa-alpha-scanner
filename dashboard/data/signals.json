@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-04-30T08:20:49.177937",
+  "generated_at": "2026-04-30T08:47:57.538775+00:00",
   "date": "2026-04-30",
   "stats": {
     "total": 10,
@@ -52,7 +52,7 @@
       "issued_at": "2026-04-29T15:43:53.167471",
       "last_seen": "2026-04-29T15:43:53.168344",
       "current_price": 98.9,
-      "current_price_time": "2026-04-30T07:47:10.082949+00:00",
+      "current_price_time": "2026-04-30T08:47:57.538775+00:00",
       "pnl_pct_live": 0.55,
       "progression_pct": 3.7
     },
@@ -92,7 +92,7 @@
       "issued_at": "2026-04-29T18:26:53.951614",
       "last_seen": "2026-04-29T18:26:53.952762",
       "current_price": 76.18,
-      "current_price_time": "2026-04-30T07:47:10.082949+00:00",
+      "current_price_time": "2026-04-30T08:47:57.538775+00:00",
       "pnl_pct_live": -0.95,
       "progression_pct": -19.1
     },
@@ -128,7 +128,11 @@
       "top_news_url": "https://finance.yahoo.com/markets/stocks/articles/biontech-bntx-surges-6-1-141000347.html",
       "status": "open",
       "issued_at": "2026-04-30T08:20:49.177168",
-      "last_seen": "2026-04-30T08:20:49.177937"
+      "last_seen": "2026-04-30T08:20:49.177937",
+      "current_price": 101.57,
+      "current_price_time": "2026-04-30T08:47:57.538775+00:00",
+      "pnl_pct_live": 0.0,
+      "progression_pct": 0.0
     },
     {
       "ticker": "PAYX",
@@ -162,7 +166,11 @@
       "top_news_url": "https://finance.yahoo.com/sectors/technology/articles/intuits-ai-transformation-drive-future-134500081.html",
       "status": "open",
       "issued_at": "2026-04-30T08:20:49.177192",
-      "last_seen": "2026-04-30T08:20:49.177937"
+      "last_seen": "2026-04-30T08:20:49.177937",
+      "current_price": 94.06,
+      "current_price_time": "2026-04-30T08:47:57.538775+00:00",
+      "pnl_pct_live": -0.01,
+      "progression_pct": -0.5
     },
     {
       "ticker": "CMCSA",
@@ -192,7 +200,11 @@
       "top_news_url": "https://www.thestreet.com/retail/comcast-drops-2-new-phone-plans-for-customers-with-a-catch",
       "status": "open",
       "issued_at": "2026-04-30T08:20:49.177201",
-      "last_seen": "2026-04-30T08:20:49.177937"
+      "last_seen": "2026-04-30T08:20:49.177937",
+      "current_price": 26.76,
+      "current_price_time": "2026-04-30T08:47:57.538775+00:00",
+      "pnl_pct_live": 0.0,
+      "progression_pct": 0.0
     },
     {
       "ticker": "CEG",
@@ -229,7 +241,7 @@
       "issued_at": "2026-04-29T18:26:53.951639",
       "last_seen": "2026-04-29T18:26:53.952762",
       "current_price": 297.0,
-      "current_price_time": "2026-04-30T07:47:10.082949+00:00",
+      "current_price_time": "2026-04-30T08:47:57.538775+00:00",
       "pnl_pct_live": -0.28,
       "progression_pct": -5.7
     },
@@ -261,7 +273,11 @@
       "top_news_url": null,
       "status": "open",
       "issued_at": "2026-04-29T20:03:12.712454",
-      "last_seen": "2026-04-30T08:20:49.177937"
+      "last_seen": "2026-04-30T08:20:49.177937",
+      "current_price": 50.94,
+      "current_price_time": "2026-04-30T08:47:57.538775+00:00",
+      "pnl_pct_live": 0.0,
+      "progression_pct": 0.0
     },
     {
       "ticker": "KHC",
@@ -293,7 +309,11 @@
       "top_news_url": "https://finance.yahoo.com/markets/stocks/articles/kraft-heinz-khc-expected-beat-140020304.html",
       "status": "open",
       "issued_at": "2026-04-30T08:20:49.177197",
-      "last_seen": "2026-04-30T08:20:49.177937"
+      "last_seen": "2026-04-30T08:20:49.177937",
+      "current_price": 22.42,
+      "current_price_time": "2026-04-30T08:47:57.538775+00:00",
+      "pnl_pct_live": 0.0,
+      "progression_pct": 0.0
     },
     {
       "ticker": "NFLX",
@@ -321,9 +341,15 @@
       "news_score": null,
       "top_news_title": null,
       "top_news_url": null,
-      "status": "open",
+      "status": "expired",
       "issued_at": "2026-04-29T08:20:07.096812",
-      "last_seen": "2026-04-30T08:20:49.177937"
+      "last_seen": "2026-04-30T08:20:49.177937",
+      "current_price": 92.16,
+      "current_price_time": "2026-04-30T08:47:57.538775+00:00",
+      "exit_price": 92.16,
+      "exit_date": "2026-04-30T08:47:57.538775+00:00",
+      "pnl_pct": 0.12,
+      "pnl_pct_live": 0.12
     },
     {
       "ticker": "MSFT",
@@ -353,7 +379,11 @@
       "top_news_url": null,
       "status": "open",
       "issued_at": "2026-04-29T20:03:12.712424",
-      "last_seen": "2026-04-30T08:20:49.177937"
+      "last_seen": "2026-04-30T08:20:49.177937",
+      "current_price": 424.59,
+      "current_price_time": "2026-04-30T08:47:57.538775+00:00",
+      "pnl_pct_live": -0.03,
+      "progression_pct": -1.1
     },
     {
       "ticker": "TTD",
