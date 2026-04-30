@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-04-30T15:39:39.817669",
+  "generated_at": "2026-04-30T16:11:45.878429+00:00",
   "date": "2026-04-30",
   "stats": {
     "total": 10,
@@ -48,13 +48,16 @@
       "news_score": 0.15,
       "top_news_title": "Texas Instruments Surges 18% as Data Center Demand Spikes 90%",
       "top_news_url": "https://www.marketbeat.com/originals/texas-instruments-surges-18-as-data-center-demand-spikes-90/?utm_source=yahoofinance&utm_medium=yahoofinance",
-      "status": "open",
+      "status": "expired",
       "issued_at": "2026-04-29T15:43:53.167471",
       "last_seen": "2026-04-29T15:43:53.168344",
-      "current_price": 100.62,
-      "current_price_time": "2026-04-30T15:36:57.750779+00:00",
-      "pnl_pct_live": 2.3,
-      "progression_pct": 15.3
+      "current_price": 100.96,
+      "current_price_time": "2026-04-30T16:11:45.878429+00:00",
+      "pnl_pct_live": 2.64,
+      "progression_pct": 15.3,
+      "exit_price": 100.96,
+      "exit_date": "2026-04-30T16:11:45.878429+00:00",
+      "pnl_pct": 2.64
     },
     {
       "ticker": "OKTA",
@@ -91,10 +94,10 @@
       "status": "open",
       "issued_at": "2026-04-29T18:26:53.951614",
       "last_seen": "2026-04-29T18:26:53.952762",
-      "current_price": 74.54,
-      "current_price_time": "2026-04-30T15:36:57.750779+00:00",
-      "pnl_pct_live": 1.22,
-      "progression_pct": 8.5
+      "current_price": 74.66,
+      "current_price_time": "2026-04-30T16:11:45.878429+00:00",
+      "pnl_pct_live": 1.06,
+      "progression_pct": 7.4
     },
     {
       "ticker": "PLTR",
@@ -122,9 +125,15 @@
       "news_score": null,
       "top_news_title": null,
       "top_news_url": null,
-      "status": "open",
+      "status": "expired",
       "issued_at": "2026-04-29T08:20:07.096790",
-      "last_seen": "2026-04-30T15:39:39.817669"
+      "last_seen": "2026-04-30T15:39:39.817669",
+      "current_price": 138.98,
+      "current_price_time": "2026-04-30T16:11:45.878429+00:00",
+      "exit_price": 138.98,
+      "exit_date": "2026-04-30T16:11:45.878429+00:00",
+      "pnl_pct": 1.56,
+      "pnl_pct_live": 1.56
     },
     {
       "ticker": "BNTX",
@@ -159,10 +168,10 @@
       "status": "open",
       "issued_at": "2026-04-30T08:20:49.177168",
       "last_seen": "2026-04-30T08:20:49.177937",
-      "current_price": 103.98,
-      "current_price_time": "2026-04-30T15:36:57.750779+00:00",
-      "pnl_pct_live": -2.37,
-      "progression_pct": -75.8
+      "current_price": 104.41,
+      "current_price_time": "2026-04-30T16:11:45.878429+00:00",
+      "pnl_pct_live": -2.8,
+      "progression_pct": -89.3
     },
     {
       "ticker": "PAYX",
@@ -197,10 +206,10 @@
       "status": "open",
       "issued_at": "2026-04-30T08:20:49.177192",
       "last_seen": "2026-04-30T08:20:49.177937",
-      "current_price": 93.32,
-      "current_price_time": "2026-04-30T15:36:57.750779+00:00",
-      "pnl_pct_live": 0.78,
-      "progression_pct": 12.3
+      "current_price": 93.68,
+      "current_price_time": "2026-04-30T16:11:45.878429+00:00",
+      "pnl_pct_live": 0.39,
+      "progression_pct": 6.2
     },
     {
       "ticker": "CMCSA",
@@ -231,10 +240,10 @@
       "status": "open",
       "issued_at": "2026-04-30T08:20:49.177201",
       "last_seen": "2026-04-30T08:20:49.177937",
-      "current_price": 26.97,
-      "current_price_time": "2026-04-30T15:36:57.750779+00:00",
-      "pnl_pct_live": -0.78,
-      "progression_pct": -15.7
+      "current_price": 26.95,
+      "current_price_time": "2026-04-30T16:11:45.878429+00:00",
+      "pnl_pct_live": -0.71,
+      "progression_pct": -14.2
     },
     {
       "ticker": "DLTR",
@@ -270,10 +279,10 @@
       "status": "open",
       "issued_at": "2026-04-30T14:23:35.514104",
       "last_seen": "2026-04-30T14:23:35.514895",
-      "current_price": 96.74,
-      "current_price_time": "2026-04-30T15:36:57.750779+00:00",
-      "pnl_pct_live": 0.56,
-      "progression_pct": 5.9
+      "current_price": 96.83,
+      "current_price_time": "2026-04-30T16:11:45.878429+00:00",
+      "pnl_pct_live": 0.46,
+      "progression_pct": 4.9
     },
     {
       "ticker": "CEG",
@@ -306,13 +315,16 @@
       "news_score": 0.3,
       "top_news_title": "Microsoft Deal Puts Constellation Energy At Heart Of AI Power Story",
       "top_news_url": "https://finance.yahoo.com/sectors/energy/articles/microsoft-deal-puts-constellation-energy-042747667.html",
-      "status": "open",
+      "status": "sl_hit",
       "issued_at": "2026-04-29T18:26:53.951639",
       "last_seen": "2026-04-29T18:26:53.952762",
-      "current_price": 310.52,
-      "current_price_time": "2026-04-30T15:36:57.750779+00:00",
-      "pnl_pct_live": -4.84,
-      "progression_pct": -99.8
+      "current_price": 311.5,
+      "current_price_time": "2026-04-30T16:11:45.878429+00:00",
+      "pnl_pct_live": -4.85,
+      "progression_pct": -99.8,
+      "exit_price": 310.55,
+      "exit_date": "2026-04-30T16:11:45.878429+00:00",
+      "pnl_pct": -4.85
     },
     {
       "ticker": "KHC",
@@ -345,10 +357,10 @@
       "status": "open",
       "issued_at": "2026-04-30T08:20:49.177197",
       "last_seen": "2026-04-30T08:20:49.177937",
-      "current_price": 22.58,
-      "current_price_time": "2026-04-30T15:36:57.750779+00:00",
-      "pnl_pct_live": -0.71,
-      "progression_pct": -45.7
+      "current_price": 22.59,
+      "current_price_time": "2026-04-30T16:11:45.878429+00:00",
+      "pnl_pct_live": -0.76,
+      "progression_pct": -48.6
     },
     {
       "ticker": "MSFT",
@@ -379,10 +391,10 @@
       "status": "open",
       "issued_at": "2026-04-29T20:03:12.712424",
       "last_seen": "2026-04-30T08:20:49.177937",
-      "current_price": 402.44,
-      "current_price_time": "2026-04-30T15:36:57.750779+00:00",
-      "pnl_pct_live": 5.19,
-      "progression_pct": 67.2
+      "current_price": 402.17,
+      "current_price_time": "2026-04-30T16:11:45.878429+00:00",
+      "pnl_pct_live": 5.25,
+      "progression_pct": 68.1
     },
     {
       "ticker": "TTD",
