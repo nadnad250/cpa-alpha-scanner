@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-04-30T18:46:04.954326+00:00",
+  "generated_at": "2026-04-30T19:32:28.367925+00:00",
   "date": "2026-04-30",
   "stats": {
     "total": 10,
@@ -50,10 +50,10 @@
       "status": "open",
       "issued_at": "2026-04-30T18:25:28.957456",
       "last_seen": "2026-04-30T18:25:28.958262",
-      "current_price": 163.45,
-      "current_price_time": "2026-04-30T18:46:04.954326+00:00",
-      "pnl_pct_live": 0.07,
-      "progression_pct": 0.4
+      "current_price": 164.32,
+      "current_price_time": "2026-04-30T19:32:28.367925+00:00",
+      "pnl_pct_live": 0.6,
+      "progression_pct": 4.0
     },
     {
       "ticker": "ON",
@@ -203,10 +203,10 @@
       "status": "open",
       "issued_at": "2026-04-30T08:20:49.177192",
       "last_seen": "2026-04-30T17:03:53.536595",
-      "current_price": 93.17,
-      "current_price_time": "2026-04-30T18:46:04.954326+00:00",
-      "pnl_pct_live": -0.09,
-      "progression_pct": -4.1
+      "current_price": 92.39,
+      "current_price_time": "2026-04-30T19:32:28.367925+00:00",
+      "pnl_pct_live": 0.75,
+      "progression_pct": 12.7
     },
     {
       "ticker": "DLTR",
@@ -242,10 +242,10 @@
       "status": "open",
       "issued_at": "2026-04-30T14:23:35.514104",
       "last_seen": "2026-04-30T14:23:35.514895",
-      "current_price": 97.36,
-      "current_price_time": "2026-04-30T18:46:04.954326+00:00",
-      "pnl_pct_live": -0.08,
-      "progression_pct": -2.5
+      "current_price": 96.89,
+      "current_price_time": "2026-04-30T19:32:28.367925+00:00",
+      "pnl_pct_live": 0.4,
+      "progression_pct": 4.3
     },
     {
       "ticker": "CEG",
@@ -314,10 +314,10 @@
       "status": "open",
       "issued_at": "2026-04-30T08:20:49.177197",
       "last_seen": "2026-04-30T17:03:53.536595",
-      "current_price": 22.72,
-      "current_price_time": "2026-04-30T18:46:04.954326+00:00",
-      "pnl_pct_live": -0.44,
-      "progression_pct": -27.8
+      "current_price": 22.67,
+      "current_price_time": "2026-04-30T19:32:28.367925+00:00",
+      "pnl_pct_live": -0.22,
+      "progression_pct": -13.9
     },
     {
       "ticker": "BNTX",
@@ -352,10 +352,10 @@
       "status": "open",
       "issued_at": "2026-04-30T08:20:49.177168",
       "last_seen": "2026-04-30T17:03:53.536595",
-      "current_price": 103.83,
-      "current_price_time": "2026-04-30T18:46:04.954326+00:00",
-      "pnl_pct_live": 0.15,
-      "progression_pct": 1.9
+      "current_price": 103.9,
+      "current_price_time": "2026-04-30T19:32:28.367925+00:00",
+      "pnl_pct_live": 0.09,
+      "progression_pct": 1.0
     },
     {
       "ticker": "MSFT",
@@ -386,10 +386,10 @@
       "status": "open",
       "issued_at": "2026-04-29T20:03:12.712424",
       "last_seen": "2026-04-30T08:20:49.177937",
-      "current_price": 407.46,
-      "current_price_time": "2026-04-30T18:46:04.954326+00:00",
-      "pnl_pct_live": 4.01,
-      "progression_pct": 51.9
+      "current_price": 408.59,
+      "current_price_time": "2026-04-30T19:32:28.367925+00:00",
+      "pnl_pct_live": 3.74,
+      "progression_pct": 48.5
     },
     {
       "ticker": "ON",
