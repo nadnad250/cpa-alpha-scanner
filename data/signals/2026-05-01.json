@@ -15,8 +15,8 @@
     "exit_price": null,
     "exit_date": null,
     "pnl_pct": null,
-    "max_favorable": null,
-    "max_adverse": null
+    "max_favorable": 0.007502216632031601,
+    "max_adverse": 0.007502216632031601
   },
   {
     "ticker": "PANW",
@@ -34,8 +34,8 @@
     "exit_price": null,
     "exit_date": null,
     "pnl_pct": null,
-    "max_favorable": null,
-    "max_adverse": null
+    "max_favorable": -0.009814866334233183,
+    "max_adverse": -0.009814866334233183
   },
   {
     "ticker": "BNTX",
@@ -53,8 +53,8 @@
     "exit_price": null,
     "exit_date": null,
     "pnl_pct": null,
-    "max_favorable": null,
-    "max_adverse": null
+    "max_favorable": -0.002363589718706623,
+    "max_adverse": -0.002363589718706623
   },
   {
     "ticker": "COIN",
@@ -72,8 +72,8 @@
     "exit_price": null,
     "exit_date": null,
     "pnl_pct": null,
-    "max_favorable": null,
-    "max_adverse": null
+    "max_favorable": 0.011883234306380839,
+    "max_adverse": 0.011883234306380839
   },
   {
     "ticker": "PAYX",
@@ -91,8 +91,8 @@
     "exit_price": null,
     "exit_date": null,
     "pnl_pct": null,
-    "max_favorable": null,
-    "max_adverse": null
+    "max_favorable": -0.010427945286404562,
+    "max_adverse": -0.010427945286404562
   },
   {
     "ticker": "PLTR",
@@ -110,8 +110,8 @@
     "exit_price": null,
     "exit_date": null,
     "pnl_pct": null,
-    "max_favorable": null,
-    "max_adverse": null
+    "max_favorable": -0.015578791232332837,
+    "max_adverse": -0.015578791232332837
   },
   {
     "ticker": "PANW",
@@ -129,8 +129,8 @@
     "exit_price": null,
     "exit_date": null,
     "pnl_pct": null,
-    "max_favorable": null,
-    "max_adverse": null
+    "max_favorable": -0.0008014028853161921,
+    "max_adverse": -0.0008014028853161921
   },
   {
     "ticker": "KHC",
@@ -148,8 +148,8 @@
     "exit_price": null,
     "exit_date": null,
     "pnl_pct": null,
-    "max_favorable": null,
-    "max_adverse": null
+    "max_favorable": -0.00022236028988946547,
+    "max_adverse": -0.00022236028988946547
   },
   {
     "ticker": "NFLX",
@@ -167,8 +167,8 @@
     "exit_price": null,
     "exit_date": null,
     "pnl_pct": null,
-    "max_favorable": null,
-    "max_adverse": null
+    "max_favorable": 0.010532066795065912,
+    "max_adverse": 0.010532066795065912
   },
   {
     "ticker": "SHOP",
@@ -186,8 +186,8 @@
     "exit_price": null,
     "exit_date": null,
     "pnl_pct": null,
-    "max_favorable": null,
-    "max_adverse": null
+    "max_favorable": -0.015793437315075865,
+    "max_adverse": -0.015793437315075865
   },
   {
     "ticker": "NFLX",
@@ -205,7 +205,7 @@
     "exit_price": null,
     "exit_date": null,
     "pnl_pct": null,
-    "max_favorable": null,
-    "max_adverse": null
+    "max_favorable": 0.0036796801017993036,
+    "max_adverse": 0.0036796801017993036
   }
 ]
