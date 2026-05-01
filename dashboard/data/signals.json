@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-05-01T08:19:14.843438",
+  "generated_at": "2026-05-01T08:41:16.084828+00:00",
   "date": "2026-05-01",
   "stats": {
     "total": 10,
@@ -51,7 +51,7 @@
       "issued_at": "2026-04-30T18:25:28.957456",
       "last_seen": "2026-04-30T18:25:28.958262",
       "current_price": 165.13,
-      "current_price_time": "2026-05-01T07:47:03.231567+00:00",
+      "current_price_time": "2026-05-01T08:41:16.084828+00:00",
       "pnl_pct_live": 1.1,
       "progression_pct": 7.3
     },
@@ -90,7 +90,7 @@
       "issued_at": "2026-04-30T20:01:24.587523",
       "last_seen": "2026-04-30T20:01:24.588359",
       "current_price": 611.4,
-      "current_price_time": "2026-05-01T07:47:03.231567+00:00",
+      "current_price_time": "2026-05-01T08:41:16.084828+00:00",
       "pnl_pct_live": 0.21,
       "progression_pct": 1.7
     },
@@ -120,9 +120,15 @@
       "news_score": null,
       "top_news_title": null,
       "top_news_url": null,
-      "status": "open",
+      "status": "expired",
       "issued_at": "2026-04-30T08:20:49.177201",
-      "last_seen": "2026-05-01T08:19:14.843438"
+      "last_seen": "2026-05-01T08:19:14.843438",
+      "current_price": 27.02,
+      "current_price_time": "2026-05-01T08:41:16.084828+00:00",
+      "exit_price": 27.02,
+      "exit_date": "2026-05-01T08:41:16.084828+00:00",
+      "pnl_pct": -0.97,
+      "pnl_pct_live": -0.97
     },
     {
       "ticker": "PAYX",
@@ -154,13 +160,16 @@
       "news_score": 0.15,
       "top_news_title": "Intuit's AI Transformation: Will It Drive Future Growth?",
       "top_news_url": "https://finance.yahoo.com/sectors/technology/articles/intuits-ai-transformation-drive-future-134500081.html",
-      "status": "open",
+      "status": "expired",
       "issued_at": "2026-04-30T08:20:49.177192",
       "last_seen": "2026-04-30T17:03:53.536595",
       "current_price": 92.62,
-      "current_price_time": "2026-05-01T07:47:03.231567+00:00",
+      "current_price_time": "2026-05-01T08:41:16.084828+00:00",
       "pnl_pct_live": 0.5,
-      "progression_pct": 8.5
+      "progression_pct": 8.5,
+      "exit_price": 92.62,
+      "exit_date": "2026-05-01T08:41:16.084828+00:00",
+      "pnl_pct": 0.5
     },
     {
       "ticker": "DLTR",
@@ -197,7 +206,7 @@
       "issued_at": "2026-04-30T14:23:35.514104",
       "last_seen": "2026-04-30T14:23:35.514895",
       "current_price": 97.12,
-      "current_price_time": "2026-05-01T07:47:03.231567+00:00",
+      "current_price_time": "2026-05-01T08:41:16.084828+00:00",
       "pnl_pct_live": 0.16,
       "progression_pct": 1.8
     },
@@ -229,9 +238,15 @@
       "news_score": -0.05,
       "top_news_title": "Kraft Heinz (KHC) Expected to Beat Earnings Estimates: Should You Buy?",
       "top_news_url": "https://finance.yahoo.com/markets/stocks/articles/kraft-heinz-khc-expected-beat-140020304.html",
-      "status": "open",
+      "status": "expired",
       "issued_at": "2026-04-30T08:20:49.177197",
-      "last_seen": "2026-05-01T08:19:14.843438"
+      "last_seen": "2026-05-01T08:19:14.843438",
+      "current_price": 22.66,
+      "current_price_time": "2026-05-01T08:41:16.084828+00:00",
+      "exit_price": 22.66,
+      "exit_date": "2026-05-01T08:41:16.084828+00:00",
+      "pnl_pct": 0.0,
+      "pnl_pct_live": 0.0
     },
     {
       "ticker": "BNTX",
@@ -263,13 +278,16 @@
       "news_score": 0.15,
       "top_news_title": "BioNTech (BNTX) Surges 6.1%: Is This an Indication of Further Gains?",
       "top_news_url": "https://finance.yahoo.com/markets/stocks/articles/biontech-bntx-surges-6-1-141000347.html",
-      "status": "open",
+      "status": "expired",
       "issued_at": "2026-04-30T08:20:49.177168",
       "last_seen": "2026-04-30T17:03:53.536595",
       "current_price": 103.43,
-      "current_price_time": "2026-05-01T07:47:03.231567+00:00",
+      "current_price_time": "2026-05-01T08:41:16.084828+00:00",
       "pnl_pct_live": 0.54,
-      "progression_pct": 6.5
+      "progression_pct": 6.5,
+      "exit_price": 103.43,
+      "exit_date": "2026-05-01T08:41:16.084828+00:00",
+      "pnl_pct": 0.54
     },
     {
       "ticker": "FTNT",
@@ -299,7 +317,11 @@
       "top_news_url": null,
       "status": "open",
       "issued_at": "2026-04-30T18:25:28.957478",
-      "last_seen": "2026-05-01T08:19:14.843438"
+      "last_seen": "2026-05-01T08:19:14.843438",
+      "current_price": 84.28,
+      "current_price_time": "2026-05-01T08:41:16.084828+00:00",
+      "pnl_pct_live": 0.15,
+      "progression_pct": 2.1
     },
     {
       "ticker": "NFLX",
@@ -329,7 +351,11 @@
       "top_news_url": null,
       "status": "open",
       "issued_at": "2026-04-30T15:39:39.816824",
-      "last_seen": "2026-05-01T08:19:14.843438"
+      "last_seen": "2026-05-01T08:19:14.843438",
+      "current_price": 93.55,
+      "current_price_time": "2026-05-01T08:41:16.084828+00:00",
+      "pnl_pct_live": -0.54,
+      "progression_pct": -19.1
     },
     {
       "ticker": "PANW",
@@ -363,7 +389,11 @@
       "top_news_url": "https://finance.yahoo.com/markets/stocks/articles/palo-alto-networks-panw-stock-214502969.html",
       "status": "open",
       "issued_at": "2026-05-01T08:19:14.842739",
-      "last_seen": "2026-05-01T08:19:14.843438"
+      "last_seen": "2026-05-01T08:19:14.843438",
+      "current_price": 179.32,
+      "current_price_time": "2026-05-01T08:41:16.084828+00:00",
+      "pnl_pct_live": 0.0,
+      "progression_pct": 0.0
     },
     {
       "ticker": "ON",
