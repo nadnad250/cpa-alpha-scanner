@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-05-01T17:23:05.613725+00:00",
+  "generated_at": "2026-05-01T17:49:01.418561+00:00",
   "date": "2026-05-01",
   "stats": {
     "total": 10,
@@ -50,10 +50,10 @@
       "status": "open",
       "issued_at": "2026-04-30T18:25:28.957456",
       "last_seen": "2026-04-30T18:25:28.958262",
-      "current_price": 165.73,
-      "current_price_time": "2026-05-01T17:23:05.613725+00:00",
-      "pnl_pct_live": 1.46,
-      "progression_pct": 9.8
+      "current_price": 165.99,
+      "current_price_time": "2026-05-01T17:49:01.418561+00:00",
+      "pnl_pct_live": 1.62,
+      "progression_pct": 10.8
     },
     {
       "ticker": "COIN",
@@ -88,10 +88,10 @@
       "status": "open",
       "issued_at": "2026-05-01T14:06:37.404312",
       "last_seen": "2026-05-01T14:06:37.405272",
-      "current_price": 192.27,
-      "current_price_time": "2026-05-01T17:23:05.613725+00:00",
-      "pnl_pct_live": 0.66,
-      "progression_pct": 4.4
+      "current_price": 192.5,
+      "current_price_time": "2026-05-01T17:49:01.418561+00:00",
+      "pnl_pct_live": 0.54,
+      "progression_pct": 3.6
     },
     {
       "ticker": "BNTX",
@@ -163,10 +163,10 @@
       "status": "open",
       "issued_at": "2026-04-30T20:01:24.587523",
       "last_seen": "2026-04-30T20:01:24.588359",
-      "current_price": 614.67,
-      "current_price_time": "2026-05-01T17:23:05.613725+00:00",
-      "pnl_pct_live": -0.32,
-      "progression_pct": -7.5
+      "current_price": 612.04,
+      "current_price_time": "2026-05-01T17:49:01.418561+00:00",
+      "pnl_pct_live": 0.11,
+      "progression_pct": 0.9
     },
     {
       "ticker": "PAYX",
@@ -347,10 +347,10 @@
       "status": "open",
       "issued_at": "2026-05-01T14:06:37.404321",
       "last_seen": "2026-05-01T14:06:37.405272",
-      "current_price": 144.77,
-      "current_price_time": "2026-05-01T17:23:05.613725+00:00",
-      "pnl_pct_live": -2.05,
-      "progression_pct": -47.2
+      "current_price": 144.86,
+      "current_price_time": "2026-05-01T17:49:01.418561+00:00",
+      "pnl_pct_live": -2.11,
+      "progression_pct": -48.6
     },
     {
       "ticker": "NFLX",
