@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-05-01T14:06:37.405272",
+  "generated_at": "2026-05-01T14:25:45.361184+00:00",
   "date": "2026-05-01",
   "stats": {
     "total": 10,
@@ -50,10 +50,10 @@
       "status": "open",
       "issued_at": "2026-04-30T18:25:28.957456",
       "last_seen": "2026-04-30T18:25:28.958262",
-      "current_price": 163.62,
-      "current_price_time": "2026-05-01T13:50:15.954360+00:00",
-      "pnl_pct_live": 0.17,
-      "progression_pct": 1.1
+      "current_price": 164.86,
+      "current_price_time": "2026-05-01T14:25:45.361184+00:00",
+      "pnl_pct_live": 0.93,
+      "progression_pct": 6.2
     },
     {
       "ticker": "BNTX",
@@ -86,9 +86,15 @@
       "news_score": 0.15,
       "top_news_title": "BioNTech (BNTX) Surges 6.1%: Is This an Indication of Further Gains?",
       "top_news_url": "https://finance.yahoo.com/markets/stocks/articles/biontech-bntx-surges-6-1-141000347.html",
-      "status": "open",
+      "status": "expired",
       "issued_at": "2026-04-30T08:20:49.177168",
-      "last_seen": "2026-05-01T14:06:37.405272"
+      "last_seen": "2026-05-01T14:06:37.405272",
+      "current_price": 96.92,
+      "current_price_time": "2026-05-01T14:25:45.361184+00:00",
+      "exit_price": 96.92,
+      "exit_date": "2026-05-01T14:25:45.361184+00:00",
+      "pnl_pct": 0.4,
+      "pnl_pct_live": 0.4
     },
     {
       "ticker": "COIN",
@@ -122,7 +128,11 @@
       "top_news_url": "https://www.cryptoprowl.com/releases/robinhood-leads-crypto-stocks-lower-after-disappointing-earnings-4325",
       "status": "open",
       "issued_at": "2026-05-01T14:06:37.404312",
-      "last_seen": "2026-05-01T14:06:37.405272"
+      "last_seen": "2026-05-01T14:06:37.405272",
+      "current_price": 192.88,
+      "current_price_time": "2026-05-01T14:25:45.361184+00:00",
+      "pnl_pct_live": 0.35,
+      "progression_pct": 2.3
     },
     {
       "ticker": "META",
@@ -158,10 +168,10 @@
       "status": "open",
       "issued_at": "2026-04-30T20:01:24.587523",
       "last_seen": "2026-04-30T20:01:24.588359",
-      "current_price": 611.82,
-      "current_price_time": "2026-05-01T13:50:15.954360+00:00",
-      "pnl_pct_live": 0.14,
-      "progression_pct": 1.2
+      "current_price": 612.5,
+      "current_price_time": "2026-05-01T14:25:45.361184+00:00",
+      "pnl_pct_live": 0.03,
+      "progression_pct": 0.3
     },
     {
       "ticker": "PAYX",
@@ -193,9 +203,15 @@
       "news_score": 0.15,
       "top_news_title": "Intuit's AI Transformation: Will It Drive Future Growth?",
       "top_news_url": "https://finance.yahoo.com/sectors/technology/articles/intuits-ai-transformation-drive-future-134500081.html",
-      "status": "open",
+      "status": "expired",
       "issued_at": "2026-04-30T08:20:49.177192",
-      "last_seen": "2026-05-01T14:06:37.405272"
+      "last_seen": "2026-05-01T14:06:37.405272",
+      "current_price": 92.16,
+      "current_price_time": "2026-05-01T14:25:45.361184+00:00",
+      "exit_price": 92.16,
+      "exit_date": "2026-05-01T14:25:45.361184+00:00",
+      "pnl_pct": -0.11,
+      "pnl_pct_live": -0.11
     },
     {
       "ticker": "CMCSA",
@@ -223,9 +239,15 @@
       "news_score": null,
       "top_news_title": null,
       "top_news_url": null,
-      "status": "open",
+      "status": "expired",
       "issued_at": "2026-04-30T08:20:49.177201",
-      "last_seen": "2026-05-01T14:06:37.405272"
+      "last_seen": "2026-05-01T14:06:37.405272",
+      "current_price": 27.09,
+      "current_price_time": "2026-05-01T14:25:45.361184+00:00",
+      "exit_price": 27.09,
+      "exit_date": "2026-05-01T14:25:45.361184+00:00",
+      "pnl_pct": -1.23,
+      "pnl_pct_live": -1.23
     },
     {
       "ticker": "DLTR",
@@ -258,13 +280,16 @@
       "news_score": -0.1,
       "top_news_title": "Stocks Inch to New Records as Nvidia Strength Overcomes Consumer Weakness",
       "top_news_url": "https://www.wsj.com/finance/stocks/global-stocks-markets-dow-news-04-27-2026-a3cc163f?siteid=yhoof2&yptr=yahoo",
-      "status": "open",
+      "status": "expired",
       "issued_at": "2026-04-30T14:23:35.514104",
       "last_seen": "2026-04-30T14:23:35.514895",
-      "current_price": 95.45,
-      "current_price_time": "2026-05-01T13:50:15.954360+00:00",
-      "pnl_pct_live": 1.88,
-      "progression_pct": 20.1
+      "current_price": 95.23,
+      "current_price_time": "2026-05-01T14:25:45.361184+00:00",
+      "pnl_pct_live": 2.11,
+      "progression_pct": 20.1,
+      "exit_price": 95.23,
+      "exit_date": "2026-05-01T14:25:45.361184+00:00",
+      "pnl_pct": 2.11
     },
     {
       "ticker": "KHC",
@@ -292,9 +317,15 @@
       "news_score": null,
       "top_news_title": null,
       "top_news_url": null,
-      "status": "open",
+      "status": "expired",
       "issued_at": "2026-04-30T08:20:49.177197",
-      "last_seen": "2026-05-01T14:06:37.405272"
+      "last_seen": "2026-05-01T14:06:37.405272",
+      "current_price": 22.89,
+      "current_price_time": "2026-05-01T14:25:45.361184+00:00",
+      "exit_price": 22.89,
+      "exit_date": "2026-05-01T14:25:45.361184+00:00",
+      "pnl_pct": -2.1,
+      "pnl_pct_live": -2.1
     },
     {
       "ticker": "PLTR",
@@ -328,7 +359,11 @@
       "top_news_url": "https://finance.yahoo.com/markets/stocks/articles/exploring-high-growth-tech-stocks-113812037.html",
       "status": "open",
       "issued_at": "2026-05-01T14:06:37.404321",
-      "last_seen": "2026-05-01T14:06:37.405272"
+      "last_seen": "2026-05-01T14:06:37.405272",
+      "current_price": 142.77,
+      "current_price_time": "2026-05-01T14:25:45.361184+00:00",
+      "pnl_pct_live": -0.64,
+      "progression_pct": -14.7
     },
     {
       "ticker": "NFLX",
@@ -360,7 +395,7 @@
       "issued_at": "2026-04-30T15:39:39.816824",
       "last_seen": "2026-05-01T08:19:14.843438",
       "current_price": 93.83,
-      "current_price_time": "2026-05-01T13:50:15.954360+00:00",
+      "current_price_time": "2026-05-01T14:25:45.361184+00:00",
       "pnl_pct_live": -0.84,
       "progression_pct": -29.8
     },
