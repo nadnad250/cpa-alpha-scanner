@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-05-01T15:48:15.069515+00:00",
+  "generated_at": "2026-05-01T16:22:14.524958+00:00",
   "date": "2026-05-01",
   "stats": {
     "total": 10,
@@ -50,10 +50,10 @@
       "status": "open",
       "issued_at": "2026-04-30T18:25:28.957456",
       "last_seen": "2026-04-30T18:25:28.958262",
-      "current_price": 164.58,
-      "current_price_time": "2026-05-01T15:48:15.069515+00:00",
-      "pnl_pct_live": 0.76,
-      "progression_pct": 5.1
+      "current_price": 165.59,
+      "current_price_time": "2026-05-01T16:22:14.524958+00:00",
+      "pnl_pct_live": 1.38,
+      "progression_pct": 9.2
     },
     {
       "ticker": "COIN",
@@ -88,10 +88,10 @@
       "status": "open",
       "issued_at": "2026-05-01T14:06:37.404312",
       "last_seen": "2026-05-01T14:06:37.405272",
-      "current_price": 194.0,
-      "current_price_time": "2026-05-01T15:48:15.069515+00:00",
-      "pnl_pct_live": -0.23,
-      "progression_pct": -4.6
+      "current_price": 192.15,
+      "current_price_time": "2026-05-01T16:22:14.524958+00:00",
+      "pnl_pct_live": 0.72,
+      "progression_pct": 4.8
     },
     {
       "ticker": "BNTX",
@@ -163,8 +163,8 @@
       "status": "open",
       "issued_at": "2026-04-30T20:01:24.587523",
       "last_seen": "2026-04-30T20:01:24.588359",
-      "current_price": 612.27,
-      "current_price_time": "2026-05-01T15:48:15.069515+00:00",
+      "current_price": 612.25,
+      "current_price_time": "2026-05-01T16:22:14.524958+00:00",
       "pnl_pct_live": 0.07,
       "progression_pct": 0.6
     },
@@ -345,10 +345,10 @@
       "status": "open",
       "issued_at": "2026-05-01T14:06:37.404321",
       "last_seen": "2026-05-01T14:06:37.405272",
-      "current_price": 144.26,
-      "current_price_time": "2026-05-01T15:48:15.069515+00:00",
-      "pnl_pct_live": -1.69,
-      "progression_pct": -38.9
+      "current_price": 144.2,
+      "current_price_time": "2026-05-01T16:22:14.524958+00:00",
+      "pnl_pct_live": -1.65,
+      "progression_pct": -37.9
     },
     {
       "ticker": "NFLX",
