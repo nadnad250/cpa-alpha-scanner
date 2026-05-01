@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-05-01T19:55:52.416082",
+  "generated_at": "2026-05-01T19:56:19.036532+00:00",
   "date": "2026-05-01",
   "stats": {
     "total": 10,
@@ -44,9 +44,15 @@
       "news_score": null,
       "top_news_title": null,
       "top_news_url": null,
-      "status": "open",
+      "status": "expired",
       "issued_at": "2026-04-30T18:25:28.957456",
-      "last_seen": "2026-05-01T19:55:52.416082"
+      "last_seen": "2026-05-01T19:55:52.416082",
+      "current_price": 165.13,
+      "current_price_time": "2026-05-01T19:56:19.036532+00:00",
+      "exit_price": 165.13,
+      "exit_date": "2026-05-01T19:56:19.036532+00:00",
+      "pnl_pct": 1.1,
+      "pnl_pct_live": 1.1
     },
     {
       "ticker": "BNTX",
@@ -79,9 +85,15 @@
       "news_score": 0.3,
       "top_news_title": "BioNTech (BNTX) Surges 6.1%: Is This an Indication of Further Gains?",
       "top_news_url": "https://finance.yahoo.com/markets/stocks/articles/biontech-bntx-surges-6-1-141000347.html",
-      "status": "open",
+      "status": "expired",
       "issued_at": "2026-04-30T08:20:49.177168",
-      "last_seen": "2026-05-01T19:55:52.416082"
+      "last_seen": "2026-05-01T19:55:52.416082",
+      "current_price": 97.51,
+      "current_price_time": "2026-05-01T19:56:19.036532+00:00",
+      "exit_price": 97.51,
+      "exit_date": "2026-05-01T19:56:19.036532+00:00",
+      "pnl_pct": -0.04,
+      "pnl_pct_live": -0.04
     },
     {
       "ticker": "COIN",
@@ -115,7 +127,11 @@
       "top_news_url": "https://www.cryptoprowl.com/releases/robinhood-leads-crypto-stocks-lower-after-disappointing-earnings-4325",
       "status": "open",
       "issued_at": "2026-05-01T14:06:37.404312",
-      "last_seen": "2026-05-01T19:55:52.416082"
+      "last_seen": "2026-05-01T19:55:52.416082",
+      "current_price": 191.02,
+      "current_price_time": "2026-05-01T19:56:19.036532+00:00",
+      "pnl_pct_live": -0.12,
+      "progression_pct": -2.3
     },
     {
       "ticker": "META",
@@ -151,10 +167,10 @@
       "status": "open",
       "issued_at": "2026-04-30T20:01:24.587523",
       "last_seen": "2026-04-30T20:01:24.588359",
-      "current_price": 611.41,
-      "current_price_time": "2026-05-01T19:29:34.711674+00:00",
-      "pnl_pct_live": 0.21,
-      "progression_pct": 1.7
+      "current_price": 609.26,
+      "current_price_time": "2026-05-01T19:56:19.036532+00:00",
+      "pnl_pct_live": 0.56,
+      "progression_pct": 4.6
     },
     {
       "ticker": "CMCSA",
@@ -182,9 +198,15 @@
       "news_score": null,
       "top_news_title": null,
       "top_news_url": null,
-      "status": "open",
+      "status": "expired",
       "issued_at": "2026-04-30T08:20:49.177201",
-      "last_seen": "2026-05-01T19:55:52.416082"
+      "last_seen": "2026-05-01T19:55:52.416082",
+      "current_price": 27.25,
+      "current_price_time": "2026-05-01T19:56:19.036532+00:00",
+      "exit_price": 27.25,
+      "exit_date": "2026-05-01T19:56:19.036532+00:00",
+      "pnl_pct": -1.83,
+      "pnl_pct_live": -1.83
     },
     {
       "ticker": "PAYX",
@@ -216,9 +238,15 @@
       "news_score": 0.15,
       "top_news_title": "Intuit's AI Transformation: Will It Drive Future Growth?",
       "top_news_url": "https://finance.yahoo.com/sectors/technology/articles/intuits-ai-transformation-drive-future-134500081.html",
-      "status": "open",
+      "status": "expired",
       "issued_at": "2026-04-30T08:20:49.177192",
-      "last_seen": "2026-05-01T19:55:52.416082"
+      "last_seen": "2026-05-01T19:55:52.416082",
+      "current_price": 93.09,
+      "current_price_time": "2026-05-01T19:56:19.036532+00:00",
+      "exit_price": 93.09,
+      "exit_date": "2026-05-01T19:56:19.036532+00:00",
+      "pnl_pct": -0.03,
+      "pnl_pct_live": -0.03
     },
     {
       "ticker": "DLTR",
@@ -246,9 +274,15 @@
       "news_score": null,
       "top_news_title": null,
       "top_news_url": null,
-      "status": "open",
+      "status": "expired",
       "issued_at": "2026-04-30T14:23:35.514104",
-      "last_seen": "2026-05-01T19:55:52.416082"
+      "last_seen": "2026-05-01T19:55:52.416082",
+      "current_price": 94.96,
+      "current_price_time": "2026-05-01T19:56:19.036532+00:00",
+      "exit_price": 94.96,
+      "exit_date": "2026-05-01T19:56:19.036532+00:00",
+      "pnl_pct": 2.38,
+      "pnl_pct_live": 2.38
     },
     {
       "ticker": "KHC",
@@ -276,9 +310,15 @@
       "news_score": null,
       "top_news_title": null,
       "top_news_url": null,
-      "status": "open",
+      "status": "expired",
       "issued_at": "2026-04-30T08:20:49.177197",
-      "last_seen": "2026-05-01T19:55:52.416082"
+      "last_seen": "2026-05-01T19:55:52.416082",
+      "current_price": 22.56,
+      "current_price_time": "2026-05-01T19:56:19.036532+00:00",
+      "exit_price": 22.56,
+      "exit_date": "2026-05-01T19:56:19.036532+00:00",
+      "pnl_pct": -0.62,
+      "pnl_pct_live": -0.62
     },
     {
       "ticker": "PLTR",
@@ -313,10 +353,10 @@
       "status": "open",
       "issued_at": "2026-05-01T14:06:37.404321",
       "last_seen": "2026-05-01T14:06:37.405272",
-      "current_price": 144.43,
-      "current_price_time": "2026-05-01T19:29:34.711674+00:00",
-      "pnl_pct_live": -1.81,
-      "progression_pct": -41.7
+      "current_price": 144.26,
+      "current_price_time": "2026-05-01T19:56:19.036532+00:00",
+      "pnl_pct_live": -1.69,
+      "progression_pct": -38.9
     },
     {
       "ticker": "NFLX",
@@ -350,7 +390,11 @@
       "top_news_url": "https://finance.yahoo.com/markets/stocks/articles/netflix-inc-nflx-expands-buyback-095336338.html",
       "status": "open",
       "issued_at": "2026-05-01T18:19:32.385986",
-      "last_seen": "2026-05-01T19:55:52.416082"
+      "last_seen": "2026-05-01T19:55:52.416082",
+      "current_price": 92.05,
+      "current_price_time": "2026-05-01T19:56:19.036532+00:00",
+      "pnl_pct_live": -0.02,
+      "progression_pct": -0.7
     },
     {
       "ticker": "MRVL",
