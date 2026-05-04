@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-05-04T15:45:33.518561",
+  "generated_at": "2026-05-04T16:13:12.915853+00:00",
   "date": "2026-05-04",
   "stats": {
     "total": 10,
@@ -49,10 +49,10 @@
       "status": "open",
       "issued_at": "2026-05-04T14:26:11.793600",
       "last_seen": "2026-05-04T14:26:11.794736",
-      "current_price": 256.63,
-      "current_price_time": "2026-05-04T15:26:35.695362+00:00",
-      "pnl_pct_live": -1.43,
-      "progression_pct": -31.2
+      "current_price": 255.69,
+      "current_price_time": "2026-05-04T16:13:12.915853+00:00",
+      "pnl_pct_live": -1.79,
+      "progression_pct": -39.1
     },
     {
       "ticker": "TEAM",
@@ -80,9 +80,15 @@
       "news_score": null,
       "top_news_title": null,
       "top_news_url": null,
-      "status": "open",
+      "status": "sl_hit",
       "issued_at": "2026-05-04T08:21:38.979632",
-      "last_seen": "2026-05-04T15:45:33.518561"
+      "last_seen": "2026-05-04T15:45:33.518561",
+      "current_price": 94.44,
+      "current_price_time": "2026-05-04T16:13:12.915853+00:00",
+      "exit_price": 93.32,
+      "exit_date": "2026-05-04T16:13:12.915853+00:00",
+      "pnl_pct": -5.0,
+      "pnl_pct_live": -5.0
     },
     {
       "ticker": "DOCU",
@@ -117,10 +123,10 @@
       "status": "open",
       "issued_at": "2026-05-04T08:21:38.979658",
       "last_seen": "2026-05-04T08:21:38.980622",
-      "current_price": 48.89,
-      "current_price_time": "2026-05-04T15:26:35.695362+00:00",
-      "pnl_pct_live": -1.94,
-      "progression_pct": -44.3
+      "current_price": 48.67,
+      "current_price_time": "2026-05-04T16:13:12.915853+00:00",
+      "pnl_pct_live": -1.48,
+      "progression_pct": -33.8
     },
     {
       "ticker": "MSFT",
@@ -155,7 +161,11 @@
       "top_news_url": "https://finance.yahoo.com/markets/article/its-a-boom-wall-street-sees-more-market-gains-as-strong-earnings-fuel-the-ai-trade-130032453.html",
       "status": "open",
       "issued_at": "2026-05-04T15:45:33.516958",
-      "last_seen": "2026-05-04T15:45:33.518561"
+      "last_seen": "2026-05-04T15:45:33.518561",
+      "current_price": 414.77,
+      "current_price_time": "2026-05-04T16:13:12.915853+00:00",
+      "pnl_pct_live": -0.11,
+      "progression_pct": -3.9
     },
     {
       "ticker": "COIN",
@@ -183,9 +193,15 @@
       "news_score": null,
       "top_news_title": null,
       "top_news_url": null,
-      "status": "open",
+      "status": "expired",
       "issued_at": "2026-05-01T14:06:37.404312",
-      "last_seen": "2026-05-04T15:45:33.518561"
+      "last_seen": "2026-05-04T15:45:33.518561",
+      "current_price": 202.69,
+      "current_price_time": "2026-05-04T16:13:12.915853+00:00",
+      "exit_price": 202.69,
+      "exit_date": "2026-05-04T16:13:12.915853+00:00",
+      "pnl_pct": -4.72,
+      "pnl_pct_live": -4.72
     },
     {
       "ticker": "BNTX",
@@ -217,9 +233,15 @@
       "news_score": 0.3,
       "top_news_title": "BioNTech (BNTX) Surges 6.1%: Is This an Indication of Further Gains?",
       "top_news_url": "https://finance.yahoo.com/markets/stocks/articles/biontech-bntx-surges-6-1-141000347.html",
-      "status": "open",
+      "status": "expired",
       "issued_at": "2026-05-01T14:06:37.404285",
-      "last_seen": "2026-05-04T15:45:33.518561"
+      "last_seen": "2026-05-04T15:45:33.518561",
+      "current_price": 99.48,
+      "current_price_time": "2026-05-04T16:13:12.915853+00:00",
+      "exit_price": 99.48,
+      "exit_date": "2026-05-04T16:13:12.915853+00:00",
+      "pnl_pct": -0.57,
+      "pnl_pct_live": -0.57
     },
     {
       "ticker": "PAYX",
@@ -247,9 +269,15 @@
       "news_score": null,
       "top_news_title": null,
       "top_news_url": null,
-      "status": "open",
+      "status": "expired",
       "issued_at": "2026-05-01T14:06:37.404318",
-      "last_seen": "2026-05-04T15:45:33.518561"
+      "last_seen": "2026-05-04T15:45:33.518561",
+      "current_price": 92.71,
+      "current_price_time": "2026-05-04T16:13:12.915853+00:00",
+      "exit_price": 92.71,
+      "exit_date": "2026-05-04T16:13:12.915853+00:00",
+      "pnl_pct": -0.71,
+      "pnl_pct_live": -0.71
     },
     {
       "ticker": "KHC",
@@ -277,9 +305,15 @@
       "news_score": null,
       "top_news_title": null,
       "top_news_url": null,
-      "status": "open",
+      "status": "expired",
       "issued_at": "2026-05-01T08:19:14.842715",
-      "last_seen": "2026-05-04T15:45:33.518561"
+      "last_seen": "2026-05-04T15:45:33.518561",
+      "current_price": 22.37,
+      "current_price_time": "2026-05-04T16:13:12.915853+00:00",
+      "exit_price": 22.37,
+      "exit_date": "2026-05-04T16:13:12.915853+00:00",
+      "pnl_pct": 1.28,
+      "pnl_pct_live": 1.28
     },
     {
       "ticker": "PYPL",
@@ -314,10 +348,10 @@
       "status": "open",
       "issued_at": "2026-05-04T08:21:38.979674",
       "last_seen": "2026-05-04T08:21:38.980622",
-      "current_price": 50.48,
-      "current_price_time": "2026-05-04T15:26:35.695362+00:00",
-      "pnl_pct_live": -0.08,
-      "progression_pct": -3.6
+      "current_price": 50.32,
+      "current_price_time": "2026-05-04T16:13:12.915853+00:00",
+      "pnl_pct_live": 0.24,
+      "progression_pct": 3.9
     },
     {
       "ticker": "PLTR",
@@ -345,9 +379,15 @@
       "news_score": null,
       "top_news_title": null,
       "top_news_url": null,
-      "status": "open",
+      "status": "expired",
       "issued_at": "2026-05-01T14:06:37.404321",
-      "last_seen": "2026-05-04T15:45:33.518561"
+      "last_seen": "2026-05-04T15:45:33.518561",
+      "current_price": 145.88,
+      "current_price_time": "2026-05-04T16:13:12.915853+00:00",
+      "exit_price": 145.88,
+      "exit_date": "2026-05-04T16:13:12.915853+00:00",
+      "pnl_pct": -2.83,
+      "pnl_pct_live": -2.83
     },
     {
       "ticker": "MRVL",
