@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-05-04T18:50:25.693435+00:00",
+  "generated_at": "2026-05-04T19:34:11.536898+00:00",
   "date": "2026-05-04",
   "stats": {
     "total": 10,
@@ -49,10 +49,10 @@
       "status": "open",
       "issued_at": "2026-05-04T14:26:11.793600",
       "last_seen": "2026-05-04T14:26:11.794736",
-      "current_price": 257.7,
-      "current_price_time": "2026-05-04T18:50:25.693435+00:00",
-      "pnl_pct_live": -1.02,
-      "progression_pct": -22.3
+      "current_price": 257.53,
+      "current_price_time": "2026-05-04T19:34:11.536898+00:00",
+      "pnl_pct_live": -1.09,
+      "progression_pct": -23.7
     },
     {
       "ticker": "TEAM",
@@ -123,10 +123,10 @@
       "status": "open",
       "issued_at": "2026-05-04T08:21:38.979658",
       "last_seen": "2026-05-04T08:21:38.980622",
-      "current_price": 48.42,
-      "current_price_time": "2026-05-04T18:50:25.693435+00:00",
-      "pnl_pct_live": -0.96,
-      "progression_pct": -21.9
+      "current_price": 48.43,
+      "current_price_time": "2026-05-04T19:34:11.536898+00:00",
+      "pnl_pct_live": -0.98,
+      "progression_pct": -22.4
     },
     {
       "ticker": "COIN",
@@ -353,10 +353,10 @@
       "status": "open",
       "issued_at": "2026-05-04T08:21:38.979674",
       "last_seen": "2026-05-04T08:21:38.980622",
-      "current_price": 50.42,
-      "current_price_time": "2026-05-04T18:50:25.693435+00:00",
-      "pnl_pct_live": 0.04,
-      "progression_pct": 0.6
+      "current_price": 50.35,
+      "current_price_time": "2026-05-04T19:34:11.536898+00:00",
+      "pnl_pct_live": 0.18,
+      "progression_pct": 2.9
     },
     {
       "ticker": "NFLX",
