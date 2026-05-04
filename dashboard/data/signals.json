@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-05-04T08:21:38.980622",
+  "generated_at": "2026-05-04T09:01:07.021954+00:00",
   "date": "2026-05-04",
   "stats": {
     "total": 10,
@@ -54,7 +54,11 @@
       "top_news_url": "https://finance.yahoo.com/markets/stocks/articles/mongodb-pubmatic-sprinklr-shares-skyrocket-054055390.html",
       "status": "open",
       "issued_at": "2026-05-04T08:21:38.979632",
-      "last_seen": "2026-05-04T08:21:38.980622"
+      "last_seen": "2026-05-04T08:21:38.980622",
+      "current_price": 88.85,
+      "current_price_time": "2026-05-04T09:01:07.021954+00:00",
+      "pnl_pct_live": 0.03,
+      "progression_pct": 0.2
     },
     {
       "ticker": "DOCU",
@@ -88,7 +92,11 @@
       "top_news_url": "https://finance.yahoo.com/markets/stocks/articles/docusign-docu-stock-falls-amid-214505158.html",
       "status": "open",
       "issued_at": "2026-05-04T08:21:38.979658",
-      "last_seen": "2026-05-04T08:21:38.980622"
+      "last_seen": "2026-05-04T08:21:38.980622",
+      "current_price": 47.95,
+      "current_price_time": "2026-05-04T09:01:07.021954+00:00",
+      "pnl_pct_live": 0.02,
+      "progression_pct": 0.2
     },
     {
       "ticker": "BNTX",
@@ -121,9 +129,15 @@
       "news_score": 0.3,
       "top_news_title": "BioNTech (BNTX) Surges 6.1%: Is This an Indication of Further Gains?",
       "top_news_url": "https://finance.yahoo.com/markets/stocks/articles/biontech-bntx-surges-6-1-141000347.html",
-      "status": "open",
+      "status": "expired",
       "issued_at": "2026-05-01T14:06:37.404285",
-      "last_seen": "2026-05-04T08:21:38.980622"
+      "last_seen": "2026-05-04T08:21:38.980622",
+      "current_price": 97.53,
+      "current_price_time": "2026-05-04T09:01:07.021954+00:00",
+      "exit_price": 97.53,
+      "exit_date": "2026-05-04T09:01:07.021954+00:00",
+      "pnl_pct": 0.01,
+      "pnl_pct_live": 0.01
     },
     {
       "ticker": "PAYX",
@@ -155,9 +169,15 @@
       "news_score": 0,
       "top_news_title": "3 Cash-Producing Stocks with Warning Signs",
       "top_news_url": "https://finance.yahoo.com/markets/stocks/articles/3-cash-producing-stocks-warning-182055346.html",
-      "status": "open",
+      "status": "expired",
       "issued_at": "2026-05-01T14:06:37.404318",
-      "last_seen": "2026-05-04T08:21:38.980622"
+      "last_seen": "2026-05-04T08:21:38.980622",
+      "current_price": 93.02,
+      "current_price_time": "2026-05-04T09:01:07.021954+00:00",
+      "exit_price": 93.02,
+      "exit_date": "2026-05-04T09:01:07.021954+00:00",
+      "pnl_pct": 0.0,
+      "pnl_pct_live": 0.0
     },
     {
       "ticker": "COIN",
@@ -189,9 +209,15 @@
       "news_score": 0.1,
       "top_news_title": "Stablecoin Yield Deal Removes Obstacle to Crypto Bill. What It Means For Coinbase.",
       "top_news_url": "https://www.barrons.com/articles/crypto-bill-stablecoin-yields-coinbase-clarity-act-tillis-alsobrooks-78dd5028?siteid=yhoof2&yptr=yahoo",
-      "status": "open",
+      "status": "expired",
       "issued_at": "2026-05-01T14:06:37.404312",
-      "last_seen": "2026-05-04T08:21:38.980622"
+      "last_seen": "2026-05-04T08:21:38.980622",
+      "current_price": 191.21,
+      "current_price_time": "2026-05-04T09:01:07.021954+00:00",
+      "exit_price": 191.21,
+      "exit_date": "2026-05-04T09:01:07.021954+00:00",
+      "pnl_pct": 0.02,
+      "pnl_pct_live": 0.02
     },
     {
       "ticker": "PLTR",
@@ -223,9 +249,15 @@
       "news_score": 0,
       "top_news_title": "Palantir Technologies (PLTR) Stock Is Up, What You Need To Know",
       "top_news_url": "https://finance.yahoo.com/markets/stocks/articles/palantir-technologies-pltr-stock-know-050055757.html",
-      "status": "open",
+      "status": "expired",
       "issued_at": "2026-05-01T14:06:37.404321",
-      "last_seen": "2026-05-04T08:21:38.980622"
+      "last_seen": "2026-05-04T08:21:38.980622",
+      "current_price": 144.08,
+      "current_price_time": "2026-05-04T09:01:07.021954+00:00",
+      "exit_price": 144.08,
+      "exit_date": "2026-05-04T09:01:07.021954+00:00",
+      "pnl_pct": -0.01,
+      "pnl_pct_live": -0.01
     },
     {
       "ticker": "MELI",
@@ -259,7 +291,11 @@
       "top_news_url": "https://www.fool.com/coverage/stock-market-today/2026/04/30/stock-market-today-april-30-amazon-rises-on-aws-ai-growth-and-an-earnings-beat/",
       "status": "open",
       "issued_at": "2026-05-04T08:21:38.979681",
-      "last_seen": "2026-05-04T08:21:38.980622"
+      "last_seen": "2026-05-04T08:21:38.980622",
+      "current_price": 1849.57,
+      "current_price_time": "2026-05-04T09:01:07.021954+00:00",
+      "pnl_pct_live": 0.03,
+      "progression_pct": 0.4
     },
     {
       "ticker": "KHC",
@@ -289,9 +325,15 @@
       "news_score": 0.05,
       "top_news_title": "Berkshire Hathaway’s Cash Surges in Abel’s First Quarter as CEO",
       "top_news_url": "https://finance.yahoo.com/news/berkshire-hathaways-cash-surges-in-abels-first-quarter-as-ceo-143038277.html",
-      "status": "open",
+      "status": "expired",
       "issued_at": "2026-05-01T08:19:14.842715",
-      "last_seen": "2026-05-04T08:21:38.980622"
+      "last_seen": "2026-05-04T08:21:38.980622",
+      "current_price": 22.48,
+      "current_price_time": "2026-05-04T09:01:07.021954+00:00",
+      "exit_price": 22.48,
+      "exit_date": "2026-05-04T09:01:07.021954+00:00",
+      "pnl_pct": 0.04,
+      "pnl_pct_live": 0.04
     },
     {
       "ticker": "PYPL",
@@ -325,7 +367,11 @@
       "top_news_url": "https://finance.yahoo.com/markets/stocks/articles/3-cash-heavy-stocks-warning-174055905.html",
       "status": "open",
       "issued_at": "2026-05-04T08:21:38.979674",
-      "last_seen": "2026-05-04T08:21:38.980622"
+      "last_seen": "2026-05-04T08:21:38.980622",
+      "current_price": 50.43,
+      "current_price_time": "2026-05-04T09:01:07.021954+00:00",
+      "pnl_pct_live": 0.02,
+      "progression_pct": 0.3
     },
     {
       "ticker": "NFLX",
@@ -353,9 +399,15 @@
       "news_score": null,
       "top_news_title": null,
       "top_news_url": null,
-      "status": "open",
+      "status": "expired",
       "issued_at": "2026-05-01T18:19:32.385986",
-      "last_seen": "2026-05-04T08:21:38.980622"
+      "last_seen": "2026-05-04T08:21:38.980622",
+      "current_price": 92.1,
+      "current_price_time": "2026-05-04T09:01:07.021954+00:00",
+      "exit_price": 92.1,
+      "exit_date": "2026-05-04T09:01:07.021954+00:00",
+      "pnl_pct": 0.32,
+      "pnl_pct_live": 0.32
     },
     {
       "ticker": "MRVL",
