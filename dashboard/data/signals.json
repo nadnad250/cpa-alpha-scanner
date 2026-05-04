@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-05-01T21:47:31.185006+00:00",
+  "generated_at": "2026-05-04T07:57:58.540228+00:00",
   "date": "2026-05-01",
   "stats": {
     "total": 10,
@@ -125,13 +125,16 @@
       "news_score": -0.2,
       "top_news_title": "Robinhood Leads Crypto Stocks Lower After Disappointing Earnings",
       "top_news_url": "https://www.cryptoprowl.com/releases/robinhood-leads-crypto-stocks-lower-after-disappointing-earnings-4325",
-      "status": "open",
+      "status": "expired",
       "issued_at": "2026-05-01T14:06:37.404312",
       "last_seen": "2026-05-01T19:55:52.416082",
       "current_price": 191.21,
-      "current_price_time": "2026-05-01T21:47:31.185006+00:00",
+      "current_price_time": "2026-05-04T07:57:58.540228+00:00",
       "pnl_pct_live": -0.21,
-      "progression_pct": -4.3
+      "progression_pct": -4.3,
+      "exit_price": 191.21,
+      "exit_date": "2026-05-04T07:57:58.540228+00:00",
+      "pnl_pct": -0.21
     },
     {
       "ticker": "META",
@@ -353,13 +356,16 @@
       "news_score": 0.45,
       "top_news_title": "Exploring High Growth Tech Stocks in the US Market",
       "top_news_url": "https://finance.yahoo.com/markets/stocks/articles/exploring-high-growth-tech-stocks-113812037.html",
-      "status": "open",
+      "status": "expired",
       "issued_at": "2026-05-01T14:06:37.404321",
       "last_seen": "2026-05-01T14:06:37.405272",
       "current_price": 144.08,
-      "current_price_time": "2026-05-01T21:47:31.185006+00:00",
+      "current_price_time": "2026-05-04T07:57:58.540228+00:00",
       "pnl_pct_live": -1.56,
-      "progression_pct": -36.0
+      "progression_pct": -36.0,
+      "exit_price": 144.08,
+      "exit_date": "2026-05-04T07:57:58.540228+00:00",
+      "pnl_pct": -1.56
     },
     {
       "ticker": "NFLX",
@@ -391,13 +397,16 @@
       "news_score": 0.15,
       "top_news_title": "Netflix, Inc. (NFLX) Expands Buyback Capacity with New $25B Authorization",
       "top_news_url": "https://finance.yahoo.com/markets/stocks/articles/netflix-inc-nflx-expands-buyback-095336338.html",
-      "status": "open",
+      "status": "expired",
       "issued_at": "2026-05-01T18:19:32.385986",
       "last_seen": "2026-05-01T19:55:52.416082",
       "current_price": 92.1,
-      "current_price_time": "2026-05-01T21:47:31.185006+00:00",
+      "current_price_time": "2026-05-04T07:57:58.540228+00:00",
       "pnl_pct_live": -0.08,
-      "progression_pct": -2.5
+      "progression_pct": -2.5,
+      "exit_price": 92.1,
+      "exit_date": "2026-05-04T07:57:58.540228+00:00",
+      "pnl_pct": -0.08
     },
     {
       "ticker": "MRVL",
