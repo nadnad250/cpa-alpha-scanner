@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-05-04T14:26:11.794736",
+  "generated_at": "2026-05-04T14:31:41.368344+00:00",
   "date": "2026-05-04",
   "stats": {
     "total": 10,
@@ -48,7 +48,11 @@
       "top_news_url": "https://finance.yahoo.com/markets/stocks/articles/wolfe-raises-target-kla-corp-075155133.html",
       "status": "open",
       "issued_at": "2026-05-04T14:26:11.793600",
-      "last_seen": "2026-05-04T14:26:11.794736"
+      "last_seen": "2026-05-04T14:26:11.794736",
+      "current_price": 259.8,
+      "current_price_time": "2026-05-04T14:31:41.368344+00:00",
+      "pnl_pct_live": -0.22,
+      "progression_pct": -4.7
     },
     {
       "ticker": "TEAM",
@@ -84,13 +88,16 @@
       "news_score": 0,
       "top_news_title": "MongoDB, PubMatic, and Sprinklr Shares Skyrocket, What You Need To Know",
       "top_news_url": "https://finance.yahoo.com/markets/stocks/articles/mongodb-pubmatic-sprinklr-shares-skyrocket-054055390.html",
-      "status": "open",
+      "status": "sl_hit",
       "issued_at": "2026-05-04T08:21:38.979632",
       "last_seen": "2026-05-04T08:21:38.980622",
-      "current_price": 92.36,
-      "current_price_time": "2026-05-04T13:36:35.134307+00:00",
-      "pnl_pct_live": -3.92,
-      "progression_pct": -78.4
+      "current_price": 94.19,
+      "current_price_time": "2026-05-04T14:31:41.368344+00:00",
+      "pnl_pct_live": -5.0,
+      "progression_pct": -78.4,
+      "exit_price": 93.32,
+      "exit_date": "2026-05-04T14:31:41.368344+00:00",
+      "pnl_pct": -5.0
     },
     {
       "ticker": "DOCU",
@@ -125,10 +132,10 @@
       "status": "open",
       "issued_at": "2026-05-04T08:21:38.979658",
       "last_seen": "2026-05-04T08:21:38.980622",
-      "current_price": 48.53,
-      "current_price_time": "2026-05-04T13:36:35.134307+00:00",
-      "pnl_pct_live": -1.19,
-      "progression_pct": -27.1
+      "current_price": 49.52,
+      "current_price_time": "2026-05-04T14:31:41.368344+00:00",
+      "pnl_pct_live": -3.25,
+      "progression_pct": -74.3
     },
     {
       "ticker": "BNTX",
@@ -156,9 +163,15 @@
       "news_score": null,
       "top_news_title": null,
       "top_news_url": null,
-      "status": "open",
+      "status": "expired",
       "issued_at": "2026-05-01T14:06:37.404285",
-      "last_seen": "2026-05-04T14:26:11.794736"
+      "last_seen": "2026-05-04T14:26:11.794736",
+      "current_price": 98.85,
+      "current_price_time": "2026-05-04T14:31:41.368344+00:00",
+      "exit_price": 98.85,
+      "exit_date": "2026-05-04T14:31:41.368344+00:00",
+      "pnl_pct": -1.58,
+      "pnl_pct_live": -1.58
     },
     {
       "ticker": "COIN",
@@ -186,9 +199,15 @@
       "news_score": null,
       "top_news_title": null,
       "top_news_url": null,
-      "status": "open",
+      "status": "expired",
       "issued_at": "2026-05-01T14:06:37.404312",
-      "last_seen": "2026-05-04T14:26:11.794736"
+      "last_seen": "2026-05-04T14:26:11.794736",
+      "current_price": 203.8,
+      "current_price_time": "2026-05-04T14:31:41.368344+00:00",
+      "exit_price": 203.8,
+      "exit_date": "2026-05-04T14:31:41.368344+00:00",
+      "pnl_pct": -5.3,
+      "pnl_pct_live": -5.3
     },
     {
       "ticker": "PAYX",
@@ -220,9 +239,15 @@
       "news_score": 0,
       "top_news_title": "3 Cash-Producing Stocks with Warning Signs",
       "top_news_url": "https://finance.yahoo.com/markets/stocks/articles/3-cash-producing-stocks-warning-182055346.html",
-      "status": "open",
+      "status": "expired",
       "issued_at": "2026-05-01T14:06:37.404318",
-      "last_seen": "2026-05-04T14:26:11.794736"
+      "last_seen": "2026-05-04T14:26:11.794736",
+      "current_price": 94.35,
+      "current_price_time": "2026-05-04T14:31:41.368344+00:00",
+      "exit_price": 94.35,
+      "exit_date": "2026-05-04T14:31:41.368344+00:00",
+      "pnl_pct": -0.11,
+      "pnl_pct_live": -0.11
     },
     {
       "ticker": "PLTR",
@@ -254,9 +279,15 @@
       "news_score": 0.05,
       "top_news_title": "The Fed Could Crush Trump’s Bull Market — Here’s the Warning Wall Street Is Missing",
       "top_news_url": "https://247wallst.com/investing/2026/05/04/the-fed-could-crush-trumps-bull-market-heres-the-warning-wall-street-is-missing/",
-      "status": "open",
+      "status": "expired",
       "issued_at": "2026-05-01T14:06:37.404321",
-      "last_seen": "2026-05-04T14:26:11.794736"
+      "last_seen": "2026-05-04T14:26:11.794736",
+      "current_price": 147.65,
+      "current_price_time": "2026-05-04T14:31:41.368344+00:00",
+      "exit_price": 147.65,
+      "exit_date": "2026-05-04T14:31:41.368344+00:00",
+      "pnl_pct": -0.04,
+      "pnl_pct_live": -0.04
     },
     {
       "ticker": "KHC",
@@ -284,9 +315,15 @@
       "news_score": null,
       "top_news_title": null,
       "top_news_url": null,
-      "status": "open",
+      "status": "expired",
       "issued_at": "2026-05-01T08:19:14.842715",
-      "last_seen": "2026-05-04T14:26:11.794736"
+      "last_seen": "2026-05-04T14:26:11.794736",
+      "current_price": 22.6,
+      "current_price_time": "2026-05-04T14:31:41.368344+00:00",
+      "exit_price": 22.6,
+      "exit_date": "2026-05-04T14:31:41.368344+00:00",
+      "pnl_pct": 0.26,
+      "pnl_pct_live": 0.26
     },
     {
       "ticker": "PYPL",
@@ -321,10 +358,10 @@
       "status": "open",
       "issued_at": "2026-05-04T08:21:38.979674",
       "last_seen": "2026-05-04T08:21:38.980622",
-      "current_price": 50.91,
-      "current_price_time": "2026-05-04T13:36:35.134307+00:00",
-      "pnl_pct_live": -0.93,
-      "progression_pct": -42.7
+      "current_price": 50.94,
+      "current_price_time": "2026-05-04T14:31:41.368344+00:00",
+      "pnl_pct_live": -0.99,
+      "progression_pct": -45.5
     },
     {
       "ticker": "NFLX",
@@ -352,9 +389,15 @@
       "news_score": null,
       "top_news_title": null,
       "top_news_url": null,
-      "status": "open",
+      "status": "expired",
       "issued_at": "2026-05-01T18:19:32.385986",
-      "last_seen": "2026-05-04T14:26:11.794736"
+      "last_seen": "2026-05-04T14:26:11.794736",
+      "current_price": 92.04,
+      "current_price_time": "2026-05-04T14:31:41.368344+00:00",
+      "exit_price": 92.04,
+      "exit_date": "2026-05-04T14:31:41.368344+00:00",
+      "pnl_pct": 0.39,
+      "pnl_pct_live": 0.39
     },
     {
       "ticker": "MRVL",
