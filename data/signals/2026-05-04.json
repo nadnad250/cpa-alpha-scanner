@@ -15,8 +15,8 @@
     "exit_price": null,
     "exit_date": null,
     "pnl_pct": null,
-    "max_favorable": null,
-    "max_adverse": null
+    "max_favorable": -0.048154856684398964,
+    "max_adverse": -0.048154856684398964
   },
   {
     "ticker": "DOCU",
@@ -34,8 +34,8 @@
     "exit_price": null,
     "exit_date": null,
     "pnl_pct": null,
-    "max_favorable": null,
-    "max_adverse": null
+    "max_favorable": -0.010216863280639121,
+    "max_adverse": -0.010216863280639121
   },
   {
     "ticker": "BNTX",
@@ -53,8 +53,8 @@
     "exit_price": null,
     "exit_date": null,
     "pnl_pct": null,
-    "max_favorable": null,
-    "max_adverse": null
+    "max_favorable": -0.018556474001651502,
+    "max_adverse": -0.018556474001651502
   },
   {
     "ticker": "PAYX",
@@ -72,8 +72,8 @@
     "exit_price": null,
     "exit_date": null,
     "pnl_pct": null,
-    "max_favorable": null,
-    "max_adverse": null
+    "max_favorable": 0.005805167093812108,
+    "max_adverse": 0.005805167093812108
   },
   {
     "ticker": "COIN",
@@ -87,12 +87,12 @@
     "issued_at": "2026-05-04T08:21:38.979669",
     "horizon_days": 1,
     "horizon_hours": 24,
-    "status": "open",
-    "exit_price": null,
-    "exit_date": null,
-    "pnl_pct": null,
-    "max_favorable": null,
-    "max_adverse": null
+    "status": "sl_hit",
+    "exit_price": 200.8125,
+    "exit_date": "2026-05-04",
+    "pnl_pct": -0.05,
+    "max_favorable": -0.06138564963745915,
+    "max_adverse": -0.06138564963745915
   },
   {
     "ticker": "KHC",
@@ -110,8 +110,8 @@
     "exit_price": null,
     "exit_date": null,
     "pnl_pct": null,
-    "max_favorable": null,
-    "max_adverse": null
+    "max_favorable": 0.0031124910496244168,
+    "max_adverse": 0.0031124910496244168
   },
   {
     "ticker": "PYPL",
@@ -129,8 +129,8 @@
     "exit_price": null,
     "exit_date": null,
     "pnl_pct": null,
-    "max_favorable": null,
-    "max_adverse": null
+    "max_favorable": 0.000991288865019037,
+    "max_adverse": 0.000991288865019037
   },
   {
     "ticker": "PLTR",
@@ -148,8 +148,8 @@
     "exit_price": null,
     "exit_date": null,
     "pnl_pct": null,
-    "max_favorable": null,
-    "max_adverse": null
+    "max_favorable": -0.013604489340576677,
+    "max_adverse": -0.013604489340576677
   },
   {
     "ticker": "MELI",
@@ -167,8 +167,8 @@
     "exit_price": null,
     "exit_date": null,
     "pnl_pct": null,
-    "max_favorable": null,
-    "max_adverse": null
+    "max_favorable": 0.019739991191116434,
+    "max_adverse": 0.019739991191116434
   },
   {
     "ticker": "NFLX",
@@ -186,8 +186,8 @@
     "exit_price": null,
     "exit_date": null,
     "pnl_pct": null,
-    "max_favorable": null,
-    "max_adverse": null
+    "max_favorable": 0.01129701669491197,
+    "max_adverse": 0.01129701669491197
   },
   {
     "ticker": "LRCX",
@@ -205,8 +205,8 @@
     "exit_price": null,
     "exit_date": null,
     "pnl_pct": null,
-    "max_favorable": null,
-    "max_adverse": null
+    "max_favorable": -0.006875067889772867,
+    "max_adverse": -0.006875067889772867
   },
   {
     "ticker": "PAYX",
@@ -224,8 +224,8 @@
     "exit_price": null,
     "exit_date": null,
     "pnl_pct": null,
-    "max_favorable": null,
-    "max_adverse": null
+    "max_favorable": 0.018831856591866765,
+    "max_adverse": 0.018831856591866765
   },
   {
     "ticker": "PLTR",
@@ -243,8 +243,8 @@
     "exit_price": null,
     "exit_date": null,
     "pnl_pct": null,
-    "max_favorable": null,
-    "max_adverse": null
+    "max_favorable": 0.010569830074551992,
+    "max_adverse": 0.010569830074551992
   },
   {
     "ticker": "TMUS",
@@ -262,8 +262,8 @@
     "exit_price": null,
     "exit_date": null,
     "pnl_pct": null,
-    "max_favorable": null,
-    "max_adverse": null
+    "max_favorable": -0.008507097048165326,
+    "max_adverse": -0.008507097048165326
   },
   {
     "ticker": "NFLX",
@@ -281,8 +281,8 @@
     "exit_price": null,
     "exit_date": null,
     "pnl_pct": null,
-    "max_favorable": null,
-    "max_adverse": null
+    "max_favorable": 0.010974718645372106,
+    "max_adverse": 0.010974718645372106
   },
   {
     "ticker": "BNTX",
@@ -300,8 +300,8 @@
     "exit_price": null,
     "exit_date": null,
     "pnl_pct": null,
-    "max_favorable": null,
-    "max_adverse": null
+    "max_favorable": -0.004346931602518116,
+    "max_adverse": -0.004346931602518116
   },
   {
     "ticker": "MSFT",
@@ -319,7 +319,7 @@
     "exit_price": null,
     "exit_date": null,
     "pnl_pct": null,
-    "max_favorable": null,
-    "max_adverse": null
+    "max_favorable": 0.0016895271355775565,
+    "max_adverse": 0.0016895271355775565
   }
 ]
