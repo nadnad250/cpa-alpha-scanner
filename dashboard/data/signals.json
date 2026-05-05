@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-05-05T20:01:49.595668",
+  "generated_at": "2026-05-05T20:09:02.617984+00:00",
   "date": "2026-05-05",
   "stats": {
     "total": 10,
@@ -44,9 +44,15 @@
       "news_score": null,
       "top_news_title": null,
       "top_news_url": null,
-      "status": "open",
+      "status": "expired",
       "issued_at": "2026-05-04T14:26:11.793600",
-      "last_seen": "2026-05-05T20:01:49.595668"
+      "last_seen": "2026-05-05T20:01:49.595668",
+      "current_price": 275.76,
+      "current_price_time": "2026-05-05T20:09:02.617984+00:00",
+      "exit_price": 275.76,
+      "exit_date": "2026-05-05T20:09:02.617984+00:00",
+      "pnl_pct": 5.91,
+      "pnl_pct_live": 5.91
     },
     {
       "ticker": "KLAC",
@@ -79,10 +85,10 @@
       "status": "open",
       "issued_at": "2026-05-05T18:26:21.642681",
       "last_seen": "2026-05-05T18:26:21.643575",
-      "current_price": 1730.93,
-      "current_price_time": "2026-05-05T19:33:35.029282+00:00",
-      "pnl_pct_live": -1.16,
-      "progression_pct": -26.8
+      "current_price": 1733.46,
+      "current_price_time": "2026-05-05T20:09:02.617984+00:00",
+      "pnl_pct_live": -1.01,
+      "progression_pct": -23.5
     },
     {
       "ticker": "TEAM",
@@ -110,9 +116,15 @@
       "news_score": null,
       "top_news_title": null,
       "top_news_url": null,
-      "status": "open",
+      "status": "expired",
       "issued_at": "2026-05-04T08:21:38.979632",
-      "last_seen": "2026-05-05T20:01:49.595668"
+      "last_seen": "2026-05-05T20:01:49.595668",
+      "current_price": 92.46,
+      "current_price_time": "2026-05-05T20:09:02.617984+00:00",
+      "exit_price": 92.46,
+      "exit_date": "2026-05-05T20:09:02.617984+00:00",
+      "pnl_pct": -4.03,
+      "pnl_pct_live": -4.03
     },
     {
       "ticker": "MDB",
@@ -147,7 +159,11 @@
       "top_news_url": "https://finance.yahoo.com/sectors/technology/articles/3-high-growth-tech-stocks-173816316.html",
       "status": "open",
       "issued_at": "2026-05-05T20:01:49.594634",
-      "last_seen": "2026-05-05T20:01:49.595668"
+      "last_seen": "2026-05-05T20:01:49.595668",
+      "current_price": 266.8,
+      "current_price_time": "2026-05-05T20:09:02.617984+00:00",
+      "pnl_pct_live": -0.04,
+      "progression_pct": -1.0
     },
     {
       "ticker": "DOCU",
@@ -175,9 +191,15 @@
       "news_score": null,
       "top_news_title": null,
       "top_news_url": null,
-      "status": "open",
+      "status": "expired",
       "issued_at": "2026-05-04T08:21:38.979658",
-      "last_seen": "2026-05-05T20:01:49.595668"
+      "last_seen": "2026-05-05T20:01:49.595668",
+      "current_price": 48.38,
+      "current_price_time": "2026-05-05T20:09:02.617984+00:00",
+      "exit_price": 48.38,
+      "exit_date": "2026-05-05T20:09:02.617984+00:00",
+      "pnl_pct": -0.88,
+      "pnl_pct_live": -0.88
     },
     {
       "ticker": "MSFT",
@@ -205,9 +227,15 @@
       "news_score": null,
       "top_news_title": null,
       "top_news_url": null,
-      "status": "open",
+      "status": "expired",
       "issued_at": "2026-05-04T15:45:33.516958",
-      "last_seen": "2026-05-05T20:01:49.595668"
+      "last_seen": "2026-05-05T20:01:49.595668",
+      "current_price": 411.27,
+      "current_price_time": "2026-05-05T20:09:02.617984+00:00",
+      "exit_price": 411.27,
+      "exit_date": "2026-05-05T20:09:02.617984+00:00",
+      "pnl_pct": 0.74,
+      "pnl_pct_live": 0.74
     },
     {
       "ticker": "VRSK",
@@ -242,10 +270,10 @@
       "status": "open",
       "issued_at": "2026-05-05T14:23:18.328137",
       "last_seen": "2026-05-05T14:23:18.328798",
-      "current_price": 179.33,
-      "current_price_time": "2026-05-05T19:33:35.029282+00:00",
-      "pnl_pct_live": -0.57,
-      "progression_pct": -25.8
+      "current_price": 180.44,
+      "current_price_time": "2026-05-05T20:09:02.617984+00:00",
+      "pnl_pct_live": -1.19,
+      "progression_pct": -53.9
     },
     {
       "ticker": "BNTX",
@@ -273,9 +301,15 @@
       "news_score": null,
       "top_news_title": null,
       "top_news_url": null,
-      "status": "open",
+      "status": "expired",
       "issued_at": "2026-05-04T08:21:38.979663",
-      "last_seen": "2026-05-05T20:01:49.595668"
+      "last_seen": "2026-05-05T20:01:49.595668",
+      "current_price": 95.45,
+      "current_price_time": "2026-05-05T20:09:02.617984+00:00",
+      "exit_price": 95.45,
+      "exit_date": "2026-05-05T20:09:02.617984+00:00",
+      "pnl_pct": 2.14,
+      "pnl_pct_live": 2.14
     },
     {
       "ticker": "PAYX",
@@ -303,9 +337,15 @@
       "news_score": null,
       "top_news_title": null,
       "top_news_url": null,
-      "status": "open",
+      "status": "expired",
       "issued_at": "2026-05-04T08:21:38.979666",
-      "last_seen": "2026-05-05T20:01:49.595668"
+      "last_seen": "2026-05-05T20:01:49.595668",
+      "current_price": 92.85,
+      "current_price_time": "2026-05-05T20:09:02.617984+00:00",
+      "exit_price": 92.85,
+      "exit_date": "2026-05-05T20:09:02.617984+00:00",
+      "pnl_pct": 0.18,
+      "pnl_pct_live": 0.18
     },
     {
       "ticker": "KHC",
@@ -333,9 +373,15 @@
       "news_score": null,
       "top_news_title": null,
       "top_news_url": null,
-      "status": "open",
+      "status": "expired",
       "issued_at": "2026-05-04T08:21:38.979672",
-      "last_seen": "2026-05-05T20:01:49.595668"
+      "last_seen": "2026-05-05T20:01:49.595668",
+      "current_price": 22.56,
+      "current_price_time": "2026-05-05T20:09:02.617984+00:00",
+      "exit_price": 22.56,
+      "exit_date": "2026-05-05T20:09:02.617984+00:00",
+      "pnl_pct": -0.31,
+      "pnl_pct_live": -0.31
     },
     {
       "ticker": "LRCX",
