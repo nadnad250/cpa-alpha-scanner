@@ -169,5 +169,43 @@
     "pnl_pct": null,
     "max_favorable": null,
     "max_adverse": null
+  },
+  {
+    "ticker": "BNTX",
+    "action": "STRONG_SELL",
+    "entry_price": 96.15,
+    "stop_loss": 99.8817842755999,
+    "take_profit": 85.70100402832031,
+    "score": -0.5137313958512595,
+    "confidence": 0.828255791886199,
+    "universe": "NASDAQ100",
+    "issued_at": "2026-05-05T17:06:24.619966",
+    "horizon_days": 1,
+    "horizon_hours": 24,
+    "status": "open",
+    "exit_price": null,
+    "exit_date": null,
+    "pnl_pct": null,
+    "max_favorable": null,
+    "max_adverse": null
+  },
+  {
+    "ticker": "MSFT",
+    "action": "STRONG_SELL",
+    "entry_price": 409.51,
+    "stop_loss": 419.670895211356,
+    "take_profit": 381.05949340820314,
+    "score": -0.4486631819641701,
+    "confidence": 0.6992890657924973,
+    "universe": "NASDAQ100",
+    "issued_at": "2026-05-05T17:06:24.619990",
+    "horizon_days": 1,
+    "horizon_hours": 24,
+    "status": "open",
+    "exit_price": null,
+    "exit_date": null,
+    "pnl_pct": null,
+    "max_favorable": null,
+    "max_adverse": null
   }
 ]
