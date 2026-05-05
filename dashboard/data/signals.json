@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-05-05T12:56:32.512492+00:00",
+  "generated_at": "2026-05-05T13:40:34.265846+00:00",
   "date": "2026-05-05",
   "stats": {
     "total": 10,
@@ -49,10 +49,10 @@
       "status": "open",
       "issued_at": "2026-05-04T14:26:11.793600",
       "last_seen": "2026-05-04T14:26:11.794736",
-      "current_price": 258.63,
-      "current_price_time": "2026-05-05T12:56:32.512492+00:00",
-      "pnl_pct_live": -0.66,
-      "progression_pct": -14.5
+      "current_price": 271.13,
+      "current_price_time": "2026-05-05T13:40:34.265846+00:00",
+      "pnl_pct_live": 4.14,
+      "progression_pct": 32.2
     },
     {
       "ticker": "TEAM",
@@ -165,10 +165,10 @@
       "status": "open",
       "issued_at": "2026-05-04T15:45:33.516958",
       "last_seen": "2026-05-05T08:18:58.329974",
-      "current_price": 413.71,
-      "current_price_time": "2026-05-05T12:56:32.512492+00:00",
-      "pnl_pct_live": -0.02,
-      "progression_pct": -0.8
+      "current_price": 412.68,
+      "current_price_time": "2026-05-05T13:40:34.265846+00:00",
+      "pnl_pct_live": 0.23,
+      "progression_pct": 2.9
     },
     {
       "ticker": "BNTX",
@@ -396,10 +396,10 @@
       "status": "open",
       "issued_at": "2026-05-04T14:26:11.793632",
       "last_seen": "2026-05-05T08:18:58.329974",
-      "current_price": 194.47,
-      "current_price_time": "2026-05-05T12:56:32.512492+00:00",
-      "pnl_pct_live": -0.03,
-      "progression_pct": -0.9
+      "current_price": 193.01,
+      "current_price_time": "2026-05-05T13:40:34.265846+00:00",
+      "pnl_pct_live": 0.73,
+      "progression_pct": 8.6
     },
     {
       "ticker": "MRVL",
