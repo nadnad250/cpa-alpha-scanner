@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-05-05T17:33:57.290969+00:00",
+  "generated_at": "2026-05-05T18:09:52.092923+00:00",
   "date": "2026-05-05",
   "stats": {
     "total": 10,
@@ -199,10 +199,10 @@
       "status": "open",
       "issued_at": "2026-05-05T14:23:18.328137",
       "last_seen": "2026-05-05T14:23:18.328798",
-      "current_price": 178.01,
-      "current_price_time": "2026-05-05T17:33:57.290969+00:00",
-      "pnl_pct_live": 0.17,
-      "progression_pct": 2.7
+      "current_price": 178.88,
+      "current_price_time": "2026-05-05T18:09:52.092923+00:00",
+      "pnl_pct_live": -0.32,
+      "progression_pct": -14.4
     },
     {
       "ticker": "PAYX",
