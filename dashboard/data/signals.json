@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-05-05T15:41:11.370966",
+  "generated_at": "2026-05-05T16:50:48.851455+00:00",
   "date": "2026-05-05",
   "stats": {
     "total": 10,
@@ -44,9 +44,15 @@
       "news_score": null,
       "top_news_title": null,
       "top_news_url": null,
-      "status": "open",
+      "status": "expired",
       "issued_at": "2026-05-04T14:26:11.793600",
-      "last_seen": "2026-05-05T15:41:11.370966"
+      "last_seen": "2026-05-05T15:41:11.370966",
+      "current_price": 277.31,
+      "current_price_time": "2026-05-05T16:50:48.851455+00:00",
+      "exit_price": 277.31,
+      "exit_date": "2026-05-05T16:50:48.851455+00:00",
+      "pnl_pct": 6.51,
+      "pnl_pct_live": 6.51
     },
     {
       "ticker": "DOCU",
@@ -74,9 +80,15 @@
       "news_score": null,
       "top_news_title": null,
       "top_news_url": null,
-      "status": "open",
+      "status": "expired",
       "issued_at": "2026-05-04T08:21:38.979658",
-      "last_seen": "2026-05-05T15:41:11.370966"
+      "last_seen": "2026-05-05T15:41:11.370966",
+      "current_price": 48.06,
+      "current_price_time": "2026-05-05T16:50:48.851455+00:00",
+      "exit_price": 48.06,
+      "exit_date": "2026-05-05T16:50:48.851455+00:00",
+      "pnl_pct": -0.21,
+      "pnl_pct_live": -0.21
     },
     {
       "ticker": "TEAM",
@@ -111,9 +123,15 @@
       "news_score": 0.05,
       "top_news_title": "3 Beaten-Down Tech Stocks That Could Soar 33% or More, According to Wall Street",
       "top_news_url": "https://www.fool.com/investing/2026/05/04/3-beaten-down-tech-stocks-that-could-soar-33-or-mo/",
-      "status": "open",
+      "status": "expired",
       "issued_at": "2026-05-04T08:21:38.979632",
-      "last_seen": "2026-05-05T15:41:11.370966"
+      "last_seen": "2026-05-05T15:41:11.370966",
+      "current_price": 90.39,
+      "current_price_time": "2026-05-05T16:50:48.851455+00:00",
+      "exit_price": 90.39,
+      "exit_date": "2026-05-05T16:50:48.851455+00:00",
+      "pnl_pct": 0.96,
+      "pnl_pct_live": 0.96
     },
     {
       "ticker": "VRSK",
@@ -148,10 +166,10 @@
       "status": "open",
       "issued_at": "2026-05-05T14:23:18.328137",
       "last_seen": "2026-05-05T14:23:18.328798",
-      "current_price": 177.0,
-      "current_price_time": "2026-05-05T14:29:27.757038+00:00",
-      "pnl_pct_live": 0.73,
-      "progression_pct": 11.8
+      "current_price": 178.86,
+      "current_price_time": "2026-05-05T16:50:48.851455+00:00",
+      "pnl_pct_live": -0.31,
+      "progression_pct": -13.9
     },
     {
       "ticker": "MSFT",
@@ -183,13 +201,16 @@
       "news_score": 0.05,
       "top_news_title": "Bond Yields Are Rising. Why That Could End the Stock Market’s Rally.",
       "top_news_url": "https://www.barrons.com/articles/treasury-bond-yields-stock-rally-4303125c?siteid=yhoof2&yptr=yahoo",
-      "status": "open",
+      "status": "expired",
       "issued_at": "2026-05-04T15:45:33.516958",
       "last_seen": "2026-05-05T08:18:58.329974",
-      "current_price": 410.64,
-      "current_price_time": "2026-05-05T14:29:27.757038+00:00",
-      "pnl_pct_live": 0.72,
-      "progression_pct": 9.1
+      "current_price": 409.34,
+      "current_price_time": "2026-05-05T16:50:48.851455+00:00",
+      "pnl_pct_live": 1.03,
+      "progression_pct": 9.1,
+      "exit_price": 409.34,
+      "exit_date": "2026-05-05T16:50:48.851455+00:00",
+      "pnl_pct": 1.03
     },
     {
       "ticker": "BNTX",
@@ -217,9 +238,15 @@
       "news_score": null,
       "top_news_title": null,
       "top_news_url": null,
-      "status": "open",
+      "status": "expired",
       "issued_at": "2026-05-04T08:21:38.979663",
-      "last_seen": "2026-05-05T15:41:11.370966"
+      "last_seen": "2026-05-05T15:41:11.370966",
+      "current_price": 96.3,
+      "current_price_time": "2026-05-05T16:50:48.851455+00:00",
+      "exit_price": 96.3,
+      "exit_date": "2026-05-05T16:50:48.851455+00:00",
+      "pnl_pct": 1.27,
+      "pnl_pct_live": 1.27
     },
     {
       "ticker": "PAYX",
@@ -251,9 +278,15 @@
       "news_score": 0,
       "top_news_title": "3 Cash-Producing Stocks with Warning Signs",
       "top_news_url": "https://finance.yahoo.com/markets/stocks/articles/3-cash-producing-stocks-warning-182055346.html",
-      "status": "open",
+      "status": "expired",
       "issued_at": "2026-05-04T08:21:38.979666",
-      "last_seen": "2026-05-05T15:41:11.370966"
+      "last_seen": "2026-05-05T15:41:11.370966",
+      "current_price": 91.86,
+      "current_price_time": "2026-05-05T16:50:48.851455+00:00",
+      "exit_price": 91.86,
+      "exit_date": "2026-05-05T16:50:48.851455+00:00",
+      "pnl_pct": -0.29,
+      "pnl_pct_live": -0.29
     },
     {
       "ticker": "PLTR",
@@ -281,9 +314,15 @@
       "news_score": null,
       "top_news_title": null,
       "top_news_url": null,
-      "status": "open",
+      "status": "expired",
       "issued_at": "2026-05-04T08:21:38.979678",
-      "last_seen": "2026-05-05T15:41:11.370966"
+      "last_seen": "2026-05-05T15:41:11.370966",
+      "current_price": 135.57,
+      "current_price_time": "2026-05-05T16:50:48.851455+00:00",
+      "exit_price": 135.57,
+      "exit_date": "2026-05-05T16:50:48.851455+00:00",
+      "pnl_pct": 5.9,
+      "pnl_pct_live": 5.9
     },
     {
       "ticker": "PYPL",
@@ -315,9 +354,15 @@
       "news_score": 0,
       "top_news_title": "PayPal Targets More Than $1.5 Billion in Cost Cuts; Payments Firm Maintains Earnings Outlook",
       "top_news_url": "https://finance.yahoo.com/markets/stocks/articles/paypal-targets-more-1-5-152452843.html",
-      "status": "open",
+      "status": "expired",
       "issued_at": "2026-05-04T08:21:38.979674",
-      "last_seen": "2026-05-05T15:41:11.370966"
+      "last_seen": "2026-05-05T15:41:11.370966",
+      "current_price": 45.95,
+      "current_price_time": "2026-05-05T16:50:48.851455+00:00",
+      "exit_price": 45.95,
+      "exit_date": "2026-05-05T16:50:48.851455+00:00",
+      "pnl_pct": 0.61,
+      "pnl_pct_live": 0.61
     },
     {
       "ticker": "KHC",
@@ -345,9 +390,15 @@
       "news_score": null,
       "top_news_title": null,
       "top_news_url": null,
-      "status": "open",
+      "status": "expired",
       "issued_at": "2026-05-04T08:21:38.979672",
-      "last_seen": "2026-05-05T15:41:11.370966"
+      "last_seen": "2026-05-05T15:41:11.370966",
+      "current_price": 22.3,
+      "current_price_time": "2026-05-05T16:50:48.851455+00:00",
+      "exit_price": 22.3,
+      "exit_date": "2026-05-05T16:50:48.851455+00:00",
+      "pnl_pct": 0.84,
+      "pnl_pct_live": 0.84
     },
     {
       "ticker": "LRCX",
