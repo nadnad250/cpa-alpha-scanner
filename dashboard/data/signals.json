@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-05-05T08:18:58.329974",
+  "generated_at": "2026-05-05T08:29:54.813666+00:00",
   "date": "2026-05-05",
   "stats": {
     "total": 10,
@@ -50,7 +50,7 @@
       "issued_at": "2026-05-04T14:26:11.793600",
       "last_seen": "2026-05-04T14:26:11.794736",
       "current_price": 258.63,
-      "current_price_time": "2026-05-05T07:39:42.049816+00:00",
+      "current_price_time": "2026-05-05T08:29:54.813666+00:00",
       "pnl_pct_live": -0.66,
       "progression_pct": -14.5
     },
@@ -80,13 +80,16 @@
       "news_score": null,
       "top_news_title": null,
       "top_news_url": null,
-      "status": "open",
+      "status": "expired",
       "issued_at": "2026-05-04T08:21:38.979632",
       "last_seen": "2026-05-04T20:04:22.395003",
       "current_price": 93.18,
-      "current_price_time": "2026-05-05T07:39:42.049816+00:00",
+      "current_price_time": "2026-05-05T08:29:54.813666+00:00",
       "pnl_pct_live": -4.84,
-      "progression_pct": -96.8
+      "progression_pct": -96.8,
+      "exit_price": 93.18,
+      "exit_date": "2026-05-05T08:29:54.813666+00:00",
+      "pnl_pct": -4.84
     },
     {
       "ticker": "DOCU",
@@ -118,13 +121,16 @@
       "news_score": 0.05,
       "top_news_title": "DocuSign (DOCU) Stock Falls Amid Market Uptick: What Investors Need to Know",
       "top_news_url": "https://finance.yahoo.com/markets/stocks/articles/docusign-docu-stock-falls-amid-214505158.html",
-      "status": "open",
+      "status": "expired",
       "issued_at": "2026-05-04T08:21:38.979658",
       "last_seen": "2026-05-04T08:21:38.980622",
       "current_price": 48.44,
-      "current_price_time": "2026-05-05T07:39:42.049816+00:00",
+      "current_price_time": "2026-05-05T08:29:54.813666+00:00",
       "pnl_pct_live": -1.0,
-      "progression_pct": -22.9
+      "progression_pct": -22.9,
+      "exit_price": 48.44,
+      "exit_date": "2026-05-05T08:29:54.813666+00:00",
+      "pnl_pct": -1.0
     },
     {
       "ticker": "MSFT",
@@ -158,7 +164,11 @@
       "top_news_url": "https://www.barrons.com/articles/treasury-bond-yields-stock-rally-4303125c?siteid=yhoof2&yptr=yahoo",
       "status": "open",
       "issued_at": "2026-05-04T15:45:33.516958",
-      "last_seen": "2026-05-05T08:18:58.329974"
+      "last_seen": "2026-05-05T08:18:58.329974",
+      "current_price": 413.71,
+      "current_price_time": "2026-05-05T08:29:54.813666+00:00",
+      "pnl_pct_live": -0.02,
+      "progression_pct": -0.8
     },
     {
       "ticker": "BNTX",
@@ -190,9 +200,15 @@
       "news_score": 0.3,
       "top_news_title": "BioNTech (BNTX) Surges 6.1%: Is This an Indication of Further Gains?",
       "top_news_url": "https://finance.yahoo.com/markets/stocks/articles/biontech-bntx-surges-6-1-141000347.html",
-      "status": "open",
+      "status": "expired",
       "issued_at": "2026-05-04T08:21:38.979663",
-      "last_seen": "2026-05-05T08:18:58.329974"
+      "last_seen": "2026-05-05T08:18:58.329974",
+      "current_price": 99.37,
+      "current_price_time": "2026-05-05T08:29:54.813666+00:00",
+      "exit_price": 99.37,
+      "exit_date": "2026-05-05T08:29:54.813666+00:00",
+      "pnl_pct": -0.02,
+      "pnl_pct_live": -0.02
     },
     {
       "ticker": "PAYX",
@@ -224,9 +240,15 @@
       "news_score": 0,
       "top_news_title": "3 Cash-Producing Stocks with Warning Signs",
       "top_news_url": "https://finance.yahoo.com/markets/stocks/articles/3-cash-producing-stocks-warning-182055346.html",
-      "status": "open",
+      "status": "expired",
       "issued_at": "2026-05-04T08:21:38.979666",
-      "last_seen": "2026-05-05T08:18:58.329974"
+      "last_seen": "2026-05-05T08:18:58.329974",
+      "current_price": 92.47,
+      "current_price_time": "2026-05-05T08:29:54.813666+00:00",
+      "exit_price": 92.47,
+      "exit_date": "2026-05-05T08:29:54.813666+00:00",
+      "pnl_pct": 0.01,
+      "pnl_pct_live": 0.01
     },
     {
       "ticker": "MELI",
@@ -254,9 +276,15 @@
       "news_score": null,
       "top_news_title": null,
       "top_news_url": null,
-      "status": "open",
+      "status": "expired",
       "issued_at": "2026-05-04T08:21:38.979681",
-      "last_seen": "2026-05-05T08:18:58.329974"
+      "last_seen": "2026-05-05T08:18:58.329974",
+      "current_price": 1813.53,
+      "current_price_time": "2026-05-05T08:29:54.813666+00:00",
+      "exit_price": 1813.53,
+      "exit_date": "2026-05-05T08:29:54.813666+00:00",
+      "pnl_pct": 1.97,
+      "pnl_pct_live": 1.97
     },
     {
       "ticker": "KHC",
@@ -284,9 +312,15 @@
       "news_score": null,
       "top_news_title": null,
       "top_news_url": null,
-      "status": "open",
+      "status": "expired",
       "issued_at": "2026-05-04T08:21:38.979672",
-      "last_seen": "2026-05-05T08:18:58.329974"
+      "last_seen": "2026-05-05T08:18:58.329974",
+      "current_price": 22.42,
+      "current_price_time": "2026-05-05T08:29:54.813666+00:00",
+      "exit_price": 22.42,
+      "exit_date": "2026-05-05T08:29:54.813666+00:00",
+      "pnl_pct": 0.31,
+      "pnl_pct_live": 0.31
     },
     {
       "ticker": "PYPL",
@@ -318,13 +352,16 @@
       "news_score": -0.05,
       "top_news_title": "3 Cash-Heavy Stocks with Warning Signs",
       "top_news_url": "https://finance.yahoo.com/markets/stocks/articles/3-cash-heavy-stocks-warning-174055905.html",
-      "status": "open",
+      "status": "expired",
       "issued_at": "2026-05-04T08:21:38.979674",
       "last_seen": "2026-05-04T08:21:38.980622",
       "current_price": 50.41,
-      "current_price_time": "2026-05-05T07:39:42.049816+00:00",
+      "current_price_time": "2026-05-05T08:29:54.813666+00:00",
       "pnl_pct_live": 0.06,
-      "progression_pct": 1.0
+      "progression_pct": 1.0,
+      "exit_price": 50.41,
+      "exit_date": "2026-05-05T08:29:54.813666+00:00",
+      "pnl_pct": 0.06
     },
     {
       "ticker": "TMUS",
@@ -358,7 +395,11 @@
       "top_news_url": "https://www.marketbeat.com/stock-ideas/q1-2026-telecom-wars-analyst-eye-30-gains-in-t-mobile-post-earnings/?utm_source=yahoofinance&utm_medium=yahoofinance",
       "status": "open",
       "issued_at": "2026-05-04T14:26:11.793632",
-      "last_seen": "2026-05-05T08:18:58.329974"
+      "last_seen": "2026-05-05T08:18:58.329974",
+      "current_price": 194.47,
+      "current_price_time": "2026-05-05T08:29:54.813666+00:00",
+      "pnl_pct_live": -0.03,
+      "progression_pct": -0.9
     },
     {
       "ticker": "MRVL",
