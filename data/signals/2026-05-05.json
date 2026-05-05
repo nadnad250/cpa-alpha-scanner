@@ -15,8 +15,8 @@
     "exit_price": null,
     "exit_date": null,
     "pnl_pct": null,
-    "max_favorable": null,
-    "max_adverse": null
+    "max_favorable": -0.01200155318401764,
+    "max_adverse": -0.01200155318401764
   },
   {
     "ticker": "DOCU",
@@ -34,8 +34,8 @@
     "exit_price": null,
     "exit_date": null,
     "pnl_pct": null,
-    "max_favorable": null,
-    "max_adverse": null
+    "max_favorable": -0.0036303509618345834,
+    "max_adverse": -0.0036303509618345834
   },
   {
     "ticker": "PYPL",
@@ -53,8 +53,8 @@
     "exit_price": null,
     "exit_date": null,
     "pnl_pct": null,
-    "max_favorable": null,
-    "max_adverse": null
+    "max_favorable": -0.02649595227349962,
+    "max_adverse": -0.02649595227349962
   },
   {
     "ticker": "TEAM",
@@ -72,8 +72,8 @@
     "exit_price": null,
     "exit_date": null,
     "pnl_pct": null,
-    "max_favorable": null,
-    "max_adverse": null
+    "max_favorable": -0.011834114797113689,
+    "max_adverse": -0.011834114797113689
   },
   {
     "ticker": "PAYX",
@@ -91,8 +91,8 @@
     "exit_price": null,
     "exit_date": null,
     "pnl_pct": null,
-    "max_favorable": null,
-    "max_adverse": null
+    "max_favorable": -0.013756943706966812,
+    "max_adverse": -0.013756943706966812
   },
   {
     "ticker": "PYPL",
@@ -110,8 +110,8 @@
     "exit_price": null,
     "exit_date": null,
     "pnl_pct": null,
-    "max_favorable": null,
-    "max_adverse": null
+    "max_favorable": -0.005732864866777619,
+    "max_adverse": -0.005732864866777619
   },
   {
     "ticker": "NFLX",
@@ -129,8 +129,8 @@
     "exit_price": null,
     "exit_date": null,
     "pnl_pct": null,
-    "max_favorable": null,
-    "max_adverse": null
+    "max_favorable": 0.0003412262323881279,
+    "max_adverse": 0.0003412262323881279
   },
   {
     "ticker": "MELI",
@@ -148,8 +148,8 @@
     "exit_price": null,
     "exit_date": null,
     "pnl_pct": null,
-    "max_favorable": null,
-    "max_adverse": null
+    "max_favorable": -0.0052355476236900685,
+    "max_adverse": -0.0052355476236900685
   },
   {
     "ticker": "TMUS",
@@ -167,8 +167,8 @@
     "exit_price": null,
     "exit_date": null,
     "pnl_pct": null,
-    "max_favorable": null,
-    "max_adverse": null
+    "max_favorable": -0.001959457322713057,
+    "max_adverse": -0.001959457322713057
   },
   {
     "ticker": "BNTX",
@@ -186,8 +186,8 @@
     "exit_price": null,
     "exit_date": null,
     "pnl_pct": null,
-    "max_favorable": null,
-    "max_adverse": null
+    "max_favorable": 0.006760270410816492,
+    "max_adverse": 0.006760270410816492
   },
   {
     "ticker": "MSFT",
@@ -205,8 +205,8 @@
     "exit_price": null,
     "exit_date": null,
     "pnl_pct": null,
-    "max_favorable": null,
-    "max_adverse": null
+    "max_favorable": -0.00456644497768677,
+    "max_adverse": -0.00456644497768677
   },
   {
     "ticker": "KLAC",
@@ -224,8 +224,8 @@
     "exit_price": null,
     "exit_date": null,
     "pnl_pct": null,
-    "max_favorable": null,
-    "max_adverse": null
+    "max_favorable": -0.010450019724152323,
+    "max_adverse": -0.010450019724152323
   },
   {
     "ticker": "MDB",
@@ -243,7 +243,7 @@
     "exit_price": null,
     "exit_date": null,
     "pnl_pct": null,
-    "max_favorable": null,
-    "max_adverse": null
+    "max_favorable": 2.7464447115723753e-08,
+    "max_adverse": 2.7464447115723753e-08
   }
 ]
