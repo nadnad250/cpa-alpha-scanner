@@ -226,5 +226,24 @@
     "pnl_pct": null,
     "max_favorable": null,
     "max_adverse": null
+  },
+  {
+    "ticker": "MDB",
+    "action": "STRONG_SELL",
+    "entry_price": 266.68,
+    "stop_loss": 279.1957165527344,
+    "take_profit": 231.63599365234376,
+    "score": -0.5309977757317674,
+    "confidence": 0.774803579490492,
+    "universe": "NASDAQ100",
+    "issued_at": "2026-05-05T20:01:49.594634",
+    "horizon_days": 1,
+    "horizon_hours": 24,
+    "status": "open",
+    "exit_price": null,
+    "exit_date": null,
+    "pnl_pct": null,
+    "max_favorable": null,
+    "max_adverse": null
   }
 ]
