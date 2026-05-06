@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-05-06T16:18:10.385183+00:00",
+  "generated_at": "2026-05-06T17:02:28.364798+00:00",
   "date": "2026-05-06",
   "stats": {
     "total": 8,
@@ -49,10 +49,10 @@
       "status": "open",
       "issued_at": "2026-05-05T18:26:21.642681",
       "last_seen": "2026-05-06T08:20:36.003733",
-      "current_price": 1801.33,
-      "current_price_time": "2026-05-06T16:18:10.385183+00:00",
-      "pnl_pct_live": 3.95,
-      "progression_pct": 33.6
+      "current_price": 1795.87,
+      "current_price_time": "2026-05-06T17:02:28.364798+00:00",
+      "pnl_pct_live": 3.63,
+      "progression_pct": 30.9
     },
     {
       "ticker": "MDB",
@@ -88,10 +88,10 @@
       "status": "open",
       "issued_at": "2026-05-05T20:01:49.594634",
       "last_seen": "2026-05-05T20:01:49.595668",
-      "current_price": 265.27,
-      "current_price_time": "2026-05-06T16:18:10.385183+00:00",
-      "pnl_pct_live": 0.53,
-      "progression_pct": 4.0
+      "current_price": 266.6,
+      "current_price_time": "2026-05-06T17:02:28.364798+00:00",
+      "pnl_pct_live": 0.03,
+      "progression_pct": 0.2
     },
     {
       "ticker": "BNTX",
@@ -126,10 +126,10 @@
       "status": "open",
       "issued_at": "2026-05-05T17:06:24.619966",
       "last_seen": "2026-05-06T08:20:36.003733",
-      "current_price": 95.07,
-      "current_price_time": "2026-05-06T16:18:10.385183+00:00",
-      "pnl_pct_live": 0.45,
-      "progression_pct": 4.0
+      "current_price": 95.05,
+      "current_price_time": "2026-05-06T17:02:28.364798+00:00",
+      "pnl_pct_live": 0.47,
+      "progression_pct": 4.2
     },
     {
       "ticker": "VRSK",
@@ -276,10 +276,10 @@
       "status": "open",
       "issued_at": "2026-05-05T17:06:24.619990",
       "last_seen": "2026-05-06T14:26:59.379148",
-      "current_price": 414.66,
-      "current_price_time": "2026-05-06T16:18:10.385183+00:00",
-      "pnl_pct_live": -0.08,
-      "progression_pct": -3.4
+      "current_price": 412.91,
+      "current_price_time": "2026-05-06T17:02:28.364798+00:00",
+      "pnl_pct_live": 0.35,
+      "progression_pct": 5.5
     },
     {
       "ticker": "PYPL",
