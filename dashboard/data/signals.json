@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-05-06T18:29:36.850982",
+  "generated_at": "2026-05-06T18:35:25.069868+00:00",
   "date": "2026-05-06",
   "stats": {
     "total": 10,
@@ -49,7 +49,11 @@
       "top_news_url": "https://finance.yahoo.com/markets/stocks/articles/idexx-stock-q1-earnings-revenue-142800790.html",
       "status": "open",
       "issued_at": "2026-05-06T18:29:36.754712",
-      "last_seen": "2026-05-06T18:29:36.850982"
+      "last_seen": "2026-05-06T18:29:36.850982",
+      "current_price": 578.3,
+      "current_price_time": "2026-05-06T18:35:25.069868+00:00",
+      "pnl_pct_live": -0.14,
+      "progression_pct": -5.8
     },
     {
       "ticker": "MDB",
@@ -85,10 +89,10 @@
       "status": "open",
       "issued_at": "2026-05-05T20:01:49.594634",
       "last_seen": "2026-05-05T20:01:49.595668",
-      "current_price": 268.42,
-      "current_price_time": "2026-05-06T17:50:16.438852+00:00",
-      "pnl_pct_live": -0.65,
-      "progression_pct": -13.9
+      "current_price": 268.18,
+      "current_price_time": "2026-05-06T18:35:25.069868+00:00",
+      "pnl_pct_live": -0.56,
+      "progression_pct": -12.0
     },
     {
       "ticker": "BNTX",
@@ -116,9 +120,15 @@
       "news_score": null,
       "top_news_title": null,
       "top_news_url": null,
-      "status": "open",
+      "status": "expired",
       "issued_at": "2026-05-05T17:06:24.619966",
-      "last_seen": "2026-05-06T18:29:36.850982"
+      "last_seen": "2026-05-06T18:29:36.850982",
+      "current_price": 94.7,
+      "current_price_time": "2026-05-06T18:35:25.069868+00:00",
+      "exit_price": 94.7,
+      "exit_date": "2026-05-06T18:35:25.069868+00:00",
+      "pnl_pct": 1.51,
+      "pnl_pct_live": 1.51
     },
     {
       "ticker": "TEAM",
@@ -146,9 +156,15 @@
       "news_score": null,
       "top_news_title": null,
       "top_news_url": null,
-      "status": "open",
+      "status": "expired",
       "issued_at": "2026-05-05T15:41:11.369823",
-      "last_seen": "2026-05-06T18:29:36.850982"
+      "last_seen": "2026-05-06T18:29:36.850982",
+      "current_price": 88.93,
+      "current_price_time": "2026-05-06T18:35:25.069868+00:00",
+      "exit_price": 88.93,
+      "exit_date": "2026-05-06T18:35:25.069868+00:00",
+      "pnl_pct": 2.56,
+      "pnl_pct_live": 2.56
     },
     {
       "ticker": "VRSK",
@@ -176,9 +192,15 @@
       "news_score": null,
       "top_news_title": null,
       "top_news_url": null,
-      "status": "open",
+      "status": "expired",
       "issued_at": "2026-05-05T14:23:18.328137",
-      "last_seen": "2026-05-06T18:29:36.850982"
+      "last_seen": "2026-05-06T18:29:36.850982",
+      "current_price": 173.02,
+      "current_price_time": "2026-05-06T18:35:25.069868+00:00",
+      "exit_price": 173.02,
+      "exit_date": "2026-05-06T18:35:25.069868+00:00",
+      "pnl_pct": 2.97,
+      "pnl_pct_live": 2.97
     },
     {
       "ticker": "ADBE",
@@ -212,7 +234,11 @@
       "top_news_url": "https://www.entrepreneur.com/growing-a-business/this-is-the-real-secret-to-scaling-successfully-from-an/503841",
       "status": "open",
       "issued_at": "2026-05-06T18:29:36.754737",
-      "last_seen": "2026-05-06T18:29:36.850982"
+      "last_seen": "2026-05-06T18:29:36.850982",
+      "current_price": 250.67,
+      "current_price_time": "2026-05-06T18:35:25.069868+00:00",
+      "pnl_pct_live": 0.27,
+      "progression_pct": 2.5
     },
     {
       "ticker": "PAYX",
@@ -240,9 +266,15 @@
       "news_score": null,
       "top_news_title": null,
       "top_news_url": null,
-      "status": "open",
+      "status": "expired",
       "issued_at": "2026-05-05T15:41:11.369847",
-      "last_seen": "2026-05-06T18:29:36.850982"
+      "last_seen": "2026-05-06T18:29:36.850982",
+      "current_price": 91.54,
+      "current_price_time": "2026-05-06T18:35:25.069868+00:00",
+      "exit_price": 91.54,
+      "exit_date": "2026-05-06T18:35:25.069868+00:00",
+      "pnl_pct": 0.05,
+      "pnl_pct_live": 0.05
     },
     {
       "ticker": "DOCU",
@@ -270,9 +302,15 @@
       "news_score": null,
       "top_news_title": null,
       "top_news_url": null,
-      "status": "open",
+      "status": "expired",
       "issued_at": "2026-05-05T14:23:18.328161",
-      "last_seen": "2026-05-06T18:29:36.850982"
+      "last_seen": "2026-05-06T18:29:36.850982",
+      "current_price": 46.87,
+      "current_price_time": "2026-05-06T18:35:25.069868+00:00",
+      "exit_price": 46.87,
+      "exit_date": "2026-05-06T18:35:25.069868+00:00",
+      "pnl_pct": 2.76,
+      "pnl_pct_live": 2.76
     },
     {
       "ticker": "MSFT",
@@ -300,9 +338,15 @@
       "news_score": null,
       "top_news_title": null,
       "top_news_url": null,
-      "status": "open",
+      "status": "expired",
       "issued_at": "2026-05-05T17:06:24.619990",
-      "last_seen": "2026-05-06T18:29:36.850982"
+      "last_seen": "2026-05-06T18:29:36.850982",
+      "current_price": 413.78,
+      "current_price_time": "2026-05-06T18:35:25.069868+00:00",
+      "exit_price": 413.78,
+      "exit_date": "2026-05-06T18:35:25.069868+00:00",
+      "pnl_pct": -1.04,
+      "pnl_pct_live": -1.04
     },
     {
       "ticker": "PYPL",
@@ -330,9 +374,15 @@
       "news_score": null,
       "top_news_title": null,
       "top_news_url": null,
-      "status": "open",
+      "status": "expired",
       "issued_at": "2026-05-05T15:41:11.369851",
-      "last_seen": "2026-05-06T18:29:36.850982"
+      "last_seen": "2026-05-06T18:29:36.850982",
+      "current_price": 46.17,
+      "current_price_time": "2026-05-06T18:35:25.069868+00:00",
+      "exit_price": 46.17,
+      "exit_date": "2026-05-06T18:35:25.069868+00:00",
+      "pnl_pct": 0.13,
+      "pnl_pct_live": 0.13
     },
     {
       "ticker": "LRCX",
