@@ -150,5 +150,43 @@
     "pnl_pct": null,
     "max_favorable": null,
     "max_adverse": null
+  },
+  {
+    "ticker": "DKNG",
+    "action": "STRONG_SELL",
+    "entry_price": 23.92,
+    "stop_loss": 24.517857339041576,
+    "take_profit": 22.245999450683595,
+    "score": -0.49372823836624125,
+    "confidence": 0.7047288996507708,
+    "universe": "NASDAQ100",
+    "issued_at": "2026-05-06T20:07:34.981406",
+    "horizon_days": 1,
+    "horizon_hours": 24,
+    "status": "open",
+    "exit_price": null,
+    "exit_date": null,
+    "pnl_pct": null,
+    "max_favorable": null,
+    "max_adverse": null
+  },
+  {
+    "ticker": "MSFT",
+    "action": "STRONG_SELL",
+    "entry_price": 413.866,
+    "stop_loss": 423.1280729718889,
+    "take_profit": 387.9321956787109,
+    "score": -0.42211154016626057,
+    "confidence": 0.7005989043149585,
+    "universe": "NASDAQ100",
+    "issued_at": "2026-05-06T20:07:34.981433",
+    "horizon_days": 1,
+    "horizon_hours": 24,
+    "status": "open",
+    "exit_price": null,
+    "exit_date": null,
+    "pnl_pct": null,
+    "max_favorable": null,
+    "max_adverse": null
   }
 ]
