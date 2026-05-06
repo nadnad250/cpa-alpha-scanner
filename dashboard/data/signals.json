@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-05-06T18:35:25.069868+00:00",
+  "generated_at": "2026-05-06T19:13:50.092686+00:00",
   "date": "2026-05-06",
   "stats": {
     "total": 10,
@@ -50,10 +50,10 @@
       "status": "open",
       "issued_at": "2026-05-06T18:29:36.754712",
       "last_seen": "2026-05-06T18:29:36.850982",
-      "current_price": 578.3,
-      "current_price_time": "2026-05-06T18:35:25.069868+00:00",
-      "pnl_pct_live": -0.14,
-      "progression_pct": -5.8
+      "current_price": 575.65,
+      "current_price_time": "2026-05-06T19:13:50.092686+00:00",
+      "pnl_pct_live": 0.32,
+      "progression_pct": 4.6
     },
     {
       "ticker": "MDB",
@@ -89,10 +89,10 @@
       "status": "open",
       "issued_at": "2026-05-05T20:01:49.594634",
       "last_seen": "2026-05-05T20:01:49.595668",
-      "current_price": 268.18,
-      "current_price_time": "2026-05-06T18:35:25.069868+00:00",
-      "pnl_pct_live": -0.56,
-      "progression_pct": -12.0
+      "current_price": 265.99,
+      "current_price_time": "2026-05-06T19:13:50.092686+00:00",
+      "pnl_pct_live": 0.26,
+      "progression_pct": 2.0
     },
     {
       "ticker": "BNTX",
@@ -235,10 +235,10 @@
       "status": "open",
       "issued_at": "2026-05-06T18:29:36.754737",
       "last_seen": "2026-05-06T18:29:36.850982",
-      "current_price": 250.67,
-      "current_price_time": "2026-05-06T18:35:25.069868+00:00",
-      "pnl_pct_live": 0.27,
-      "progression_pct": 2.5
+      "current_price": 249.89,
+      "current_price_time": "2026-05-06T19:13:50.092686+00:00",
+      "pnl_pct_live": 0.58,
+      "progression_pct": 5.3
     },
     {
       "ticker": "PAYX",
