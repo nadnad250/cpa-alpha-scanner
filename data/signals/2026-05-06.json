@@ -112,5 +112,43 @@
     "pnl_pct": null,
     "max_favorable": null,
     "max_adverse": null
+  },
+  {
+    "ticker": "IDXX",
+    "action": "STRONG_SELL",
+    "entry_price": 577.47,
+    "stop_loss": 591.7510821533203,
+    "take_profit": 537.4829699707032,
+    "score": -0.5361516107323937,
+    "confidence": 0.8027112886605282,
+    "universe": "NASDAQ100",
+    "issued_at": "2026-05-06T18:29:36.754712",
+    "horizon_days": 1,
+    "horizon_hours": 24,
+    "status": "open",
+    "exit_price": null,
+    "exit_date": null,
+    "pnl_pct": null,
+    "max_favorable": null,
+    "max_adverse": null
+  },
+  {
+    "ticker": "ADBE",
+    "action": "STRONG_SELL",
+    "entry_price": 251.35,
+    "stop_loss": 261.1021493094308,
+    "take_profit": 224.04398193359376,
+    "score": -0.4863332063228365,
+    "confidence": 0.8098708489574709,
+    "universe": "NASDAQ100",
+    "issued_at": "2026-05-06T18:29:36.754737",
+    "horizon_days": 1,
+    "horizon_hours": 24,
+    "status": "open",
+    "exit_price": null,
+    "exit_date": null,
+    "pnl_pct": null,
+    "max_favorable": null,
+    "max_adverse": null
   }
 ]
