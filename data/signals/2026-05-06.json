@@ -15,8 +15,8 @@
     "exit_price": null,
     "exit_date": null,
     "pnl_pct": null,
-    "max_favorable": null,
-    "max_adverse": null
+    "max_favorable": 0.007889151827358712,
+    "max_adverse": 0.007889151827358712
   },
   {
     "ticker": "PAYX",
@@ -34,8 +34,8 @@
     "exit_price": null,
     "exit_date": null,
     "pnl_pct": null,
-    "max_favorable": null,
-    "max_adverse": null
+    "max_favorable": 0.0014206397834339018,
+    "max_adverse": 0.0014206397834339018
   },
   {
     "ticker": "PYPL",
@@ -53,8 +53,8 @@
     "exit_price": null,
     "exit_date": null,
     "pnl_pct": null,
-    "max_favorable": null,
-    "max_adverse": null
+    "max_favorable": -0.002600226603763235,
+    "max_adverse": -0.002600226603763235
   },
   {
     "ticker": "NFLX",
@@ -72,8 +72,8 @@
     "exit_price": null,
     "exit_date": null,
     "pnl_pct": null,
-    "max_favorable": null,
-    "max_adverse": null
+    "max_favorable": -0.0038666739800568566,
+    "max_adverse": -0.0038666739800568566
   },
   {
     "ticker": "TMUS",
@@ -91,8 +91,8 @@
     "exit_price": null,
     "exit_date": null,
     "pnl_pct": null,
-    "max_favorable": null,
-    "max_adverse": null
+    "max_favorable": -0.0009586923804087612,
+    "max_adverse": -0.0009586923804087612
   },
   {
     "ticker": "PLTR",
@@ -110,8 +110,8 @@
     "exit_price": null,
     "exit_date": null,
     "pnl_pct": null,
-    "max_favorable": null,
-    "max_adverse": null
+    "max_favorable": -0.005096425000772303,
+    "max_adverse": -0.005096425000772303
   },
   {
     "ticker": "IDXX",
@@ -129,8 +129,8 @@
     "exit_price": null,
     "exit_date": null,
     "pnl_pct": null,
-    "max_favorable": null,
-    "max_adverse": null
+    "max_favorable": -0.0030477435516130234,
+    "max_adverse": -0.0030477435516130234
   },
   {
     "ticker": "ADBE",
@@ -148,8 +148,8 @@
     "exit_price": null,
     "exit_date": null,
     "pnl_pct": null,
-    "max_favorable": null,
-    "max_adverse": null
+    "max_favorable": 0.00469465618084218,
+    "max_adverse": 0.00469465618084218
   },
   {
     "ticker": "DKNG",
@@ -167,8 +167,8 @@
     "exit_price": null,
     "exit_date": null,
     "pnl_pct": null,
-    "max_favorable": null,
-    "max_adverse": null
+    "max_favorable": -3.1895461374246416e-09,
+    "max_adverse": -3.1895461374246416e-09
   },
   {
     "ticker": "MSFT",
@@ -186,7 +186,7 @@
     "exit_price": null,
     "exit_date": null,
     "pnl_pct": null,
-    "max_favorable": null,
-    "max_adverse": null
+    "max_favorable": -0.0002271060079304402,
+    "max_adverse": -0.0002271060079304402
   }
 ]
