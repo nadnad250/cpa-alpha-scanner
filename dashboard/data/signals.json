@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-05-06T15:49:46.762459",
+  "generated_at": "2026-05-06T16:18:10.385183+00:00",
   "date": "2026-05-06",
   "stats": {
     "total": 8,
@@ -49,10 +49,10 @@
       "status": "open",
       "issued_at": "2026-05-05T18:26:21.642681",
       "last_seen": "2026-05-06T08:20:36.003733",
-      "current_price": 1808.38,
-      "current_price_time": "2026-05-06T15:33:25.296320+00:00",
-      "pnl_pct_live": 4.36,
-      "progression_pct": 37.1
+      "current_price": 1801.33,
+      "current_price_time": "2026-05-06T16:18:10.385183+00:00",
+      "pnl_pct_live": 3.95,
+      "progression_pct": 33.6
     },
     {
       "ticker": "MDB",
@@ -88,10 +88,10 @@
       "status": "open",
       "issued_at": "2026-05-05T20:01:49.594634",
       "last_seen": "2026-05-05T20:01:49.595668",
-      "current_price": 264.47,
-      "current_price_time": "2026-05-06T15:33:25.296320+00:00",
-      "pnl_pct_live": 0.83,
-      "progression_pct": 6.3
+      "current_price": 265.27,
+      "current_price_time": "2026-05-06T16:18:10.385183+00:00",
+      "pnl_pct_live": 0.53,
+      "progression_pct": 4.0
     },
     {
       "ticker": "BNTX",
@@ -126,10 +126,10 @@
       "status": "open",
       "issued_at": "2026-05-05T17:06:24.619966",
       "last_seen": "2026-05-06T08:20:36.003733",
-      "current_price": 95.4,
-      "current_price_time": "2026-05-06T15:33:25.296320+00:00",
-      "pnl_pct_live": 0.1,
-      "progression_pct": 0.9
+      "current_price": 95.07,
+      "current_price_time": "2026-05-06T16:18:10.385183+00:00",
+      "pnl_pct_live": 0.45,
+      "progression_pct": 4.0
     },
     {
       "ticker": "VRSK",
@@ -157,9 +157,15 @@
       "news_score": null,
       "top_news_title": null,
       "top_news_url": null,
-      "status": "open",
+      "status": "expired",
       "issued_at": "2026-05-05T14:23:18.328137",
-      "last_seen": "2026-05-06T15:49:46.762459"
+      "last_seen": "2026-05-06T15:49:46.762459",
+      "current_price": 173.83,
+      "current_price_time": "2026-05-06T16:18:10.385183+00:00",
+      "exit_price": 173.83,
+      "exit_date": "2026-05-06T16:18:10.385183+00:00",
+      "pnl_pct": 2.51,
+      "pnl_pct_live": 2.51
     },
     {
       "ticker": "DOCU",
@@ -191,9 +197,15 @@
       "news_score": 0.05,
       "top_news_title": "DocuSign (DOCU) Stock Falls Amid Market Uptick: What Investors Need to Know",
       "top_news_url": "https://finance.yahoo.com/markets/stocks/articles/docusign-docu-stock-falls-amid-214505158.html",
-      "status": "open",
+      "status": "expired",
       "issued_at": "2026-05-05T14:23:18.328161",
-      "last_seen": "2026-05-06T15:49:46.762459"
+      "last_seen": "2026-05-06T15:49:46.762459",
+      "current_price": 46.69,
+      "current_price_time": "2026-05-06T16:18:10.385183+00:00",
+      "exit_price": 46.69,
+      "exit_date": "2026-05-06T16:18:10.385183+00:00",
+      "pnl_pct": 0.45,
+      "pnl_pct_live": 0.45
     },
     {
       "ticker": "MELI",
@@ -221,9 +233,15 @@
       "news_score": null,
       "top_news_title": null,
       "top_news_url": null,
-      "status": "open",
+      "status": "expired",
       "issued_at": "2026-05-05T15:41:11.369857",
-      "last_seen": "2026-05-06T15:49:46.762459"
+      "last_seen": "2026-05-06T15:49:46.762459",
+      "current_price": 1846.5,
+      "current_price_time": "2026-05-06T16:18:10.385183+00:00",
+      "exit_price": 1846.5,
+      "exit_date": "2026-05-06T16:18:10.385183+00:00",
+      "pnl_pct": -2.14,
+      "pnl_pct_live": -2.14
     },
     {
       "ticker": "MSFT",
@@ -258,10 +276,10 @@
       "status": "open",
       "issued_at": "2026-05-05T17:06:24.619990",
       "last_seen": "2026-05-06T14:26:59.379148",
-      "current_price": 413.73,
-      "current_price_time": "2026-05-06T15:33:25.296320+00:00",
-      "pnl_pct_live": 0.15,
-      "progression_pct": 2.3
+      "current_price": 414.66,
+      "current_price_time": "2026-05-06T16:18:10.385183+00:00",
+      "pnl_pct_live": -0.08,
+      "progression_pct": -3.4
     },
     {
       "ticker": "PYPL",
@@ -289,9 +307,15 @@
       "news_score": null,
       "top_news_title": null,
       "top_news_url": null,
-      "status": "open",
+      "status": "expired",
       "issued_at": "2026-05-05T14:23:18.328164",
-      "last_seen": "2026-05-06T15:49:46.762459"
+      "last_seen": "2026-05-06T15:49:46.762459",
+      "current_price": 45.94,
+      "current_price_time": "2026-05-06T16:18:10.385183+00:00",
+      "exit_price": 45.94,
+      "exit_date": "2026-05-06T16:18:10.385183+00:00",
+      "pnl_pct": -1.44,
+      "pnl_pct_live": -1.44
     },
     {
       "ticker": "LRCX",
