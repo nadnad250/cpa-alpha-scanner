@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-05-06T17:06:06.604503",
+  "generated_at": "2026-05-06T17:50:16.438852+00:00",
   "date": "2026-05-06",
   "stats": {
     "total": 10,
@@ -52,10 +52,10 @@
       "status": "open",
       "issued_at": "2026-05-05T20:01:49.594634",
       "last_seen": "2026-05-05T20:01:49.595668",
-      "current_price": 266.6,
-      "current_price_time": "2026-05-06T17:02:28.364798+00:00",
-      "pnl_pct_live": 0.03,
-      "progression_pct": 0.2
+      "current_price": 268.42,
+      "current_price_time": "2026-05-06T17:50:16.438852+00:00",
+      "pnl_pct_live": -0.65,
+      "progression_pct": -13.9
     },
     {
       "ticker": "TEAM",
@@ -83,9 +83,15 @@
       "news_score": null,
       "top_news_title": null,
       "top_news_url": null,
-      "status": "open",
+      "status": "expired",
       "issued_at": "2026-05-05T15:41:11.369823",
-      "last_seen": "2026-05-06T17:06:06.604503"
+      "last_seen": "2026-05-06T17:06:06.604503",
+      "current_price": 89.25,
+      "current_price_time": "2026-05-06T17:50:16.438852+00:00",
+      "exit_price": 89.25,
+      "exit_date": "2026-05-06T17:50:16.438852+00:00",
+      "pnl_pct": 2.21,
+      "pnl_pct_live": 2.21
     },
     {
       "ticker": "BNTX",
@@ -117,13 +123,16 @@
       "news_score": 0.1,
       "top_news_title": "BioNTech to Slash 22% of Workforce as Losses Widen. The Stock Falls.",
       "top_news_url": "https://www.barrons.com/articles/biontech-to-slash-25-of-workforce-as-losses-widen-the-stock-falls-d66e9d65?siteid=yhoof2&yptr=yahoo",
-      "status": "open",
+      "status": "expired",
       "issued_at": "2026-05-05T17:06:24.619966",
       "last_seen": "2026-05-06T08:20:36.003733",
-      "current_price": 95.05,
-      "current_price_time": "2026-05-06T17:02:28.364798+00:00",
-      "pnl_pct_live": 0.47,
-      "progression_pct": 4.2
+      "current_price": 95.16,
+      "current_price_time": "2026-05-06T17:50:16.438852+00:00",
+      "pnl_pct_live": 0.36,
+      "progression_pct": 4.2,
+      "exit_price": 95.16,
+      "exit_date": "2026-05-06T17:50:16.438852+00:00",
+      "pnl_pct": 0.36
     },
     {
       "ticker": "VRSK",
@@ -151,9 +160,15 @@
       "news_score": null,
       "top_news_title": null,
       "top_news_url": null,
-      "status": "open",
+      "status": "expired",
       "issued_at": "2026-05-05T14:23:18.328137",
-      "last_seen": "2026-05-06T17:06:06.604503"
+      "last_seen": "2026-05-06T17:06:06.604503",
+      "current_price": 172.99,
+      "current_price_time": "2026-05-06T17:50:16.438852+00:00",
+      "exit_price": 172.99,
+      "exit_date": "2026-05-06T17:50:16.438852+00:00",
+      "pnl_pct": 2.98,
+      "pnl_pct_live": 2.98
     },
     {
       "ticker": "PAYX",
@@ -185,9 +200,15 @@
       "news_score": 0,
       "top_news_title": "3 Cash-Producing Stocks with Warning Signs",
       "top_news_url": "https://finance.yahoo.com/markets/stocks/articles/3-cash-producing-stocks-warning-182055346.html",
-      "status": "open",
+      "status": "expired",
       "issued_at": "2026-05-05T15:41:11.369847",
-      "last_seen": "2026-05-06T17:06:06.604503"
+      "last_seen": "2026-05-06T17:06:06.604503",
+      "current_price": 91.5,
+      "current_price_time": "2026-05-06T17:50:16.438852+00:00",
+      "exit_price": 91.5,
+      "exit_date": "2026-05-06T17:50:16.438852+00:00",
+      "pnl_pct": 0.01,
+      "pnl_pct_live": 0.01
     },
     {
       "ticker": "DOCU",
@@ -215,9 +236,15 @@
       "news_score": null,
       "top_news_title": null,
       "top_news_url": null,
-      "status": "open",
+      "status": "expired",
       "issued_at": "2026-05-05T14:23:18.328161",
-      "last_seen": "2026-05-06T17:06:06.604503"
+      "last_seen": "2026-05-06T17:06:06.604503",
+      "current_price": 46.91,
+      "current_price_time": "2026-05-06T17:50:16.438852+00:00",
+      "exit_price": 46.91,
+      "exit_date": "2026-05-06T17:50:16.438852+00:00",
+      "pnl_pct": 2.68,
+      "pnl_pct_live": 2.68
     },
     {
       "ticker": "TMUS",
@@ -249,9 +276,15 @@
       "news_score": 0.2,
       "top_news_title": "T‑Mobile US (TMUS) Valuation Check After Recent Share Price Weakness",
       "top_news_url": "https://finance.yahoo.com/markets/stocks/articles/t-mobile-us-tmus-valuation-091946919.html",
-      "status": "open",
+      "status": "expired",
       "issued_at": "2026-05-05T15:41:11.369860",
-      "last_seen": "2026-05-06T17:06:06.604503"
+      "last_seen": "2026-05-06T17:06:06.604503",
+      "current_price": 193.38,
+      "current_price_time": "2026-05-06T17:50:16.438852+00:00",
+      "exit_price": 193.38,
+      "exit_date": "2026-05-06T17:50:16.438852+00:00",
+      "pnl_pct": -0.21,
+      "pnl_pct_live": -0.21
     },
     {
       "ticker": "PYPL",
@@ -283,9 +316,15 @@
       "news_score": -0.15,
       "top_news_title": "PayPal layoffs: New CEO cuts 20% of workforce in Q1 2026",
       "top_news_url": "https://qz.com/paypal-layoffs-ceo-turnaround-cost-cutting-050626",
-      "status": "open",
+      "status": "expired",
       "issued_at": "2026-05-05T15:41:11.369851",
-      "last_seen": "2026-05-06T17:06:06.604503"
+      "last_seen": "2026-05-06T17:06:06.604503",
+      "current_price": 46.36,
+      "current_price_time": "2026-05-06T17:50:16.438852+00:00",
+      "exit_price": 46.36,
+      "exit_date": "2026-05-06T17:50:16.438852+00:00",
+      "pnl_pct": -0.46,
+      "pnl_pct_live": -0.46
     },
     {
       "ticker": "NFLX",
@@ -317,9 +356,15 @@
       "news_score": 0.1,
       "top_news_title": "The Dealmaking 3: LIV Golf Funding, UFC in Australia, ESPN & Disney Take Back Sports",
       "top_news_url": "https://finance.yahoo.com/markets/stocks/articles/dealmaking-3-liv-golf-funding-231817103.html",
-      "status": "open",
+      "status": "expired",
       "issued_at": "2026-05-05T15:41:11.369854",
-      "last_seen": "2026-05-06T17:06:06.604503"
+      "last_seen": "2026-05-06T17:06:06.604503",
+      "current_price": 88.06,
+      "current_price_time": "2026-05-06T17:50:16.438852+00:00",
+      "exit_price": 88.06,
+      "exit_date": "2026-05-06T17:50:16.438852+00:00",
+      "pnl_pct": -0.15,
+      "pnl_pct_live": -0.15
     },
     {
       "ticker": "PLTR",
@@ -355,7 +400,11 @@
       "top_news_url": "https://finance.yahoo.com/markets/stocks/articles/palantir-revenue-surges-ai-demand-161345633.html",
       "status": "open",
       "issued_at": "2026-05-06T17:06:06.603626",
-      "last_seen": "2026-05-06T17:06:06.604503"
+      "last_seen": "2026-05-06T17:06:06.604503",
+      "current_price": 133.67,
+      "current_price_time": "2026-05-06T17:50:16.438852+00:00",
+      "pnl_pct_live": -0.42,
+      "progression_pct": -8.4
     },
     {
       "ticker": "LRCX",
