@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-05-06T14:26:59.379148",
+  "generated_at": "2026-05-06T14:38:13.710757+00:00",
   "date": "2026-05-06",
   "stats": {
     "total": 10,
@@ -49,10 +49,10 @@
       "status": "open",
       "issued_at": "2026-05-05T18:26:21.642681",
       "last_seen": "2026-05-06T08:20:36.003733",
-      "current_price": 1788.29,
-      "current_price_time": "2026-05-06T13:38:40.468174+00:00",
-      "pnl_pct_live": 3.2,
-      "progression_pct": 27.2
+      "current_price": 1776.1,
+      "current_price_time": "2026-05-06T14:38:13.710757+00:00",
+      "pnl_pct_live": 2.49,
+      "progression_pct": 21.2
     },
     {
       "ticker": "MDB",
@@ -88,10 +88,10 @@
       "status": "open",
       "issued_at": "2026-05-05T20:01:49.594634",
       "last_seen": "2026-05-05T20:01:49.595668",
-      "current_price": 258.0,
-      "current_price_time": "2026-05-06T13:38:40.468174+00:00",
-      "pnl_pct_live": 3.25,
-      "progression_pct": 24.8
+      "current_price": 265.02,
+      "current_price_time": "2026-05-06T14:38:13.710757+00:00",
+      "pnl_pct_live": 0.62,
+      "progression_pct": 4.7
     },
     {
       "ticker": "TEAM",
@@ -122,10 +122,10 @@
       "status": "open",
       "issued_at": "2026-05-05T15:41:11.369823",
       "last_seen": "2026-05-06T08:20:36.003733",
-      "current_price": 87.61,
-      "current_price_time": "2026-05-06T13:38:40.468174+00:00",
-      "pnl_pct_live": 4.01,
-      "progression_pct": 26.7
+      "current_price": 87.49,
+      "current_price_time": "2026-05-06T14:38:13.710757+00:00",
+      "pnl_pct_live": 4.14,
+      "progression_pct": 27.6
     },
     {
       "ticker": "BNTX",
@@ -160,10 +160,10 @@
       "status": "open",
       "issued_at": "2026-05-05T17:06:24.619966",
       "last_seen": "2026-05-06T08:20:36.003733",
-      "current_price": 92.69,
-      "current_price_time": "2026-05-06T13:38:40.468174+00:00",
-      "pnl_pct_live": 2.94,
-      "progression_pct": 26.3
+      "current_price": 94.85,
+      "current_price_time": "2026-05-06T14:38:13.710757+00:00",
+      "pnl_pct_live": 0.68,
+      "progression_pct": 6.1
     },
     {
       "ticker": "DOCU",
@@ -195,9 +195,15 @@
       "news_score": 0.05,
       "top_news_title": "DocuSign (DOCU) Stock Falls Amid Market Uptick: What Investors Need to Know",
       "top_news_url": "https://finance.yahoo.com/markets/stocks/articles/docusign-docu-stock-falls-amid-214505158.html",
-      "status": "open",
+      "status": "expired",
       "issued_at": "2026-05-05T14:23:18.328161",
-      "last_seen": "2026-05-06T14:26:59.379148"
+      "last_seen": "2026-05-06T14:26:59.379148",
+      "current_price": 47.23,
+      "current_price_time": "2026-05-06T14:38:13.710757+00:00",
+      "exit_price": 47.23,
+      "exit_date": "2026-05-06T14:38:13.710757+00:00",
+      "pnl_pct": 0.51,
+      "pnl_pct_live": 0.51
     },
     {
       "ticker": "PAYX",
@@ -231,7 +237,11 @@
       "top_news_url": "https://finance.yahoo.com/markets/stocks/articles/3-cash-producing-stocks-warning-182055346.html",
       "status": "open",
       "issued_at": "2026-05-05T15:41:11.369847",
-      "last_seen": "2026-05-06T14:26:59.379148"
+      "last_seen": "2026-05-06T14:26:59.379148",
+      "current_price": 91.53,
+      "current_price_time": "2026-05-06T14:38:13.710757+00:00",
+      "pnl_pct_live": 0.26,
+      "progression_pct": 5.8
     },
     {
       "ticker": "TMUS",
@@ -265,7 +275,11 @@
       "top_news_url": "https://finance.yahoo.com/markets/stocks/articles/t-mobile-us-tmus-valuation-091946919.html",
       "status": "open",
       "issued_at": "2026-05-05T15:41:11.369860",
-      "last_seen": "2026-05-06T14:26:59.379148"
+      "last_seen": "2026-05-06T14:26:59.379148",
+      "current_price": 193.61,
+      "current_price_time": "2026-05-06T14:38:13.710757+00:00",
+      "pnl_pct_live": 0.18,
+      "progression_pct": 2.4
     },
     {
       "ticker": "MSFT",
@@ -299,7 +313,11 @@
       "top_news_url": "https://finance.yahoo.com/video/etoro-ceo-talks-coinbase-layoffs-210924310.html",
       "status": "open",
       "issued_at": "2026-05-05T17:06:24.619990",
-      "last_seen": "2026-05-06T14:26:59.379148"
+      "last_seen": "2026-05-06T14:26:59.379148",
+      "current_price": 416.33,
+      "current_price_time": "2026-05-06T14:38:13.710757+00:00",
+      "pnl_pct_live": -0.48,
+      "progression_pct": -21.4
     },
     {
       "ticker": "PYPL",
@@ -330,10 +348,10 @@
       "status": "open",
       "issued_at": "2026-05-05T15:41:11.369851",
       "last_seen": "2026-05-06T08:20:36.003733",
-      "current_price": 46.91,
-      "current_price_time": "2026-05-06T13:38:40.468174+00:00",
-      "pnl_pct_live": -1.47,
-      "progression_pct": -51.1
+      "current_price": 47.0,
+      "current_price_time": "2026-05-06T14:38:13.710757+00:00",
+      "pnl_pct_live": -1.67,
+      "progression_pct": -57.9
     },
     {
       "ticker": "NFLX",
@@ -367,7 +385,11 @@
       "top_news_url": "https://finance.yahoo.com/markets/stocks/articles/dealmaking-3-liv-golf-funding-231817103.html",
       "status": "open",
       "issued_at": "2026-05-05T15:41:11.369854",
-      "last_seen": "2026-05-06T14:26:59.379148"
+      "last_seen": "2026-05-06T14:26:59.379148",
+      "current_price": 88.24,
+      "current_price_time": "2026-05-06T14:38:13.710757+00:00",
+      "pnl_pct_live": 0.1,
+      "progression_pct": 1.1
     },
     {
       "ticker": "LRCX",
