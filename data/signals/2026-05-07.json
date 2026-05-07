@@ -93,5 +93,43 @@
     "pnl_pct": null,
     "max_favorable": null,
     "max_adverse": null
+  },
+  {
+    "ticker": "BNTX",
+    "action": "STRONG_SELL",
+    "entry_price": 92.37,
+    "stop_loss": 96.14571323939732,
+    "take_profit": 81.7980029296875,
+    "score": -0.5383619558151206,
+    "confidence": 0.7907311976498528,
+    "universe": "NASDAQ100",
+    "issued_at": "2026-05-07T17:11:46.910980",
+    "horizon_days": 1,
+    "horizon_hours": 24,
+    "status": "open",
+    "exit_price": null,
+    "exit_date": null,
+    "pnl_pct": null,
+    "max_favorable": null,
+    "max_adverse": null
+  },
+  {
+    "ticker": "TXN",
+    "action": "STRONG_BUY",
+    "entry_price": 283.13,
+    "stop_loss": 268.9735,
+    "take_profit": 324.27003295898436,
+    "score": 0.4371478759384485,
+    "confidence": 0.8790152316420446,
+    "universe": "NASDAQ100",
+    "issued_at": "2026-05-07T17:11:46.911012",
+    "horizon_days": 1,
+    "horizon_hours": 24,
+    "status": "open",
+    "exit_price": null,
+    "exit_date": null,
+    "pnl_pct": null,
+    "max_favorable": null,
+    "max_adverse": null
   }
 ]
