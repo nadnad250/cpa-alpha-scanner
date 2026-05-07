@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-05-07T18:31:02.223139",
+  "generated_at": "2026-05-07T18:51:53.275079+00:00",
   "date": "2026-05-07",
   "stats": {
     "total": 10,
@@ -51,10 +51,10 @@
       "status": "open",
       "issued_at": "2026-05-07T17:11:46.911012",
       "last_seen": "2026-05-07T17:11:46.911951",
-      "current_price": 283.9,
-      "current_price_time": "2026-05-07T18:03:27.885610+00:00",
-      "pnl_pct_live": 0.27,
-      "progression_pct": 1.9
+      "current_price": 283.62,
+      "current_price_time": "2026-05-07T18:51:53.275079+00:00",
+      "pnl_pct_live": 0.17,
+      "progression_pct": 1.2
     },
     {
       "ticker": "ON",
@@ -87,10 +87,10 @@
       "status": "open",
       "issued_at": "2026-05-07T14:27:45.122219",
       "last_seen": "2026-05-07T14:27:45.122914",
-      "current_price": 101.33,
-      "current_price_time": "2026-05-07T18:03:27.885610+00:00",
-      "pnl_pct_live": -0.2,
-      "progression_pct": -3.9
+      "current_price": 100.69,
+      "current_price_time": "2026-05-07T18:51:53.275079+00:00",
+      "pnl_pct_live": -0.83,
+      "progression_pct": -16.5
     },
     {
       "ticker": "SNOW",
@@ -128,7 +128,11 @@
       "top_news_url": "https://www.investors.com/news/technology/snowflake-stock-datadog-ai-software/?src=A00220&yptr=yahoo",
       "status": "open",
       "issued_at": "2026-05-07T18:31:02.222140",
-      "last_seen": "2026-05-07T18:31:02.223139"
+      "last_seen": "2026-05-07T18:31:02.223139",
+      "current_price": 152.65,
+      "current_price_time": "2026-05-07T18:51:53.275079+00:00",
+      "pnl_pct_live": 0.73,
+      "progression_pct": 4.9
     },
     {
       "ticker": "BNTX",
@@ -163,10 +167,10 @@
       "status": "open",
       "issued_at": "2026-05-07T17:11:46.910980",
       "last_seen": "2026-05-07T17:11:46.911951",
-      "current_price": 92.91,
-      "current_price_time": "2026-05-07T18:03:27.885610+00:00",
-      "pnl_pct_live": -0.58,
-      "progression_pct": -14.3
+      "current_price": 92.61,
+      "current_price_time": "2026-05-07T18:51:53.275079+00:00",
+      "pnl_pct_live": -0.26,
+      "progression_pct": -6.3
     },
     {
       "ticker": "DKNG",
@@ -194,9 +198,15 @@
       "news_score": null,
       "top_news_title": null,
       "top_news_url": null,
-      "status": "open",
+      "status": "sl_hit",
       "issued_at": "2026-05-06T20:07:34.981406",
-      "last_seen": "2026-05-07T18:31:02.223139"
+      "last_seen": "2026-05-07T18:31:02.223139",
+      "current_price": 24.86,
+      "current_price_time": "2026-05-07T18:51:53.275079+00:00",
+      "exit_price": 24.52,
+      "exit_date": "2026-05-07T18:51:53.275079+00:00",
+      "pnl_pct": -2.51,
+      "pnl_pct_live": -2.51
     },
     {
       "ticker": "NFLX",
@@ -228,9 +238,15 @@
       "news_score": -0.5,
       "top_news_title": "Warner Bros. Discovery Q1 Earnings Miss Estimates, Revenues Fall Y/Y",
       "top_news_url": "https://finance.yahoo.com/markets/stocks/articles/warner-bros-discovery-q1-earnings-134000162.html",
-      "status": "open",
+      "status": "expired",
       "issued_at": "2026-05-06T17:06:06.603620",
-      "last_seen": "2026-05-07T18:31:02.223139"
+      "last_seen": "2026-05-07T18:31:02.223139",
+      "current_price": 88.39,
+      "current_price_time": "2026-05-07T18:51:53.275079+00:00",
+      "exit_price": 88.39,
+      "exit_date": "2026-05-07T18:51:53.275079+00:00",
+      "pnl_pct": 0.16,
+      "pnl_pct_live": 0.16
     },
     {
       "ticker": "ISRG",
@@ -263,10 +279,10 @@
       "status": "open",
       "issued_at": "2026-05-07T14:27:45.122241",
       "last_seen": "2026-05-07T14:27:45.122914",
-      "current_price": 453.07,
-      "current_price_time": "2026-05-07T18:03:27.885610+00:00",
-      "pnl_pct_live": 1.29,
-      "progression_pct": 18.9
+      "current_price": 453.78,
+      "current_price_time": "2026-05-07T18:51:53.275079+00:00",
+      "pnl_pct_live": 1.14,
+      "progression_pct": 16.6
     },
     {
       "ticker": "DOCU",
@@ -294,9 +310,15 @@
       "news_score": null,
       "top_news_title": null,
       "top_news_url": null,
-      "status": "open",
+      "status": "expired",
       "issued_at": "2026-05-06T15:49:46.761906",
-      "last_seen": "2026-05-07T18:31:02.223139"
+      "last_seen": "2026-05-07T18:31:02.223139",
+      "current_price": 48.26,
+      "current_price_time": "2026-05-07T18:51:53.275079+00:00",
+      "exit_price": 48.26,
+      "exit_date": "2026-05-07T18:51:53.275079+00:00",
+      "pnl_pct": -2.9,
+      "pnl_pct_live": -2.9
     },
     {
       "ticker": "PAYX",
@@ -324,9 +346,15 @@
       "news_score": null,
       "top_news_title": null,
       "top_news_url": null,
-      "status": "open",
+      "status": "expired",
       "issued_at": "2026-05-06T17:06:06.603590",
-      "last_seen": "2026-05-07T18:31:02.223139"
+      "last_seen": "2026-05-07T18:31:02.223139",
+      "current_price": 94.74,
+      "current_price_time": "2026-05-07T18:51:53.275079+00:00",
+      "exit_price": 94.74,
+      "exit_date": "2026-05-07T18:51:53.275079+00:00",
+      "pnl_pct": -3.53,
+      "pnl_pct_live": -3.53
     },
     {
       "ticker": "PYPL",
@@ -354,9 +382,15 @@
       "news_score": null,
       "top_news_title": null,
       "top_news_url": null,
-      "status": "open",
+      "status": "expired",
       "issued_at": "2026-05-06T17:06:06.603616",
-      "last_seen": "2026-05-07T18:31:02.223139"
+      "last_seen": "2026-05-07T18:31:02.223139",
+      "current_price": 46.54,
+      "current_price_time": "2026-05-07T18:51:53.275079+00:00",
+      "exit_price": 46.54,
+      "exit_date": "2026-05-07T18:51:53.275079+00:00",
+      "pnl_pct": -0.85,
+      "pnl_pct_live": -0.85
     },
     {
       "ticker": "LRCX",
