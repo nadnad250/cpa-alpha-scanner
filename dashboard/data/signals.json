@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-05-07T20:04:07.433453",
+  "generated_at": "2026-05-07T20:10:24.342775+00:00",
   "date": "2026-05-07",
   "stats": {
     "total": 10,
@@ -51,10 +51,10 @@
       "status": "open",
       "issued_at": "2026-05-07T17:11:46.911012",
       "last_seen": "2026-05-07T17:11:46.911951",
-      "current_price": 284.41,
-      "current_price_time": "2026-05-07T19:33:35.594811+00:00",
-      "pnl_pct_live": 0.45,
-      "progression_pct": 3.1
+      "current_price": 285.15,
+      "current_price_time": "2026-05-07T20:10:24.342775+00:00",
+      "pnl_pct_live": 0.71,
+      "progression_pct": 4.9
     },
     {
       "ticker": "ON",
@@ -87,10 +87,10 @@
       "status": "open",
       "issued_at": "2026-05-07T14:27:45.122219",
       "last_seen": "2026-05-07T14:27:45.122914",
-      "current_price": 100.23,
-      "current_price_time": "2026-05-07T19:33:35.594811+00:00",
-      "pnl_pct_live": -1.28,
-      "progression_pct": -25.6
+      "current_price": 100.61,
+      "current_price_time": "2026-05-07T20:10:24.342775+00:00",
+      "pnl_pct_live": -0.91,
+      "progression_pct": -18.1
     },
     {
       "ticker": "SNOW",
@@ -129,10 +129,10 @@
       "status": "open",
       "issued_at": "2026-05-07T18:31:02.222140",
       "last_seen": "2026-05-07T18:31:02.223139",
-      "current_price": 152.57,
-      "current_price_time": "2026-05-07T19:33:35.594811+00:00",
-      "pnl_pct_live": 0.79,
-      "progression_pct": 5.2
+      "current_price": 153.79,
+      "current_price_time": "2026-05-07T20:10:24.342775+00:00",
+      "pnl_pct_live": -0.01,
+      "progression_pct": -0.1
     },
     {
       "ticker": "BNTX",
@@ -167,10 +167,10 @@
       "status": "open",
       "issued_at": "2026-05-07T17:11:46.910980",
       "last_seen": "2026-05-07T17:11:46.911951",
-      "current_price": 92.62,
-      "current_price_time": "2026-05-07T19:33:35.594811+00:00",
-      "pnl_pct_live": -0.27,
-      "progression_pct": -6.6
+      "current_price": 93.07,
+      "current_price_time": "2026-05-07T20:10:24.342775+00:00",
+      "pnl_pct_live": -0.76,
+      "progression_pct": -18.5
     },
     {
       "ticker": "IDXX",
@@ -198,9 +198,15 @@
       "news_score": null,
       "top_news_title": null,
       "top_news_url": null,
-      "status": "open",
+      "status": "expired",
       "issued_at": "2026-05-06T18:29:36.754712",
-      "last_seen": "2026-05-07T20:04:07.433453"
+      "last_seen": "2026-05-07T20:04:07.433453",
+      "current_price": 572.6,
+      "current_price_time": "2026-05-07T20:10:24.342775+00:00",
+      "exit_price": 572.6,
+      "exit_date": "2026-05-07T20:10:24.342775+00:00",
+      "pnl_pct": 0.84,
+      "pnl_pct_live": 0.84
     },
     {
       "ticker": "DKNG",
@@ -228,9 +234,15 @@
       "news_score": null,
       "top_news_title": null,
       "top_news_url": null,
-      "status": "open",
+      "status": "expired",
       "issued_at": "2026-05-06T20:07:34.981406",
-      "last_seen": "2026-05-07T20:04:07.433453"
+      "last_seen": "2026-05-07T20:04:07.433453",
+      "current_price": 25.24,
+      "current_price_time": "2026-05-07T20:10:24.342775+00:00",
+      "exit_price": 25.24,
+      "exit_date": "2026-05-07T20:10:24.342775+00:00",
+      "pnl_pct": -5.52,
+      "pnl_pct_live": -5.52
     },
     {
       "ticker": "ADBE",
@@ -258,9 +270,15 @@
       "news_score": null,
       "top_news_title": null,
       "top_news_url": null,
-      "status": "open",
+      "status": "expired",
       "issued_at": "2026-05-06T18:29:36.754737",
-      "last_seen": "2026-05-07T20:04:07.433453"
+      "last_seen": "2026-05-07T20:04:07.433453",
+      "current_price": 256.51,
+      "current_price_time": "2026-05-07T20:10:24.342775+00:00",
+      "exit_price": 256.51,
+      "exit_date": "2026-05-07T20:10:24.342775+00:00",
+      "pnl_pct": -2.05,
+      "pnl_pct_live": -2.05
     },
     {
       "ticker": "ISRG",
@@ -293,10 +311,10 @@
       "status": "open",
       "issued_at": "2026-05-07T14:27:45.122241",
       "last_seen": "2026-05-07T14:27:45.122914",
-      "current_price": 452.24,
-      "current_price_time": "2026-05-07T19:33:35.594811+00:00",
-      "pnl_pct_live": 1.47,
-      "progression_pct": 21.5
+      "current_price": 453.37,
+      "current_price_time": "2026-05-07T20:10:24.342775+00:00",
+      "pnl_pct_live": 1.23,
+      "progression_pct": 17.9
     },
     {
       "ticker": "PAYX",
@@ -324,9 +342,15 @@
       "news_score": null,
       "top_news_title": null,
       "top_news_url": null,
-      "status": "open",
+      "status": "expired",
       "issued_at": "2026-05-06T17:06:06.603590",
-      "last_seen": "2026-05-07T20:04:07.433453"
+      "last_seen": "2026-05-07T20:04:07.433453",
+      "current_price": 94.26,
+      "current_price_time": "2026-05-07T20:10:24.342775+00:00",
+      "exit_price": 94.26,
+      "exit_date": "2026-05-07T20:10:24.342775+00:00",
+      "pnl_pct": -3.01,
+      "pnl_pct_live": -3.01
     },
     {
       "ticker": "PYPL",
@@ -359,9 +383,15 @@
       "news_score": -0.2,
       "top_news_title": "Silicon Valley’s ‘player‑coach’ fantasy misses the point of good managers",
       "top_news_url": "https://finance.yahoo.com/sectors/technology/articles/silicon-valley-player-coach-fantasy-095902093.html",
-      "status": "open",
+      "status": "expired",
       "issued_at": "2026-05-06T17:06:06.603616",
-      "last_seen": "2026-05-07T20:04:07.433453"
+      "last_seen": "2026-05-07T20:04:07.433453",
+      "current_price": 46.23,
+      "current_price_time": "2026-05-07T20:10:24.342775+00:00",
+      "exit_price": 46.23,
+      "exit_date": "2026-05-07T20:10:24.342775+00:00",
+      "pnl_pct": -0.02,
+      "pnl_pct_live": -0.02
     },
     {
       "ticker": "LRCX",
