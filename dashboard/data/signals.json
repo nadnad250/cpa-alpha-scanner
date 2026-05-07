@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-05-07T18:51:53.275079+00:00",
+  "generated_at": "2026-05-07T19:33:35.594811+00:00",
   "date": "2026-05-07",
   "stats": {
     "total": 10,
@@ -51,10 +51,10 @@
       "status": "open",
       "issued_at": "2026-05-07T17:11:46.911012",
       "last_seen": "2026-05-07T17:11:46.911951",
-      "current_price": 283.62,
-      "current_price_time": "2026-05-07T18:51:53.275079+00:00",
-      "pnl_pct_live": 0.17,
-      "progression_pct": 1.2
+      "current_price": 284.41,
+      "current_price_time": "2026-05-07T19:33:35.594811+00:00",
+      "pnl_pct_live": 0.45,
+      "progression_pct": 3.1
     },
     {
       "ticker": "ON",
@@ -87,10 +87,10 @@
       "status": "open",
       "issued_at": "2026-05-07T14:27:45.122219",
       "last_seen": "2026-05-07T14:27:45.122914",
-      "current_price": 100.69,
-      "current_price_time": "2026-05-07T18:51:53.275079+00:00",
-      "pnl_pct_live": -0.83,
-      "progression_pct": -16.5
+      "current_price": 100.23,
+      "current_price_time": "2026-05-07T19:33:35.594811+00:00",
+      "pnl_pct_live": -1.28,
+      "progression_pct": -25.6
     },
     {
       "ticker": "SNOW",
@@ -129,10 +129,10 @@
       "status": "open",
       "issued_at": "2026-05-07T18:31:02.222140",
       "last_seen": "2026-05-07T18:31:02.223139",
-      "current_price": 152.65,
-      "current_price_time": "2026-05-07T18:51:53.275079+00:00",
-      "pnl_pct_live": 0.73,
-      "progression_pct": 4.9
+      "current_price": 152.57,
+      "current_price_time": "2026-05-07T19:33:35.594811+00:00",
+      "pnl_pct_live": 0.79,
+      "progression_pct": 5.2
     },
     {
       "ticker": "BNTX",
@@ -167,10 +167,10 @@
       "status": "open",
       "issued_at": "2026-05-07T17:11:46.910980",
       "last_seen": "2026-05-07T17:11:46.911951",
-      "current_price": 92.61,
-      "current_price_time": "2026-05-07T18:51:53.275079+00:00",
-      "pnl_pct_live": -0.26,
-      "progression_pct": -6.3
+      "current_price": 92.62,
+      "current_price_time": "2026-05-07T19:33:35.594811+00:00",
+      "pnl_pct_live": -0.27,
+      "progression_pct": -6.6
     },
     {
       "ticker": "DKNG",
@@ -279,10 +279,10 @@
       "status": "open",
       "issued_at": "2026-05-07T14:27:45.122241",
       "last_seen": "2026-05-07T14:27:45.122914",
-      "current_price": 453.78,
-      "current_price_time": "2026-05-07T18:51:53.275079+00:00",
-      "pnl_pct_live": 1.14,
-      "progression_pct": 16.6
+      "current_price": 452.24,
+      "current_price_time": "2026-05-07T19:33:35.594811+00:00",
+      "pnl_pct_live": 1.47,
+      "progression_pct": 21.5
     },
     {
       "ticker": "DOCU",
