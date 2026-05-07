@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-05-07T17:21:03.798282+00:00",
+  "generated_at": "2026-05-07T18:03:27.885610+00:00",
   "date": "2026-05-07",
   "stats": {
     "total": 10,
@@ -51,10 +51,10 @@
       "status": "open",
       "issued_at": "2026-05-07T17:11:46.911012",
       "last_seen": "2026-05-07T17:11:46.911951",
-      "current_price": 282.58,
-      "current_price_time": "2026-05-07T17:21:03.798282+00:00",
-      "pnl_pct_live": -0.19,
-      "progression_pct": -3.9
+      "current_price": 283.9,
+      "current_price_time": "2026-05-07T18:03:27.885610+00:00",
+      "pnl_pct_live": 0.27,
+      "progression_pct": 1.9
     },
     {
       "ticker": "ON",
@@ -87,10 +87,10 @@
       "status": "open",
       "issued_at": "2026-05-07T14:27:45.122219",
       "last_seen": "2026-05-07T14:27:45.122914",
-      "current_price": 100.75,
-      "current_price_time": "2026-05-07T17:21:03.798282+00:00",
-      "pnl_pct_live": -0.77,
-      "progression_pct": -15.4
+      "current_price": 101.33,
+      "current_price_time": "2026-05-07T18:03:27.885610+00:00",
+      "pnl_pct_live": -0.2,
+      "progression_pct": -3.9
     },
     {
       "ticker": "MRVL",
@@ -121,10 +121,10 @@
       "status": "open",
       "issued_at": "2026-05-07T15:50:01.606521",
       "last_seen": "2026-05-07T17:11:46.911951",
-      "current_price": 160.32,
-      "current_price_time": "2026-05-07T17:21:03.798282+00:00",
-      "pnl_pct_live": -2.92,
-      "progression_pct": -58.4
+      "current_price": 161.73,
+      "current_price_time": "2026-05-07T18:03:27.885610+00:00",
+      "pnl_pct_live": -2.06,
+      "progression_pct": -41.3
     },
     {
       "ticker": "BNTX",
@@ -159,10 +159,10 @@
       "status": "open",
       "issued_at": "2026-05-07T17:11:46.910980",
       "last_seen": "2026-05-07T17:11:46.911951",
-      "current_price": 92.25,
-      "current_price_time": "2026-05-07T17:21:03.798282+00:00",
-      "pnl_pct_live": 0.13,
-      "progression_pct": 1.1
+      "current_price": 92.91,
+      "current_price_time": "2026-05-07T18:03:27.885610+00:00",
+      "pnl_pct_live": -0.58,
+      "progression_pct": -14.3
     },
     {
       "ticker": "IDXX",
@@ -196,10 +196,10 @@
       "status": "open",
       "issued_at": "2026-05-06T18:29:36.754712",
       "last_seen": "2026-05-06T18:29:36.850982",
-      "current_price": 574.33,
-      "current_price_time": "2026-05-07T17:21:03.798282+00:00",
-      "pnl_pct_live": 0.54,
-      "progression_pct": 7.9
+      "current_price": 573.1,
+      "current_price_time": "2026-05-07T18:03:27.885610+00:00",
+      "pnl_pct_live": 0.76,
+      "progression_pct": 10.9
     },
     {
       "ticker": "DKNG",
@@ -270,10 +270,10 @@
       "status": "open",
       "issued_at": "2026-05-06T18:29:36.754737",
       "last_seen": "2026-05-06T18:29:36.850982",
-      "current_price": 256.81,
-      "current_price_time": "2026-05-07T17:21:03.798282+00:00",
-      "pnl_pct_live": -2.17,
-      "progression_pct": -56.0
+      "current_price": 256.63,
+      "current_price_time": "2026-05-07T18:03:27.885610+00:00",
+      "pnl_pct_live": -2.1,
+      "progression_pct": -54.2
     },
     {
       "ticker": "ISRG",
@@ -306,10 +306,10 @@
       "status": "open",
       "issued_at": "2026-05-07T14:27:45.122241",
       "last_seen": "2026-05-07T14:27:45.122914",
-      "current_price": 454.8,
-      "current_price_time": "2026-05-07T17:21:03.798282+00:00",
-      "pnl_pct_live": 0.92,
-      "progression_pct": 13.4
+      "current_price": 453.07,
+      "current_price_time": "2026-05-07T18:03:27.885610+00:00",
+      "pnl_pct_live": 1.29,
+      "progression_pct": 18.9
     },
     {
       "ticker": "DOCU",
