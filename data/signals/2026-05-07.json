@@ -15,8 +15,8 @@
     "exit_price": null,
     "exit_date": null,
     "pnl_pct": null,
-    "max_favorable": null,
-    "max_adverse": null
+    "max_favorable": -0.009061355162498164,
+    "max_adverse": -0.009061355162498164
   },
   {
     "ticker": "ISRG",
@@ -34,8 +34,8 @@
     "exit_price": null,
     "exit_date": null,
     "pnl_pct": null,
-    "max_favorable": null,
-    "max_adverse": null
+    "max_favorable": 0.012004378574346405,
+    "max_adverse": 0.012004378574346405
   },
   {
     "ticker": "KDP",
@@ -53,8 +53,8 @@
     "exit_price": null,
     "exit_date": null,
     "pnl_pct": null,
-    "max_favorable": null,
-    "max_adverse": null
+    "max_favorable": -0.022772116111302504,
+    "max_adverse": -0.022772116111302504
   },
   {
     "ticker": "MRVL",
@@ -72,8 +72,8 @@
     "exit_price": null,
     "exit_date": null,
     "pnl_pct": null,
-    "max_favorable": null,
-    "max_adverse": null
+    "max_favorable": -0.031065171288887753,
+    "max_adverse": -0.031065171288887753
   },
   {
     "ticker": "MELI",
@@ -91,8 +91,8 @@
     "exit_price": null,
     "exit_date": null,
     "pnl_pct": null,
-    "max_favorable": null,
-    "max_adverse": null
+    "max_favorable": -0.004398926730631889,
+    "max_adverse": -0.004398926730631889
   },
   {
     "ticker": "BNTX",
@@ -110,8 +110,8 @@
     "exit_price": null,
     "exit_date": null,
     "pnl_pct": null,
-    "max_favorable": null,
-    "max_adverse": null
+    "max_favorable": -0.00703688040561223,
+    "max_adverse": -0.00703688040561223
   },
   {
     "ticker": "TXN",
@@ -129,8 +129,8 @@
     "exit_price": null,
     "exit_date": null,
     "pnl_pct": null,
-    "max_favorable": null,
-    "max_adverse": null
+    "max_favorable": 0.0074523725298449636,
+    "max_adverse": 0.0074523725298449636
   },
   {
     "ticker": "SNOW",
@@ -148,8 +148,8 @@
     "exit_price": null,
     "exit_date": null,
     "pnl_pct": null,
-    "max_favorable": null,
-    "max_adverse": null
+    "max_favorable": 0.00035765748201515646,
+    "max_adverse": 0.00035765748201515646
   },
   {
     "ticker": "NFLX",
@@ -167,8 +167,8 @@
     "exit_price": null,
     "exit_date": null,
     "pnl_pct": null,
-    "max_favorable": null,
-    "max_adverse": null
+    "max_favorable": 0.003162769682593484,
+    "max_adverse": 0.003162769682593484
   },
   {
     "ticker": "TMUS",
@@ -186,8 +186,8 @@
     "exit_price": null,
     "exit_date": null,
     "pnl_pct": null,
-    "max_favorable": null,
-    "max_adverse": null
+    "max_favorable": 0.006548000060148365,
+    "max_adverse": 0.006548000060148365
   },
   {
     "ticker": "PYPL",
@@ -205,8 +205,8 @@
     "exit_price": null,
     "exit_date": null,
     "pnl_pct": null,
-    "max_favorable": null,
-    "max_adverse": null
+    "max_favorable": -2.6410712378556218e-08,
+    "max_adverse": -2.6410712378556218e-08
   },
   {
     "ticker": "DOCU",
@@ -224,7 +224,7 @@
     "exit_price": null,
     "exit_date": null,
     "pnl_pct": null,
-    "max_favorable": null,
-    "max_adverse": null
+    "max_favorable": 2.8497427129098638e-08,
+    "max_adverse": 2.8497427129098638e-08
   }
 ]
