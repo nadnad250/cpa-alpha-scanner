@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-05-07T08:21:30.477673",
+  "generated_at": "2026-05-07T08:57:18.589765+00:00",
   "date": "2026-05-07",
   "stats": {
     "total": 10,
@@ -51,7 +51,7 @@
       "issued_at": "2026-05-06T18:29:36.754712",
       "last_seen": "2026-05-06T18:29:36.850982",
       "current_price": 579.23,
-      "current_price_time": "2026-05-07T07:56:00.864900+00:00",
+      "current_price_time": "2026-05-07T08:57:18.589765+00:00",
       "pnl_pct_live": -0.3,
       "progression_pct": -12.3
     },
@@ -90,7 +90,7 @@
       "issued_at": "2026-05-06T20:07:34.981406",
       "last_seen": "2026-05-06T20:07:34.982431",
       "current_price": 23.92,
-      "current_price_time": "2026-05-07T07:56:00.864900+00:00",
+      "current_price_time": "2026-05-07T08:57:18.589765+00:00",
       "pnl_pct_live": 0.0,
       "progression_pct": 0.0
     },
@@ -128,7 +128,7 @@
       "issued_at": "2026-05-06T18:29:36.754737",
       "last_seen": "2026-05-06T18:29:36.850982",
       "current_price": 250.14,
-      "current_price_time": "2026-05-07T07:56:00.864900+00:00",
+      "current_price_time": "2026-05-07T08:57:18.589765+00:00",
       "pnl_pct_live": 0.48,
       "progression_pct": 4.4
     },
@@ -164,7 +164,11 @@
       "top_news_url": "https://finance.yahoo.com/markets/stocks/articles/3-cash-producing-stocks-warning-182055346.html",
       "status": "open",
       "issued_at": "2026-05-06T17:06:06.603590",
-      "last_seen": "2026-05-07T08:21:30.477673"
+      "last_seen": "2026-05-07T08:21:30.477673",
+      "current_price": 91.39,
+      "current_price_time": "2026-05-07T08:57:18.589765+00:00",
+      "pnl_pct_live": -0.01,
+      "progression_pct": -0.7
     },
     {
       "ticker": "DOCU",
@@ -198,7 +202,11 @@
       "top_news_url": "https://finance.yahoo.com/markets/stocks/articles/docusign-docu-stock-slides-market-214504607.html",
       "status": "open",
       "issued_at": "2026-05-06T15:49:46.761906",
-      "last_seen": "2026-05-07T08:21:30.477673"
+      "last_seen": "2026-05-07T08:21:30.477673",
+      "current_price": 46.52,
+      "current_price_time": "2026-05-07T08:57:18.589765+00:00",
+      "pnl_pct_live": 0.02,
+      "progression_pct": 0.2
     },
     {
       "ticker": "PYPL",
@@ -232,7 +240,11 @@
       "top_news_url": "https://finance.yahoo.com/markets/crypto/articles/ai-layoffs-hit-crypto-payments-173606377.html",
       "status": "open",
       "issued_at": "2026-05-06T17:06:06.603616",
-      "last_seen": "2026-05-07T08:21:30.477673"
+      "last_seen": "2026-05-07T08:21:30.477673",
+      "current_price": 46.25,
+      "current_price_time": "2026-05-07T08:57:18.589765+00:00",
+      "pnl_pct_live": 0.04,
+      "progression_pct": 0.5
     },
     {
       "ticker": "TMUS",
@@ -266,7 +278,11 @@
       "top_news_url": "https://finance.yahoo.com/markets/stocks/articles/t-mobile-us-tmus-valuation-091946919.html",
       "status": "open",
       "issued_at": "2026-05-06T17:06:06.603624",
-      "last_seen": "2026-05-07T08:21:30.477673"
+      "last_seen": "2026-05-07T08:21:30.477673",
+      "current_price": 193.17,
+      "current_price_time": "2026-05-07T08:57:18.589765+00:00",
+      "pnl_pct_live": -0.01,
+      "progression_pct": -0.2
     },
     {
       "ticker": "PLTR",
@@ -302,7 +318,11 @@
       "top_news_url": "https://finance.yahoo.com/markets/stocks/articles/palantir-revenue-surges-ai-demand-161345633.html",
       "status": "open",
       "issued_at": "2026-05-06T17:06:06.603626",
-      "last_seen": "2026-05-07T08:21:30.477673"
+      "last_seen": "2026-05-07T08:21:30.477673",
+      "current_price": 133.76,
+      "current_price_time": "2026-05-07T08:57:18.589765+00:00",
+      "pnl_pct_live": 0.02,
+      "progression_pct": 0.2
     },
     {
       "ticker": "NFLX",
@@ -336,7 +356,11 @@
       "top_news_url": "https://www.wsj.com/business/media/warner-bros-discovery-earnings-q1-2026-wbd-stock-07f83bc0?siteid=yhoof2&yptr=yahoo",
       "status": "open",
       "issued_at": "2026-05-06T17:06:06.603620",
-      "last_seen": "2026-05-07T08:21:30.477673"
+      "last_seen": "2026-05-07T08:21:30.477673",
+      "current_price": 88.22,
+      "current_price_time": "2026-05-07T08:57:18.589765+00:00",
+      "pnl_pct_live": 0.06,
+      "progression_pct": 0.6
     },
     {
       "ticker": "MSFT",
@@ -370,7 +394,11 @@
       "top_news_url": "https://finance.yahoo.com/sectors/technology/articles/microsoft-weighs-ai-data-center-211444706.html",
       "status": "open",
       "issued_at": "2026-05-06T20:07:34.981433",
-      "last_seen": "2026-05-07T08:21:30.477673"
+      "last_seen": "2026-05-07T08:21:30.477673",
+      "current_price": 413.76,
+      "current_price_time": "2026-05-07T08:57:18.589765+00:00",
+      "pnl_pct_live": 0.05,
+      "progression_pct": 0.8
     },
     {
       "ticker": "LRCX",
