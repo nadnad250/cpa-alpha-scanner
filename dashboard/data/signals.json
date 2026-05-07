@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-05-07T14:27:45.122914",
+  "generated_at": "2026-05-07T14:57:21.933086+00:00",
   "date": "2026-05-07",
   "stats": {
     "total": 10,
@@ -48,7 +48,11 @@
       "top_news_url": "https://finance.yahoo.com/markets/stocks/articles/semi-expands-partnership-geely-b-100136100.html",
       "status": "open",
       "issued_at": "2026-05-07T14:27:45.122219",
-      "last_seen": "2026-05-07T14:27:45.122914"
+      "last_seen": "2026-05-07T14:27:45.122914",
+      "current_price": 102.18,
+      "current_price_time": "2026-05-07T14:57:21.933086+00:00",
+      "pnl_pct_live": 0.64,
+      "progression_pct": 4.3
     },
     {
       "ticker": "IDXX",
@@ -82,10 +86,10 @@
       "status": "open",
       "issued_at": "2026-05-06T18:29:36.754712",
       "last_seen": "2026-05-06T18:29:36.850982",
-      "current_price": 573.5,
-      "current_price_time": "2026-05-07T13:55:25.938521+00:00",
-      "pnl_pct_live": 0.69,
-      "progression_pct": 9.9
+      "current_price": 570.27,
+      "current_price_time": "2026-05-07T14:57:21.933086+00:00",
+      "pnl_pct_live": 1.25,
+      "progression_pct": 18.0
     },
     {
       "ticker": "DKNG",
@@ -118,13 +122,16 @@
       "news_score": 0,
       "top_news_title": "DraftKings (DKNG) Earnings Expected to Grow: What to Know Ahead of Next Week's Release",
       "top_news_url": "https://finance.yahoo.com/markets/stocks/articles/draftkings-dkng-earnings-expected-grow-140043192.html",
-      "status": "open",
+      "status": "sl_hit",
       "issued_at": "2026-05-06T20:07:34.981406",
       "last_seen": "2026-05-06T20:07:34.982431",
-      "current_price": 24.36,
-      "current_price_time": "2026-05-07T13:55:25.938521+00:00",
-      "pnl_pct_live": -1.84,
-      "progression_pct": -73.3
+      "current_price": 24.89,
+      "current_price_time": "2026-05-07T14:57:21.933086+00:00",
+      "pnl_pct_live": -2.51,
+      "progression_pct": -73.3,
+      "exit_price": 24.52,
+      "exit_date": "2026-05-07T14:57:21.933086+00:00",
+      "pnl_pct": -2.51
     },
     {
       "ticker": "ADBE",
@@ -159,10 +166,10 @@
       "status": "open",
       "issued_at": "2026-05-06T18:29:36.754737",
       "last_seen": "2026-05-06T18:29:36.850982",
-      "current_price": 256.35,
-      "current_price_time": "2026-05-07T13:55:25.938521+00:00",
-      "pnl_pct_live": -1.99,
-      "progression_pct": -51.3
+      "current_price": 257.96,
+      "current_price_time": "2026-05-07T14:57:21.933086+00:00",
+      "pnl_pct_live": -2.63,
+      "progression_pct": -67.8
     },
     {
       "ticker": "ISRG",
@@ -194,7 +201,11 @@
       "top_news_url": "https://www.fool.com/investing/2026/05/02/got-1000-which-of-these-beaten-down-healthcare-sto/",
       "status": "open",
       "issued_at": "2026-05-07T14:27:45.122241",
-      "last_seen": "2026-05-07T14:27:45.122914"
+      "last_seen": "2026-05-07T14:27:45.122914",
+      "current_price": 460.58,
+      "current_price_time": "2026-05-07T14:57:21.933086+00:00",
+      "pnl_pct_live": -0.34,
+      "progression_pct": -14.1
     },
     {
       "ticker": "DOCU",
@@ -224,7 +235,11 @@
       "top_news_url": null,
       "status": "open",
       "issued_at": "2026-05-06T15:49:46.761906",
-      "last_seen": "2026-05-07T14:27:45.122914"
+      "last_seen": "2026-05-07T14:27:45.122914",
+      "current_price": 48.46,
+      "current_price_time": "2026-05-07T14:57:21.933086+00:00",
+      "pnl_pct_live": -3.33,
+      "progression_pct": -83.9
     },
     {
       "ticker": "PAYX",
@@ -252,9 +267,15 @@
       "news_score": null,
       "top_news_title": null,
       "top_news_url": null,
-      "status": "open",
+      "status": "sl_hit",
       "issued_at": "2026-05-06T17:06:06.603590",
-      "last_seen": "2026-05-07T14:27:45.122914"
+      "last_seen": "2026-05-07T14:27:45.122914",
+      "current_price": 93.46,
+      "current_price_time": "2026-05-07T14:57:21.933086+00:00",
+      "exit_price": 93.01,
+      "exit_date": "2026-05-07T14:57:21.933086+00:00",
+      "pnl_pct": -1.64,
+      "pnl_pct_live": -1.64
     },
     {
       "ticker": "PYPL",
@@ -289,10 +310,10 @@
       "status": "open",
       "issued_at": "2026-05-06T17:06:06.603616",
       "last_seen": "2026-05-07T08:21:30.477673",
-      "current_price": 46.8,
-      "current_price_time": "2026-05-07T13:55:25.938521+00:00",
-      "pnl_pct_live": -1.15,
-      "progression_pct": -40.8
+      "current_price": 47.03,
+      "current_price_time": "2026-05-07T14:57:21.933086+00:00",
+      "pnl_pct_live": -1.64,
+      "progression_pct": -58.5
     },
     {
       "ticker": "PLTR",
@@ -329,10 +350,10 @@
       "status": "open",
       "issued_at": "2026-05-06T17:06:06.603626",
       "last_seen": "2026-05-07T08:21:30.477673",
-      "current_price": 137.65,
-      "current_price_time": "2026-05-07T13:55:25.938521+00:00",
-      "pnl_pct_live": -2.89,
-      "progression_pct": -57.7
+      "current_price": 140.45,
+      "current_price_time": "2026-05-07T14:57:21.933086+00:00",
+      "pnl_pct_live": -4.98,
+      "progression_pct": -99.6
     },
     {
       "ticker": "NFLX",
@@ -367,10 +388,10 @@
       "status": "open",
       "issued_at": "2026-05-06T17:06:06.603620",
       "last_seen": "2026-05-07T08:21:30.477673",
-      "current_price": 88.73,
-      "current_price_time": "2026-05-07T13:55:25.938521+00:00",
-      "pnl_pct_live": -0.52,
-      "progression_pct": -16.3
+      "current_price": 89.0,
+      "current_price_time": "2026-05-07T14:57:21.933086+00:00",
+      "pnl_pct_live": -0.83,
+      "progression_pct": -25.8
     },
     {
       "ticker": "LRCX",
