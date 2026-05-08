@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-05-08T18:25:44.682788",
+  "generated_at": "2026-05-08T18:49:13.869669+00:00",
   "date": "2026-05-08",
   "stats": {
     "total": 10,
@@ -44,9 +44,15 @@
       "news_score": null,
       "top_news_title": null,
       "top_news_url": null,
-      "status": "open",
+      "status": "expired",
       "issued_at": "2026-05-07T17:11:46.911012",
-      "last_seen": "2026-05-08T18:25:44.682788"
+      "last_seen": "2026-05-08T18:25:44.682788",
+      "current_price": 288.3,
+      "current_price_time": "2026-05-08T18:49:13.869669+00:00",
+      "exit_price": 288.3,
+      "exit_date": "2026-05-08T18:49:13.869669+00:00",
+      "pnl_pct": 1.83,
+      "pnl_pct_live": 1.83
     },
     {
       "ticker": "ON",
@@ -74,9 +80,15 @@
       "news_score": null,
       "top_news_title": null,
       "top_news_url": null,
-      "status": "open",
+      "status": "expired",
       "issued_at": "2026-05-07T14:27:45.122219",
-      "last_seen": "2026-05-08T18:25:44.682788"
+      "last_seen": "2026-05-08T18:25:44.682788",
+      "current_price": 102.11,
+      "current_price_time": "2026-05-08T18:49:13.869669+00:00",
+      "exit_price": 102.11,
+      "exit_date": "2026-05-08T18:49:13.869669+00:00",
+      "pnl_pct": 0.57,
+      "pnl_pct_live": 0.57
     },
     {
       "ticker": "SNOW",
@@ -112,13 +124,16 @@
       "news_score": 0.2,
       "top_news_title": "Snowflake Stock Jumps. Why Datadog Sparked Rally.",
       "top_news_url": "https://www.investors.com/news/technology/snowflake-stock-datadog-ai-software/?src=A00220&yptr=yahoo",
-      "status": "open",
+      "status": "expired",
       "issued_at": "2026-05-07T18:31:02.222140",
       "last_seen": "2026-05-07T18:31:02.223139",
-      "current_price": 151.84,
-      "current_price_time": "2026-05-08T18:15:07.352832+00:00",
-      "pnl_pct_live": 1.26,
-      "progression_pct": 8.4
+      "current_price": 151.67,
+      "current_price_time": "2026-05-08T18:49:13.869669+00:00",
+      "pnl_pct_live": 1.37,
+      "progression_pct": 8.4,
+      "exit_price": 151.67,
+      "exit_date": "2026-05-08T18:49:13.869669+00:00",
+      "pnl_pct": 1.37
     },
     {
       "ticker": "BNTX",
@@ -150,9 +165,15 @@
       "news_score": 0,
       "top_news_title": "BioNTech to Slash 22% of Workforce as Losses Widen. The Stock Falls.",
       "top_news_url": "https://www.barrons.com/articles/biontech-to-slash-25-of-workforce-as-losses-widen-the-stock-falls-d66e9d65?siteid=yhoof2&yptr=yahoo",
-      "status": "open",
+      "status": "expired",
       "issued_at": "2026-05-07T17:11:46.910980",
-      "last_seen": "2026-05-08T18:25:44.682788"
+      "last_seen": "2026-05-08T18:25:44.682788",
+      "current_price": 93.48,
+      "current_price_time": "2026-05-08T18:49:13.869669+00:00",
+      "exit_price": 93.48,
+      "exit_date": "2026-05-08T18:49:13.869669+00:00",
+      "pnl_pct": 1.16,
+      "pnl_pct_live": 1.16
     },
     {
       "ticker": "NFLX",
@@ -184,13 +205,16 @@
       "news_score": -0.35,
       "top_news_title": "Warner Bros. Discovery Q1 Earnings Miss Estimates, Revenues Fall Y/Y",
       "top_news_url": "https://finance.yahoo.com/markets/stocks/articles/warner-bros-discovery-q1-earnings-134000162.html",
-      "status": "open",
+      "status": "expired",
       "issued_at": "2026-05-07T18:31:02.222159",
       "last_seen": "2026-05-08T16:58:00.220344",
-      "current_price": 87.54,
-      "current_price_time": "2026-05-08T18:15:07.352832+00:00",
-      "pnl_pct_live": 0.13,
-      "progression_pct": 2.6
+      "current_price": 87.44,
+      "current_price_time": "2026-05-08T18:49:13.869669+00:00",
+      "pnl_pct_live": 0.24,
+      "progression_pct": 2.6,
+      "exit_price": 87.44,
+      "exit_date": "2026-05-08T18:49:13.869669+00:00",
+      "pnl_pct": 0.24
     },
     {
       "ticker": "ISRG",
@@ -218,9 +242,15 @@
       "news_score": null,
       "top_news_title": null,
       "top_news_url": null,
-      "status": "open",
+      "status": "expired",
       "issued_at": "2026-05-07T14:27:45.122241",
-      "last_seen": "2026-05-08T18:25:44.682788"
+      "last_seen": "2026-05-08T18:25:44.682788",
+      "current_price": 450.95,
+      "current_price_time": "2026-05-08T18:49:13.869669+00:00",
+      "exit_price": 450.95,
+      "exit_date": "2026-05-08T18:49:13.869669+00:00",
+      "pnl_pct": 1.75,
+      "pnl_pct_live": 1.75
     },
     {
       "ticker": "DOCU",
@@ -255,10 +285,10 @@
       "status": "open",
       "issued_at": "2026-05-07T20:04:07.432422",
       "last_seen": "2026-05-08T16:58:00.220344",
-      "current_price": 47.38,
-      "current_price_time": "2026-05-08T18:15:07.352832+00:00",
-      "pnl_pct_live": 0.52,
-      "progression_pct": 4.7
+      "current_price": 47.44,
+      "current_price_time": "2026-05-08T18:49:13.869669+00:00",
+      "pnl_pct_live": 0.4,
+      "progression_pct": 3.6
     },
     {
       "ticker": "COIN",
@@ -294,10 +324,10 @@
       "status": "open",
       "issued_at": "2026-05-08T08:06:32.716029",
       "last_seen": "2026-05-08T16:58:00.220344",
-      "current_price": 196.65,
-      "current_price_time": "2026-05-08T18:15:07.352832+00:00",
-      "pnl_pct_live": -2.52,
-      "progression_pct": -50.3
+      "current_price": 195.47,
+      "current_price_time": "2026-05-08T18:49:13.869669+00:00",
+      "pnl_pct_live": -1.9,
+      "progression_pct": -38.0
     },
     {
       "ticker": "TMUS",
@@ -329,13 +359,16 @@
       "news_score": 0.05,
       "top_news_title": "SoftBank Stock Surges on Chip Optimism",
       "top_news_url": "https://www.wsj.com/livecoverage/stock-market-today-dow-sp-500-nasdaq-05-07-2026/card/softbank-stock-surges-on-chip-optimism-4z7bObmJjg4Gx45XuEkN?siteid=yhoof2&yptr=yahoo",
-      "status": "open",
+      "status": "expired",
       "issued_at": "2026-05-07T18:31:02.222163",
       "last_seen": "2026-05-08T16:58:00.220344",
-      "current_price": 193.34,
-      "current_price_time": "2026-05-08T18:15:07.352832+00:00",
-      "pnl_pct_live": 0.09,
-      "progression_pct": 1.2
+      "current_price": 193.52,
+      "current_price_time": "2026-05-08T18:49:13.869669+00:00",
+      "pnl_pct_live": 0.0,
+      "progression_pct": 1.2,
+      "exit_price": 193.52,
+      "exit_date": "2026-05-08T18:49:13.869669+00:00",
+      "pnl_pct": 0.0
     },
     {
       "ticker": "PYPL",
@@ -370,10 +403,10 @@
       "status": "open",
       "issued_at": "2026-05-07T20:04:07.432399",
       "last_seen": "2026-05-08T16:58:00.220344",
-      "current_price": 45.74,
-      "current_price_time": "2026-05-08T18:15:07.352832+00:00",
-      "pnl_pct_live": 0.09,
-      "progression_pct": 1.2
+      "current_price": 45.58,
+      "current_price_time": "2026-05-08T18:49:13.869669+00:00",
+      "pnl_pct_live": 0.44,
+      "progression_pct": 6.0
     },
     {
       "ticker": "LRCX",
