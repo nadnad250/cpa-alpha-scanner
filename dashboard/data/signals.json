@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-05-08T16:58:00.220344",
+  "generated_at": "2026-05-08T17:10:10.795384+00:00",
   "date": "2026-05-08",
   "stats": {
     "total": 10,
@@ -51,10 +51,10 @@
       "status": "open",
       "issued_at": "2026-05-07T17:11:46.911012",
       "last_seen": "2026-05-07T17:11:46.911951",
-      "current_price": 290.09,
-      "current_price_time": "2026-05-08T16:31:56.757271+00:00",
-      "pnl_pct_live": 2.46,
-      "progression_pct": 16.9
+      "current_price": 290.36,
+      "current_price_time": "2026-05-08T17:10:10.795384+00:00",
+      "pnl_pct_live": 2.55,
+      "progression_pct": 17.6
     },
     {
       "ticker": "ON",
@@ -84,9 +84,15 @@
       "news_score": 0.35,
       "top_news_title": "ON Semi (ON) Expands Partnership With Geely, B. Riley Upgrades to Buy",
       "top_news_url": "https://finance.yahoo.com/markets/stocks/articles/semi-expands-partnership-geely-b-100136100.html",
-      "status": "open",
+      "status": "expired",
       "issued_at": "2026-05-07T14:27:45.122219",
-      "last_seen": "2026-05-08T16:58:00.220344"
+      "last_seen": "2026-05-08T16:58:00.220344",
+      "current_price": 102.07,
+      "current_price_time": "2026-05-08T17:10:10.795384+00:00",
+      "exit_price": 102.07,
+      "exit_date": "2026-05-08T17:10:10.795384+00:00",
+      "pnl_pct": 0.02,
+      "pnl_pct_live": 0.02
     },
     {
       "ticker": "SNOW",
@@ -125,10 +131,10 @@
       "status": "open",
       "issued_at": "2026-05-07T18:31:02.222140",
       "last_seen": "2026-05-07T18:31:02.223139",
-      "current_price": 148.31,
-      "current_price_time": "2026-05-08T16:31:56.757271+00:00",
-      "pnl_pct_live": 3.56,
-      "progression_pct": 23.7
+      "current_price": 150.4,
+      "current_price_time": "2026-05-08T17:10:10.795384+00:00",
+      "pnl_pct_live": 2.2,
+      "progression_pct": 14.7
     },
     {
       "ticker": "BNTX",
@@ -163,10 +169,10 @@
       "status": "open",
       "issued_at": "2026-05-07T17:11:46.910980",
       "last_seen": "2026-05-07T17:11:46.911951",
-      "current_price": 95.6,
-      "current_price_time": "2026-05-08T16:31:56.757271+00:00",
-      "pnl_pct_live": -3.5,
-      "progression_pct": -85.4
+      "current_price": 94.51,
+      "current_price_time": "2026-05-08T17:10:10.795384+00:00",
+      "pnl_pct_live": -2.32,
+      "progression_pct": -56.6
     },
     {
       "ticker": "NFLX",
@@ -200,7 +206,11 @@
       "top_news_url": "https://finance.yahoo.com/markets/stocks/articles/warner-bros-discovery-q1-earnings-134000162.html",
       "status": "open",
       "issued_at": "2026-05-07T18:31:02.222159",
-      "last_seen": "2026-05-08T16:58:00.220344"
+      "last_seen": "2026-05-08T16:58:00.220344",
+      "current_price": 87.57,
+      "current_price_time": "2026-05-08T17:10:10.795384+00:00",
+      "pnl_pct_live": 0.09,
+      "progression_pct": 1.9
     },
     {
       "ticker": "ISRG",
@@ -228,9 +238,15 @@
       "news_score": null,
       "top_news_title": null,
       "top_news_url": null,
-      "status": "open",
+      "status": "expired",
       "issued_at": "2026-05-07T14:27:45.122241",
-      "last_seen": "2026-05-08T16:58:00.220344"
+      "last_seen": "2026-05-08T16:58:00.220344",
+      "current_price": 448.64,
+      "current_price_time": "2026-05-08T17:10:10.795384+00:00",
+      "exit_price": 448.64,
+      "exit_date": "2026-05-08T17:10:10.795384+00:00",
+      "pnl_pct": 2.26,
+      "pnl_pct_live": 2.26
     },
     {
       "ticker": "DOCU",
@@ -264,7 +280,11 @@
       "top_news_url": "https://finance.yahoo.com/markets/stocks/articles/assessing-docusign-docu-valuation-recent-031220594.html",
       "status": "open",
       "issued_at": "2026-05-07T20:04:07.432422",
-      "last_seen": "2026-05-08T16:58:00.220344"
+      "last_seen": "2026-05-08T16:58:00.220344",
+      "current_price": 47.65,
+      "current_price_time": "2026-05-08T17:10:10.795384+00:00",
+      "pnl_pct_live": -0.04,
+      "progression_pct": -1.1
     },
     {
       "ticker": "COIN",
@@ -299,7 +319,11 @@
       "top_news_url": "https://finance.yahoo.com/markets/crypto/article/coinbase-stock-drops-as-company-posts-second-consecutive-quarterly-loss-amid-crypto-slump-202800099.html",
       "status": "open",
       "issued_at": "2026-05-08T08:06:32.716029",
-      "last_seen": "2026-05-08T16:58:00.220344"
+      "last_seen": "2026-05-08T16:58:00.220344",
+      "current_price": 192.57,
+      "current_price_time": "2026-05-08T17:10:10.795384+00:00",
+      "pnl_pct_live": -0.39,
+      "progression_pct": -7.8
     },
     {
       "ticker": "TMUS",
@@ -333,7 +357,11 @@
       "top_news_url": "https://www.wsj.com/livecoverage/stock-market-today-dow-sp-500-nasdaq-05-07-2026/card/softbank-stock-surges-on-chip-optimism-4z7bObmJjg4Gx45XuEkN?siteid=yhoof2&yptr=yahoo",
       "status": "open",
       "issued_at": "2026-05-07T18:31:02.222163",
-      "last_seen": "2026-05-08T16:58:00.220344"
+      "last_seen": "2026-05-08T16:58:00.220344",
+      "current_price": 193.27,
+      "current_price_time": "2026-05-08T17:10:10.795384+00:00",
+      "pnl_pct_live": 0.13,
+      "progression_pct": 1.7
     },
     {
       "ticker": "PYPL",
@@ -367,7 +395,11 @@
       "top_news_url": "https://finance.yahoo.com/sectors/technology/articles/silicon-valley-player-coach-fantasy-095902093.html",
       "status": "open",
       "issued_at": "2026-05-07T20:04:07.432399",
-      "last_seen": "2026-05-08T16:58:00.220344"
+      "last_seen": "2026-05-08T16:58:00.220344",
+      "current_price": 45.83,
+      "current_price_time": "2026-05-08T17:10:10.795384+00:00",
+      "pnl_pct_live": -0.11,
+      "progression_pct": -4.2
     },
     {
       "ticker": "LRCX",
