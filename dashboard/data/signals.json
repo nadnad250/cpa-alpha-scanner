@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-05-08T14:23:51.692581+00:00",
+  "generated_at": "2026-05-08T15:04:23.341298+00:00",
   "date": "2026-05-08",
   "stats": {
     "total": 10,
@@ -51,10 +51,10 @@
       "status": "open",
       "issued_at": "2026-05-07T17:11:46.911012",
       "last_seen": "2026-05-07T17:11:46.911951",
-      "current_price": 289.16,
-      "current_price_time": "2026-05-08T14:23:51.692581+00:00",
-      "pnl_pct_live": 2.13,
-      "progression_pct": 14.7
+      "current_price": 291.77,
+      "current_price_time": "2026-05-08T15:04:23.341298+00:00",
+      "pnl_pct_live": 3.05,
+      "progression_pct": 21.0
     },
     {
       "ticker": "ON",
@@ -84,13 +84,16 @@
       "news_score": 0.35,
       "top_news_title": "ON Semi (ON) Expands Partnership With Geely, B. Riley Upgrades to Buy",
       "top_news_url": "https://finance.yahoo.com/markets/stocks/articles/semi-expands-partnership-geely-b-100136100.html",
-      "status": "open",
+      "status": "expired",
       "issued_at": "2026-05-07T14:27:45.122219",
       "last_seen": "2026-05-08T14:19:47.453746",
-      "current_price": 102.63,
-      "current_price_time": "2026-05-08T14:23:51.692581+00:00",
-      "pnl_pct_live": -0.29,
-      "progression_pct": -5.8
+      "current_price": 102.92,
+      "current_price_time": "2026-05-08T15:04:23.341298+00:00",
+      "pnl_pct_live": -0.01,
+      "progression_pct": -5.8,
+      "exit_price": 102.92,
+      "exit_date": "2026-05-08T15:04:23.341298+00:00",
+      "pnl_pct": -0.01
     },
     {
       "ticker": "SNOW",
@@ -129,10 +132,10 @@
       "status": "open",
       "issued_at": "2026-05-07T18:31:02.222140",
       "last_seen": "2026-05-07T18:31:02.223139",
-      "current_price": 146.04,
-      "current_price_time": "2026-05-08T14:23:51.692581+00:00",
-      "pnl_pct_live": 5.03,
-      "progression_pct": 33.6
+      "current_price": 146.5,
+      "current_price_time": "2026-05-08T15:04:23.341298+00:00",
+      "pnl_pct_live": 4.73,
+      "progression_pct": 31.6
     },
     {
       "ticker": "BNTX",
@@ -167,10 +170,10 @@
       "status": "open",
       "issued_at": "2026-05-07T17:11:46.910980",
       "last_seen": "2026-05-07T17:11:46.911951",
-      "current_price": 93.58,
-      "current_price_time": "2026-05-08T14:23:51.692581+00:00",
-      "pnl_pct_live": -1.31,
-      "progression_pct": -32.0
+      "current_price": 94.78,
+      "current_price_time": "2026-05-08T15:04:23.341298+00:00",
+      "pnl_pct_live": -2.61,
+      "progression_pct": -63.8
     },
     {
       "ticker": "NFLX",
@@ -205,10 +208,10 @@
       "status": "open",
       "issued_at": "2026-05-07T18:31:02.222159",
       "last_seen": "2026-05-08T14:19:47.453746",
-      "current_price": 87.58,
-      "current_price_time": "2026-05-08T14:23:51.692581+00:00",
-      "pnl_pct_live": 0.27,
-      "progression_pct": 5.8
+      "current_price": 88.01,
+      "current_price_time": "2026-05-08T15:04:23.341298+00:00",
+      "pnl_pct_live": -0.22,
+      "progression_pct": -12.8
     },
     {
       "ticker": "COIN",
@@ -244,10 +247,10 @@
       "status": "open",
       "issued_at": "2026-05-08T08:06:32.716029",
       "last_seen": "2026-05-08T14:19:47.453746",
-      "current_price": 189.0,
-      "current_price_time": "2026-05-08T14:23:51.692581+00:00",
-      "pnl_pct_live": -0.43,
-      "progression_pct": -8.6
+      "current_price": 191.42,
+      "current_price_time": "2026-05-08T15:04:23.341298+00:00",
+      "pnl_pct_live": -1.72,
+      "progression_pct": -34.3
     },
     {
       "ticker": "ISRG",
@@ -277,13 +280,16 @@
       "news_score": 0.05,
       "top_news_title": "Got $1,000? Which of These Beaten-Down Healthcare Stocks Is Worth Buying?",
       "top_news_url": "https://www.fool.com/investing/2026/05/02/got-1000-which-of-these-beaten-down-healthcare-sto/",
-      "status": "open",
+      "status": "expired",
       "issued_at": "2026-05-07T14:27:45.122241",
       "last_seen": "2026-05-07T14:27:45.122914",
-      "current_price": 449.0,
-      "current_price_time": "2026-05-08T14:23:51.692581+00:00",
-      "pnl_pct_live": 2.18,
-      "progression_pct": 31.8
+      "current_price": 449.71,
+      "current_price_time": "2026-05-08T15:04:23.341298+00:00",
+      "pnl_pct_live": 2.02,
+      "progression_pct": 31.8,
+      "exit_price": 449.71,
+      "exit_date": "2026-05-08T15:04:23.341298+00:00",
+      "pnl_pct": 2.02
     },
     {
       "ticker": "DOCU",
@@ -318,10 +324,10 @@
       "status": "open",
       "issued_at": "2026-05-07T20:04:07.432422",
       "last_seen": "2026-05-08T14:19:47.453746",
-      "current_price": 47.14,
-      "current_price_time": "2026-05-08T14:23:51.692581+00:00",
-      "pnl_pct_live": -0.04,
-      "progression_pct": -1.0
+      "current_price": 47.41,
+      "current_price_time": "2026-05-08T15:04:23.341298+00:00",
+      "pnl_pct_live": -0.62,
+      "progression_pct": -14.7
     },
     {
       "ticker": "TMUS",
@@ -356,10 +362,10 @@
       "status": "open",
       "issued_at": "2026-05-07T18:31:02.222163",
       "last_seen": "2026-05-08T14:19:47.453746",
-      "current_price": 194.11,
-      "current_price_time": "2026-05-08T14:23:51.692581+00:00",
-      "pnl_pct_live": -0.01,
-      "progression_pct": -0.2
+      "current_price": 193.91,
+      "current_price_time": "2026-05-08T15:04:23.341298+00:00",
+      "pnl_pct_live": 0.1,
+      "progression_pct": 1.3
     },
     {
       "ticker": "PYPL",
@@ -394,10 +400,10 @@
       "status": "open",
       "issued_at": "2026-05-07T20:04:07.432399",
       "last_seen": "2026-05-08T14:19:47.453746",
-      "current_price": 46.2,
-      "current_price_time": "2026-05-08T14:23:51.692581+00:00",
-      "pnl_pct_live": -0.06,
-      "progression_pct": -2.6
+      "current_price": 45.88,
+      "current_price_time": "2026-05-08T15:04:23.341298+00:00",
+      "pnl_pct_live": 0.63,
+      "progression_pct": 9.1
     },
     {
       "ticker": "LRCX",
