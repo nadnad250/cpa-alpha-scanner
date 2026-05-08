@@ -36,5 +36,24 @@
     "pnl_pct": null,
     "max_favorable": null,
     "max_adverse": null
+  },
+  {
+    "ticker": "ON",
+    "action": "STRONG_BUY",
+    "entry_price": 102.4,
+    "stop_loss": 97.28,
+    "take_profit": 117.76,
+    "score": 0.4041463139623512,
+    "confidence": 0.8,
+    "universe": "NASDAQ100",
+    "issued_at": "2026-05-08T15:37:17.482268",
+    "horizon_days": 1,
+    "horizon_hours": 24,
+    "status": "open",
+    "exit_price": null,
+    "exit_date": null,
+    "pnl_pct": null,
+    "max_favorable": null,
+    "max_adverse": null
   }
 ]
