@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-05-08T17:45:07.886865+00:00",
+  "generated_at": "2026-05-08T18:15:07.352832+00:00",
   "date": "2026-05-08",
   "stats": {
     "total": 10,
@@ -134,10 +134,10 @@
       "status": "open",
       "issued_at": "2026-05-07T18:31:02.222140",
       "last_seen": "2026-05-07T18:31:02.223139",
-      "current_price": 150.83,
-      "current_price_time": "2026-05-08T17:45:07.886865+00:00",
-      "pnl_pct_live": 1.92,
-      "progression_pct": 12.8
+      "current_price": 151.84,
+      "current_price_time": "2026-05-08T18:15:07.352832+00:00",
+      "pnl_pct_live": 1.26,
+      "progression_pct": 8.4
     },
     {
       "ticker": "BNTX",
@@ -213,10 +213,10 @@
       "status": "open",
       "issued_at": "2026-05-07T18:31:02.222159",
       "last_seen": "2026-05-08T16:58:00.220344",
-      "current_price": 87.46,
-      "current_price_time": "2026-05-08T17:45:07.886865+00:00",
-      "pnl_pct_live": 0.22,
-      "progression_pct": 4.5
+      "current_price": 87.54,
+      "current_price_time": "2026-05-08T18:15:07.352832+00:00",
+      "pnl_pct_live": 0.13,
+      "progression_pct": 2.6
     },
     {
       "ticker": "ISRG",
@@ -287,10 +287,10 @@
       "status": "open",
       "issued_at": "2026-05-07T20:04:07.432422",
       "last_seen": "2026-05-08T16:58:00.220344",
-      "current_price": 47.52,
-      "current_price_time": "2026-05-08T17:45:07.886865+00:00",
-      "pnl_pct_live": 0.23,
-      "progression_pct": 2.1
+      "current_price": 47.38,
+      "current_price_time": "2026-05-08T18:15:07.352832+00:00",
+      "pnl_pct_live": 0.52,
+      "progression_pct": 4.7
     },
     {
       "ticker": "COIN",
@@ -326,10 +326,10 @@
       "status": "open",
       "issued_at": "2026-05-08T08:06:32.716029",
       "last_seen": "2026-05-08T16:58:00.220344",
-      "current_price": 195.51,
-      "current_price_time": "2026-05-08T17:45:07.886865+00:00",
-      "pnl_pct_live": -1.92,
-      "progression_pct": -38.4
+      "current_price": 196.65,
+      "current_price_time": "2026-05-08T18:15:07.352832+00:00",
+      "pnl_pct_live": -2.52,
+      "progression_pct": -50.3
     },
     {
       "ticker": "TMUS",
@@ -364,10 +364,10 @@
       "status": "open",
       "issued_at": "2026-05-07T18:31:02.222163",
       "last_seen": "2026-05-08T16:58:00.220344",
-      "current_price": 193.83,
-      "current_price_time": "2026-05-08T17:45:07.886865+00:00",
-      "pnl_pct_live": -0.16,
-      "progression_pct": -5.9
+      "current_price": 193.34,
+      "current_price_time": "2026-05-08T18:15:07.352832+00:00",
+      "pnl_pct_live": 0.09,
+      "progression_pct": 1.2
     },
     {
       "ticker": "PYPL",
@@ -402,10 +402,10 @@
       "status": "open",
       "issued_at": "2026-05-07T20:04:07.432399",
       "last_seen": "2026-05-08T16:58:00.220344",
-      "current_price": 45.85,
-      "current_price_time": "2026-05-08T17:45:07.886865+00:00",
-      "pnl_pct_live": -0.15,
-      "progression_pct": -5.9
+      "current_price": 45.74,
+      "current_price_time": "2026-05-08T18:15:07.352832+00:00",
+      "pnl_pct_live": 0.09,
+      "progression_pct": 1.2
     },
     {
       "ticker": "LRCX",
