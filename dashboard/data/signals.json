@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-05-11T16:21:01.189610+00:00",
+  "generated_at": "2026-05-11T17:18:51.115565+00:00",
   "date": "2026-05-11",
   "stats": {
     "total": 10,
@@ -91,10 +91,10 @@
       "status": "open",
       "issued_at": "2026-05-11T08:40:32.481555",
       "last_seen": "2026-05-11T08:40:32.482399",
-      "current_price": 152.07,
-      "current_price_time": "2026-05-11T16:21:01.189610+00:00",
-      "pnl_pct_live": 0.25,
-      "progression_pct": 1.7
+      "current_price": 149.1,
+      "current_price_time": "2026-05-11T17:18:51.115565+00:00",
+      "pnl_pct_live": 2.2,
+      "progression_pct": 14.6
     },
     {
       "ticker": "BNTX",
@@ -237,10 +237,10 @@
       "status": "open",
       "issued_at": "2026-05-11T08:40:32.481587",
       "last_seen": "2026-05-11T08:40:32.482399",
-      "current_price": 46.19,
-      "current_price_time": "2026-05-11T16:21:01.189610+00:00",
-      "pnl_pct_live": 3.57,
-      "progression_pct": 32.9
+      "current_price": 45.89,
+      "current_price_time": "2026-05-11T17:18:51.115565+00:00",
+      "pnl_pct_live": 4.2,
+      "progression_pct": 38.7
     },
     {
       "ticker": "TMUS",
@@ -311,10 +311,10 @@
       "status": "open",
       "issued_at": "2026-05-11T08:40:32.481584",
       "last_seen": "2026-05-11T08:40:32.482399",
-      "current_price": 45.26,
-      "current_price_time": "2026-05-11T16:21:01.189610+00:00",
-      "pnl_pct_live": 0.24,
-      "progression_pct": 3.2
+      "current_price": 45.24,
+      "current_price_time": "2026-05-11T17:18:51.115565+00:00",
+      "pnl_pct_live": 0.29,
+      "progression_pct": 3.8
     },
     {
       "ticker": "MSFT",
