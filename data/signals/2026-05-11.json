@@ -321,5 +321,43 @@
     "pnl_pct": null,
     "max_favorable": null,
     "max_adverse": null
+  },
+  {
+    "ticker": "KHC",
+    "action": "STRONG_SELL",
+    "entry_price": 23.165,
+    "stop_loss": 23.554463697160994,
+    "take_profit": 22.07450164794922,
+    "score": -0.4098748388352814,
+    "confidence": 0.722942295734369,
+    "universe": "NASDAQ100",
+    "issued_at": "2026-05-11T17:22:10.657118",
+    "horizon_days": 1,
+    "horizon_hours": 24,
+    "status": "open",
+    "exit_price": null,
+    "exit_date": null,
+    "pnl_pct": null,
+    "max_favorable": null,
+    "max_adverse": null
+  },
+  {
+    "ticker": "PINS",
+    "action": "SELL",
+    "entry_price": 20.545,
+    "stop_loss": 21.57225,
+    "take_profit": 17.667000122070313,
+    "score": -0.3939353775271726,
+    "confidence": 0.7075743119071611,
+    "universe": "NASDAQ100",
+    "issued_at": "2026-05-11T17:22:10.657144",
+    "horizon_days": 1,
+    "horizon_hours": 24,
+    "status": "open",
+    "exit_price": null,
+    "exit_date": null,
+    "pnl_pct": null,
+    "max_favorable": null,
+    "max_adverse": null
   }
 ]
