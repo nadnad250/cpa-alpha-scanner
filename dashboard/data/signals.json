@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-05-11T20:09:28.615230",
+  "generated_at": "2026-05-11T20:21:40.289980+00:00",
   "date": "2026-05-11",
   "stats": {
     "total": 10,
@@ -44,9 +44,15 @@
       "news_score": null,
       "top_news_title": null,
       "top_news_url": null,
-      "status": "open",
+      "status": "expired",
       "issued_at": "2026-05-08T15:37:17.482268",
-      "last_seen": "2026-05-11T20:09:28.615230"
+      "last_seen": "2026-05-11T20:09:28.615230",
+      "current_price": 107.22,
+      "current_price_time": "2026-05-11T20:21:40.289980+00:00",
+      "exit_price": 107.22,
+      "exit_date": "2026-05-11T20:21:40.289980+00:00",
+      "pnl_pct": 4.71,
+      "pnl_pct_live": 4.71
     },
     {
       "ticker": "MRVL",
@@ -78,7 +84,11 @@
       "top_news_url": "https://www.barrons.com/articles/nvidia-stock-price-iren-ai-deal-bdfabcae?siteid=yhoof2&yptr=yahoo",
       "status": "open",
       "issued_at": "2026-05-11T20:09:28.613901",
-      "last_seen": "2026-05-11T20:09:28.615230"
+      "last_seen": "2026-05-11T20:09:28.615230",
+      "current_price": 170.84,
+      "current_price_time": "2026-05-11T20:21:40.289980+00:00",
+      "pnl_pct_live": 0.0,
+      "progression_pct": 0.0
     },
     {
       "ticker": "SNOW",
@@ -117,10 +127,10 @@
       "status": "open",
       "issued_at": "2026-05-11T08:40:32.481555",
       "last_seen": "2026-05-11T08:40:32.482399",
-      "current_price": 149.66,
-      "current_price_time": "2026-05-11T19:34:09.317919+00:00",
-      "pnl_pct_live": 1.83,
-      "progression_pct": 12.2
+      "current_price": 151.44,
+      "current_price_time": "2026-05-11T20:21:40.289980+00:00",
+      "pnl_pct_live": 0.66,
+      "progression_pct": 4.4
     },
     {
       "ticker": "BNTX",
@@ -148,9 +158,15 @@
       "news_score": null,
       "top_news_title": null,
       "top_news_url": null,
-      "status": "open",
+      "status": "expired",
       "issued_at": "2026-05-08T18:25:44.681839",
-      "last_seen": "2026-05-11T20:09:28.615230"
+      "last_seen": "2026-05-11T20:09:28.615230",
+      "current_price": 93.3,
+      "current_price_time": "2026-05-11T20:21:40.289980+00:00",
+      "exit_price": 93.3,
+      "exit_date": "2026-05-11T20:21:40.289980+00:00",
+      "pnl_pct": 1.35,
+      "pnl_pct_live": 1.35
     },
     {
       "ticker": "TEAM",
@@ -188,7 +204,11 @@
       "top_news_url": "https://www.barchart.com/story/news/1741369/so-much-for-the-software-apocalypse-atlassian-stock-surges-as-data-center-revenue-grows-44",
       "status": "open",
       "issued_at": "2026-05-11T20:09:28.613872",
-      "last_seen": "2026-05-11T20:09:28.615230"
+      "last_seen": "2026-05-11T20:09:28.615230",
+      "current_price": 87.28,
+      "current_price_time": "2026-05-11T20:21:40.289980+00:00",
+      "pnl_pct_live": 0.03,
+      "progression_pct": 0.2
     },
     {
       "ticker": "DOCU",
@@ -223,10 +243,10 @@
       "status": "open",
       "issued_at": "2026-05-11T08:40:32.481587",
       "last_seen": "2026-05-11T18:33:22.838283",
-      "current_price": 45.39,
-      "current_price_time": "2026-05-11T19:34:09.317919+00:00",
-      "pnl_pct_live": 0.83,
-      "progression_pct": 6.3
+      "current_price": 45.49,
+      "current_price_time": "2026-05-11T20:21:40.289980+00:00",
+      "pnl_pct_live": 0.61,
+      "progression_pct": 4.7
     },
     {
       "ticker": "NFLX",
@@ -254,9 +274,15 @@
       "news_score": null,
       "top_news_title": null,
       "top_news_url": null,
-      "status": "open",
+      "status": "expired",
       "issued_at": "2026-05-08T19:59:30.189671",
-      "last_seen": "2026-05-11T20:09:28.615230"
+      "last_seen": "2026-05-11T20:09:28.615230",
+      "current_price": 85.45,
+      "current_price_time": "2026-05-11T20:21:40.289980+00:00",
+      "exit_price": 85.45,
+      "exit_date": "2026-05-11T20:21:40.289980+00:00",
+      "pnl_pct": 2.29,
+      "pnl_pct_live": 2.29
     },
     {
       "ticker": "COIN",
@@ -284,9 +310,15 @@
       "news_score": null,
       "top_news_title": null,
       "top_news_url": null,
-      "status": "open",
+      "status": "expired",
       "issued_at": "2026-05-08T08:06:32.716029",
-      "last_seen": "2026-05-11T20:09:28.615230"
+      "last_seen": "2026-05-11T20:09:28.615230",
+      "current_price": 216.62,
+      "current_price_time": "2026-05-11T20:21:40.289980+00:00",
+      "exit_price": 216.62,
+      "exit_date": "2026-05-11T20:21:40.289980+00:00",
+      "pnl_pct": -12.26,
+      "pnl_pct_live": -12.26
     },
     {
       "ticker": "PYPL",
@@ -321,10 +353,10 @@
       "status": "open",
       "issued_at": "2026-05-11T08:40:32.481584",
       "last_seen": "2026-05-11T18:33:22.838283",
-      "current_price": 45.24,
-      "current_price_time": "2026-05-11T19:34:09.317919+00:00",
-      "pnl_pct_live": 0.0,
-      "progression_pct": 0.0
+      "current_price": 45.06,
+      "current_price_time": "2026-05-11T20:21:40.289980+00:00",
+      "pnl_pct_live": 0.4,
+      "progression_pct": 5.5
     },
     {
       "ticker": "MSFT",
@@ -352,9 +384,15 @@
       "news_score": null,
       "top_news_title": null,
       "top_news_url": null,
-      "status": "open",
+      "status": "expired",
       "issued_at": "2026-05-08T19:59:30.189646",
-      "last_seen": "2026-05-11T20:09:28.615230"
+      "last_seen": "2026-05-11T20:09:28.615230",
+      "current_price": 412.68,
+      "current_price_time": "2026-05-11T20:21:40.289980+00:00",
+      "exit_price": 412.68,
+      "exit_date": "2026-05-11T20:21:40.289980+00:00",
+      "pnl_pct": 0.65,
+      "pnl_pct_live": 0.65
     },
     {
       "ticker": "LRCX",
