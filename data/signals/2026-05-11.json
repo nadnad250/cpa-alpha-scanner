@@ -15,8 +15,8 @@
     "exit_price": null,
     "exit_date": null,
     "pnl_pct": null,
-    "max_favorable": null,
-    "max_adverse": null
+    "max_favorable": 0.006231551328304288,
+    "max_adverse": 0.006231551328304288
   },
   {
     "ticker": "NFLX",
@@ -34,8 +34,8 @@
     "exit_price": null,
     "exit_date": null,
     "pnl_pct": null,
-    "max_favorable": null,
-    "max_adverse": null
+    "max_favorable": 0.023171840046615867,
+    "max_adverse": 0.023171840046615867
   },
   {
     "ticker": "PYPL",
@@ -53,8 +53,8 @@
     "exit_price": null,
     "exit_date": null,
     "pnl_pct": null,
-    "max_favorable": null,
-    "max_adverse": null
+    "max_favorable": 0.006612305602287386,
+    "max_adverse": 0.006612305602287386
   },
   {
     "ticker": "DOCU",
@@ -72,8 +72,8 @@
     "exit_price": null,
     "exit_date": null,
     "pnl_pct": null,
-    "max_favorable": null,
-    "max_adverse": null
+    "max_favorable": 0.05031311735977457,
+    "max_adverse": 0.05031311735977457
   },
   {
     "ticker": "ON",
@@ -91,8 +91,8 @@
     "exit_price": null,
     "exit_date": null,
     "pnl_pct": null,
-    "max_favorable": null,
-    "max_adverse": null
+    "max_favorable": 0.03917747476932012,
+    "max_adverse": 0.03917747476932012
   },
   {
     "ticker": "TMUS",
@@ -110,8 +110,8 @@
     "exit_price": null,
     "exit_date": null,
     "pnl_pct": null,
-    "max_favorable": null,
-    "max_adverse": null
+    "max_favorable": 0.014357247825669424,
+    "max_adverse": 0.014357247825669424
   },
   {
     "ticker": "PAYX",
@@ -129,8 +129,8 @@
     "exit_price": null,
     "exit_date": null,
     "pnl_pct": null,
-    "max_favorable": null,
-    "max_adverse": null
+    "max_favorable": 0.0005323405363785593,
+    "max_adverse": 0.0005323405363785593
   },
   {
     "ticker": "VRSK",
@@ -148,8 +148,8 @@
     "exit_price": null,
     "exit_date": null,
     "pnl_pct": null,
-    "max_favorable": null,
-    "max_adverse": null
+    "max_favorable": 0.01920051594682757,
+    "max_adverse": 0.01920051594682757
   },
   {
     "ticker": "NFLX",
@@ -167,8 +167,8 @@
     "exit_price": null,
     "exit_date": null,
     "pnl_pct": null,
-    "max_favorable": null,
-    "max_adverse": null
+    "max_favorable": 0.020798751524182812,
+    "max_adverse": 0.020798751524182812
   },
   {
     "ticker": "TMUS",
@@ -186,8 +186,8 @@
     "exit_price": null,
     "exit_date": null,
     "pnl_pct": null,
-    "max_favorable": null,
-    "max_adverse": null
+    "max_favorable": 0.011703142750165131,
+    "max_adverse": 0.011703142750165131
   },
   {
     "ticker": "ON",
@@ -205,8 +205,8 @@
     "exit_price": null,
     "exit_date": null,
     "pnl_pct": null,
-    "max_favorable": null,
-    "max_adverse": null
+    "max_favorable": 0.032941609167497,
+    "max_adverse": 0.032941609167497
   },
   {
     "ticker": "VRSK",
@@ -224,8 +224,8 @@
     "exit_price": null,
     "exit_date": null,
     "pnl_pct": null,
-    "max_favorable": null,
-    "max_adverse": null
+    "max_favorable": 0.01544837003639432,
+    "max_adverse": 0.01544837003639432
   },
   {
     "ticker": "PAYX",
@@ -243,8 +243,8 @@
     "exit_price": null,
     "exit_date": null,
     "pnl_pct": null,
-    "max_favorable": null,
-    "max_adverse": null
+    "max_favorable": -0.005031551797644494,
+    "max_adverse": -0.005031551797644494
   },
   {
     "ticker": "MSFT",
@@ -262,8 +262,8 @@
     "exit_price": null,
     "exit_date": null,
     "pnl_pct": null,
-    "max_favorable": null,
-    "max_adverse": null
+    "max_favorable": -0.004686729064017825,
+    "max_adverse": -0.004686729064017825
   },
   {
     "ticker": "ON",
@@ -281,8 +281,8 @@
     "exit_price": null,
     "exit_date": null,
     "pnl_pct": null,
-    "max_favorable": null,
-    "max_adverse": null
+    "max_favorable": 0.01852025704026522,
+    "max_adverse": 0.01852025704026522
   },
   {
     "ticker": "MRVL",
@@ -300,8 +300,8 @@
     "exit_price": null,
     "exit_date": null,
     "pnl_pct": null,
-    "max_favorable": null,
-    "max_adverse": null
+    "max_favorable": -0.009307336612307508,
+    "max_adverse": -0.009307336612307508
   },
   {
     "ticker": "KDP",
@@ -319,8 +319,8 @@
     "exit_price": null,
     "exit_date": null,
     "pnl_pct": null,
-    "max_favorable": null,
-    "max_adverse": null
+    "max_favorable": -0.0033199051012635966,
+    "max_adverse": -0.0033199051012635966
   },
   {
     "ticker": "KHC",
@@ -338,8 +338,8 @@
     "exit_price": null,
     "exit_date": null,
     "pnl_pct": null,
-    "max_favorable": null,
-    "max_adverse": null
+    "max_favorable": -0.004101024341974392,
+    "max_adverse": -0.004101024341974392
   },
   {
     "ticker": "PINS",
@@ -357,8 +357,8 @@
     "exit_price": null,
     "exit_date": null,
     "pnl_pct": null,
-    "max_favorable": null,
-    "max_adverse": null
+    "max_favorable": -0.010464844433284702,
+    "max_adverse": -0.010464844433284702
   },
   {
     "ticker": "TEAM",
@@ -376,8 +376,8 @@
     "exit_price": null,
     "exit_date": null,
     "pnl_pct": null,
-    "max_favorable": null,
-    "max_adverse": null
+    "max_favorable": 2.7962504321082772e-08,
+    "max_adverse": 2.7962504321082772e-08
   },
   {
     "ticker": "MRVL",
@@ -395,7 +395,7 @@
     "exit_price": null,
     "exit_date": null,
     "pnl_pct": null,
-    "max_favorable": null,
-    "max_adverse": null
+    "max_favorable": -2.1435901301864932e-08,
+    "max_adverse": -2.1435901301864932e-08
   }
 ]
