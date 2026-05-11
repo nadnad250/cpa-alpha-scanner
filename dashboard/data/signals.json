@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-05-11T14:30:04.864760",
+  "generated_at": "2026-05-11T15:23:38.595016+00:00",
   "date": "2026-05-11",
   "stats": {
     "total": 10,
@@ -46,9 +46,15 @@
       "news_score": 0.35,
       "top_news_title": "ON Semi (ON) Expands Partnership With Geely, B. Riley Upgrades to Buy",
       "top_news_url": "https://finance.yahoo.com/markets/stocks/articles/semi-expands-partnership-geely-b-100136100.html",
-      "status": "open",
+      "status": "expired",
       "issued_at": "2026-05-08T15:37:17.482268",
-      "last_seen": "2026-05-11T14:30:04.864760"
+      "last_seen": "2026-05-11T14:30:04.864760",
+      "current_price": 104.91,
+      "current_price_time": "2026-05-11T15:23:38.595016+00:00",
+      "exit_price": 104.91,
+      "exit_date": "2026-05-11T15:23:38.595016+00:00",
+      "pnl_pct": 1.05,
+      "pnl_pct_live": 1.05
     },
     {
       "ticker": "ON",
@@ -76,9 +82,15 @@
       "news_score": null,
       "top_news_title": null,
       "top_news_url": null,
-      "status": "open",
+      "status": "expired",
       "issued_at": "2026-05-08T19:59:30.189675",
-      "last_seen": "2026-05-11T14:30:04.864760"
+      "last_seen": "2026-05-11T14:30:04.864760",
+      "current_price": 104.91,
+      "current_price_time": "2026-05-11T15:23:38.595016+00:00",
+      "exit_price": 104.91,
+      "exit_date": "2026-05-11T15:23:38.595016+00:00",
+      "pnl_pct": 1.72,
+      "pnl_pct_live": 1.72
     },
     {
       "ticker": "SNOW",
@@ -117,10 +129,10 @@
       "status": "open",
       "issued_at": "2026-05-11T08:40:32.481555",
       "last_seen": "2026-05-11T08:40:32.482399",
-      "current_price": 153.51,
-      "current_price_time": "2026-05-11T14:00:36.889831+00:00",
-      "pnl_pct_live": -0.7,
-      "progression_pct": -13.9
+      "current_price": 151.78,
+      "current_price_time": "2026-05-11T15:23:38.595016+00:00",
+      "pnl_pct_live": 0.44,
+      "progression_pct": 2.9
     },
     {
       "ticker": "BNTX",
@@ -148,9 +160,15 @@
       "news_score": null,
       "top_news_title": null,
       "top_news_url": null,
-      "status": "open",
+      "status": "expired",
       "issued_at": "2026-05-08T18:25:44.681839",
-      "last_seen": "2026-05-11T14:30:04.864760"
+      "last_seen": "2026-05-11T14:30:04.864760",
+      "current_price": 94.85,
+      "current_price_time": "2026-05-11T15:23:38.595016+00:00",
+      "exit_price": 94.85,
+      "exit_date": "2026-05-11T15:23:38.595016+00:00",
+      "pnl_pct": -0.29,
+      "pnl_pct_live": -0.29
     },
     {
       "ticker": "COIN",
@@ -178,9 +196,15 @@
       "news_score": null,
       "top_news_title": null,
       "top_news_url": null,
-      "status": "open",
+      "status": "expired",
       "issued_at": "2026-05-08T08:06:32.716029",
-      "last_seen": "2026-05-11T14:30:04.864760"
+      "last_seen": "2026-05-11T14:30:04.864760",
+      "current_price": 209.18,
+      "current_price_time": "2026-05-11T15:23:38.595016+00:00",
+      "exit_price": 209.18,
+      "exit_date": "2026-05-11T15:23:38.595016+00:00",
+      "pnl_pct": -8.41,
+      "pnl_pct_live": -8.41
     },
     {
       "ticker": "VRSK",
@@ -212,9 +236,15 @@
       "news_score": 0.1,
       "top_news_title": "A Look At Verisk Analytics (VRSK) Valuation After Earnings Beat Buybacks And Dividend Increase",
       "top_news_url": "https://finance.yahoo.com/markets/stocks/articles/look-verisk-analytics-vrsk-valuation-073229227.html",
-      "status": "open",
+      "status": "expired",
       "issued_at": "2026-05-08T18:25:44.681873",
-      "last_seen": "2026-05-11T14:30:04.864760"
+      "last_seen": "2026-05-11T14:30:04.864760",
+      "current_price": 169.58,
+      "current_price_time": "2026-05-11T15:23:38.595016+00:00",
+      "exit_price": 169.58,
+      "exit_date": "2026-05-11T15:23:38.595016+00:00",
+      "pnl_pct": 0.96,
+      "pnl_pct_live": 0.96
     },
     {
       "ticker": "NFLX",
@@ -246,9 +276,15 @@
       "news_score": -0.2,
       "top_news_title": "Warner Bros. Discovery Q1 Earnings Miss Estimates, Revenues Fall Y/Y",
       "top_news_url": "https://finance.yahoo.com/markets/stocks/articles/warner-bros-discovery-q1-earnings-134000162.html",
-      "status": "open",
+      "status": "expired",
       "issued_at": "2026-05-08T19:59:30.189671",
-      "last_seen": "2026-05-11T14:30:04.864760"
+      "last_seen": "2026-05-11T14:30:04.864760",
+      "current_price": 86.59,
+      "current_price_time": "2026-05-11T15:23:38.595016+00:00",
+      "exit_price": 86.59,
+      "exit_date": "2026-05-11T15:23:38.595016+00:00",
+      "pnl_pct": 0.78,
+      "pnl_pct_live": 0.78
     },
     {
       "ticker": "TMUS",
@@ -280,9 +316,15 @@
       "news_score": 0,
       "top_news_title": "SoftBank Stock Surges on Chip Optimism",
       "top_news_url": "https://www.wsj.com/livecoverage/stock-market-today-dow-sp-500-nasdaq-05-07-2026/card/softbank-stock-surges-on-chip-optimism-4z7bObmJjg4Gx45XuEkN?siteid=yhoof2&yptr=yahoo",
-      "status": "open",
+      "status": "expired",
       "issued_at": "2026-05-08T19:59:30.189681",
-      "last_seen": "2026-05-11T14:30:04.864760"
+      "last_seen": "2026-05-11T14:30:04.864760",
+      "current_price": 192.29,
+      "current_price_time": "2026-05-11T15:23:38.595016+00:00",
+      "exit_price": 192.29,
+      "exit_date": "2026-05-11T15:23:38.595016+00:00",
+      "pnl_pct": 0.42,
+      "pnl_pct_live": 0.42
     },
     {
       "ticker": "DOCU",
@@ -317,10 +359,10 @@
       "status": "open",
       "issued_at": "2026-05-11T08:40:32.481587",
       "last_seen": "2026-05-11T08:40:32.482399",
-      "current_price": 46.85,
-      "current_price_time": "2026-05-11T14:00:36.889831+00:00",
-      "pnl_pct_live": 2.19,
-      "progression_pct": 20.2
+      "current_price": 46.39,
+      "current_price_time": "2026-05-11T15:23:38.595016+00:00",
+      "pnl_pct_live": 3.15,
+      "progression_pct": 29.1
     },
     {
       "ticker": "PYPL",
@@ -355,10 +397,10 @@
       "status": "open",
       "issued_at": "2026-05-11T08:40:32.481584",
       "last_seen": "2026-05-11T08:40:32.482399",
-      "current_price": 45.27,
-      "current_price_time": "2026-05-11T14:00:36.889831+00:00",
-      "pnl_pct_live": 0.22,
-      "progression_pct": 2.9
+      "current_price": 45.33,
+      "current_price_time": "2026-05-11T15:23:38.595016+00:00",
+      "pnl_pct_live": 0.09,
+      "progression_pct": 1.2
     },
     {
       "ticker": "LRCX",
