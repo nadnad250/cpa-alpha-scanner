@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-05-11T18:33:22.838283",
+  "generated_at": "2026-05-11T18:55:31.821611+00:00",
   "date": "2026-05-11",
   "stats": {
     "total": 10,
@@ -44,9 +44,15 @@
       "news_score": null,
       "top_news_title": null,
       "top_news_url": null,
-      "status": "open",
+      "status": "expired",
       "issued_at": "2026-05-08T15:37:17.482268",
-      "last_seen": "2026-05-11T18:33:22.838283"
+      "last_seen": "2026-05-11T18:33:22.838283",
+      "current_price": 106.14,
+      "current_price_time": "2026-05-11T18:55:31.821611+00:00",
+      "exit_price": 106.14,
+      "exit_date": "2026-05-11T18:55:31.821611+00:00",
+      "pnl_pct": 3.65,
+      "pnl_pct_live": 3.65
     },
     {
       "ticker": "ON",
@@ -74,9 +80,15 @@
       "news_score": null,
       "top_news_title": null,
       "top_news_url": null,
-      "status": "open",
+      "status": "expired",
       "issued_at": "2026-05-08T19:59:30.189675",
-      "last_seen": "2026-05-11T18:33:22.838283"
+      "last_seen": "2026-05-11T18:33:22.838283",
+      "current_price": 106.14,
+      "current_price_time": "2026-05-11T18:55:31.821611+00:00",
+      "exit_price": 106.14,
+      "exit_date": "2026-05-11T18:55:31.821611+00:00",
+      "pnl_pct": 2.91,
+      "pnl_pct_live": 2.91
     },
     {
       "ticker": "MRVL",
@@ -106,9 +118,15 @@
       "news_score": 0.5,
       "top_news_title": "Nvidia Stock Heads for Record as AI Push Expands",
       "top_news_url": "https://www.barrons.com/articles/nvidia-stock-price-iren-ai-deal-bdfabcae?siteid=yhoof2&yptr=yahoo",
-      "status": "open",
+      "status": "expired",
       "issued_at": "2026-05-08T18:25:44.681869",
-      "last_seen": "2026-05-11T18:33:22.838283"
+      "last_seen": "2026-05-11T18:33:22.838283",
+      "current_price": 170.4,
+      "current_price_time": "2026-05-11T18:55:31.821611+00:00",
+      "exit_price": 170.4,
+      "exit_date": "2026-05-11T18:55:31.821611+00:00",
+      "pnl_pct": 0.23,
+      "pnl_pct_live": 0.23
     },
     {
       "ticker": "SNOW",
@@ -147,10 +165,10 @@
       "status": "open",
       "issued_at": "2026-05-11T08:40:32.481555",
       "last_seen": "2026-05-11T08:40:32.482399",
-      "current_price": 148.7,
-      "current_price_time": "2026-05-11T18:10:45.604179+00:00",
-      "pnl_pct_live": 2.46,
-      "progression_pct": 16.4
+      "current_price": 148.82,
+      "current_price_time": "2026-05-11T18:55:31.821611+00:00",
+      "pnl_pct_live": 2.38,
+      "progression_pct": 15.9
     },
     {
       "ticker": "BNTX",
@@ -178,9 +196,15 @@
       "news_score": null,
       "top_news_title": null,
       "top_news_url": null,
-      "status": "open",
+      "status": "expired",
       "issued_at": "2026-05-08T18:25:44.681839",
-      "last_seen": "2026-05-11T18:33:22.838283"
+      "last_seen": "2026-05-11T18:33:22.838283",
+      "current_price": 92.86,
+      "current_price_time": "2026-05-11T18:55:31.821611+00:00",
+      "exit_price": 92.86,
+      "exit_date": "2026-05-11T18:55:31.821611+00:00",
+      "pnl_pct": 1.82,
+      "pnl_pct_live": 1.82
     },
     {
       "ticker": "DOCU",
@@ -214,7 +238,11 @@
       "top_news_url": "https://www.barchart.com/story/news/1827315/this-turnaround-stock-is-up-54-from-the-2026-lows-i-see-more-growth-ahead",
       "status": "open",
       "issued_at": "2026-05-11T08:40:32.481587",
-      "last_seen": "2026-05-11T18:33:22.838283"
+      "last_seen": "2026-05-11T18:33:22.838283",
+      "current_price": 45.49,
+      "current_price_time": "2026-05-11T18:55:31.821611+00:00",
+      "pnl_pct_live": 0.61,
+      "progression_pct": 4.7
     },
     {
       "ticker": "COIN",
@@ -242,9 +270,15 @@
       "news_score": null,
       "top_news_title": null,
       "top_news_url": null,
-      "status": "open",
+      "status": "expired",
       "issued_at": "2026-05-08T08:06:32.716029",
-      "last_seen": "2026-05-11T18:33:22.838283"
+      "last_seen": "2026-05-11T18:33:22.838283",
+      "current_price": 216.97,
+      "current_price_time": "2026-05-11T18:55:31.821611+00:00",
+      "exit_price": 216.97,
+      "exit_date": "2026-05-11T18:55:31.821611+00:00",
+      "pnl_pct": -12.44,
+      "pnl_pct_live": -12.44
     },
     {
       "ticker": "NFLX",
@@ -276,9 +310,15 @@
       "news_score": -0.2,
       "top_news_title": "Warner Bros. Discovery Q1 Earnings Miss Estimates, Revenues Fall Y/Y",
       "top_news_url": "https://finance.yahoo.com/markets/stocks/articles/warner-bros-discovery-q1-earnings-134000162.html",
-      "status": "open",
+      "status": "expired",
       "issued_at": "2026-05-08T19:59:30.189671",
-      "last_seen": "2026-05-11T18:33:22.838283"
+      "last_seen": "2026-05-11T18:33:22.838283",
+      "current_price": 85.37,
+      "current_price_time": "2026-05-11T18:55:31.821611+00:00",
+      "exit_price": 85.37,
+      "exit_date": "2026-05-11T18:55:31.821611+00:00",
+      "pnl_pct": -0.04,
+      "pnl_pct_live": -0.04
     },
     {
       "ticker": "PYPL",
@@ -312,7 +352,11 @@
       "top_news_url": "https://www.wsj.com/economy/jobs/layoffs-2026-tracker-784ea69f?siteid=yhoof2&yptr=yahoo",
       "status": "open",
       "issued_at": "2026-05-11T08:40:32.481584",
-      "last_seen": "2026-05-11T18:33:22.838283"
+      "last_seen": "2026-05-11T18:33:22.838283",
+      "current_price": 45.1,
+      "current_price_time": "2026-05-11T18:55:31.821611+00:00",
+      "pnl_pct_live": 0.31,
+      "progression_pct": 4.3
     },
     {
       "ticker": "SHOP",
@@ -340,9 +384,15 @@
       "news_score": null,
       "top_news_title": null,
       "top_news_url": null,
-      "status": "open",
+      "status": "expired",
       "issued_at": "2026-05-08T19:59:30.189678",
-      "last_seen": "2026-05-11T18:33:22.838283"
+      "last_seen": "2026-05-11T18:33:22.838283",
+      "current_price": 102.87,
+      "current_price_time": "2026-05-11T18:55:31.821611+00:00",
+      "exit_price": 102.87,
+      "exit_date": "2026-05-11T18:55:31.821611+00:00",
+      "pnl_pct": 6.66,
+      "pnl_pct_live": 6.66
     },
     {
       "ticker": "LRCX",
