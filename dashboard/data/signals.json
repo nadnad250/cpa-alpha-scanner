@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-05-11T13:00:26.238089+00:00",
+  "generated_at": "2026-05-11T14:00:36.889831+00:00",
   "date": "2026-05-11",
   "stats": {
     "total": 10,
@@ -129,10 +129,10 @@
       "status": "open",
       "issued_at": "2026-05-11T08:40:32.481555",
       "last_seen": "2026-05-11T08:40:32.482399",
-      "current_price": 152.4,
-      "current_price_time": "2026-05-11T13:00:26.238089+00:00",
-      "pnl_pct_live": 0.03,
-      "progression_pct": 0.2
+      "current_price": 153.51,
+      "current_price_time": "2026-05-11T14:00:36.889831+00:00",
+      "pnl_pct_live": -0.7,
+      "progression_pct": -13.9
     },
     {
       "ticker": "BNTX",
@@ -279,10 +279,10 @@
       "status": "open",
       "issued_at": "2026-05-11T08:40:32.481587",
       "last_seen": "2026-05-11T08:40:32.482399",
-      "current_price": 47.89,
-      "current_price_time": "2026-05-11T13:00:26.238089+00:00",
-      "pnl_pct_live": 0.02,
-      "progression_pct": 0.2
+      "current_price": 46.85,
+      "current_price_time": "2026-05-11T14:00:36.889831+00:00",
+      "pnl_pct_live": 2.19,
+      "progression_pct": 20.2
     },
     {
       "ticker": "PYPL",
@@ -317,10 +317,10 @@
       "status": "open",
       "issued_at": "2026-05-11T08:40:32.481584",
       "last_seen": "2026-05-11T08:40:32.482399",
-      "current_price": 45.37,
-      "current_price_time": "2026-05-11T13:00:26.238089+00:00",
-      "pnl_pct_live": 0.0,
-      "progression_pct": 0.0
+      "current_price": 45.27,
+      "current_price_time": "2026-05-11T14:00:36.889831+00:00",
+      "pnl_pct_live": 0.22,
+      "progression_pct": 2.9
     },
     {
       "ticker": "MSFT",
