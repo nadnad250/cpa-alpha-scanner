@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-05-12T08:22:23.988467",
+  "generated_at": "2026-05-12T09:10:33.435772+00:00",
   "date": "2026-05-12",
   "stats": {
     "total": 10,
@@ -50,7 +50,7 @@
       "issued_at": "2026-05-11T20:09:28.613901",
       "last_seen": "2026-05-11T20:09:28.615230",
       "current_price": 170.84,
-      "current_price_time": "2026-05-12T07:58:20.318301+00:00",
+      "current_price_time": "2026-05-12T09:10:33.435772+00:00",
       "pnl_pct_live": 0.0,
       "progression_pct": 0.0
     },
@@ -82,7 +82,11 @@
       "top_news_url": null,
       "status": "open",
       "issued_at": "2026-05-11T14:30:04.863473",
-      "last_seen": "2026-05-12T08:22:23.988467"
+      "last_seen": "2026-05-12T08:22:23.988467",
+      "current_price": 107.22,
+      "current_price_time": "2026-05-12T09:10:33.435772+00:00",
+      "pnl_pct_live": 3.27,
+      "progression_pct": 21.8
     },
     {
       "ticker": "ON",
@@ -110,9 +114,15 @@
       "news_score": null,
       "top_news_title": null,
       "top_news_url": null,
-      "status": "open",
+      "status": "expired",
       "issued_at": "2026-05-11T08:40:32.481590",
-      "last_seen": "2026-05-12T08:22:23.988467"
+      "last_seen": "2026-05-12T08:22:23.988467",
+      "current_price": 107.22,
+      "current_price_time": "2026-05-12T09:10:33.435772+00:00",
+      "exit_price": 107.22,
+      "exit_date": "2026-05-12T09:10:33.435772+00:00",
+      "pnl_pct": 3.9,
+      "pnl_pct_live": 3.9
     },
     {
       "ticker": "ADI",
@@ -144,7 +154,11 @@
       "top_news_url": "https://finance.yahoo.com/markets/stocks/articles/nice-q1-earnings-beat-estimates-181100352.html",
       "status": "open",
       "issued_at": "2026-05-12T08:22:23.987795",
-      "last_seen": "2026-05-12T08:22:23.988467"
+      "last_seen": "2026-05-12T08:22:23.988467",
+      "current_price": 422.68,
+      "current_price_time": "2026-05-12T09:10:33.435772+00:00",
+      "pnl_pct_live": -0.01,
+      "progression_pct": -0.4
     },
     {
       "ticker": "SNOW",
@@ -180,13 +194,16 @@
       "news_score": 0.35,
       "top_news_title": "Snowflake (SNOW) Surges 10.0%: Is This an Indication of Further Gains?",
       "top_news_url": "https://finance.yahoo.com/markets/stocks/articles/snowflake-snow-surges-10-0-093900661.html",
-      "status": "open",
+      "status": "expired",
       "issued_at": "2026-05-11T08:40:32.481555",
       "last_seen": "2026-05-11T08:40:32.482399",
       "current_price": 151.44,
-      "current_price_time": "2026-05-12T07:58:20.318301+00:00",
+      "current_price_time": "2026-05-12T09:10:33.435772+00:00",
       "pnl_pct_live": 0.66,
-      "progression_pct": 4.4
+      "progression_pct": 4.4,
+      "exit_price": 151.44,
+      "exit_date": "2026-05-12T09:10:33.435772+00:00",
+      "pnl_pct": 0.66
     },
     {
       "ticker": "TEAM",
@@ -226,7 +243,7 @@
       "issued_at": "2026-05-11T20:09:28.613872",
       "last_seen": "2026-05-11T20:09:28.615230",
       "current_price": 87.28,
-      "current_price_time": "2026-05-12T07:58:20.318301+00:00",
+      "current_price_time": "2026-05-12T09:10:33.435772+00:00",
       "pnl_pct_live": 0.03,
       "progression_pct": 0.2
     },
@@ -260,13 +277,16 @@
       "news_score": 0.1,
       "top_news_title": "This Turnaround Stock Is Up 54% From the 2026 Lows. I See More Growth Ahead.",
       "top_news_url": "https://www.barchart.com/story/news/1827315/this-turnaround-stock-is-up-54-from-the-2026-lows-i-see-more-growth-ahead",
-      "status": "open",
+      "status": "expired",
       "issued_at": "2026-05-11T08:40:32.481587",
       "last_seen": "2026-05-11T18:33:22.838283",
       "current_price": 45.49,
-      "current_price_time": "2026-05-12T07:58:20.318301+00:00",
+      "current_price_time": "2026-05-12T09:10:33.435772+00:00",
       "pnl_pct_live": 0.61,
-      "progression_pct": 4.7
+      "progression_pct": 4.7,
+      "exit_price": 45.49,
+      "exit_date": "2026-05-12T09:10:33.435772+00:00",
+      "pnl_pct": 0.61
     },
     {
       "ticker": "NFLX",
@@ -294,9 +314,15 @@
       "news_score": null,
       "top_news_title": null,
       "top_news_url": null,
-      "status": "open",
+      "status": "expired",
       "issued_at": "2026-05-11T08:40:32.481581",
-      "last_seen": "2026-05-12T08:22:23.988467"
+      "last_seen": "2026-05-12T08:22:23.988467",
+      "current_price": 85.45,
+      "current_price_time": "2026-05-12T09:10:33.435772+00:00",
+      "exit_price": 85.45,
+      "exit_date": "2026-05-12T09:10:33.435772+00:00",
+      "pnl_pct": 2.32,
+      "pnl_pct_live": 2.32
     },
     {
       "ticker": "TMUS",
@@ -324,9 +350,15 @@
       "news_score": null,
       "top_news_title": null,
       "top_news_url": null,
-      "status": "open",
+      "status": "expired",
       "issued_at": "2026-05-11T08:40:32.481592",
-      "last_seen": "2026-05-12T08:22:23.988467"
+      "last_seen": "2026-05-12T08:22:23.988467",
+      "current_price": 190.83,
+      "current_price_time": "2026-05-12T09:10:33.435772+00:00",
+      "exit_price": 190.83,
+      "exit_date": "2026-05-12T09:10:33.435772+00:00",
+      "pnl_pct": 1.45,
+      "pnl_pct_live": 1.45
     },
     {
       "ticker": "PYPL",
@@ -358,13 +390,16 @@
       "news_score": -0.15,
       "top_news_title": "2026 Layoffs Tracker: Meta, Amazon and Morgan Stanley Among Firms Cutting Jobs",
       "top_news_url": "https://www.wsj.com/economy/jobs/layoffs-2026-tracker-784ea69f?siteid=yhoof2&yptr=yahoo",
-      "status": "open",
+      "status": "expired",
       "issued_at": "2026-05-11T08:40:32.481584",
       "last_seen": "2026-05-11T18:33:22.838283",
       "current_price": 45.06,
-      "current_price_time": "2026-05-12T07:58:20.318301+00:00",
+      "current_price_time": "2026-05-12T09:10:33.435772+00:00",
       "pnl_pct_live": 0.4,
-      "progression_pct": 5.5
+      "progression_pct": 5.5,
+      "exit_price": 45.06,
+      "exit_date": "2026-05-12T09:10:33.435772+00:00",
+      "pnl_pct": 0.4
     },
     {
       "ticker": "LRCX",
