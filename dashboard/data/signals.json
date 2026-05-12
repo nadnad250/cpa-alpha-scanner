@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-05-12T13:24:07.800232+00:00",
+  "generated_at": "2026-05-12T14:17:30.266757+00:00",
   "date": "2026-05-12",
   "stats": {
     "total": 10,
@@ -49,10 +49,10 @@
       "status": "open",
       "issued_at": "2026-05-11T20:09:28.613901",
       "last_seen": "2026-05-11T20:09:28.615230",
-      "current_price": 170.84,
-      "current_price_time": "2026-05-12T13:24:07.800232+00:00",
-      "pnl_pct_live": 0.0,
-      "progression_pct": 0.0
+      "current_price": 166.6,
+      "current_price_time": "2026-05-12T14:17:30.266757+00:00",
+      "pnl_pct_live": -2.48,
+      "progression_pct": -49.6
     },
     {
       "ticker": "ON",
@@ -83,10 +83,10 @@
       "status": "open",
       "issued_at": "2026-05-11T14:30:04.863473",
       "last_seen": "2026-05-12T08:22:23.988467",
-      "current_price": 107.22,
-      "current_price_time": "2026-05-12T13:24:07.800232+00:00",
-      "pnl_pct_live": 3.27,
-      "progression_pct": 21.8
+      "current_price": 102.33,
+      "current_price_time": "2026-05-12T14:17:30.266757+00:00",
+      "pnl_pct_live": -1.44,
+      "progression_pct": -28.7
     },
     {
       "ticker": "ON",
@@ -155,10 +155,10 @@
       "status": "open",
       "issued_at": "2026-05-12T08:22:23.987795",
       "last_seen": "2026-05-12T08:22:23.988467",
-      "current_price": 422.68,
-      "current_price_time": "2026-05-12T13:24:07.800232+00:00",
-      "pnl_pct_live": -0.01,
-      "progression_pct": -0.4
+      "current_price": 414.57,
+      "current_price_time": "2026-05-12T14:17:30.266757+00:00",
+      "pnl_pct_live": -1.93,
+      "progression_pct": -67.2
     },
     {
       "ticker": "SNOW",
@@ -242,10 +242,10 @@
       "status": "open",
       "issued_at": "2026-05-11T20:09:28.613872",
       "last_seen": "2026-05-11T20:09:28.615230",
-      "current_price": 87.28,
-      "current_price_time": "2026-05-12T13:24:07.800232+00:00",
-      "pnl_pct_live": 0.03,
-      "progression_pct": 0.2
+      "current_price": 86.21,
+      "current_price_time": "2026-05-12T14:17:30.266757+00:00",
+      "pnl_pct_live": 1.26,
+      "progression_pct": 8.4
     },
     {
       "ticker": "DOCU",
