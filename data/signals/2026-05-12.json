@@ -188,5 +188,43 @@
     "pnl_pct": null,
     "max_favorable": null,
     "max_adverse": null
+  },
+  {
+    "ticker": "ADI",
+    "action": "STRONG_BUY",
+    "entry_price": 413.11,
+    "stop_loss": 400.5732066999163,
+    "take_profit": 448.2130212402344,
+    "score": 0.41664831272995706,
+    "confidence": 0.9125658825109078,
+    "universe": "NASDAQ100",
+    "issued_at": "2026-05-12T17:19:45.636555",
+    "horizon_days": 1,
+    "horizon_hours": 24,
+    "status": "open",
+    "exit_price": null,
+    "exit_date": null,
+    "pnl_pct": null,
+    "max_favorable": null,
+    "max_adverse": null
+  },
+  {
+    "ticker": "ON",
+    "action": "STRONG_BUY",
+    "entry_price": 101.38,
+    "stop_loss": 96.31099999999999,
+    "take_profit": 116.58699999999999,
+    "score": 0.4279531620114204,
+    "confidence": 0.8243986040003438,
+    "universe": "NASDAQ100",
+    "issued_at": "2026-05-12T17:19:45.636581",
+    "horizon_days": 1,
+    "horizon_hours": 24,
+    "status": "open",
+    "exit_price": null,
+    "exit_date": null,
+    "pnl_pct": null,
+    "max_favorable": null,
+    "max_adverse": null
   }
 ]
