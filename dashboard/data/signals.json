@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-05-12T14:28:37.276307",
+  "generated_at": "2026-05-12T15:28:48.377395+00:00",
   "date": "2026-05-12",
   "stats": {
     "total": 10,
@@ -46,13 +46,16 @@
       "news_score": 0.6,
       "top_news_title": "Nvidia Stock Heads for Record as AI Push Expands",
       "top_news_url": "https://www.barrons.com/articles/nvidia-stock-price-iren-ai-deal-bdfabcae?siteid=yhoof2&yptr=yahoo",
-      "status": "open",
+      "status": "sl_hit",
       "issued_at": "2026-05-11T20:09:28.613901",
       "last_seen": "2026-05-11T20:09:28.615230",
-      "current_price": 166.6,
-      "current_price_time": "2026-05-12T14:17:30.266757+00:00",
-      "pnl_pct_live": -2.48,
-      "progression_pct": -49.6
+      "current_price": 160.6,
+      "current_price_time": "2026-05-12T15:28:48.377395+00:00",
+      "pnl_pct_live": -5.0,
+      "progression_pct": -49.6,
+      "exit_price": 162.3,
+      "exit_date": "2026-05-12T15:28:48.377395+00:00",
+      "pnl_pct": -5.0
     },
     {
       "ticker": "ON",
@@ -80,13 +83,16 @@
       "news_score": null,
       "top_news_title": null,
       "top_news_url": null,
-      "status": "open",
+      "status": "expired",
       "issued_at": "2026-05-11T14:30:04.863473",
       "last_seen": "2026-05-12T08:22:23.988467",
-      "current_price": 102.33,
-      "current_price_time": "2026-05-12T14:17:30.266757+00:00",
-      "pnl_pct_live": -1.44,
-      "progression_pct": -28.7
+      "current_price": 98.96,
+      "current_price_time": "2026-05-12T15:28:48.377395+00:00",
+      "pnl_pct_live": -4.68,
+      "progression_pct": -28.7,
+      "exit_price": 98.96,
+      "exit_date": "2026-05-12T15:28:48.377395+00:00",
+      "pnl_pct": -4.68
     },
     {
       "ticker": "ON",
@@ -114,9 +120,15 @@
       "news_score": null,
       "top_news_title": null,
       "top_news_url": null,
-      "status": "open",
+      "status": "expired",
       "issued_at": "2026-05-11T08:40:32.481590",
-      "last_seen": "2026-05-12T14:28:37.276307"
+      "last_seen": "2026-05-12T14:28:37.276307",
+      "current_price": 98.96,
+      "current_price_time": "2026-05-12T15:28:48.377395+00:00",
+      "exit_price": 98.96,
+      "exit_date": "2026-05-12T15:28:48.377395+00:00",
+      "pnl_pct": -4.11,
+      "pnl_pct_live": -4.11
     },
     {
       "ticker": "ADI",
@@ -146,13 +158,16 @@
       "news_score": 0.3,
       "top_news_title": "NICE Q1 Earnings Beat Estimates on Strong Cloud Revenues, Shares Up",
       "top_news_url": "https://finance.yahoo.com/markets/stocks/articles/nice-q1-earnings-beat-estimates-181100352.html",
-      "status": "open",
+      "status": "sl_hit",
       "issued_at": "2026-05-12T08:22:23.987795",
       "last_seen": "2026-05-12T08:22:23.988467",
-      "current_price": 414.57,
-      "current_price_time": "2026-05-12T14:17:30.266757+00:00",
-      "pnl_pct_live": -1.93,
-      "progression_pct": -67.2
+      "current_price": 408.17,
+      "current_price_time": "2026-05-12T15:28:48.377395+00:00",
+      "pnl_pct_live": -2.87,
+      "progression_pct": -67.2,
+      "exit_price": 410.58,
+      "exit_date": "2026-05-12T15:28:48.377395+00:00",
+      "pnl_pct": -2.87
     },
     {
       "ticker": "SNOW",
@@ -180,9 +195,15 @@
       "news_score": null,
       "top_news_title": null,
       "top_news_url": null,
-      "status": "open",
+      "status": "expired",
       "issued_at": "2026-05-11T08:40:32.481555",
-      "last_seen": "2026-05-12T14:28:37.276307"
+      "last_seen": "2026-05-12T14:28:37.276307",
+      "current_price": 150.68,
+      "current_price_time": "2026-05-12T15:28:48.377395+00:00",
+      "exit_price": 150.68,
+      "exit_date": "2026-05-12T15:28:48.377395+00:00",
+      "pnl_pct": 1.16,
+      "pnl_pct_live": 1.16
     },
     {
       "ticker": "TEAM",
@@ -221,10 +242,10 @@
       "status": "open",
       "issued_at": "2026-05-11T20:09:28.613872",
       "last_seen": "2026-05-11T20:09:28.615230",
-      "current_price": 86.21,
-      "current_price_time": "2026-05-12T14:17:30.266757+00:00",
-      "pnl_pct_live": 1.26,
-      "progression_pct": 8.4
+      "current_price": 86.01,
+      "current_price_time": "2026-05-12T15:28:48.377395+00:00",
+      "pnl_pct_live": 1.49,
+      "progression_pct": 9.9
     },
     {
       "ticker": "PYPL",
@@ -256,9 +277,15 @@
       "news_score": -0.35,
       "top_news_title": "Cloudflare Stock Plunges Amid 20% Job Cuts. Executives Are Blaming AI.",
       "top_news_url": "https://www.barchart.com/story/news/1856838/cloudflare-stock-plunges-amid-20-job-cuts-executives-are-blaming-ai",
-      "status": "open",
+      "status": "expired",
       "issued_at": "2026-05-11T08:40:32.481584",
-      "last_seen": "2026-05-12T14:28:37.276307"
+      "last_seen": "2026-05-12T14:28:37.276307",
+      "current_price": 45.22,
+      "current_price_time": "2026-05-12T15:28:48.377395+00:00",
+      "exit_price": 45.22,
+      "exit_date": "2026-05-12T15:28:48.377395+00:00",
+      "pnl_pct": -0.78,
+      "pnl_pct_live": -0.78
     },
     {
       "ticker": "DOCU",
@@ -290,9 +317,15 @@
       "news_score": 0.1,
       "top_news_title": "This Turnaround Stock Is Up 54% From the 2026 Lows. I See More Growth Ahead.",
       "top_news_url": "https://www.barchart.com/story/news/1827315/this-turnaround-stock-is-up-54-from-the-2026-lows-i-see-more-growth-ahead",
-      "status": "open",
+      "status": "expired",
       "issued_at": "2026-05-11T08:40:32.481587",
-      "last_seen": "2026-05-12T14:28:37.276307"
+      "last_seen": "2026-05-12T14:28:37.276307",
+      "current_price": 45.76,
+      "current_price_time": "2026-05-12T15:28:48.377395+00:00",
+      "exit_price": 45.76,
+      "exit_date": "2026-05-12T15:28:48.377395+00:00",
+      "pnl_pct": 0.44,
+      "pnl_pct_live": 0.44
     },
     {
       "ticker": "NFLX",
@@ -320,9 +353,15 @@
       "news_score": null,
       "top_news_title": null,
       "top_news_url": null,
-      "status": "open",
+      "status": "expired",
       "issued_at": "2026-05-11T08:40:32.481581",
-      "last_seen": "2026-05-12T14:28:37.276307"
+      "last_seen": "2026-05-12T14:28:37.276307",
+      "current_price": 88.73,
+      "current_price_time": "2026-05-12T15:28:48.377395+00:00",
+      "exit_price": 88.73,
+      "exit_date": "2026-05-12T15:28:48.377395+00:00",
+      "pnl_pct": -1.43,
+      "pnl_pct_live": -1.43
     },
     {
       "ticker": "TMUS",
@@ -350,9 +389,15 @@
       "news_score": null,
       "top_news_title": null,
       "top_news_url": null,
-      "status": "open",
+      "status": "expired",
       "issued_at": "2026-05-11T08:40:32.481592",
-      "last_seen": "2026-05-12T14:28:37.276307"
+      "last_seen": "2026-05-12T14:28:37.276307",
+      "current_price": 193.92,
+      "current_price_time": "2026-05-12T15:28:48.377395+00:00",
+      "exit_price": 193.92,
+      "exit_date": "2026-05-12T15:28:48.377395+00:00",
+      "pnl_pct": -0.15,
+      "pnl_pct_live": -0.15
     },
     {
       "ticker": "LRCX",
