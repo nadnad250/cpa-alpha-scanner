@@ -15,8 +15,8 @@
     "exit_price": null,
     "exit_date": null,
     "pnl_pct": null,
-    "max_favorable": null,
-    "max_adverse": null
+    "max_favorable": -0.007285988937420204,
+    "max_adverse": -0.007285988937420204
   },
   {
     "ticker": "PYPL",
@@ -34,8 +34,8 @@
     "exit_price": null,
     "exit_date": null,
     "pnl_pct": null,
-    "max_favorable": null,
-    "max_adverse": null
+    "max_favorable": -0.012703334671472855,
+    "max_adverse": -0.012703334671472855
   },
   {
     "ticker": "DOCU",
@@ -53,8 +53,8 @@
     "exit_price": null,
     "exit_date": null,
     "pnl_pct": null,
-    "max_favorable": null,
-    "max_adverse": null
+    "max_favorable": 0.01697127273333811,
+    "max_adverse": 0.01697127273333811
   },
   {
     "ticker": "MU",
@@ -72,8 +72,8 @@
     "exit_price": null,
     "exit_date": null,
     "pnl_pct": null,
-    "max_favorable": null,
-    "max_adverse": null
+    "max_favorable": 0.014216088286257865,
+    "max_adverse": 0.014216088286257865
   },
   {
     "ticker": "PINS",
@@ -91,8 +91,8 @@
     "exit_price": null,
     "exit_date": null,
     "pnl_pct": null,
-    "max_favorable": null,
-    "max_adverse": null
+    "max_favorable": 0.0060430521661888285,
+    "max_adverse": 0.0060430521661888285
   },
   {
     "ticker": "VRSK",
@@ -110,8 +110,8 @@
     "exit_price": null,
     "exit_date": null,
     "pnl_pct": null,
-    "max_favorable": null,
-    "max_adverse": null
+    "max_favorable": 0.012879059147612672,
+    "max_adverse": 0.012879059147612672
   },
   {
     "ticker": "NFLX",
@@ -129,8 +129,8 @@
     "exit_price": null,
     "exit_date": null,
     "pnl_pct": null,
-    "max_favorable": null,
-    "max_adverse": null
+    "max_favorable": 0.014003670635966775,
+    "max_adverse": 0.014003670635966775
   },
   {
     "ticker": "TMUS",
@@ -148,8 +148,8 @@
     "exit_price": null,
     "exit_date": null,
     "pnl_pct": null,
-    "max_favorable": null,
-    "max_adverse": null
+    "max_favorable": 0.003222879712477498,
+    "max_adverse": 0.003222879712477498
   },
   {
     "ticker": "MSFT",
@@ -167,8 +167,8 @@
     "exit_price": null,
     "exit_date": null,
     "pnl_pct": null,
-    "max_favorable": null,
-    "max_adverse": null
+    "max_favorable": 0.0009310571758620661,
+    "max_adverse": 0.0009310571758620661
   },
   {
     "ticker": "ADP",
@@ -186,8 +186,8 @@
     "exit_price": null,
     "exit_date": null,
     "pnl_pct": null,
-    "max_favorable": null,
-    "max_adverse": null
+    "max_favorable": 0.0020769757597547105,
+    "max_adverse": 0.0020769757597547105
   },
   {
     "ticker": "ADI",
@@ -205,8 +205,8 @@
     "exit_price": null,
     "exit_date": null,
     "pnl_pct": null,
-    "max_favorable": null,
-    "max_adverse": null
+    "max_favorable": 0.01583111979009068,
+    "max_adverse": 0.01583111979009068
   },
   {
     "ticker": "ON",
@@ -224,8 +224,8 @@
     "exit_price": null,
     "exit_date": null,
     "pnl_pct": null,
-    "max_favorable": null,
-    "max_adverse": null
+    "max_favorable": 0.02692839426269054,
+    "max_adverse": 0.02692839426269054
   },
   {
     "ticker": "ARM",
@@ -243,8 +243,8 @@
     "exit_price": null,
     "exit_date": null,
     "pnl_pct": null,
-    "max_favorable": null,
-    "max_adverse": null
+    "max_favorable": 0.010645011271789835,
+    "max_adverse": 0.010645011271789835
   },
   {
     "ticker": "PINS",
@@ -262,8 +262,8 @@
     "exit_price": null,
     "exit_date": null,
     "pnl_pct": null,
-    "max_favorable": null,
-    "max_adverse": null
+    "max_favorable": 0.011538487214308552,
+    "max_adverse": 0.011538487214308552
   },
   {
     "ticker": "MRVL",
@@ -281,8 +281,8 @@
     "exit_price": null,
     "exit_date": null,
     "pnl_pct": null,
-    "max_favorable": null,
-    "max_adverse": null
+    "max_favorable": 0.0,
+    "max_adverse": 0.0
   },
   {
     "ticker": "MDB",
@@ -300,8 +300,8 @@
     "exit_price": null,
     "exit_date": null,
     "pnl_pct": null,
-    "max_favorable": null,
-    "max_adverse": null
+    "max_favorable": -3.954078445566076e-09,
+    "max_adverse": -3.954078445566076e-09
   },
   {
     "ticker": "ON",
@@ -319,7 +319,7 @@
     "exit_price": null,
     "exit_date": null,
     "pnl_pct": null,
-    "max_favorable": null,
-    "max_adverse": null
+    "max_favorable": 5.862564240403748e-09,
+    "max_adverse": 5.862564240403748e-09
   }
 ]
