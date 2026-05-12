@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-05-12T20:11:50.024798",
+  "generated_at": "2026-05-12T20:19:13.440787+00:00",
   "date": "2026-05-12",
   "stats": {
     "total": 10,
@@ -46,9 +46,15 @@
       "news_score": 0.6,
       "top_news_title": "Nvidia Stock Heads for Record as AI Push Expands",
       "top_news_url": "https://www.barrons.com/articles/nvidia-stock-price-iren-ai-deal-bdfabcae?siteid=yhoof2&yptr=yahoo",
-      "status": "open",
+      "status": "expired",
       "issued_at": "2026-05-11T20:09:28.613901",
-      "last_seen": "2026-05-12T20:11:50.024798"
+      "last_seen": "2026-05-12T20:11:50.024798",
+      "current_price": 164.52,
+      "current_price_time": "2026-05-12T20:19:13.440787+00:00",
+      "exit_price": 164.52,
+      "exit_date": "2026-05-12T20:19:13.440787+00:00",
+      "pnl_pct": 0.01,
+      "pnl_pct_live": 0.01
     },
     {
       "ticker": "ARM",
@@ -82,10 +88,10 @@
       "status": "open",
       "issued_at": "2026-05-12T18:33:16.614717",
       "last_seen": "2026-05-12T18:33:16.615694",
-      "current_price": 206.12,
-      "current_price_time": "2026-05-12T19:38:52.045750+00:00",
-      "pnl_pct_live": 0.19,
-      "progression_pct": 1.3
+      "current_price": 207.86,
+      "current_price_time": "2026-05-12T20:19:13.440787+00:00",
+      "pnl_pct_live": 1.04,
+      "progression_pct": 6.9
     },
     {
       "ticker": "ADI",
@@ -119,10 +125,10 @@
       "status": "open",
       "issued_at": "2026-05-12T17:19:45.636555",
       "last_seen": "2026-05-12T17:19:45.637966",
-      "current_price": 419.03,
-      "current_price_time": "2026-05-12T19:38:52.045750+00:00",
-      "pnl_pct_live": 1.43,
-      "progression_pct": 16.9
+      "current_price": 419.65,
+      "current_price_time": "2026-05-12T20:19:13.440787+00:00",
+      "pnl_pct_live": 1.58,
+      "progression_pct": 18.6
     },
     {
       "ticker": "ON",
@@ -150,9 +156,15 @@
       "news_score": null,
       "top_news_title": null,
       "top_news_url": null,
-      "status": "open",
+      "status": "expired",
       "issued_at": "2026-05-11T14:30:04.863473",
-      "last_seen": "2026-05-12T20:11:50.024798"
+      "last_seen": "2026-05-12T20:11:50.024798",
+      "current_price": 104.13,
+      "current_price_time": "2026-05-12T20:19:13.440787+00:00",
+      "exit_price": 104.13,
+      "exit_date": "2026-05-12T20:19:13.440787+00:00",
+      "pnl_pct": 0.3,
+      "pnl_pct_live": 0.3
     },
     {
       "ticker": "ADI",
@@ -183,10 +195,10 @@
       "status": "open",
       "issued_at": "2026-05-12T08:22:23.987795",
       "last_seen": "2026-05-12T17:19:45.637966",
-      "current_price": 419.03,
-      "current_price_time": "2026-05-12T19:38:52.045750+00:00",
-      "pnl_pct_live": -0.88,
-      "progression_pct": -30.5
+      "current_price": 419.65,
+      "current_price_time": "2026-05-12T20:19:13.440787+00:00",
+      "pnl_pct_live": -0.73,
+      "progression_pct": -25.3
     },
     {
       "ticker": "SNOW",
@@ -214,9 +226,15 @@
       "news_score": null,
       "top_news_title": null,
       "top_news_url": null,
-      "status": "open",
+      "status": "expired",
       "issued_at": "2026-05-11T08:40:32.481555",
-      "last_seen": "2026-05-12T20:11:50.024798"
+      "last_seen": "2026-05-12T20:11:50.024798",
+      "current_price": 152.03,
+      "current_price_time": "2026-05-12T20:19:13.440787+00:00",
+      "exit_price": 152.03,
+      "exit_date": "2026-05-12T20:19:13.440787+00:00",
+      "pnl_pct": 0.28,
+      "pnl_pct_live": 0.28
     },
     {
       "ticker": "NFLX",
@@ -244,9 +262,15 @@
       "news_score": null,
       "top_news_title": null,
       "top_news_url": null,
-      "status": "open",
+      "status": "expired",
       "issued_at": "2026-05-11T08:40:32.481581",
-      "last_seen": "2026-05-12T20:11:50.024798"
+      "last_seen": "2026-05-12T20:11:50.024798",
+      "current_price": 87.68,
+      "current_price_time": "2026-05-12T20:19:13.440787+00:00",
+      "exit_price": 87.68,
+      "exit_date": "2026-05-12T20:19:13.440787+00:00",
+      "pnl_pct": -0.23,
+      "pnl_pct_live": -0.23
     },
     {
       "ticker": "DOCU",
@@ -274,9 +298,15 @@
       "news_score": null,
       "top_news_title": null,
       "top_news_url": null,
-      "status": "open",
+      "status": "expired",
       "issued_at": "2026-05-11T08:40:32.481587",
-      "last_seen": "2026-05-12T20:11:50.024798"
+      "last_seen": "2026-05-12T20:11:50.024798",
+      "current_price": 45.19,
+      "current_price_time": "2026-05-12T20:19:13.440787+00:00",
+      "exit_price": 45.19,
+      "exit_date": "2026-05-12T20:19:13.440787+00:00",
+      "pnl_pct": 5.66,
+      "pnl_pct_live": 5.66
     },
     {
       "ticker": "PYPL",
@@ -304,9 +334,15 @@
       "news_score": null,
       "top_news_title": null,
       "top_news_url": null,
-      "status": "open",
+      "status": "expired",
       "issued_at": "2026-05-11T08:40:32.481584",
-      "last_seen": "2026-05-12T20:11:50.024798"
+      "last_seen": "2026-05-12T20:11:50.024798",
+      "current_price": 45.43,
+      "current_price_time": "2026-05-12T20:19:13.440787+00:00",
+      "exit_price": 45.43,
+      "exit_date": "2026-05-12T20:19:13.440787+00:00",
+      "pnl_pct": -0.13,
+      "pnl_pct_live": -0.13
     },
     {
       "ticker": "MDB",
@@ -342,7 +378,11 @@
       "top_news_url": "https://finance.yahoo.com/markets/stocks/articles/mongodb-rises-citi-opens-positive-110623846.html",
       "status": "open",
       "issued_at": "2026-05-12T20:11:50.023621",
-      "last_seen": "2026-05-12T20:11:50.024798"
+      "last_seen": "2026-05-12T20:11:50.024798",
+      "current_price": 308.66,
+      "current_price_time": "2026-05-12T20:19:13.440787+00:00",
+      "pnl_pct_live": 0.02,
+      "progression_pct": 0.1
     },
     {
       "ticker": "LRCX",
