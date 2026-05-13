@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-05-13T20:12:10.132691",
+  "generated_at": "2026-05-13T20:51:32.384565+00:00",
   "date": "2026-05-13",
   "stats": {
     "total": 10,
@@ -44,9 +44,15 @@
       "news_score": null,
       "top_news_title": null,
       "top_news_url": null,
-      "status": "open",
+      "status": "expired",
       "issued_at": "2026-05-12T17:19:45.636581",
-      "last_seen": "2026-05-13T20:12:10.132691"
+      "last_seen": "2026-05-13T20:12:10.132691",
+      "current_price": 115.71,
+      "current_price_time": "2026-05-13T20:51:32.384565+00:00",
+      "exit_price": 115.71,
+      "exit_date": "2026-05-13T20:51:32.384565+00:00",
+      "pnl_pct": 14.13,
+      "pnl_pct_live": 14.13
     },
     {
       "ticker": "ARM",
@@ -74,9 +80,15 @@
       "news_score": null,
       "top_news_title": null,
       "top_news_url": null,
-      "status": "open",
+      "status": "expired",
       "issued_at": "2026-05-12T18:33:16.614717",
-      "last_seen": "2026-05-13T20:12:10.132691"
+      "last_seen": "2026-05-13T20:12:10.132691",
+      "current_price": 221.15,
+      "current_price_time": "2026-05-13T20:51:32.384565+00:00",
+      "exit_price": 221.15,
+      "exit_date": "2026-05-13T20:51:32.384565+00:00",
+      "pnl_pct": 7.5,
+      "pnl_pct_live": 7.5
     },
     {
       "ticker": "ADI",
@@ -104,9 +116,15 @@
       "news_score": null,
       "top_news_title": null,
       "top_news_url": null,
-      "status": "open",
+      "status": "expired",
       "issued_at": "2026-05-12T17:19:45.636555",
-      "last_seen": "2026-05-13T20:12:10.132691"
+      "last_seen": "2026-05-13T20:12:10.132691",
+      "current_price": 432.38,
+      "current_price_time": "2026-05-13T20:51:32.384565+00:00",
+      "exit_price": 432.38,
+      "exit_date": "2026-05-13T20:51:32.384565+00:00",
+      "pnl_pct": 4.66,
+      "pnl_pct_live": 4.66
     },
     {
       "ticker": "ADI",
@@ -134,9 +152,15 @@
       "news_score": null,
       "top_news_title": null,
       "top_news_url": null,
-      "status": "open",
+      "status": "expired",
       "issued_at": "2026-05-12T08:22:23.987795",
-      "last_seen": "2026-05-13T20:12:10.132691"
+      "last_seen": "2026-05-13T20:12:10.132691",
+      "current_price": 432.38,
+      "current_price_time": "2026-05-13T20:51:32.384565+00:00",
+      "exit_price": 432.38,
+      "exit_date": "2026-05-13T20:51:32.384565+00:00",
+      "pnl_pct": 2.28,
+      "pnl_pct_live": 2.28
     },
     {
       "ticker": "TTD",
@@ -173,7 +197,7 @@
       "issued_at": "2026-05-13T08:26:47.372590",
       "last_seen": "2026-05-13T08:26:47.373290",
       "current_price": 20.48,
-      "current_price_time": "2026-05-13T20:09:25.862173+00:00",
+      "current_price_time": "2026-05-13T20:51:32.384565+00:00",
       "pnl_pct_live": 3.12,
       "progression_pct": 20.8
     },
@@ -215,7 +239,7 @@
       "issued_at": "2026-05-13T15:56:32.260794",
       "last_seen": "2026-05-13T17:20:32.982411",
       "current_price": 80.61,
-      "current_price_time": "2026-05-13T20:09:25.862173+00:00",
+      "current_price_time": "2026-05-13T20:51:32.384565+00:00",
       "pnl_pct_live": 0.62,
       "progression_pct": 4.1
     },
@@ -254,7 +278,7 @@
       "issued_at": "2026-05-13T14:28:49.780072",
       "last_seen": "2026-05-13T14:28:49.780956",
       "current_price": 92.22,
-      "current_price_time": "2026-05-13T20:09:25.862173+00:00",
+      "current_price_time": "2026-05-13T20:51:32.384565+00:00",
       "pnl_pct_live": -0.02,
       "progression_pct": -0.8
     },
@@ -288,9 +312,15 @@
       "news_score": 0.1,
       "top_news_title": "A Look At Verisk Analytics (VRSK) Valuation After Earnings Beat Buybacks And Dividend Increase",
       "top_news_url": "https://finance.yahoo.com/markets/stocks/articles/look-verisk-analytics-vrsk-valuation-073229227.html",
-      "status": "open",
+      "status": "expired",
       "issued_at": "2026-05-12T15:54:15.859374",
-      "last_seen": "2026-05-13T20:12:10.132691"
+      "last_seen": "2026-05-13T20:12:10.132691",
+      "current_price": 161.46,
+      "current_price_time": "2026-05-13T20:51:32.384565+00:00",
+      "exit_price": 161.46,
+      "exit_date": "2026-05-13T20:51:32.384565+00:00",
+      "pnl_pct": 0.01,
+      "pnl_pct_live": 0.01
     },
     {
       "ticker": "PYPL",
@@ -318,9 +348,15 @@
       "news_score": null,
       "top_news_title": null,
       "top_news_url": null,
-      "status": "open",
+      "status": "expired",
       "issued_at": "2026-05-12T14:28:37.275463",
-      "last_seen": "2026-05-13T20:12:10.132691"
+      "last_seen": "2026-05-13T20:12:10.132691",
+      "current_price": 45.23,
+      "current_price_time": "2026-05-13T20:51:32.384565+00:00",
+      "exit_price": 45.23,
+      "exit_date": "2026-05-13T20:51:32.384565+00:00",
+      "pnl_pct": -0.8,
+      "pnl_pct_live": -0.8
     },
     {
       "ticker": "ZS",
@@ -357,7 +393,7 @@
       "issued_at": "2026-05-13T18:34:17.124170",
       "last_seen": "2026-05-13T18:34:17.125087",
       "current_price": 152.43,
-      "current_price_time": "2026-05-13T20:09:25.862173+00:00",
+      "current_price_time": "2026-05-13T20:51:32.384565+00:00",
       "pnl_pct_live": -0.48,
       "progression_pct": -9.7
     },
