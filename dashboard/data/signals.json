@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-05-13T14:28:49.780956",
+  "generated_at": "2026-05-13T15:07:34.031802+00:00",
   "date": "2026-05-13",
   "stats": {
     "total": 10,
@@ -47,10 +47,10 @@
       "status": "open",
       "issued_at": "2026-05-12T20:11:50.023597",
       "last_seen": "2026-05-13T08:26:47.373290",
-      "current_price": 181.16,
-      "current_price_time": "2026-05-13T13:56:57.896931+00:00",
-      "pnl_pct_live": 10.13,
-      "progression_pct": 67.5
+      "current_price": 179.57,
+      "current_price_time": "2026-05-13T15:07:34.031802+00:00",
+      "pnl_pct_live": 9.16,
+      "progression_pct": 61.1
     },
     {
       "ticker": "ON",
@@ -81,10 +81,10 @@
       "status": "open",
       "issued_at": "2026-05-12T17:19:45.636581",
       "last_seen": "2026-05-13T08:26:47.373290",
-      "current_price": 110.92,
-      "current_price_time": "2026-05-13T13:56:57.896931+00:00",
-      "pnl_pct_live": 9.41,
-      "progression_pct": 62.7
+      "current_price": 115.32,
+      "current_price_time": "2026-05-13T15:07:34.031802+00:00",
+      "pnl_pct_live": 13.75,
+      "progression_pct": 91.7
     },
     {
       "ticker": "ARM",
@@ -118,10 +118,10 @@
       "status": "open",
       "issued_at": "2026-05-12T18:33:16.614717",
       "last_seen": "2026-05-12T18:33:16.615694",
-      "current_price": 209.77,
-      "current_price_time": "2026-05-13T13:56:57.896931+00:00",
-      "pnl_pct_live": 1.96,
-      "progression_pct": 13.1
+      "current_price": 215.74,
+      "current_price_time": "2026-05-13T15:07:34.031802+00:00",
+      "pnl_pct_live": 4.87,
+      "progression_pct": 32.4
     },
     {
       "ticker": "ADI",
@@ -155,10 +155,10 @@
       "status": "open",
       "issued_at": "2026-05-12T17:19:45.636555",
       "last_seen": "2026-05-12T17:19:45.637966",
-      "current_price": 430.35,
-      "current_price_time": "2026-05-13T13:56:57.896931+00:00",
-      "pnl_pct_live": 4.17,
-      "progression_pct": 49.1
+      "current_price": 432.96,
+      "current_price_time": "2026-05-13T15:07:34.031802+00:00",
+      "pnl_pct_live": 4.81,
+      "progression_pct": 56.6
     },
     {
       "ticker": "ON",
@@ -189,10 +189,10 @@
       "status": "open",
       "issued_at": "2026-05-12T20:11:50.023626",
       "last_seen": "2026-05-13T08:26:47.373290",
-      "current_price": 110.92,
-      "current_price_time": "2026-05-13T13:56:57.896931+00:00",
-      "pnl_pct_live": 6.54,
-      "progression_pct": 43.6
+      "current_price": 115.32,
+      "current_price_time": "2026-05-13T15:07:34.031802+00:00",
+      "pnl_pct_live": 10.77,
+      "progression_pct": 71.8
     },
     {
       "ticker": "ADI",
@@ -220,9 +220,15 @@
       "news_score": null,
       "top_news_title": null,
       "top_news_url": null,
-      "status": "open",
+      "status": "expired",
       "issued_at": "2026-05-12T08:22:23.987795",
-      "last_seen": "2026-05-13T14:28:49.780956"
+      "last_seen": "2026-05-13T14:28:49.780956",
+      "current_price": 432.96,
+      "current_price_time": "2026-05-13T15:07:34.031802+00:00",
+      "exit_price": 432.96,
+      "exit_date": "2026-05-13T15:07:34.031802+00:00",
+      "pnl_pct": 2.42,
+      "pnl_pct_live": 2.42
     },
     {
       "ticker": "TTD",
@@ -258,10 +264,10 @@
       "status": "open",
       "issued_at": "2026-05-13T08:26:47.372590",
       "last_seen": "2026-05-13T08:26:47.373290",
-      "current_price": 19.91,
-      "current_price_time": "2026-05-13T13:56:57.896931+00:00",
-      "pnl_pct_live": 5.82,
-      "progression_pct": 38.8
+      "current_price": 20.12,
+      "current_price_time": "2026-05-13T15:07:34.031802+00:00",
+      "pnl_pct_live": 4.82,
+      "progression_pct": 32.2
     },
     {
       "ticker": "BNTX",
@@ -296,7 +302,11 @@
       "top_news_url": "https://www.barrons.com/articles/biontech-to-slash-25-of-workforce-as-losses-widen-the-stock-falls-d66e9d65?siteid=yhoof2&yptr=yahoo",
       "status": "open",
       "issued_at": "2026-05-13T14:28:49.780072",
-      "last_seen": "2026-05-13T14:28:49.780956"
+      "last_seen": "2026-05-13T14:28:49.780956",
+      "current_price": 91.35,
+      "current_price_time": "2026-05-13T15:07:34.031802+00:00",
+      "pnl_pct_live": 0.92,
+      "progression_pct": 12.1
     },
     {
       "ticker": "VRSK",
@@ -327,10 +337,10 @@
       "status": "open",
       "issued_at": "2026-05-12T15:54:15.859374",
       "last_seen": "2026-05-13T08:26:47.373290",
-      "current_price": 163.11,
-      "current_price_time": "2026-05-13T13:56:57.896931+00:00",
-      "pnl_pct_live": 3.19,
-      "progression_pct": 36.6
+      "current_price": 161.07,
+      "current_price_time": "2026-05-13T15:07:34.031802+00:00",
+      "pnl_pct_live": 4.4,
+      "progression_pct": 50.5
     },
     {
       "ticker": "MDB",
@@ -367,10 +377,10 @@
       "status": "open",
       "issued_at": "2026-05-12T20:11:50.023621",
       "last_seen": "2026-05-12T20:11:50.024798",
-      "current_price": 304.76,
-      "current_price_time": "2026-05-13T13:56:57.896931+00:00",
-      "pnl_pct_live": 1.28,
-      "progression_pct": 8.9
+      "current_price": 302.78,
+      "current_price_time": "2026-05-13T15:07:34.031802+00:00",
+      "pnl_pct_live": 1.92,
+      "progression_pct": 13.4
     },
     {
       "ticker": "LRCX",
