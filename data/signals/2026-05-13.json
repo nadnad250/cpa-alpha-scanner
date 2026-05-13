@@ -131,5 +131,43 @@
     "pnl_pct": null,
     "max_favorable": null,
     "max_adverse": null
+  },
+  {
+    "ticker": "VRSK",
+    "action": "STRONG_SELL",
+    "entry_price": 161.47,
+    "stop_loss": 167.27607332502092,
+    "take_profit": 145.2129946899414,
+    "score": -0.4776955937643411,
+    "confidence": 0.7879121079035772,
+    "universe": "NASDAQ100",
+    "issued_at": "2026-05-13T20:12:10.131678",
+    "horizon_days": 1,
+    "horizon_hours": 24,
+    "status": "open",
+    "exit_price": null,
+    "exit_date": null,
+    "pnl_pct": null,
+    "max_favorable": null,
+    "max_adverse": null
+  },
+  {
+    "ticker": "DKNG",
+    "action": "SELL",
+    "entry_price": 25.03,
+    "stop_loss": 25.758571755545482,
+    "take_profit": 22.989999084472657,
+    "score": -0.3883653628542567,
+    "confidence": 0.6802024890807878,
+    "universe": "NASDAQ100",
+    "issued_at": "2026-05-13T20:12:10.131706",
+    "horizon_days": 1,
+    "horizon_hours": 24,
+    "status": "open",
+    "exit_price": null,
+    "exit_date": null,
+    "pnl_pct": null,
+    "max_favorable": null,
+    "max_adverse": null
   }
 ]
