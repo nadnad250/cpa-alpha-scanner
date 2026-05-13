@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-05-13T17:20:32.982411",
+  "generated_at": "2026-05-13T17:55:58.244292+00:00",
   "date": "2026-05-13",
   "stats": {
     "total": 10,
@@ -47,10 +47,10 @@
       "status": "open",
       "issued_at": "2026-05-12T20:11:50.023597",
       "last_seen": "2026-05-13T08:26:47.373290",
-      "current_price": 177.02,
-      "current_price_time": "2026-05-13T17:02:25.356660+00:00",
-      "pnl_pct_live": 7.61,
-      "progression_pct": 50.7
+      "current_price": 178.16,
+      "current_price_time": "2026-05-13T17:55:58.244292+00:00",
+      "pnl_pct_live": 8.3,
+      "progression_pct": 55.3
     },
     {
       "ticker": "ARM",
@@ -84,10 +84,10 @@
       "status": "open",
       "issued_at": "2026-05-12T18:33:16.614717",
       "last_seen": "2026-05-12T18:33:16.615694",
-      "current_price": 218.26,
-      "current_price_time": "2026-05-13T17:02:25.356660+00:00",
-      "pnl_pct_live": 6.09,
-      "progression_pct": 40.6
+      "current_price": 219.54,
+      "current_price_time": "2026-05-13T17:55:58.244292+00:00",
+      "pnl_pct_live": 6.71,
+      "progression_pct": 44.8
     },
     {
       "ticker": "ADI",
@@ -115,9 +115,15 @@
       "news_score": null,
       "top_news_title": null,
       "top_news_url": null,
-      "status": "open",
+      "status": "expired",
       "issued_at": "2026-05-12T08:22:23.987795",
-      "last_seen": "2026-05-13T17:20:32.982411"
+      "last_seen": "2026-05-13T17:20:32.982411",
+      "current_price": 435.5,
+      "current_price_time": "2026-05-13T17:55:58.244292+00:00",
+      "exit_price": 435.5,
+      "exit_date": "2026-05-13T17:55:58.244292+00:00",
+      "pnl_pct": 3.02,
+      "pnl_pct_live": 3.02
     },
     {
       "ticker": "TTD",
@@ -153,10 +159,10 @@
       "status": "open",
       "issued_at": "2026-05-13T08:26:47.372590",
       "last_seen": "2026-05-13T08:26:47.373290",
-      "current_price": 20.36,
-      "current_price_time": "2026-05-13T17:02:25.356660+00:00",
-      "pnl_pct_live": 3.69,
-      "progression_pct": 24.6
+      "current_price": 20.34,
+      "current_price_time": "2026-05-13T17:55:58.244292+00:00",
+      "pnl_pct_live": 3.78,
+      "progression_pct": 25.2
     },
     {
       "ticker": "TEAM",
@@ -194,7 +200,11 @@
       "top_news_url": "https://finance.yahoo.com/markets/stocks/articles/strong-buy-stocks-may-7th-085400950.html",
       "status": "open",
       "issued_at": "2026-05-13T15:56:32.260794",
-      "last_seen": "2026-05-13T17:20:32.982411"
+      "last_seen": "2026-05-13T17:20:32.982411",
+      "current_price": 80.75,
+      "current_price_time": "2026-05-13T17:55:58.244292+00:00",
+      "pnl_pct_live": 0.44,
+      "progression_pct": 3.0
     },
     {
       "ticker": "BNTX",
@@ -230,10 +240,10 @@
       "status": "open",
       "issued_at": "2026-05-13T14:28:49.780072",
       "last_seen": "2026-05-13T14:28:49.780956",
-      "current_price": 92.39,
-      "current_price_time": "2026-05-13T17:02:25.356660+00:00",
-      "pnl_pct_live": -0.21,
-      "progression_pct": -7.6
+      "current_price": 92.7,
+      "current_price_time": "2026-05-13T17:55:58.244292+00:00",
+      "pnl_pct_live": -0.54,
+      "progression_pct": -19.9
     },
     {
       "ticker": "VRSK",
@@ -261,9 +271,15 @@
       "news_score": null,
       "top_news_title": null,
       "top_news_url": null,
-      "status": "open",
+      "status": "expired",
       "issued_at": "2026-05-12T15:54:15.859374",
-      "last_seen": "2026-05-13T17:20:32.982411"
+      "last_seen": "2026-05-13T17:20:32.982411",
+      "current_price": 158.84,
+      "current_price_time": "2026-05-13T17:55:58.244292+00:00",
+      "exit_price": 158.84,
+      "exit_date": "2026-05-13T17:55:58.244292+00:00",
+      "pnl_pct": 5.73,
+      "pnl_pct_live": 5.73
     },
     {
       "ticker": "PINS",
@@ -296,9 +312,15 @@
       "news_score": 0.25,
       "top_news_title": "Insider Backed Growth Stocks For Potential Upside",
       "top_news_url": "https://finance.yahoo.com/markets/stocks/articles/insider-backed-growth-stocks-potential-113551838.html",
-      "status": "open",
+      "status": "expired",
       "issued_at": "2026-05-12T14:28:37.275493",
-      "last_seen": "2026-05-13T17:20:32.982411"
+      "last_seen": "2026-05-13T17:20:32.982411",
+      "current_price": 19.88,
+      "current_price_time": "2026-05-13T17:55:58.244292+00:00",
+      "exit_price": 19.88,
+      "exit_date": "2026-05-13T17:55:58.244292+00:00",
+      "pnl_pct": -0.76,
+      "pnl_pct_live": -0.76
     },
     {
       "ticker": "NFLX",
@@ -330,9 +352,15 @@
       "news_score": -0.1,
       "top_news_title": "3 Reasons to Hold Netflix Stock Despite 16% Drop in the Past Month",
       "top_news_url": "https://finance.yahoo.com/news/3-reasons-hold-netflix-stock-160100173.html",
-      "status": "open",
+      "status": "expired",
       "issued_at": "2026-05-12T15:54:15.859399",
-      "last_seen": "2026-05-13T17:20:32.982411"
+      "last_seen": "2026-05-13T17:20:32.982411",
+      "current_price": 87.87,
+      "current_price_time": "2026-05-13T17:55:58.244292+00:00",
+      "exit_price": 87.87,
+      "exit_date": "2026-05-13T17:55:58.244292+00:00",
+      "pnl_pct": 0.02,
+      "pnl_pct_live": 0.02
     },
     {
       "ticker": "MDB",
@@ -369,10 +397,10 @@
       "status": "open",
       "issued_at": "2026-05-12T20:11:50.023621",
       "last_seen": "2026-05-12T20:11:50.024798",
-      "current_price": 302.26,
-      "current_price_time": "2026-05-13T17:02:25.356660+00:00",
-      "pnl_pct_live": 2.09,
-      "progression_pct": 14.6
+      "current_price": 298.08,
+      "current_price_time": "2026-05-13T17:55:58.244292+00:00",
+      "pnl_pct_live": 3.45,
+      "progression_pct": 24.0
     },
     {
       "ticker": "LRCX",
