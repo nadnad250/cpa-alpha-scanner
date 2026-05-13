@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-05-13T19:22:22.190419+00:00",
+  "generated_at": "2026-05-13T20:09:25.862173+00:00",
   "date": "2026-05-13",
   "stats": {
     "total": 10,
@@ -47,10 +47,10 @@
       "status": "open",
       "issued_at": "2026-05-12T20:11:50.023597",
       "last_seen": "2026-05-13T08:26:47.373290",
-      "current_price": 178.38,
-      "current_price_time": "2026-05-13T19:22:22.190419+00:00",
-      "pnl_pct_live": 8.44,
-      "progression_pct": 56.2
+      "current_price": 177.94,
+      "current_price_time": "2026-05-13T20:09:25.862173+00:00",
+      "pnl_pct_live": 8.17,
+      "progression_pct": 54.5
     },
     {
       "ticker": "ON",
@@ -194,10 +194,10 @@
       "status": "open",
       "issued_at": "2026-05-13T08:26:47.372590",
       "last_seen": "2026-05-13T08:26:47.373290",
-      "current_price": 20.41,
-      "current_price_time": "2026-05-13T19:22:22.190419+00:00",
-      "pnl_pct_live": 3.45,
-      "progression_pct": 23.0
+      "current_price": 20.48,
+      "current_price_time": "2026-05-13T20:09:25.862173+00:00",
+      "pnl_pct_live": 3.12,
+      "progression_pct": 20.8
     },
     {
       "ticker": "TEAM",
@@ -236,10 +236,10 @@
       "status": "open",
       "issued_at": "2026-05-13T15:56:32.260794",
       "last_seen": "2026-05-13T17:20:32.982411",
-      "current_price": 81.23,
-      "current_price_time": "2026-05-13T19:22:22.190419+00:00",
-      "pnl_pct_live": -0.15,
-      "progression_pct": -3.0
+      "current_price": 80.61,
+      "current_price_time": "2026-05-13T20:09:25.862173+00:00",
+      "pnl_pct_live": 0.62,
+      "progression_pct": 4.1
     },
     {
       "ticker": "BNTX",
@@ -275,10 +275,10 @@
       "status": "open",
       "issued_at": "2026-05-13T14:28:49.780072",
       "last_seen": "2026-05-13T14:28:49.780956",
-      "current_price": 92.42,
-      "current_price_time": "2026-05-13T19:22:22.190419+00:00",
-      "pnl_pct_live": -0.24,
-      "progression_pct": -8.8
+      "current_price": 92.22,
+      "current_price_time": "2026-05-13T20:09:25.862173+00:00",
+      "pnl_pct_live": -0.02,
+      "progression_pct": -0.8
     },
     {
       "ticker": "PYPL",
@@ -350,10 +350,10 @@
       "status": "open",
       "issued_at": "2026-05-13T18:34:17.124170",
       "last_seen": "2026-05-13T18:34:17.125087",
-      "current_price": 153.01,
-      "current_price_time": "2026-05-13T19:22:22.190419+00:00",
-      "pnl_pct_live": -0.86,
-      "progression_pct": -17.4
+      "current_price": 152.43,
+      "current_price_time": "2026-05-13T20:09:25.862173+00:00",
+      "pnl_pct_live": -0.48,
+      "progression_pct": -9.7
     },
     {
       "ticker": "MDB",
@@ -390,10 +390,10 @@
       "status": "open",
       "issued_at": "2026-05-12T20:11:50.023621",
       "last_seen": "2026-05-12T20:11:50.024798",
-      "current_price": 307.08,
-      "current_price_time": "2026-05-13T19:22:22.190419+00:00",
-      "pnl_pct_live": 0.53,
-      "progression_pct": 3.7
+      "current_price": 302.94,
+      "current_price_time": "2026-05-13T20:09:25.862173+00:00",
+      "pnl_pct_live": 1.87,
+      "progression_pct": 13.0
     },
     {
       "ticker": "LRCX",
