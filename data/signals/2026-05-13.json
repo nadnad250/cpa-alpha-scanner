@@ -55,5 +55,24 @@
     "pnl_pct": null,
     "max_favorable": null,
     "max_adverse": null
+  },
+  {
+    "ticker": "BNTX",
+    "action": "STRONG_SELL",
+    "entry_price": 92.2,
+    "stop_loss": 94.70875091552735,
+    "take_profit": 85.17549743652344,
+    "score": -0.5084126049913975,
+    "confidence": 0.8022113970116386,
+    "universe": "NASDAQ100",
+    "issued_at": "2026-05-13T14:28:49.780072",
+    "horizon_days": 1,
+    "horizon_hours": 24,
+    "status": "open",
+    "exit_price": null,
+    "exit_date": null,
+    "pnl_pct": null,
+    "max_favorable": null,
+    "max_adverse": null
   }
 ]
