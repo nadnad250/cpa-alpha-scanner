@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-05-13T08:26:47.373290",
+  "generated_at": "2026-05-13T09:18:48.367566+00:00",
   "date": "2026-05-13",
   "stats": {
     "total": 10,
@@ -46,7 +46,11 @@
       "top_news_url": null,
       "status": "open",
       "issued_at": "2026-05-12T20:11:50.023597",
-      "last_seen": "2026-05-13T08:26:47.373290"
+      "last_seen": "2026-05-13T08:26:47.373290",
+      "current_price": 164.52,
+      "current_price_time": "2026-05-13T09:18:48.367566+00:00",
+      "pnl_pct_live": 0.01,
+      "progression_pct": 0.1
     },
     {
       "ticker": "ON",
@@ -76,7 +80,11 @@
       "top_news_url": null,
       "status": "open",
       "issued_at": "2026-05-12T17:19:45.636581",
-      "last_seen": "2026-05-13T08:26:47.373290"
+      "last_seen": "2026-05-13T08:26:47.373290",
+      "current_price": 104.13,
+      "current_price_time": "2026-05-13T09:18:48.367566+00:00",
+      "pnl_pct_live": 2.71,
+      "progression_pct": 18.1
     },
     {
       "ticker": "ARM",
@@ -111,7 +119,7 @@
       "issued_at": "2026-05-12T18:33:16.614717",
       "last_seen": "2026-05-12T18:33:16.615694",
       "current_price": 207.86,
-      "current_price_time": "2026-05-13T08:01:24.722405+00:00",
+      "current_price_time": "2026-05-13T09:18:48.367566+00:00",
       "pnl_pct_live": 1.04,
       "progression_pct": 6.9
     },
@@ -148,7 +156,7 @@
       "issued_at": "2026-05-12T17:19:45.636555",
       "last_seen": "2026-05-12T17:19:45.637966",
       "current_price": 419.65,
-      "current_price_time": "2026-05-13T08:01:24.722405+00:00",
+      "current_price_time": "2026-05-13T09:18:48.367566+00:00",
       "pnl_pct_live": 1.58,
       "progression_pct": 18.6
     },
@@ -180,7 +188,11 @@
       "top_news_url": null,
       "status": "open",
       "issued_at": "2026-05-12T20:11:50.023626",
-      "last_seen": "2026-05-13T08:26:47.373290"
+      "last_seen": "2026-05-13T08:26:47.373290",
+      "current_price": 104.13,
+      "current_price_time": "2026-05-13T09:18:48.367566+00:00",
+      "pnl_pct_live": 0.02,
+      "progression_pct": 0.1
     },
     {
       "ticker": "TTD",
@@ -215,7 +227,11 @@
       "top_news_url": "https://www.barchart.com/story/news/1877659/the-trade-desk-slumps-following-string-of-analyst-downgrades",
       "status": "open",
       "issued_at": "2026-05-13T08:26:47.372590",
-      "last_seen": "2026-05-13T08:26:47.373290"
+      "last_seen": "2026-05-13T08:26:47.373290",
+      "current_price": 21.13,
+      "current_price_time": "2026-05-13T09:18:48.367566+00:00",
+      "pnl_pct_live": 0.05,
+      "progression_pct": 0.3
     },
     {
       "ticker": "PYPL",
@@ -245,7 +261,11 @@
       "top_news_url": null,
       "status": "open",
       "issued_at": "2026-05-12T14:28:37.275463",
-      "last_seen": "2026-05-13T08:26:47.373290"
+      "last_seen": "2026-05-13T08:26:47.373290",
+      "current_price": 45.43,
+      "current_price_time": "2026-05-13T09:18:48.367566+00:00",
+      "pnl_pct_live": -1.25,
+      "progression_pct": -47.9
     },
     {
       "ticker": "DOCU",
@@ -275,7 +295,11 @@
       "top_news_url": null,
       "status": "open",
       "issued_at": "2026-05-12T14:28:37.275485",
-      "last_seen": "2026-05-13T08:26:47.373290"
+      "last_seen": "2026-05-13T08:26:47.373290",
+      "current_price": 45.19,
+      "current_price_time": "2026-05-13T09:18:48.367566+00:00",
+      "pnl_pct_live": 1.68,
+      "progression_pct": 12.2
     },
     {
       "ticker": "VRSK",
@@ -305,7 +329,11 @@
       "top_news_url": null,
       "status": "open",
       "issued_at": "2026-05-12T15:54:15.859374",
-      "last_seen": "2026-05-13T08:26:47.373290"
+      "last_seen": "2026-05-13T08:26:47.373290",
+      "current_price": 166.34,
+      "current_price_time": "2026-05-13T09:18:48.367566+00:00",
+      "pnl_pct_live": 1.28,
+      "progression_pct": 14.6
     },
     {
       "ticker": "MDB",
@@ -343,7 +371,7 @@
       "issued_at": "2026-05-12T20:11:50.023621",
       "last_seen": "2026-05-12T20:11:50.024798",
       "current_price": 308.66,
-      "current_price_time": "2026-05-13T08:01:24.722405+00:00",
+      "current_price_time": "2026-05-13T09:18:48.367566+00:00",
       "pnl_pct_live": 0.02,
       "progression_pct": 0.1
     },
