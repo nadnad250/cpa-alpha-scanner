@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-05-13T15:56:32.262024",
+  "generated_at": "2026-05-13T16:06:41.728186+00:00",
   "date": "2026-05-13",
   "stats": {
     "total": 10,
@@ -47,10 +47,10 @@
       "status": "open",
       "issued_at": "2026-05-12T20:11:50.023597",
       "last_seen": "2026-05-13T08:26:47.373290",
-      "current_price": 179.57,
-      "current_price_time": "2026-05-13T15:07:34.031802+00:00",
-      "pnl_pct_live": 9.16,
-      "progression_pct": 61.1
+      "current_price": 175.23,
+      "current_price_time": "2026-05-13T16:06:41.728186+00:00",
+      "pnl_pct_live": 6.52,
+      "progression_pct": 43.5
     },
     {
       "ticker": "ON",
@@ -81,10 +81,10 @@
       "status": "open",
       "issued_at": "2026-05-12T17:19:45.636581",
       "last_seen": "2026-05-13T08:26:47.373290",
-      "current_price": 115.32,
-      "current_price_time": "2026-05-13T15:07:34.031802+00:00",
-      "pnl_pct_live": 13.75,
-      "progression_pct": 91.7
+      "current_price": 114.14,
+      "current_price_time": "2026-05-13T16:06:41.728186+00:00",
+      "pnl_pct_live": 12.59,
+      "progression_pct": 83.9
     },
     {
       "ticker": "ARM",
@@ -118,10 +118,10 @@
       "status": "open",
       "issued_at": "2026-05-12T18:33:16.614717",
       "last_seen": "2026-05-12T18:33:16.615694",
-      "current_price": 215.74,
-      "current_price_time": "2026-05-13T15:07:34.031802+00:00",
-      "pnl_pct_live": 4.87,
-      "progression_pct": 32.4
+      "current_price": 216.34,
+      "current_price_time": "2026-05-13T16:06:41.728186+00:00",
+      "pnl_pct_live": 5.16,
+      "progression_pct": 34.4
     },
     {
       "ticker": "ADI",
@@ -155,10 +155,10 @@
       "status": "open",
       "issued_at": "2026-05-12T17:19:45.636555",
       "last_seen": "2026-05-12T17:19:45.637966",
-      "current_price": 432.96,
-      "current_price_time": "2026-05-13T15:07:34.031802+00:00",
-      "pnl_pct_live": 4.81,
-      "progression_pct": 56.6
+      "current_price": 431.08,
+      "current_price_time": "2026-05-13T16:06:41.728186+00:00",
+      "pnl_pct_live": 4.35,
+      "progression_pct": 51.2
     },
     {
       "ticker": "ADI",
@@ -186,9 +186,15 @@
       "news_score": null,
       "top_news_title": null,
       "top_news_url": null,
-      "status": "open",
+      "status": "expired",
       "issued_at": "2026-05-12T08:22:23.987795",
-      "last_seen": "2026-05-13T15:56:32.262024"
+      "last_seen": "2026-05-13T15:56:32.262024",
+      "current_price": 431.08,
+      "current_price_time": "2026-05-13T16:06:41.728186+00:00",
+      "exit_price": 431.08,
+      "exit_date": "2026-05-13T16:06:41.728186+00:00",
+      "pnl_pct": 1.98,
+      "pnl_pct_live": 1.98
     },
     {
       "ticker": "TTD",
@@ -224,10 +230,10 @@
       "status": "open",
       "issued_at": "2026-05-13T08:26:47.372590",
       "last_seen": "2026-05-13T08:26:47.373290",
-      "current_price": 20.12,
-      "current_price_time": "2026-05-13T15:07:34.031802+00:00",
-      "pnl_pct_live": 4.82,
-      "progression_pct": 32.2
+      "current_price": 20.19,
+      "current_price_time": "2026-05-13T16:06:41.728186+00:00",
+      "pnl_pct_live": 4.49,
+      "progression_pct": 30.0
     },
     {
       "ticker": "BNTX",
@@ -263,10 +269,10 @@
       "status": "open",
       "issued_at": "2026-05-13T14:28:49.780072",
       "last_seen": "2026-05-13T14:28:49.780956",
-      "current_price": 91.35,
-      "current_price_time": "2026-05-13T15:07:34.031802+00:00",
-      "pnl_pct_live": 0.92,
-      "progression_pct": 12.1
+      "current_price": 92.27,
+      "current_price_time": "2026-05-13T16:06:41.728186+00:00",
+      "pnl_pct_live": -0.08,
+      "progression_pct": -2.8
     },
     {
       "ticker": "TEAM",
@@ -303,7 +309,11 @@
       "top_news_url": "https://www.barchart.com/story/news/1741369/so-much-for-the-software-apocalypse-atlassian-stock-surges-as-data-center-revenue-grows-44",
       "status": "open",
       "issued_at": "2026-05-13T15:56:32.260794",
-      "last_seen": "2026-05-13T15:56:32.262024"
+      "last_seen": "2026-05-13T15:56:32.262024",
+      "current_price": 80.72,
+      "current_price_time": "2026-05-13T16:06:41.728186+00:00",
+      "pnl_pct_live": 0.14,
+      "progression_pct": 0.9
     },
     {
       "ticker": "PYPL",
@@ -335,9 +345,15 @@
       "news_score": -0.2,
       "top_news_title": "Truist Cuts PayPal Price Target as Cross-Border Volume Weakness Bites",
       "top_news_url": "https://247wallst.com/investing/2026/05/12/truist-cuts-paypal-price-target-as-cross-border-volume-weakness-bites/",
-      "status": "open",
+      "status": "expired",
       "issued_at": "2026-05-12T14:28:37.275463",
-      "last_seen": "2026-05-13T15:56:32.262024"
+      "last_seen": "2026-05-13T15:56:32.262024",
+      "current_price": 44.95,
+      "current_price_time": "2026-05-13T16:06:41.728186+00:00",
+      "exit_price": 44.95,
+      "exit_date": "2026-05-13T16:06:41.728186+00:00",
+      "pnl_pct": -0.74,
+      "pnl_pct_live": -0.74
     },
     {
       "ticker": "MDB",
@@ -374,10 +390,10 @@
       "status": "open",
       "issued_at": "2026-05-12T20:11:50.023621",
       "last_seen": "2026-05-12T20:11:50.024798",
-      "current_price": 302.78,
-      "current_price_time": "2026-05-13T15:07:34.031802+00:00",
-      "pnl_pct_live": 1.92,
-      "progression_pct": 13.4
+      "current_price": 300.95,
+      "current_price_time": "2026-05-13T16:06:41.728186+00:00",
+      "pnl_pct_live": 2.52,
+      "progression_pct": 17.5
     },
     {
       "ticker": "LRCX",
