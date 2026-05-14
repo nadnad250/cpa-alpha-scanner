@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-05-14T18:38:09.612956+00:00",
+  "generated_at": "2026-05-14T19:21:47.106942+00:00",
   "date": "2026-05-14",
   "stats": {
     "total": 10,
@@ -52,10 +52,10 @@
       "status": "open",
       "issued_at": "2026-05-14T17:17:46.117433",
       "last_seen": "2026-05-14T17:17:46.118678",
-      "current_price": 237.88,
-      "current_price_time": "2026-05-14T18:38:09.612956+00:00",
-      "pnl_pct_live": 1.26,
-      "progression_pct": 15.0
+      "current_price": 238.0,
+      "current_price_time": "2026-05-14T19:21:47.106942+00:00",
+      "pnl_pct_live": 1.31,
+      "progression_pct": 15.6
     },
     {
       "ticker": "ARM",
@@ -236,10 +236,10 @@
       "status": "open",
       "issued_at": "2026-05-14T17:17:46.117426",
       "last_seen": "2026-05-14T17:17:46.118678",
-      "current_price": 150.17,
-      "current_price_time": "2026-05-14T18:38:09.612956+00:00",
-      "pnl_pct_live": -0.6,
-      "progression_pct": -11.9
+      "current_price": 148.53,
+      "current_price_time": "2026-05-14T19:21:47.106942+00:00",
+      "pnl_pct_live": 0.5,
+      "progression_pct": 3.3
     },
     {
       "ticker": "BNTX",
@@ -314,10 +314,10 @@
       "status": "open",
       "issued_at": "2026-05-14T17:17:46.117420",
       "last_seen": "2026-05-14T17:17:46.118678",
-      "current_price": 57.91,
-      "current_price_time": "2026-05-14T18:38:09.612956+00:00",
-      "pnl_pct_live": 1.18,
-      "progression_pct": 13.4
+      "current_price": 57.96,
+      "current_price_time": "2026-05-14T19:21:47.106942+00:00",
+      "pnl_pct_live": 1.09,
+      "progression_pct": 12.5
     },
     {
       "ticker": "SMCI",
@@ -354,10 +354,10 @@
       "status": "open",
       "issued_at": "2026-05-14T17:17:46.117430",
       "last_seen": "2026-05-14T17:17:46.118678",
-      "current_price": 32.83,
-      "current_price_time": "2026-05-14T18:38:09.612956+00:00",
-      "pnl_pct_live": -0.55,
-      "progression_pct": -11.0
+      "current_price": 32.76,
+      "current_price_time": "2026-05-14T19:21:47.106942+00:00",
+      "pnl_pct_live": -0.34,
+      "progression_pct": -6.7
     },
     {
       "ticker": "ZS",
