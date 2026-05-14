@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-05-14T21:27:10.182415+00:00",
+  "generated_at": "2026-05-14T21:54:24.598456+00:00",
   "date": "2026-05-14",
   "stats": {
     "total": 10,
@@ -92,7 +92,7 @@
       "issued_at": "2026-05-14T17:17:46.117433",
       "last_seen": "2026-05-14T17:17:46.118678",
       "current_price": 238.25,
-      "current_price_time": "2026-05-14T21:27:10.182415+00:00",
+      "current_price_time": "2026-05-14T21:54:24.598456+00:00",
       "pnl_pct_live": 1.42,
       "progression_pct": 16.8
     },
@@ -204,7 +204,7 @@
       "issued_at": "2026-05-14T20:11:28.035335",
       "last_seen": "2026-05-14T20:11:28.036622",
       "current_price": 89.96,
-      "current_price_time": "2026-05-14T21:27:10.182415+00:00",
+      "current_price_time": "2026-05-14T21:54:24.598456+00:00",
       "pnl_pct_live": 0.01,
       "progression_pct": 0.1
     },
@@ -244,7 +244,7 @@
       "issued_at": "2026-05-14T17:17:46.117426",
       "last_seen": "2026-05-14T17:17:46.118678",
       "current_price": 147.96,
-      "current_price_time": "2026-05-14T21:27:10.182415+00:00",
+      "current_price_time": "2026-05-14T21:54:24.598456+00:00",
       "pnl_pct_live": 0.88,
       "progression_pct": 5.9
     },
@@ -283,7 +283,7 @@
       "issued_at": "2026-05-14T20:11:28.035340",
       "last_seen": "2026-05-14T20:11:28.036622",
       "current_price": 1607.45,
-      "current_price_time": "2026-05-14T21:27:10.182415+00:00",
+      "current_price_time": "2026-05-14T21:54:24.598456+00:00",
       "pnl_pct_live": -0.0,
       "progression_pct": -0.1
     },
@@ -357,7 +357,7 @@
       "issued_at": "2026-05-14T17:17:46.117420",
       "last_seen": "2026-05-14T17:17:46.118678",
       "current_price": 57.81,
-      "current_price_time": "2026-05-14T21:27:10.182415+00:00",
+      "current_price_time": "2026-05-14T21:54:24.598456+00:00",
       "pnl_pct_live": 1.35,
       "progression_pct": 15.4
     },
@@ -397,7 +397,7 @@
       "issued_at": "2026-05-14T17:17:46.117430",
       "last_seen": "2026-05-14T17:17:46.118678",
       "current_price": 33.03,
-      "current_price_time": "2026-05-14T21:27:10.182415+00:00",
+      "current_price_time": "2026-05-14T21:54:24.598456+00:00",
       "pnl_pct_live": -1.16,
       "progression_pct": -23.3
     },
