@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-05-14T13:18:55.343275+00:00",
+  "generated_at": "2026-05-14T14:16:41.407748+00:00",
   "date": "2026-05-14",
   "stats": {
     "total": 10,
@@ -277,10 +277,10 @@
       "status": "open",
       "issued_at": "2026-05-13T15:56:32.260794",
       "last_seen": "2026-05-13T17:20:32.982411",
-      "current_price": 80.61,
-      "current_price_time": "2026-05-14T13:18:55.343275+00:00",
-      "pnl_pct_live": 0.62,
-      "progression_pct": 4.1
+      "current_price": 79.96,
+      "current_price_time": "2026-05-14T14:16:41.407748+00:00",
+      "pnl_pct_live": 1.42,
+      "progression_pct": 9.5
     },
     {
       "ticker": "BNTX",
@@ -316,10 +316,10 @@
       "status": "open",
       "issued_at": "2026-05-13T14:28:49.780072",
       "last_seen": "2026-05-14T08:21:57.967914",
-      "current_price": 92.22,
-      "current_price_time": "2026-05-14T13:18:55.343275+00:00",
-      "pnl_pct_live": 0.01,
-      "progression_pct": 0.1
+      "current_price": 92.42,
+      "current_price_time": "2026-05-14T14:16:41.407748+00:00",
+      "pnl_pct_live": -0.21,
+      "progression_pct": -7.5
     },
     {
       "ticker": "ZS",
@@ -355,10 +355,10 @@
       "status": "open",
       "issued_at": "2026-05-13T18:34:17.124170",
       "last_seen": "2026-05-13T18:34:17.125087",
-      "current_price": 152.43,
-      "current_price_time": "2026-05-14T13:18:55.343275+00:00",
-      "pnl_pct_live": -0.48,
-      "progression_pct": -9.7
+      "current_price": 150.31,
+      "current_price_time": "2026-05-14T14:16:41.407748+00:00",
+      "pnl_pct_live": 0.92,
+      "progression_pct": 6.6
     },
     {
       "ticker": "MDB",
