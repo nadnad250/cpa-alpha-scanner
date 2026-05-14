@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-05-14T16:14:46.946834+00:00",
+  "generated_at": "2026-05-14T17:01:10.251086+00:00",
   "date": "2026-05-14",
   "stats": {
     "total": 10,
@@ -391,10 +391,10 @@
       "status": "open",
       "issued_at": "2026-05-13T18:34:17.124170",
       "last_seen": "2026-05-13T18:34:17.125087",
-      "current_price": 156.33,
-      "current_price_time": "2026-05-14T16:14:46.946834+00:00",
-      "pnl_pct_live": -3.05,
-      "progression_pct": -61.6
+      "current_price": 154.64,
+      "current_price_time": "2026-05-14T17:01:10.251086+00:00",
+      "pnl_pct_live": -1.94,
+      "progression_pct": -39.1
     },
     {
       "ticker": "LRCX",
