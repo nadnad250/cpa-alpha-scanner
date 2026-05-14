@@ -1,0 +1,40 @@
+[
+  {
+    "ticker": "COIN",
+    "action": "STRONG_SELL",
+    "entry_price": 200.85,
+    "stop_loss": 210.89249999999998,
+    "take_profit": 170.7225,
+    "score": -0.4153404940200376,
+    "confidence": 0.7400000000000001,
+    "universe": "NASDAQ100",
+    "issued_at": "2026-05-14T14:27:10.872617",
+    "horizon_days": 1,
+    "horizon_hours": 24,
+    "status": "open",
+    "exit_price": null,
+    "exit_date": null,
+    "pnl_pct": null,
+    "max_favorable": null,
+    "max_adverse": null
+  },
+  {
+    "ticker": "META",
+    "action": "STRONG_SELL",
+    "entry_price": 622.9,
+    "stop_loss": 637.28820539202,
+    "take_profit": 582.6130249023438,
+    "score": -0.42259036034965647,
+    "confidence": 0.6833476521334274,
+    "universe": "NASDAQ100",
+    "issued_at": "2026-05-14T14:27:10.872644",
+    "horizon_days": 1,
+    "horizon_hours": 24,
+    "status": "open",
+    "exit_price": null,
+    "exit_date": null,
+    "pnl_pct": null,
+    "max_favorable": null,
+    "max_adverse": null
+  }
+]
