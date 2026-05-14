@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-05-14T17:17:46.118678",
+  "generated_at": "2026-05-14T17:54:03.319169+00:00",
   "date": "2026-05-14",
   "stats": {
     "total": 10,
@@ -51,7 +51,11 @@
       "top_news_url": "https://finance.yahoo.com/markets/stocks/articles/zscalers-z-flex-adoption-rises-125800363.html",
       "status": "open",
       "issued_at": "2026-05-14T17:17:46.117433",
-      "last_seen": "2026-05-14T17:17:46.118678"
+      "last_seen": "2026-05-14T17:17:46.118678",
+      "current_price": 236.45,
+      "current_price_time": "2026-05-14T17:54:03.319169+00:00",
+      "pnl_pct_live": 0.65,
+      "progression_pct": 7.7
     },
     {
       "ticker": "ADI",
@@ -79,9 +83,15 @@
       "news_score": null,
       "top_news_title": null,
       "top_news_url": null,
-      "status": "open",
+      "status": "expired",
       "issued_at": "2026-05-12T17:19:45.636555",
-      "last_seen": "2026-05-14T17:17:46.118678"
+      "last_seen": "2026-05-14T17:17:46.118678",
+      "current_price": 428.06,
+      "current_price_time": "2026-05-14T17:54:03.319169+00:00",
+      "exit_price": 428.06,
+      "exit_date": "2026-05-14T17:54:03.319169+00:00",
+      "pnl_pct": 3.62,
+      "pnl_pct_live": 3.62
     },
     {
       "ticker": "TTD",
@@ -109,9 +119,15 @@
       "news_score": null,
       "top_news_title": null,
       "top_news_url": null,
-      "status": "open",
+      "status": "expired",
       "issued_at": "2026-05-13T08:26:47.372590",
-      "last_seen": "2026-05-14T17:17:46.118678"
+      "last_seen": "2026-05-14T17:17:46.118678",
+      "current_price": 20.07,
+      "current_price_time": "2026-05-14T17:54:03.319169+00:00",
+      "exit_price": 20.07,
+      "exit_date": "2026-05-14T17:54:03.319169+00:00",
+      "pnl_pct": 5.06,
+      "pnl_pct_live": 5.06
     },
     {
       "ticker": "CHTR",
@@ -147,7 +163,11 @@
       "top_news_url": "https://finance.yahoo.com/markets/stocks/articles/look-charter-communications-chtr-valuation-042636568.html",
       "status": "open",
       "issued_at": "2026-05-14T17:17:46.117426",
-      "last_seen": "2026-05-14T17:17:46.118678"
+      "last_seen": "2026-05-14T17:17:46.118678",
+      "current_price": 148.24,
+      "current_price_time": "2026-05-14T17:54:03.319169+00:00",
+      "pnl_pct_live": 0.7,
+      "progression_pct": 4.6
     },
     {
       "ticker": "TMUS",
@@ -179,9 +199,15 @@
       "news_score": -0.15,
       "top_news_title": "Verizon Announces New Layoffs as Cost-Cutting Continues Into 2026",
       "top_news_url": "https://finance.yahoo.com/markets/stocks/articles/verizon-announces-layoffs-cost-cutting-141800953.html",
-      "status": "open",
+      "status": "expired",
       "issued_at": "2026-05-12T15:54:15.859404",
-      "last_seen": "2026-05-14T17:17:46.118678"
+      "last_seen": "2026-05-14T17:17:46.118678",
+      "current_price": 188.47,
+      "current_price_time": "2026-05-14T17:54:03.319169+00:00",
+      "exit_price": 188.47,
+      "exit_date": "2026-05-14T17:54:03.319169+00:00",
+      "pnl_pct": 0.18,
+      "pnl_pct_live": 0.18
     },
     {
       "ticker": "BNTX",
@@ -209,9 +235,15 @@
       "news_score": null,
       "top_news_title": null,
       "top_news_url": null,
-      "status": "open",
+      "status": "expired",
       "issued_at": "2026-05-13T14:28:49.780072",
-      "last_seen": "2026-05-14T17:17:46.118678"
+      "last_seen": "2026-05-14T17:17:46.118678",
+      "current_price": 92.24,
+      "current_price_time": "2026-05-14T17:54:03.319169+00:00",
+      "exit_price": 92.24,
+      "exit_date": "2026-05-14T17:54:03.319169+00:00",
+      "pnl_pct": -0.04,
+      "pnl_pct_live": -0.04
     },
     {
       "ticker": "TEAM",
@@ -246,9 +278,15 @@
       "news_score": 0.35,
       "top_news_title": "All You Need to Know About Atlassian (TEAM) Rating Upgrade to Strong Buy",
       "top_news_url": "https://finance.yahoo.com/markets/stocks/articles/know-atlassian-team-rating-upgrade-160003895.html",
-      "status": "open",
+      "status": "expired",
       "issued_at": "2026-05-13T15:56:32.260794",
-      "last_seen": "2026-05-14T17:17:46.118678"
+      "last_seen": "2026-05-14T17:17:46.118678",
+      "current_price": 79.98,
+      "current_price_time": "2026-05-14T17:54:03.319169+00:00",
+      "exit_price": 79.98,
+      "exit_date": "2026-05-14T17:54:03.319169+00:00",
+      "pnl_pct": 1.3,
+      "pnl_pct_live": 1.3
     },
     {
       "ticker": "DXCM",
@@ -282,7 +320,11 @@
       "top_news_url": "https://finance.yahoo.com/sectors/healthcare/articles/dexcom-margin-gains-expanded-coverage-021527976.html",
       "status": "open",
       "issued_at": "2026-05-14T17:17:46.117420",
-      "last_seen": "2026-05-14T17:17:46.118678"
+      "last_seen": "2026-05-14T17:17:46.118678",
+      "current_price": 58.3,
+      "current_price_time": "2026-05-14T17:54:03.319169+00:00",
+      "pnl_pct_live": 0.51,
+      "progression_pct": 5.8
     },
     {
       "ticker": "SMCI",
@@ -318,7 +360,11 @@
       "top_news_url": "https://finance.yahoo.com/news/super-micro-computers-nasdaq-smci-190841543.html",
       "status": "open",
       "issued_at": "2026-05-14T17:17:46.117430",
-      "last_seen": "2026-05-14T17:17:46.118678"
+      "last_seen": "2026-05-14T17:17:46.118678",
+      "current_price": 32.62,
+      "current_price_time": "2026-05-14T17:54:03.319169+00:00",
+      "pnl_pct_live": 0.09,
+      "progression_pct": 0.6
     },
     {
       "ticker": "PYPL",
@@ -351,9 +397,15 @@
       "news_score": 0.1,
       "top_news_title": "Should You Buy, Hold or Fold Block Stock Post Q1 Earnings?",
       "top_news_url": "https://finance.yahoo.com/news/buy-hold-fold-block-stock-163900543.html",
-      "status": "open",
+      "status": "expired",
       "issued_at": "2026-05-12T14:28:37.275463",
-      "last_seen": "2026-05-14T17:17:46.118678"
+      "last_seen": "2026-05-14T17:17:46.118678",
+      "current_price": 45.21,
+      "current_price_time": "2026-05-14T17:54:03.319169+00:00",
+      "exit_price": 45.21,
+      "exit_date": "2026-05-14T17:54:03.319169+00:00",
+      "pnl_pct": 0.62,
+      "pnl_pct_live": 0.62
     },
     {
       "ticker": "LRCX",
