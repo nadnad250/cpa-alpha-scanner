@@ -15,8 +15,8 @@
     "exit_price": null,
     "exit_date": null,
     "pnl_pct": null,
-    "max_favorable": null,
-    "max_adverse": null
+    "max_favorable": -0.03625671820334509,
+    "max_adverse": -0.03625671820334509
   },
   {
     "ticker": "PYPL",
@@ -34,8 +34,8 @@
     "exit_price": null,
     "exit_date": null,
     "pnl_pct": null,
-    "max_favorable": null,
-    "max_adverse": null
+    "max_favorable": 0.013987569995290626,
+    "max_adverse": 0.013987569995290626
   },
   {
     "ticker": "MSFT",
@@ -53,8 +53,8 @@
     "exit_price": null,
     "exit_date": null,
     "pnl_pct": null,
-    "max_favorable": null,
-    "max_adverse": null
+    "max_favorable": -0.008605884078538874,
+    "max_adverse": -0.008605884078538874
   },
   {
     "ticker": "COIN",
@@ -72,8 +72,8 @@
     "exit_price": null,
     "exit_date": null,
     "pnl_pct": null,
-    "max_favorable": null,
-    "max_adverse": null
+    "max_favorable": -0.00783865027993014,
+    "max_adverse": -0.00783865027993014
   },
   {
     "ticker": "META",
@@ -91,8 +91,8 @@
     "exit_price": null,
     "exit_date": null,
     "pnl_pct": null,
-    "max_favorable": null,
-    "max_adverse": null
+    "max_favorable": -0.0034470046212343912,
+    "max_adverse": -0.0034470046212343912
   },
   {
     "ticker": "CSCO",
@@ -110,8 +110,8 @@
     "exit_price": null,
     "exit_date": null,
     "pnl_pct": null,
-    "max_favorable": null,
-    "max_adverse": null
+    "max_favorable": 0.009048220951537777,
+    "max_adverse": 0.009048220951537777
   },
   {
     "ticker": "INTU",
@@ -129,8 +129,8 @@
     "exit_price": null,
     "exit_date": null,
     "pnl_pct": null,
-    "max_favorable": null,
-    "max_adverse": null
+    "max_favorable": 0.0033728095757360184,
+    "max_adverse": 0.0033728095757360184
   },
   {
     "ticker": "PAYX",
@@ -148,8 +148,8 @@
     "exit_price": null,
     "exit_date": null,
     "pnl_pct": null,
-    "max_favorable": null,
-    "max_adverse": null
+    "max_favorable": -0.0009841543524039464,
+    "max_adverse": -0.0009841543524039464
   },
   {
     "ticker": "PYPL",
@@ -167,8 +167,8 @@
     "exit_price": null,
     "exit_date": null,
     "pnl_pct": null,
-    "max_favorable": null,
-    "max_adverse": null
+    "max_favorable": 0.009258229840220712,
+    "max_adverse": 0.009258229840220712
   },
   {
     "ticker": "BNTX",
@@ -186,8 +186,8 @@
     "exit_price": null,
     "exit_date": null,
     "pnl_pct": null,
-    "max_favorable": null,
-    "max_adverse": null
+    "max_favorable": -3.407881424167695e-08,
+    "max_adverse": -3.407881424167695e-08
   },
   {
     "ticker": "CSCO",
@@ -205,8 +205,8 @@
     "exit_price": null,
     "exit_date": null,
     "pnl_pct": null,
-    "max_favorable": null,
-    "max_adverse": null
+    "max_favorable": -7.744922912589662e-09,
+    "max_adverse": -7.744922912589662e-09
   },
   {
     "ticker": "NFLX",
@@ -224,8 +224,8 @@
     "exit_price": null,
     "exit_date": null,
     "pnl_pct": null,
-    "max_favorable": null,
-    "max_adverse": null
+    "max_favorable": 3.857657538233694e-08,
+    "max_adverse": 3.857657538233694e-08
   },
   {
     "ticker": "DOCU",
@@ -243,7 +243,7 @@
     "exit_price": null,
     "exit_date": null,
     "pnl_pct": null,
-    "max_favorable": null,
-    "max_adverse": null
+    "max_favorable": 1.9189422439795666e-08,
+    "max_adverse": 1.9189422439795666e-08
   }
 ]

@@ -11,12 +11,12 @@
     "issued_at": "2026-05-13T08:26:47.372590",
     "horizon_days": 1,
     "horizon_hours": 24,
-    "status": "open",
-    "exit_price": null,
-    "exit_date": null,
-    "pnl_pct": null,
-    "max_favorable": null,
-    "max_adverse": null
+    "status": "expired",
+    "exit_price": 21.149999618530273,
+    "exit_date": "2026-05-15",
+    "pnl_pct": -0.000473018851952359,
+    "max_favorable": 0.034531700690061076,
+    "max_adverse": -0.000473018851952359
   },
   {
     "ticker": "MRVL",
@@ -30,12 +30,12 @@
     "issued_at": "2026-05-13T08:26:47.372617",
     "horizon_days": 1,
     "horizon_hours": 24,
-    "status": "open",
-    "exit_price": null,
-    "exit_date": null,
-    "pnl_pct": null,
-    "max_favorable": null,
-    "max_adverse": null
+    "status": "expired",
+    "exit_price": 176.88999938964844,
+    "exit_date": "2026-05-15",
+    "pnl_pct": 0.07531914522582636,
+    "max_favorable": 0.10990882572069718,
+    "max_adverse": 0.07531914522582636
   },
   {
     "ticker": "ADP",
@@ -49,12 +49,12 @@
     "issued_at": "2026-05-13T08:26:47.372621",
     "horizon_days": 1,
     "horizon_hours": 24,
-    "status": "open",
-    "exit_price": null,
-    "exit_date": null,
-    "pnl_pct": null,
-    "max_favorable": null,
-    "max_adverse": null
+    "status": "expired",
+    "exit_price": 214.47999572753906,
+    "exit_date": "2026-05-15",
+    "pnl_pct": -0.00313360332790356,
+    "max_favorable": 0.02544317329784623,
+    "max_adverse": -0.00313360332790356
   },
   {
     "ticker": "BNTX",
@@ -68,12 +68,12 @@
     "issued_at": "2026-05-13T14:28:49.780072",
     "horizon_days": 1,
     "horizon_hours": 24,
-    "status": "open",
-    "exit_price": null,
-    "exit_date": null,
-    "pnl_pct": null,
-    "max_favorable": null,
-    "max_adverse": null
+    "status": "expired",
+    "exit_price": 89.55000305175781,
+    "exit_date": "2026-05-15",
+    "pnl_pct": 0.028741832410435902,
+    "max_favorable": 0.028741832410435902,
+    "max_adverse": -0.0003254160188025044
   },
   {
     "ticker": "TEAM",
@@ -87,12 +87,12 @@
     "issued_at": "2026-05-13T15:56:32.260794",
     "horizon_days": 1,
     "horizon_hours": 24,
-    "status": "open",
-    "exit_price": null,
-    "exit_date": null,
-    "pnl_pct": null,
-    "max_favorable": null,
-    "max_adverse": null
+    "status": "sl_hit",
+    "exit_price": 84.87255,
+    "exit_date": "2026-05-15",
+    "pnl_pct": -0.05000000000000001,
+    "max_favorable": 0.0026103506503441973,
+    "max_adverse": -0.08201060341295607
   },
   {
     "ticker": "PYPL",
@@ -106,12 +106,12 @@
     "issued_at": "2026-05-13T15:56:32.260819",
     "horizon_days": 1,
     "horizon_hours": 24,
-    "status": "open",
-    "exit_price": null,
-    "exit_date": null,
-    "pnl_pct": null,
-    "max_favorable": null,
-    "max_adverse": null
+    "status": "expired",
+    "exit_price": 44.40999984741211,
+    "exit_date": "2026-05-15",
+    "pnl_pct": 0.004710874280883717,
+    "max_favorable": 0.004710874280883717,
+    "max_adverse": -0.013666445740636106
   },
   {
     "ticker": "ZS",
@@ -125,12 +125,12 @@
     "issued_at": "2026-05-13T18:34:17.124170",
     "horizon_days": 1,
     "horizon_hours": 24,
-    "status": "open",
-    "exit_price": null,
-    "exit_date": null,
-    "pnl_pct": null,
-    "max_favorable": null,
-    "max_adverse": null
+    "status": "sl_hit",
+    "exit_price": 159.2171443394252,
+    "exit_date": "2026-05-15",
+    "pnl_pct": -0.04955269834822159,
+    "max_favorable": -0.004812080921432178,
+    "max_adverse": -0.06163482565430339
   },
   {
     "ticker": "VRSK",
@@ -144,12 +144,12 @@
     "issued_at": "2026-05-13T20:12:10.131678",
     "horizon_days": 1,
     "horizon_hours": 24,
-    "status": "open",
-    "exit_price": null,
-    "exit_date": null,
-    "pnl_pct": null,
-    "max_favorable": null,
-    "max_adverse": null
+    "status": "expired",
+    "exit_price": 162.5500030517578,
+    "exit_date": "2026-05-15",
+    "pnl_pct": -0.006688567856306519,
+    "max_favorable": 0.028674079780202973,
+    "max_adverse": -0.006688567856306519
   },
   {
     "ticker": "DKNG",
@@ -163,11 +163,11 @@
     "issued_at": "2026-05-13T20:12:10.131706",
     "horizon_days": 1,
     "horizon_hours": 24,
-    "status": "open",
-    "exit_price": null,
-    "exit_date": null,
-    "pnl_pct": null,
-    "max_favorable": null,
-    "max_adverse": null
+    "status": "expired",
+    "exit_price": 25.0,
+    "exit_date": "2026-05-15",
+    "pnl_pct": 0.0011985617259289308,
+    "max_favorable": 0.0011985617259289308,
+    "max_adverse": -0.004794231663215034
   }
 ]
