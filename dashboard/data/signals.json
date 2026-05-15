@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-05-15T17:08:21.648515",
+  "generated_at": "2026-05-15T17:50:47.131168+00:00",
   "date": "2026-05-15",
   "stats": {
     "total": 10,
@@ -49,13 +49,16 @@
       "news_score": 0.25,
       "top_news_title": "Zscaler's Z-Flex Adoption Rises: Is It a New Revenue Growth Catalyst?",
       "top_news_url": "https://finance.yahoo.com/markets/stocks/articles/zscalers-z-flex-adoption-rises-125800363.html",
-      "status": "open",
+      "status": "expired",
       "issued_at": "2026-05-14T17:17:46.117433",
       "last_seen": "2026-05-14T17:17:46.118678",
-      "current_price": 242.24,
-      "current_price_time": "2026-05-15T17:05:11.595410+00:00",
-      "pnl_pct_live": 3.12,
-      "progression_pct": 37.0
+      "current_price": 245.65,
+      "current_price_time": "2026-05-15T17:50:47.131168+00:00",
+      "pnl_pct_live": 4.57,
+      "progression_pct": 37.0,
+      "exit_price": 245.65,
+      "exit_date": "2026-05-15T17:50:47.131168+00:00",
+      "pnl_pct": 4.57
     },
     {
       "ticker": "ADI",
@@ -83,9 +86,15 @@
       "news_score": null,
       "top_news_title": null,
       "top_news_url": null,
-      "status": "open",
+      "status": "expired",
       "issued_at": "2026-05-12T17:19:45.636555",
-      "last_seen": "2026-05-15T17:08:21.648515"
+      "last_seen": "2026-05-15T17:08:21.648515",
+      "current_price": 420.02,
+      "current_price_time": "2026-05-15T17:50:47.131168+00:00",
+      "exit_price": 420.02,
+      "exit_date": "2026-05-15T17:50:47.131168+00:00",
+      "pnl_pct": 1.67,
+      "pnl_pct_live": 1.67
     },
     {
       "ticker": "ADI",
@@ -113,9 +122,15 @@
       "news_score": null,
       "top_news_title": null,
       "top_news_url": null,
-      "status": "open",
+      "status": "expired",
       "issued_at": "2026-05-12T08:22:23.987795",
-      "last_seen": "2026-05-15T17:08:21.648515"
+      "last_seen": "2026-05-15T17:08:21.648515",
+      "current_price": 420.02,
+      "current_price_time": "2026-05-15T17:50:47.131168+00:00",
+      "exit_price": 420.02,
+      "exit_date": "2026-05-15T17:50:47.131168+00:00",
+      "pnl_pct": -0.64,
+      "pnl_pct_live": -0.64
     },
     {
       "ticker": "TTD",
@@ -143,9 +158,15 @@
       "news_score": null,
       "top_news_title": null,
       "top_news_url": null,
-      "status": "open",
+      "status": "expired",
       "issued_at": "2026-05-13T08:26:47.372590",
-      "last_seen": "2026-05-15T17:08:21.648515"
+      "last_seen": "2026-05-15T17:08:21.648515",
+      "current_price": 20.89,
+      "current_price_time": "2026-05-15T17:50:47.131168+00:00",
+      "exit_price": 20.89,
+      "exit_date": "2026-05-15T17:50:47.131168+00:00",
+      "pnl_pct": 1.18,
+      "pnl_pct_live": 1.18
     },
     {
       "ticker": "DLTR",
@@ -182,10 +203,10 @@
       "status": "open",
       "issued_at": "2026-05-14T20:11:28.035335",
       "last_seen": "2026-05-14T20:11:28.036622",
-      "current_price": 90.31,
-      "current_price_time": "2026-05-15T17:05:11.595410+00:00",
-      "pnl_pct_live": -0.38,
-      "progression_pct": -10.8
+      "current_price": 89.95,
+      "current_price_time": "2026-05-15T17:50:47.131168+00:00",
+      "pnl_pct_live": 0.02,
+      "progression_pct": 0.2
     },
     {
       "ticker": "CHTR",
@@ -219,13 +240,16 @@
       "news_score": -0.1,
       "top_news_title": "A Look At Charter Communications (CHTR) Valuation After Prolonged Share Price Weakness",
       "top_news_url": "https://finance.yahoo.com/markets/stocks/articles/look-charter-communications-chtr-valuation-042636568.html",
-      "status": "open",
+      "status": "expired",
       "issued_at": "2026-05-14T17:17:46.117426",
       "last_seen": "2026-05-14T17:17:46.118678",
-      "current_price": 139.1,
-      "current_price_time": "2026-05-15T17:05:11.595410+00:00",
-      "pnl_pct_live": 6.82,
-      "progression_pct": 45.4
+      "current_price": 137.73,
+      "current_price_time": "2026-05-15T17:50:47.131168+00:00",
+      "pnl_pct_live": 7.74,
+      "progression_pct": 45.4,
+      "exit_price": 137.73,
+      "exit_date": "2026-05-15T17:50:47.131168+00:00",
+      "pnl_pct": 7.74
     },
     {
       "ticker": "MELI",
@@ -261,10 +285,10 @@
       "status": "open",
       "issued_at": "2026-05-14T20:11:28.035340",
       "last_seen": "2026-05-14T20:11:28.036622",
-      "current_price": 1542.1,
-      "current_price_time": "2026-05-15T17:05:11.595410+00:00",
-      "pnl_pct_live": 4.06,
-      "progression_pct": 27.1
+      "current_price": 1551.0,
+      "current_price_time": "2026-05-15T17:50:47.131168+00:00",
+      "pnl_pct_live": 3.51,
+      "progression_pct": 23.4
     },
     {
       "ticker": "BNTX",
@@ -292,9 +316,15 @@
       "news_score": null,
       "top_news_title": null,
       "top_news_url": null,
-      "status": "open",
+      "status": "expired",
       "issued_at": "2026-05-13T14:28:49.780072",
-      "last_seen": "2026-05-15T17:08:21.648515"
+      "last_seen": "2026-05-15T17:08:21.648515",
+      "current_price": 89.24,
+      "current_price_time": "2026-05-15T17:50:47.131168+00:00",
+      "exit_price": 89.24,
+      "exit_date": "2026-05-15T17:50:47.131168+00:00",
+      "pnl_pct": 3.21,
+      "pnl_pct_live": 3.21
     },
     {
       "ticker": "DXCM",
@@ -322,9 +352,15 @@
       "news_score": null,
       "top_news_title": null,
       "top_news_url": null,
-      "status": "open",
+      "status": "expired",
       "issued_at": "2026-05-14T17:17:46.117420",
-      "last_seen": "2026-05-15T17:08:21.648515"
+      "last_seen": "2026-05-15T17:08:21.648515",
+      "current_price": 61.48,
+      "current_price_time": "2026-05-15T17:50:47.131168+00:00",
+      "exit_price": 61.48,
+      "exit_date": "2026-05-15T17:50:47.131168+00:00",
+      "pnl_pct": -4.91,
+      "pnl_pct_live": -4.91
     },
     {
       "ticker": "SMCI",
@@ -358,13 +394,16 @@
       "news_score": 0.05,
       "top_news_title": "Super Micro Computer's (NASDAQ:SMCI) Profits Appear To Have Quality Issues",
       "top_news_url": "https://finance.yahoo.com/news/super-micro-computers-nasdaq-smci-190841543.html",
-      "status": "open",
+      "status": "expired",
       "issued_at": "2026-05-14T17:17:46.117430",
       "last_seen": "2026-05-14T17:17:46.118678",
-      "current_price": 31.16,
-      "current_price_time": "2026-05-15T17:05:11.595410+00:00",
-      "pnl_pct_live": 4.56,
-      "progression_pct": 30.4
+      "current_price": 31.5,
+      "current_price_time": "2026-05-15T17:50:47.131168+00:00",
+      "pnl_pct_live": 3.52,
+      "progression_pct": 30.4,
+      "exit_price": 31.5,
+      "exit_date": "2026-05-15T17:50:47.131168+00:00",
+      "pnl_pct": 3.52
     },
     {
       "ticker": "LRCX",
