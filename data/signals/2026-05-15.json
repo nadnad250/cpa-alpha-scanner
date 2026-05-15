@@ -36,5 +36,24 @@
     "pnl_pct": null,
     "max_favorable": null,
     "max_adverse": null
+  },
+  {
+    "ticker": "MSFT",
+    "action": "SELL",
+    "entry_price": 418.32,
+    "stop_loss": 426.21803532191683,
+    "take_profit": 396.2055010986328,
+    "score": -0.3872454602217866,
+    "confidence": 0.7575404420075795,
+    "universe": "NASDAQ100",
+    "issued_at": "2026-05-15T14:26:44.727880",
+    "horizon_days": 1,
+    "horizon_hours": 24,
+    "status": "open",
+    "exit_price": null,
+    "exit_date": null,
+    "pnl_pct": null,
+    "max_favorable": null,
+    "max_adverse": null
   }
 ]
