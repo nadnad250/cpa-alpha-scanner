@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-05-15T18:29:17.865807",
+  "generated_at": "2026-05-15T18:34:28.079242+00:00",
   "date": "2026-05-15",
   "stats": {
     "total": 10,
@@ -44,9 +44,15 @@
       "news_score": null,
       "top_news_title": null,
       "top_news_url": null,
-      "status": "open",
+      "status": "expired",
       "issued_at": "2026-05-14T17:17:46.117433",
-      "last_seen": "2026-05-15T18:29:17.865807"
+      "last_seen": "2026-05-15T18:29:17.865807",
+      "current_price": 242.21,
+      "current_price_time": "2026-05-15T18:34:28.079242+00:00",
+      "exit_price": 242.21,
+      "exit_date": "2026-05-15T18:34:28.079242+00:00",
+      "pnl_pct": 3.1,
+      "pnl_pct_live": 3.1
     },
     {
       "ticker": "ADI",
@@ -74,9 +80,15 @@
       "news_score": null,
       "top_news_title": null,
       "top_news_url": null,
-      "status": "open",
+      "status": "expired",
       "issued_at": "2026-05-12T17:19:45.636555",
-      "last_seen": "2026-05-15T18:29:17.865807"
+      "last_seen": "2026-05-15T18:29:17.865807",
+      "current_price": 418.24,
+      "current_price_time": "2026-05-15T18:34:28.079242+00:00",
+      "exit_price": 418.24,
+      "exit_date": "2026-05-15T18:34:28.079242+00:00",
+      "pnl_pct": 1.24,
+      "pnl_pct_live": 1.24
     },
     {
       "ticker": "ADI",
@@ -104,9 +116,15 @@
       "news_score": null,
       "top_news_title": null,
       "top_news_url": null,
-      "status": "open",
+      "status": "expired",
       "issued_at": "2026-05-12T08:22:23.987795",
-      "last_seen": "2026-05-15T18:29:17.865807"
+      "last_seen": "2026-05-15T18:29:17.865807",
+      "current_price": 418.24,
+      "current_price_time": "2026-05-15T18:34:28.079242+00:00",
+      "exit_price": 418.24,
+      "exit_date": "2026-05-15T18:34:28.079242+00:00",
+      "pnl_pct": -1.06,
+      "pnl_pct_live": -1.06
     },
     {
       "ticker": "TTD",
@@ -134,9 +152,15 @@
       "news_score": null,
       "top_news_title": null,
       "top_news_url": null,
-      "status": "open",
+      "status": "expired",
       "issued_at": "2026-05-13T08:26:47.372590",
-      "last_seen": "2026-05-15T18:29:17.865807"
+      "last_seen": "2026-05-15T18:29:17.865807",
+      "current_price": 20.88,
+      "current_price_time": "2026-05-15T18:34:28.079242+00:00",
+      "exit_price": 20.88,
+      "exit_date": "2026-05-15T18:34:28.079242+00:00",
+      "pnl_pct": 1.23,
+      "pnl_pct_live": 1.23
     },
     {
       "ticker": "DLTR",
@@ -173,10 +197,10 @@
       "status": "open",
       "issued_at": "2026-05-14T20:11:28.035335",
       "last_seen": "2026-05-14T20:11:28.036622",
-      "current_price": 89.95,
-      "current_price_time": "2026-05-15T17:50:47.131168+00:00",
-      "pnl_pct_live": 0.02,
-      "progression_pct": 0.2
+      "current_price": 90.07,
+      "current_price_time": "2026-05-15T18:34:28.079242+00:00",
+      "pnl_pct_live": -0.11,
+      "progression_pct": -3.2
     },
     {
       "ticker": "CHTR",
@@ -204,9 +228,15 @@
       "news_score": null,
       "top_news_title": null,
       "top_news_url": null,
-      "status": "open",
+      "status": "expired",
       "issued_at": "2026-05-14T17:17:46.117426",
-      "last_seen": "2026-05-15T18:29:17.865807"
+      "last_seen": "2026-05-15T18:29:17.865807",
+      "current_price": 138.99,
+      "current_price_time": "2026-05-15T18:34:28.079242+00:00",
+      "exit_price": 138.99,
+      "exit_date": "2026-05-15T18:34:28.079242+00:00",
+      "pnl_pct": 6.89,
+      "pnl_pct_live": 6.89
     },
     {
       "ticker": "MELI",
@@ -242,10 +272,10 @@
       "status": "open",
       "issued_at": "2026-05-14T20:11:28.035340",
       "last_seen": "2026-05-14T20:11:28.036622",
-      "current_price": 1551.0,
-      "current_price_time": "2026-05-15T17:50:47.131168+00:00",
-      "pnl_pct_live": 3.51,
-      "progression_pct": 23.4
+      "current_price": 1545.33,
+      "current_price_time": "2026-05-15T18:34:28.079242+00:00",
+      "pnl_pct_live": 3.86,
+      "progression_pct": 25.7
     },
     {
       "ticker": "BNTX",
@@ -273,9 +303,15 @@
       "news_score": null,
       "top_news_title": null,
       "top_news_url": null,
-      "status": "open",
+      "status": "expired",
       "issued_at": "2026-05-13T14:28:49.780072",
-      "last_seen": "2026-05-15T18:29:17.865807"
+      "last_seen": "2026-05-15T18:29:17.865807",
+      "current_price": 89.61,
+      "current_price_time": "2026-05-15T18:34:28.079242+00:00",
+      "exit_price": 89.61,
+      "exit_date": "2026-05-15T18:34:28.079242+00:00",
+      "pnl_pct": 2.81,
+      "pnl_pct_live": 2.81
     },
     {
       "ticker": "DXCM",
@@ -303,9 +339,15 @@
       "news_score": null,
       "top_news_title": null,
       "top_news_url": null,
-      "status": "open",
+      "status": "expired",
       "issued_at": "2026-05-14T17:17:46.117420",
-      "last_seen": "2026-05-15T18:29:17.865807"
+      "last_seen": "2026-05-15T18:29:17.865807",
+      "current_price": 61.11,
+      "current_price_time": "2026-05-15T18:34:28.079242+00:00",
+      "exit_price": 61.11,
+      "exit_date": "2026-05-15T18:34:28.079242+00:00",
+      "pnl_pct": -4.28,
+      "pnl_pct_live": -4.28
     },
     {
       "ticker": "SMCI",
@@ -333,9 +375,15 @@
       "news_score": null,
       "top_news_title": null,
       "top_news_url": null,
-      "status": "open",
+      "status": "expired",
       "issued_at": "2026-05-14T17:17:46.117430",
-      "last_seen": "2026-05-15T18:29:17.865807"
+      "last_seen": "2026-05-15T18:29:17.865807",
+      "current_price": 31.1,
+      "current_price_time": "2026-05-15T18:34:28.079242+00:00",
+      "exit_price": 31.1,
+      "exit_date": "2026-05-15T18:34:28.079242+00:00",
+      "pnl_pct": 4.75,
+      "pnl_pct_live": 4.75
     },
     {
       "ticker": "LRCX",
