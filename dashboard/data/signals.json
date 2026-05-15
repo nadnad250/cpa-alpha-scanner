@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-05-15T14:33:11.093267+00:00",
+  "generated_at": "2026-05-15T15:30:55.391426+00:00",
   "date": "2026-05-15",
   "stats": {
     "total": 10,
@@ -52,10 +52,10 @@
       "status": "open",
       "issued_at": "2026-05-14T17:17:46.117433",
       "last_seen": "2026-05-14T17:17:46.118678",
-      "current_price": 237.2,
-      "current_price_time": "2026-05-15T14:33:11.093267+00:00",
-      "pnl_pct_live": 0.97,
-      "progression_pct": 11.5
+      "current_price": 239.85,
+      "current_price_time": "2026-05-15T15:30:55.391426+00:00",
+      "pnl_pct_live": 2.1,
+      "progression_pct": 24.9
     },
     {
       "ticker": "ADI",
@@ -200,10 +200,10 @@
       "status": "open",
       "issued_at": "2026-05-14T20:11:28.035335",
       "last_seen": "2026-05-14T20:11:28.036622",
-      "current_price": 89.57,
-      "current_price_time": "2026-05-15T14:33:11.093267+00:00",
-      "pnl_pct_live": 0.44,
-      "progression_pct": 4.5
+      "current_price": 90.24,
+      "current_price_time": "2026-05-15T15:30:55.391426+00:00",
+      "pnl_pct_live": -0.3,
+      "progression_pct": -8.5
     },
     {
       "ticker": "CHTR",
@@ -240,10 +240,10 @@
       "status": "open",
       "issued_at": "2026-05-14T17:17:46.117426",
       "last_seen": "2026-05-14T17:17:46.118678",
-      "current_price": 145.0,
-      "current_price_time": "2026-05-15T14:33:11.093267+00:00",
-      "pnl_pct_live": 2.87,
-      "progression_pct": 19.1
+      "current_price": 142.73,
+      "current_price_time": "2026-05-15T15:30:55.391426+00:00",
+      "pnl_pct_live": 4.39,
+      "progression_pct": 29.2
     },
     {
       "ticker": "MELI",
@@ -279,10 +279,10 @@
       "status": "open",
       "issued_at": "2026-05-14T20:11:28.035340",
       "last_seen": "2026-05-14T20:11:28.036622",
-      "current_price": 1576.84,
-      "current_price_time": "2026-05-15T14:33:11.093267+00:00",
-      "pnl_pct_live": 1.9,
-      "progression_pct": 12.7
+      "current_price": 1559.97,
+      "current_price_time": "2026-05-15T15:30:55.391426+00:00",
+      "pnl_pct_live": 2.95,
+      "progression_pct": 19.7
     },
     {
       "ticker": "BNTX",
@@ -391,10 +391,10 @@
       "status": "open",
       "issued_at": "2026-05-14T17:17:46.117430",
       "last_seen": "2026-05-14T17:17:46.118678",
-      "current_price": 31.15,
-      "current_price_time": "2026-05-15T14:33:11.093267+00:00",
-      "pnl_pct_live": 4.59,
-      "progression_pct": 30.6
+      "current_price": 31.23,
+      "current_price_time": "2026-05-15T15:30:55.391426+00:00",
+      "pnl_pct_live": 4.35,
+      "progression_pct": 29.0
     },
     {
       "ticker": "LRCX",
