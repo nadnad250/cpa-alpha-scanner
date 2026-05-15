@@ -150,5 +150,24 @@
     "pnl_pct": null,
     "max_favorable": null,
     "max_adverse": null
+  },
+  {
+    "ticker": "PYPL",
+    "action": "STRONG_SELL",
+    "entry_price": 44.825,
+    "stop_loss": 45.774285370962964,
+    "take_profit": 42.167000961303714,
+    "score": -0.4078626338557566,
+    "confidence": 0.7440973288821738,
+    "universe": "NASDAQ100",
+    "issued_at": "2026-05-15T18:29:17.864954",
+    "horizon_days": 1,
+    "horizon_hours": 24,
+    "status": "open",
+    "exit_price": null,
+    "exit_date": null,
+    "pnl_pct": null,
+    "max_favorable": null,
+    "max_adverse": null
   }
 ]
