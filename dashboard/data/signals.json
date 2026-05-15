@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-05-15T17:05:11.595410+00:00",
+  "generated_at": "2026-05-15T17:08:21.648515",
   "date": "2026-05-15",
   "stats": {
     "total": 10,
@@ -83,15 +83,9 @@
       "news_score": null,
       "top_news_title": null,
       "top_news_url": null,
-      "status": "expired",
+      "status": "open",
       "issued_at": "2026-05-12T17:19:45.636555",
-      "last_seen": "2026-05-15T15:46:26.634457",
-      "current_price": 419.07,
-      "current_price_time": "2026-05-15T16:21:12.048115+00:00",
-      "exit_price": 419.07,
-      "exit_date": "2026-05-15T16:21:12.048115+00:00",
-      "pnl_pct": 1.44,
-      "pnl_pct_live": 1.44
+      "last_seen": "2026-05-15T17:08:21.648515"
     },
     {
       "ticker": "ADI",
@@ -119,15 +113,9 @@
       "news_score": null,
       "top_news_title": null,
       "top_news_url": null,
-      "status": "expired",
+      "status": "open",
       "issued_at": "2026-05-12T08:22:23.987795",
-      "last_seen": "2026-05-15T15:46:26.634457",
-      "current_price": 419.07,
-      "current_price_time": "2026-05-15T16:21:12.048115+00:00",
-      "exit_price": 419.07,
-      "exit_date": "2026-05-15T16:21:12.048115+00:00",
-      "pnl_pct": -0.87,
-      "pnl_pct_live": -0.87
+      "last_seen": "2026-05-15T17:08:21.648515"
     },
     {
       "ticker": "TTD",
@@ -155,15 +143,9 @@
       "news_score": null,
       "top_news_title": null,
       "top_news_url": null,
-      "status": "expired",
+      "status": "open",
       "issued_at": "2026-05-13T08:26:47.372590",
-      "last_seen": "2026-05-15T15:46:26.634457",
-      "current_price": 20.75,
-      "current_price_time": "2026-05-15T16:21:12.048115+00:00",
-      "exit_price": 20.75,
-      "exit_date": "2026-05-15T16:21:12.048115+00:00",
-      "pnl_pct": 1.84,
-      "pnl_pct_live": 1.84
+      "last_seen": "2026-05-15T17:08:21.648515"
     },
     {
       "ticker": "DLTR",
@@ -310,15 +292,9 @@
       "news_score": null,
       "top_news_title": null,
       "top_news_url": null,
-      "status": "expired",
+      "status": "open",
       "issued_at": "2026-05-13T14:28:49.780072",
-      "last_seen": "2026-05-15T15:46:26.634457",
-      "current_price": 89.03,
-      "current_price_time": "2026-05-15T16:21:12.048115+00:00",
-      "exit_price": 89.03,
-      "exit_date": "2026-05-15T16:21:12.048115+00:00",
-      "pnl_pct": 3.44,
-      "pnl_pct_live": 3.44
+      "last_seen": "2026-05-15T17:08:21.648515"
     },
     {
       "ticker": "DXCM",
@@ -346,15 +322,9 @@
       "news_score": null,
       "top_news_title": null,
       "top_news_url": null,
-      "status": "sl_hit",
+      "status": "open",
       "issued_at": "2026-05-14T17:17:46.117420",
-      "last_seen": "2026-05-15T15:46:26.634457",
-      "current_price": 61.91,
-      "current_price_time": "2026-05-15T16:21:12.048115+00:00",
-      "exit_price": 60.44,
-      "exit_date": "2026-05-15T16:21:12.048115+00:00",
-      "pnl_pct": -3.14,
-      "pnl_pct_live": -3.14
+      "last_seen": "2026-05-15T17:08:21.648515"
     },
     {
       "ticker": "SMCI",
@@ -604,13 +574,13 @@
       "top_news_url": null,
       "status": "expired",
       "issued_at": "2026-05-12T17:19:45.636555",
-      "last_seen": "2026-05-15T14:26:44.728842",
-      "current_price": 418.34,
-      "current_price_time": "2026-05-15T14:33:11.093267+00:00",
-      "exit_price": 418.34,
-      "exit_date": "2026-05-15T14:33:11.093267+00:00",
-      "pnl_pct": 1.27,
-      "pnl_pct_live": 1.27
+      "last_seen": "2026-05-15T15:46:26.634457",
+      "current_price": 419.07,
+      "current_price_time": "2026-05-15T16:21:12.048115+00:00",
+      "exit_price": 419.07,
+      "exit_date": "2026-05-15T16:21:12.048115+00:00",
+      "pnl_pct": 1.44,
+      "pnl_pct_live": 1.44
     },
     {
       "ticker": "MRVL",
@@ -786,13 +756,13 @@
       "top_news_url": null,
       "status": "expired",
       "issued_at": "2026-05-12T08:22:23.987795",
-      "last_seen": "2026-05-15T14:26:44.728842",
-      "current_price": 418.34,
-      "current_price_time": "2026-05-15T14:33:11.093267+00:00",
-      "exit_price": 418.34,
-      "exit_date": "2026-05-15T14:33:11.093267+00:00",
-      "pnl_pct": -1.04,
-      "pnl_pct_live": -1.04
+      "last_seen": "2026-05-15T15:46:26.634457",
+      "current_price": 419.07,
+      "current_price_time": "2026-05-15T16:21:12.048115+00:00",
+      "exit_price": 419.07,
+      "exit_date": "2026-05-15T16:21:12.048115+00:00",
+      "pnl_pct": -0.87,
+      "pnl_pct_live": -0.87
     },
     {
       "ticker": "ADI",
@@ -894,13 +864,13 @@
       "top_news_url": null,
       "status": "expired",
       "issued_at": "2026-05-13T08:26:47.372590",
-      "last_seen": "2026-05-15T14:26:44.728842",
-      "current_price": 20.78,
-      "current_price_time": "2026-05-15T14:33:11.093267+00:00",
-      "exit_price": 20.78,
-      "exit_date": "2026-05-15T14:33:11.093267+00:00",
-      "pnl_pct": 1.7,
-      "pnl_pct_live": 1.7
+      "last_seen": "2026-05-15T15:46:26.634457",
+      "current_price": 20.75,
+      "current_price_time": "2026-05-15T16:21:12.048115+00:00",
+      "exit_price": 20.75,
+      "exit_date": "2026-05-15T16:21:12.048115+00:00",
+      "pnl_pct": 1.84,
+      "pnl_pct_live": 1.84
     },
     {
       "ticker": "OKTA",
@@ -1078,13 +1048,13 @@
       "top_news_url": null,
       "status": "expired",
       "issued_at": "2026-05-13T14:28:49.780072",
-      "last_seen": "2026-05-15T14:26:44.728842",
-      "current_price": 89.4,
-      "current_price_time": "2026-05-15T14:33:11.093267+00:00",
-      "exit_price": 89.4,
-      "exit_date": "2026-05-15T14:33:11.093267+00:00",
-      "pnl_pct": 3.04,
-      "pnl_pct_live": 3.04
+      "last_seen": "2026-05-15T15:46:26.634457",
+      "current_price": 89.03,
+      "current_price_time": "2026-05-15T16:21:12.048115+00:00",
+      "exit_price": 89.03,
+      "exit_date": "2026-05-15T16:21:12.048115+00:00",
+      "pnl_pct": 3.44,
+      "pnl_pct_live": 3.44
     },
     {
       "ticker": "TEAM",
@@ -1456,11 +1426,11 @@
       "top_news_url": null,
       "status": "sl_hit",
       "issued_at": "2026-05-14T17:17:46.117420",
-      "last_seen": "2026-05-15T14:26:44.728842",
-      "current_price": 62.12,
-      "current_price_time": "2026-05-15T14:33:11.093267+00:00",
+      "last_seen": "2026-05-15T15:46:26.634457",
+      "current_price": 61.91,
+      "current_price_time": "2026-05-15T16:21:12.048115+00:00",
       "exit_price": 60.44,
-      "exit_date": "2026-05-15T14:33:11.093267+00:00",
+      "exit_date": "2026-05-15T16:21:12.048115+00:00",
       "pnl_pct": -3.14,
       "pnl_pct_live": -3.14
     },
