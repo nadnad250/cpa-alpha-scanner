@@ -68,7 +68,7 @@ class AlphaForgeBot:
             self._track_stats = self.tracker.performance_stats(lookback_days=90)
         except Exception:
             self._track_stats = None
-        self._send(self.msg.startup(stats=self._track_stats))
+        # Plus de startup() : la session_banner émise dans _run_cycle contient tout.
         logger.info("AlphaForge Bot démarré (NASDAQ INTRADAY)")
 
         try:
@@ -188,7 +188,7 @@ class AlphaForgeBot:
         n_to_send = min(len(fresh_signals), MAX_GLOBAL_ALERTS, slots_libres)
         to_send = fresh_signals[:n_to_send]
 
-        # ── ENVOI TELEGRAM ─────────────────────────────────────────
+        # ── ENVOI TELEGRAM (1 banner + N signaux, sans répétitions) ─
         sent_ok: list = []
         if not to_send:
             self._send(self.msg.no_new_signals(
@@ -196,27 +196,30 @@ class AlphaForgeBot:
                 dedup_skipped=skipped,
             ))
         else:
-            self._send(self._build_header(
+            # Tri LONG d'abord, SHORT ensuite (au sein de chaque groupe : score décr.)
+            buys  = sorted([o for o in to_send if o.action in ("BUY", "STRONG_BUY")],
+                           key=lambda o: -abs(o.score or 0))
+            sells = sorted([o for o in to_send if o.action in ("SELL", "STRONG_SELL")],
+                           key=lambda o: -abs(o.score or 0))
+
+            # 1 SEUL banner (date + counts + track record + positions)
+            self._send(self.msg.session_banner(
                 n_signals=len(to_send),
-                open_count=len(open_tickers),
-                slots_libres=slots_libres,
+                n_long=len(buys),
+                n_short=len(sells),
+                n_analyzed=total_analyzed,
+                n_open=len(open_tickers),
+                max_open=MAX_OPEN_SIGNALS,
+                stats=getattr(self, "_track_stats", None),
             ))
-            buys = [o for o in to_send if o.action in ("BUY", "STRONG_BUY")]
-            sells = [o for o in to_send if o.action in ("SELL", "STRONG_SELL")]
 
-            if buys:
-                self._send("\n🟢 <b>OPPORTUNITÉS LONG</b>\n" + ProMessageBuilder.DIVIDER)
-                for i, o in enumerate(buys, 1):
-                    if self._send(self.msg.premium_signal(o, i)):
-                        sent_ok.append(o)
-                    time.sleep(0.5)
-
-            if sells:
-                self._send("\n🔴 <b>OPPORTUNITÉS SHORT</b>\n" + ProMessageBuilder.DIVIDER)
-                for i, o in enumerate(sells, 1):
-                    if self._send(self.msg.premium_signal(o, i)):
-                        sent_ok.append(o)
-                    time.sleep(0.5)
+            # Signaux LONG puis SHORT — emoji différencie déjà l'action
+            rank = 1
+            for o in buys + sells:
+                if self._send(self.msg.signal_line(o, rank)):
+                    sent_ok.append(o)
+                rank += 1
+                time.sleep(0.5)
 
         # 3) Marquer comme envoyé UNIQUEMENT ceux réellement transmis
         if sent_ok:
@@ -256,21 +259,8 @@ class AlphaForgeBot:
             dashboard_path=DASHBOARD_PATH or None,
         )
 
-        # ── RÉSUMÉ FINAL (concis) ──────────────────────────────────
-        self._send(self.msg.market_summary(
-            all_opportunities, total_analyzed, len(premium),
-            stats=getattr(self, "_track_stats", None),
-        ))
-        self._send(self.msg.footer())
-
-    def _build_header(self, n_signals: int, open_count: int, slots_libres: int) -> str:
-        return (
-            f"💎 <b>{n_signals} NOUVEAU{'X' if n_signals > 1 else ''} SIGNAL"
-            f"{'S' if n_signals > 1 else ''} INTRADAY</b>\n"
-            f"{ProMessageBuilder.DIVIDER}\n"
-            f"📂 Positions : {open_count}/{open_count + slots_libres} · "
-            f"⏱ Horizon 24h max"
-        )
+        # Pas de market_summary ni footer : la session_banner émise en tête
+        # contient déjà tous les compteurs (signaux/long/short/analysés/positions/track).
 
     def _send(self, text: str) -> bool:
         """Envoie un message Telegram. Retourne True si OK, False sinon."""
