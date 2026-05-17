@@ -38,7 +38,7 @@ def compute_stops(
     prices: pd.Series,
     entry_price: float,
     action: str,
-    target_rr: float = 2.8,
+    target_rr: float = 2.5,   # Bug #7 : aligné sur PREMIUM_MIN_RR=2.5
 ) -> Dict[str, float]:
     """
     Calcule SL/TP ajustés pour INTRADAY (24h max horizon).

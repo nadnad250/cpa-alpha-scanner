@@ -162,9 +162,21 @@ class CPACalculator:
             result.n_signals += 1
 
         # ── Composant 3 : Mean Reversion (OU) ─────────────────────────────────
+        # Bug #4 fix : dampening du signal SELL en tendance haussière établie.
+        # Sur NDX en uptrend, OU pousse structurellement SELL (prix > moyenne LT).
+        # Si SMA50 > SMA200 de >3%, on divise par 2 les signaux NÉGATIFS de OU
+        # (mais on garde les signaux BUY intacts — un dip dans un uptrend = vrai BUY).
         if not prices.empty:
             ou_signal = self.ou_model.mean_reversion_signal(prices)
             if ou_signal is not None:
+                if ou_signal < 0 and len(prices) >= 200:
+                    try:
+                        sma50  = float(prices.tail(50).mean())
+                        sma200 = float(prices.tail(200).mean())
+                        if sma200 > 0 and (sma50 / sma200 - 1) > 0.03:
+                            ou_signal = ou_signal * 0.5   # dampen sell en uptrend
+                    except Exception:
+                        pass
                 result.mean_reversion = self.w3 * ou_signal
                 alpha += result.mean_reversion
                 weights_used += self.w3

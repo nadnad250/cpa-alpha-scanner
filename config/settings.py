@@ -33,6 +33,17 @@ MAX_OPEN_SIGNALS       = 10
 # Le bot scanne 4×/jour, mais ne notifie que les nouveautés.
 TELEGRAM_DEDUP_HOURS   = 24       # cooldown par (ticker, action)
 
+# === VIX GATING (B2) — capital preservation en risk-off ===
+# Si VIX > VIX_RISK_OFF, on désactive les nouveaux SHORT (squeeze risk)
+# et on divise la taille des positions par 2.
+VIX_RISK_OFF           = 25.0
+VIX_PANIC              = 35.0     # > VIX_PANIC : aucun nouveau signal envoyé
+
+# === TRAILING BREAK-EVEN (B3) ===
+# Quand le live_price atteint TRAIL_TRIGGER_PCT × (TP - Entry), on remonte
+# le SL au prix d'entrée (verrouille no-loss).
+TRAIL_TRIGGER_PCT      = 0.50     # 50% du chemin vers TP
+
 # === HORIZON INTRADAY ===
 # Le bot opère en intraday : tout signal doit être clôturé dans 24h max.
 # Si TP/SL pas atteints en 24h → auto-clôture au prix courant (time stop).
@@ -62,11 +73,15 @@ COST_OF_EQUITY = float(os.getenv("COST_OF_EQUITY", "0.09"))   # 9%
 TERMINAL_GROWTH = 0.025                                          # 2.5%
 FORECAST_HORIZON = 5                                             # années
 
-# Poids CPA — optimisés via back-test
-W1 = 0.35   # Value Gap
-W2 = 0.25   # Factor Premia
-W3 = 0.20   # Mean Reversion (OU)
-W4 = 0.20   # Information Flow (Kalman)
+# Poids CPA — INTRADAY (Bug #4 : fix biais all-SELL)
+# Ancien (swing/multi-day) : 0.35 / 0.25 / 0.20 / 0.20
+# Le OU mean-reversion (W3) crée un biais SELL structurel sur le NASDAQ
+# car les NDX caps sont quasi-toujours au-dessus de leur moyenne long-terme.
+# Sur intraday, momentum (info_flow Kalman) prime largement sur value/OU.
+W1 = 0.15   # Value Gap            (0.35 → 0.15) : fondamental compte peu sur 24h
+W2 = 0.30   # Factor Premia        (0.25 → 0.30) : momentum FF/MOM moyen-terme
+W3 = 0.10   # Mean Reversion (OU)  (0.20 → 0.10) : réduit pour éviter biais SELL
+W4 = 0.45   # Information Flow     (0.20 → 0.45) : KALMAN = ROI de l'intraday
 
 LAMBDA_RISK = 0.10  # pénalité variance
 

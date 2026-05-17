@@ -29,12 +29,13 @@ from config.settings import (
     UNIVERSES, TOP_PER_UNIVERSE, PREMIUM_MIN_SCORE,
     PREMIUM_MIN_CONFIDENCE, PREMIUM_MIN_RR, MAX_GLOBAL_ALERTS,
     MAX_PER_SECTOR, MAX_OPEN_SIGNALS, TELEGRAM_DEDUP_HOURS,
+    VIX_RISK_OFF, VIX_PANIC,
 )
 from src.agents.scanner_agent import ScannerAgent
 from src.notifications.telegram_bot import TelegramNotifier
 from src.notifications.pro_messages import ProMessageBuilder
 from src.notifications.telegram_dedup import (
-    filter_new_signals, get_open_tickers_from_signals_json,
+    select_new_signals, mark_as_sent, get_open_tickers_from_signals_json,
 )
 from src.tracking.signal_tracker import SignalTracker, TrackedSignal
 from src.notifications.dashboard_exporter import export_to_dashboard
@@ -90,10 +91,34 @@ class AlphaForgeBot:
         except KeyboardInterrupt:
             self._send("⏸ Bot arrêté")
 
+    def _read_vix(self) -> float | None:
+        """Lit le VIX depuis macro.json (mis à jour toutes les 6h)."""
+        try:
+            macro_path = Path(__file__).parent / "dashboard" / "data" / "macro.json"
+            if not macro_path.exists():
+                return None
+            import json as _json
+            data = _json.loads(macro_path.read_text(encoding="utf-8"))
+            v = data.get("vix")
+            return float(v) if v is not None else None
+        except Exception:
+            return None
+
     def _run_cycle(self):
         max_tickers = 15 if self.test_mode else None
         all_opportunities = []
         total_analyzed = 0
+
+        # ── VIX GATING (B2) ────────────────────────────────────────
+        vix = self._read_vix()
+        if vix is not None and vix > VIX_PANIC:
+            logger.warning(f"⛔ VIX = {vix:.1f} > {VIX_PANIC} (PANIC) — aucun nouveau signal")
+            self._send(
+                f"⛔ <b>VIX = {vix:.1f}</b> · marché en panique\n"
+                f"{ProMessageBuilder.DIVIDER}\n"
+                f"Aucun nouveau signal envoyé pour préserver le capital."
+            )
+            return
 
         # Scan NASDAQ uniquement (univers défini en settings)
         for universe in UNIVERSES:
@@ -119,6 +144,14 @@ class AlphaForgeBot:
             and o.action in ("STRONG_BUY", "BUY", "STRONG_SELL", "SELL")
         ]
 
+        # B2 : VIX en zone "risk-off" → on désactive les SHORTs (risque squeeze)
+        if vix is not None and vix > VIX_RISK_OFF:
+            n_before = len(premium_raw)
+            premium_raw = [o for o in premium_raw if o.action not in ("SELL", "STRONG_SELL")]
+            n_dropped = n_before - len(premium_raw)
+            if n_dropped:
+                logger.info(f"⚠️ VIX = {vix:.1f} > {VIX_RISK_OFF} : {n_dropped} SHORTs désactivés")
+
         # Tri qualité décroissante
         premium_raw.sort(
             key=lambda o: abs(o.score or 0) * (o.confidence or 0),
@@ -140,50 +173,55 @@ class AlphaForgeBot:
             logger.info(f"🏷 Diversification : {n_dropped} retirés (max {MAX_PER_SECTOR}/secteur)")
         logger.info(f"💎 {len(premium)} signaux premium / {len(all_opportunities)}")
 
-        # ── DÉDUP TELEGRAM ─────────────────────────────────────────
-        # Skip les tickers déjà ouverts ou notifiés < TELEGRAM_DEDUP_HOURS
+        # ── DÉDUP TELEGRAM (Bug #3 — split filter/mark) ────────────
+        # 1) Sélection PURE (sans écrire le state)
         open_tickers = get_open_tickers_from_signals_json(DASHBOARD_SIGNALS_PATH)
         before = len(premium)
-        fresh_signals = filter_new_signals(
+        fresh_signals = select_new_signals(
             premium, open_tickers, cooldown_hours=TELEGRAM_DEDUP_HOURS,
         )
         skipped = before - len(fresh_signals)
         logger.info(f"🔁 Dédup : {skipped} skippés (déjà notifiés/ouverts)")
 
-        # Limite : on n'envoie au max que MAX_GLOBAL_ALERTS nouveaux signaux
-        # (le tracker capera de toute façon à MAX_OPEN_SIGNALS au total)
+        # 2) Limite finale = min(frais, MAX_GLOBAL_ALERTS, slots libres)
         slots_libres = max(0, MAX_OPEN_SIGNALS - len(open_tickers))
         n_to_send = min(len(fresh_signals), MAX_GLOBAL_ALERTS, slots_libres)
         to_send = fresh_signals[:n_to_send]
 
         # ── ENVOI TELEGRAM ─────────────────────────────────────────
+        sent_ok: list = []
         if not to_send:
             self._send(self.msg.no_new_signals(
                 open_count=len(open_tickers),
                 dedup_skipped=skipped,
             ))
         else:
-            # Header unique
             self._send(self._build_header(
                 n_signals=len(to_send),
                 open_count=len(open_tickers),
                 slots_libres=slots_libres,
             ))
-            # Séparation BUY / SELL
             buys = [o for o in to_send if o.action in ("BUY", "STRONG_BUY")]
             sells = [o for o in to_send if o.action in ("SELL", "STRONG_SELL")]
 
             if buys:
                 self._send("\n🟢 <b>OPPORTUNITÉS LONG</b>\n" + ProMessageBuilder.DIVIDER)
                 for i, o in enumerate(buys, 1):
-                    self._send(self.msg.premium_signal(o, i))
+                    if self._send(self.msg.premium_signal(o, i)):
+                        sent_ok.append(o)
                     time.sleep(0.5)
 
             if sells:
                 self._send("\n🔴 <b>OPPORTUNITÉS SHORT</b>\n" + ProMessageBuilder.DIVIDER)
                 for i, o in enumerate(sells, 1):
-                    self._send(self.msg.premium_signal(o, i))
+                    if self._send(self.msg.premium_signal(o, i)):
+                        sent_ok.append(o)
                     time.sleep(0.5)
+
+        # 3) Marquer comme envoyé UNIQUEMENT ceux réellement transmis
+        if sent_ok:
+            mark_as_sent(sent_ok, cooldown_hours=TELEGRAM_DEDUP_HOURS)
+            logger.info(f"✅ State dédup mis à jour pour {len(sent_ok)} signaux envoyés")
 
         # ── PERSISTANCE TRACKER + DASHBOARD ────────────────────────
         actionable = [
@@ -199,6 +237,11 @@ class AlphaForgeBot:
                     confidence=o.confidence, universe=o.universe,
                     issued_at=datetime.utcnow().isoformat(),
                     horizon_days=1, horizon_hours=24,
+                    # Bug #2 + #5 : préserver sector + ml_proba + RR + reason
+                    sector=getattr(o, "sector", "") or "",
+                    ml_proba_up=getattr(o, "ml_proba_up", None),
+                    risk_reward=getattr(o, "risk_reward", None),
+                    primary_reason=getattr(o, "primary_reason", "") or "",
                 )
                 for o in actionable
             ]
@@ -229,13 +272,17 @@ class AlphaForgeBot:
             f"⏱ Horizon 24h max"
         )
 
-    def _send(self, text: str):
+    def _send(self, text: str) -> bool:
+        """Envoie un message Telegram. Retourne True si OK, False sinon."""
         if not text or not text.strip():
-            return
+            return False
         ok = self.notifier.send_chunk(text)
         if ok:
             logger.info(f"📤 Envoyé ({len(text)} chars)")
+        else:
+            logger.warning("📤 Envoi Telegram échoué")
         time.sleep(0.5)
+        return bool(ok)
 
 
 def parse_args():

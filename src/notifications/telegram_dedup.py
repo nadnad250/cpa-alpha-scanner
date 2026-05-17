@@ -43,7 +43,7 @@ def _key(ticker: str, action: str) -> str:
     return f"{ticker.upper()}:{action.upper()}"
 
 
-def filter_new_signals(
+def select_new_signals(
     opportunities: Iterable,
     open_tickers: set[str],
     cooldown_hours: int = 24,
@@ -53,18 +53,15 @@ def filter_new_signals(
     1) Ne sont pas déjà ouverts (open_tickers = ce qu'a le tracker)
     2) N'ont pas été envoyés sur Telegram récemment (cooldown_hours)
 
-    Met à jour atomiquement le state pour les signaux retenus.
+    PURE FUNCTION : ne modifie PAS le state. Le caller doit appeler
+    `mark_as_sent()` UNIQUEMENT pour les signaux réellement envoyés.
+
+    Cela évite le bug "fantôme envoyé" où un signal recalé par
+    `MAX_OPEN_SIGNALS` était marqué comme envoyé sans l'être.
     """
     state = _load_state()
     now = datetime.utcnow()
     cutoff = now - timedelta(hours=cooldown_hours)
-
-    # Purge des entrées trop vieilles (économise du JSON)
-    purge_cutoff = now - timedelta(hours=cooldown_hours * 4)
-    state = {
-        k: v for k, v in state.items()
-        if _try_parse(v) and _try_parse(v) > purge_cutoff
-    }
 
     fresh = []
     for o in opportunities:
@@ -80,11 +77,47 @@ def filter_new_signals(
         if last and last > cutoff:
             logger.info(f"⏭ skip {key} : envoyé il y a {(now-last).total_seconds()/3600:.1f}h")
             continue
-        # Retenu !
-        state[key] = now.isoformat()
         fresh.append(o)
+    return fresh
 
+
+def mark_as_sent(opportunities: Iterable, cooldown_hours: int = 24) -> int:
+    """
+    Marque les opportunités comme envoyées (timestamp = now).
+    À appeler APRÈS l'envoi Telegram réussi.
+
+    Purge également les entrées plus vieilles que 4× le cooldown
+    pour garder le JSON compact.
+    """
+    state = _load_state()
+    now = datetime.utcnow()
+    purge_cutoff = now - timedelta(hours=cooldown_hours * 4)
+
+    # Purge
+    state = {
+        k: v for k, v in state.items()
+        if _try_parse(v) and _try_parse(v) > purge_cutoff
+    }
+
+    n = 0
+    for o in opportunities:
+        if not getattr(o, "ticker", None) or not getattr(o, "action", None):
+            continue
+        state[_key(o.ticker, o.action)] = now.isoformat()
+        n += 1
     _save_state(state)
+    return n
+
+
+# Backward-compat alias : pour ne pas casser d'éventuels imports externes
+def filter_new_signals(
+    opportunities: Iterable,
+    open_tickers: set[str],
+    cooldown_hours: int = 24,
+) -> list:
+    """DEPRECATED : utiliser select_new_signals + mark_as_sent."""
+    fresh = select_new_signals(opportunities, open_tickers, cooldown_hours)
+    mark_as_sent(fresh, cooldown_hours)
     return fresh
 
 

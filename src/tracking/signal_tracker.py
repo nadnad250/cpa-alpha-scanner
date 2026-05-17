@@ -27,6 +27,22 @@ SIGNALS_DIR = Path(__file__).resolve().parents[2] / "data" / "signals"
 SIGNALS_DIR.mkdir(parents=True, exist_ok=True)
 
 
+def _safe_make_signal(item: dict):
+    """Construit un TrackedSignal en ignorant les champs inconnus du dataclass.
+
+    Permet la rétrocompat : un vieux fichier sans `sector`/`ml_proba_up` charge
+    quand même, et les nouveaux champs prennent leurs valeurs par défaut.
+    """
+    try:
+        import dataclasses as _dc
+        allowed = {f.name for f in _dc.fields(TrackedSignal)}
+        filtered = {k: v for k, v in item.items() if k in allowed}
+        return TrackedSignal(**filtered)
+    except Exception as e:
+        logger.debug(f"Skip signal item: {e}")
+        return None
+
+
 @dataclass
 class TrackedSignal:
     ticker: str
@@ -47,6 +63,11 @@ class TrackedSignal:
     pnl_pct: Optional[float] = None
     max_favorable: Optional[float] = None  # meilleur gain atteint
     max_adverse: Optional[float] = None    # pire perte atteinte
+    # Champs métiers persistés (Bug #2 + #5 — sinon ils disparaissent au reload)
+    sector: str = ""
+    ml_proba_up: Optional[float] = None
+    risk_reward: Optional[float] = None
+    primary_reason: str = ""
 
 
 class SignalTracker:
@@ -80,7 +101,9 @@ class SignalTracker:
                     continue
                 data = json.loads(f.read_text(encoding="utf-8"))
                 for item in data:
-                    sig = TrackedSignal(**item)
+                    sig = _safe_make_signal(item)
+                    if sig is None:
+                        continue
                     if sig.status == "open":
                         open_signals.append(sig)
             except Exception as e:
@@ -99,7 +122,9 @@ class SignalTracker:
                     continue
                 data = json.loads(f.read_text(encoding="utf-8"))
                 for item in data:
-                    sig = TrackedSignal(**item)
+                    sig = _safe_make_signal(item)
+                    if sig is None:
+                        continue
                     if sig.status != "open":
                         closed.append(sig)
             except Exception as e:

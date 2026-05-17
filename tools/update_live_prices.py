@@ -131,6 +131,22 @@ def main() -> int:
             else:
                 sig["pnl_pct_live"] = round(((entry - current) / entry) * 100, 2)
 
+        # ─── B3 : TRAILING BREAK-EVEN ──────────────────────────────
+        # Quand le prix a parcouru ≥ 50% du chemin vers TP, on remonte
+        # le SL au prix d'entrée (verrouille no-loss). Une seule fois.
+        if entry and tp and sl and not sig.get("be_locked"):
+            try:
+                if is_buy:
+                    reached = (current - entry) / max(1e-9, tp - entry)
+                else:
+                    reached = (entry - current) / max(1e-9, entry - tp)
+                if reached >= 0.5:
+                    sig["stop_loss"] = entry
+                    sig["be_locked"] = True
+                    log.info(f"  🔒 {ticker} : break-even verrouillé (SL = entry ${entry})")
+            except Exception:
+                pass
+
         # Progression vers TP (+100%) ou SL (-100%)
         if entry and tp and sl:
             if is_buy:
@@ -147,6 +163,34 @@ def main() -> int:
 
         updated += 1
 
+    # Bug #1 fix : recalculer les stats après auto-clôture pour cohérence
+    # (sinon active_positions reste figé à la valeur écrite par bot_loop)
+    open_now = [s for s in signals if s.get("status") == "open"]
+    tp_hits  = [s for s in signals if s.get("status") == "tp_hit"]
+    sl_hits  = [s for s in signals if s.get("status") == "sl_hit"]
+    n_open = len(open_now)
+    n_closed_today = len(tp_hits) + len(sl_hits)
+    win_rate = round(len(tp_hits) / n_closed_today, 3) if n_closed_today else 0.0
+
+    def _pnl(s):
+        v = s.get("pnl_pct")
+        return float(v) if isinstance(v, (int, float)) else 0.0
+    daily_pnl_pct = sum(_pnl(s) for s in tp_hits + sl_hits)
+
+    # Sécurise dict.stats / dict.eod
+    stats = data.setdefault("stats", {})
+    eod   = data.setdefault("eod", {})
+    stats["active_positions"] = n_open
+    stats["total"]            = n_open
+    stats["buy_signals"]      = sum(1 for s in open_now if (s.get("score") or 0) > 0)
+    stats["sell_signals"]     = sum(1 for s in open_now if (s.get("score") or 0) < 0)
+    stats["win_rate"]         = win_rate
+    stats["daily_pnl"]        = round(daily_pnl_pct / 100, 4)
+    eod["tp_hit"]             = len(tp_hits)
+    eod["sl_hit"]             = len(sl_hits)
+    eod["open"]               = n_open
+    eod["cumulative_pnl"]     = round(daily_pnl_pct / 100, 4)
+
     # Marque la date de génération
     data["generated_at"] = now_iso
 
@@ -157,6 +201,7 @@ def main() -> int:
     msg = f"✅ {updated} signaux mis à jour avec prix live ({len(latest_prices)}/{len(tickers)} fetchés)"
     if auto_closed:
         msg += f" · 🎯 {auto_closed} AUTO-CLÔTURÉS (TP/SL touchés)"
+    msg += f" · 📊 stats recalc : {n_open} open, {len(tp_hits)} tp, {len(sl_hits)} sl"
     log.info(msg)
     return 0
 
