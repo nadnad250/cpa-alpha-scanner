@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-05-18T12:44:19.446027+00:00",
+  "generated_at": "2026-05-18T14:03:20.401684+00:00",
   "date": "2026-05-18",
   "stats": {
     "total": 10,
@@ -49,10 +49,10 @@
       "status": "open",
       "issued_at": "2026-05-17T22:38:28.675510",
       "last_seen": "2026-05-18T08:49:11.569075",
-      "current_price": 118.25,
-      "current_price_time": "2026-05-18T12:44:19.446027+00:00",
-      "pnl_pct_live": 0.03,
-      "progression_pct": 0.3
+      "current_price": 116.44,
+      "current_price_time": "2026-05-18T14:03:20.401684+00:00",
+      "pnl_pct_live": -1.5,
+      "progression_pct": -32.5
     },
     {
       "ticker": "MU",
@@ -86,10 +86,10 @@
       "status": "open",
       "issued_at": "2026-05-17T22:38:28.675493",
       "last_seen": "2026-05-17T22:38:28.676339",
-      "current_price": 724.12,
-      "current_price_time": "2026-05-18T12:44:19.446027+00:00",
-      "pnl_pct_live": -0.07,
-      "progression_pct": -1.5
+      "current_price": 715.36,
+      "current_price_time": "2026-05-18T14:03:20.401684+00:00",
+      "pnl_pct_live": -1.28,
+      "progression_pct": -25.7
     },
     {
       "ticker": "CRWD",
@@ -124,10 +124,10 @@
       "status": "open",
       "issued_at": "2026-05-17T22:38:28.675515",
       "last_seen": "2026-05-18T08:49:11.569075",
-      "current_price": 594.33,
-      "current_price_time": "2026-05-18T12:44:19.446027+00:00",
-      "pnl_pct_live": 0.04,
-      "progression_pct": 0.5
+      "current_price": 609.72,
+      "current_price_time": "2026-05-18T14:03:20.401684+00:00",
+      "pnl_pct_live": 2.63,
+      "progression_pct": 33.4
     },
     {
       "ticker": "GOOGL",
@@ -160,10 +160,10 @@
       "status": "open",
       "issued_at": "2026-05-17T22:38:28.675522",
       "last_seen": "2026-05-18T08:49:11.569075",
-      "current_price": 396.79,
-      "current_price_time": "2026-05-18T12:44:19.446027+00:00",
-      "pnl_pct_live": 0.0,
-      "progression_pct": 0.0
+      "current_price": 404.58,
+      "current_price_time": "2026-05-18T14:03:20.401684+00:00",
+      "pnl_pct_live": 1.97,
+      "progression_pct": 32.0
     },
     {
       "ticker": "PANW",
@@ -198,10 +198,10 @@
       "status": "open",
       "issued_at": "2026-05-17T22:38:28.675518",
       "last_seen": "2026-05-17T22:38:28.676339",
-      "current_price": 242.83,
-      "current_price_time": "2026-05-18T12:44:19.446027+00:00",
-      "pnl_pct_live": 0.0,
-      "progression_pct": 0.0
+      "current_price": 243.62,
+      "current_price_time": "2026-05-18T14:03:20.401684+00:00",
+      "pnl_pct_live": 0.33,
+      "progression_pct": 4.2
     },
     {
       "ticker": "RIOT",
@@ -236,10 +236,10 @@
       "status": "open",
       "issued_at": "2026-05-17T22:38:28.675529",
       "last_seen": "2026-05-18T08:49:11.569075",
-      "current_price": 23.47,
-      "current_price_time": "2026-05-18T12:44:19.446027+00:00",
-      "pnl_pct_live": -0.09,
-      "progression_pct": -1.7
+      "current_price": 22.91,
+      "current_price_time": "2026-05-18T14:03:20.401684+00:00",
+      "pnl_pct_live": -2.47,
+      "progression_pct": -49.6
     },
     {
       "ticker": "ROKU",
@@ -272,10 +272,10 @@
       "status": "open",
       "issued_at": "2026-05-17T22:38:28.675533",
       "last_seen": "2026-05-18T08:49:11.569075",
-      "current_price": 123.95,
-      "current_price_time": "2026-05-18T12:44:19.446027+00:00",
-      "pnl_pct_live": -0.06,
-      "progression_pct": -2.1
+      "current_price": 125.75,
+      "current_price_time": "2026-05-18T14:03:20.401684+00:00",
+      "pnl_pct_live": 1.39,
+      "progression_pct": 20.8
     },
     {
       "ticker": "MNST",
@@ -306,10 +306,10 @@
       "status": "open",
       "issued_at": "2026-05-17T22:38:28.675541",
       "last_seen": "2026-05-18T08:49:11.569075",
-      "current_price": 87.09,
-      "current_price_time": "2026-05-18T12:44:19.446027+00:00",
-      "pnl_pct_live": 0.0,
-      "progression_pct": 0.0
+      "current_price": 87.83,
+      "current_price_time": "2026-05-18T14:03:20.401684+00:00",
+      "pnl_pct_live": 0.85,
+      "progression_pct": 11.2
     },
     {
       "ticker": "CRSP",
@@ -347,10 +347,10 @@
       "status": "open",
       "issued_at": "2026-05-17T22:38:28.675525",
       "last_seen": "2026-05-17T22:38:28.676339",
-      "current_price": 48.4,
-      "current_price_time": "2026-05-18T12:44:19.446027+00:00",
-      "pnl_pct_live": 0.02,
-      "progression_pct": 0.1
+      "current_price": 49.92,
+      "current_price_time": "2026-05-18T14:03:20.401684+00:00",
+      "pnl_pct_live": -3.12,
+      "progression_pct": -62.4
     },
     {
       "ticker": "COIN",
@@ -387,10 +387,10 @@
       "status": "open",
       "issued_at": "2026-05-17T22:38:28.675538",
       "last_seen": "2026-05-18T08:49:11.569075",
-      "current_price": 195.38,
-      "current_price_time": "2026-05-18T12:44:19.446027+00:00",
-      "pnl_pct_live": 0.03,
-      "progression_pct": 0.2
+      "current_price": 191.64,
+      "current_price_time": "2026-05-18T14:03:20.401684+00:00",
+      "pnl_pct_live": 1.94,
+      "progression_pct": 12.9
     }
   ]
 }
