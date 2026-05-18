@@ -152,14 +152,27 @@ def export_to_dashboard(
                 else:
                     upside = round((o.price - o.take_profit) / o.price * 100, 1)
 
-            # Fallback Kelly : 1/7-Kelly + score factor pour varier selon conviction
+            # Kelly position avec CAP DYNAMIQUE par confidence (intraday-tilted)
+            # Confidence 0.68-0.72 → cap 5%   (peu de conviction, taille réduite)
+            # Confidence 0.72-0.80 → cap 8%   (standard)
+            # Confidence 0.80-0.90 → cap 10%  (forte conviction)
+            # Confidence > 0.90    → cap 12%  (conviction extrême, rare)
+            conf = o.confidence or 0.5
+            if   conf >= 0.90: cap = 0.12
+            elif conf >= 0.80: cap = 0.10
+            elif conf >= 0.72: cap = 0.08
+            else:              cap = 0.05
+
             kelly = o.kelly_position
             if not kelly or kelly <= 0:
-                p = o.confidence or 0.5
+                p = conf
                 b = o.risk_reward or 2.0
                 raw = (p * b - (1 - p)) / b if b > 0 else 0
                 score_factor = 0.7 + 0.6 * min(abs(o.score or 0), 1.0)   # 0.7–1.3
-                kelly = max(0.025, min(0.10, raw * 0.15 * score_factor))
+                kelly = max(0.025, min(cap, raw * 0.15 * score_factor))
+            else:
+                # Réapplique le cap dynamique sur le Kelly calculé en amont
+                kelly = min(kelly, cap)
 
             sig = {
                 "ticker":           o.ticker,
