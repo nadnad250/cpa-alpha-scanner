@@ -131,19 +131,53 @@ def main() -> int:
             else:
                 sig["pnl_pct_live"] = round(((entry - current) / entry) * 100, 2)
 
-        # ─── B3 : TRAILING BREAK-EVEN ──────────────────────────────
-        # Quand le prix a parcouru ≥ 50% du chemin vers TP, on remonte
-        # le SL au prix d'entrée (verrouille no-loss). Une seule fois.
-        if entry and tp and sl and not sig.get("be_locked"):
+        # ─── TRAILING STOP PROGRESSIF 3 NIVEAUX ────────────────────
+        # Verrouille les gains au fur et à mesure de la progression vers TP.
+        # SL ne descend jamais (max() pour BUY, min() pour SELL).
+        #
+        # Niveaux :
+        #   30%  prog → SL à entry           (break-even, no-loss)
+        #   60%  prog → SL à entry + 25% gain (verrouille 1/4 du potentiel)
+        #   85%  prog → SL à entry + 60% gain (verrouille 60% du potentiel)
+        #
+        # trail_level tracé pour ne pas régresser (1→2→3 uniquement).
+        if entry and tp and sl:
             try:
                 if is_buy:
                     reached = (current - entry) / max(1e-9, tp - entry)
+                    gain_potential = tp - entry
                 else:
                     reached = (entry - current) / max(1e-9, entry - tp)
-                if reached >= 0.5:
-                    sig["stop_loss"] = entry
-                    sig["be_locked"] = True
-                    log.info(f"  🔒 {ticker} : break-even verrouillé (SL = entry ${entry})")
+                    gain_potential = entry - tp
+
+                current_level = sig.get("trail_level", 0)
+                new_level = current_level
+                new_stop = None
+
+                if reached >= 0.85 and current_level < 3:
+                    new_level = 3
+                    if is_buy:
+                        new_stop = entry + 0.60 * gain_potential
+                    else:
+                        new_stop = entry - 0.60 * gain_potential
+                elif reached >= 0.60 and current_level < 2:
+                    new_level = 2
+                    if is_buy:
+                        new_stop = entry + 0.25 * gain_potential
+                    else:
+                        new_stop = entry - 0.25 * gain_potential
+                elif reached >= 0.30 and current_level < 1:
+                    new_level = 1
+                    new_stop = entry   # break-even
+
+                if new_stop is not None:
+                    # Garde-fou : SL ne s'éloigne JAMAIS du current (sécurité)
+                    if is_buy:
+                        sig["stop_loss"] = max(sig.get("stop_loss") or 0, new_stop)
+                    else:
+                        sig["stop_loss"] = min(sig.get("stop_loss") or 1e9, new_stop)
+                    sig["trail_level"] = new_level
+                    log.info(f"  🔒 {ticker} : trail niv.{new_level} → SL ${sig['stop_loss']:.2f} (prog {reached*100:.0f}%)")
             except Exception:
                 pass
 
