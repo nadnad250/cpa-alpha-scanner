@@ -1,23 +1,29 @@
 """
 Système avancé Stop-Loss / Take-Profit basé sur ATR + volatilité.
 
-Méthode :
-- ATR(14) = Average True Range sur 14 jours → mesure le mouvement typique
+Méthode (INTRADAY 24h max) :
+- ATR(7)  = Average True Range sur 7 jours → mesure le mouvement RÉCENT
+  (ATR 14 reflétait 3 semaines = trop long pour décisions 24h)
 - Stop-Loss   = prix - k_sl * ATR  (k_sl ajusté selon volatilité)
-- Take-Profit = prix + k_tp * ATR  (R/R ratio >= 2:1 minimum)
+- Take-Profit = prix + k_tp * ATR  (R/R ratio >= 2.5:1 minimum)
 - Pour SELL : logique inversée
 
 Bonus :
-- Filtre "no-stop trop serré" : min 3% du prix
-- Max Stop 15% du prix (évite les coupures traumatiques)
+- Filtre "no-stop trop serré" : min 1.5% du prix
+- Max Stop 5% du prix (au-delà : pas intraday)
 - Risk/Reward calculé explicitement
 """
 import numpy as np
 import pandas as pd
 from typing import Dict
 
+# Période ATR INTRADAY : 7 jours (vs 14 swing)
+# Capture le régime de volatilité de la dernière semaine,
+# plus pertinent que celui des 3 dernières semaines pour 24h horizon.
+ATR_PERIOD_INTRADAY = 7
 
-def _atr(prices: pd.Series, period: int = 14) -> float:
+
+def _atr(prices: pd.Series, period: int = ATR_PERIOD_INTRADAY) -> float:
     """ATR approximé depuis les Close (pas de High/Low → proxy)."""
     if len(prices) < period + 1:
         return float(prices.iloc[-1]) * 0.02 if len(prices) > 0 else 0.0
@@ -49,7 +55,7 @@ def compute_stops(
     - SL min 1.5%, max 5% du prix (stops serrés pour intraday)
     - TP min 3%, max 15% du prix (cible réaliste sur 24h)
     """
-    atr = _atr(prices, period=14)
+    atr = _atr(prices, period=ATR_PERIOD_INTRADAY)
     vol = _realized_vol(prices, window=21)
 
     # k_sl adaptatif INTRADAY (multiplicateurs réduits car horizon 24h)
@@ -119,7 +125,7 @@ def trailing_stop(
     Stop suiveur : remonte le stop si le prix progresse.
     N'abaisse JAMAIS le stop (on verrouille les gains).
     """
-    atr = _atr(prices, period=14)
+    atr = _atr(prices, period=ATR_PERIOD_INTRADAY)
     current_price = float(prices.iloc[-1])
     is_buy = action in ("BUY", "STRONG_BUY")
 
