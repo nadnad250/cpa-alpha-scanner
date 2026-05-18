@@ -1,21 +1,21 @@
 {
-  "generated_at": "2026-05-18T17:23:38.306289",
+  "generated_at": "2026-05-18T17:35:13.417142+00:00",
   "date": "2026-05-18",
   "stats": {
-    "total": 10,
-    "buy_signals": 9,
+    "total": 9,
+    "buy_signals": 8,
     "sell_signals": 1,
     "avg_confidence": 0.787,
     "avg_rr": 2.67,
     "win_rate": 0.0,
-    "active_positions": 10,
-    "daily_pnl": -0.05
+    "active_positions": 9,
+    "daily_pnl": -0.1
   },
   "eod": {
     "tp_hit": 0,
-    "sl_hit": 1,
-    "open": 10,
-    "cumulative_pnl": -0.05
+    "sl_hit": 2,
+    "open": 9,
+    "cumulative_pnl": -0.1
   },
   "signals": [
     {
@@ -49,10 +49,10 @@
       "status": "open",
       "issued_at": "2026-05-17T22:38:28.675510",
       "last_seen": "2026-05-18T16:12:37.975985",
-      "current_price": 116.96,
-      "current_price_time": "2026-05-18T16:35:42.506072+00:00",
-      "pnl_pct_live": -0.08,
-      "progression_pct": -1.7
+      "current_price": 117.36,
+      "current_price_time": "2026-05-18T17:35:13.417142+00:00",
+      "pnl_pct_live": 0.26,
+      "progression_pct": 2.3
     },
     {
       "ticker": "MU",
@@ -80,9 +80,15 @@
       "news_score": null,
       "top_news_title": null,
       "top_news_url": null,
-      "status": "open",
+      "status": "sl_hit",
       "issued_at": "2026-05-17T22:38:28.675493",
-      "last_seen": "2026-05-18T17:23:38.306289"
+      "last_seen": "2026-05-18T17:23:38.306289",
+      "current_price": 679.89,
+      "current_price_time": "2026-05-18T17:35:13.417142+00:00",
+      "exit_price": 688.43,
+      "exit_date": "2026-05-18T17:35:13.417142+00:00",
+      "pnl_pct": -5.0,
+      "pnl_pct_live": -5.0
     },
     {
       "ticker": "CRWD",
@@ -117,10 +123,10 @@
       "status": "open",
       "issued_at": "2026-05-17T22:38:28.675515",
       "last_seen": "2026-05-18T14:43:28.201570",
-      "current_price": 608.11,
-      "current_price_time": "2026-05-18T16:35:42.506072+00:00",
-      "pnl_pct_live": 0.1,
-      "progression_pct": 1.3
+      "current_price": 611.39,
+      "current_price_time": "2026-05-18T17:35:13.417142+00:00",
+      "pnl_pct_live": 0.64,
+      "progression_pct": 7.8
     },
     {
       "ticker": "PANW",
@@ -155,10 +161,10 @@
       "status": "open",
       "issued_at": "2026-05-17T22:38:28.675518",
       "last_seen": "2026-05-18T16:12:37.975985",
-      "current_price": 246.51,
-      "current_price_time": "2026-05-18T16:35:42.506072+00:00",
-      "pnl_pct_live": -0.07,
-      "progression_pct": -2.2
+      "current_price": 246.72,
+      "current_price_time": "2026-05-18T17:35:13.417142+00:00",
+      "pnl_pct_live": 0.02,
+      "progression_pct": 0.2
     },
     {
       "ticker": "FTNT",
@@ -193,7 +199,11 @@
       "top_news_url": "https://finance.yahoo.com/markets/stocks/articles/see-fortinet-gains-ai-demand-144427074.html",
       "status": "open",
       "issued_at": "2026-05-18T17:23:38.305802",
-      "last_seen": "2026-05-18T17:23:38.306289"
+      "last_seen": "2026-05-18T17:23:38.306289",
+      "current_price": 125.44,
+      "current_price_time": "2026-05-18T17:35:13.417142+00:00",
+      "pnl_pct_live": 0.1,
+      "progression_pct": 0.7
     },
     {
       "ticker": "GOOGL",
@@ -226,10 +236,10 @@
       "status": "open",
       "issued_at": "2026-05-17T22:38:28.675522",
       "last_seen": "2026-05-18T16:12:37.975985",
-      "current_price": 400.88,
-      "current_price_time": "2026-05-18T16:35:42.506072+00:00",
-      "pnl_pct_live": -0.02,
-      "progression_pct": -1.0
+      "current_price": 401.35,
+      "current_price_time": "2026-05-18T17:35:13.417142+00:00",
+      "pnl_pct_live": 0.09,
+      "progression_pct": 1.5
     },
     {
       "ticker": "RIOT",
@@ -264,10 +274,10 @@
       "status": "open",
       "issued_at": "2026-05-17T22:38:28.675529",
       "last_seen": "2026-05-18T16:12:37.975985",
-      "current_price": 22.77,
-      "current_price_time": "2026-05-18T16:35:42.506072+00:00",
-      "pnl_pct_live": -0.83,
-      "progression_pct": -16.5
+      "current_price": 22.96,
+      "current_price_time": "2026-05-18T17:35:13.417142+00:00",
+      "pnl_pct_live": 0.0,
+      "progression_pct": 0.0
     },
     {
       "ticker": "MNST",
@@ -298,10 +308,10 @@
       "status": "open",
       "issued_at": "2026-05-17T22:38:28.675541",
       "last_seen": "2026-05-18T14:43:28.201570",
-      "current_price": 87.92,
-      "current_price_time": "2026-05-18T16:35:42.506072+00:00",
-      "pnl_pct_live": -0.09,
-      "progression_pct": -3.0
+      "current_price": 88.21,
+      "current_price_time": "2026-05-18T17:35:13.417142+00:00",
+      "pnl_pct_live": 0.24,
+      "progression_pct": 3.1
     },
     {
       "ticker": "ROKU",
@@ -334,10 +344,10 @@
       "status": "open",
       "issued_at": "2026-05-17T22:38:28.675533",
       "last_seen": "2026-05-18T14:43:28.201570",
-      "current_price": 125.89,
-      "current_price_time": "2026-05-18T16:35:42.506072+00:00",
-      "pnl_pct_live": 0.74,
-      "progression_pct": 11.5
+      "current_price": 126.34,
+      "current_price_time": "2026-05-18T17:35:13.417142+00:00",
+      "pnl_pct_live": 1.1,
+      "progression_pct": 17.2
     },
     {
       "ticker": "CRSP",
@@ -375,10 +385,10 @@
       "status": "open",
       "issued_at": "2026-05-17T22:38:28.675525",
       "last_seen": "2026-05-17T22:38:28.676339",
-      "current_price": 48.64,
-      "current_price_time": "2026-05-18T16:35:42.506072+00:00",
-      "pnl_pct_live": -0.48,
-      "progression_pct": -9.5
+      "current_price": 48.57,
+      "current_price_time": "2026-05-18T17:35:13.417142+00:00",
+      "pnl_pct_live": -0.33,
+      "progression_pct": -6.6
     },
     {
       "ticker": "MU",
