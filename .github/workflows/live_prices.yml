@@ -9,6 +9,8 @@ on:
 
 permissions:
   contents: write
+  pages:    write
+  id-token: write
 
 # Évite les collisions avec les autres workflows bot
 concurrency:
@@ -69,9 +71,18 @@ jobs:
             done
           fi
 
-      # GITHUB_TOKEN ne déclenche pas les workflows auto → on le force manuellement
-      - name: Trigger Pages deploy
+      # ─── DÉPLOIEMENT PAGES INLINE (GITHUB_TOKEN ne déclenche pas
+      # le workflow deploy-pages.yml séparé, donc on le fait ici)
+      - name: Setup Pages
         if: steps.commit_step.outputs.changed == 'true'
-        env:
-          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-        run: gh workflow run deploy-pages.yml --ref master || true
+        uses: actions/configure-pages@v4
+
+      - name: Upload dashboard artifact
+        if: steps.commit_step.outputs.changed == 'true'
+        uses: actions/upload-pages-artifact@v3
+        with:
+          path: './dashboard'
+
+      - name: Deploy to GitHub Pages
+        if: steps.commit_step.outputs.changed == 'true'
+        uses: actions/deploy-pages@v4
