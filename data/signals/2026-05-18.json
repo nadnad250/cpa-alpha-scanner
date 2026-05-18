@@ -44,5 +44,28 @@
     "ml_proba_up": 0.5,
     "risk_reward": 2.9999999999999996,
     "primary_reason": "Momentum positif soutenu"
+  },
+  {
+    "ticker": "BNTX",
+    "action": "STRONG_SELL",
+    "entry_price": 88.85,
+    "stop_loss": 90.35428989955356,
+    "take_profit": 85.08927525111606,
+    "score": -0.5974900146987717,
+    "confidence": 0.8064188307174212,
+    "universe": "NASDAQ100",
+    "issued_at": "2026-05-18T20:07:52.182464",
+    "horizon_days": 1,
+    "horizon_hours": 24,
+    "status": "open",
+    "exit_price": null,
+    "exit_date": null,
+    "pnl_pct": null,
+    "max_favorable": null,
+    "max_adverse": null,
+    "sector": "Healthcare",
+    "ml_proba_up": 0.42976397316362086,
+    "risk_reward": 2.500000000000005,
+    "primary_reason": "Momentum négatif / flux vendeur"
   }
 ]
