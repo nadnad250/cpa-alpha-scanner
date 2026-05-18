@@ -119,6 +119,81 @@ User demande "signaux de qualité". Simulation sur 57 signaux existants :
 
 ---
 
+## 2026-05-18 — Adaptation INTRADAY 24h pure (3 tunings théoriques)
+
+### Contexte
+- Wipe complet le 17/05 → 0 trades clôturés (data-driven impossible)
+- User demande "adapter la stratégie pour 24h pur avec les skills"
+- Approche : **tuning théorique best-practice intraday** (playbook §1-3)
+
+### État avant
+- Univers : NASDAQ100 (✓ déjà intraday-friendly)
+- Horizon : 24h (✓)
+- Seuils : score 0.38 / conf 0.68 / R/R 2.5
+- W1=0.15 / W2=0.30 / W3=0.10 / W4=0.45 (déjà intraday-tilted)
+- ATR period : 14 jours (← anormalement long pour 24h)
+- Trailing : break-even simple à 50% (← ne verrouille rien)
+- Kelly cap : 10% fixe (← gaspille l'edge sur conviction élevée)
+- VIX gating ✓ / Bornes SL/TP intraday ✓
+
+### Changements (3, dans la limite max du skill)
+
+| # | Paramètre | Avant | Après | Niveau playbook |
+|---|-----------|-------|-------|-----------------|
+| 1 | ATR period | 14 j | **7 j** | §2.4 ATR dynamique |
+| 2 | Trailing SL | binaire 50% | **3 niveaux : 30%/60%/85%** | §1.3 time-stop adapt. |
+| 3 | Kelly cap | 10% fixe | **5%/8%/10%/12% par conf** | §3.4 sizing adaptatif |
+
+### Justifications théoriques
+
+**#1 ATR 14→7** : 14 jours = 3 semaines de données. Sur horizon 24h,
+le régime de vol récent (7 derniers jours) prédit mieux le mouvement
+attendu. Bornes absolues [1.5-5% SL] / [3-15% TP] inchangées.
+
+**#2 Trailing 3 niveaux** :
+- 30% prog → SL à entry (no-loss tôt vs 50% du simple break-even)
+- 60% prog → SL à entry + 25% gain (verrouille 1/4)
+- 85% prog → SL à entry + 60% gain (verrouille 60%)
+Classique en intraday pour éviter les "winners reversed to breakeven".
+
+**#3 Kelly cap par conf** :
+| conf | cap |
+|------|-----|
+| 0.68-0.72 | 5%  |
+| 0.72-0.80 | 8%  |
+| 0.80-0.90 | 10% |
+| > 0.90    | 12% |
+Reste dans range sain MAX_POSITION 0.05-0.20 du parameter-guide.
+
+### Impact attendu (théorique, non backtested)
+- ATR 7 : stops/TP plus réactifs au régime récent
+- Trail 3-niv : Sharpe ↑ (captation gains partiels)
+- Kelly conf : expectancy ↑ (amplitude P&L ∝ qualité signal)
+
+### Risques surveillés
+- ATR 7 : biais si semaine atypique (gap event)
+- Trail : wick down peut clôturer prématuré (compensé par SL ≥ entry au niv 1)
+- Kelly conf : drawdown trade isolé ↑ (compensé par MAX_OPEN=10)
+
+### Commits
+- `143fd45` : tune(stops) ATR 14 → 7
+- `9f8d04e` : tune(trailing) SL progressif 3 niveaux
+- `3b2a485` : tune(sizing) Kelly cap par confidence
+
+### À vérifier après 20+ clôtures (priorité haute)
+- Win rate global > 50% (cible 60%)
+- Profit factor > 1.4 (cible 1.6+)
+- % gagnants ayant atteint niveau 2 ou 3 du trailing (validation de #2)
+- Distribution Kelly réelle (validation de #3)
+- Temps moyen jusqu'à clôture < 18h (efficacité intraday)
+
+### Critères de ROLLBACK (rollback obligatoire si dépassé)
+- Win rate < 45% sur 20+ trades
+- Profit factor < 1.0
+- Drawdown > -15%
+
+---
+
 ## 2026-04-23 (3) — Cap absolu 10 positions ouvertes
 
 ### Demande user
