@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-05-17T22:38:28.676339",
+  "generated_at": "2026-05-18T08:22:48.307283+00:00",
   "date": "2026-05-17",
   "stats": {
     "total": 10,
@@ -49,7 +49,11 @@
       "top_news_url": "https://finance.yahoo.com/sectors/technology/articles/ai-boom-fuels-record-memory-031857948.html",
       "status": "open",
       "issued_at": "2026-05-17T22:38:28.675493",
-      "last_seen": "2026-05-17T22:38:28.676339"
+      "last_seen": "2026-05-17T22:38:28.676339",
+      "current_price": 724.12,
+      "current_price_time": "2026-05-18T08:22:48.307283+00:00",
+      "pnl_pct_live": -0.07,
+      "progression_pct": -1.5
     },
     {
       "ticker": "CSCO",
@@ -81,7 +85,11 @@
       "top_news_url": "https://finance.yahoo.com/economy/article/executives-are-blaming-layoffs-on-ai-but-research-shows-ai-is-not-the-main-driver-of-us-labor-slowdown-114708955.html",
       "status": "open",
       "issued_at": "2026-05-17T22:38:28.675510",
-      "last_seen": "2026-05-17T22:38:28.676339"
+      "last_seen": "2026-05-17T22:38:28.676339",
+      "current_price": 118.25,
+      "current_price_time": "2026-05-18T08:22:48.307283+00:00",
+      "pnl_pct_live": 0.03,
+      "progression_pct": 0.3
     },
     {
       "ticker": "CRWD",
@@ -115,7 +123,11 @@
       "top_news_url": "https://finance.yahoo.com/markets/stocks/articles/crowdstrike-spotlight-grows-ai-attacks-221532641.html",
       "status": "open",
       "issued_at": "2026-05-17T22:38:28.675515",
-      "last_seen": "2026-05-17T22:38:28.676339"
+      "last_seen": "2026-05-17T22:38:28.676339",
+      "current_price": 594.33,
+      "current_price_time": "2026-05-18T08:22:48.307283+00:00",
+      "pnl_pct_live": 0.04,
+      "progression_pct": 0.5
     },
     {
       "ticker": "PANW",
@@ -149,7 +161,11 @@
       "top_news_url": "https://www.trefis.com/articles/599412/csco-the-9-billion-ai-breakout-investors-missed/2026-05-14",
       "status": "open",
       "issued_at": "2026-05-17T22:38:28.675518",
-      "last_seen": "2026-05-17T22:38:28.676339"
+      "last_seen": "2026-05-17T22:38:28.676339",
+      "current_price": 242.83,
+      "current_price_time": "2026-05-18T08:22:48.307283+00:00",
+      "pnl_pct_live": 0.0,
+      "progression_pct": 0.0
     },
     {
       "ticker": "GOOGL",
@@ -181,7 +197,11 @@
       "top_news_url": "https://finance.yahoo.com/markets/stocks/articles/alphabet-googl-one-best-fundamentally-163839846.html",
       "status": "open",
       "issued_at": "2026-05-17T22:38:28.675522",
-      "last_seen": "2026-05-17T22:38:28.676339"
+      "last_seen": "2026-05-17T22:38:28.676339",
+      "current_price": 396.79,
+      "current_price_time": "2026-05-18T08:22:48.307283+00:00",
+      "pnl_pct_live": 0.0,
+      "progression_pct": 0.0
     },
     {
       "ticker": "RIOT",
@@ -215,7 +235,11 @@
       "top_news_url": "https://finance.yahoo.com/markets/stocks/articles/look-riot-platforms-riot-valuation-151043359.html",
       "status": "open",
       "issued_at": "2026-05-17T22:38:28.675529",
-      "last_seen": "2026-05-17T22:38:28.676339"
+      "last_seen": "2026-05-17T22:38:28.676339",
+      "current_price": 23.47,
+      "current_price_time": "2026-05-18T08:22:48.307283+00:00",
+      "pnl_pct_live": -0.09,
+      "progression_pct": -1.7
     },
     {
       "ticker": "MNST",
@@ -245,7 +269,11 @@
       "top_news_url": "https://finance.yahoo.com/markets/stocks/articles/too-consider-monster-beverage-mnst-001930276.html",
       "status": "open",
       "issued_at": "2026-05-17T22:38:28.675541",
-      "last_seen": "2026-05-17T22:38:28.676339"
+      "last_seen": "2026-05-17T22:38:28.676339",
+      "current_price": 87.09,
+      "current_price_time": "2026-05-18T08:22:48.307283+00:00",
+      "pnl_pct_live": 0.0,
+      "progression_pct": 0.0
     },
     {
       "ticker": "ROKU",
@@ -277,7 +305,11 @@
       "top_news_url": "https://www.fool.com/investing/2026/05/09/2-growth-stocks-down-40-to-buy-right-now/",
       "status": "open",
       "issued_at": "2026-05-17T22:38:28.675533",
-      "last_seen": "2026-05-17T22:38:28.676339"
+      "last_seen": "2026-05-17T22:38:28.676339",
+      "current_price": 123.95,
+      "current_price_time": "2026-05-18T08:22:48.307283+00:00",
+      "pnl_pct_live": -0.06,
+      "progression_pct": -2.1
     },
     {
       "ticker": "CRSP",
@@ -314,7 +346,11 @@
       "top_news_url": "https://finance.yahoo.com/sectors/healthcare/articles/vrtxs-q1-earnings-beat-estimates-165700595.html",
       "status": "open",
       "issued_at": "2026-05-17T22:38:28.675525",
-      "last_seen": "2026-05-17T22:38:28.676339"
+      "last_seen": "2026-05-17T22:38:28.676339",
+      "current_price": 48.4,
+      "current_price_time": "2026-05-18T08:22:48.307283+00:00",
+      "pnl_pct_live": 0.02,
+      "progression_pct": 0.1
     },
     {
       "ticker": "COIN",
@@ -350,7 +386,11 @@
       "top_news_url": "https://247wallst.com/investing/2026/05/15/microsoft-rises-4-resists-nasdaq-downtrend/",
       "status": "open",
       "issued_at": "2026-05-17T22:38:28.675538",
-      "last_seen": "2026-05-17T22:38:28.676339"
+      "last_seen": "2026-05-17T22:38:28.676339",
+      "current_price": 195.38,
+      "current_price_time": "2026-05-18T08:22:48.307283+00:00",
+      "pnl_pct_live": 0.03,
+      "progression_pct": 0.2
     }
   ]
 }
