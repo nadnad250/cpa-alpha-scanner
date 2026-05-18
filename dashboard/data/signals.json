@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-05-18T14:43:28.201570",
+  "generated_at": "2026-05-18T15:25:14.968207+00:00",
   "date": "2026-05-18",
   "stats": {
     "total": 10,
@@ -48,7 +48,11 @@
       "top_news_url": "https://finance.yahoo.com/markets/stocks/articles/cisco-job-cuts-reshape-ai-121226522.html",
       "status": "open",
       "issued_at": "2026-05-17T22:38:28.675510",
-      "last_seen": "2026-05-18T14:43:28.201570"
+      "last_seen": "2026-05-18T14:43:28.201570",
+      "current_price": 116.71,
+      "current_price_time": "2026-05-18T15:25:14.968207+00:00",
+      "pnl_pct_live": -0.11,
+      "progression_pct": -2.4
     },
     {
       "ticker": "MU",
@@ -82,10 +86,10 @@
       "status": "open",
       "issued_at": "2026-05-17T22:38:28.675493",
       "last_seen": "2026-05-17T22:38:28.676339",
-      "current_price": 715.36,
-      "current_price_time": "2026-05-18T14:03:20.401684+00:00",
-      "pnl_pct_live": -1.28,
-      "progression_pct": -25.7
+      "current_price": 699.49,
+      "current_price_time": "2026-05-18T15:25:14.968207+00:00",
+      "pnl_pct_live": -3.47,
+      "progression_pct": -69.5
     },
     {
       "ticker": "CRWD",
@@ -119,7 +123,11 @@
       "top_news_url": "https://finance.yahoo.com/markets/stocks/articles/3-growth-stocks-star-potential-065255734.html",
       "status": "open",
       "issued_at": "2026-05-17T22:38:28.675515",
-      "last_seen": "2026-05-18T14:43:28.201570"
+      "last_seen": "2026-05-18T14:43:28.201570",
+      "current_price": 603.78,
+      "current_price_time": "2026-05-18T15:25:14.968207+00:00",
+      "pnl_pct_live": -0.61,
+      "progression_pct": -18.4
     },
     {
       "ticker": "GOOGL",
@@ -151,7 +159,11 @@
       "top_news_url": "https://www.barrons.com/articles/unitedhealth-stock-price-berkshire-buffett-848714ed?siteid=yhoof2&yptr=yahoo",
       "status": "open",
       "issued_at": "2026-05-17T22:38:28.675522",
-      "last_seen": "2026-05-18T14:43:28.201570"
+      "last_seen": "2026-05-18T14:43:28.201570",
+      "current_price": 403.45,
+      "current_price_time": "2026-05-18T15:25:14.968207+00:00",
+      "pnl_pct_live": -0.16,
+      "progression_pct": -6.1
     },
     {
       "ticker": "PANW",
@@ -186,10 +198,10 @@
       "status": "open",
       "issued_at": "2026-05-17T22:38:28.675518",
       "last_seen": "2026-05-17T22:38:28.676339",
-      "current_price": 243.62,
-      "current_price_time": "2026-05-18T14:03:20.401684+00:00",
-      "pnl_pct_live": 0.33,
-      "progression_pct": 4.2
+      "current_price": 244.82,
+      "current_price_time": "2026-05-18T15:25:14.968207+00:00",
+      "pnl_pct_live": 0.82,
+      "progression_pct": 10.6
     },
     {
       "ticker": "RIOT",
@@ -223,7 +235,11 @@
       "top_news_url": "https://finance.yahoo.com/markets/stocks/articles/look-riot-platforms-riot-valuation-151043359.html",
       "status": "open",
       "issued_at": "2026-05-17T22:38:28.675529",
-      "last_seen": "2026-05-18T14:43:28.201570"
+      "last_seen": "2026-05-18T14:43:28.201570",
+      "current_price": 22.89,
+      "current_price_time": "2026-05-18T15:25:14.968207+00:00",
+      "pnl_pct_live": 0.18,
+      "progression_pct": 1.2
     },
     {
       "ticker": "MNST",
@@ -253,7 +269,11 @@
       "top_news_url": "https://finance.yahoo.com/markets/stocks/articles/too-consider-monster-beverage-mnst-001930276.html",
       "status": "open",
       "issued_at": "2026-05-17T22:38:28.675541",
-      "last_seen": "2026-05-18T14:43:28.201570"
+      "last_seen": "2026-05-18T14:43:28.201570",
+      "current_price": 87.75,
+      "current_price_time": "2026-05-18T15:25:14.968207+00:00",
+      "pnl_pct_live": -0.28,
+      "progression_pct": -9.2
     },
     {
       "ticker": "ROKU",
@@ -285,7 +305,11 @@
       "top_news_url": "https://www.fool.com/investing/2026/05/09/2-growth-stocks-down-40-to-buy-right-now/",
       "status": "open",
       "issued_at": "2026-05-17T22:38:28.675533",
-      "last_seen": "2026-05-18T14:43:28.201570"
+      "last_seen": "2026-05-18T14:43:28.201570",
+      "current_price": 125.51,
+      "current_price_time": "2026-05-18T15:25:14.968207+00:00",
+      "pnl_pct_live": 0.43,
+      "progression_pct": 6.8
     },
     {
       "ticker": "CRSP",
@@ -323,10 +347,10 @@
       "status": "open",
       "issued_at": "2026-05-17T22:38:28.675525",
       "last_seen": "2026-05-17T22:38:28.676339",
-      "current_price": 49.92,
-      "current_price_time": "2026-05-18T14:03:20.401684+00:00",
-      "pnl_pct_live": -3.12,
-      "progression_pct": -62.4
+      "current_price": 49.19,
+      "current_price_time": "2026-05-18T15:25:14.968207+00:00",
+      "pnl_pct_live": -1.61,
+      "progression_pct": -32.2
     },
     {
       "ticker": "COIN",
@@ -362,7 +386,11 @@
       "top_news_url": "https://247wallst.com/investing/2026/05/15/microsoft-rises-4-resists-nasdaq-downtrend/",
       "status": "open",
       "issued_at": "2026-05-17T22:38:28.675538",
-      "last_seen": "2026-05-18T14:43:28.201570"
+      "last_seen": "2026-05-18T14:43:28.201570",
+      "current_price": 186.24,
+      "current_price_time": "2026-05-18T15:25:14.968207+00:00",
+      "pnl_pct_live": 1.63,
+      "progression_pct": 10.8
     }
   ]
 }
