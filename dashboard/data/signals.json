@@ -1,21 +1,21 @@
 {
-  "generated_at": "2026-05-18T16:12:37.975985",
+  "generated_at": "2026-05-18T16:35:42.506072+00:00",
   "date": "2026-05-18",
   "stats": {
-    "total": 10,
-    "buy_signals": 8,
+    "total": 9,
+    "buy_signals": 7,
     "sell_signals": 2,
     "avg_confidence": 0.779,
     "avg_rr": 2.7,
     "win_rate": 0.0,
-    "active_positions": 10,
-    "daily_pnl": 0.0
+    "active_positions": 9,
+    "daily_pnl": -0.05
   },
   "eod": {
     "tp_hit": 0,
-    "sl_hit": 0,
-    "open": 10,
-    "cumulative_pnl": 0.0
+    "sl_hit": 1,
+    "open": 9,
+    "cumulative_pnl": -0.05
   },
   "signals": [
     {
@@ -48,7 +48,11 @@
       "top_news_url": "https://finance.yahoo.com/markets/stocks/articles/cisco-job-cuts-reshape-ai-121226522.html",
       "status": "open",
       "issued_at": "2026-05-17T22:38:28.675510",
-      "last_seen": "2026-05-18T16:12:37.975985"
+      "last_seen": "2026-05-18T16:12:37.975985",
+      "current_price": 116.96,
+      "current_price_time": "2026-05-18T16:35:42.506072+00:00",
+      "pnl_pct_live": -0.08,
+      "progression_pct": -1.7
     },
     {
       "ticker": "MU",
@@ -79,13 +83,16 @@
       "news_score": 0.35,
       "top_news_title": "AI boom fuels record memory-chip profits, but cyclical risks loom",
       "top_news_url": "https://finance.yahoo.com/sectors/technology/articles/ai-boom-fuels-record-memory-031857948.html",
-      "status": "open",
+      "status": "sl_hit",
       "issued_at": "2026-05-17T22:38:28.675493",
       "last_seen": "2026-05-17T22:38:28.676339",
-      "current_price": 699.49,
-      "current_price_time": "2026-05-18T15:25:14.968207+00:00",
-      "pnl_pct_live": -3.47,
-      "progression_pct": -69.5
+      "current_price": 684.83,
+      "current_price_time": "2026-05-18T16:35:42.506072+00:00",
+      "pnl_pct_live": -5.0,
+      "progression_pct": -69.5,
+      "exit_price": 688.43,
+      "exit_date": "2026-05-18T16:35:42.506072+00:00",
+      "pnl_pct": -5.0
     },
     {
       "ticker": "CRWD",
@@ -120,10 +127,10 @@
       "status": "open",
       "issued_at": "2026-05-17T22:38:28.675515",
       "last_seen": "2026-05-18T14:43:28.201570",
-      "current_price": 603.78,
-      "current_price_time": "2026-05-18T15:25:14.968207+00:00",
-      "pnl_pct_live": -0.61,
-      "progression_pct": -18.4
+      "current_price": 608.11,
+      "current_price_time": "2026-05-18T16:35:42.506072+00:00",
+      "pnl_pct_live": 0.1,
+      "progression_pct": 1.3
     },
     {
       "ticker": "PANW",
@@ -157,7 +164,11 @@
       "top_news_url": "https://finance.yahoo.com/markets/stocks/articles/2-profitable-stocks-research-further-050855348.html",
       "status": "open",
       "issued_at": "2026-05-17T22:38:28.675518",
-      "last_seen": "2026-05-18T16:12:37.975985"
+      "last_seen": "2026-05-18T16:12:37.975985",
+      "current_price": 246.51,
+      "current_price_time": "2026-05-18T16:35:42.506072+00:00",
+      "pnl_pct_live": -0.07,
+      "progression_pct": -2.2
     },
     {
       "ticker": "GOOGL",
@@ -189,7 +200,11 @@
       "top_news_url": "https://www.trefis.com/articles/598515/how-ondas-is-growing-far-faster-than-it-burns-cash/2026-05-18",
       "status": "open",
       "issued_at": "2026-05-17T22:38:28.675522",
-      "last_seen": "2026-05-18T16:12:37.975985"
+      "last_seen": "2026-05-18T16:12:37.975985",
+      "current_price": 400.88,
+      "current_price_time": "2026-05-18T16:35:42.506072+00:00",
+      "pnl_pct_live": -0.02,
+      "progression_pct": -1.0
     },
     {
       "ticker": "RIOT",
@@ -223,7 +238,11 @@
       "top_news_url": "https://finance.yahoo.com/markets/stocks/articles/look-riot-platforms-riot-valuation-151043359.html",
       "status": "open",
       "issued_at": "2026-05-17T22:38:28.675529",
-      "last_seen": "2026-05-18T16:12:37.975985"
+      "last_seen": "2026-05-18T16:12:37.975985",
+      "current_price": 22.77,
+      "current_price_time": "2026-05-18T16:35:42.506072+00:00",
+      "pnl_pct_live": -0.83,
+      "progression_pct": -16.5
     },
     {
       "ticker": "MNST",
@@ -254,10 +273,10 @@
       "status": "open",
       "issued_at": "2026-05-17T22:38:28.675541",
       "last_seen": "2026-05-18T14:43:28.201570",
-      "current_price": 87.75,
-      "current_price_time": "2026-05-18T15:25:14.968207+00:00",
-      "pnl_pct_live": -0.28,
-      "progression_pct": -9.2
+      "current_price": 87.92,
+      "current_price_time": "2026-05-18T16:35:42.506072+00:00",
+      "pnl_pct_live": -0.09,
+      "progression_pct": -3.0
     },
     {
       "ticker": "ROKU",
@@ -290,10 +309,10 @@
       "status": "open",
       "issued_at": "2026-05-17T22:38:28.675533",
       "last_seen": "2026-05-18T14:43:28.201570",
-      "current_price": 125.51,
-      "current_price_time": "2026-05-18T15:25:14.968207+00:00",
-      "pnl_pct_live": 0.43,
-      "progression_pct": 6.8
+      "current_price": 125.89,
+      "current_price_time": "2026-05-18T16:35:42.506072+00:00",
+      "pnl_pct_live": 0.74,
+      "progression_pct": 11.5
     },
     {
       "ticker": "CRSP",
@@ -331,10 +350,10 @@
       "status": "open",
       "issued_at": "2026-05-17T22:38:28.675525",
       "last_seen": "2026-05-17T22:38:28.676339",
-      "current_price": 49.19,
-      "current_price_time": "2026-05-18T15:25:14.968207+00:00",
-      "pnl_pct_live": -1.61,
-      "progression_pct": -32.2
+      "current_price": 48.64,
+      "current_price_time": "2026-05-18T16:35:42.506072+00:00",
+      "pnl_pct_live": -0.48,
+      "progression_pct": -9.5
     },
     {
       "ticker": "COIN",
@@ -370,7 +389,11 @@
       "top_news_url": "https://247wallst.com/investing/2026/05/15/microsoft-rises-4-resists-nasdaq-downtrend/",
       "status": "open",
       "issued_at": "2026-05-17T22:38:28.675538",
-      "last_seen": "2026-05-18T16:12:37.975985"
+      "last_seen": "2026-05-18T16:12:37.975985",
+      "current_price": 186.08,
+      "current_price_time": "2026-05-18T16:35:42.506072+00:00",
+      "pnl_pct_live": 0.76,
+      "progression_pct": 5.1
     }
   ]
 }
