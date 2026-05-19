@@ -1,20 +1,20 @@
 {
-  "generated_at": "2026-05-18T22:09:03.286767+00:00",
+  "generated_at": "2026-05-19T08:11:19.536084+00:00",
   "date": "2026-05-18",
   "stats": {
-    "total": 9,
-    "buy_signals": 7,
-    "sell_signals": 2,
+    "total": 3,
+    "buy_signals": 2,
+    "sell_signals": 1,
     "avg_confidence": 0.812,
     "avg_rr": 2.71,
     "win_rate": 0.0,
-    "active_positions": 9,
+    "active_positions": 3,
     "daily_pnl": -0.1
   },
   "eod": {
     "tp_hit": 0,
     "sl_hit": 2,
-    "open": 9,
+    "open": 3,
     "cumulative_pnl": -0.1
   },
   "signals": [
@@ -47,13 +47,16 @@
       "news_score": 0.3,
       "top_news_title": "CSCO Q1 Deep Dive: AI Demand and Networking Modernization Drive Double-Digit Growth",
       "top_news_url": "https://finance.yahoo.com/markets/stocks/articles/csco-q1-deep-dive-ai-185255271.html",
-      "status": "open",
+      "status": "expired",
       "issued_at": "2026-05-17T22:38:28.675510",
       "last_seen": "2026-05-18T19:04:15.077891",
       "current_price": 118.93,
-      "current_price_time": "2026-05-18T22:09:03.286767+00:00",
+      "current_price_time": "2026-05-19T08:11:19.536084+00:00",
       "pnl_pct_live": 0.57,
-      "progression_pct": 3.8
+      "progression_pct": 3.8,
+      "exit_price": 118.93,
+      "exit_date": "2026-05-19T08:11:19.536084+00:00",
+      "pnl_pct": 0.57
     },
     {
       "ticker": "ON",
@@ -87,7 +90,7 @@
       "issued_at": "2026-05-18T18:32:21.169903",
       "last_seen": "2026-05-18T19:04:15.077891",
       "current_price": 109.42,
-      "current_price_time": "2026-05-18T22:09:03.286767+00:00",
+      "current_price_time": "2026-05-19T08:11:19.536084+00:00",
       "pnl_pct_live": 1.37,
       "progression_pct": 9.1
     },
@@ -157,13 +160,16 @@
       "news_score": 0.3,
       "top_news_title": "Can Rising Demand for AI Security Boost CRWD's Long-Term Growth?",
       "top_news_url": "https://finance.yahoo.com/sectors/technology/articles/rising-demand-ai-security-boost-145100125.html",
-      "status": "open",
+      "status": "expired",
       "issued_at": "2026-05-17T22:38:28.675515",
       "last_seen": "2026-05-18T19:04:15.077891",
       "current_price": 619.09,
-      "current_price_time": "2026-05-18T22:09:03.286767+00:00",
+      "current_price_time": "2026-05-19T08:11:19.536084+00:00",
       "pnl_pct_live": 0.54,
-      "progression_pct": 5.6
+      "progression_pct": 5.6,
+      "exit_price": 619.09,
+      "exit_date": "2026-05-19T08:11:19.536084+00:00",
+      "pnl_pct": 0.54
     },
     {
       "ticker": "PANW",
@@ -195,13 +201,16 @@
       "news_score": 0.1,
       "top_news_title": "2 Profitable Stocks to Research Further and 1 We Find Risky",
       "top_news_url": "https://finance.yahoo.com/markets/stocks/articles/2-profitable-stocks-research-further-050855348.html",
-      "status": "open",
+      "status": "expired",
       "issued_at": "2026-05-17T22:38:28.675518",
       "last_seen": "2026-05-18T19:04:15.077891",
       "current_price": 247.55,
-      "current_price_time": "2026-05-18T22:09:03.286767+00:00",
+      "current_price_time": "2026-05-19T08:11:19.536084+00:00",
       "pnl_pct_live": 0.16,
-      "progression_pct": 1.4
+      "progression_pct": 1.4,
+      "exit_price": 247.55,
+      "exit_date": "2026-05-19T08:11:19.536084+00:00",
+      "pnl_pct": 0.16
     },
     {
       "ticker": "FTNT",
@@ -238,7 +247,7 @@
       "issued_at": "2026-05-18T17:23:38.305802",
       "last_seen": "2026-05-18T17:23:38.306289",
       "current_price": 126.5,
-      "current_price_time": "2026-05-18T22:09:03.286767+00:00",
+      "current_price_time": "2026-05-19T08:11:19.536084+00:00",
       "pnl_pct_live": 0.94,
       "progression_pct": 7.1
     },
@@ -270,13 +279,16 @@
       "news_score": 0,
       "top_news_title": "Market Chatter: Apple Working on AI Writing Tools, Shortcuts for iOS 27",
       "top_news_url": "https://finance.yahoo.com/sectors/technology/articles/market-chatter-apple-working-ai-181223388.html",
-      "status": "open",
+      "status": "expired",
       "issued_at": "2026-05-17T22:38:28.675522",
       "last_seen": "2026-05-18T19:04:15.077891",
       "current_price": 396.96,
-      "current_price_time": "2026-05-18T22:09:03.286767+00:00",
+      "current_price_time": "2026-05-19T08:11:19.536084+00:00",
       "pnl_pct_live": -0.57,
-      "progression_pct": -26.7
+      "progression_pct": -26.7,
+      "exit_price": 396.96,
+      "exit_date": "2026-05-19T08:11:19.536084+00:00",
+      "pnl_pct": -0.57
     },
     {
       "ticker": "RIOT",
@@ -308,13 +320,16 @@
       "news_score": 0.4,
       "top_news_title": "A Look At Riot Platforms (RIOT) Valuation After Strong Recent Share Price Gains",
       "top_news_url": "https://finance.yahoo.com/markets/stocks/articles/look-riot-platforms-riot-valuation-151043359.html",
-      "status": "open",
+      "status": "expired",
       "issued_at": "2026-05-17T22:38:28.675529",
       "last_seen": "2026-05-18T19:04:15.077891",
       "current_price": 23.18,
-      "current_price_time": "2026-05-18T22:09:03.286767+00:00",
+      "current_price_time": "2026-05-19T08:11:19.536084+00:00",
       "pnl_pct_live": 1.27,
-      "progression_pct": 9.0
+      "progression_pct": 9.0,
+      "exit_price": 23.18,
+      "exit_date": "2026-05-19T08:11:19.536084+00:00",
+      "pnl_pct": 1.27
     },
     {
       "ticker": "BNTX",
@@ -351,7 +366,7 @@
       "issued_at": "2026-05-18T20:07:52.182464",
       "last_seen": "2026-05-18T20:07:52.183000",
       "current_price": 88.82,
-      "current_price_time": "2026-05-18T22:09:03.286767+00:00",
+      "current_price_time": "2026-05-19T08:11:19.536084+00:00",
       "pnl_pct_live": 0.03,
       "progression_pct": 0.8
     },
@@ -388,13 +403,16 @@
       "news_score": 0.15,
       "top_news_title": "VRTX's Q1 Earnings Beat Estimates, New Products Aid Sales Growth",
       "top_news_url": "https://finance.yahoo.com/sectors/healthcare/articles/vrtxs-q1-earnings-beat-estimates-165700595.html",
-      "status": "open",
+      "status": "expired",
       "issued_at": "2026-05-17T22:38:28.675525",
       "last_seen": "2026-05-18T19:04:15.077891",
       "current_price": 48.58,
-      "current_price_time": "2026-05-18T22:09:03.286767+00:00",
+      "current_price_time": "2026-05-19T08:11:19.536084+00:00",
       "pnl_pct_live": -0.39,
-      "progression_pct": -7.9
+      "progression_pct": -7.9,
+      "exit_price": 48.58,
+      "exit_date": "2026-05-19T08:11:19.536084+00:00",
+      "pnl_pct": -0.39
     },
     {
       "ticker": "MU",
