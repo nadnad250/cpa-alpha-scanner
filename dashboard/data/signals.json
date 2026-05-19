@@ -1,20 +1,20 @@
 {
-  "generated_at": "2026-05-19T08:41:21.447317",
+  "generated_at": "2026-05-19T09:27:55.690295+00:00",
   "date": "2026-05-19",
   "stats": {
-    "total": 10,
-    "buy_signals": 9,
+    "total": 6,
+    "buy_signals": 5,
     "sell_signals": 1,
     "avg_confidence": 0.797,
     "avg_rr": 2.62,
     "win_rate": 0.0,
-    "active_positions": 10,
+    "active_positions": 6,
     "daily_pnl": -0.05
   },
   "eod": {
     "tp_hit": 0,
     "sl_hit": 1,
-    "open": 10,
+    "open": 6,
     "cumulative_pnl": -0.05
   },
   "signals": [
@@ -46,9 +46,15 @@
       "news_score": 0.1,
       "top_news_title": "Insight Enterprises, PAR Technology, Sinclair, CECO Environmental, and HNI Shares Are Soaring, What ",
       "top_news_url": "https://finance.yahoo.com/markets/stocks/articles/insight-enterprises-par-technology-sinclair-234855816.html",
-      "status": "open",
+      "status": "expired",
       "issued_at": "2026-05-17T22:38:28.675510",
-      "last_seen": "2026-05-19T08:41:21.447317"
+      "last_seen": "2026-05-19T08:41:21.447317",
+      "current_price": 118.93,
+      "current_price_time": "2026-05-19T09:27:55.690295+00:00",
+      "exit_price": 118.93,
+      "exit_date": "2026-05-19T09:27:55.690295+00:00",
+      "pnl_pct": 0.04,
+      "pnl_pct_live": 0.04
     },
     {
       "ticker": "ON",
@@ -82,7 +88,7 @@
       "issued_at": "2026-05-18T18:32:21.169903",
       "last_seen": "2026-05-18T19:04:15.077891",
       "current_price": 109.42,
-      "current_price_time": "2026-05-19T08:11:19.536084+00:00",
+      "current_price_time": "2026-05-19T09:27:55.690295+00:00",
       "pnl_pct_live": 1.37,
       "progression_pct": 9.1
     },
@@ -121,7 +127,7 @@
       "issued_at": "2026-05-18T17:23:38.305802",
       "last_seen": "2026-05-18T17:23:38.306289",
       "current_price": 126.5,
-      "current_price_time": "2026-05-19T08:11:19.536084+00:00",
+      "current_price_time": "2026-05-19T09:27:55.690295+00:00",
       "pnl_pct_live": 0.94,
       "progression_pct": 7.1
     },
@@ -155,7 +161,11 @@
       "top_news_url": "https://www.wsj.com/tech/ai/the-american-rebellion-against-ai-is-gaining-steam-94b72529?siteid=yhoof2&yptr=yahoo",
       "status": "open",
       "issued_at": "2026-05-19T08:41:21.446677",
-      "last_seen": "2026-05-19T08:41:21.447317"
+      "last_seen": "2026-05-19T08:41:21.447317",
+      "current_price": 393.15,
+      "current_price_time": "2026-05-19T09:27:55.690295+00:00",
+      "pnl_pct_live": 0.01,
+      "progression_pct": 0.2
     },
     {
       "ticker": "CRWD",
@@ -187,9 +197,15 @@
       "news_score": 0.1,
       "top_news_title": "Can Rising Demand for AI Security Boost CRWD's Long-Term Growth?",
       "top_news_url": "https://finance.yahoo.com/sectors/technology/articles/rising-demand-ai-security-boost-145100125.html",
-      "status": "open",
+      "status": "expired",
       "issued_at": "2026-05-17T22:38:28.675515",
-      "last_seen": "2026-05-19T08:41:21.447317"
+      "last_seen": "2026-05-19T08:41:21.447317",
+      "current_price": 619.09,
+      "current_price_time": "2026-05-19T09:27:55.690295+00:00",
+      "exit_price": 619.09,
+      "exit_date": "2026-05-19T09:27:55.690295+00:00",
+      "pnl_pct": 0.04,
+      "pnl_pct_live": 0.04
     },
     {
       "ticker": "PANW",
@@ -217,9 +233,15 @@
       "news_score": null,
       "top_news_title": null,
       "top_news_url": null,
-      "status": "open",
+      "status": "expired",
       "issued_at": "2026-05-17T22:38:28.675518",
-      "last_seen": "2026-05-19T08:41:21.447317"
+      "last_seen": "2026-05-19T08:41:21.447317",
+      "current_price": 247.55,
+      "current_price_time": "2026-05-19T09:27:55.690295+00:00",
+      "exit_price": 247.55,
+      "exit_date": "2026-05-19T09:27:55.690295+00:00",
+      "pnl_pct": 1.94,
+      "pnl_pct_live": 1.94
     },
     {
       "ticker": "GOOGL",
@@ -247,9 +269,15 @@
       "news_score": null,
       "top_news_title": null,
       "top_news_url": null,
-      "status": "open",
+      "status": "expired",
       "issued_at": "2026-05-17T22:38:28.675522",
-      "last_seen": "2026-05-19T08:41:21.447317"
+      "last_seen": "2026-05-19T08:41:21.447317",
+      "current_price": 396.96,
+      "current_price_time": "2026-05-19T09:27:55.690295+00:00",
+      "exit_price": 396.96,
+      "exit_date": "2026-05-19T09:27:55.690295+00:00",
+      "pnl_pct": 0.05,
+      "pnl_pct_live": 0.05
     },
     {
       "ticker": "FANG",
@@ -281,7 +309,11 @@
       "top_news_url": "https://www.fool.com/coverage/filings/2026/05/16/caz-investments-loads-up-otf-with-19m-shares-bought/",
       "status": "open",
       "issued_at": "2026-05-19T08:41:21.446683",
-      "last_seen": "2026-05-19T08:41:21.447317"
+      "last_seen": "2026-05-19T08:41:21.447317",
+      "current_price": 205.63,
+      "current_price_time": "2026-05-19T09:27:55.690295+00:00",
+      "pnl_pct_live": 0.0,
+      "progression_pct": 0.1
     },
     {
       "ticker": "ADI",
@@ -313,7 +345,11 @@
       "top_news_url": "https://www.barchart.com/story/news/1990919/stocks-set-to-open-lower-as-oil-rises-amid-iran-impasse-nvidia-earnings-and-fed-minutes-awaited",
       "status": "open",
       "issued_at": "2026-05-19T08:41:21.446686",
-      "last_seen": "2026-05-19T08:41:21.447317"
+      "last_seen": "2026-05-19T08:41:21.447317",
+      "current_price": 418.58,
+      "current_price_time": "2026-05-19T09:27:55.690295+00:00",
+      "pnl_pct_live": 0.0,
+      "progression_pct": 0.0
     },
     {
       "ticker": "BNTX",
@@ -350,7 +386,7 @@
       "issued_at": "2026-05-18T20:07:52.182464",
       "last_seen": "2026-05-18T20:07:52.183000",
       "current_price": 88.82,
-      "current_price_time": "2026-05-19T08:11:19.536084+00:00",
+      "current_price_time": "2026-05-19T09:27:55.690295+00:00",
       "pnl_pct_live": 0.03,
       "progression_pct": 0.8
     },
