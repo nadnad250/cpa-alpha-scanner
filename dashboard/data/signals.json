@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-05-19T13:06:28.600759+00:00",
+  "generated_at": "2026-05-19T14:09:41.603895+00:00",
   "date": "2026-05-19",
   "stats": {
     "total": 6,
@@ -87,10 +87,10 @@
       "status": "open",
       "issued_at": "2026-05-18T18:32:21.169903",
       "last_seen": "2026-05-18T19:04:15.077891",
-      "current_price": 109.42,
-      "current_price_time": "2026-05-19T13:06:28.600759+00:00",
-      "pnl_pct_live": 1.37,
-      "progression_pct": 9.1
+      "current_price": 104.9,
+      "current_price_time": "2026-05-19T14:09:41.603895+00:00",
+      "pnl_pct_live": -2.82,
+      "progression_pct": -56.3
     },
     {
       "ticker": "FTNT",
@@ -126,10 +126,10 @@
       "status": "open",
       "issued_at": "2026-05-18T17:23:38.305802",
       "last_seen": "2026-05-18T17:23:38.306289",
-      "current_price": 126.5,
-      "current_price_time": "2026-05-19T13:06:28.600759+00:00",
-      "pnl_pct_live": 0.94,
-      "progression_pct": 7.1
+      "current_price": 125.94,
+      "current_price_time": "2026-05-19T14:09:41.603895+00:00",
+      "pnl_pct_live": 0.49,
+      "progression_pct": 3.7
     },
     {
       "ticker": "GOOG",
@@ -162,10 +162,10 @@
       "status": "open",
       "issued_at": "2026-05-19T08:41:21.446677",
       "last_seen": "2026-05-19T08:41:21.447317",
-      "current_price": 393.15,
-      "current_price_time": "2026-05-19T13:06:28.600759+00:00",
-      "pnl_pct_live": 0.01,
-      "progression_pct": 0.2
+      "current_price": 388.67,
+      "current_price_time": "2026-05-19T14:09:41.603895+00:00",
+      "pnl_pct_live": -1.13,
+      "progression_pct": -57.4
     },
     {
       "ticker": "CRWD",
@@ -310,10 +310,10 @@
       "status": "open",
       "issued_at": "2026-05-19T08:41:21.446683",
       "last_seen": "2026-05-19T08:41:21.447317",
-      "current_price": 205.63,
-      "current_price_time": "2026-05-19T13:06:28.600759+00:00",
-      "pnl_pct_live": 0.0,
-      "progression_pct": 0.1
+      "current_price": 206.76,
+      "current_price_time": "2026-05-19T14:09:41.603895+00:00",
+      "pnl_pct_live": 0.55,
+      "progression_pct": 10.8
     },
     {
       "ticker": "ADI",
@@ -346,10 +346,10 @@
       "status": "open",
       "issued_at": "2026-05-19T08:41:21.446686",
       "last_seen": "2026-05-19T08:41:21.447317",
-      "current_price": 418.58,
-      "current_price_time": "2026-05-19T13:06:28.600759+00:00",
-      "pnl_pct_live": 0.0,
-      "progression_pct": 0.0
+      "current_price": 409.69,
+      "current_price_time": "2026-05-19T14:09:41.603895+00:00",
+      "pnl_pct_live": -2.12,
+      "progression_pct": -90.2
     },
     {
       "ticker": "BNTX",
@@ -385,10 +385,10 @@
       "status": "open",
       "issued_at": "2026-05-18T20:07:52.182464",
       "last_seen": "2026-05-18T20:07:52.183000",
-      "current_price": 88.82,
-      "current_price_time": "2026-05-19T13:06:28.600759+00:00",
-      "pnl_pct_live": 0.03,
-      "progression_pct": 0.8
+      "current_price": 88.19,
+      "current_price_time": "2026-05-19T14:09:41.603895+00:00",
+      "pnl_pct_live": 0.74,
+      "progression_pct": 17.6
     },
     {
       "ticker": "CSCO",
