@@ -121,6 +121,7 @@ class AlphaForgeBot:
             return
 
         # Scan NASDAQ uniquement (univers défini en settings)
+        scanner_prices = None   # pour le filtre corrélation post-scan
         for universe in UNIVERSES:
             logger.info(f"🔍 Scan {universe}...")
             try:
@@ -129,6 +130,9 @@ class AlphaForgeBot:
                 opps = scanner.all_universe_opportunities()
                 all_opportunities.extend(opps)
                 total_analyzed += len(scanner.results)
+                # Capture des prix pour le filtre corrélation (axe 3)
+                if scanner_prices is None and getattr(scanner, "all_prices", None) is not None:
+                    scanner_prices = scanner.all_prices
                 logger.info(
                     f"  ✅ {len(opps)} opps / {len(scanner.results)} analysés"
                 )
@@ -173,9 +177,25 @@ class AlphaForgeBot:
             logger.info(f"🏷 Diversification : {n_dropped} retirés (max {MAX_PER_SECTOR}/secteur)")
         logger.info(f"💎 {len(premium)} signaux premium / {len(all_opportunities)}")
 
+        # ── FILTRE CORRÉLATION (axe 3) ─────────────────────────────
+        # Skip un candidat trop corrélé (60j > 0.85) avec positions ouvertes
+        # OU avec les candidats déjà acceptés dans ce scan.
+        # Réduit drastiquement le risque de drawdown sectoriel.
+        open_tickers = get_open_tickers_from_signals_json(DASHBOARD_SIGNALS_PATH)
+        try:
+            from src.utils.correlation_filter import filter_uncorrelated
+            n_before_corr = len(premium)
+            premium = filter_uncorrelated(
+                premium, open_tickers, scanner_prices, threshold=0.85,
+            )
+            n_corr_dropped = n_before_corr - len(premium)
+            if n_corr_dropped:
+                logger.info(f"🔗 Corrélation : {n_corr_dropped} retirés (> 0.85 avec existants)")
+        except Exception as e:
+            logger.warning(f"Filtre corrélation indispo : {e}")
+
         # ── DÉDUP TELEGRAM (Bug #3 — split filter/mark) ────────────
         # 1) Sélection PURE (sans écrire le state)
-        open_tickers = get_open_tickers_from_signals_json(DASHBOARD_SIGNALS_PATH)
         before = len(premium)
         fresh_signals = select_new_signals(
             premium, open_tickers, cooldown_hours=TELEGRAM_DEDUP_HOURS,

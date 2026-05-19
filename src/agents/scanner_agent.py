@@ -53,6 +53,9 @@ class ScannerAgent:
         all_prices = self._fetch_prices_batched(tickers)
         benchmark = self._get_benchmark()
 
+        # Exposer les prix pour le filtre corrélation post-scan
+        self.all_prices = all_prices
+
         logger.info("[ScannerAgent] Pipeline CPA + ML en parallèle...")
         self.results, self.opportunities = self._analyze_parallel(
             tickers, all_prices, benchmark
