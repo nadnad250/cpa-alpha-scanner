@@ -49,10 +49,36 @@ def _safe_corr(s1: pd.Series, s2: pd.Series) -> float | None:
         return None
 
 
+def _get_series(prices, ticker: str) -> pd.Series | None:
+    """
+    Accesseur uniforme : prices peut être un dict[str, Series] OU un DataFrame.
+    Retourne None si ticker absent.
+    """
+    if prices is None:
+        return None
+    if isinstance(prices, dict):
+        return prices.get(ticker)
+    # DataFrame
+    if hasattr(prices, "columns") and ticker in prices.columns:
+        return prices[ticker]
+    return None
+
+
+def _is_empty(prices) -> bool:
+    """True si pas de data exploitable."""
+    if prices is None:
+        return True
+    if isinstance(prices, dict):
+        return len(prices) == 0
+    if hasattr(prices, "empty"):
+        return bool(prices.empty)
+    return True
+
+
 def filter_uncorrelated(
     candidates: Iterable,
     existing_tickers: set[str],
-    prices_df: pd.DataFrame | None,
+    prices,
     threshold: float = DEFAULT_THRESHOLD,
 ) -> list:
     """
@@ -62,18 +88,15 @@ def filter_uncorrelated(
     Args:
         candidates : itérable d'Opportunity (déjà filtrés premium, triés par qualité)
         existing_tickers : tickers en position ouverte (de signals.json)
-        prices_df : DataFrame des prix (colonnes = tickers, lignes = dates)
+        prices : Dict[str, pd.Series] OU pd.DataFrame (colonnes = tickers)
         threshold : seuil de corrélation max (default 0.85)
 
     Returns:
         Liste filtrée d'Opportunity, dans l'ordre d'entrée.
     """
-    if prices_df is None or prices_df.empty:
+    if _is_empty(prices):
         # Pas de data → ne filtre rien (fail-open)
         return list(candidates)
-
-    # Restreindre aux 60 derniers jours
-    recent = prices_df.tail(LOOKBACK_DAYS) if len(prices_df) > LOOKBACK_DAYS else prices_df
 
     accepted: list = []
     # Set initial = positions ouvertes (à comparer contre)
@@ -84,21 +107,27 @@ def filter_uncorrelated(
         ticker = getattr(o, "ticker", None)
         if not ticker:
             continue
-        if ticker not in recent.columns:
-            # Si ticker absent du prices_df, on l'accepte sans filtre
+
+        cand_series = _get_series(prices, ticker)
+        if cand_series is None or len(cand_series) < 20:
+            # Pas de prix → on accepte sans filtre (fail-open)
             accepted.append(o)
             reference_tickers.add(ticker)
             continue
 
+        # Restreindre aux N derniers points
+        cand_recent = cand_series.tail(LOOKBACK_DAYS)
+
         max_corr = 0.0
         culprit = None
-        cand_series = recent[ticker]
         for ref in reference_tickers:
             if ref == ticker:
                 continue
-            if ref not in recent.columns:
+            ref_series = _get_series(prices, ref)
+            if ref_series is None or len(ref_series) < 20:
                 continue
-            corr = _safe_corr(cand_series, recent[ref])
+            ref_recent = ref_series.tail(LOOKBACK_DAYS)
+            corr = _safe_corr(cand_recent, ref_recent)
             if corr is None:
                 continue
             if abs(corr) > abs(max_corr):
