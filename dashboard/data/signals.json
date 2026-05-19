@@ -1,21 +1,21 @@
 {
-  "generated_at": "2026-05-19T16:10:24.754787",
+  "generated_at": "2026-05-19T16:34:56.949371+00:00",
   "date": "2026-05-19",
   "stats": {
-    "total": 10,
-    "buy_signals": 8,
+    "total": 5,
+    "buy_signals": 3,
     "sell_signals": 2,
     "avg_confidence": 0.794,
     "avg_rr": 2.57,
     "win_rate": 0.0,
-    "active_positions": 10,
-    "daily_pnl": -0.0697
+    "active_positions": 5,
+    "daily_pnl": -0.0894
   },
   "eod": {
     "tp_hit": 0,
-    "sl_hit": 2,
-    "open": 10,
-    "cumulative_pnl": -0.0697
+    "sl_hit": 3,
+    "open": 5,
+    "cumulative_pnl": -0.0894
   },
   "signals": [
     {
@@ -49,10 +49,10 @@
       "status": "open",
       "issued_at": "2026-05-18T18:32:21.169903",
       "last_seen": "2026-05-18T19:04:15.077891",
-      "current_price": 105.83,
-      "current_price_time": "2026-05-19T15:24:30.233740+00:00",
-      "pnl_pct_live": -1.95,
-      "progression_pct": -39.1
+      "current_price": 107.88,
+      "current_price_time": "2026-05-19T16:34:56.949371+00:00",
+      "pnl_pct_live": -0.06,
+      "progression_pct": -1.1
     },
     {
       "ticker": "CSCO",
@@ -80,9 +80,15 @@
       "news_score": null,
       "top_news_title": null,
       "top_news_url": null,
-      "status": "open",
+      "status": "expired",
       "issued_at": "2026-05-17T22:38:28.675510",
-      "last_seen": "2026-05-19T16:10:24.754787"
+      "last_seen": "2026-05-19T16:10:24.754787",
+      "current_price": 115.88,
+      "current_price_time": "2026-05-19T16:34:56.949371+00:00",
+      "exit_price": 115.88,
+      "exit_date": "2026-05-19T16:34:56.949371+00:00",
+      "pnl_pct": -1.97,
+      "pnl_pct_live": -1.97
     },
     {
       "ticker": "FTNT",
@@ -118,10 +124,10 @@
       "status": "open",
       "issued_at": "2026-05-18T17:23:38.305802",
       "last_seen": "2026-05-18T17:23:38.306289",
-      "current_price": 126.42,
-      "current_price_time": "2026-05-19T15:24:30.233740+00:00",
-      "pnl_pct_live": 0.88,
-      "progression_pct": 6.6
+      "current_price": 126.33,
+      "current_price_time": "2026-05-19T16:34:56.949371+00:00",
+      "pnl_pct_live": 0.81,
+      "progression_pct": 6.1
     },
     {
       "ticker": "GOOG",
@@ -149,9 +155,15 @@
       "news_score": null,
       "top_news_title": null,
       "top_news_url": null,
-      "status": "open",
+      "status": "sl_hit",
       "issued_at": "2026-05-19T08:41:21.446677",
-      "last_seen": "2026-05-19T16:10:24.754787"
+      "last_seen": "2026-05-19T16:10:24.754787",
+      "current_price": 385.01,
+      "current_price_time": "2026-05-19T16:34:56.949371+00:00",
+      "exit_price": 385.37,
+      "exit_date": "2026-05-19T16:34:56.949371+00:00",
+      "pnl_pct": -1.97,
+      "pnl_pct_live": -1.97
     },
     {
       "ticker": "PANW",
@@ -179,9 +191,15 @@
       "news_score": null,
       "top_news_title": null,
       "top_news_url": null,
-      "status": "open",
+      "status": "expired",
       "issued_at": "2026-05-17T22:38:28.675518",
-      "last_seen": "2026-05-19T16:10:24.754787"
+      "last_seen": "2026-05-19T16:10:24.754787",
+      "current_price": 241.55,
+      "current_price_time": "2026-05-19T16:34:56.949371+00:00",
+      "exit_price": 241.55,
+      "exit_date": "2026-05-19T16:34:56.949371+00:00",
+      "pnl_pct": -0.53,
+      "pnl_pct_live": -0.53
     },
     {
       "ticker": "CRWD",
@@ -213,9 +231,15 @@
       "news_score": 0,
       "top_news_title": "Why Zscaler’s Recent Rally Could Just Be Getting Started",
       "top_news_url": "https://www.trefis.com/articles/599772/why-zscalers-recent-rally-could-just-be-getting-started/2026-05-19",
-      "status": "open",
+      "status": "expired",
       "issued_at": "2026-05-17T22:38:28.675515",
-      "last_seen": "2026-05-19T16:10:24.754787"
+      "last_seen": "2026-05-19T16:10:24.754787",
+      "current_price": 617.19,
+      "current_price_time": "2026-05-19T16:34:56.949371+00:00",
+      "exit_price": 617.19,
+      "exit_date": "2026-05-19T16:34:56.949371+00:00",
+      "pnl_pct": 0.26,
+      "pnl_pct_live": 0.26
     },
     {
       "ticker": "GOOGL",
@@ -243,9 +267,15 @@
       "news_score": null,
       "top_news_title": null,
       "top_news_url": null,
-      "status": "open",
+      "status": "expired",
       "issued_at": "2026-05-17T22:38:28.675522",
-      "last_seen": "2026-05-19T16:10:24.754787"
+      "last_seen": "2026-05-19T16:10:24.754787",
+      "current_price": 388.12,
+      "current_price_time": "2026-05-19T16:34:56.949371+00:00",
+      "exit_price": 388.12,
+      "exit_date": "2026-05-19T16:34:56.949371+00:00",
+      "pnl_pct": -2.18,
+      "pnl_pct_live": -2.18
     },
     {
       "ticker": "FANG",
@@ -278,10 +308,10 @@
       "status": "open",
       "issued_at": "2026-05-19T08:41:21.446683",
       "last_seen": "2026-05-19T08:41:21.447317",
-      "current_price": 205.85,
-      "current_price_time": "2026-05-19T15:24:30.233740+00:00",
-      "pnl_pct_live": 0.11,
-      "progression_pct": 2.2
+      "current_price": 207.28,
+      "current_price_time": "2026-05-19T16:34:56.949371+00:00",
+      "pnl_pct_live": 0.81,
+      "progression_pct": 15.7
     },
     {
       "ticker": "REGN",
@@ -315,7 +345,11 @@
       "top_news_url": "https://finance.yahoo.com/sectors/healthcare/articles/why-regeneron-pharmaceuticals-regn-down-121110010.html",
       "status": "open",
       "issued_at": "2026-05-19T16:10:24.753724",
-      "last_seen": "2026-05-19T16:10:24.754787"
+      "last_seen": "2026-05-19T16:10:24.754787",
+      "current_price": 635.18,
+      "current_price_time": "2026-05-19T16:34:56.949371+00:00",
+      "pnl_pct_live": 0.44,
+      "progression_pct": 3.5
     },
     {
       "ticker": "BNTX",
@@ -351,10 +385,10 @@
       "status": "open",
       "issued_at": "2026-05-18T20:07:52.182464",
       "last_seen": "2026-05-18T20:07:52.183000",
-      "current_price": 88.98,
-      "current_price_time": "2026-05-19T15:24:30.233740+00:00",
-      "pnl_pct_live": -0.15,
-      "progression_pct": -8.7
+      "current_price": 88.46,
+      "current_price_time": "2026-05-19T16:34:56.949371+00:00",
+      "pnl_pct_live": 0.44,
+      "progression_pct": 10.4
     },
     {
       "ticker": "CSCO",
