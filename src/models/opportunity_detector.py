@@ -72,8 +72,12 @@ class Opportunity:
 class OpportunityDetector:
     def __init__(
         self,
-        w_cpa: float = 0.50,
-        w_ml: float = 0.35,
+        # ML DÉSACTIVÉ (axe 1) : ML renvoie 0.5 = bruit pur (data wipée + horizon=1
+        # insuffisant). On réalloue son poids 0.35 sur le CPA (composite déjà solide)
+        # pour éviter de polluer le score avec du random.
+        # Cible : restaurer ML avec XGBoost real-trained quand on aura 100+ trades.
+        w_cpa: float = 0.85,        # 0.50 → 0.85 (récupère le poids ML)
+        w_ml: float = 0.00,         # 0.35 → 0.00 (désactivé)
         w_regime: float = 0.15,
         min_score: float = 0.20,
         min_confidence: float = 0.55,
@@ -83,7 +87,7 @@ class OpportunityDetector:
         self.w_regime = w_regime
         self.min_score = min_score
         self.min_confidence = min_confidence
-        # Intraday : ML prédit 1 jour (24h) au lieu de 21 jours
+        # ML conservé pour ml_proba_up (info diagnostic) mais ne pèse plus sur le score
         self.ml = MLEnsembleDetector(horizon=1)
 
     def detect(
@@ -94,6 +98,19 @@ class OpportunityDetector:
     ) -> Optional[Opportunity]:
         if cpa_result.confidence < 0.3:
             return None
+
+        # ─── EARNINGS BLACKOUT (axe 2) ─────────────────────────────
+        # Skip les tickers dans la fenêtre ±2 jours d'un earnings report.
+        # Sinon le bot ouvre des positions juste avant un gap de ±10%
+        # qui dépend du résultat, pas de la technique. Catastrophe assurée.
+        try:
+            from src.data.earnings_calendar import is_blacked_out, days_until_earnings
+            if is_blacked_out(cpa_result.ticker):
+                d = days_until_earnings(cpa_result.ticker)
+                logger.info(f"⏭ {cpa_result.ticker} : earnings dans {d}j → skip")
+                return None
+        except Exception as e:
+            logger.debug(f"Earnings check {cpa_result.ticker}: {e}")
 
         cpa_score = np.tanh(cpa_result.alpha * 3)
         ml_signal = self.ml.fit_predict(prices, fundamentals)
@@ -120,21 +137,26 @@ class OpportunityDetector:
             + 0.10 * news_score   # bonus/malus news
         )
 
+        # Confidence : retiré ml_conf (bruit) → redistribué sur CPA confidence
+        # CPA confidence est dérivée du nombre de composantes alignées, plus fiable
         confidence = (
-            0.4 * cpa_result.confidence
-            + 0.4 * ml_conf
-            + 0.2 * min(1.0, regime_score + 0.5)
+            0.75 * cpa_result.confidence
+            + 0.25 * min(1.0, regime_score + 0.5)
         )
 
         # Seuil
         if abs(final_score) < self.min_score or confidence < self.min_confidence:
             return None
 
-        # COHÉRENCE ML : rejeter les signaux contradictoires (équilibré)
-        if final_score > 0 and ml_proba_up < 0.48:
-            return None  # BUY rejeté si ML nettement bearish
-        if final_score < 0 and ml_proba_up > 0.52:
-            return None  # SELL rejeté si ML nettement bullish
+        # COHÉRENCE ML : rejet UNIQUEMENT si ML est très opposé au score.
+        # Comme le ML retourne souvent 0.5 (bruit), on durcit le seuil de rejet :
+        # avant : 0.48/0.52 (trop strict, tuait des bons setups)
+        # après : 0.30/0.70 (rejet seulement sur contradiction franche)
+        # Quand w_ml sera réactivé, on resserrera ces bornes.
+        if final_score > 0 and ml_proba_up < 0.30:
+            return None  # BUY rejeté si ML très bearish (proba > 70% baisse)
+        if final_score < 0 and ml_proba_up > 0.70:
+            return None  # SELL rejeté si ML très bullish
 
         # FILTRE QUALITÉ : cohérence multi-facteurs (assoupli pour intraday NASDAQ)
         # Pour intraday, on exige 2/4 composantes alignées (au lieu de 3/4) car :
