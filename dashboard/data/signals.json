@@ -1,21 +1,21 @@
 {
-  "generated_at": "2026-05-19T19:49:23.003952",
+  "generated_at": "2026-05-19T19:58:13.876817+00:00",
   "date": "2026-05-19",
   "stats": {
-    "total": 10,
-    "buy_signals": 6,
+    "total": 5,
+    "buy_signals": 1,
     "sell_signals": 4,
     "avg_confidence": 0.84,
     "avg_rr": 2.66,
     "win_rate": 0.0,
-    "active_positions": 10,
-    "daily_pnl": -0.0697
+    "active_positions": 5,
+    "daily_pnl": -0.0894
   },
   "eod": {
     "tp_hit": 0,
-    "sl_hit": 2,
-    "open": 10,
-    "cumulative_pnl": -0.0697
+    "sl_hit": 3,
+    "open": 5,
+    "cumulative_pnl": -0.0894
   },
   "signals": [
     {
@@ -46,9 +46,15 @@
       "news_score": 0.4,
       "top_news_title": "Can Texas Instruments' Analog Unit Extend Its Strong Sales Growth Run?",
       "top_news_url": "https://finance.yahoo.com/markets/stocks/articles/texas-instruments-analog-unit-extend-125600311.html",
-      "status": "open",
+      "status": "expired",
       "issued_at": "2026-05-18T18:32:21.169903",
-      "last_seen": "2026-05-19T19:49:23.003952"
+      "last_seen": "2026-05-19T19:49:23.003952",
+      "current_price": 105.97,
+      "current_price_time": "2026-05-19T19:58:13.876817+00:00",
+      "exit_price": 105.97,
+      "exit_date": "2026-05-19T19:58:13.876817+00:00",
+      "pnl_pct": -0.42,
+      "pnl_pct_live": -0.42
     },
     {
       "ticker": "MU",
@@ -81,7 +87,11 @@
       "top_news_url": "https://finance.yahoo.com/video/servicenow-stock-gains-as-investors-push-further-into-software-141506101.html",
       "status": "open",
       "issued_at": "2026-05-19T19:49:23.002894",
-      "last_seen": "2026-05-19T19:49:23.003952"
+      "last_seen": "2026-05-19T19:49:23.003952",
+      "current_price": 696.74,
+      "current_price_time": "2026-05-19T19:58:13.876817+00:00",
+      "pnl_pct_live": 0.04,
+      "progression_pct": 0.2
     },
     {
       "ticker": "FTNT",
@@ -114,9 +124,15 @@
       "news_score": 0.15,
       "top_news_title": "Fortinet Cut to Hold at DZ Bank, Price Target Set at $125: Is Cybersecurity Losing Steam?",
       "top_news_url": "https://247wallst.com/investing/2026/05/19/fortinet-cut-to-hold-at-dz-bank-price-target-set-at-125-is-cybersecurity-losing-steam/",
-      "status": "open",
+      "status": "expired",
       "issued_at": "2026-05-18T17:23:38.305802",
-      "last_seen": "2026-05-19T19:49:23.003952"
+      "last_seen": "2026-05-19T19:49:23.003952",
+      "current_price": 127.64,
+      "current_price_time": "2026-05-19T19:58:13.876817+00:00",
+      "exit_price": 127.64,
+      "exit_date": "2026-05-19T19:58:13.876817+00:00",
+      "pnl_pct": 0.07,
+      "pnl_pct_live": 0.07
     },
     {
       "ticker": "CSCO",
@@ -144,9 +160,15 @@
       "news_score": null,
       "top_news_title": null,
       "top_news_url": null,
-      "status": "open",
+      "status": "expired",
       "issued_at": "2026-05-17T22:38:28.675510",
-      "last_seen": "2026-05-19T19:49:23.003952"
+      "last_seen": "2026-05-19T19:49:23.003952",
+      "current_price": 115.24,
+      "current_price_time": "2026-05-19T19:58:13.876817+00:00",
+      "exit_price": 115.24,
+      "exit_date": "2026-05-19T19:58:13.876817+00:00",
+      "pnl_pct": -2.51,
+      "pnl_pct_live": -2.51
     },
     {
       "ticker": "CRWD",
@@ -174,9 +196,15 @@
       "news_score": null,
       "top_news_title": null,
       "top_news_url": null,
-      "status": "open",
+      "status": "expired",
       "issued_at": "2026-05-17T22:38:28.675515",
-      "last_seen": "2026-05-19T19:49:23.003952"
+      "last_seen": "2026-05-19T19:49:23.003952",
+      "current_price": 615.28,
+      "current_price_time": "2026-05-19T19:58:13.876817+00:00",
+      "exit_price": 615.28,
+      "exit_date": "2026-05-19T19:58:13.876817+00:00",
+      "pnl_pct": 3.57,
+      "pnl_pct_live": 3.57
     },
     {
       "ticker": "GOOG",
@@ -204,13 +232,16 @@
       "news_score": null,
       "top_news_title": null,
       "top_news_url": null,
-      "status": "open",
+      "status": "sl_hit",
       "issued_at": "2026-05-19T08:41:21.446677",
       "last_seen": "2026-05-19T17:31:02.553491",
-      "current_price": 385.74,
-      "current_price_time": "2026-05-19T19:13:46.563099+00:00",
-      "pnl_pct_live": -1.87,
-      "progression_pct": -95.2
+      "current_price": 384.39,
+      "current_price_time": "2026-05-19T19:58:13.876817+00:00",
+      "pnl_pct_live": -1.97,
+      "progression_pct": -95.2,
+      "exit_price": 385.37,
+      "exit_date": "2026-05-19T19:58:13.876817+00:00",
+      "pnl_pct": -1.97
     },
     {
       "ticker": "TTD",
@@ -245,7 +276,11 @@
       "top_news_url": "https://finance.yahoo.com/news/does-trade-desks-jbp-surge-150100538.html",
       "status": "open",
       "issued_at": "2026-05-19T19:49:23.002899",
-      "last_seen": "2026-05-19T19:49:23.003952"
+      "last_seen": "2026-05-19T19:49:23.003952",
+      "current_price": 21.16,
+      "current_price_time": "2026-05-19T19:58:13.876817+00:00",
+      "pnl_pct_live": 0.28,
+      "progression_pct": 1.9
     },
     {
       "ticker": "META",
@@ -279,7 +314,11 @@
       "top_news_url": "https://finance.yahoo.com/markets/stocks/article/trump-traded-over-50-million-in-magnificent-7-stocks-last-quarter-loading-up-on-apple-and-google-and-selling-tesla-100000562.html",
       "status": "open",
       "issued_at": "2026-05-19T19:49:23.002903",
-      "last_seen": "2026-05-19T19:49:23.003952"
+      "last_seen": "2026-05-19T19:49:23.003952",
+      "current_price": 602.66,
+      "current_price_time": "2026-05-19T19:58:13.876817+00:00",
+      "pnl_pct_live": -0.04,
+      "progression_pct": -2.4
     },
     {
       "ticker": "REGN",
@@ -314,10 +353,10 @@
       "status": "open",
       "issued_at": "2026-05-19T16:10:24.753724",
       "last_seen": "2026-05-19T16:10:24.754787",
-      "current_price": 630.92,
-      "current_price_time": "2026-05-19T19:13:46.563099+00:00",
-      "pnl_pct_live": 1.11,
-      "progression_pct": 8.7
+      "current_price": 629.91,
+      "current_price_time": "2026-05-19T19:58:13.876817+00:00",
+      "pnl_pct_live": 1.27,
+      "progression_pct": 9.9
     },
     {
       "ticker": "BNTX",
@@ -353,10 +392,10 @@
       "status": "open",
       "issued_at": "2026-05-18T20:07:52.182464",
       "last_seen": "2026-05-18T20:07:52.183000",
-      "current_price": 88.58,
-      "current_price_time": "2026-05-19T19:13:46.563099+00:00",
-      "pnl_pct_live": 0.3,
-      "progression_pct": 7.2
+      "current_price": 87.86,
+      "current_price_time": "2026-05-19T19:58:13.876817+00:00",
+      "pnl_pct_live": 1.11,
+      "progression_pct": 26.3
     },
     {
       "ticker": "ON",
