@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-05-20T14:30:41.896782",
+  "generated_at": "2026-05-20T14:41:28.774333+00:00",
   "date": "2026-05-20",
   "stats": {
     "total": 10,
@@ -48,7 +48,11 @@
       "top_news_url": "https://finance.yahoo.com/markets/stocks/articles/invest-5-big-data-behemoths-114800098.html",
       "status": "open",
       "issued_at": "2026-05-19T20:20:56.193114",
-      "last_seen": "2026-05-20T14:30:41.896782"
+      "last_seen": "2026-05-20T14:30:41.896782",
+      "current_price": 115.7,
+      "current_price_time": "2026-05-20T14:41:28.774333+00:00",
+      "pnl_pct_live": -0.42,
+      "progression_pct": -8.4
     },
     {
       "ticker": "ON",
@@ -81,10 +85,10 @@
       "status": "open",
       "issued_at": "2026-05-19T20:20:56.193167",
       "last_seen": "2026-05-20T08:39:11.338820",
-      "current_price": 107.89,
-      "current_price_time": "2026-05-20T13:39:36.427408+00:00",
-      "pnl_pct_live": 1.76,
-      "progression_pct": 11.8
+      "current_price": 109.28,
+      "current_price_time": "2026-05-20T14:41:28.774333+00:00",
+      "pnl_pct_live": 3.07,
+      "progression_pct": 20.5
     },
     {
       "ticker": "PANW",
@@ -118,7 +122,11 @@
       "top_news_url": "https://finance.yahoo.com/markets/stocks/articles/palo-alto-networks-panw-advances-214504362.html",
       "status": "open",
       "issued_at": "2026-05-19T20:20:56.193158",
-      "last_seen": "2026-05-20T14:30:41.896782"
+      "last_seen": "2026-05-20T14:30:41.896782",
+      "current_price": 244.49,
+      "current_price_time": "2026-05-20T14:41:28.774333+00:00",
+      "pnl_pct_live": 0.7,
+      "progression_pct": 7.3
     },
     {
       "ticker": "RIOT",
@@ -152,7 +160,11 @@
       "top_news_url": "https://finance.yahoo.com/markets/stocks/articles/look-riot-platforms-riot-valuation-151043359.html",
       "status": "open",
       "issued_at": "2026-05-19T20:20:56.193170",
-      "last_seen": "2026-05-20T14:30:41.896782"
+      "last_seen": "2026-05-20T14:30:41.896782",
+      "current_price": 23.66,
+      "current_price_time": "2026-05-20T14:41:28.774333+00:00",
+      "pnl_pct_live": 0.17,
+      "progression_pct": 1.3
     },
     {
       "ticker": "GOOG",
@@ -185,10 +197,10 @@
       "status": "open",
       "issued_at": "2026-05-19T20:20:56.193163",
       "last_seen": "2026-05-20T08:39:11.338820",
-      "current_price": 386.0,
-      "current_price_time": "2026-05-20T13:39:36.427408+00:00",
-      "pnl_pct_live": 0.29,
-      "progression_pct": 4.8
+      "current_price": 381.73,
+      "current_price_time": "2026-05-20T14:41:28.774333+00:00",
+      "pnl_pct_live": -0.82,
+      "progression_pct": -34.7
     },
     {
       "ticker": "TTD",
@@ -223,7 +235,11 @@
       "top_news_url": "https://finance.yahoo.com/markets/stocks/articles/bull-case-trade-desk-ttd-002251318.html",
       "status": "open",
       "issued_at": "2026-05-19T20:20:56.193186",
-      "last_seen": "2026-05-20T14:30:41.896782"
+      "last_seen": "2026-05-20T14:30:41.896782",
+      "current_price": 20.56,
+      "current_price_time": "2026-05-20T14:41:28.774333+00:00",
+      "pnl_pct_live": 0.29,
+      "progression_pct": 1.9
     },
     {
       "ticker": "META",
@@ -258,10 +274,10 @@
       "status": "open",
       "issued_at": "2026-05-19T20:20:56.193181",
       "last_seen": "2026-05-20T08:39:11.338820",
-      "current_price": 601.55,
-      "current_price_time": "2026-05-20T13:39:36.427408+00:00",
-      "pnl_pct_live": 0.18,
-      "progression_pct": 4.3
+      "current_price": 600.99,
+      "current_price_time": "2026-05-20T14:41:28.774333+00:00",
+      "pnl_pct_live": 0.27,
+      "progression_pct": 6.6
     },
     {
       "ticker": "VRSK",
@@ -296,10 +312,10 @@
       "status": "open",
       "issued_at": "2026-05-19T20:20:56.193189",
       "last_seen": "2026-05-20T08:39:11.338820",
-      "current_price": 169.57,
-      "current_price_time": "2026-05-20T13:39:36.427408+00:00",
-      "pnl_pct_live": 0.67,
-      "progression_pct": 7.0
+      "current_price": 169.5,
+      "current_price_time": "2026-05-20T14:41:28.774333+00:00",
+      "pnl_pct_live": 0.71,
+      "progression_pct": 7.4
     },
     {
       "ticker": "COIN",
@@ -336,10 +352,10 @@
       "status": "open",
       "issued_at": "2026-05-19T20:20:56.193174",
       "last_seen": "2026-05-20T08:39:11.338820",
-      "current_price": 191.48,
-      "current_price_time": "2026-05-20T13:39:36.427408+00:00",
-      "pnl_pct_live": 1.02,
-      "progression_pct": 6.8
+      "current_price": 193.77,
+      "current_price_time": "2026-05-20T14:41:28.774333+00:00",
+      "pnl_pct_live": -0.17,
+      "progression_pct": -3.3
     },
     {
       "ticker": "PINS",
@@ -374,7 +390,11 @@
       "top_news_url": "https://finance.yahoo.com/markets/stocks/articles/pinterest-pins-valuation-check-ai-182021434.html",
       "status": "open",
       "issued_at": "2026-05-19T20:20:56.193177",
-      "last_seen": "2026-05-20T14:30:41.896782"
+      "last_seen": "2026-05-20T14:30:41.896782",
+      "current_price": 18.67,
+      "current_price_time": "2026-05-20T14:41:28.774333+00:00",
+      "pnl_pct_live": -0.38,
+      "progression_pct": -7.5
     }
   ]
 }
