@@ -1,20 +1,20 @@
 {
-  "generated_at": "2026-05-20T20:19:12.379797",
+  "generated_at": "2026-05-20T21:10:15.665098+00:00",
   "date": "2026-05-20",
   "stats": {
-    "total": 10,
-    "buy_signals": 5,
-    "sell_signals": 5,
+    "total": 0,
+    "buy_signals": 0,
+    "sell_signals": 0,
     "avg_confidence": 0.911,
     "avg_rr": 2.75,
     "win_rate": 0.0,
-    "active_positions": 10,
+    "active_positions": 0,
     "daily_pnl": 0.0
   },
   "eod": {
     "tp_hit": 0,
     "sl_hit": 0,
-    "open": 10,
+    "open": 0,
     "cumulative_pnl": 0.0
   },
   "signals": [
@@ -46,9 +46,15 @@
       "news_score": 0.25,
       "top_news_title": "Invest in These 5 Big Data Behemoths to Gain From Wall Street Rally",
       "top_news_url": "https://finance.yahoo.com/markets/stocks/articles/invest-5-big-data-behemoths-114800098.html",
-      "status": "open",
+      "status": "expired",
       "issued_at": "2026-05-19T20:20:56.193114",
-      "last_seen": "2026-05-20T20:19:12.379797"
+      "last_seen": "2026-05-20T20:19:12.379797",
+      "current_price": 114.32,
+      "current_price_time": "2026-05-20T21:10:15.665098+00:00",
+      "exit_price": 114.32,
+      "exit_date": "2026-05-20T21:10:15.665098+00:00",
+      "pnl_pct": -0.03,
+      "pnl_pct_live": -0.03
     },
     {
       "ticker": "PANW",
@@ -80,9 +86,15 @@
       "news_score": 0.15,
       "top_news_title": "Watch Palo Alto Gain Over 2,650% Via Institutional Inflows",
       "top_news_url": "https://finance.yahoo.com/markets/stocks/articles/watch-palo-alto-gain-over-132121042.html",
-      "status": "open",
+      "status": "expired",
       "issued_at": "2026-05-19T20:20:56.193158",
-      "last_seen": "2026-05-20T20:19:12.379797"
+      "last_seen": "2026-05-20T20:19:12.379797",
+      "current_price": 246.64,
+      "current_price_time": "2026-05-20T21:10:15.665098+00:00",
+      "exit_price": 246.64,
+      "exit_date": "2026-05-20T21:10:15.665098+00:00",
+      "pnl_pct": -0.01,
+      "pnl_pct_live": -0.01
     },
     {
       "ticker": "ON",
@@ -112,13 +124,16 @@
       "news_score": 0.45,
       "top_news_title": "Can Texas Instruments' Analog Unit Extend Its Strong Sales Growth Run?",
       "top_news_url": "https://finance.yahoo.com/markets/stocks/articles/texas-instruments-analog-unit-extend-125600311.html",
-      "status": "open",
+      "status": "expired",
       "issued_at": "2026-05-19T20:20:56.193167",
       "last_seen": "2026-05-20T18:44:07.466008",
       "current_price": 110.18,
-      "current_price_time": "2026-05-20T20:16:59.820047+00:00",
+      "current_price_time": "2026-05-20T21:10:15.665098+00:00",
       "pnl_pct_live": 0.78,
-      "progression_pct": 5.2
+      "progression_pct": 5.2,
+      "exit_price": 110.18,
+      "exit_date": "2026-05-20T21:10:15.665098+00:00",
+      "pnl_pct": 0.78
     },
     {
       "ticker": "RIOT",
@@ -150,9 +165,15 @@
       "news_score": 0.25,
       "top_news_title": "A Look At Riot Platforms (RIOT) Valuation After Strong Recent Share Price Gains",
       "top_news_url": "https://finance.yahoo.com/markets/stocks/articles/look-riot-platforms-riot-valuation-151043359.html",
-      "status": "open",
+      "status": "expired",
       "issued_at": "2026-05-19T20:20:56.193170",
-      "last_seen": "2026-05-20T20:19:12.379797"
+      "last_seen": "2026-05-20T20:19:12.379797",
+      "current_price": 23.66,
+      "current_price_time": "2026-05-20T21:10:15.665098+00:00",
+      "exit_price": 23.66,
+      "exit_date": "2026-05-20T21:10:15.665098+00:00",
+      "pnl_pct": -0.04,
+      "pnl_pct_live": -0.04
     },
     {
       "ticker": "GOOG",
@@ -182,9 +203,15 @@
       "news_score": 0.15,
       "top_news_title": "Earnings live updates: Target stock rises as the retailer looks to reclaim its 'Tarjay' moniker, Nvi",
       "top_news_url": "https://finance.yahoo.com/markets/live/earnings-live-updates-target-stock-rises-as-the-retailer-looks-to-reclaim-its-tarjay-moniker-nvidia-earnings-loom-115413034.html",
-      "status": "open",
+      "status": "expired",
       "issued_at": "2026-05-19T20:20:56.193163",
-      "last_seen": "2026-05-20T20:19:12.379797"
+      "last_seen": "2026-05-20T20:19:12.379797",
+      "current_price": 384.89,
+      "current_price_time": "2026-05-20T21:10:15.665098+00:00",
+      "exit_price": 384.89,
+      "exit_date": "2026-05-20T21:10:15.665098+00:00",
+      "pnl_pct": -0.0,
+      "pnl_pct_live": -0.0
     },
     {
       "ticker": "TTD",
@@ -217,9 +244,15 @@
       "news_score": 0.05,
       "top_news_title": "The Bull Case For Trade Desk (TTD) Could Change Following Soft Q1, Buybacks Finish, CSO Exit",
       "top_news_url": "https://finance.yahoo.com/markets/stocks/articles/bull-case-trade-desk-ttd-002251318.html",
-      "status": "open",
+      "status": "expired",
       "issued_at": "2026-05-19T20:20:56.193186",
-      "last_seen": "2026-05-20T20:19:12.379797"
+      "last_seen": "2026-05-20T20:19:12.379797",
+      "current_price": 21.02,
+      "current_price_time": "2026-05-20T21:10:15.665098+00:00",
+      "exit_price": 21.02,
+      "exit_date": "2026-05-20T21:10:15.665098+00:00",
+      "pnl_pct": 0.0,
+      "pnl_pct_live": 0.0
     },
     {
       "ticker": "META",
@@ -251,13 +284,16 @@
       "news_score": -0.3,
       "top_news_title": "Meta Begins 8,000 Global Job Cuts in Asian Hub of Singapore",
       "top_news_url": "https://finance.yahoo.com/news/meta-begins-8000-global-job-cuts-in-asian-hub-of-singapore-004153264.html",
-      "status": "open",
+      "status": "expired",
       "issued_at": "2026-05-19T20:20:56.193181",
       "last_seen": "2026-05-20T08:39:11.338820",
       "current_price": 605.06,
-      "current_price_time": "2026-05-20T20:16:59.820047+00:00",
+      "current_price_time": "2026-05-20T21:10:15.665098+00:00",
       "pnl_pct_live": -0.41,
-      "progression_pct": -24.8
+      "progression_pct": -24.8,
+      "exit_price": 605.06,
+      "exit_date": "2026-05-20T21:10:15.665098+00:00",
+      "pnl_pct": -0.41
     },
     {
       "ticker": "COIN",
@@ -291,9 +327,15 @@
       "news_score": -0.05,
       "top_news_title": "Nvidia Just Proved ‘AI Efficiency’ Is Fake as Layoffs Rise: ‘The Cost of Compute Is Far Beyond the C",
       "top_news_url": "https://www.barchart.com/story/news/2021817/nvidia-just-proved-ai-efficiency-is-fake-as-layoffs-rise-the-cost-of-compute-is-far-beyond-the-cost-of-employees",
-      "status": "open",
+      "status": "expired",
       "issued_at": "2026-05-19T20:20:56.193174",
-      "last_seen": "2026-05-20T20:19:12.379797"
+      "last_seen": "2026-05-20T20:19:12.379797",
+      "current_price": 191.28,
+      "current_price_time": "2026-05-20T21:10:15.665098+00:00",
+      "exit_price": 191.28,
+      "exit_date": "2026-05-20T21:10:15.665098+00:00",
+      "pnl_pct": 0.01,
+      "pnl_pct_live": 0.01
     },
     {
       "ticker": "VRSK",
@@ -325,9 +367,15 @@
       "news_score": 0.2,
       "top_news_title": "How The Verisk Analytics (VRSK) Narrative Is Shifting On Growth, AI Risk And Valuation",
       "top_news_url": "https://finance.yahoo.com/markets/stocks/articles/verisk-analytics-vrsk-narrative-shifting-081215383.html",
-      "status": "open",
+      "status": "expired",
       "issued_at": "2026-05-19T20:20:56.193189",
-      "last_seen": "2026-05-20T20:19:12.379797"
+      "last_seen": "2026-05-20T20:19:12.379797",
+      "current_price": 170.72,
+      "current_price_time": "2026-05-20T21:10:15.665098+00:00",
+      "exit_price": 170.72,
+      "exit_date": "2026-05-20T21:10:15.665098+00:00",
+      "pnl_pct": -0.04,
+      "pnl_pct_live": -0.04
     },
     {
       "ticker": "PINS",
@@ -360,9 +408,15 @@
       "news_score": 0.35,
       "top_news_title": "Pinterest (PINS) Valuation Check After AI Driven Q1 Beat And International Advertiser Growth",
       "top_news_url": "https://finance.yahoo.com/markets/stocks/articles/pinterest-pins-valuation-check-ai-182021434.html",
-      "status": "open",
+      "status": "expired",
       "issued_at": "2026-05-19T20:20:56.193177",
-      "last_seen": "2026-05-20T20:19:12.379797"
+      "last_seen": "2026-05-20T20:19:12.379797",
+      "current_price": 18.78,
+      "current_price_time": "2026-05-20T21:10:15.665098+00:00",
+      "exit_price": 18.78,
+      "exit_date": "2026-05-20T21:10:15.665098+00:00",
+      "pnl_pct": 0.16,
+      "pnl_pct_live": 0.16
     }
   ]
 }
