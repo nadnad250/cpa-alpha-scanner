@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-05-21T14:32:13.188269",
+  "generated_at": "2026-05-21T15:47:00.096278+00:00",
   "date": "2026-05-21",
   "stats": {
     "total": 10,
@@ -48,7 +48,11 @@
       "top_news_url": "https://finance.yahoo.com/markets/stocks/articles/invest-5-big-data-behemoths-114800098.html",
       "status": "open",
       "issued_at": "2026-05-21T08:44:02.703551",
-      "last_seen": "2026-05-21T14:32:13.188269"
+      "last_seen": "2026-05-21T14:32:13.188269",
+      "current_price": 116.9,
+      "current_price_time": "2026-05-21T15:47:00.096278+00:00",
+      "pnl_pct_live": 0.52,
+      "progression_pct": 3.5
     },
     {
       "ticker": "PANW",
@@ -83,10 +87,10 @@
       "status": "open",
       "issued_at": "2026-05-21T08:44:02.703568",
       "last_seen": "2026-05-21T08:44:02.704556",
-      "current_price": 250.01,
-      "current_price_time": "2026-05-21T14:26:26.242219+00:00",
-      "pnl_pct_live": 1.36,
-      "progression_pct": 13.1
+      "current_price": 250.71,
+      "current_price_time": "2026-05-21T15:47:00.096278+00:00",
+      "pnl_pct_live": 1.64,
+      "progression_pct": 15.8
     },
     {
       "ticker": "FTNT",
@@ -121,7 +125,11 @@
       "top_news_url": "https://247wallst.com/investing/2026/05/19/fortinet-cut-to-hold-at-dz-bank-price-target-set-at-125-is-cybersecurity-losing-steam/",
       "status": "open",
       "issued_at": "2026-05-21T08:44:02.703588",
-      "last_seen": "2026-05-21T14:32:13.188269"
+      "last_seen": "2026-05-21T14:32:13.188269",
+      "current_price": 128.16,
+      "current_price_time": "2026-05-21T15:47:00.096278+00:00",
+      "pnl_pct_live": 0.19,
+      "progression_pct": 1.9
     },
     {
       "ticker": "RIOT",
@@ -155,7 +163,11 @@
       "top_news_url": "https://finance.yahoo.com/markets/stocks/articles/look-riot-platforms-riot-valuation-151043359.html",
       "status": "open",
       "issued_at": "2026-05-21T08:44:02.703595",
-      "last_seen": "2026-05-21T14:32:13.188269"
+      "last_seen": "2026-05-21T14:32:13.188269",
+      "current_price": 24.63,
+      "current_price_time": "2026-05-21T15:47:00.096278+00:00",
+      "pnl_pct_live": 0.74,
+      "progression_pct": 5.6
     },
     {
       "ticker": "GOOGL",
@@ -188,10 +200,10 @@
       "status": "open",
       "issued_at": "2026-05-21T08:44:02.703574",
       "last_seen": "2026-05-21T08:44:02.704556",
-      "current_price": 385.45,
-      "current_price_time": "2026-05-21T14:26:26.242219+00:00",
-      "pnl_pct_live": -0.89,
-      "progression_pct": -48.8
+      "current_price": 389.98,
+      "current_price_time": "2026-05-21T15:47:00.096278+00:00",
+      "pnl_pct_live": 0.28,
+      "progression_pct": 6.0
     },
     {
       "ticker": "TTD",
@@ -226,7 +238,11 @@
       "top_news_url": "https://finance.yahoo.com/markets/stocks/articles/retail-media-become-major-growth-131000078.html",
       "status": "open",
       "issued_at": "2026-05-21T08:44:02.703618",
-      "last_seen": "2026-05-21T14:32:13.188269"
+      "last_seen": "2026-05-21T14:32:13.188269",
+      "current_price": 20.89,
+      "current_price_time": "2026-05-21T15:47:00.096278+00:00",
+      "pnl_pct_live": 1.18,
+      "progression_pct": 8.8
     },
     {
       "ticker": "MELI",
@@ -261,7 +277,11 @@
       "top_news_url": "https://finance.yahoo.com/markets/stocks/articles/offers-mercado-libre-meli-longer-133044353.html",
       "status": "open",
       "issued_at": "2026-05-21T08:44:02.703632",
-      "last_seen": "2026-05-21T14:32:13.188269"
+      "last_seen": "2026-05-21T14:32:13.188269",
+      "current_price": 1668.05,
+      "current_price_time": "2026-05-21T15:47:00.096278+00:00",
+      "pnl_pct_live": -0.87,
+      "progression_pct": -22.0
     },
     {
       "ticker": "COIN",
@@ -297,7 +317,11 @@
       "top_news_url": "https://www.barchart.com/story/news/2021817/nvidia-just-proved-ai-efficiency-is-fake-as-layoffs-rise-the-cost-of-compute-is-far-beyond-the-cost-of-employees",
       "status": "open",
       "issued_at": "2026-05-21T08:44:02.703602",
-      "last_seen": "2026-05-21T14:32:13.188269"
+      "last_seen": "2026-05-21T14:32:13.188269",
+      "current_price": 190.6,
+      "current_price_time": "2026-05-21T15:47:00.096278+00:00",
+      "pnl_pct_live": -0.84,
+      "progression_pct": -16.7
     },
     {
       "ticker": "VRSK",
@@ -331,7 +355,11 @@
       "top_news_url": "https://finance.yahoo.com/markets/stocks/articles/verisk-analytics-vrsk-narrative-shifting-081215383.html",
       "status": "open",
       "issued_at": "2026-05-21T08:44:02.703626",
-      "last_seen": "2026-05-21T14:32:13.188269"
+      "last_seen": "2026-05-21T14:32:13.188269",
+      "current_price": 171.73,
+      "current_price_time": "2026-05-21T15:47:00.096278+00:00",
+      "pnl_pct_live": -0.19,
+      "progression_pct": -5.7
     },
     {
       "ticker": "PINS",
@@ -366,7 +394,11 @@
       "top_news_url": "https://finance.yahoo.com/markets/stocks/articles/pinterest-pins-valuation-check-ai-182021434.html",
       "status": "open",
       "issued_at": "2026-05-21T08:44:02.703610",
-      "last_seen": "2026-05-21T14:32:13.188269"
+      "last_seen": "2026-05-21T14:32:13.188269",
+      "current_price": 18.75,
+      "current_price_time": "2026-05-21T15:47:00.096278+00:00",
+      "pnl_pct_live": -0.86,
+      "progression_pct": -17.4
     },
     {
       "ticker": "CSCO",
