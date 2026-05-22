@@ -1,20 +1,20 @@
 {
-  "generated_at": "2026-05-22T08:36:49.517320",
+  "generated_at": "2026-05-22T09:24:19.761611+00:00",
   "date": "2026-05-22",
   "stats": {
-    "total": 10,
-    "buy_signals": 5,
-    "sell_signals": 5,
+    "total": 0,
+    "buy_signals": 0,
+    "sell_signals": 0,
     "avg_confidence": 0.899,
     "avg_rr": 2.66,
     "win_rate": 0.0,
-    "active_positions": 10,
+    "active_positions": 0,
     "daily_pnl": 0.0
   },
   "eod": {
     "tp_hit": 0,
     "sl_hit": 0,
-    "open": 10,
+    "open": 0,
     "cumulative_pnl": 0.0
   },
   "signals": [
@@ -46,9 +46,15 @@
       "news_score": 0.1,
       "top_news_title": "IBM Rallies 8% While Oracle, Cisco, HPE Drift: Is the Laggard Finally Bouncing?",
       "top_news_url": "https://247wallst.com/investing/2026/05/21/ibm-climbs-8-while-oracle-cisco-hpe-drift-is-the-laggard-finally-bouncing/",
-      "status": "open",
+      "status": "expired",
       "issued_at": "2026-05-21T08:44:02.703551",
-      "last_seen": "2026-05-22T08:36:49.517320"
+      "last_seen": "2026-05-22T08:36:49.517320",
+      "current_price": 118.23,
+      "current_price_time": "2026-05-22T09:24:19.761611+00:00",
+      "exit_price": 118.23,
+      "exit_date": "2026-05-22T09:24:19.761611+00:00",
+      "pnl_pct": 0.03,
+      "pnl_pct_live": 0.03
     },
     {
       "ticker": "PANW",
@@ -80,9 +86,15 @@
       "news_score": 0.25,
       "top_news_title": "Is AI Security Becoming PANW's Biggest Long-Term Growth Opportunity?",
       "top_news_url": "https://finance.yahoo.com/sectors/technology/articles/ai-security-becoming-panws-biggest-145700614.html",
-      "status": "open",
+      "status": "expired",
       "issued_at": "2026-05-21T08:44:02.703568",
-      "last_seen": "2026-05-22T08:36:49.517320"
+      "last_seen": "2026-05-22T08:36:49.517320",
+      "current_price": 252.91,
+      "current_price_time": "2026-05-22T09:24:19.761611+00:00",
+      "exit_price": 252.91,
+      "exit_date": "2026-05-22T09:24:19.761611+00:00",
+      "pnl_pct": -0.0,
+      "pnl_pct_live": -0.0
     },
     {
       "ticker": "FTNT",
@@ -115,9 +127,15 @@
       "news_score": 0.05,
       "top_news_title": "Fortinet Cut to Hold at DZ Bank, Price Target Set at $125: Is Cybersecurity Losing Steam?",
       "top_news_url": "https://247wallst.com/investing/2026/05/19/fortinet-cut-to-hold-at-dz-bank-price-target-set-at-125-is-cybersecurity-losing-steam/",
-      "status": "open",
+      "status": "expired",
       "issued_at": "2026-05-21T08:44:02.703588",
-      "last_seen": "2026-05-22T08:36:49.517320"
+      "last_seen": "2026-05-22T08:36:49.517320",
+      "current_price": 129.42,
+      "current_price_time": "2026-05-22T09:24:19.761611+00:00",
+      "exit_price": 129.42,
+      "exit_date": "2026-05-22T09:24:19.761611+00:00",
+      "pnl_pct": -0.03,
+      "pnl_pct_live": -0.03
     },
     {
       "ticker": "RIOT",
@@ -149,9 +167,15 @@
       "news_score": 0.35,
       "top_news_title": "A Look At Riot Platforms (RIOT) Valuation After Strong Recent Share Price Gains",
       "top_news_url": "https://finance.yahoo.com/markets/stocks/articles/look-riot-platforms-riot-valuation-151043359.html",
-      "status": "open",
+      "status": "expired",
       "issued_at": "2026-05-21T08:44:02.703595",
-      "last_seen": "2026-05-22T08:36:49.517320"
+      "last_seen": "2026-05-22T08:36:49.517320",
+      "current_price": 24.48,
+      "current_price_time": "2026-05-22T09:24:19.761611+00:00",
+      "exit_price": 24.48,
+      "exit_date": "2026-05-22T09:24:19.761611+00:00",
+      "pnl_pct": 0.04,
+      "pnl_pct_live": 0.04
     },
     {
       "ticker": "GOOGL",
@@ -181,9 +205,15 @@
       "news_score": -0.05,
       "top_news_title": "Waymo pauses freeway robotaxi routes after safety and software concerns",
       "top_news_url": "https://www.foxbusiness.com/technology/waymo-pauses-freeway-robotaxi-routes-after-safety-software-concerns",
-      "status": "open",
+      "status": "expired",
       "issued_at": "2026-05-21T08:44:02.703574",
-      "last_seen": "2026-05-22T08:36:49.517320"
+      "last_seen": "2026-05-22T08:36:49.517320",
+      "current_price": 387.66,
+      "current_price_time": "2026-05-22T09:24:19.761611+00:00",
+      "exit_price": 387.66,
+      "exit_date": "2026-05-22T09:24:19.761611+00:00",
+      "pnl_pct": 0.0,
+      "pnl_pct_live": 0.0
     },
     {
       "ticker": "MELI",
@@ -217,9 +247,15 @@
       "news_score": 0.3,
       "top_news_title": "What Offers Mercado Libre (MELI) a Longer Runway for Extraordinary Growth?",
       "top_news_url": "https://finance.yahoo.com/markets/stocks/articles/offers-mercado-libre-meli-longer-133044353.html",
-      "status": "open",
+      "status": "expired",
       "issued_at": "2026-05-21T08:44:02.703632",
-      "last_seen": "2026-05-22T08:36:49.517320"
+      "last_seen": "2026-05-22T08:36:49.517320",
+      "current_price": 1678.01,
+      "current_price_time": "2026-05-22T09:24:19.761611+00:00",
+      "exit_price": 1678.01,
+      "exit_date": "2026-05-22T09:24:19.761611+00:00",
+      "pnl_pct": -0.01,
+      "pnl_pct_live": -0.01
     },
     {
       "ticker": "TTD",
@@ -252,9 +288,15 @@
       "news_score": 0.15,
       "top_news_title": "Can Retail Media Become a Major Growth Driver for Trade Desk?",
       "top_news_url": "https://finance.yahoo.com/markets/stocks/articles/retail-media-become-major-growth-131000078.html",
-      "status": "open",
+      "status": "expired",
       "issued_at": "2026-05-21T08:44:02.703618",
-      "last_seen": "2026-05-22T08:36:49.517320"
+      "last_seen": "2026-05-22T08:36:49.517320",
+      "current_price": 21.3,
+      "current_price_time": "2026-05-22T09:24:19.761611+00:00",
+      "exit_price": 21.3,
+      "exit_date": "2026-05-22T09:24:19.761611+00:00",
+      "pnl_pct": -0.09,
+      "pnl_pct_live": -0.09
     },
     {
       "ticker": "COIN",
@@ -288,9 +330,15 @@
       "news_score": -0.1,
       "top_news_title": "Grads Get Rude Welcome from Job Market Battered by AI-Fueled Tech Layoffs",
       "top_news_url": "https://www.thedailyupside.com/technology/artificial-intelligence/tech-layoffs-mount-as-grads-boo-the-ai-ified-job-market/",
-      "status": "open",
+      "status": "expired",
       "issued_at": "2026-05-21T08:44:02.703602",
-      "last_seen": "2026-05-22T08:36:49.517320"
+      "last_seen": "2026-05-22T08:36:49.517320",
+      "current_price": 193.6,
+      "current_price_time": "2026-05-22T09:24:19.761611+00:00",
+      "exit_price": 193.6,
+      "exit_date": "2026-05-22T09:24:19.761611+00:00",
+      "pnl_pct": -0.02,
+      "pnl_pct_live": -0.02
     },
     {
       "ticker": "VRSK",
@@ -322,13 +370,16 @@
       "news_score": 0.2,
       "top_news_title": "How The Verisk Analytics (VRSK) Narrative Is Shifting On Growth, AI Risk And Valuation",
       "top_news_url": "https://finance.yahoo.com/markets/stocks/articles/verisk-analytics-vrsk-narrative-shifting-081215383.html",
-      "status": "open",
+      "status": "expired",
       "issued_at": "2026-05-21T08:44:02.703626",
       "last_seen": "2026-05-21T17:25:16.400987",
       "current_price": 171.59,
-      "current_price_time": "2026-05-22T08:08:46.728948+00:00",
+      "current_price_time": "2026-05-22T09:24:19.761611+00:00",
       "pnl_pct_live": 0.95,
-      "progression_pct": 11.2
+      "progression_pct": 11.2,
+      "exit_price": 171.59,
+      "exit_date": "2026-05-22T09:24:19.761611+00:00",
+      "pnl_pct": 0.95
     },
     {
       "ticker": "PINS",
@@ -361,9 +412,15 @@
       "news_score": 0.35,
       "top_news_title": "Pinterest (PINS) Valuation Check After AI Driven Q1 Beat And International Advertiser Growth",
       "top_news_url": "https://finance.yahoo.com/markets/stocks/articles/pinterest-pins-valuation-check-ai-182021434.html",
-      "status": "open",
+      "status": "expired",
       "issued_at": "2026-05-21T08:44:02.703610",
-      "last_seen": "2026-05-22T08:36:49.517320"
+      "last_seen": "2026-05-22T08:36:49.517320",
+      "current_price": 18.83,
+      "current_price_time": "2026-05-22T09:24:19.761611+00:00",
+      "exit_price": 18.83,
+      "exit_date": "2026-05-22T09:24:19.761611+00:00",
+      "pnl_pct": 0.11,
+      "pnl_pct_live": 0.11
     },
     {
       "ticker": "CSCO",
