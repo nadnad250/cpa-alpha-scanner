@@ -642,5 +642,28 @@
     "ml_proba_up": 0.5,
     "risk_reward": 2.5000000000000075,
     "primary_reason": "Momentum positif soutenu"
+  },
+  {
+    "ticker": "TSLA",
+    "action": "STRONG_BUY",
+    "entry_price": 426.01,
+    "stop_loss": 412.4971368408203,
+    "take_profit": 459.7921578979492,
+    "score": 0.4491800655366696,
+    "confidence": 0.9067117099547242,
+    "universe": "NASDAQ100",
+    "issued_at": "2026-05-22T20:12:18.652337",
+    "horizon_days": 1,
+    "horizon_hours": 24,
+    "status": "open",
+    "exit_price": null,
+    "exit_date": null,
+    "pnl_pct": null,
+    "max_favorable": null,
+    "max_adverse": null,
+    "sector": "Consumer Cyclical",
+    "ml_proba_up": 0.5,
+    "risk_reward": 2.5,
+    "primary_reason": "Momentum positif soutenu"
   }
 ]
