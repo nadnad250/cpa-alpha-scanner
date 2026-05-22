@@ -1,20 +1,20 @@
 {
-  "generated_at": "2026-05-22T14:29:18.673678",
+  "generated_at": "2026-05-22T14:39:13.959388+00:00",
   "date": "2026-05-22",
   "stats": {
-    "total": 10,
-    "buy_signals": 8,
-    "sell_signals": 2,
+    "total": 3,
+    "buy_signals": 3,
+    "sell_signals": 0,
     "avg_confidence": 0.959,
     "avg_rr": 2.75,
     "win_rate": 0.0,
-    "active_positions": 10,
+    "active_positions": 3,
     "daily_pnl": 0.0
   },
   "eod": {
     "tp_hit": 0,
     "sl_hit": 0,
-    "open": 10,
+    "open": 3,
     "cumulative_pnl": 0.0
   },
   "signals": [
@@ -46,9 +46,15 @@
       "news_score": 0.25,
       "top_news_title": "Cybersecurity stocks are hitting records again as chips play catch-up: Chart of the Day",
       "top_news_url": "https://finance.yahoo.com/markets/article/cybersecurity-stocks-are-hitting-records-again-as-chips-play-catch-up-chart-of-the-day-130252672.html",
-      "status": "open",
+      "status": "expired",
       "issued_at": "2026-05-21T08:44:02.703551",
-      "last_seen": "2026-05-22T14:29:18.673678"
+      "last_seen": "2026-05-22T14:29:18.673678",
+      "current_price": 119.61,
+      "current_price_time": "2026-05-22T14:39:13.959388+00:00",
+      "exit_price": 119.61,
+      "exit_date": "2026-05-22T14:39:13.959388+00:00",
+      "pnl_pct": 0.34,
+      "pnl_pct_live": 0.34
     },
     {
       "ticker": "ZM",
@@ -80,7 +86,11 @@
       "top_news_url": "https://www.investors.com/news/technology/zoom-stock-zm-zoom-earnings-news-q12026/?src=A00220&yptr=yahoo",
       "status": "open",
       "issued_at": "2026-05-22T14:29:18.672766",
-      "last_seen": "2026-05-22T14:29:18.673678"
+      "last_seen": "2026-05-22T14:29:18.673678",
+      "current_price": 108.35,
+      "current_price_time": "2026-05-22T14:39:13.959388+00:00",
+      "pnl_pct_live": 0.1,
+      "progression_pct": 0.7
     },
     {
       "ticker": "CRWD",
@@ -114,7 +124,11 @@
       "top_news_url": "https://finance.yahoo.com/video/us-stocks-rebound-cybersecurity-sector-surges-to-record-highs-200917094.html",
       "status": "open",
       "issued_at": "2026-05-22T14:29:18.672762",
-      "last_seen": "2026-05-22T14:29:18.673678"
+      "last_seen": "2026-05-22T14:29:18.673678",
+      "current_price": 665.68,
+      "current_price_time": "2026-05-22T14:39:13.959388+00:00",
+      "pnl_pct_live": 0.23,
+      "progression_pct": 2.6
     },
     {
       "ticker": "LRCX",
@@ -146,7 +160,11 @@
       "top_news_url": "https://finance.yahoo.com/sectors/technology/articles/market-chatter-lam-research-plans-092004201.html",
       "status": "open",
       "issued_at": "2026-05-22T14:29:18.672770",
-      "last_seen": "2026-05-22T14:29:18.673678"
+      "last_seen": "2026-05-22T14:29:18.673678",
+      "current_price": 308.68,
+      "current_price_time": "2026-05-22T14:39:13.959388+00:00",
+      "pnl_pct_live": 0.34,
+      "progression_pct": 2.3
     },
     {
       "ticker": "PANW",
@@ -174,9 +192,15 @@
       "news_score": null,
       "top_news_title": null,
       "top_news_url": null,
-      "status": "open",
+      "status": "expired",
       "issued_at": "2026-05-21T08:44:02.703568",
-      "last_seen": "2026-05-22T14:29:18.673678"
+      "last_seen": "2026-05-22T14:29:18.673678",
+      "current_price": 255.77,
+      "current_price_time": "2026-05-22T14:39:13.959388+00:00",
+      "exit_price": 255.77,
+      "exit_date": "2026-05-22T14:39:13.959388+00:00",
+      "pnl_pct": 3.69,
+      "pnl_pct_live": 3.69
     },
     {
       "ticker": "FTNT",
@@ -204,9 +228,15 @@
       "news_score": null,
       "top_news_title": null,
       "top_news_url": null,
-      "status": "open",
+      "status": "expired",
       "issued_at": "2026-05-21T08:44:02.703588",
-      "last_seen": "2026-05-22T14:29:18.673678"
+      "last_seen": "2026-05-22T14:29:18.673678",
+      "current_price": 131.29,
+      "current_price_time": "2026-05-22T14:39:13.959388+00:00",
+      "exit_price": 131.29,
+      "exit_date": "2026-05-22T14:39:13.959388+00:00",
+      "pnl_pct": 0.99,
+      "pnl_pct_live": 0.99
     },
     {
       "ticker": "RIOT",
@@ -234,9 +264,15 @@
       "news_score": null,
       "top_news_title": null,
       "top_news_url": null,
-      "status": "open",
+      "status": "expired",
       "issued_at": "2026-05-21T08:44:02.703595",
-      "last_seen": "2026-05-22T14:29:18.673678"
+      "last_seen": "2026-05-22T14:29:18.673678",
+      "current_price": 24.63,
+      "current_price_time": "2026-05-22T14:39:13.959388+00:00",
+      "exit_price": 24.63,
+      "exit_date": "2026-05-22T14:39:13.959388+00:00",
+      "pnl_pct": 4.06,
+      "pnl_pct_live": 4.06
     },
     {
       "ticker": "GOOGL",
@@ -264,9 +300,15 @@
       "news_score": null,
       "top_news_title": null,
       "top_news_url": null,
-      "status": "open",
+      "status": "expired",
       "issued_at": "2026-05-21T08:44:02.703574",
-      "last_seen": "2026-05-22T14:29:18.673678"
+      "last_seen": "2026-05-22T14:29:18.673678",
+      "current_price": 386.48,
+      "current_price_time": "2026-05-22T14:39:13.959388+00:00",
+      "exit_price": 386.48,
+      "exit_date": "2026-05-22T14:39:13.959388+00:00",
+      "pnl_pct": -0.62,
+      "pnl_pct_live": -0.62
     },
     {
       "ticker": "TTD",
@@ -298,9 +340,15 @@
       "news_score": 0.15,
       "top_news_title": "Can Retail Media Become a Major Growth Driver for Trade Desk?",
       "top_news_url": "https://finance.yahoo.com/markets/stocks/articles/retail-media-become-major-growth-131000078.html",
-      "status": "open",
+      "status": "expired",
       "issued_at": "2026-05-21T08:44:02.703618",
-      "last_seen": "2026-05-22T14:29:18.673678"
+      "last_seen": "2026-05-22T14:29:18.673678",
+      "current_price": 22.17,
+      "current_price_time": "2026-05-22T14:39:13.959388+00:00",
+      "exit_price": 22.17,
+      "exit_date": "2026-05-22T14:39:13.959388+00:00",
+      "pnl_pct": -0.54,
+      "pnl_pct_live": -0.54
     },
     {
       "ticker": "COIN",
@@ -334,9 +382,15 @@
       "news_score": -0.1,
       "top_news_title": "Grads Get Rude Welcome from Job Market Battered by AI-Fueled Tech Layoffs",
       "top_news_url": "https://www.thedailyupside.com/technology/artificial-intelligence/tech-layoffs-mount-as-grads-boo-the-ai-ified-job-market/",
-      "status": "open",
+      "status": "expired",
       "issued_at": "2026-05-21T08:44:02.703602",
-      "last_seen": "2026-05-22T14:29:18.673678"
+      "last_seen": "2026-05-22T14:29:18.673678",
+      "current_price": 188.73,
+      "current_price_time": "2026-05-22T14:39:13.959388+00:00",
+      "exit_price": 188.73,
+      "exit_date": "2026-05-22T14:39:13.959388+00:00",
+      "pnl_pct": -0.45,
+      "pnl_pct_live": -0.45
     },
     {
       "ticker": "CSCO",
