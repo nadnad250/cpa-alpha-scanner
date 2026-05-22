@@ -1,20 +1,20 @@
 {
-  "generated_at": "2026-05-22T18:32:33.393748",
+  "generated_at": "2026-05-22T18:54:20.459259+00:00",
   "date": "2026-05-22",
   "stats": {
-    "total": 10,
-    "buy_signals": 10,
+    "total": 5,
+    "buy_signals": 5,
     "sell_signals": 0,
     "avg_confidence": 0.988,
     "avg_rr": 2.67,
     "win_rate": 0.0,
-    "active_positions": 10,
+    "active_positions": 5,
     "daily_pnl": 0.0
   },
   "eod": {
     "tp_hit": 0,
     "sl_hit": 0,
-    "open": 10,
+    "open": 5,
     "cumulative_pnl": 0.0
   },
   "signals": [
@@ -44,9 +44,15 @@
       "news_score": null,
       "top_news_title": null,
       "top_news_url": null,
-      "status": "open",
+      "status": "expired",
       "issued_at": "2026-05-21T08:44:02.703551",
-      "last_seen": "2026-05-22T18:32:33.393748"
+      "last_seen": "2026-05-22T18:32:33.393748",
+      "current_price": 120.17,
+      "current_price_time": "2026-05-22T18:54:20.459259+00:00",
+      "exit_price": 120.17,
+      "exit_date": "2026-05-22T18:54:20.459259+00:00",
+      "pnl_pct": 5.09,
+      "pnl_pct_live": 5.09
     },
     {
       "ticker": "ZM",
@@ -79,10 +85,10 @@
       "status": "open",
       "issued_at": "2026-05-22T14:29:18.672766",
       "last_seen": "2026-05-22T14:29:18.673678",
-      "current_price": 107.17,
-      "current_price_time": "2026-05-22T18:07:39.026249+00:00",
-      "pnl_pct_live": -0.99,
-      "progression_pct": -19.8
+      "current_price": 106.99,
+      "current_price_time": "2026-05-22T18:54:20.459259+00:00",
+      "pnl_pct_live": -1.15,
+      "progression_pct": -23.1
     },
     {
       "ticker": "CRWD",
@@ -117,10 +123,10 @@
       "status": "open",
       "issued_at": "2026-05-22T14:29:18.672762",
       "last_seen": "2026-05-22T14:29:18.673678",
-      "current_price": 663.26,
-      "current_price_time": "2026-05-22T18:07:39.026249+00:00",
-      "pnl_pct_live": -0.13,
-      "progression_pct": -3.7
+      "current_price": 664.96,
+      "current_price_time": "2026-05-22T18:54:20.459259+00:00",
+      "pnl_pct_live": 0.12,
+      "progression_pct": 1.4
     },
     {
       "ticker": "LRCX",
@@ -153,10 +159,10 @@
       "status": "open",
       "issued_at": "2026-05-22T14:29:18.672770",
       "last_seen": "2026-05-22T14:29:18.673678",
-      "current_price": 308.6,
-      "current_price_time": "2026-05-22T18:07:39.026249+00:00",
-      "pnl_pct_live": 0.31,
-      "progression_pct": 2.1
+      "current_price": 307.3,
+      "current_price_time": "2026-05-22T18:54:20.459259+00:00",
+      "pnl_pct_live": -0.11,
+      "progression_pct": -2.2
     },
     {
       "ticker": "PANW",
@@ -184,9 +190,15 @@
       "news_score": null,
       "top_news_title": null,
       "top_news_url": null,
-      "status": "open",
+      "status": "expired",
       "issued_at": "2026-05-21T08:44:02.703568",
-      "last_seen": "2026-05-22T18:32:33.393748"
+      "last_seen": "2026-05-22T18:32:33.393748",
+      "current_price": 259.17,
+      "current_price_time": "2026-05-22T18:54:20.459259+00:00",
+      "exit_price": 259.17,
+      "exit_date": "2026-05-22T18:54:20.459259+00:00",
+      "pnl_pct": 5.07,
+      "pnl_pct_live": 5.07
     },
     {
       "ticker": "FTNT",
@@ -214,9 +226,15 @@
       "news_score": null,
       "top_news_title": null,
       "top_news_url": null,
-      "status": "open",
+      "status": "expired",
       "issued_at": "2026-05-21T08:44:02.703588",
-      "last_seen": "2026-05-22T18:32:33.393748"
+      "last_seen": "2026-05-22T18:32:33.393748",
+      "current_price": 133.54,
+      "current_price_time": "2026-05-22T18:54:20.459259+00:00",
+      "exit_price": 133.54,
+      "exit_date": "2026-05-22T18:54:20.459259+00:00",
+      "pnl_pct": 2.72,
+      "pnl_pct_live": 2.72
     },
     {
       "ticker": "RIOT",
@@ -244,9 +262,15 @@
       "news_score": null,
       "top_news_title": null,
       "top_news_url": null,
-      "status": "open",
+      "status": "expired",
       "issued_at": "2026-05-21T08:44:02.703595",
-      "last_seen": "2026-05-22T18:32:33.393748"
+      "last_seen": "2026-05-22T18:32:33.393748",
+      "current_price": 24.74,
+      "current_price_time": "2026-05-22T18:54:20.459259+00:00",
+      "exit_price": 24.74,
+      "exit_date": "2026-05-22T18:54:20.459259+00:00",
+      "pnl_pct": 4.52,
+      "pnl_pct_live": 4.52
     },
     {
       "ticker": "GOOGL",
@@ -274,9 +298,15 @@
       "news_score": null,
       "top_news_title": null,
       "top_news_url": null,
-      "status": "open",
+      "status": "expired",
       "issued_at": "2026-05-21T08:44:02.703574",
-      "last_seen": "2026-05-22T18:32:33.393748"
+      "last_seen": "2026-05-22T18:32:33.393748",
+      "current_price": 384.54,
+      "current_price_time": "2026-05-22T18:54:20.459259+00:00",
+      "exit_price": 384.54,
+      "exit_date": "2026-05-22T18:54:20.459259+00:00",
+      "pnl_pct": -1.12,
+      "pnl_pct_live": -1.12
     },
     {
       "ticker": "SIRI",
@@ -309,10 +339,10 @@
       "status": "open",
       "issued_at": "2026-05-22T15:57:36.267675",
       "last_seen": "2026-05-22T15:57:36.268848",
-      "current_price": 28.8,
-      "current_price_time": "2026-05-22T18:07:39.026249+00:00",
-      "pnl_pct_live": -1.17,
-      "progression_pct": -40.5
+      "current_price": 28.77,
+      "current_price_time": "2026-05-22T18:54:20.459259+00:00",
+      "pnl_pct_live": -1.27,
+      "progression_pct": -44.0
     },
     {
       "ticker": "ROKU",
@@ -344,7 +374,11 @@
       "top_news_url": "https://www.investors.com/research/options/roku-stock-streaming-platform-tech-options-trade-income-investing-markets/?src=A00220&yptr=yahoo",
       "status": "open",
       "issued_at": "2026-05-22T18:32:33.392357",
-      "last_seen": "2026-05-22T18:32:33.393748"
+      "last_seen": "2026-05-22T18:32:33.393748",
+      "current_price": 125.38,
+      "current_price_time": "2026-05-22T18:54:20.459259+00:00",
+      "pnl_pct_live": -0.29,
+      "progression_pct": -15.5
     },
     {
       "ticker": "CSCO",
