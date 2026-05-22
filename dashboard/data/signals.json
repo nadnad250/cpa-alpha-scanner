@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-05-22T18:54:20.459259+00:00",
+  "generated_at": "2026-05-22T19:33:29.003727+00:00",
   "date": "2026-05-22",
   "stats": {
     "total": 5,
@@ -85,10 +85,10 @@
       "status": "open",
       "issued_at": "2026-05-22T14:29:18.672766",
       "last_seen": "2026-05-22T14:29:18.673678",
-      "current_price": 106.99,
-      "current_price_time": "2026-05-22T18:54:20.459259+00:00",
-      "pnl_pct_live": -1.15,
-      "progression_pct": -23.1
+      "current_price": 105.61,
+      "current_price_time": "2026-05-22T19:33:29.003727+00:00",
+      "pnl_pct_live": -2.43,
+      "progression_pct": -48.6
     },
     {
       "ticker": "CRWD",
@@ -123,10 +123,10 @@
       "status": "open",
       "issued_at": "2026-05-22T14:29:18.672762",
       "last_seen": "2026-05-22T14:29:18.673678",
-      "current_price": 664.96,
-      "current_price_time": "2026-05-22T18:54:20.459259+00:00",
-      "pnl_pct_live": 0.12,
-      "progression_pct": 1.4
+      "current_price": 663.45,
+      "current_price_time": "2026-05-22T19:33:29.003727+00:00",
+      "pnl_pct_live": -0.1,
+      "progression_pct": -2.9
     },
     {
       "ticker": "LRCX",
@@ -159,10 +159,10 @@
       "status": "open",
       "issued_at": "2026-05-22T14:29:18.672770",
       "last_seen": "2026-05-22T14:29:18.673678",
-      "current_price": 307.3,
-      "current_price_time": "2026-05-22T18:54:20.459259+00:00",
-      "pnl_pct_live": -0.11,
-      "progression_pct": -2.2
+      "current_price": 305.53,
+      "current_price_time": "2026-05-22T19:33:29.003727+00:00",
+      "pnl_pct_live": -0.69,
+      "progression_pct": -13.7
     },
     {
       "ticker": "PANW",
@@ -339,10 +339,10 @@
       "status": "open",
       "issued_at": "2026-05-22T15:57:36.267675",
       "last_seen": "2026-05-22T15:57:36.268848",
-      "current_price": 28.77,
-      "current_price_time": "2026-05-22T18:54:20.459259+00:00",
-      "pnl_pct_live": -1.27,
-      "progression_pct": -44.0
+      "current_price": 28.72,
+      "current_price_time": "2026-05-22T19:33:29.003727+00:00",
+      "pnl_pct_live": -1.44,
+      "progression_pct": -50.0
     },
     {
       "ticker": "ROKU",
@@ -375,10 +375,10 @@
       "status": "open",
       "issued_at": "2026-05-22T18:32:33.392357",
       "last_seen": "2026-05-22T18:32:33.393748",
-      "current_price": 125.38,
-      "current_price_time": "2026-05-22T18:54:20.459259+00:00",
-      "pnl_pct_live": -0.29,
-      "progression_pct": -15.5
+      "current_price": 125.32,
+      "current_price_time": "2026-05-22T19:33:29.003727+00:00",
+      "pnl_pct_live": -0.33,
+      "progression_pct": -18.1
     },
     {
       "ticker": "CSCO",
