@@ -1,20 +1,20 @@
 {
-  "generated_at": "2026-05-22T15:57:36.268848",
+  "generated_at": "2026-05-22T16:36:06.980249+00:00",
   "date": "2026-05-22",
   "stats": {
-    "total": 10,
-    "buy_signals": 9,
-    "sell_signals": 1,
+    "total": 4,
+    "buy_signals": 4,
+    "sell_signals": 0,
     "avg_confidence": 0.975,
     "avg_rr": 2.7,
     "win_rate": 0.0,
-    "active_positions": 10,
+    "active_positions": 4,
     "daily_pnl": 0.0
   },
   "eod": {
     "tp_hit": 0,
     "sl_hit": 0,
-    "open": 10,
+    "open": 4,
     "cumulative_pnl": 0.0
   },
   "signals": [
@@ -44,9 +44,15 @@
       "news_score": null,
       "top_news_title": null,
       "top_news_url": null,
-      "status": "open",
+      "status": "expired",
       "issued_at": "2026-05-21T08:44:02.703551",
-      "last_seen": "2026-05-22T15:57:36.268848"
+      "last_seen": "2026-05-22T15:57:36.268848",
+      "current_price": 120.51,
+      "current_price_time": "2026-05-22T16:36:06.980249+00:00",
+      "exit_price": 120.51,
+      "exit_date": "2026-05-22T16:36:06.980249+00:00",
+      "pnl_pct": 5.39,
+      "pnl_pct_live": 5.39
     },
     {
       "ticker": "ZM",
@@ -79,10 +85,10 @@
       "status": "open",
       "issued_at": "2026-05-22T14:29:18.672766",
       "last_seen": "2026-05-22T14:29:18.673678",
-      "current_price": 107.93,
-      "current_price_time": "2026-05-22T15:42:24.121837+00:00",
-      "pnl_pct_live": -0.29,
-      "progression_pct": -5.7
+      "current_price": 107.31,
+      "current_price_time": "2026-05-22T16:36:06.980249+00:00",
+      "pnl_pct_live": -0.86,
+      "progression_pct": -17.2
     },
     {
       "ticker": "CRWD",
@@ -117,10 +123,10 @@
       "status": "open",
       "issued_at": "2026-05-22T14:29:18.672762",
       "last_seen": "2026-05-22T14:29:18.673678",
-      "current_price": 669.19,
-      "current_price_time": "2026-05-22T15:42:24.121837+00:00",
-      "pnl_pct_live": 0.76,
-      "progression_pct": 8.6
+      "current_price": 671.06,
+      "current_price_time": "2026-05-22T16:36:06.980249+00:00",
+      "pnl_pct_live": 1.04,
+      "progression_pct": 11.8
     },
     {
       "ticker": "PANW",
@@ -152,9 +158,15 @@
       "news_score": 0.35,
       "top_news_title": "US stocks rebound, cybersecurity sector surges to record highs",
       "top_news_url": "https://finance.yahoo.com/video/us-stocks-rebound-cybersecurity-sector-surges-to-record-highs-200917094.html",
-      "status": "open",
+      "status": "expired",
       "issued_at": "2026-05-21T08:44:02.703568",
-      "last_seen": "2026-05-22T15:57:36.268848"
+      "last_seen": "2026-05-22T15:57:36.268848",
+      "current_price": 259.65,
+      "current_price_time": "2026-05-22T16:36:06.980249+00:00",
+      "exit_price": 259.65,
+      "exit_date": "2026-05-22T16:36:06.980249+00:00",
+      "pnl_pct": -0.23,
+      "pnl_pct_live": -0.23
     },
     {
       "ticker": "LRCX",
@@ -187,10 +199,10 @@
       "status": "open",
       "issued_at": "2026-05-22T14:29:18.672770",
       "last_seen": "2026-05-22T14:29:18.673678",
-      "current_price": 308.36,
-      "current_price_time": "2026-05-22T15:42:24.121837+00:00",
-      "pnl_pct_live": 0.23,
-      "progression_pct": 1.6
+      "current_price": 307.49,
+      "current_price_time": "2026-05-22T16:36:06.980249+00:00",
+      "pnl_pct_live": -0.05,
+      "progression_pct": -1.0
     },
     {
       "ticker": "FTNT",
@@ -218,9 +230,15 @@
       "news_score": null,
       "top_news_title": null,
       "top_news_url": null,
-      "status": "open",
+      "status": "expired",
       "issued_at": "2026-05-21T08:44:02.703588",
-      "last_seen": "2026-05-22T15:57:36.268848"
+      "last_seen": "2026-05-22T15:57:36.268848",
+      "current_price": 133.07,
+      "current_price_time": "2026-05-22T16:36:06.980249+00:00",
+      "exit_price": 133.07,
+      "exit_date": "2026-05-22T16:36:06.980249+00:00",
+      "pnl_pct": 2.36,
+      "pnl_pct_live": 2.36
     },
     {
       "ticker": "RIOT",
@@ -252,9 +270,15 @@
       "news_score": 0.35,
       "top_news_title": "A Look At Riot Platforms (RIOT) Valuation After Strong Recent Share Price Gains",
       "top_news_url": "https://finance.yahoo.com/markets/stocks/articles/look-riot-platforms-riot-valuation-151043359.html",
-      "status": "open",
+      "status": "expired",
       "issued_at": "2026-05-21T08:44:02.703595",
-      "last_seen": "2026-05-22T15:57:36.268848"
+      "last_seen": "2026-05-22T15:57:36.268848",
+      "current_price": 24.81,
+      "current_price_time": "2026-05-22T16:36:06.980249+00:00",
+      "exit_price": 24.81,
+      "exit_date": "2026-05-22T16:36:06.980249+00:00",
+      "pnl_pct": -0.12,
+      "pnl_pct_live": -0.12
     },
     {
       "ticker": "GOOGL",
@@ -282,9 +306,15 @@
       "news_score": null,
       "top_news_title": null,
       "top_news_url": null,
-      "status": "open",
+      "status": "expired",
       "issued_at": "2026-05-21T08:44:02.703574",
-      "last_seen": "2026-05-22T15:57:36.268848"
+      "last_seen": "2026-05-22T15:57:36.268848",
+      "current_price": 385.48,
+      "current_price_time": "2026-05-22T16:36:06.980249+00:00",
+      "exit_price": 385.48,
+      "exit_date": "2026-05-22T16:36:06.980249+00:00",
+      "pnl_pct": -0.88,
+      "pnl_pct_live": -0.88
     },
     {
       "ticker": "SIRI",
@@ -316,7 +346,11 @@
       "top_news_url": "https://247wallst.com/investing/2026/05/05/warren-buffetts-3-best-bargains-under-30/",
       "status": "open",
       "issued_at": "2026-05-22T15:57:36.267675",
-      "last_seen": "2026-05-22T15:57:36.268848"
+      "last_seen": "2026-05-22T15:57:36.268848",
+      "current_price": 28.96,
+      "current_price_time": "2026-05-22T16:36:06.980249+00:00",
+      "pnl_pct_live": -0.62,
+      "progression_pct": -21.4
     },
     {
       "ticker": "COIN",
@@ -344,9 +378,15 @@
       "news_score": null,
       "top_news_title": null,
       "top_news_url": null,
-      "status": "open",
+      "status": "expired",
       "issued_at": "2026-05-21T08:44:02.703602",
-      "last_seen": "2026-05-22T15:57:36.268848"
+      "last_seen": "2026-05-22T15:57:36.268848",
+      "current_price": 189.63,
+      "current_price_time": "2026-05-22T16:36:06.980249+00:00",
+      "exit_price": 189.63,
+      "exit_date": "2026-05-22T16:36:06.980249+00:00",
+      "pnl_pct": 0.87,
+      "pnl_pct_live": 0.87
     },
     {
       "ticker": "CSCO",
