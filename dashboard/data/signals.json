@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-05-26T19:05:05.981978+00:00",
+  "generated_at": "2026-05-26T19:55:52.161131+00:00",
   "date": "2026-05-26",
   "stats": {
     "total": 4,
@@ -123,10 +123,10 @@
       "status": "open",
       "issued_at": "2026-05-26T14:31:06.619776",
       "last_seen": "2026-05-26T14:31:06.620663",
-      "current_price": 673.44,
-      "current_price_time": "2026-05-26T19:05:05.981978+00:00",
-      "pnl_pct_live": 1.11,
-      "progression_pct": 14.5
+      "current_price": 672.98,
+      "current_price_time": "2026-05-26T19:55:52.161131+00:00",
+      "pnl_pct_live": 1.04,
+      "progression_pct": 13.6
     },
     {
       "ticker": "TXN",
@@ -159,10 +159,10 @@
       "status": "open",
       "issued_at": "2026-05-26T16:21:51.757618",
       "last_seen": "2026-05-26T16:21:51.758765",
-      "current_price": 323.21,
-      "current_price_time": "2026-05-26T19:05:05.981978+00:00",
-      "pnl_pct_live": 0.08,
-      "progression_pct": 1.1
+      "current_price": 325.16,
+      "current_price_time": "2026-05-26T19:55:52.161131+00:00",
+      "pnl_pct_live": 0.68,
+      "progression_pct": 9.6
     },
     {
       "ticker": "LRCX",
@@ -234,10 +234,10 @@
       "status": "open",
       "issued_at": "2026-05-26T14:31:06.619789",
       "last_seen": "2026-05-26T14:31:06.620663",
-      "current_price": 133.84,
-      "current_price_time": "2026-05-26T19:05:05.981978+00:00",
-      "pnl_pct_live": 1.13,
-      "progression_pct": 14.4
+      "current_price": 133.94,
+      "current_price_time": "2026-05-26T19:55:52.161131+00:00",
+      "pnl_pct_live": 1.21,
+      "progression_pct": 15.3
     },
     {
       "ticker": "RIOT",
@@ -272,10 +272,10 @@
       "status": "open",
       "issued_at": "2026-05-26T14:31:06.619793",
       "last_seen": "2026-05-26T14:31:06.620663",
-      "current_price": 25.84,
-      "current_price_time": "2026-05-26T19:05:05.981978+00:00",
-      "pnl_pct_live": -0.81,
-      "progression_pct": -16.2
+      "current_price": 26.08,
+      "current_price_time": "2026-05-26T19:55:52.161131+00:00",
+      "pnl_pct_live": 0.12,
+      "progression_pct": 0.8
     },
     {
       "ticker": "ZM",
