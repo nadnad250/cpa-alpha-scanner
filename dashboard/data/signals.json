@@ -1,20 +1,20 @@
 {
-  "generated_at": "2026-05-26T20:18:34.352301",
+  "generated_at": "2026-05-26T20:43:13.465341+00:00",
   "date": "2026-05-26",
   "stats": {
-    "total": 10,
-    "buy_signals": 10,
+    "total": 5,
+    "buy_signals": 5,
     "sell_signals": 0,
     "avg_confidence": 0.978,
     "avg_rr": 2.73,
     "win_rate": 0.0,
-    "active_positions": 10,
+    "active_positions": 5,
     "daily_pnl": 0.0
   },
   "eod": {
     "tp_hit": 0,
     "sl_hit": 0,
-    "open": 10,
+    "open": 5,
     "cumulative_pnl": 0.0
   },
   "signals": [
@@ -44,9 +44,15 @@
       "news_score": null,
       "top_news_title": null,
       "top_news_url": null,
-      "status": "open",
+      "status": "expired",
       "issued_at": "2026-05-25T08:52:02.292226",
-      "last_seen": "2026-05-26T20:18:34.352301"
+      "last_seen": "2026-05-26T20:18:34.352301",
+      "current_price": 118.32,
+      "current_price_time": "2026-05-26T20:43:13.465341+00:00",
+      "exit_price": 118.32,
+      "exit_date": "2026-05-26T20:43:13.465341+00:00",
+      "pnl_pct": -1.74,
+      "pnl_pct_live": -1.74
     },
     {
       "ticker": "QCOM",
@@ -79,7 +85,11 @@
       "top_news_url": "https://finance.yahoo.com/sectors/technology/live/tech-stocks-today-micron-joins-1-trillion-club-qualcomm-stock-jumps-on-report-of-bytedance-chip-deal-100000715.html",
       "status": "open",
       "issued_at": "2026-05-26T20:18:34.350961",
-      "last_seen": "2026-05-26T20:18:34.352301"
+      "last_seen": "2026-05-26T20:18:34.352301",
+      "current_price": 248.81,
+      "current_price_time": "2026-05-26T20:43:13.465341+00:00",
+      "pnl_pct_live": -0.0,
+      "progression_pct": -0.1
     },
     {
       "ticker": "PANW",
@@ -107,9 +117,15 @@
       "news_score": null,
       "top_news_title": null,
       "top_news_url": null,
-      "status": "open",
+      "status": "expired",
       "issued_at": "2026-05-25T08:52:02.292237",
-      "last_seen": "2026-05-26T20:18:34.352301"
+      "last_seen": "2026-05-26T20:18:34.352301",
+      "current_price": 256.86,
+      "current_price_time": "2026-05-26T20:43:13.465341+00:00",
+      "exit_price": 256.86,
+      "exit_date": "2026-05-26T20:43:13.465341+00:00",
+      "pnl_pct": -1.43,
+      "pnl_pct_live": -1.43
     },
     {
       "ticker": "CRWD",
@@ -144,10 +160,10 @@
       "status": "open",
       "issued_at": "2026-05-26T14:31:06.619776",
       "last_seen": "2026-05-26T14:31:06.620663",
-      "current_price": 672.98,
-      "current_price_time": "2026-05-26T19:55:52.161131+00:00",
-      "pnl_pct_live": 1.04,
-      "progression_pct": 13.6
+      "current_price": 671.55,
+      "current_price_time": "2026-05-26T20:43:13.465341+00:00",
+      "pnl_pct_live": 0.82,
+      "progression_pct": 10.8
     },
     {
       "ticker": "TXN",
@@ -180,10 +196,10 @@
       "status": "open",
       "issued_at": "2026-05-26T16:21:51.757618",
       "last_seen": "2026-05-26T16:21:51.758765",
-      "current_price": 325.16,
-      "current_price_time": "2026-05-26T19:55:52.161131+00:00",
-      "pnl_pct_live": 0.68,
-      "progression_pct": 9.6
+      "current_price": 324.79,
+      "current_price_time": "2026-05-26T20:43:13.465341+00:00",
+      "pnl_pct_live": 0.57,
+      "progression_pct": 8.0
     },
     {
       "ticker": "LRCX",
@@ -211,9 +227,15 @@
       "news_score": null,
       "top_news_title": null,
       "top_news_url": null,
-      "status": "open",
+      "status": "expired",
       "issued_at": "2026-05-25T08:52:02.292241",
-      "last_seen": "2026-05-26T20:18:34.352301"
+      "last_seen": "2026-05-26T20:18:34.352301",
+      "current_price": 322.49,
+      "current_price_time": "2026-05-26T20:43:13.465341+00:00",
+      "exit_price": 322.49,
+      "exit_date": "2026-05-26T20:43:13.465341+00:00",
+      "pnl_pct": 5.61,
+      "pnl_pct_live": 5.61
     },
     {
       "ticker": "FTNT",
@@ -249,10 +271,10 @@
       "status": "open",
       "issued_at": "2026-05-26T14:31:06.619789",
       "last_seen": "2026-05-26T14:31:06.620663",
-      "current_price": 133.94,
-      "current_price_time": "2026-05-26T19:55:52.161131+00:00",
-      "pnl_pct_live": 1.21,
-      "progression_pct": 15.3
+      "current_price": 133.95,
+      "current_price_time": "2026-05-26T20:43:13.465341+00:00",
+      "pnl_pct_live": 1.22,
+      "progression_pct": 15.4
     },
     {
       "ticker": "RIOT",
@@ -287,10 +309,10 @@
       "status": "open",
       "issued_at": "2026-05-26T14:31:06.619793",
       "last_seen": "2026-05-26T14:31:06.620663",
-      "current_price": 26.08,
-      "current_price_time": "2026-05-26T19:55:52.161131+00:00",
-      "pnl_pct_live": 0.12,
-      "progression_pct": 0.8
+      "current_price": 26.09,
+      "current_price_time": "2026-05-26T20:43:13.465341+00:00",
+      "pnl_pct_live": 0.15,
+      "progression_pct": 1.1
     },
     {
       "ticker": "ZM",
@@ -318,9 +340,15 @@
       "news_score": null,
       "top_news_title": null,
       "top_news_url": null,
-      "status": "open",
+      "status": "expired",
       "issued_at": "2026-05-25T08:52:02.292244",
-      "last_seen": "2026-05-26T20:18:34.352301"
+      "last_seen": "2026-05-26T20:18:34.352301",
+      "current_price": 100.07,
+      "current_price_time": "2026-05-26T20:43:13.465341+00:00",
+      "exit_price": 100.07,
+      "exit_date": "2026-05-26T20:43:13.465341+00:00",
+      "pnl_pct": -5.27,
+      "pnl_pct_live": -5.27
     },
     {
       "ticker": "ROKU",
@@ -348,9 +376,15 @@
       "news_score": null,
       "top_news_title": null,
       "top_news_url": null,
-      "status": "open",
+      "status": "expired",
       "issued_at": "2026-05-25T08:52:02.292247",
-      "last_seen": "2026-05-26T20:18:34.352301"
+      "last_seen": "2026-05-26T20:18:34.352301",
+      "current_price": 127.69,
+      "current_price_time": "2026-05-26T20:43:13.465341+00:00",
+      "exit_price": 127.69,
+      "exit_date": "2026-05-26T20:43:13.465341+00:00",
+      "pnl_pct": 1.7,
+      "pnl_pct_live": 1.7
     },
     {
       "ticker": "CSCO",
