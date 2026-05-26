@@ -1,20 +1,20 @@
 {
-  "generated_at": "2026-05-26T16:21:51.758765",
+  "generated_at": "2026-05-26T17:07:45.134987+00:00",
   "date": "2026-05-26",
   "stats": {
-    "total": 10,
-    "buy_signals": 10,
+    "total": 4,
+    "buy_signals": 4,
     "sell_signals": 0,
     "avg_confidence": 0.986,
     "avg_rr": 2.68,
     "win_rate": 0.0,
-    "active_positions": 10,
+    "active_positions": 4,
     "daily_pnl": 0.0
   },
   "eod": {
     "tp_hit": 0,
     "sl_hit": 0,
-    "open": 10,
+    "open": 4,
     "cumulative_pnl": 0.0
   },
   "signals": [
@@ -44,9 +44,15 @@
       "news_score": null,
       "top_news_title": null,
       "top_news_url": null,
-      "status": "open",
+      "status": "expired",
       "issued_at": "2026-05-25T08:52:02.292226",
-      "last_seen": "2026-05-26T16:21:51.758765"
+      "last_seen": "2026-05-26T16:21:51.758765",
+      "current_price": 117.5,
+      "current_price_time": "2026-05-26T17:07:45.134987+00:00",
+      "exit_price": 117.5,
+      "exit_date": "2026-05-26T17:07:45.134987+00:00",
+      "pnl_pct": -2.42,
+      "pnl_pct_live": -2.42
     },
     {
       "ticker": "PANW",
@@ -78,9 +84,15 @@
       "news_score": 0.4,
       "top_news_title": "Top Cybersecurity Stocks to Buy as AI-Driven Demand Fuels Growth",
       "top_news_url": "https://finance.yahoo.com/markets/stocks/articles/top-cybersecurity-stocks-buy-ai-141300930.html",
-      "status": "open",
+      "status": "expired",
       "issued_at": "2026-05-25T08:52:02.292237",
-      "last_seen": "2026-05-26T16:21:51.758765"
+      "last_seen": "2026-05-26T16:21:51.758765",
+      "current_price": 257.13,
+      "current_price_time": "2026-05-26T17:07:45.134987+00:00",
+      "exit_price": 257.13,
+      "exit_date": "2026-05-26T17:07:45.134987+00:00",
+      "pnl_pct": -0.43,
+      "pnl_pct_live": -0.43
     },
     {
       "ticker": "CRWD",
@@ -115,10 +127,10 @@
       "status": "open",
       "issued_at": "2026-05-26T14:31:06.619776",
       "last_seen": "2026-05-26T14:31:06.620663",
-      "current_price": 675.27,
-      "current_price_time": "2026-05-26T15:46:31.177203+00:00",
-      "pnl_pct_live": 1.38,
-      "progression_pct": 18.1
+      "current_price": 672.77,
+      "current_price_time": "2026-05-26T17:07:45.134987+00:00",
+      "pnl_pct_live": 1.01,
+      "progression_pct": 13.2
     },
     {
       "ticker": "TXN",
@@ -150,7 +162,11 @@
       "top_news_url": "https://finance.yahoo.com/markets/stocks/articles/ai-chip-stocks-jump-qualcomm-122029972.html",
       "status": "open",
       "issued_at": "2026-05-26T16:21:51.757618",
-      "last_seen": "2026-05-26T16:21:51.758765"
+      "last_seen": "2026-05-26T16:21:51.758765",
+      "current_price": 322.97,
+      "current_price_time": "2026-05-26T17:07:45.134987+00:00",
+      "pnl_pct_live": 0.01,
+      "progression_pct": 0.1
     },
     {
       "ticker": "LRCX",
@@ -178,9 +194,15 @@
       "news_score": null,
       "top_news_title": null,
       "top_news_url": null,
-      "status": "open",
+      "status": "expired",
       "issued_at": "2026-05-25T08:52:02.292241",
-      "last_seen": "2026-05-26T16:21:51.758765"
+      "last_seen": "2026-05-26T16:21:51.758765",
+      "current_price": 319.98,
+      "current_price_time": "2026-05-26T17:07:45.134987+00:00",
+      "exit_price": 319.98,
+      "exit_date": "2026-05-26T17:07:45.134987+00:00",
+      "pnl_pct": 4.79,
+      "pnl_pct_live": 4.79
     },
     {
       "ticker": "FTNT",
@@ -216,10 +238,10 @@
       "status": "open",
       "issued_at": "2026-05-26T14:31:06.619789",
       "last_seen": "2026-05-26T14:31:06.620663",
-      "current_price": 134.43,
-      "current_price_time": "2026-05-26T15:46:31.177203+00:00",
-      "pnl_pct_live": 1.58,
-      "progression_pct": 20.0
+      "current_price": 134.28,
+      "current_price_time": "2026-05-26T17:07:45.134987+00:00",
+      "pnl_pct_live": 1.47,
+      "progression_pct": 18.6
     },
     {
       "ticker": "RIOT",
@@ -254,10 +276,10 @@
       "status": "open",
       "issued_at": "2026-05-26T14:31:06.619793",
       "last_seen": "2026-05-26T14:31:06.620663",
-      "current_price": 25.96,
-      "current_price_time": "2026-05-26T15:46:31.177203+00:00",
-      "pnl_pct_live": -0.35,
-      "progression_pct": -6.9
+      "current_price": 26.15,
+      "current_price_time": "2026-05-26T17:07:45.134987+00:00",
+      "pnl_pct_live": 0.38,
+      "progression_pct": 2.6
     },
     {
       "ticker": "ZM",
@@ -285,9 +307,15 @@
       "news_score": null,
       "top_news_title": null,
       "top_news_url": null,
-      "status": "open",
+      "status": "expired",
       "issued_at": "2026-05-25T08:52:02.292244",
-      "last_seen": "2026-05-26T16:21:51.758765"
+      "last_seen": "2026-05-26T16:21:51.758765",
+      "current_price": 100.97,
+      "current_price_time": "2026-05-26T17:07:45.134987+00:00",
+      "exit_price": 100.97,
+      "exit_date": "2026-05-26T17:07:45.134987+00:00",
+      "pnl_pct": -4.42,
+      "pnl_pct_live": -4.42
     },
     {
       "ticker": "ROKU",
@@ -315,9 +343,15 @@
       "news_score": null,
       "top_news_title": null,
       "top_news_url": null,
-      "status": "open",
+      "status": "expired",
       "issued_at": "2026-05-25T08:52:02.292247",
-      "last_seen": "2026-05-26T16:21:51.758765"
+      "last_seen": "2026-05-26T16:21:51.758765",
+      "current_price": 127.81,
+      "current_price_time": "2026-05-26T17:07:45.134987+00:00",
+      "exit_price": 127.81,
+      "exit_date": "2026-05-26T17:07:45.134987+00:00",
+      "pnl_pct": 1.8,
+      "pnl_pct_live": 1.8
     },
     {
       "ticker": "SIRI",
@@ -345,9 +379,15 @@
       "news_score": null,
       "top_news_title": null,
       "top_news_url": null,
-      "status": "open",
+      "status": "expired",
       "issued_at": "2026-05-25T08:52:02.292251",
-      "last_seen": "2026-05-26T16:21:51.758765"
+      "last_seen": "2026-05-26T16:21:51.758765",
+      "current_price": 29.81,
+      "current_price_time": "2026-05-26T17:07:45.134987+00:00",
+      "exit_price": 29.81,
+      "exit_date": "2026-05-26T17:07:45.134987+00:00",
+      "pnl_pct": 3.18,
+      "pnl_pct_live": 3.18
     },
     {
       "ticker": "CSCO",
