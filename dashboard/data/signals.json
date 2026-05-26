@@ -1,20 +1,20 @@
 {
-  "generated_at": "2026-05-26T14:31:06.620663",
+  "generated_at": "2026-05-26T15:46:31.177203+00:00",
   "date": "2026-05-26",
   "stats": {
-    "total": 10,
-    "buy_signals": 10,
+    "total": 3,
+    "buy_signals": 3,
     "sell_signals": 0,
     "avg_confidence": 0.979,
     "avg_rr": 2.69,
     "win_rate": 0.0,
-    "active_positions": 10,
+    "active_positions": 3,
     "daily_pnl": 0.0
   },
   "eod": {
     "tp_hit": 0,
     "sl_hit": 0,
-    "open": 10,
+    "open": 3,
     "cumulative_pnl": 0.0
   },
   "signals": [
@@ -46,9 +46,15 @@
       "news_score": 0.45,
       "top_news_title": "Nasdaq leads Wall Street gains as chip and AI stocks lead",
       "top_news_url": "https://www.proactiveinvestors.com/companies/news/1092883/nasdaq-to-lead-wall-street-higher-as-investors-catch-up-with-gains-after-holiday-1092883.html",
-      "status": "open",
+      "status": "expired",
       "issued_at": "2026-05-25T08:52:02.292226",
-      "last_seen": "2026-05-26T14:31:06.620663"
+      "last_seen": "2026-05-26T14:31:06.620663",
+      "current_price": 118.26,
+      "current_price_time": "2026-05-26T15:46:31.177203+00:00",
+      "exit_price": 118.26,
+      "exit_date": "2026-05-26T15:46:31.177203+00:00",
+      "pnl_pct": 0.21,
+      "pnl_pct_live": 0.21
     },
     {
       "ticker": "PANW",
@@ -76,9 +82,15 @@
       "news_score": null,
       "top_news_title": null,
       "top_news_url": null,
-      "status": "open",
+      "status": "expired",
       "issued_at": "2026-05-25T08:52:02.292237",
-      "last_seen": "2026-05-26T14:31:06.620663"
+      "last_seen": "2026-05-26T14:31:06.620663",
+      "current_price": 258.71,
+      "current_price_time": "2026-05-26T15:46:31.177203+00:00",
+      "exit_price": 258.71,
+      "exit_date": "2026-05-26T15:46:31.177203+00:00",
+      "pnl_pct": -0.72,
+      "pnl_pct_live": -0.72
     },
     {
       "ticker": "SIRI",
@@ -108,9 +120,15 @@
       "news_score": 0.3,
       "top_news_title": "Warren Buffett’s 3 Best Bargains Under $30",
       "top_news_url": "https://247wallst.com/investing/2026/05/05/warren-buffetts-3-best-bargains-under-30/",
-      "status": "open",
+      "status": "expired",
       "issued_at": "2026-05-25T08:52:02.292251",
-      "last_seen": "2026-05-26T14:31:06.620663"
+      "last_seen": "2026-05-26T14:31:06.620663",
+      "current_price": 29.75,
+      "current_price_time": "2026-05-26T15:46:31.177203+00:00",
+      "exit_price": 29.75,
+      "exit_date": "2026-05-26T15:46:31.177203+00:00",
+      "pnl_pct": 0.47,
+      "pnl_pct_live": 0.47
     },
     {
       "ticker": "CRWD",
@@ -144,7 +162,11 @@
       "top_news_url": "https://finance.yahoo.com/video/us-stocks-rebound-cybersecurity-sector-surges-to-record-highs-200917094.html",
       "status": "open",
       "issued_at": "2026-05-26T14:31:06.619776",
-      "last_seen": "2026-05-26T14:31:06.620663"
+      "last_seen": "2026-05-26T14:31:06.620663",
+      "current_price": 675.27,
+      "current_price_time": "2026-05-26T15:46:31.177203+00:00",
+      "pnl_pct_live": 1.38,
+      "progression_pct": 18.1
     },
     {
       "ticker": "LRCX",
@@ -174,9 +196,15 @@
       "news_score": 0.15,
       "top_news_title": "Is Lam Research Corporation (LRCX) One of the Best Oversold Growth Stocks to Invest in Now?",
       "top_news_url": "https://finance.yahoo.com/markets/stocks/articles/lam-research-corporation-lrcx-one-121534572.html",
-      "status": "open",
+      "status": "expired",
       "issued_at": "2026-05-25T08:52:02.292241",
-      "last_seen": "2026-05-26T14:31:06.620663"
+      "last_seen": "2026-05-26T14:31:06.620663",
+      "current_price": 314.32,
+      "current_price_time": "2026-05-26T15:46:31.177203+00:00",
+      "exit_price": 314.32,
+      "exit_date": "2026-05-26T15:46:31.177203+00:00",
+      "pnl_pct": -1.37,
+      "pnl_pct_live": -1.37
     },
     {
       "ticker": "FTNT",
@@ -211,7 +239,11 @@
       "top_news_url": "https://www.marketbeat.com/stock-ideas/2-software-stocks-turning-ai-fears-into-fundamental-gains-team-ddog/?utm_source=yahoofinance&utm_medium=yahoofinance",
       "status": "open",
       "issued_at": "2026-05-26T14:31:06.619789",
-      "last_seen": "2026-05-26T14:31:06.620663"
+      "last_seen": "2026-05-26T14:31:06.620663",
+      "current_price": 134.43,
+      "current_price_time": "2026-05-26T15:46:31.177203+00:00",
+      "pnl_pct_live": 1.58,
+      "progression_pct": 20.0
     },
     {
       "ticker": "RIOT",
@@ -245,7 +277,11 @@
       "top_news_url": "https://finance.yahoo.com/markets/stocks/articles/look-riot-platforms-riot-valuation-151043359.html",
       "status": "open",
       "issued_at": "2026-05-26T14:31:06.619793",
-      "last_seen": "2026-05-26T14:31:06.620663"
+      "last_seen": "2026-05-26T14:31:06.620663",
+      "current_price": 25.96,
+      "current_price_time": "2026-05-26T15:46:31.177203+00:00",
+      "pnl_pct_live": -0.35,
+      "progression_pct": -6.9
     },
     {
       "ticker": "ZM",
@@ -273,9 +309,15 @@
       "news_score": null,
       "top_news_title": null,
       "top_news_url": null,
-      "status": "open",
+      "status": "expired",
       "issued_at": "2026-05-25T08:52:02.292244",
-      "last_seen": "2026-05-26T14:31:06.620663"
+      "last_seen": "2026-05-26T14:31:06.620663",
+      "current_price": 100.76,
+      "current_price_time": "2026-05-26T15:46:31.177203+00:00",
+      "exit_price": 100.76,
+      "exit_date": "2026-05-26T15:46:31.177203+00:00",
+      "pnl_pct": -4.62,
+      "pnl_pct_live": -4.62
     },
     {
       "ticker": "ROKU",
@@ -305,9 +347,15 @@
       "news_score": 0.3,
       "top_news_title": "Cathie Wood Is Dumping AMD and TSMC Stock. Here's What She's Buying Instead",
       "top_news_url": "https://finance.yahoo.com/markets/stocks/articles/cathie-wood-dumping-amd-tsmc-131358833.html",
-      "status": "open",
+      "status": "expired",
       "issued_at": "2026-05-25T08:52:02.292247",
-      "last_seen": "2026-05-26T14:31:06.620663"
+      "last_seen": "2026-05-26T14:31:06.620663",
+      "current_price": 127.61,
+      "current_price_time": "2026-05-26T15:46:31.177203+00:00",
+      "exit_price": 127.61,
+      "exit_date": "2026-05-26T15:46:31.177203+00:00",
+      "pnl_pct": -0.77,
+      "pnl_pct_live": -0.77
     },
     {
       "ticker": "MARA",
@@ -339,9 +387,15 @@
       "news_score": 0.15,
       "top_news_title": "Stocks Set to Open Lower as Oil Rises Amid Iran Impasse, Nvidia Earnings and Fed Minutes Awaited",
       "top_news_url": "https://www.barchart.com/story/news/1990919/stocks-set-to-open-lower-as-oil-rises-amid-iran-impasse-nvidia-earnings-and-fed-minutes-awaited",
-      "status": "open",
+      "status": "expired",
       "issued_at": "2026-05-25T08:52:02.292254",
-      "last_seen": "2026-05-26T14:31:06.620663"
+      "last_seen": "2026-05-26T14:31:06.620663",
+      "current_price": 14.64,
+      "current_price_time": "2026-05-26T15:46:31.177203+00:00",
+      "exit_price": 14.64,
+      "exit_date": "2026-05-26T15:46:31.177203+00:00",
+      "pnl_pct": -0.41,
+      "pnl_pct_live": -0.41
     },
     {
       "ticker": "CSCO",
