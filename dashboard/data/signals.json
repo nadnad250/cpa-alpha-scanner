@@ -1,21 +1,21 @@
 {
-  "generated_at": "2026-05-27T17:39:00.672736",
+  "generated_at": "2026-05-27T18:33:03.009645+00:00",
   "date": "2026-05-27",
   "stats": {
-    "total": 10,
-    "buy_signals": 10,
+    "total": 1,
+    "buy_signals": 1,
     "sell_signals": 0,
     "avg_confidence": 0.989,
     "avg_rr": 2.6,
     "win_rate": 0.0,
-    "active_positions": 10,
-    "daily_pnl": -0.1132
+    "active_positions": 1,
+    "daily_pnl": -0.1632
   },
   "eod": {
     "tp_hit": 0,
-    "sl_hit": 3,
-    "open": 10,
-    "cumulative_pnl": -0.1132
+    "sl_hit": 4,
+    "open": 1,
+    "cumulative_pnl": -0.1632
   },
   "signals": [
     {
@@ -46,9 +46,15 @@
       "news_score": 0.2,
       "top_news_title": "Cisco Soars 32% in a Month, Arista Falls 10%, Broadcom Drifts: The AI Networking Trade Has a Clear W",
       "top_news_url": "https://247wallst.com/investing/2026/05/26/cisco-soars-32-in-a-month-arista-falls-10-broadcom-drifts-the-ai-networking-trade-has-a-clear-winner/",
-      "status": "open",
+      "status": "expired",
       "issued_at": "2026-05-26T14:31:06.619757",
-      "last_seen": "2026-05-27T17:39:00.672736"
+      "last_seen": "2026-05-27T17:39:00.672736",
+      "current_price": 119.56,
+      "current_price_time": "2026-05-27T18:33:03.009645+00:00",
+      "exit_price": 119.56,
+      "exit_date": "2026-05-27T18:33:03.009645+00:00",
+      "pnl_pct": 0.0,
+      "pnl_pct_live": 0.0
     },
     {
       "ticker": "QCOM",
@@ -76,9 +82,15 @@
       "news_score": null,
       "top_news_title": null,
       "top_news_url": null,
-      "status": "open",
+      "status": "sl_hit",
       "issued_at": "2026-05-26T20:18:34.350961",
-      "last_seen": "2026-05-27T17:39:00.672736"
+      "last_seen": "2026-05-27T17:39:00.672736",
+      "current_price": 229.16,
+      "current_price_time": "2026-05-27T18:33:03.009645+00:00",
+      "exit_price": 236.38,
+      "exit_date": "2026-05-27T18:33:03.009645+00:00",
+      "pnl_pct": -5.0,
+      "pnl_pct_live": -5.0
     },
     {
       "ticker": "PANW",
@@ -106,9 +118,15 @@
       "news_score": null,
       "top_news_title": null,
       "top_news_url": null,
-      "status": "open",
+      "status": "expired",
       "issued_at": "2026-05-26T16:21:51.757605",
-      "last_seen": "2026-05-27T17:39:00.672736"
+      "last_seen": "2026-05-27T17:39:00.672736",
+      "current_price": 248.64,
+      "current_price_time": "2026-05-27T18:33:03.009645+00:00",
+      "exit_price": 248.64,
+      "exit_date": "2026-05-27T18:33:03.009645+00:00",
+      "pnl_pct": -3.72,
+      "pnl_pct_live": -3.72
     },
     {
       "ticker": "SIRI",
@@ -136,9 +154,15 @@
       "news_score": null,
       "top_news_title": null,
       "top_news_url": null,
-      "status": "open",
+      "status": "expired",
       "issued_at": "2026-05-26T14:31:06.619770",
-      "last_seen": "2026-05-27T17:39:00.672736"
+      "last_seen": "2026-05-27T17:39:00.672736",
+      "current_price": 29.61,
+      "current_price_time": "2026-05-27T18:33:03.009645+00:00",
+      "exit_price": 29.61,
+      "exit_date": "2026-05-27T18:33:03.009645+00:00",
+      "pnl_pct": 0.0,
+      "pnl_pct_live": 0.0
     },
     {
       "ticker": "CRWD",
@@ -166,9 +190,15 @@
       "news_score": null,
       "top_news_title": null,
       "top_news_url": null,
-      "status": "open",
+      "status": "expired",
       "issued_at": "2026-05-26T14:31:06.619776",
-      "last_seen": "2026-05-27T17:39:00.672736"
+      "last_seen": "2026-05-27T17:39:00.672736",
+      "current_price": 648.59,
+      "current_price_time": "2026-05-27T18:33:03.009645+00:00",
+      "exit_price": 648.59,
+      "exit_date": "2026-05-27T18:33:03.009645+00:00",
+      "pnl_pct": -2.62,
+      "pnl_pct_live": -2.62
     },
     {
       "ticker": "LRCX",
@@ -196,9 +226,15 @@
       "news_score": null,
       "top_news_title": null,
       "top_news_url": null,
-      "status": "open",
+      "status": "expired",
       "issued_at": "2026-05-26T14:31:06.619780",
-      "last_seen": "2026-05-27T17:39:00.672736"
+      "last_seen": "2026-05-27T17:39:00.672736",
+      "current_price": 319.54,
+      "current_price_time": "2026-05-27T18:33:03.009645+00:00",
+      "exit_price": 319.54,
+      "exit_date": "2026-05-27T18:33:03.009645+00:00",
+      "pnl_pct": 0.27,
+      "pnl_pct_live": 0.27
     },
     {
       "ticker": "ROKU",
@@ -228,9 +264,15 @@
       "news_score": 0.4,
       "top_news_title": "1 Growth Stock to Stash and 2 We Avoid",
       "top_news_url": "https://finance.yahoo.com/markets/stocks/articles/1-growth-stock-stash-2-141724887.html",
-      "status": "open",
+      "status": "expired",
       "issued_at": "2026-05-26T14:31:06.619785",
-      "last_seen": "2026-05-27T17:39:00.672736"
+      "last_seen": "2026-05-27T17:39:00.672736",
+      "current_price": 130.77,
+      "current_price_time": "2026-05-27T18:33:03.009645+00:00",
+      "exit_price": 130.77,
+      "exit_date": "2026-05-27T18:33:03.009645+00:00",
+      "pnl_pct": -0.2,
+      "pnl_pct_live": -0.2
     },
     {
       "ticker": "TXN",
@@ -258,9 +300,15 @@
       "news_score": null,
       "top_news_title": null,
       "top_news_url": null,
-      "status": "open",
+      "status": "expired",
       "issued_at": "2026-05-26T16:21:51.757618",
-      "last_seen": "2026-05-27T17:39:00.672736"
+      "last_seen": "2026-05-27T17:39:00.672736",
+      "current_price": 316.74,
+      "current_price_time": "2026-05-27T18:33:03.009645+00:00",
+      "exit_price": 316.74,
+      "exit_date": "2026-05-27T18:33:03.009645+00:00",
+      "pnl_pct": -1.92,
+      "pnl_pct_live": -1.92
     },
     {
       "ticker": "FTNT",
@@ -293,9 +341,15 @@
       "news_score": 0.25,
       "top_news_title": "Top Cybersecurity Stocks to Buy as AI-Driven Demand Fuels Growth",
       "top_news_url": "https://finance.yahoo.com/markets/stocks/articles/top-cybersecurity-stocks-buy-ai-141300930.html",
-      "status": "open",
+      "status": "expired",
       "issued_at": "2026-05-26T14:31:06.619789",
-      "last_seen": "2026-05-27T17:39:00.672736"
+      "last_seen": "2026-05-27T17:39:00.672736",
+      "current_price": 128.2,
+      "current_price_time": "2026-05-27T18:33:03.009645+00:00",
+      "exit_price": 128.2,
+      "exit_date": "2026-05-27T18:33:03.009645+00:00",
+      "pnl_pct": 0.03,
+      "pnl_pct_live": 0.03
     },
     {
       "ticker": "CDNS",
@@ -328,10 +382,10 @@
       "status": "open",
       "issued_at": "2026-05-27T08:47:16.047338",
       "last_seen": "2026-05-27T08:47:16.047799",
-      "current_price": 371.96,
-      "current_price_time": "2026-05-27T16:29:03.682619+00:00",
-      "pnl_pct_live": -2.56,
-      "progression_pct": -78.3
+      "current_price": 371.4,
+      "current_price_time": "2026-05-27T18:33:03.009645+00:00",
+      "pnl_pct_live": -2.71,
+      "progression_pct": -82.8
     },
     {
       "ticker": "CSCO",
