@@ -1,21 +1,21 @@
 {
-  "generated_at": "2026-05-27T16:21:56.662078",
+  "generated_at": "2026-05-27T16:29:03.682619+00:00",
   "date": "2026-05-27",
   "stats": {
-    "total": 10,
-    "buy_signals": 10,
+    "total": 2,
+    "buy_signals": 2,
     "sell_signals": 0,
     "avg_confidence": 0.974,
     "avg_rr": 2.68,
     "win_rate": 0.0,
-    "active_positions": 10,
-    "daily_pnl": -0.1132
+    "active_positions": 2,
+    "daily_pnl": -0.1632
   },
   "eod": {
     "tp_hit": 0,
-    "sl_hit": 3,
-    "open": 10,
-    "cumulative_pnl": -0.1132
+    "sl_hit": 4,
+    "open": 2,
+    "cumulative_pnl": -0.1632
   },
   "signals": [
     {
@@ -44,9 +44,15 @@
       "news_score": null,
       "top_news_title": null,
       "top_news_url": null,
-      "status": "open",
+      "status": "expired",
       "issued_at": "2026-05-26T14:31:06.619757",
-      "last_seen": "2026-05-27T16:21:56.662078"
+      "last_seen": "2026-05-27T16:21:56.662078",
+      "current_price": 119.4,
+      "current_price_time": "2026-05-27T16:29:03.682619+00:00",
+      "exit_price": 119.4,
+      "exit_date": "2026-05-27T16:29:03.682619+00:00",
+      "pnl_pct": 1.18,
+      "pnl_pct_live": 1.18
     },
     {
       "ticker": "SIRI",
@@ -76,9 +82,15 @@
       "news_score": 0.35,
       "top_news_title": "Warren Buffett’s 3 Best Bargains Under $30",
       "top_news_url": "https://247wallst.com/investing/2026/05/05/warren-buffetts-3-best-bargains-under-30/",
-      "status": "open",
+      "status": "expired",
       "issued_at": "2026-05-26T14:31:06.619770",
-      "last_seen": "2026-05-27T16:21:56.662078"
+      "last_seen": "2026-05-27T16:21:56.662078",
+      "current_price": 29.83,
+      "current_price_time": "2026-05-27T16:29:03.682619+00:00",
+      "exit_price": 29.83,
+      "exit_date": "2026-05-27T16:29:03.682619+00:00",
+      "pnl_pct": -0.03,
+      "pnl_pct_live": -0.03
     },
     {
       "ticker": "QCOM",
@@ -106,9 +118,15 @@
       "news_score": null,
       "top_news_title": null,
       "top_news_url": null,
-      "status": "open",
+      "status": "sl_hit",
       "issued_at": "2026-05-26T20:18:34.350961",
-      "last_seen": "2026-05-27T16:21:56.662078"
+      "last_seen": "2026-05-27T16:21:56.662078",
+      "current_price": 230.38,
+      "current_price_time": "2026-05-27T16:29:03.682619+00:00",
+      "exit_price": 236.38,
+      "exit_date": "2026-05-27T16:29:03.682619+00:00",
+      "pnl_pct": -5.0,
+      "pnl_pct_live": -5.0
     },
     {
       "ticker": "CRWD",
@@ -136,9 +154,15 @@
       "news_score": null,
       "top_news_title": null,
       "top_news_url": null,
-      "status": "open",
+      "status": "expired",
       "issued_at": "2026-05-26T14:31:06.619776",
-      "last_seen": "2026-05-27T16:21:56.662078"
+      "last_seen": "2026-05-27T16:21:56.662078",
+      "current_price": 646.55,
+      "current_price_time": "2026-05-27T16:29:03.682619+00:00",
+      "exit_price": 646.55,
+      "exit_date": "2026-05-27T16:29:03.682619+00:00",
+      "pnl_pct": -2.93,
+      "pnl_pct_live": -2.93
     },
     {
       "ticker": "LRCX",
@@ -168,9 +192,15 @@
       "news_score": 0.05,
       "top_news_title": "Lam Research Corporation (LRCX) Rallied on AI-Driven Strong Demand",
       "top_news_url": "https://finance.yahoo.com/markets/stocks/articles/lam-research-corporation-lrcx-rallied-130938725.html",
-      "status": "open",
+      "status": "expired",
       "issued_at": "2026-05-26T14:31:06.619780",
-      "last_seen": "2026-05-27T16:21:56.662078"
+      "last_seen": "2026-05-27T16:21:56.662078",
+      "current_price": 318.82,
+      "current_price_time": "2026-05-27T16:29:03.682619+00:00",
+      "exit_price": 318.82,
+      "exit_date": "2026-05-27T16:29:03.682619+00:00",
+      "pnl_pct": 0.08,
+      "pnl_pct_live": 0.08
     },
     {
       "ticker": "FTNT",
@@ -198,9 +228,15 @@
       "news_score": null,
       "top_news_title": null,
       "top_news_url": null,
-      "status": "open",
+      "status": "expired",
       "issued_at": "2026-05-26T14:31:06.619789",
-      "last_seen": "2026-05-27T16:21:56.662078"
+      "last_seen": "2026-05-27T16:21:56.662078",
+      "current_price": 128.54,
+      "current_price_time": "2026-05-27T16:29:03.682619+00:00",
+      "exit_price": 128.54,
+      "exit_date": "2026-05-27T16:29:03.682619+00:00",
+      "pnl_pct": -2.87,
+      "pnl_pct_live": -2.87
     },
     {
       "ticker": "RIOT",
@@ -228,9 +264,15 @@
       "news_score": null,
       "top_news_title": null,
       "top_news_url": null,
-      "status": "open",
+      "status": "expired",
       "issued_at": "2026-05-26T14:31:06.619793",
-      "last_seen": "2026-05-27T16:21:56.662078"
+      "last_seen": "2026-05-27T16:21:56.662078",
+      "current_price": 26.29,
+      "current_price_time": "2026-05-27T16:29:03.682619+00:00",
+      "exit_price": 26.29,
+      "exit_date": "2026-05-27T16:29:03.682619+00:00",
+      "pnl_pct": 0.92,
+      "pnl_pct_live": 0.92
     },
     {
       "ticker": "ARM",
@@ -263,7 +305,11 @@
       "top_news_url": "https://www.barchart.com/story/news/2133759/arm-surges-as-nvidia-s-vera-drives-cpu-demand",
       "status": "open",
       "issued_at": "2026-05-27T16:21:56.661140",
-      "last_seen": "2026-05-27T16:21:56.662078"
+      "last_seen": "2026-05-27T16:21:56.662078",
+      "current_price": 308.07,
+      "current_price_time": "2026-05-27T16:29:03.682619+00:00",
+      "pnl_pct_live": 0.01,
+      "progression_pct": 0.0
     },
     {
       "ticker": "ROKU",
@@ -291,9 +337,15 @@
       "news_score": null,
       "top_news_title": null,
       "top_news_url": null,
-      "status": "open",
+      "status": "expired",
       "issued_at": "2026-05-26T14:31:06.619785",
-      "last_seen": "2026-05-27T16:21:56.662078"
+      "last_seen": "2026-05-27T16:21:56.662078",
+      "current_price": 132.09,
+      "current_price_time": "2026-05-27T16:29:03.682619+00:00",
+      "exit_price": 132.09,
+      "exit_date": "2026-05-27T16:29:03.682619+00:00",
+      "pnl_pct": 2.71,
+      "pnl_pct_live": 2.71
     },
     {
       "ticker": "CDNS",
@@ -326,10 +378,10 @@
       "status": "open",
       "issued_at": "2026-05-27T08:47:16.047338",
       "last_seen": "2026-05-27T08:47:16.047799",
-      "current_price": 375.81,
-      "current_price_time": "2026-05-27T15:06:28.594612+00:00",
-      "pnl_pct_live": -1.56,
-      "progression_pct": -47.5
+      "current_price": 371.96,
+      "current_price_time": "2026-05-27T16:29:03.682619+00:00",
+      "pnl_pct_live": -2.56,
+      "progression_pct": -78.3
     },
     {
       "ticker": "CSCO",
