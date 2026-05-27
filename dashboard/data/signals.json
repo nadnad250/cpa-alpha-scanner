@@ -1,21 +1,21 @@
 {
-  "generated_at": "2026-05-27T14:42:09.228165",
+  "generated_at": "2026-05-27T15:06:28.594612+00:00",
   "date": "2026-05-27",
   "stats": {
-    "total": 10,
-    "buy_signals": 7,
-    "sell_signals": 3,
+    "total": 4,
+    "buy_signals": 3,
+    "sell_signals": 1,
     "avg_confidence": 0.927,
     "avg_rr": 2.66,
     "win_rate": 0.0,
-    "active_positions": 10,
-    "daily_pnl": -0.1132
+    "active_positions": 4,
+    "daily_pnl": -0.1632
   },
   "eod": {
     "tp_hit": 0,
-    "sl_hit": 3,
-    "open": 10,
-    "cumulative_pnl": -0.1132
+    "sl_hit": 4,
+    "open": 4,
+    "cumulative_pnl": -0.1632
   },
   "signals": [
     {
@@ -44,9 +44,15 @@
       "news_score": null,
       "top_news_title": null,
       "top_news_url": null,
-      "status": "open",
+      "status": "sl_hit",
       "issued_at": "2026-05-26T20:18:34.350961",
-      "last_seen": "2026-05-27T14:42:09.228165"
+      "last_seen": "2026-05-27T14:42:09.228165",
+      "current_price": 225.72,
+      "current_price_time": "2026-05-27T15:06:28.594612+00:00",
+      "exit_price": 236.38,
+      "exit_date": "2026-05-27T15:06:28.594612+00:00",
+      "pnl_pct": -5.0,
+      "pnl_pct_live": -5.0
     },
     {
       "ticker": "PANW",
@@ -76,7 +82,11 @@
       "top_news_url": null,
       "status": "open",
       "issued_at": "2026-05-26T16:21:51.757605",
-      "last_seen": "2026-05-27T14:42:09.228165"
+      "last_seen": "2026-05-27T14:42:09.228165",
+      "current_price": 249.97,
+      "current_price_time": "2026-05-27T15:06:28.594612+00:00",
+      "pnl_pct_live": -3.2,
+      "progression_pct": -97.9
     },
     {
       "ticker": "CRWD",
@@ -108,9 +118,15 @@
       "news_score": 0.4,
       "top_news_title": "Can Rising Re-Flex Deals Accelerate CrowdStrike's ARR Growth?",
       "top_news_url": "https://finance.yahoo.com/markets/stocks/articles/rising-flex-deals-accelerate-crowdstrikes-140000221.html",
-      "status": "open",
+      "status": "expired",
       "issued_at": "2026-05-26T14:31:06.619776",
-      "last_seen": "2026-05-27T14:42:09.228165"
+      "last_seen": "2026-05-27T14:42:09.228165",
+      "current_price": 643.78,
+      "current_price_time": "2026-05-27T15:06:28.594612+00:00",
+      "exit_price": 643.78,
+      "exit_date": "2026-05-27T15:06:28.594612+00:00",
+      "pnl_pct": -1.04,
+      "pnl_pct_live": -1.04
     },
     {
       "ticker": "TXN",
@@ -143,10 +159,10 @@
       "status": "open",
       "issued_at": "2026-05-26T16:21:51.757618",
       "last_seen": "2026-05-26T16:21:51.758765",
-      "current_price": 316.31,
-      "current_price_time": "2026-05-27T13:47:13.936638+00:00",
-      "pnl_pct_live": -2.06,
-      "progression_pct": -72.1
+      "current_price": 317.27,
+      "current_price_time": "2026-05-27T15:06:28.594612+00:00",
+      "pnl_pct_live": -1.76,
+      "progression_pct": -61.7
     },
     {
       "ticker": "RIOT",
@@ -178,9 +194,15 @@
       "news_score": 0.35,
       "top_news_title": "A Look At Riot Platforms (RIOT) Valuation After Strong Recent Share Price Gains",
       "top_news_url": "https://finance.yahoo.com/markets/stocks/articles/look-riot-platforms-riot-valuation-151043359.html",
-      "status": "open",
+      "status": "expired",
       "issued_at": "2026-05-26T14:31:06.619793",
-      "last_seen": "2026-05-27T14:42:09.228165"
+      "last_seen": "2026-05-27T14:42:09.228165",
+      "current_price": 26.12,
+      "current_price_time": "2026-05-27T15:06:28.594612+00:00",
+      "exit_price": 26.12,
+      "exit_date": "2026-05-27T15:06:28.594612+00:00",
+      "pnl_pct": -0.27,
+      "pnl_pct_live": -0.27
     },
     {
       "ticker": "CDNS",
@@ -213,10 +235,10 @@
       "status": "open",
       "issued_at": "2026-05-27T08:47:16.047338",
       "last_seen": "2026-05-27T08:47:16.047799",
-      "current_price": 376.86,
-      "current_price_time": "2026-05-27T13:47:13.936638+00:00",
-      "pnl_pct_live": -1.28,
-      "progression_pct": -39.1
+      "current_price": 375.81,
+      "current_price_time": "2026-05-27T15:06:28.594612+00:00",
+      "pnl_pct_live": -1.56,
+      "progression_pct": -47.5
     },
     {
       "ticker": "MARA",
@@ -248,9 +270,15 @@
       "news_score": 0.1,
       "top_news_title": "Stocks Set to Open Lower as Oil Rises Amid Iran Impasse, Nvidia Earnings and Fed Minutes Awaited",
       "top_news_url": "https://www.barchart.com/story/news/1990919/stocks-set-to-open-lower-as-oil-rises-amid-iran-impasse-nvidia-earnings-and-fed-minutes-awaited",
-      "status": "open",
+      "status": "expired",
       "issued_at": "2026-05-26T14:31:06.619800",
-      "last_seen": "2026-05-27T14:42:09.228165"
+      "last_seen": "2026-05-27T14:42:09.228165",
+      "current_price": 14.17,
+      "current_price_time": "2026-05-27T15:06:28.594612+00:00",
+      "exit_price": 14.17,
+      "exit_date": "2026-05-27T15:06:28.594612+00:00",
+      "pnl_pct": 0.64,
+      "pnl_pct_live": 0.64
     },
     {
       "ticker": "TTD",
@@ -278,9 +306,15 @@
       "news_score": null,
       "top_news_title": null,
       "top_news_url": null,
-      "status": "open",
+      "status": "expired",
       "issued_at": "2026-05-26T14:31:06.619805",
-      "last_seen": "2026-05-27T14:42:09.228165"
+      "last_seen": "2026-05-27T14:42:09.228165",
+      "current_price": 23.09,
+      "current_price_time": "2026-05-27T15:06:28.594612+00:00",
+      "exit_price": 23.09,
+      "exit_date": "2026-05-27T15:06:28.594612+00:00",
+      "pnl_pct": -3.78,
+      "pnl_pct_live": -3.78
     },
     {
       "ticker": "VRSK",
@@ -308,9 +342,15 @@
       "news_score": null,
       "top_news_title": null,
       "top_news_url": null,
-      "status": "open",
+      "status": "expired",
       "issued_at": "2026-05-26T14:31:06.619810",
-      "last_seen": "2026-05-27T14:42:09.228165"
+      "last_seen": "2026-05-27T14:42:09.228165",
+      "current_price": 169.32,
+      "current_price_time": "2026-05-27T15:06:28.594612+00:00",
+      "exit_price": 169.32,
+      "exit_date": "2026-05-27T15:06:28.594612+00:00",
+      "pnl_pct": -0.39,
+      "pnl_pct_live": -0.39
     },
     {
       "ticker": "COIN",
@@ -340,7 +380,11 @@
       "top_news_url": null,
       "status": "open",
       "issued_at": "2026-05-26T16:21:51.757623",
-      "last_seen": "2026-05-27T14:42:09.228165"
+      "last_seen": "2026-05-27T14:42:09.228165",
+      "current_price": 177.89,
+      "current_price_time": "2026-05-27T15:06:28.594612+00:00",
+      "pnl_pct_live": 3.61,
+      "progression_pct": 24.1
     },
     {
       "ticker": "CSCO",
