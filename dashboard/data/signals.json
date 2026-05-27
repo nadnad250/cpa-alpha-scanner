@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-05-27T16:29:03.682619+00:00",
+  "generated_at": "2026-05-27T17:38:56.237377+00:00",
   "date": "2026-05-27",
   "stats": {
     "total": 2,
@@ -306,10 +306,10 @@
       "status": "open",
       "issued_at": "2026-05-27T16:21:56.661140",
       "last_seen": "2026-05-27T16:21:56.662078",
-      "current_price": 308.07,
-      "current_price_time": "2026-05-27T16:29:03.682619+00:00",
-      "pnl_pct_live": 0.01,
-      "progression_pct": 0.0
+      "current_price": 303.33,
+      "current_price_time": "2026-05-27T17:38:56.237377+00:00",
+      "pnl_pct_live": -1.53,
+      "progression_pct": -30.6
     },
     {
       "ticker": "ROKU",
@@ -378,10 +378,10 @@
       "status": "open",
       "issued_at": "2026-05-27T08:47:16.047338",
       "last_seen": "2026-05-27T08:47:16.047799",
-      "current_price": 371.96,
-      "current_price_time": "2026-05-27T16:29:03.682619+00:00",
-      "pnl_pct_live": -2.56,
-      "progression_pct": -78.3
+      "current_price": 371.24,
+      "current_price_time": "2026-05-27T17:38:56.237377+00:00",
+      "pnl_pct_live": -2.75,
+      "progression_pct": -84.1
     },
     {
       "ticker": "CSCO",
