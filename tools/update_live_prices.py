@@ -77,7 +77,11 @@ def main() -> int:
         closed_reason = None
         exit_price = None
 
-        # 1) Time-stop intraday : 24h max
+        # 1) Time-stop intraday : HORIZON_HOURS (ORB = ~7h = clôture EOD)
+        try:
+            from config.settings import HORIZON_HOURS as _HH
+        except Exception:
+            _HH = 24
         try:
             issued_str = sig.get("issued_at", "").replace("Z", "")
             if issued_str:
@@ -86,7 +90,7 @@ def main() -> int:
                     issued_str = issued_str.split("+")[0]
                 issued_dt = datetime.fromisoformat(issued_str)
                 hours_open = (datetime.utcnow() - issued_dt).total_seconds() / 3600.0
-                if hours_open >= 24:
+                if hours_open >= _HH:
                     closed_reason = "expired"
                     exit_price = current   # exit au prix courant
         except Exception:

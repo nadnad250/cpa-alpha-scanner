@@ -231,7 +231,11 @@ def export_to_dashboard(
             is_buy = (sig.get("score") or 0) > 0
             exit_px = None; reason = None
 
-            # 1) Time-stop intraday 24h max
+            # 1) Time-stop intraday : HORIZON_HOURS (ORB ≈ 7h, clôture EOD)
+            try:
+                from config.settings import HORIZON_HOURS as _HH
+            except Exception:
+                _HH = 24
             try:
                 issued = (sig.get("issued_at") or "").replace("Z", "")
                 if "+" in issued:
@@ -239,7 +243,7 @@ def export_to_dashboard(
                 if issued:
                     issued_dt = datetime.fromisoformat(issued)
                     hours_open = (now - issued_dt).total_seconds() / 3600.0
-                    if hours_open >= 24 and current is not None:
+                    if hours_open >= _HH and current is not None:
                         exit_px, reason = current, "expired"
             except Exception:
                 pass

@@ -44,11 +44,19 @@ VIX_PANIC              = 35.0     # > VIX_PANIC : aucun nouveau signal envoyé
 # le SL au prix d'entrée (verrouille no-loss).
 TRAIL_TRIGGER_PCT      = 0.50     # 50% du chemin vers TP
 
+# === STRATÉGIE INTRADAY ORB (Opening Range Breakout "Stocks in Play") ===
+# Remplace l'ancien modèle CPA/fondamental (0% win rate, 92% trades flat).
+# Edge documenté : Zarattini & Aziz (SSRN 4416622/4729284), Sharpe ~2.8.
+STRATEGY_MODE          = "intraday_orb"   # "intraday_orb" | "cpa" (legacy)
+ORB_BARS               = 1        # bougies 5m pour l'opening range (1=5min, 3=15min)
+RVOL_MIN               = 1.5      # Relative Volume min pour "stock in play"
+INTRADAY_HISTORY_DAYS  = 20       # jours de 5m pour baseline RVOL (~14 sessions)
+
 # === HORIZON INTRADAY ===
-# Le bot opère en intraday : tout signal doit être clôturé dans 24h max.
-# Si TP/SL pas atteints en 24h → auto-clôture au prix courant (time stop).
-HORIZON_HOURS          = 24
-MAX_HOLD_HOURS         = 24       # alias explicite
+# ORB : on tient de l'ouverture jusqu'au close (~6.5h de session).
+# Le time-stop ferme la position le jour même (pas d'overnight = edge intraday).
+HORIZON_HOURS          = 7        # ≈ une session US (09:30→16:00 + marge)
+MAX_HOLD_HOURS         = 7        # alias explicite
 
 # Historique des signaux clôturés conservés dans signals.json
 # Évite que le fichier grossisse à l'infini (chaque jour +10-20 clôtures).
