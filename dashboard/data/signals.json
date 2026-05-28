@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-05-28T18:53:12.460585+00:00",
+  "generated_at": "2026-05-28T19:49:44.014561+00:00",
   "date": "2026-05-28",
   "stats": {
     "total": 3,
@@ -157,10 +157,10 @@
       "status": "open",
       "issued_at": "2026-05-27T20:19:27.499141",
       "last_seen": "2026-05-28T14:52:21.682316",
-      "current_price": 317.71,
-      "current_price_time": "2026-05-28T18:53:12.460585+00:00",
-      "pnl_pct_live": -0.63,
-      "progression_pct": -19.8
+      "current_price": 317.72,
+      "current_price_time": "2026-05-28T19:49:44.014561+00:00",
+      "pnl_pct_live": -0.62,
+      "progression_pct": -19.7
     },
     {
       "ticker": "FTNT",
@@ -272,10 +272,10 @@
       "status": "open",
       "issued_at": "2026-05-27T20:19:27.499152",
       "last_seen": "2026-05-28T08:49:25.026396",
-      "current_price": 258.11,
-      "current_price_time": "2026-05-28T18:53:12.460585+00:00",
-      "pnl_pct_live": 3.88,
-      "progression_pct": 40.3,
+      "current_price": 257.78,
+      "current_price_time": "2026-05-28T19:49:44.014561+00:00",
+      "pnl_pct_live": 3.75,
+      "progression_pct": 38.9,
       "trail_level": 1
     },
     {
@@ -309,10 +309,10 @@
       "status": "open",
       "issued_at": "2026-05-28T18:48:51.120582",
       "last_seen": "2026-05-28T18:48:51.121635",
-      "current_price": 202.55,
-      "current_price_time": "2026-05-28T18:53:12.460585+00:00",
-      "pnl_pct_live": -0.46,
-      "progression_pct": -9.1
+      "current_price": 205.42,
+      "current_price_time": "2026-05-28T19:49:44.014561+00:00",
+      "pnl_pct_live": 0.95,
+      "progression_pct": 6.4
     },
     {
       "ticker": "ROKU",
