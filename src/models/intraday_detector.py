@@ -21,7 +21,7 @@ logger = logging.getLogger(__name__)
 # Bornes risk intraday (% du prix d'entrée)
 MIN_RISK_PCT = 0.006     # 0.6% min (stop pas trop serré = bruit)
 MAX_RISK_PCT = 0.030     # 3% max (au-delà = pas intraday)
-R_TARGET = 2.0           # TP = entry ± R_TARGET × risk
+R_TARGET = 2.2           # TP = entry ± R_TARGET × risk (marge > PREMIUM_MIN_RR=2.0)
 
 
 def _decide_action(score: float) -> str:

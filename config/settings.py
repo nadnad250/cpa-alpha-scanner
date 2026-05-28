@@ -15,9 +15,11 @@ UNIVERSES = ["NASDAQ100"]
 # Univers réduit (~130 tickers NDX + movers) → on calibre pour
 # laisser passer ~5-10 premium par scan (ratio ~10-15% des opps brutes).
 # Test du 28/04 : 60 opps brutes / 98 analysés, 0 premium avec 0.42/0.72/2.8 trop strict.
-PREMIUM_MIN_SCORE      = 0.38     # 0.42 → 0.38 : laisser passer + de signaux
-PREMIUM_MIN_CONFIDENCE = 0.68     # 0.72 → 0.68 : IBM (winner réf) avait 0.71
-PREMIUM_MIN_RR         = 2.5      # 2.8 → 2.5 : standard pros, atteignable avec stops serrés
+# Recalibrés pour le scoring ORB (28/05) : l'ORB produit RR≈2.2 et un score
+# qui démarre à 0.20 (baseline cassure) + 0.80×strength.
+PREMIUM_MIN_SCORE      = 0.32     # 0.38 → 0.32 : laisse passer les bons setups ORB
+PREMIUM_MIN_CONFIDENCE = 0.68     # inchangé : exige un setup confirmé
+PREMIUM_MIN_RR         = 2.0      # 2.5 → 2.0 : l'ORB cible 2.2R (sinon tout filtré)
 TOP_PER_UNIVERSE       = 10       # un seul univers maintenant
 MAX_GLOBAL_ALERTS      = 10       # aligné sur MAX_OPEN_SIGNALS
 
