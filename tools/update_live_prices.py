@@ -96,6 +96,27 @@ def main() -> int:
         except Exception:
             pass
 
+        # 1bis) FLATTEN EOD : aucune position ne tient overnight (intraday pur).
+        # Marché US ferme 16:00 ET = 20:00 UTC (été) / 21:00 UTC (hiver).
+        # On clôture toute position encore ouverte à partir de 19:55 UTC
+        # (≈ 15:55 ET été) pour éviter le risque overnight.
+        if not closed_reason:
+            try:
+                now_utc = datetime.utcnow()
+                if now_utc.weekday() < 5 and now_utc.hour >= 19 and (now_utc.hour > 19 or now_utc.minute >= 55):
+                    issued_str2 = (sig.get("issued_at", "") or "").replace("Z", "").split("+")[0]
+                    same_day = True
+                    if issued_str2:
+                        try:
+                            same_day = datetime.fromisoformat(issued_str2).date() == now_utc.date()
+                        except Exception:
+                            same_day = True
+                    if same_day:
+                        closed_reason = "expired"
+                        exit_price = current
+            except Exception:
+                pass
+
         # 2) TP/SL franchi (seulement si pas déjà time-stop)
         if not closed_reason and entry and tp and sl:
             if is_buy:
