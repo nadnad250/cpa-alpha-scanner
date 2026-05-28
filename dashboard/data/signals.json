@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-05-28T08:49:25.026396",
+  "generated_at": "2026-05-28T09:48:19.828518+00:00",
   "date": "2026-05-28",
   "stats": {
     "total": 10,
@@ -48,7 +48,11 @@
       "top_news_url": "https://www.trefis.com/articles/600367/dells-growth-story-comes-with-risk-but-also-a-unique-edge/2026-05-27",
       "status": "open",
       "issued_at": "2026-05-27T17:39:00.671489",
-      "last_seen": "2026-05-28T08:49:25.026396"
+      "last_seen": "2026-05-28T08:49:25.026396",
+      "current_price": 119.68,
+      "current_price_time": "2026-05-28T09:48:19.828518+00:00",
+      "pnl_pct_live": 0.01,
+      "progression_pct": 0.1
     },
     {
       "ticker": "SIRI",
@@ -78,7 +82,11 @@
       "top_news_url": null,
       "status": "open",
       "issued_at": "2026-05-27T16:21:56.661126",
-      "last_seen": "2026-05-28T08:49:25.026396"
+      "last_seen": "2026-05-28T08:49:25.026396",
+      "current_price": 29.66,
+      "current_price_time": "2026-05-28T09:48:19.828518+00:00",
+      "pnl_pct_live": -0.6,
+      "progression_pct": -19.6
     },
     {
       "ticker": "TXN",
@@ -110,7 +118,11 @@
       "top_news_url": "https://finance.yahoo.com/markets/stocks/articles/texas-instruments-txn-valuation-check-030712608.html",
       "status": "open",
       "issued_at": "2026-05-27T20:19:27.499141",
-      "last_seen": "2026-05-28T08:49:25.026396"
+      "last_seen": "2026-05-28T08:49:25.026396",
+      "current_price": 317.47,
+      "current_price_time": "2026-05-28T09:48:19.828518+00:00",
+      "pnl_pct_live": 0.01,
+      "progression_pct": 0.1
     },
     {
       "ticker": "CRWD",
@@ -140,7 +152,11 @@
       "top_news_url": null,
       "status": "open",
       "issued_at": "2026-05-27T14:42:09.227448",
-      "last_seen": "2026-05-28T08:49:25.026396"
+      "last_seen": "2026-05-28T08:49:25.026396",
+      "current_price": 645.2,
+      "current_price_time": "2026-05-28T09:48:19.828518+00:00",
+      "pnl_pct_live": -0.83,
+      "progression_pct": -23.4
     },
     {
       "ticker": "ROKU",
@@ -172,7 +188,11 @@
       "top_news_url": "https://finance.yahoo.com/markets/stocks/articles/1-growth-stock-stash-2-141724887.html",
       "status": "open",
       "issued_at": "2026-05-27T17:39:00.671502",
-      "last_seen": "2026-05-28T08:49:25.026396"
+      "last_seen": "2026-05-28T08:49:25.026396",
+      "current_price": 132.01,
+      "current_price_time": "2026-05-28T09:48:19.828518+00:00",
+      "pnl_pct_live": 0.08,
+      "progression_pct": 1.2
     },
     {
       "ticker": "LRCX",
@@ -204,7 +224,11 @@
       "top_news_url": "https://finance.yahoo.com/markets/stocks/articles/assessing-lam-research-lrcx-valuation-031609493.html",
       "status": "open",
       "issued_at": "2026-05-27T16:21:56.661136",
-      "last_seen": "2026-05-28T08:49:25.026396"
+      "last_seen": "2026-05-28T08:49:25.026396",
+      "current_price": 318.93,
+      "current_price_time": "2026-05-28T09:48:19.828518+00:00",
+      "pnl_pct_live": 0.0,
+      "progression_pct": 0.0
     },
     {
       "ticker": "PANW",
@@ -238,7 +262,11 @@
       "top_news_url": "https://www.barrons.com/articles/palo-alto-stock-price-crowdstrike-cybersecurity-zscaler-e128a40c?siteid=yhoof2&yptr=yahoo",
       "status": "open",
       "issued_at": "2026-05-27T20:19:27.499152",
-      "last_seen": "2026-05-28T08:49:25.026396"
+      "last_seen": "2026-05-28T08:49:25.026396",
+      "current_price": 248.46,
+      "current_price_time": "2026-05-28T09:48:19.828518+00:00",
+      "pnl_pct_live": -0.0,
+      "progression_pct": -0.1
     },
     {
       "ticker": "FTNT",
@@ -268,7 +296,11 @@
       "top_news_url": null,
       "status": "open",
       "issued_at": "2026-05-27T17:39:00.671509",
-      "last_seen": "2026-05-28T08:49:25.026396"
+      "last_seen": "2026-05-28T08:49:25.026396",
+      "current_price": 127.93,
+      "current_price_time": "2026-05-28T09:48:19.828518+00:00",
+      "pnl_pct_live": -0.18,
+      "progression_pct": -4.4
     },
     {
       "ticker": "ARM",
@@ -298,7 +330,11 @@
       "top_news_url": null,
       "status": "open",
       "issued_at": "2026-05-27T16:21:56.661140",
-      "last_seen": "2026-05-28T08:49:25.026396"
+      "last_seen": "2026-05-28T08:49:25.026396",
+      "current_price": 302.51,
+      "current_price_time": "2026-05-28T09:48:19.828518+00:00",
+      "pnl_pct_live": -1.8,
+      "progression_pct": -36.0
     },
     {
       "ticker": "RIOT",
@@ -332,7 +368,11 @@
       "top_news_url": "https://finance.yahoo.com/markets/stocks/articles/look-riot-platforms-riot-valuation-151043359.html",
       "status": "open",
       "issued_at": "2026-05-27T14:42:09.227459",
-      "last_seen": "2026-05-28T08:49:25.026396"
+      "last_seen": "2026-05-28T08:49:25.026396",
+      "current_price": 26.95,
+      "current_price_time": "2026-05-28T09:48:19.828518+00:00",
+      "pnl_pct_live": 0.04,
+      "progression_pct": 0.3
     },
     {
       "ticker": "CSCO",
