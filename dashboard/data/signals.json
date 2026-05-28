@@ -1,20 +1,20 @@
 {
-  "generated_at": "2026-05-28T17:44:40.957585",
+  "generated_at": "2026-05-28T17:50:28.916724+00:00",
   "date": "2026-05-28",
   "stats": {
-    "total": 10,
-    "buy_signals": 10,
+    "total": 2,
+    "buy_signals": 2,
     "sell_signals": 0,
     "avg_confidence": 0.977,
     "avg_rr": 2.58,
     "win_rate": 0.0,
-    "active_positions": 10,
+    "active_positions": 2,
     "daily_pnl": -0.1132
   },
   "eod": {
     "tp_hit": 0,
     "sl_hit": 3,
-    "open": 10,
+    "open": 2,
     "cumulative_pnl": -0.1132
   },
   "signals": [
@@ -44,9 +44,15 @@
       "news_score": null,
       "top_news_title": null,
       "top_news_url": null,
-      "status": "open",
+      "status": "expired",
       "issued_at": "2026-05-27T14:42:09.227448",
-      "last_seen": "2026-05-28T17:44:40.957585"
+      "last_seen": "2026-05-28T17:44:40.957585",
+      "current_price": 675.29,
+      "current_price_time": "2026-05-28T17:50:28.916724+00:00",
+      "exit_price": 675.29,
+      "exit_date": "2026-05-28T17:50:28.916724+00:00",
+      "pnl_pct": 3.8,
+      "pnl_pct_live": 3.8
     },
     {
       "ticker": "TXN",
@@ -79,10 +85,10 @@
       "status": "open",
       "issued_at": "2026-05-27T20:19:27.499141",
       "last_seen": "2026-05-28T14:52:21.682316",
-      "current_price": 318.67,
-      "current_price_time": "2026-05-28T16:38:25.450406+00:00",
-      "pnl_pct_live": -0.33,
-      "progression_pct": -10.3
+      "current_price": 318.01,
+      "current_price_time": "2026-05-28T17:50:28.916724+00:00",
+      "pnl_pct_live": -0.53,
+      "progression_pct": -16.8
     },
     {
       "ticker": "SIRI",
@@ -112,9 +118,15 @@
       "news_score": 0.35,
       "top_news_title": "Warren Buffett’s 3 Best Bargains Under $30",
       "top_news_url": "https://247wallst.com/investing/2026/05/05/warren-buffetts-3-best-bargains-under-30/",
-      "status": "open",
+      "status": "expired",
       "issued_at": "2026-05-27T16:21:56.661126",
-      "last_seen": "2026-05-28T17:44:40.957585"
+      "last_seen": "2026-05-28T17:44:40.957585",
+      "current_price": 29.88,
+      "current_price_time": "2026-05-28T17:50:28.916724+00:00",
+      "exit_price": 29.88,
+      "exit_date": "2026-05-28T17:50:28.916724+00:00",
+      "pnl_pct": 0.0,
+      "pnl_pct_live": 0.0
     },
     {
       "ticker": "LRCX",
@@ -144,9 +156,15 @@
       "news_score": 0.15,
       "top_news_title": "Assessing Lam Research (LRCX) Valuation After AI Capex Surge And Strong Earnings",
       "top_news_url": "https://finance.yahoo.com/markets/stocks/articles/assessing-lam-research-lrcx-valuation-031609493.html",
-      "status": "open",
+      "status": "expired",
       "issued_at": "2026-05-27T16:21:56.661136",
-      "last_seen": "2026-05-28T17:44:40.957585"
+      "last_seen": "2026-05-28T17:44:40.957585",
+      "current_price": 317.28,
+      "current_price_time": "2026-05-28T17:50:28.916724+00:00",
+      "exit_price": 317.28,
+      "exit_date": "2026-05-28T17:50:28.916724+00:00",
+      "pnl_pct": -0.02,
+      "pnl_pct_live": -0.02
     },
     {
       "ticker": "PANW",
@@ -181,10 +199,10 @@
       "status": "open",
       "issued_at": "2026-05-27T20:19:27.499152",
       "last_seen": "2026-05-28T08:49:25.026396",
-      "current_price": 257.1,
-      "current_price_time": "2026-05-28T16:38:25.450406+00:00",
-      "pnl_pct_live": 3.47,
-      "progression_pct": 36.0,
+      "current_price": 257.84,
+      "current_price_time": "2026-05-28T17:50:28.916724+00:00",
+      "pnl_pct_live": 3.77,
+      "progression_pct": 39.1,
       "trail_level": 1
     },
     {
@@ -213,9 +231,15 @@
       "news_score": null,
       "top_news_title": null,
       "top_news_url": null,
-      "status": "open",
+      "status": "expired",
       "issued_at": "2026-05-27T16:21:56.661140",
-      "last_seen": "2026-05-28T17:44:40.957585"
+      "last_seen": "2026-05-28T17:44:40.957585",
+      "current_price": 344.96,
+      "current_price_time": "2026-05-28T17:50:28.916724+00:00",
+      "exit_price": 344.96,
+      "exit_date": "2026-05-28T17:50:28.916724+00:00",
+      "pnl_pct": 11.98,
+      "pnl_pct_live": 11.98
     },
     {
       "ticker": "RIOT",
@@ -243,9 +267,15 @@
       "news_score": null,
       "top_news_title": null,
       "top_news_url": null,
-      "status": "open",
+      "status": "expired",
       "issued_at": "2026-05-27T14:42:09.227459",
-      "last_seen": "2026-05-28T17:44:40.957585"
+      "last_seen": "2026-05-28T17:44:40.957585",
+      "current_price": 27.99,
+      "current_price_time": "2026-05-28T17:50:28.916724+00:00",
+      "exit_price": 27.99,
+      "exit_date": "2026-05-28T17:50:28.916724+00:00",
+      "pnl_pct": 6.87,
+      "pnl_pct_live": 6.87
     },
     {
       "ticker": "CDNS",
@@ -273,9 +303,15 @@
       "news_score": null,
       "top_news_title": null,
       "top_news_url": null,
-      "status": "open",
+      "status": "expired",
       "issued_at": "2026-05-27T08:47:16.047338",
-      "last_seen": "2026-05-28T17:44:40.957585"
+      "last_seen": "2026-05-28T17:44:40.957585",
+      "current_price": 374.58,
+      "current_price_time": "2026-05-28T17:50:28.916724+00:00",
+      "exit_price": 374.58,
+      "exit_date": "2026-05-28T17:50:28.916724+00:00",
+      "pnl_pct": -1.88,
+      "pnl_pct_live": -1.88
     },
     {
       "ticker": "MARA",
@@ -303,9 +339,15 @@
       "news_score": null,
       "top_news_title": null,
       "top_news_url": null,
-      "status": "open",
+      "status": "expired",
       "issued_at": "2026-05-27T14:42:09.227463",
-      "last_seen": "2026-05-28T17:44:40.957585"
+      "last_seen": "2026-05-28T17:44:40.957585",
+      "current_price": 14.03,
+      "current_price_time": "2026-05-28T17:50:28.916724+00:00",
+      "exit_price": 14.03,
+      "exit_date": "2026-05-28T17:50:28.916724+00:00",
+      "pnl_pct": -0.36,
+      "pnl_pct_live": -0.36
     },
     {
       "ticker": "ROST",
@@ -333,9 +375,15 @@
       "news_score": null,
       "top_news_title": null,
       "top_news_url": null,
-      "status": "open",
+      "status": "expired",
       "issued_at": "2026-05-27T16:21:56.661143",
-      "last_seen": "2026-05-28T17:44:40.957585"
+      "last_seen": "2026-05-28T17:44:40.957585",
+      "current_price": 227.0,
+      "current_price_time": "2026-05-28T17:50:28.916724+00:00",
+      "exit_price": 227.0,
+      "exit_date": "2026-05-28T17:50:28.916724+00:00",
+      "pnl_pct": -3.34,
+      "pnl_pct_live": -3.34
     },
     {
       "ticker": "CSCO",
