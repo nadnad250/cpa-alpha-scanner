@@ -1,20 +1,20 @@
 {
-  "generated_at": "2026-05-28T16:30:20.722680",
+  "generated_at": "2026-05-28T16:38:25.450406+00:00",
   "date": "2026-05-28",
   "stats": {
-    "total": 10,
-    "buy_signals": 10,
+    "total": 5,
+    "buy_signals": 5,
     "sell_signals": 0,
     "avg_confidence": 0.98,
     "avg_rr": 2.55,
     "win_rate": 0.0,
-    "active_positions": 10,
+    "active_positions": 5,
     "daily_pnl": -0.1132
   },
   "eod": {
     "tp_hit": 0,
     "sl_hit": 3,
-    "open": 10,
+    "open": 5,
     "cumulative_pnl": -0.1132
   },
   "signals": [
@@ -49,10 +49,10 @@
       "status": "open",
       "issued_at": "2026-05-27T17:39:00.671489",
       "last_seen": "2026-05-28T08:49:25.026396",
-      "current_price": 119.08,
-      "current_price_time": "2026-05-28T15:09:07.576155+00:00",
-      "pnl_pct_live": -0.49,
-      "progression_pct": -14.1
+      "current_price": 119.1,
+      "current_price_time": "2026-05-28T16:38:25.450406+00:00",
+      "pnl_pct_live": -0.48,
+      "progression_pct": -13.6
     },
     {
       "ticker": "CRWD",
@@ -80,9 +80,15 @@
       "news_score": null,
       "top_news_title": null,
       "top_news_url": null,
-      "status": "open",
+      "status": "expired",
       "issued_at": "2026-05-27T14:42:09.227448",
-      "last_seen": "2026-05-28T16:30:20.722680"
+      "last_seen": "2026-05-28T16:30:20.722680",
+      "current_price": 672.08,
+      "current_price_time": "2026-05-28T16:38:25.450406+00:00",
+      "exit_price": 672.08,
+      "exit_date": "2026-05-28T16:38:25.450406+00:00",
+      "pnl_pct": 3.31,
+      "pnl_pct_live": 3.31
     },
     {
       "ticker": "TXN",
@@ -115,10 +121,10 @@
       "status": "open",
       "issued_at": "2026-05-27T20:19:27.499141",
       "last_seen": "2026-05-28T14:52:21.682316",
-      "current_price": 320.29,
-      "current_price_time": "2026-05-28T15:09:07.576155+00:00",
-      "pnl_pct_live": 0.18,
-      "progression_pct": 2.3
+      "current_price": 318.67,
+      "current_price_time": "2026-05-28T16:38:25.450406+00:00",
+      "pnl_pct_live": -0.33,
+      "progression_pct": -10.3
     },
     {
       "ticker": "ROKU",
@@ -151,17 +157,17 @@
       "status": "open",
       "issued_at": "2026-05-27T17:39:00.671502",
       "last_seen": "2026-05-28T08:49:25.026396",
-      "current_price": 128.78,
-      "current_price_time": "2026-05-28T15:09:07.576155+00:00",
-      "pnl_pct_live": -2.37,
-      "progression_pct": -97.2
+      "current_price": 129.61,
+      "current_price_time": "2026-05-28T16:38:25.450406+00:00",
+      "pnl_pct_live": -1.74,
+      "progression_pct": -71.4
     },
     {
       "ticker": "PANW",
       "action": "STRONG_BUY",
       "price": 248.47,
       "take_profit": 272.42,
-      "stop_loss": 238.89,
+      "stop_loss": 248.47,
       "upside_pct": 9.6,
       "confidence": 1.0,
       "score": 0.892,
@@ -189,10 +195,11 @@
       "status": "open",
       "issued_at": "2026-05-27T20:19:27.499152",
       "last_seen": "2026-05-28T08:49:25.026396",
-      "current_price": 254.74,
-      "current_price_time": "2026-05-28T15:09:07.576155+00:00",
-      "pnl_pct_live": 2.52,
-      "progression_pct": 26.2
+      "current_price": 257.1,
+      "current_price_time": "2026-05-28T16:38:25.450406+00:00",
+      "pnl_pct_live": 3.47,
+      "progression_pct": 36.0,
+      "trail_level": 1
     },
     {
       "ticker": "FTNT",
@@ -223,10 +230,10 @@
       "status": "open",
       "issued_at": "2026-05-27T17:39:00.671509",
       "last_seen": "2026-05-28T08:49:25.026396",
-      "current_price": 128.24,
-      "current_price_time": "2026-05-28T15:09:07.576155+00:00",
-      "pnl_pct_live": 0.06,
-      "progression_pct": 0.6
+      "current_price": 129.63,
+      "current_price_time": "2026-05-28T16:38:25.450406+00:00",
+      "pnl_pct_live": 1.15,
+      "progression_pct": 11.4
     },
     {
       "ticker": "RIOT",
@@ -258,9 +265,15 @@
       "news_score": 0.3,
       "top_news_title": "AI Boom Fuels Massive Rally in Bitcoin Mining Stocks as Hut 8 and Cipher Surge",
       "top_news_url": "https://www.ccn.com/news/crypto/ai-boom-bitcoin-mining-stocks-hut8-cipher-iren-surge/",
-      "status": "open",
+      "status": "expired",
       "issued_at": "2026-05-27T14:42:09.227459",
-      "last_seen": "2026-05-28T16:30:20.722680"
+      "last_seen": "2026-05-28T16:30:20.722680",
+      "current_price": 28.24,
+      "current_price_time": "2026-05-28T16:38:25.450406+00:00",
+      "exit_price": 28.24,
+      "exit_date": "2026-05-28T16:38:25.450406+00:00",
+      "pnl_pct": 0.04,
+      "pnl_pct_live": 0.04
     },
     {
       "ticker": "CDNS",
@@ -288,9 +301,15 @@
       "news_score": null,
       "top_news_title": null,
       "top_news_url": null,
-      "status": "open",
+      "status": "expired",
       "issued_at": "2026-05-27T08:47:16.047338",
-      "last_seen": "2026-05-28T16:30:20.722680"
+      "last_seen": "2026-05-28T16:30:20.722680",
+      "current_price": 376.23,
+      "current_price_time": "2026-05-28T16:38:25.450406+00:00",
+      "exit_price": 376.23,
+      "exit_date": "2026-05-28T16:38:25.450406+00:00",
+      "pnl_pct": -1.45,
+      "pnl_pct_live": -1.45
     },
     {
       "ticker": "MARA",
@@ -324,9 +343,15 @@
       "news_score": 0.1,
       "top_news_title": "Stocks Set to Open Lower as Oil Rises Amid Iran Impasse, Nvidia Earnings and Fed Minutes Awaited",
       "top_news_url": "https://www.barchart.com/story/news/1990919/stocks-set-to-open-lower-as-oil-rises-amid-iran-impasse-nvidia-earnings-and-fed-minutes-awaited",
-      "status": "open",
+      "status": "expired",
       "issued_at": "2026-05-27T14:42:09.227463",
-      "last_seen": "2026-05-28T16:30:20.722680"
+      "last_seen": "2026-05-28T16:30:20.722680",
+      "current_price": 14.07,
+      "current_price_time": "2026-05-28T16:38:25.450406+00:00",
+      "exit_price": 14.07,
+      "exit_date": "2026-05-28T16:38:25.450406+00:00",
+      "pnl_pct": 0.36,
+      "pnl_pct_live": 0.36
     },
     {
       "ticker": "ROST",
@@ -354,9 +379,15 @@
       "news_score": null,
       "top_news_title": null,
       "top_news_url": null,
-      "status": "open",
+      "status": "expired",
       "issued_at": "2026-05-27T16:21:56.661143",
-      "last_seen": "2026-05-28T16:30:20.722680"
+      "last_seen": "2026-05-28T16:30:20.722680",
+      "current_price": 228.14,
+      "current_price_time": "2026-05-28T16:38:25.450406+00:00",
+      "exit_price": 228.14,
+      "exit_date": "2026-05-28T16:38:25.450406+00:00",
+      "pnl_pct": -2.85,
+      "pnl_pct_live": -2.85
     },
     {
       "ticker": "CSCO",
