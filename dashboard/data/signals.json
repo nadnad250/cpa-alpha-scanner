@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-05-29T14:30:01.859878",
+  "generated_at": "2026-05-29T14:41:26.199192+00:00",
   "date": "2026-05-29",
   "stats": {
     "total": 7,
@@ -50,7 +50,11 @@
       "top_news_url": null,
       "status": "open",
       "issued_at": "2026-05-29T14:30:01.859033",
-      "last_seen": "2026-05-29T14:30:01.859878"
+      "last_seen": "2026-05-29T14:30:01.859878",
+      "current_price": 117.33,
+      "current_price_time": "2026-05-29T14:41:26.199192+00:00",
+      "pnl_pct_live": -0.59,
+      "progression_pct": -19.7
     },
     {
       "ticker": "DLTR",
@@ -85,17 +89,17 @@
       "status": "open",
       "issued_at": "2026-05-29T08:47:32.462498",
       "last_seen": "2026-05-29T08:47:32.463164",
-      "current_price": 113.38,
-      "current_price_time": "2026-05-29T13:37:58.159490+00:00",
-      "pnl_pct_live": 0.34,
-      "progression_pct": 5.1
+      "current_price": 113.8,
+      "current_price_time": "2026-05-29T14:41:26.199192+00:00",
+      "pnl_pct_live": 0.71,
+      "progression_pct": 10.7
     },
     {
       "ticker": "SNOW",
       "action": "STRONG_BUY",
       "price": 239.11,
       "take_profit": 254.89,
-      "stop_loss": 239.11,
+      "stop_loss": 243.055,
       "upside_pct": 6.6,
       "confidence": 0.93,
       "score": 0.8587,
@@ -123,11 +127,11 @@
       "status": "open",
       "issued_at": "2026-05-29T08:47:32.462521",
       "last_seen": "2026-05-29T08:47:32.463164",
-      "current_price": 248.38,
-      "current_price_time": "2026-05-29T13:37:58.159490+00:00",
-      "pnl_pct_live": 3.88,
-      "progression_pct": 58.7,
-      "trail_level": 1
+      "current_price": 250.23,
+      "current_price_time": "2026-05-29T14:41:26.199192+00:00",
+      "pnl_pct_live": 4.65,
+      "progression_pct": 70.5,
+      "trail_level": 2
     },
     {
       "ticker": "PLTR",
@@ -161,7 +165,11 @@
       "top_news_url": null,
       "status": "open",
       "issued_at": "2026-05-29T14:30:01.859053",
-      "last_seen": "2026-05-29T14:30:01.859878"
+      "last_seen": "2026-05-29T14:30:01.859878",
+      "current_price": 157.01,
+      "current_price_time": "2026-05-29T14:41:26.199192+00:00",
+      "pnl_pct_live": 1.06,
+      "progression_pct": 16.1
     },
     {
       "ticker": "ZS",
@@ -196,10 +204,10 @@
       "status": "open",
       "issued_at": "2026-05-29T08:47:32.462524",
       "last_seen": "2026-05-29T08:47:32.463164",
-      "current_price": 133.14,
-      "current_price_time": "2026-05-29T13:37:58.159490+00:00",
-      "pnl_pct_live": 2.38,
-      "progression_pct": 36.0,
+      "current_price": 132.74,
+      "current_price_time": "2026-05-29T14:41:26.199192+00:00",
+      "pnl_pct_live": 2.07,
+      "progression_pct": 31.4,
       "trail_level": 1
     },
     {
@@ -235,10 +243,10 @@
       "status": "open",
       "issued_at": "2026-05-29T08:47:32.462516",
       "last_seen": "2026-05-29T08:47:32.463164",
-      "current_price": 474.56,
-      "current_price_time": "2026-05-29T13:37:58.159490+00:00",
-      "pnl_pct_live": 1.33,
-      "progression_pct": 20.1
+      "current_price": 477.06,
+      "current_price_time": "2026-05-29T14:41:26.199192+00:00",
+      "pnl_pct_live": 0.81,
+      "progression_pct": 12.3
     },
     {
       "ticker": "COST",
@@ -272,7 +280,11 @@
       "top_news_url": null,
       "status": "open",
       "issued_at": "2026-05-29T14:30:01.859060",
-      "last_seen": "2026-05-29T14:30:01.859878"
+      "last_seen": "2026-05-29T14:30:01.859878",
+      "current_price": 956.85,
+      "current_price_time": "2026-05-29T14:41:26.199192+00:00",
+      "pnl_pct_live": 0.07,
+      "progression_pct": 1.1
     }
   ]
 }
