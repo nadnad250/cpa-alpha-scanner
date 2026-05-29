@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-05-29T16:20:33.223950",
+  "generated_at": "2026-05-29T17:26:05.858389+00:00",
   "date": "2026-05-29",
   "stats": {
     "total": 4,
@@ -23,7 +23,7 @@
       "action": "STRONG_BUY",
       "price": 118.03,
       "take_profit": 125.81,
-      "stop_loss": 114.48,
+      "stop_loss": 118.03,
       "upside_pct": 6.6,
       "confidence": 0.99,
       "score": 1.0,
@@ -51,10 +51,11 @@
       "status": "open",
       "issued_at": "2026-05-29T14:30:01.859033",
       "last_seen": "2026-05-29T14:30:01.859878",
-      "current_price": 119.18,
-      "current_price_time": "2026-05-29T16:08:11.249678+00:00",
-      "pnl_pct_live": 0.97,
-      "progression_pct": 14.8
+      "current_price": 120.68,
+      "current_price_time": "2026-05-29T17:26:05.858389+00:00",
+      "pnl_pct_live": 2.25,
+      "progression_pct": 34.1,
+      "trail_level": 1
     },
     {
       "ticker": "HOOD",
@@ -88,7 +89,11 @@
       "top_news_url": null,
       "status": "open",
       "issued_at": "2026-05-29T16:20:33.223191",
-      "last_seen": "2026-05-29T16:20:33.223950"
+      "last_seen": "2026-05-29T16:20:33.223950",
+      "current_price": 93.19,
+      "current_price_time": "2026-05-29T17:26:05.858389+00:00",
+      "pnl_pct_live": 0.29,
+      "progression_pct": 4.4
     },
     {
       "ticker": "PLTR",
@@ -123,10 +128,10 @@
       "status": "open",
       "issued_at": "2026-05-29T14:30:01.859053",
       "last_seen": "2026-05-29T14:30:01.859878",
-      "current_price": 156.72,
-      "current_price_time": "2026-05-29T16:08:11.249678+00:00",
-      "pnl_pct_live": 0.88,
-      "progression_pct": 13.3
+      "current_price": 156.31,
+      "current_price_time": "2026-05-29T17:26:05.858389+00:00",
+      "pnl_pct_live": 0.61,
+      "progression_pct": 9.3
     },
     {
       "ticker": "COST",
@@ -161,10 +166,10 @@
       "status": "open",
       "issued_at": "2026-05-29T14:30:01.859060",
       "last_seen": "2026-05-29T14:30:01.859878",
-      "current_price": 948.25,
-      "current_price_time": "2026-05-29T16:08:11.249678+00:00",
-      "pnl_pct_live": 0.97,
-      "progression_pct": 14.7
+      "current_price": 952.98,
+      "current_price_time": "2026-05-29T17:26:05.858389+00:00",
+      "pnl_pct_live": 0.47,
+      "progression_pct": 7.2
     },
     {
       "ticker": "DLTR",
