@@ -205,5 +205,28 @@
     "ml_proba_up": null,
     "risk_reward": 2.2,
     "primary_reason": "Cassure ORB haussière (RVOL 2.6x, +VWAP) +gap"
+  },
+  {
+    "ticker": "SNOW",
+    "action": "STRONG_BUY",
+    "entry_price": 255.3699951171875,
+    "stop_loss": 247.70889526367188,
+    "take_profit": 272.22441479492187,
+    "score": 0.6574846418469262,
+    "confidence": 0.8444309727849437,
+    "universe": "NASDAQ100",
+    "issued_at": "2026-05-29T20:18:54.373157",
+    "horizon_days": 1,
+    "horizon_hours": 24,
+    "status": "open",
+    "exit_price": null,
+    "exit_date": null,
+    "pnl_pct": null,
+    "max_favorable": null,
+    "max_adverse": null,
+    "sector": "",
+    "ml_proba_up": null,
+    "risk_reward": 2.2,
+    "primary_reason": "Cassure ORB haussière (RVOL 1.8x, +VWAP) +gap"
   }
 ]
