@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-05-29T17:43:52.271958",
+  "generated_at": "2026-05-29T18:23:03.209155+00:00",
   "date": "2026-05-29",
   "stats": {
     "total": 8,
@@ -50,7 +50,11 @@
       "top_news_url": null,
       "status": "open",
       "issued_at": "2026-05-29T16:20:33.223191",
-      "last_seen": "2026-05-29T17:43:52.271958"
+      "last_seen": "2026-05-29T17:43:52.271958",
+      "current_price": 93.0,
+      "current_price_time": "2026-05-29T18:23:03.209155+00:00",
+      "pnl_pct_live": -0.03,
+      "progression_pct": -1.1
     },
     {
       "ticker": "OKTA",
@@ -84,14 +88,18 @@
       "top_news_url": null,
       "status": "open",
       "issued_at": "2026-05-29T14:30:01.859033",
-      "last_seen": "2026-05-29T17:43:52.271958"
+      "last_seen": "2026-05-29T17:43:52.271958",
+      "current_price": 122.82,
+      "current_price_time": "2026-05-29T18:23:03.209155+00:00",
+      "pnl_pct_live": 0.87,
+      "progression_pct": 13.2
     },
     {
       "ticker": "DLTR",
       "action": "STRONG_BUY",
       "price": 113.0,
       "take_profit": 120.46,
-      "stop_loss": 109.61,
+      "stop_loss": 113.0,
       "upside_pct": 6.6,
       "confidence": 0.945,
       "score": 0.8934,
@@ -114,14 +122,19 @@
       "top_news_url": null,
       "status": "open",
       "issued_at": "2026-05-29T08:47:32.462498",
-      "last_seen": "2026-05-29T17:43:52.271958"
+      "last_seen": "2026-05-29T17:43:52.271958",
+      "current_price": 115.8,
+      "current_price_time": "2026-05-29T18:23:03.209155+00:00",
+      "pnl_pct_live": 2.48,
+      "trail_level": 1,
+      "progression_pct": 37.5
     },
     {
       "ticker": "SNOW",
       "action": "STRONG_BUY",
       "price": 239.11,
       "take_profit": 254.89,
-      "stop_loss": 231.94,
+      "stop_loss": 243.055,
       "upside_pct": 6.6,
       "confidence": 0.93,
       "score": 0.8587,
@@ -144,7 +157,12 @@
       "top_news_url": null,
       "status": "open",
       "issued_at": "2026-05-29T08:47:32.462521",
-      "last_seen": "2026-05-29T17:43:52.271958"
+      "last_seen": "2026-05-29T17:43:52.271958",
+      "current_price": 251.9,
+      "current_price_time": "2026-05-29T18:23:03.209155+00:00",
+      "pnl_pct_live": 5.35,
+      "trail_level": 2,
+      "progression_pct": 81.1
     },
     {
       "ticker": "PLTR",
@@ -179,17 +197,17 @@
       "status": "open",
       "issued_at": "2026-05-29T14:30:01.859053",
       "last_seen": "2026-05-29T14:30:01.859878",
-      "current_price": 156.31,
-      "current_price_time": "2026-05-29T17:26:05.858389+00:00",
-      "pnl_pct_live": 0.61,
-      "progression_pct": 9.3
+      "current_price": 156.07,
+      "current_price_time": "2026-05-29T18:23:03.209155+00:00",
+      "pnl_pct_live": 0.46,
+      "progression_pct": 6.9
     },
     {
       "ticker": "ZS",
       "action": "STRONG_BUY",
       "price": 130.05,
       "take_profit": 138.63,
-      "stop_loss": 126.15,
+      "stop_loss": 135.198,
       "upside_pct": 6.6,
       "confidence": 0.892,
       "score": 0.7697,
@@ -212,7 +230,12 @@
       "top_news_url": null,
       "status": "open",
       "issued_at": "2026-05-29T08:47:32.462524",
-      "last_seen": "2026-05-29T17:43:52.271958"
+      "last_seen": "2026-05-29T17:43:52.271958",
+      "current_price": 138.33,
+      "current_price_time": "2026-05-29T18:23:03.209155+00:00",
+      "pnl_pct_live": 6.37,
+      "trail_level": 3,
+      "progression_pct": 96.5
     },
     {
       "ticker": "COST",
@@ -246,7 +269,11 @@
       "top_news_url": null,
       "status": "open",
       "issued_at": "2026-05-29T14:30:01.859060",
-      "last_seen": "2026-05-29T17:43:52.271958"
+      "last_seen": "2026-05-29T17:43:52.271958",
+      "current_price": 952.67,
+      "current_price_time": "2026-05-29T18:23:03.209155+00:00",
+      "pnl_pct_live": -0.32,
+      "progression_pct": -10.6
     },
     {
       "ticker": "SNPS",
@@ -276,7 +303,11 @@
       "top_news_url": null,
       "status": "open",
       "issued_at": "2026-05-29T08:47:32.462516",
-      "last_seen": "2026-05-29T17:43:52.271958"
+      "last_seen": "2026-05-29T17:43:52.271958",
+      "current_price": 474.53,
+      "current_price_time": "2026-05-29T18:23:03.209155+00:00",
+      "pnl_pct_live": 1.33,
+      "progression_pct": 20.2
     },
     {
       "ticker": "DLTR",
