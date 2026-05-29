@@ -665,31 +665,26 @@ function fmt(n) {
   return n.toFixed(2);
 }
 
-// ---- Convertir ticker yfinance → symbole TradingView ----
-const UNIVERSE_EXCHANGE = {
-  SP500: 'NYSE', NASDAQ100: 'NASDAQ', DOW30: 'NYSE',
-  DAX40: 'XETR', CAC40: 'EURONEXT', FTSE100: 'LSE', EUROSTOXX50: 'EURONEXT',
-};
+// ---- Convertir ticker yfinance → lien TradingView ----
+// Bourses internationales (résolues par suffixe yfinance).
 const SUFFIX_EXCHANGE = {
   DE: 'XETR', PA: 'EURONEXT', L: 'LSE', MI: 'MIL',
   AS: 'AMS',  MC: 'BME',      HK: 'HKEX', T: 'TSE',
   TO: 'TSX',  SW: 'SIX',      BR: 'EURONEXT', VI: 'VIE',
 };
-// Tickers NASDAQ courants (quand pas de suffixe)
-const NASDAQ_TICKERS = new Set('AAPL MSFT GOOGL GOOG AMZN META NVDA TSLA AMD INTC NFLX ADBE CSCO AVGO COST PEP CMCSA TMUS QCOM INTU TXN AMGN SBUX CHTR BKNG PYPL FTNT ODFL ADP ISRG MDLZ GILD MU REGN ADI VRTX LRCX PANW KLAC ASML MELI ORLY SNPS CDNS MNST CRWD ABNB MRNA CTAS NXPI PCAR FAST EA PAYX ROST IDXX CPRT CTSH DXCM DLTR XEL BIIB ANSS FANG KHC GEHC ON SIRI WDAY WBD LULU TTD TEAM ZS DASH MAR'.split(' '));
 
 function tradingViewUrl(ticker, universe) {
-  const parts = (ticker || '').split('.');
-  let tvSymbol;
+  const t = (ticker || '').trim().toUpperCase();
+  if (!t) return 'https://www.tradingview.com/';
+  const parts = t.split('.');
+  // Action internationale (suffixe connu) → préfixe d'échange explicite sur le chart
   if (parts.length === 2 && SUFFIX_EXCHANGE[parts[1]]) {
-    tvSymbol = `${SUFFIX_EXCHANGE[parts[1]]}:${parts[0]}`;
-  } else if (NASDAQ_TICKERS.has(ticker)) {
-    tvSymbol = `NASDAQ:${ticker}`;
-  } else {
-    const exch = UNIVERSE_EXCHANGE[universe] || 'NASDAQ';
-    tvSymbol = `${exch}:${ticker}`;
+    const tvSymbol = `${SUFFIX_EXCHANGE[parts[1]]}:${parts[0]}`;
+    return `https://www.tradingview.com/chart/?symbol=${encodeURIComponent(tvSymbol)}`;
   }
-  return `https://www.tradingview.com/chart/?symbol=${encodeURIComponent(tvSymbol)}`;
+  // Action US : NE PAS deviner NASDAQ vs NYSE (SNOW=NYSE, AAPL=NASDAQ...).
+  // La page /symbols/<TICKER>/ résout automatiquement vers la bonne bourse.
+  return `https://www.tradingview.com/symbols/${encodeURIComponent(t)}/`;
 }
 
 // ---- Détection du statut du marché pour un ticker donné ----
