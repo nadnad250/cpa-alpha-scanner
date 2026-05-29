@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-05-29T18:47:19.657565",
+  "generated_at": "2026-05-29T19:21:14.998542+00:00",
   "date": "2026-05-29",
   "stats": {
     "total": 5,
@@ -51,10 +51,10 @@
       "status": "open",
       "issued_at": "2026-05-29T16:20:33.223191",
       "last_seen": "2026-05-29T17:43:52.271958",
-      "current_price": 93.0,
-      "current_price_time": "2026-05-29T18:23:03.209155+00:00",
-      "pnl_pct_live": -0.03,
-      "progression_pct": -1.1
+      "current_price": 92.91,
+      "current_price_time": "2026-05-29T19:21:14.998542+00:00",
+      "pnl_pct_live": -0.13,
+      "progression_pct": -4.3
     },
     {
       "ticker": "OKTA",
@@ -89,10 +89,10 @@
       "status": "open",
       "issued_at": "2026-05-29T14:30:01.859033",
       "last_seen": "2026-05-29T17:43:52.271958",
-      "current_price": 122.82,
-      "current_price_time": "2026-05-29T18:23:03.209155+00:00",
-      "pnl_pct_live": 0.87,
-      "progression_pct": 13.2
+      "current_price": 123.71,
+      "current_price_time": "2026-05-29T19:21:14.998542+00:00",
+      "pnl_pct_live": 1.6,
+      "progression_pct": 24.3
     },
     {
       "ticker": "TEAM",
@@ -126,7 +126,11 @@
       "top_news_url": null,
       "status": "open",
       "issued_at": "2026-05-29T18:47:19.656778",
-      "last_seen": "2026-05-29T18:47:19.657565"
+      "last_seen": "2026-05-29T18:47:19.657565",
+      "current_price": 107.46,
+      "current_price_time": "2026-05-29T19:21:14.998542+00:00",
+      "pnl_pct_live": -0.51,
+      "progression_pct": -17.0
     },
     {
       "ticker": "PLTR",
@@ -161,10 +165,10 @@
       "status": "open",
       "issued_at": "2026-05-29T14:30:01.859053",
       "last_seen": "2026-05-29T14:30:01.859878",
-      "current_price": 156.07,
-      "current_price_time": "2026-05-29T18:23:03.209155+00:00",
-      "pnl_pct_live": 0.46,
-      "progression_pct": 6.9
+      "current_price": 156.77,
+      "current_price_time": "2026-05-29T19:21:14.998542+00:00",
+      "pnl_pct_live": 0.91,
+      "progression_pct": 13.8
     },
     {
       "ticker": "COST",
@@ -199,10 +203,10 @@
       "status": "open",
       "issued_at": "2026-05-29T14:30:01.859060",
       "last_seen": "2026-05-29T17:43:52.271958",
-      "current_price": 952.67,
-      "current_price_time": "2026-05-29T18:23:03.209155+00:00",
-      "pnl_pct_live": -0.32,
-      "progression_pct": -10.6
+      "current_price": 952.42,
+      "current_price_time": "2026-05-29T19:21:14.998542+00:00",
+      "pnl_pct_live": -0.29,
+      "progression_pct": -9.7
     },
     {
       "ticker": "DLTR",
