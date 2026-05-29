@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-05-29T08:47:32.463164",
+  "generated_at": "2026-05-29T09:47:31.373943+00:00",
   "date": "2026-05-29",
   "stats": {
     "total": 4,
@@ -50,7 +50,11 @@
       "top_news_url": null,
       "status": "open",
       "issued_at": "2026-05-29T08:47:32.462498",
-      "last_seen": "2026-05-29T08:47:32.463164"
+      "last_seen": "2026-05-29T08:47:32.463164",
+      "current_price": 113.0,
+      "current_price_time": "2026-05-29T09:47:31.373943+00:00",
+      "pnl_pct_live": 0.0,
+      "progression_pct": 0.0
     },
     {
       "ticker": "SNOW",
@@ -84,7 +88,11 @@
       "top_news_url": null,
       "status": "open",
       "issued_at": "2026-05-29T08:47:32.462521",
-      "last_seen": "2026-05-29T08:47:32.463164"
+      "last_seen": "2026-05-29T08:47:32.463164",
+      "current_price": 239.11,
+      "current_price_time": "2026-05-29T09:47:31.373943+00:00",
+      "pnl_pct_live": 0.0,
+      "progression_pct": 0.0
     },
     {
       "ticker": "ZS",
@@ -118,7 +126,11 @@
       "top_news_url": null,
       "status": "open",
       "issued_at": "2026-05-29T08:47:32.462524",
-      "last_seen": "2026-05-29T08:47:32.463164"
+      "last_seen": "2026-05-29T08:47:32.463164",
+      "current_price": 130.05,
+      "current_price_time": "2026-05-29T09:47:31.373943+00:00",
+      "pnl_pct_live": 0.0,
+      "progression_pct": 0.0
     },
     {
       "ticker": "SNPS",
@@ -152,7 +164,11 @@
       "top_news_url": null,
       "status": "open",
       "issued_at": "2026-05-29T08:47:32.462516",
-      "last_seen": "2026-05-29T08:47:32.463164"
+      "last_seen": "2026-05-29T08:47:32.463164",
+      "current_price": 480.95,
+      "current_price_time": "2026-05-29T09:47:31.373943+00:00",
+      "pnl_pct_live": 0.0,
+      "progression_pct": 0.0
     }
   ]
 }
