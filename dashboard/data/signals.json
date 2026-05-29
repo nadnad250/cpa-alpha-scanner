@@ -7,15 +7,15 @@
     "sell_signals": 1,
     "avg_confidence": 0.954,
     "avg_rr": 2.2,
-    "win_rate": 0.0,
+    "win_rate": 1.0,
     "active_positions": 5,
-    "daily_pnl": 0.0
+    "daily_pnl": 0.1553
   },
   "eod": {
-    "tp_hit": 0,
+    "tp_hit": 4,
     "sl_hit": 0,
     "open": 5,
-    "cumulative_pnl": 0.0
+    "cumulative_pnl": 0.1553
   },
   "signals": [
     {

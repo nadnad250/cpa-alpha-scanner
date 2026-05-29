@@ -379,23 +379,34 @@ def export_to_dashboard(
         daily_pnl = 0.0
 
         # ================================================================
-        # STATS EOD : calcul direct depuis les signaux clôturés dans signals
-        # (évite dépendance au tracker dont les clés diffèrent :
-        #  tracker.performance_stats() → total/wins/losses/win_rate/expectancy
-        #  alors qu'on lisait total_signals/tp_hit/sl_hit/avg_pnl = None)
+        # STATS EOD — basées sur le P&L RÉEL (pas seulement tp_hit).
+        # En stratégie ORB intraday, la plupart des trades clôturent en
+        # "expired" (flatten EOD / time-stop) avec un P&L positif ou négatif.
+        # Un trade est GAGNANT si son pnl_pct réel > 0, quel que soit le statut
+        # (tp_hit, sl_hit, expired). Sinon le win_rate afficherait 0% à tort.
         # ================================================================
-        closed_sigs = [s for s in signals if s.get("status") in ("tp_hit", "sl_hit")]
-        tp_hit = sum(1 for s in closed_sigs if s.get("status") == "tp_hit")
-        sl_hit = sum(1 for s in closed_sigs if s.get("status") == "sl_hit")
-        n_closed = tp_hit + sl_hit
-        win_rate = round(tp_hit / n_closed, 3) if n_closed > 0 else 0.0
+        closed_sigs = [
+            s for s in signals
+            if s.get("status") in ("tp_hit", "sl_hit", "expired")
+        ]
 
-        # P&L cumulé : somme des pnl_pct réalisés (privilégie pnl_pct, fallback upside_pct signé)
         def _real_pnl(s):
             if isinstance(s.get("pnl_pct"), (int, float)):
                 return float(s["pnl_pct"])
             up = abs(float(s.get("upside_pct") or 0))
             return up if s.get("status") == "tp_hit" else -up
+
+        wins = [s for s in closed_sigs if _real_pnl(s) > 0]
+        losses = [s for s in closed_sigs if _real_pnl(s) <= 0]
+        n_closed = len(closed_sigs)
+        win_rate = round(len(wins) / n_closed, 3) if n_closed > 0 else 0.0
+
+        # Compteurs d'affichage : tp_hit = trades gagnants, sl_hit = perdants
+        # (sémantique "vert/rouge" sur le dashboard, indépendante du mode de sortie)
+        tp_hit = len(wins)
+        sl_hit = len(losses)
+
+        # P&L cumulé : somme des pnl_pct réalisés
         total_pnl_pct = sum(_real_pnl(s) for s in closed_sigs)
         daily_pnl = round(total_pnl_pct / 100, 4)   # en fraction pour compat
 
