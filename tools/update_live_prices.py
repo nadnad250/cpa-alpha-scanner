@@ -265,7 +265,7 @@ def main() -> int:
     msg = f"✅ {updated} signaux mis à jour avec prix live ({len(latest_prices)}/{len(tickers)} fetchés)"
     if auto_closed:
         msg += f" · 🎯 {auto_closed} AUTO-CLÔTURÉS (TP/SL touchés)"
-    msg += f" · 📊 stats recalc : {n_open} open, {len(tp_hits)} tp, {len(sl_hits)} sl"
+    msg += f" · 📊 stats recalc : {n_open} open, {len(wins)} gagnants, {len(losses)} perdants"
     log.info(msg)
     return 0
 
