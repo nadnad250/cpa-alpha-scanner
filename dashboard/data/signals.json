@@ -1,21 +1,21 @@
 {
-  "generated_at": "2026-06-02T14:57:10.315340",
+  "generated_at": "2026-06-02T16:11:23.743553+00:00",
   "date": "2026-06-02",
   "stats": {
-    "total": 6,
-    "buy_signals": 4,
-    "sell_signals": 2,
+    "total": 3,
+    "buy_signals": 2,
+    "sell_signals": 1,
     "avg_confidence": 0.927,
     "avg_rr": 2.2,
-    "win_rate": 0.429,
-    "active_positions": 6,
-    "daily_pnl": 0.0354
+    "win_rate": 0.353,
+    "active_positions": 3,
+    "daily_pnl": -0.0555
   },
   "eod": {
     "tp_hit": 6,
-    "sl_hit": 8,
-    "open": 6,
-    "cumulative_pnl": 0.0354
+    "sl_hit": 11,
+    "open": 3,
+    "cumulative_pnl": -0.0555
   },
   "signals": [
     {
@@ -23,7 +23,7 @@
       "action": "STRONG_BUY",
       "price": 275.1,
       "take_profit": 293.25,
-      "stop_loss": 266.84,
+      "stop_loss": 275.1,
       "upside_pct": 6.6,
       "confidence": 0.99,
       "score": 1.0,
@@ -50,7 +50,12 @@
       "top_news_url": null,
       "status": "open",
       "issued_at": "2026-06-02T14:57:10.314662",
-      "last_seen": "2026-06-02T14:57:10.315340"
+      "last_seen": "2026-06-02T14:57:10.315340",
+      "current_price": 283.52,
+      "current_price_time": "2026-06-02T16:11:23.743553+00:00",
+      "pnl_pct_live": 3.06,
+      "trail_level": 1,
+      "progression_pct": 46.4
     },
     {
       "ticker": "DDOG",
@@ -78,9 +83,15 @@
       "news_score": null,
       "top_news_title": null,
       "top_news_url": null,
-      "status": "open",
+      "status": "expired",
       "issued_at": "2026-06-01T15:41:14.627177",
-      "last_seen": "2026-06-02T14:57:10.315340"
+      "last_seen": "2026-06-02T14:57:10.315340",
+      "current_price": 268.49,
+      "current_price_time": "2026-06-02T16:11:23.743553+00:00",
+      "exit_price": 268.49,
+      "exit_date": "2026-06-02T16:11:23.743553+00:00",
+      "pnl_pct": -1.61,
+      "pnl_pct_live": -1.61
     },
     {
       "ticker": "MDB",
@@ -115,10 +126,10 @@
       "status": "open",
       "issued_at": "2026-06-02T08:57:48.321921",
       "last_seen": "2026-06-02T08:57:48.322441",
-      "current_price": 397.4,
-      "current_price_time": "2026-06-02T14:32:04.858024+00:00",
-      "pnl_pct_live": -1.53,
-      "progression_pct": -51.0
+      "current_price": 397.83,
+      "current_price_time": "2026-06-02T16:11:23.743553+00:00",
+      "pnl_pct_live": -1.42,
+      "progression_pct": -47.5
     },
     {
       "ticker": "ADBE",
@@ -146,9 +157,15 @@
       "news_score": null,
       "top_news_title": null,
       "top_news_url": null,
-      "status": "open",
+      "status": "expired",
       "issued_at": "2026-06-01T15:41:14.627181",
-      "last_seen": "2026-06-02T14:57:10.315340"
+      "last_seen": "2026-06-02T14:57:10.315340",
+      "current_price": 262.19,
+      "current_price_time": "2026-06-02T16:11:23.743553+00:00",
+      "exit_price": 262.19,
+      "exit_date": "2026-06-02T16:11:23.743553+00:00",
+      "pnl_pct": -4.48,
+      "pnl_pct_live": -4.48
     },
     {
       "ticker": "CEG",
@@ -180,13 +197,16 @@
       "news_score": null,
       "top_news_title": null,
       "top_news_url": null,
-      "status": "open",
+      "status": "sl_hit",
       "issued_at": "2026-06-02T08:57:48.321904",
       "last_seen": "2026-06-02T08:57:48.322441",
-      "current_price": 265.78,
-      "current_price_time": "2026-06-02T14:32:04.858024+00:00",
-      "pnl_pct_live": -0.03,
-      "progression_pct": -1.1
+      "current_price": 273.72,
+      "current_price_time": "2026-06-02T16:11:23.743553+00:00",
+      "pnl_pct_live": -3.0,
+      "progression_pct": -1.1,
+      "exit_price": 273.66,
+      "exit_date": "2026-06-02T16:11:23.743553+00:00",
+      "pnl_pct": -3.0
     },
     {
       "ticker": "DOCU",
@@ -220,7 +240,11 @@
       "top_news_url": null,
       "status": "open",
       "issued_at": "2026-06-02T14:57:10.314673",
-      "last_seen": "2026-06-02T14:57:10.315340"
+      "last_seen": "2026-06-02T14:57:10.315340",
+      "current_price": 54.64,
+      "current_price_time": "2026-06-02T16:11:23.743553+00:00",
+      "pnl_pct_live": -0.37,
+      "progression_pct": -13.6
     },
     {
       "ticker": "HOOD",
