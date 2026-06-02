@@ -1,21 +1,21 @@
 {
-  "generated_at": "2026-06-02T12:58:32.368205+00:00",
+  "generated_at": "2026-06-02T14:32:04.858024+00:00",
   "date": "2026-06-02",
   "stats": {
-    "total": 5,
-    "buy_signals": 4,
+    "total": 3,
+    "buy_signals": 2,
     "sell_signals": 1,
     "avg_confidence": 0.937,
     "avg_rr": 2.2,
-    "win_rate": 0.417,
-    "active_positions": 5,
-    "daily_pnl": 0.0795
+    "win_rate": 0.357,
+    "active_positions": 3,
+    "daily_pnl": 0.0195
   },
   "eod": {
     "tp_hit": 5,
-    "sl_hit": 7,
-    "open": 5,
-    "cumulative_pnl": 0.0795
+    "sl_hit": 9,
+    "open": 3,
+    "cumulative_pnl": 0.0195
   },
   "signals": [
     {
@@ -47,11 +47,11 @@
       "status": "open",
       "issued_at": "2026-06-01T15:41:14.627166",
       "last_seen": "2026-06-02T08:57:48.322441",
-      "current_price": 414.33,
-      "current_price_time": "2026-06-02T12:58:32.368205+00:00",
-      "pnl_pct_live": 3.54,
+      "current_price": 406.55,
+      "current_price_time": "2026-06-02T14:32:04.858024+00:00",
+      "pnl_pct_live": 1.59,
       "trail_level": 1,
-      "progression_pct": 53.6
+      "progression_pct": 24.1
     },
     {
       "ticker": "DDOG",
@@ -79,13 +79,16 @@
       "news_score": null,
       "top_news_title": null,
       "top_news_url": null,
-      "status": "open",
+      "status": "sl_hit",
       "issued_at": "2026-06-01T15:41:14.627177",
       "last_seen": "2026-06-02T08:57:48.322441",
-      "current_price": 277.54,
-      "current_price_time": "2026-06-02T12:58:32.368205+00:00",
-      "pnl_pct_live": 1.7,
-      "progression_pct": 25.8
+      "current_price": 263.23,
+      "current_price_time": "2026-06-02T14:32:04.858024+00:00",
+      "pnl_pct_live": -3.0,
+      "progression_pct": 25.8,
+      "exit_price": 264.7,
+      "exit_date": "2026-06-02T14:32:04.858024+00:00",
+      "pnl_pct": -3.0
     },
     {
       "ticker": "MDB",
@@ -120,10 +123,10 @@
       "status": "open",
       "issued_at": "2026-06-02T08:57:48.321921",
       "last_seen": "2026-06-02T08:57:48.322441",
-      "current_price": 403.58,
-      "current_price_time": "2026-06-02T12:58:32.368205+00:00",
-      "pnl_pct_live": 0.0,
-      "progression_pct": 0.0
+      "current_price": 397.4,
+      "current_price_time": "2026-06-02T14:32:04.858024+00:00",
+      "pnl_pct_live": -1.53,
+      "progression_pct": -51.0
     },
     {
       "ticker": "ADBE",
@@ -151,13 +154,16 @@
       "news_score": null,
       "top_news_title": null,
       "top_news_url": null,
-      "status": "open",
+      "status": "sl_hit",
       "issued_at": "2026-06-01T15:41:14.627181",
       "last_seen": "2026-06-02T08:57:48.322441",
-      "current_price": 274.04,
-      "current_price_time": "2026-06-02T12:58:32.368205+00:00",
-      "pnl_pct_live": -0.17,
-      "progression_pct": -5.6
+      "current_price": 261.75,
+      "current_price_time": "2026-06-02T14:32:04.858024+00:00",
+      "pnl_pct_live": -3.0,
+      "progression_pct": -5.6,
+      "exit_price": 266.26,
+      "exit_date": "2026-06-02T14:32:04.858024+00:00",
+      "pnl_pct": -3.0
     },
     {
       "ticker": "CEG",
@@ -192,10 +198,10 @@
       "status": "open",
       "issued_at": "2026-06-02T08:57:48.321904",
       "last_seen": "2026-06-02T08:57:48.322441",
-      "current_price": 265.69,
-      "current_price_time": "2026-06-02T12:58:32.368205+00:00",
-      "pnl_pct_live": 0.0,
-      "progression_pct": 0.0
+      "current_price": 265.78,
+      "current_price_time": "2026-06-02T14:32:04.858024+00:00",
+      "pnl_pct_live": -0.03,
+      "progression_pct": -1.1
     },
     {
       "ticker": "HOOD",
