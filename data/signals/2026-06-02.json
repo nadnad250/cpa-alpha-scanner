@@ -182,5 +182,28 @@
     "ml_proba_up": null,
     "risk_reward": 2.2,
     "primary_reason": "Cassure ORB baissière (RVOL 1.5x, -VWAP) +gap"
+  },
+  {
+    "ticker": "GILD",
+    "action": "STRONG_SELL",
+    "entry_price": 127.55999755859375,
+    "stop_loss": 130.52999877929688,
+    "take_profit": 121.02599487304687,
+    "score": -0.4294133394364556,
+    "confidence": 0.7475006692604936,
+    "universe": "NASDAQ100",
+    "issued_at": "2026-06-02T20:29:30.014860",
+    "horizon_days": 1,
+    "horizon_hours": 24,
+    "status": "open",
+    "exit_price": null,
+    "exit_date": null,
+    "pnl_pct": null,
+    "max_favorable": null,
+    "max_adverse": null,
+    "sector": "",
+    "ml_proba_up": null,
+    "risk_reward": 2.2,
+    "primary_reason": "Cassure ORB baissière (RVOL 1.6x, -VWAP) +gap"
   }
 ]
