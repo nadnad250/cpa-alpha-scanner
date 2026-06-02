@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-06-02T08:57:48.322441",
+  "generated_at": "2026-06-02T10:10:27.764599+00:00",
   "date": "2026-06-02",
   "stats": {
     "total": 5,
@@ -23,7 +23,7 @@
       "action": "STRONG_BUY",
       "price": 400.18,
       "take_profit": 426.59,
-      "stop_loss": 388.17,
+      "stop_loss": 400.18,
       "upside_pct": 6.6,
       "confidence": 0.939,
       "score": 0.8806,
@@ -46,7 +46,12 @@
       "top_news_url": null,
       "status": "open",
       "issued_at": "2026-06-01T15:41:14.627166",
-      "last_seen": "2026-06-02T08:57:48.322441"
+      "last_seen": "2026-06-02T08:57:48.322441",
+      "current_price": 414.33,
+      "current_price_time": "2026-06-02T10:10:27.764599+00:00",
+      "pnl_pct_live": 3.54,
+      "trail_level": 1,
+      "progression_pct": 53.6
     },
     {
       "ticker": "DDOG",
@@ -76,7 +81,11 @@
       "top_news_url": null,
       "status": "open",
       "issued_at": "2026-06-01T15:41:14.627177",
-      "last_seen": "2026-06-02T08:57:48.322441"
+      "last_seen": "2026-06-02T08:57:48.322441",
+      "current_price": 277.54,
+      "current_price_time": "2026-06-02T10:10:27.764599+00:00",
+      "pnl_pct_live": 1.7,
+      "progression_pct": 25.8
     },
     {
       "ticker": "MDB",
@@ -110,7 +119,11 @@
       "top_news_url": null,
       "status": "open",
       "issued_at": "2026-06-02T08:57:48.321921",
-      "last_seen": "2026-06-02T08:57:48.322441"
+      "last_seen": "2026-06-02T08:57:48.322441",
+      "current_price": 403.58,
+      "current_price_time": "2026-06-02T10:10:27.764599+00:00",
+      "pnl_pct_live": 0.0,
+      "progression_pct": 0.0
     },
     {
       "ticker": "ADBE",
@@ -140,7 +153,11 @@
       "top_news_url": null,
       "status": "open",
       "issued_at": "2026-06-01T15:41:14.627181",
-      "last_seen": "2026-06-02T08:57:48.322441"
+      "last_seen": "2026-06-02T08:57:48.322441",
+      "current_price": 274.04,
+      "current_price_time": "2026-06-02T10:10:27.764599+00:00",
+      "pnl_pct_live": -0.17,
+      "progression_pct": -5.6
     },
     {
       "ticker": "CEG",
@@ -174,7 +191,11 @@
       "top_news_url": null,
       "status": "open",
       "issued_at": "2026-06-02T08:57:48.321904",
-      "last_seen": "2026-06-02T08:57:48.322441"
+      "last_seen": "2026-06-02T08:57:48.322441",
+      "current_price": 265.69,
+      "current_price_time": "2026-06-02T10:10:27.764599+00:00",
+      "pnl_pct_live": 0.0,
+      "progression_pct": 0.0
     },
     {
       "ticker": "HOOD",
