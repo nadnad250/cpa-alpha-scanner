@@ -3,11 +3,11 @@
   "treasury_10y": 4.45,
   "yield_curve": null,
   "vix": null,
-  "dollar_index": null,
+  "dollar_index": 118.8783,
   "unemployment": 4.3,
   "cpi_yoy": null,
   "regime": "neutral",
   "regime_score": 0.0,
   "regime_reasons": [],
-  "fetched_at": "2026-06-01T19:54:00.236217"
+  "fetched_at": "2026-06-02T01:25:14.512740"
 }
