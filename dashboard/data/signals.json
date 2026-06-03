@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-06-03T12:10:24.513504+00:00",
+  "generated_at": "2026-06-03T14:01:02.392218+00:00",
   "date": "2026-06-03",
   "stats": {
     "total": 7,
@@ -23,7 +23,7 @@
       "action": "STRONG_BUY",
       "price": 290.71,
       "take_profit": 309.9,
-      "stop_loss": 281.99,
+      "stop_loss": 290.71,
       "upside_pct": 6.6,
       "confidence": 0.99,
       "score": 1.0,
@@ -51,10 +51,11 @@
       "status": "open",
       "issued_at": "2026-06-02T14:57:10.314662",
       "last_seen": "2026-06-03T09:09:07.929014",
-      "current_price": 290.71,
-      "current_price_time": "2026-06-03T12:10:24.513504+00:00",
-      "pnl_pct_live": 0.0,
-      "progression_pct": 0.0
+      "current_price": 301.93,
+      "current_price_time": "2026-06-03T14:01:02.392218+00:00",
+      "pnl_pct_live": 3.86,
+      "progression_pct": 58.5,
+      "trail_level": 1
     },
     {
       "ticker": "MDB",
@@ -121,10 +122,10 @@
       "status": "open",
       "issued_at": "2026-06-02T16:33:48.920347",
       "last_seen": "2026-06-03T09:09:07.929014",
-      "current_price": 272.66,
-      "current_price_time": "2026-06-03T12:10:24.513504+00:00",
-      "pnl_pct_live": -0.31,
-      "progression_pct": -11.0
+      "current_price": 268.4,
+      "current_price_time": "2026-06-03T14:01:02.392218+00:00",
+      "pnl_pct_live": -1.87,
+      "progression_pct": -65.3
     },
     {
       "ticker": "CEG",
@@ -167,7 +168,7 @@
       "action": "STRONG_SELL",
       "price": 54.44,
       "take_profit": 51.22,
-      "stop_loss": 55.91,
+      "stop_loss": 54.44,
       "upside_pct": 5.9,
       "confidence": 0.825,
       "score": -0.6108,
@@ -191,10 +192,11 @@
       "status": "open",
       "issued_at": "2026-06-02T14:57:10.314673",
       "last_seen": "2026-06-03T09:09:07.929014",
-      "current_price": 55.12,
-      "current_price_time": "2026-06-03T12:10:24.513504+00:00",
-      "pnl_pct_live": -1.25,
-      "progression_pct": -46.3
+      "current_price": 52.75,
+      "current_price_time": "2026-06-03T14:01:02.392218+00:00",
+      "pnl_pct_live": 3.1,
+      "progression_pct": 52.5,
+      "trail_level": 1
     },
     {
       "ticker": "ISRG",
@@ -225,10 +227,10 @@
       "status": "open",
       "issued_at": "2026-06-02T16:33:48.920336",
       "last_seen": "2026-06-03T09:09:07.929014",
-      "current_price": 402.11,
-      "current_price_time": "2026-06-03T12:10:24.513504+00:00",
-      "pnl_pct_live": -0.28,
-      "progression_pct": -9.3
+      "current_price": 401.5,
+      "current_price_time": "2026-06-03T14:01:02.392218+00:00",
+      "pnl_pct_live": -0.13,
+      "progression_pct": -4.2
     },
     {
       "ticker": "AZN",
@@ -259,10 +261,10 @@
       "status": "open",
       "issued_at": "2026-06-02T17:56:07.552708",
       "last_seen": "2026-06-03T09:09:07.929014",
-      "current_price": 177.46,
-      "current_price_time": "2026-06-03T12:10:24.513504+00:00",
-      "pnl_pct_live": -0.64,
-      "progression_pct": -35.8
+      "current_price": 176.47,
+      "current_price_time": "2026-06-03T14:01:02.392218+00:00",
+      "pnl_pct_live": -0.08,
+      "progression_pct": -4.4
     },
     {
       "ticker": "GILD",
@@ -297,10 +299,10 @@
       "status": "open",
       "issued_at": "2026-06-02T20:29:30.014860",
       "last_seen": "2026-06-03T09:09:07.929014",
-      "current_price": 127.56,
-      "current_price_time": "2026-06-03T12:10:24.513504+00:00",
-      "pnl_pct_live": 0.0,
-      "progression_pct": 0.0
+      "current_price": 128.97,
+      "current_price_time": "2026-06-03T14:01:02.392218+00:00",
+      "pnl_pct_live": -1.11,
+      "progression_pct": -47.5
     },
     {
       "ticker": "GILD",
@@ -331,10 +333,10 @@
       "status": "open",
       "issued_at": "2026-06-02T19:06:48.173388",
       "last_seen": "2026-06-03T09:09:07.929014",
-      "current_price": 127.56,
-      "current_price_time": "2026-06-03T12:10:24.513504+00:00",
-      "pnl_pct_live": 0.44,
-      "progression_pct": 10.6
+      "current_price": 128.97,
+      "current_price_time": "2026-06-03T14:01:02.392218+00:00",
+      "pnl_pct_live": -0.66,
+      "progression_pct": -35.3
     },
     {
       "ticker": "MRVL",
