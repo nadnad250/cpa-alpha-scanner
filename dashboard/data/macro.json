@@ -9,5 +9,6 @@
   "regime": "neutral",
   "regime_score": 0.0,
   "regime_reasons": [],
-  "fetched_at": "2026-06-03T08:01:44.419642"
+  "fetched_at": "2026-06-03T08:01:44.419642",
+  "last_failed_fetch": "2026-06-03T14:01:31.373414"
 }
