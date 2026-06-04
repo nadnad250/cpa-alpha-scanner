@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-06-04T14:29:07.369993",
+  "generated_at": "2026-06-04T14:40:49.191355+00:00",
   "date": "2026-06-04",
   "stats": {
     "total": 3,
@@ -50,7 +50,11 @@
       "top_news_url": null,
       "status": "open",
       "issued_at": "2026-06-04T14:29:07.369349",
-      "last_seen": "2026-06-04T14:29:07.369993"
+      "last_seen": "2026-06-04T14:29:07.369993",
+      "current_price": 57.94,
+      "current_price_time": "2026-06-04T14:40:49.191355+00:00",
+      "pnl_pct_live": 0.5,
+      "progression_pct": 7.6
     },
     {
       "ticker": "ODFL",
@@ -84,7 +88,11 @@
       "top_news_url": null,
       "status": "open",
       "issued_at": "2026-06-04T14:29:07.369360",
-      "last_seen": "2026-06-04T14:29:07.369993"
+      "last_seen": "2026-06-04T14:29:07.369993",
+      "current_price": 241.48,
+      "current_price_time": "2026-06-04T14:40:49.191355+00:00",
+      "pnl_pct_live": -0.33,
+      "progression_pct": -33.3
     },
     {
       "ticker": "ROKU",
@@ -118,7 +126,11 @@
       "top_news_url": null,
       "status": "open",
       "issued_at": "2026-06-04T14:29:07.369364",
-      "last_seen": "2026-06-04T14:29:07.369993"
+      "last_seen": "2026-06-04T14:29:07.369993",
+      "current_price": 125.82,
+      "current_price_time": "2026-06-04T14:40:49.191355+00:00",
+      "pnl_pct_live": -0.06,
+      "progression_pct": -2.3
     },
     {
       "ticker": "MRVL",
