@@ -1,21 +1,21 @@
 {
-  "generated_at": "2026-06-04T17:32:46.009571",
+  "generated_at": "2026-06-04T18:01:00.717728+00:00",
   "date": "2026-06-04",
   "stats": {
-    "total": 10,
+    "total": 5,
     "buy_signals": 4,
-    "sell_signals": 6,
+    "sell_signals": 1,
     "avg_confidence": 0.825,
     "avg_rr": 2.2,
-    "win_rate": 0.344,
-    "active_positions": 10,
-    "daily_pnl": -0.0921
+    "win_rate": 0.351,
+    "active_positions": 5,
+    "daily_pnl": -0.1397
   },
   "eod": {
-    "tp_hit": 11,
-    "sl_hit": 21,
-    "open": 10,
-    "cumulative_pnl": -0.0921
+    "tp_hit": 13,
+    "sl_hit": 24,
+    "open": 5,
+    "cumulative_pnl": -0.1397
   },
   "signals": [
     {
@@ -51,10 +51,10 @@
       "status": "open",
       "issued_at": "2026-06-04T14:29:07.369349",
       "last_seen": "2026-06-04T14:29:07.369993",
-      "current_price": 57.69,
-      "current_price_time": "2026-06-04T17:06:08.264377+00:00",
-      "pnl_pct_live": 0.07,
-      "progression_pct": 1.0
+      "current_price": 56.83,
+      "current_price_time": "2026-06-04T18:01:00.717728+00:00",
+      "pnl_pct_live": -1.42,
+      "progression_pct": -47.7
     },
     {
       "ticker": "AVGO",
@@ -88,7 +88,11 @@
       "top_news_url": null,
       "status": "open",
       "issued_at": "2026-06-04T17:32:46.008902",
-      "last_seen": "2026-06-04T17:32:46.009571"
+      "last_seen": "2026-06-04T17:32:46.009571",
+      "current_price": 423.91,
+      "current_price_time": "2026-06-04T18:01:00.717728+00:00",
+      "pnl_pct_live": 0.22,
+      "progression_pct": 3.3
     },
     {
       "ticker": "FANG",
@@ -118,7 +122,11 @@
       "top_news_url": null,
       "status": "open",
       "issued_at": "2026-06-03T20:34:21.515089",
-      "last_seen": "2026-06-04T17:32:46.009571"
+      "last_seen": "2026-06-04T17:32:46.009571",
+      "current_price": 204.9,
+      "current_price_time": "2026-06-04T18:01:00.717728+00:00",
+      "pnl_pct_live": -2.68,
+      "progression_pct": -89.2
     },
     {
       "ticker": "ODFL",
@@ -153,10 +161,10 @@
       "status": "open",
       "issued_at": "2026-06-04T14:29:07.369360",
       "last_seen": "2026-06-04T14:29:07.369993",
-      "current_price": 242.63,
-      "current_price_time": "2026-06-04T17:06:08.264377+00:00",
-      "pnl_pct_live": 0.15,
-      "progression_pct": 6.9
+      "current_price": 241.34,
+      "current_price_time": "2026-06-04T18:01:00.717728+00:00",
+      "pnl_pct_live": -0.38,
+      "progression_pct": -39.2
     },
     {
       "ticker": "FANG",
@@ -190,7 +198,11 @@
       "top_news_url": null,
       "status": "open",
       "issued_at": "2026-06-04T17:32:46.008891",
-      "last_seen": "2026-06-04T17:32:46.009571"
+      "last_seen": "2026-06-04T17:32:46.009571",
+      "current_price": 204.9,
+      "current_price_time": "2026-06-04T18:01:00.717728+00:00",
+      "pnl_pct_live": -0.77,
+      "progression_pct": -41.0
     },
     {
       "ticker": "PYPL",
@@ -218,9 +230,15 @@
       "news_score": null,
       "top_news_title": null,
       "top_news_url": null,
-      "status": "open",
+      "status": "expired",
       "issued_at": "2026-06-03T15:14:28.680192",
-      "last_seen": "2026-06-04T17:32:46.009571"
+      "last_seen": "2026-06-04T17:32:46.009571",
+      "current_price": 42.91,
+      "current_price_time": "2026-06-04T18:01:00.717728+00:00",
+      "exit_price": 42.91,
+      "exit_date": "2026-06-04T18:01:00.717728+00:00",
+      "pnl_pct": -0.54,
+      "pnl_pct_live": -0.54
     },
     {
       "ticker": "GOOG",
@@ -248,9 +266,15 @@
       "news_score": null,
       "top_news_title": null,
       "top_news_url": null,
-      "status": "open",
+      "status": "expired",
       "issued_at": "2026-06-03T15:14:28.680264",
-      "last_seen": "2026-06-04T17:32:46.009571"
+      "last_seen": "2026-06-04T17:32:46.009571",
+      "current_price": 369.33,
+      "current_price_time": "2026-06-04T18:01:00.717728+00:00",
+      "exit_price": 369.33,
+      "exit_date": "2026-06-04T18:01:00.717728+00:00",
+      "pnl_pct": -3.69,
+      "pnl_pct_live": -3.69
     },
     {
       "ticker": "DDOG",
@@ -278,9 +302,15 @@
       "news_score": null,
       "top_news_title": null,
       "top_news_url": null,
-      "status": "open",
+      "status": "expired",
       "issued_at": "2026-06-03T15:14:28.680274",
-      "last_seen": "2026-06-04T17:32:46.009571"
+      "last_seen": "2026-06-04T17:32:46.009571",
+      "current_price": 246.17,
+      "current_price_time": "2026-06-04T18:01:00.717728+00:00",
+      "exit_price": 246.17,
+      "exit_date": "2026-06-04T18:01:00.717728+00:00",
+      "pnl_pct": 0.54,
+      "pnl_pct_live": 0.54
     },
     {
       "ticker": "MRVL",
@@ -308,9 +338,15 @@
       "news_score": null,
       "top_news_title": null,
       "top_news_url": null,
-      "status": "open",
+      "status": "expired",
       "issued_at": "2026-06-03T16:36:04.591935",
-      "last_seen": "2026-06-04T17:32:46.009571"
+      "last_seen": "2026-06-04T17:32:46.009571",
+      "current_price": 316.22,
+      "current_price_time": "2026-06-04T18:01:00.717728+00:00",
+      "exit_price": 316.22,
+      "exit_date": "2026-06-04T18:01:00.717728+00:00",
+      "pnl_pct": -3.38,
+      "pnl_pct_live": -3.38
     },
     {
       "ticker": "CMCSA",
@@ -338,9 +374,15 @@
       "news_score": null,
       "top_news_title": null,
       "top_news_url": null,
-      "status": "open",
+      "status": "expired",
       "issued_at": "2026-06-03T16:36:04.591952",
-      "last_seen": "2026-06-04T17:32:46.009571"
+      "last_seen": "2026-06-04T17:32:46.009571",
+      "current_price": 23.26,
+      "current_price_time": "2026-06-04T18:01:00.717728+00:00",
+      "exit_price": 23.26,
+      "exit_date": "2026-06-04T18:01:00.717728+00:00",
+      "pnl_pct": 2.31,
+      "pnl_pct_live": 2.31
     },
     {
       "ticker": "MRVL",
