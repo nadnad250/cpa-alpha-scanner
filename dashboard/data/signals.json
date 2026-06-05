@@ -1,21 +1,21 @@
 {
-  "generated_at": "2026-06-05T14:28:14.531962",
+  "generated_at": "2026-06-05T14:39:56.415899+00:00",
   "date": "2026-06-05",
   "stats": {
-    "total": 7,
-    "buy_signals": 4,
+    "total": 5,
+    "buy_signals": 2,
     "sell_signals": 3,
     "avg_confidence": 0.808,
     "avg_rr": 2.2,
-    "win_rate": 0.31,
-    "active_positions": 7,
-    "daily_pnl": -0.2456
+    "win_rate": 0.295,
+    "active_positions": 5,
+    "daily_pnl": -0.3511
   },
   "eod": {
     "tp_hit": 13,
-    "sl_hit": 29,
-    "open": 7,
-    "cumulative_pnl": -0.2456
+    "sl_hit": 31,
+    "open": 5,
+    "cumulative_pnl": -0.3511
   },
   "signals": [
     {
@@ -44,9 +44,15 @@
       "news_score": null,
       "top_news_title": null,
       "top_news_url": null,
-      "status": "open",
+      "status": "expired",
       "issued_at": "2026-06-04T14:29:07.369349",
-      "last_seen": "2026-06-05T14:28:14.531962"
+      "last_seen": "2026-06-05T14:28:14.531962",
+      "current_price": 53.3,
+      "current_price_time": "2026-06-05T14:39:56.415899+00:00",
+      "exit_price": 53.3,
+      "exit_date": "2026-06-05T14:39:56.415899+00:00",
+      "pnl_pct": -7.55,
+      "pnl_pct_live": -7.55
     },
     {
       "ticker": "AVGO",
@@ -74,9 +80,15 @@
       "news_score": null,
       "top_news_title": null,
       "top_news_url": null,
-      "status": "open",
+      "status": "sl_hit",
       "issued_at": "2026-06-04T17:32:46.008902",
-      "last_seen": "2026-06-05T14:28:14.531962"
+      "last_seen": "2026-06-05T14:28:14.531962",
+      "current_price": 401.92,
+      "current_price_time": "2026-06-05T14:39:56.415899+00:00",
+      "exit_price": 410.29,
+      "exit_date": "2026-06-05T14:39:56.415899+00:00",
+      "pnl_pct": -3.0,
+      "pnl_pct_live": -3.0
     },
     {
       "ticker": "CRWD",
@@ -106,7 +118,11 @@
       "top_news_url": null,
       "status": "open",
       "issued_at": "2026-06-04T18:40:19.669221",
-      "last_seen": "2026-06-05T14:28:14.531962"
+      "last_seen": "2026-06-05T14:28:14.531962",
+      "current_price": 696.99,
+      "current_price_time": "2026-06-05T14:39:56.415899+00:00",
+      "pnl_pct_live": -2.65,
+      "progression_pct": -88.3
     },
     {
       "ticker": "MRVL",
@@ -136,7 +152,11 @@
       "top_news_url": null,
       "status": "open",
       "issued_at": "2026-06-04T16:10:15.025493",
-      "last_seen": "2026-06-05T14:28:14.531962"
+      "last_seen": "2026-06-05T14:28:14.531962",
+      "current_price": 298.51,
+      "current_price_time": "2026-06-05T14:39:56.415899+00:00",
+      "pnl_pct_live": -2.24,
+      "progression_pct": -74.7
     },
     {
       "ticker": "COIN",
@@ -170,7 +190,11 @@
       "top_news_url": null,
       "status": "open",
       "issued_at": "2026-06-05T14:28:14.531409",
-      "last_seen": "2026-06-05T14:28:14.531962"
+      "last_seen": "2026-06-05T14:28:14.531962",
+      "current_price": 154.21,
+      "current_price_time": "2026-06-05T14:39:56.415899+00:00",
+      "pnl_pct_live": -1.43,
+      "progression_pct": -47.6
     },
     {
       "ticker": "AVGO",
@@ -204,7 +228,11 @@
       "top_news_url": null,
       "status": "open",
       "issued_at": "2026-06-05T14:28:14.531423",
-      "last_seen": "2026-06-05T14:28:14.531962"
+      "last_seen": "2026-06-05T14:28:14.531962",
+      "current_price": 401.92,
+      "current_price_time": "2026-06-05T14:39:56.415899+00:00",
+      "pnl_pct_live": -0.91,
+      "progression_pct": -30.5
     },
     {
       "ticker": "PYPL",
@@ -238,7 +266,11 @@
       "top_news_url": null,
       "status": "open",
       "issued_at": "2026-06-05T14:28:14.531428",
-      "last_seen": "2026-06-05T14:28:14.531962"
+      "last_seen": "2026-06-05T14:28:14.531962",
+      "current_price": 41.68,
+      "current_price_time": "2026-06-05T14:39:56.415899+00:00",
+      "pnl_pct_live": 0.24,
+      "progression_pct": 8.5
     },
     {
       "ticker": "MRVL",
