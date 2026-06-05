@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-06-05T17:26:37.528913+00:00",
+  "generated_at": "2026-06-05T18:10:49.815367+00:00",
   "date": "2026-06-05",
   "stats": {
     "total": 4,
@@ -267,10 +267,10 @@
       "status": "open",
       "issued_at": "2026-06-05T16:02:21.767402",
       "last_seen": "2026-06-05T17:19:23.603142",
-      "current_price": 47.22,
-      "current_price_time": "2026-06-05T17:26:37.528913+00:00",
-      "pnl_pct_live": -0.45,
-      "progression_pct": -14.8
+      "current_price": 47.84,
+      "current_price_time": "2026-06-05T18:10:49.815367+00:00",
+      "pnl_pct_live": -1.77,
+      "progression_pct": -58.5
     },
     {
       "ticker": "COIN",
@@ -305,10 +305,10 @@
       "status": "open",
       "issued_at": "2026-06-05T14:28:14.531409",
       "last_seen": "2026-06-05T17:19:23.603142",
-      "current_price": 149.72,
-      "current_price_time": "2026-06-05T17:26:37.528913+00:00",
-      "pnl_pct_live": 0.02,
-      "progression_pct": 0.3
+      "current_price": 148.86,
+      "current_price_time": "2026-06-05T18:10:49.815367+00:00",
+      "pnl_pct_live": 0.59,
+      "progression_pct": 9.0
     },
     {
       "ticker": "PYPL",
@@ -343,10 +343,10 @@
       "status": "open",
       "issued_at": "2026-06-05T14:28:14.531428",
       "last_seen": "2026-06-05T17:19:23.603142",
-      "current_price": 41.4,
-      "current_price_time": "2026-06-05T17:26:37.528913+00:00",
-      "pnl_pct_live": 0.05,
-      "progression_pct": 1.0
+      "current_price": 41.49,
+      "current_price_time": "2026-06-05T18:10:49.815367+00:00",
+      "pnl_pct_live": -0.17,
+      "progression_pct": -7.8
     },
     {
       "ticker": "AVGO",
@@ -381,10 +381,10 @@
       "status": "open",
       "issued_at": "2026-06-05T14:28:14.531423",
       "last_seen": "2026-06-05T17:19:23.603142",
-      "current_price": 395.93,
-      "current_price_time": "2026-06-05T17:26:37.528913+00:00",
-      "pnl_pct_live": -0.1,
-      "progression_pct": -3.5
+      "current_price": 391.18,
+      "current_price_time": "2026-06-05T18:10:49.815367+00:00",
+      "pnl_pct_live": 1.1,
+      "progression_pct": 16.6
     },
     {
       "ticker": "MRVL",
