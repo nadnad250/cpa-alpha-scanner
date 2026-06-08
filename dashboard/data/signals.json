@@ -1,21 +1,21 @@
 {
-  "generated_at": "2026-06-08T14:52:19.926228",
+  "generated_at": "2026-06-08T16:24:37.829814+00:00",
   "date": "2026-06-08",
   "stats": {
-    "total": 9,
+    "total": 3,
     "buy_signals": 2,
-    "sell_signals": 7,
+    "sell_signals": 1,
     "avg_confidence": 0.817,
     "avg_rr": 2.2,
-    "win_rate": 0.261,
-    "active_positions": 9,
-    "daily_pnl": -0.6217
+    "win_rate": 0.288,
+    "active_positions": 3,
+    "daily_pnl": -0.8449
   },
   "eod": {
-    "tp_hit": 12,
-    "sl_hit": 34,
-    "open": 9,
-    "cumulative_pnl": -0.6217
+    "tp_hit": 15,
+    "sl_hit": 37,
+    "open": 3,
+    "cumulative_pnl": -0.8449
   },
   "signals": [
     {
@@ -50,7 +50,11 @@
       "top_news_url": null,
       "status": "open",
       "issued_at": "2026-06-08T14:52:19.925408",
-      "last_seen": "2026-06-08T14:52:19.926228"
+      "last_seen": "2026-06-08T14:52:19.926228",
+      "current_price": 300.11,
+      "current_price_time": "2026-06-08T16:24:37.829814+00:00",
+      "pnl_pct_live": -0.26,
+      "progression_pct": -8.6
     },
     {
       "ticker": "DXCM",
@@ -84,7 +88,11 @@
       "top_news_url": null,
       "status": "open",
       "issued_at": "2026-06-08T14:52:19.925421",
-      "last_seen": "2026-06-08T14:52:19.926228"
+      "last_seen": "2026-06-08T14:52:19.926228",
+      "current_price": 76.97,
+      "current_price_time": "2026-06-08T16:24:37.829814+00:00",
+      "pnl_pct_live": -0.26,
+      "progression_pct": -8.6
     },
     {
       "ticker": "DOCU",
@@ -112,9 +120,15 @@
       "news_score": null,
       "top_news_title": null,
       "top_news_url": null,
-      "status": "open",
+      "status": "expired",
       "issued_at": "2026-06-05T16:02:21.767402",
-      "last_seen": "2026-06-08T14:52:19.926228"
+      "last_seen": "2026-06-08T14:52:19.926228",
+      "current_price": 46.28,
+      "current_price_time": "2026-06-08T16:24:37.829814+00:00",
+      "exit_price": 46.28,
+      "exit_date": "2026-06-08T16:24:37.829814+00:00",
+      "pnl_pct": 2.83,
+      "pnl_pct_live": 2.83
     },
     {
       "ticker": "KLAC",
@@ -142,9 +156,15 @@
       "news_score": null,
       "top_news_title": null,
       "top_news_url": null,
-      "status": "open",
+      "status": "expired",
       "issued_at": "2026-06-05T20:11:22.685606",
-      "last_seen": "2026-06-08T14:52:19.926228"
+      "last_seen": "2026-06-08T14:52:19.926228",
+      "current_price": 2127.06,
+      "current_price_time": "2026-06-08T16:24:37.829814+00:00",
+      "exit_price": 2127.06,
+      "exit_date": "2026-06-08T16:24:37.829814+00:00",
+      "pnl_pct": -10.26,
+      "pnl_pct_live": -10.26
     },
     {
       "ticker": "COIN",
@@ -172,9 +192,15 @@
       "news_score": null,
       "top_news_title": null,
       "top_news_url": null,
-      "status": "open",
+      "status": "expired",
       "issued_at": "2026-06-05T14:28:14.531409",
-      "last_seen": "2026-06-08T14:52:19.926228"
+      "last_seen": "2026-06-08T14:52:19.926228",
+      "current_price": 162.4,
+      "current_price_time": "2026-06-08T16:24:37.829814+00:00",
+      "exit_price": 162.4,
+      "exit_date": "2026-06-08T16:24:37.829814+00:00",
+      "pnl_pct": -6.81,
+      "pnl_pct_live": -6.81
     },
     {
       "ticker": "MRVL",
@@ -202,9 +228,15 @@
       "news_score": null,
       "top_news_title": null,
       "top_news_url": null,
-      "status": "open",
+      "status": "expired",
       "issued_at": "2026-06-05T18:34:29.430702",
-      "last_seen": "2026-06-08T14:52:19.926228"
+      "last_seen": "2026-06-08T14:52:19.926228",
+      "current_price": 300.11,
+      "current_price_time": "2026-06-08T16:24:37.829814+00:00",
+      "exit_price": 300.11,
+      "exit_date": "2026-06-08T16:24:37.829814+00:00",
+      "pnl_pct": -9.8,
+      "pnl_pct_live": -9.8
     },
     {
       "ticker": "AVGO",
@@ -232,9 +264,15 @@
       "news_score": null,
       "top_news_title": null,
       "top_news_url": null,
-      "status": "open",
+      "status": "expired",
       "issued_at": "2026-06-05T14:28:14.531423",
-      "last_seen": "2026-06-08T14:52:19.926228"
+      "last_seen": "2026-06-08T14:52:19.926228",
+      "current_price": 397.04,
+      "current_price_time": "2026-06-08T16:24:37.829814+00:00",
+      "exit_price": 397.04,
+      "exit_date": "2026-06-08T16:24:37.829814+00:00",
+      "pnl_pct": 0.31,
+      "pnl_pct_live": 0.31
     },
     {
       "ticker": "PYPL",
@@ -262,9 +300,15 @@
       "news_score": null,
       "top_news_title": null,
       "top_news_url": null,
-      "status": "open",
+      "status": "expired",
       "issued_at": "2026-06-05T14:28:14.531428",
-      "last_seen": "2026-06-08T14:52:19.926228"
+      "last_seen": "2026-06-08T14:52:19.926228",
+      "current_price": 41.19,
+      "current_price_time": "2026-06-08T16:24:37.829814+00:00",
+      "exit_price": 41.19,
+      "exit_date": "2026-06-08T16:24:37.829814+00:00",
+      "pnl_pct": 1.41,
+      "pnl_pct_live": 1.41
     },
     {
       "ticker": "XEL",
@@ -298,7 +342,11 @@
       "top_news_url": null,
       "status": "open",
       "issued_at": "2026-06-08T14:52:19.925426",
-      "last_seen": "2026-06-08T14:52:19.926228"
+      "last_seen": "2026-06-08T14:52:19.926228",
+      "current_price": 77.84,
+      "current_price_time": "2026-06-08T16:24:37.829814+00:00",
+      "pnl_pct_live": 0.59,
+      "progression_pct": 13.3
     },
     {
       "ticker": "HOOD",
