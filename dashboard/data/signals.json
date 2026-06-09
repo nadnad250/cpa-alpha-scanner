@@ -1,21 +1,21 @@
 {
-  "generated_at": "2026-06-09T16:02:49.812831",
+  "generated_at": "2026-06-09T16:36:35.150611+00:00",
   "date": "2026-06-09",
   "stats": {
-    "total": 10,
-    "buy_signals": 3,
-    "sell_signals": 7,
+    "total": 5,
+    "buy_signals": 1,
+    "sell_signals": 4,
     "avg_confidence": 0.794,
     "avg_rr": 2.2,
-    "win_rate": 0.32,
-    "active_positions": 10,
-    "daily_pnl": -0.7516
+    "win_rate": 0.345,
+    "active_positions": 5,
+    "daily_pnl": -0.7457
   },
   "eod": {
-    "tp_hit": 16,
-    "sl_hit": 34,
-    "open": 10,
-    "cumulative_pnl": -0.7516
+    "tp_hit": 19,
+    "sl_hit": 36,
+    "open": 5,
+    "cumulative_pnl": -0.7457
   },
   "signals": [
     {
@@ -46,7 +46,11 @@
       "top_news_url": null,
       "status": "open",
       "issued_at": "2026-06-09T14:28:43.413286",
-      "last_seen": "2026-06-09T16:02:49.812831"
+      "last_seen": "2026-06-09T16:02:49.812831",
+      "current_price": 26.8,
+      "current_price_time": "2026-06-09T16:36:35.150611+00:00",
+      "pnl_pct_live": -2.44,
+      "progression_pct": -81.7
     },
     {
       "ticker": "ASML",
@@ -74,9 +78,15 @@
       "news_score": null,
       "top_news_title": null,
       "top_news_url": null,
-      "status": "open",
+      "status": "sl_hit",
       "issued_at": "2026-06-09T14:28:43.413304",
-      "last_seen": "2026-06-09T16:02:49.812831"
+      "last_seen": "2026-06-09T16:02:49.812831",
+      "current_price": 1710.05,
+      "current_price_time": "2026-06-09T16:36:35.150611+00:00",
+      "exit_price": 1770.95,
+      "exit_date": "2026-06-09T16:36:35.150611+00:00",
+      "pnl_pct": -2.31,
+      "pnl_pct_live": -2.31
     },
     {
       "ticker": "DXCM",
@@ -104,9 +114,15 @@
       "news_score": null,
       "top_news_title": null,
       "top_news_url": null,
-      "status": "open",
+      "status": "expired",
       "issued_at": "2026-06-08T14:52:19.925421",
-      "last_seen": "2026-06-09T16:02:49.812831"
+      "last_seen": "2026-06-09T16:02:49.812831",
+      "current_price": 77.35,
+      "current_price_time": "2026-06-09T16:36:35.150611+00:00",
+      "exit_price": 77.35,
+      "exit_date": "2026-06-09T16:36:35.150611+00:00",
+      "pnl_pct": 0.23,
+      "pnl_pct_live": 0.23
     },
     {
       "ticker": "AVGO",
@@ -134,9 +150,15 @@
       "news_score": null,
       "top_news_title": null,
       "top_news_url": null,
-      "status": "open",
+      "status": "expired",
       "issued_at": "2026-06-08T09:08:28.028256",
-      "last_seen": "2026-06-09T16:02:49.812831"
+      "last_seen": "2026-06-09T16:02:49.812831",
+      "current_price": 375.54,
+      "current_price_time": "2026-06-09T16:36:35.150611+00:00",
+      "exit_price": 375.54,
+      "exit_date": "2026-06-09T16:36:35.150611+00:00",
+      "pnl_pct": 2.64,
+      "pnl_pct_live": 2.64
     },
     {
       "ticker": "DOCU",
@@ -168,9 +190,15 @@
       "news_score": null,
       "top_news_title": null,
       "top_news_url": null,
-      "status": "open",
+      "status": "expired",
       "issued_at": "2026-06-08T09:08:28.028245",
-      "last_seen": "2026-06-09T16:02:49.812831"
+      "last_seen": "2026-06-09T16:02:49.812831",
+      "current_price": 43.99,
+      "current_price_time": "2026-06-09T16:36:35.150611+00:00",
+      "exit_price": 43.99,
+      "exit_date": "2026-06-09T16:36:35.150611+00:00",
+      "pnl_pct": 0.2,
+      "pnl_pct_live": 0.2
     },
     {
       "ticker": "AAPL",
@@ -204,7 +232,11 @@
       "top_news_url": null,
       "status": "open",
       "issued_at": "2026-06-09T16:02:49.811959",
-      "last_seen": "2026-06-09T16:02:49.812831"
+      "last_seen": "2026-06-09T16:02:49.812831",
+      "current_price": 289.32,
+      "current_price_time": "2026-06-09T16:36:35.150611+00:00",
+      "pnl_pct_live": 0.7,
+      "progression_pct": 10.6
     },
     {
       "ticker": "SIRI",
@@ -239,11 +271,11 @@
       "status": "open",
       "issued_at": "2026-06-09T14:28:43.413299",
       "last_seen": "2026-06-09T14:28:43.413847",
-      "current_price": 27.58,
-      "current_price_time": "2026-06-09T15:34:05.646631+00:00",
-      "pnl_pct_live": 2.09,
+      "current_price": 27.57,
+      "current_price_time": "2026-06-09T16:36:35.150611+00:00",
+      "pnl_pct_live": 2.13,
       "trail_level": 1,
-      "progression_pct": 46.5
+      "progression_pct": 47.2
     },
     {
       "ticker": "ASML",
@@ -277,14 +309,18 @@
       "top_news_url": null,
       "status": "open",
       "issued_at": "2026-06-09T16:02:49.811964",
-      "last_seen": "2026-06-09T16:02:49.812831"
+      "last_seen": "2026-06-09T16:02:49.812831",
+      "current_price": 1710.05,
+      "current_price_time": "2026-06-09T16:36:35.150611+00:00",
+      "pnl_pct_live": 1.25,
+      "progression_pct": 20.0
     },
     {
       "ticker": "AAPL",
       "action": "SELL",
       "price": 303.03,
       "take_profit": 283.03,
-      "stop_loss": 312.12,
+      "stop_loss": 298.03,
       "upside_pct": 6.6,
       "confidence": 0.732,
       "score": -0.394,
@@ -307,7 +343,12 @@
       "top_news_url": null,
       "status": "open",
       "issued_at": "2026-06-08T18:44:21.248141",
-      "last_seen": "2026-06-09T16:02:49.812831"
+      "last_seen": "2026-06-09T16:02:49.812831",
+      "current_price": 289.32,
+      "current_price_time": "2026-06-09T16:36:35.150611+00:00",
+      "pnl_pct_live": 4.52,
+      "trail_level": 2,
+      "progression_pct": 68.5
     },
     {
       "ticker": "XEL",
@@ -335,9 +376,15 @@
       "news_score": null,
       "top_news_title": null,
       "top_news_url": null,
-      "status": "open",
+      "status": "expired",
       "issued_at": "2026-06-08T14:52:19.925426",
-      "last_seen": "2026-06-09T16:02:49.812831"
+      "last_seen": "2026-06-09T16:02:49.812831",
+      "current_price": 78.43,
+      "current_price_time": "2026-06-09T16:36:35.150611+00:00",
+      "exit_price": 78.43,
+      "exit_date": "2026-06-09T16:36:35.150611+00:00",
+      "pnl_pct": -0.17,
+      "pnl_pct_live": -0.17
     },
     {
       "ticker": "HOOD",
