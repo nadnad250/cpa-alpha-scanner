@@ -1,21 +1,21 @@
 {
-  "generated_at": "2026-06-09T19:16:00.700036+00:00",
+  "generated_at": "2026-06-09T20:15:26.891419+00:00",
   "date": "2026-06-09",
   "stats": {
-    "total": 5,
-    "buy_signals": 1,
-    "sell_signals": 4,
+    "total": 0,
+    "buy_signals": 0,
+    "sell_signals": 0,
     "avg_confidence": 0.795,
     "avg_rr": 2.2,
-    "win_rate": 0.345,
-    "active_positions": 5,
-    "daily_pnl": -0.6672
+    "win_rate": 0.367,
+    "active_positions": 0,
+    "daily_pnl": -0.6922
   },
   "eod": {
-    "tp_hit": 19,
-    "sl_hit": 36,
-    "open": 5,
-    "cumulative_pnl": -0.6672
+    "tp_hit": 22,
+    "sl_hit": 38,
+    "open": 0,
+    "cumulative_pnl": -0.6922
   },
   "signals": [
     {
@@ -48,13 +48,16 @@
       "news_score": null,
       "top_news_title": null,
       "top_news_url": null,
-      "status": "open",
+      "status": "expired",
       "issued_at": "2026-06-09T14:28:43.413286",
       "last_seen": "2026-06-09T18:38:49.721663",
-      "current_price": 27.33,
-      "current_price_time": "2026-06-09T19:16:00.700036+00:00",
-      "pnl_pct_live": 1.04,
-      "progression_pct": 15.7
+      "current_price": 27.59,
+      "current_price_time": "2026-06-09T20:15:26.891419+00:00",
+      "pnl_pct_live": 2.0,
+      "progression_pct": 15.7,
+      "exit_price": 27.59,
+      "exit_date": "2026-06-09T20:15:26.891419+00:00",
+      "pnl_pct": 2.0
     },
     {
       "ticker": "ASML",
@@ -230,13 +233,16 @@
       "news_score": null,
       "top_news_title": null,
       "top_news_url": null,
-      "status": "open",
+      "status": "expired",
       "issued_at": "2026-06-09T17:20:29.727861",
       "last_seen": "2026-06-09T17:20:29.728613",
-      "current_price": 200.07,
-      "current_price_time": "2026-06-09T19:16:00.700036+00:00",
-      "pnl_pct_live": -0.25,
-      "progression_pct": -8.2
+      "current_price": 205.41,
+      "current_price_time": "2026-06-09T20:15:26.891419+00:00",
+      "pnl_pct_live": -2.92,
+      "progression_pct": -8.2,
+      "exit_price": 205.41,
+      "exit_date": "2026-06-09T20:15:26.891419+00:00",
+      "pnl_pct": -2.92
     },
     {
       "ticker": "SIRI",
@@ -268,13 +274,16 @@
       "news_score": null,
       "top_news_title": null,
       "top_news_url": null,
-      "status": "open",
+      "status": "expired",
       "issued_at": "2026-06-09T14:28:43.413299",
       "last_seen": "2026-06-09T18:38:49.721663",
-      "current_price": 27.81,
-      "current_price_time": "2026-06-09T19:16:00.700036+00:00",
-      "pnl_pct_live": -0.07,
-      "progression_pct": -2.4
+      "current_price": 27.59,
+      "current_price_time": "2026-06-09T20:15:26.891419+00:00",
+      "pnl_pct_live": 0.72,
+      "progression_pct": -2.4,
+      "exit_price": 27.59,
+      "exit_date": "2026-06-09T20:15:26.891419+00:00",
+      "pnl_pct": 0.72
     },
     {
       "ticker": "AAPL",
@@ -306,13 +315,16 @@
       "news_score": null,
       "top_news_title": null,
       "top_news_url": null,
-      "status": "open",
+      "status": "expired",
       "issued_at": "2026-06-09T16:02:49.811959",
       "last_seen": "2026-06-09T18:38:49.721663",
-      "current_price": 290.63,
-      "current_price_time": "2026-06-09T19:16:00.700036+00:00",
-      "pnl_pct_live": 0.34,
-      "progression_pct": 5.1
+      "current_price": 290.36,
+      "current_price_time": "2026-06-09T20:15:26.891419+00:00",
+      "pnl_pct_live": 0.43,
+      "progression_pct": 5.1,
+      "exit_price": 290.36,
+      "exit_date": "2026-06-09T20:15:26.891419+00:00",
+      "pnl_pct": 0.43
     },
     {
       "ticker": "ASML",
@@ -344,13 +356,16 @@
       "news_score": null,
       "top_news_title": null,
       "top_news_url": null,
-      "status": "open",
+      "status": "expired",
       "issued_at": "2026-06-09T16:02:49.811964",
       "last_seen": "2026-06-09T16:02:49.812831",
-      "current_price": 1748.01,
-      "current_price_time": "2026-06-09T19:16:00.700036+00:00",
-      "pnl_pct_live": -0.95,
-      "progression_pct": -33.4
+      "current_price": 1778.99,
+      "current_price_time": "2026-06-09T20:15:26.891419+00:00",
+      "pnl_pct_live": -2.73,
+      "progression_pct": -33.4,
+      "exit_price": 1778.99,
+      "exit_date": "2026-06-09T20:15:26.891419+00:00",
+      "pnl_pct": -2.73
     },
     {
       "ticker": "AAPL",
