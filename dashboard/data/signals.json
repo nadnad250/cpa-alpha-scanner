@@ -1,21 +1,21 @@
 {
-  "generated_at": "2026-06-10T17:39:33.401587",
+  "generated_at": "2026-06-10T17:39:46.589257+00:00",
   "date": "2026-06-10",
   "stats": {
-    "total": 10,
-    "buy_signals": 4,
-    "sell_signals": 6,
+    "total": 3,
+    "buy_signals": 1,
+    "sell_signals": 2,
     "avg_confidence": 0.816,
     "avg_rr": 2.2,
-    "win_rate": 0.24,
-    "active_positions": 10,
-    "daily_pnl": -0.9271
+    "win_rate": 0.263,
+    "active_positions": 3,
+    "daily_pnl": -0.9633
   },
   "eod": {
-    "tp_hit": 12,
-    "sl_hit": 38,
-    "open": 10,
-    "cumulative_pnl": -0.9271
+    "tp_hit": 15,
+    "sl_hit": 42,
+    "open": 3,
+    "cumulative_pnl": -0.9633
   },
   "signals": [
     {
@@ -44,9 +44,15 @@
       "news_score": null,
       "top_news_title": null,
       "top_news_url": null,
-      "status": "open",
+      "status": "expired",
       "issued_at": "2026-06-09T14:28:43.413286",
-      "last_seen": "2026-06-10T17:39:33.401587"
+      "last_seen": "2026-06-10T17:39:33.401587",
+      "current_price": 29.05,
+      "current_price_time": "2026-06-10T17:39:46.589257+00:00",
+      "exit_price": 29.05,
+      "exit_date": "2026-06-10T17:39:46.589257+00:00",
+      "pnl_pct": 5.75,
+      "pnl_pct_live": 5.75
     },
     {
       "ticker": "KLAC",
@@ -74,9 +80,15 @@
       "news_score": null,
       "top_news_title": null,
       "top_news_url": null,
-      "status": "open",
+      "status": "sl_hit",
       "issued_at": "2026-06-10T14:39:16.463560",
-      "last_seen": "2026-06-10T17:39:33.401587"
+      "last_seen": "2026-06-10T17:39:33.401587",
+      "current_price": 2135.4,
+      "current_price_time": "2026-06-10T17:39:46.589257+00:00",
+      "exit_price": 2203.0,
+      "exit_date": "2026-06-10T17:39:46.589257+00:00",
+      "pnl_pct": -3.0,
+      "pnl_pct_live": -3.0
     },
     {
       "ticker": "ODFL",
@@ -111,10 +123,10 @@
       "status": "open",
       "issued_at": "2026-06-10T14:39:16.463577",
       "last_seen": "2026-06-10T14:39:16.464180",
-      "current_price": 235.2,
-      "current_price_time": "2026-06-10T16:28:07.161271+00:00",
-      "pnl_pct_live": -1.48,
-      "progression_pct": -49.3
+      "current_price": 234.15,
+      "current_price_time": "2026-06-10T17:39:46.589257+00:00",
+      "pnl_pct_live": -1.92,
+      "progression_pct": -64.0
     },
     {
       "ticker": "ASML",
@@ -142,9 +154,15 @@
       "news_score": null,
       "top_news_title": null,
       "top_news_url": null,
-      "status": "open",
+      "status": "expired",
       "issued_at": "2026-06-09T14:28:43.413304",
-      "last_seen": "2026-06-10T17:39:33.401587"
+      "last_seen": "2026-06-10T17:39:33.401587",
+      "current_price": 1740.06,
+      "current_price_time": "2026-06-10T17:39:46.589257+00:00",
+      "exit_price": 1740.06,
+      "exit_date": "2026-06-10T17:39:46.589257+00:00",
+      "pnl_pct": -4.01,
+      "pnl_pct_live": -4.01
     },
     {
       "ticker": "DOCU",
@@ -172,9 +190,15 @@
       "news_score": null,
       "top_news_title": null,
       "top_news_url": null,
-      "status": "open",
+      "status": "expired",
       "issued_at": "2026-06-09T16:02:49.811947",
-      "last_seen": "2026-06-10T17:39:33.401587"
+      "last_seen": "2026-06-10T17:39:33.401587",
+      "current_price": 45.72,
+      "current_price_time": "2026-06-10T17:39:46.589257+00:00",
+      "exit_price": 45.72,
+      "exit_date": "2026-06-10T17:39:46.589257+00:00",
+      "pnl_pct": -3.72,
+      "pnl_pct_live": -3.72
     },
     {
       "ticker": "ASML",
@@ -206,9 +230,15 @@
       "news_score": null,
       "top_news_title": null,
       "top_news_url": null,
-      "status": "open",
+      "status": "expired",
       "issued_at": "2026-06-09T16:02:49.811964",
-      "last_seen": "2026-06-10T17:39:33.401587"
+      "last_seen": "2026-06-10T17:39:33.401587",
+      "current_price": 1740.06,
+      "current_price_time": "2026-06-10T17:39:46.589257+00:00",
+      "exit_price": 1740.06,
+      "exit_date": "2026-06-10T17:39:46.589257+00:00",
+      "pnl_pct": 0.09,
+      "pnl_pct_live": 0.09
     },
     {
       "ticker": "NET",
@@ -243,10 +273,10 @@
       "status": "open",
       "issued_at": "2026-06-10T14:39:16.463584",
       "last_seen": "2026-06-10T16:18:57.823669",
-      "current_price": 223.82,
-      "current_price_time": "2026-06-10T16:28:07.161271+00:00",
-      "pnl_pct_live": -0.35,
-      "progression_pct": -11.7
+      "current_price": 222.48,
+      "current_price_time": "2026-06-10T17:39:46.589257+00:00",
+      "pnl_pct_live": 0.25,
+      "progression_pct": 3.8
     },
     {
       "ticker": "AAPL",
@@ -274,9 +304,15 @@
       "news_score": null,
       "top_news_title": null,
       "top_news_url": null,
-      "status": "open",
+      "status": "expired",
       "issued_at": "2026-06-09T16:02:49.811959",
-      "last_seen": "2026-06-10T17:39:33.401587"
+      "last_seen": "2026-06-10T17:39:33.401587",
+      "current_price": 292.6,
+      "current_price_time": "2026-06-10T17:39:46.589257+00:00",
+      "exit_price": 292.6,
+      "exit_date": "2026-06-10T17:39:46.589257+00:00",
+      "pnl_pct": -0.43,
+      "pnl_pct_live": -0.43
     },
     {
       "ticker": "SIRI",
@@ -304,9 +340,15 @@
       "news_score": null,
       "top_news_title": null,
       "top_news_url": null,
-      "status": "open",
+      "status": "expired",
       "issued_at": "2026-06-09T14:28:43.413299",
-      "last_seen": "2026-06-10T17:39:33.401587"
+      "last_seen": "2026-06-10T17:39:33.401587",
+      "current_price": 27.69,
+      "current_price_time": "2026-06-10T17:39:46.589257+00:00",
+      "exit_price": 27.69,
+      "exit_date": "2026-06-10T17:39:46.589257+00:00",
+      "pnl_pct": 1.7,
+      "pnl_pct_live": 1.7
     },
     {
       "ticker": "KLAC",
@@ -340,7 +382,11 @@
       "top_news_url": null,
       "status": "open",
       "issued_at": "2026-06-10T17:39:33.400954",
-      "last_seen": "2026-06-10T17:39:33.401587"
+      "last_seen": "2026-06-10T17:39:33.401587",
+      "current_price": 2135.4,
+      "current_price_time": "2026-06-10T17:39:46.589257+00:00",
+      "pnl_pct_live": 0.08,
+      "progression_pct": 2.2
     },
     {
       "ticker": "DKNG",
