@@ -113,5 +113,28 @@
     "ml_proba_up": null,
     "risk_reward": 2.2,
     "primary_reason": "Cassure ORB baissière (RVOL 2.1x, -VWAP) (contre-gap)"
+  },
+  {
+    "ticker": "SMCI",
+    "action": "STRONG_SELL",
+    "entry_price": 31.774999618530273,
+    "stop_loss": 32.728249607086184,
+    "take_profit": 29.677849643707276,
+    "score": -0.8954514516401759,
+    "confidence": 0.9455668669470747,
+    "universe": "NASDAQ100",
+    "issued_at": "2026-06-10T18:47:23.425833",
+    "horizon_days": 1,
+    "horizon_hours": 24,
+    "status": "open",
+    "exit_price": null,
+    "exit_date": null,
+    "pnl_pct": null,
+    "max_favorable": null,
+    "max_adverse": null,
+    "sector": "",
+    "ml_proba_up": null,
+    "risk_reward": 2.2,
+    "primary_reason": "Cassure ORB baissière (RVOL 2.6x, -VWAP) +gap"
   }
 ]
