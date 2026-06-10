@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-06-10T17:39:46.589257+00:00",
+  "generated_at": "2026-06-10T18:37:06.761019+00:00",
   "date": "2026-06-10",
   "stats": {
     "total": 3,
@@ -123,10 +123,10 @@
       "status": "open",
       "issued_at": "2026-06-10T14:39:16.463577",
       "last_seen": "2026-06-10T14:39:16.464180",
-      "current_price": 234.15,
-      "current_price_time": "2026-06-10T17:39:46.589257+00:00",
-      "pnl_pct_live": -1.92,
-      "progression_pct": -64.0
+      "current_price": 234.35,
+      "current_price_time": "2026-06-10T18:37:06.761019+00:00",
+      "pnl_pct_live": -1.83,
+      "progression_pct": -61.2
     },
     {
       "ticker": "ASML",
@@ -273,10 +273,10 @@
       "status": "open",
       "issued_at": "2026-06-10T14:39:16.463584",
       "last_seen": "2026-06-10T16:18:57.823669",
-      "current_price": 222.48,
-      "current_price_time": "2026-06-10T17:39:46.589257+00:00",
-      "pnl_pct_live": 0.25,
-      "progression_pct": 3.8
+      "current_price": 222.72,
+      "current_price_time": "2026-06-10T18:37:06.761019+00:00",
+      "pnl_pct_live": 0.14,
+      "progression_pct": 2.2
     },
     {
       "ticker": "AAPL",
@@ -383,10 +383,10 @@
       "status": "open",
       "issued_at": "2026-06-10T17:39:33.400954",
       "last_seen": "2026-06-10T17:39:33.401587",
-      "current_price": 2135.4,
-      "current_price_time": "2026-06-10T17:39:46.589257+00:00",
-      "pnl_pct_live": 0.08,
-      "progression_pct": 2.2
+      "current_price": 2148.83,
+      "current_price_time": "2026-06-10T18:37:06.761019+00:00",
+      "pnl_pct_live": -0.55,
+      "progression_pct": -33.6
     },
     {
       "ticker": "DKNG",
