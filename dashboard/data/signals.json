@@ -1,21 +1,21 @@
 {
-  "generated_at": "2026-06-10T14:39:16.464180",
+  "generated_at": "2026-06-10T15:06:17.634952+00:00",
   "date": "2026-06-10",
   "stats": {
-    "total": 4,
-    "buy_signals": 2,
+    "total": 3,
+    "buy_signals": 1,
     "sell_signals": 2,
     "avg_confidence": 0.799,
     "avg_rr": 2.2,
-    "win_rate": 0.22,
-    "active_positions": 4,
-    "daily_pnl": -0.9862
+    "win_rate": 0.216,
+    "active_positions": 3,
+    "daily_pnl": -1.0162
   },
   "eod": {
     "tp_hit": 11,
-    "sl_hit": 39,
-    "open": 4,
-    "cumulative_pnl": -0.9862
+    "sl_hit": 40,
+    "open": 3,
+    "cumulative_pnl": -1.0162
   },
   "signals": [
     {
@@ -48,9 +48,15 @@
       "news_score": null,
       "top_news_title": null,
       "top_news_url": null,
-      "status": "open",
+      "status": "sl_hit",
       "issued_at": "2026-06-10T14:39:16.463560",
-      "last_seen": "2026-06-10T14:39:16.464180"
+      "last_seen": "2026-06-10T14:39:16.464180",
+      "current_price": 2190.85,
+      "current_price_time": "2026-06-10T15:06:17.634952+00:00",
+      "exit_price": 2203.0,
+      "exit_date": "2026-06-10T15:06:17.634952+00:00",
+      "pnl_pct": -3.0,
+      "pnl_pct_live": -3.0
     },
     {
       "ticker": "ODFL",
@@ -84,7 +90,11 @@
       "top_news_url": null,
       "status": "open",
       "issued_at": "2026-06-10T14:39:16.463577",
-      "last_seen": "2026-06-10T14:39:16.464180"
+      "last_seen": "2026-06-10T14:39:16.464180",
+      "current_price": 237.16,
+      "current_price_time": "2026-06-10T15:06:17.634952+00:00",
+      "pnl_pct_live": -0.66,
+      "progression_pct": -21.9
     },
     {
       "ticker": "NET",
@@ -118,7 +128,11 @@
       "top_news_url": null,
       "status": "open",
       "issued_at": "2026-06-10T14:39:16.463584",
-      "last_seen": "2026-06-10T14:39:16.464180"
+      "last_seen": "2026-06-10T14:39:16.464180",
+      "current_price": 225.38,
+      "current_price_time": "2026-06-10T15:06:17.634952+00:00",
+      "pnl_pct_live": 0.59,
+      "progression_pct": 9.0
     },
     {
       "ticker": "ASML",
@@ -148,7 +162,11 @@
       "top_news_url": null,
       "status": "open",
       "issued_at": "2026-06-09T16:02:49.811964",
-      "last_seen": "2026-06-10T14:39:16.464180"
+      "last_seen": "2026-06-10T14:39:16.464180",
+      "current_price": 1755.96,
+      "current_price_time": "2026-06-10T15:06:17.634952+00:00",
+      "pnl_pct_live": -1.4,
+      "progression_pct": -49.6
     },
     {
       "ticker": "DKNG",
