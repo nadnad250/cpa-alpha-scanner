@@ -1,21 +1,21 @@
 {
-  "generated_at": "2026-06-11T17:44:47.934166",
+  "generated_at": "2026-06-11T18:43:39.421901+00:00",
   "date": "2026-06-11",
   "stats": {
-    "total": 10,
-    "buy_signals": 5,
-    "sell_signals": 5,
+    "total": 5,
+    "buy_signals": 4,
+    "sell_signals": 1,
     "avg_confidence": 0.809,
     "avg_rr": 2.2,
-    "win_rate": 0.24,
-    "active_positions": 10,
-    "daily_pnl": -0.8612
+    "win_rate": 0.236,
+    "active_positions": 5,
+    "daily_pnl": -1.0288
   },
   "eod": {
-    "tp_hit": 12,
-    "sl_hit": 38,
-    "open": 10,
-    "cumulative_pnl": -0.8612
+    "tp_hit": 13,
+    "sl_hit": 42,
+    "open": 5,
+    "cumulative_pnl": -1.0288
   },
   "signals": [
     {
@@ -50,7 +50,11 @@
       "top_news_url": null,
       "status": "open",
       "issued_at": "2026-06-11T17:44:47.933509",
-      "last_seen": "2026-06-11T17:44:47.934166"
+      "last_seen": "2026-06-11T17:44:47.934166",
+      "current_price": 30.65,
+      "current_price_time": "2026-06-11T18:43:39.421901+00:00",
+      "pnl_pct_live": 0.49,
+      "progression_pct": 7.4
     },
     {
       "ticker": "BNTX",
@@ -85,10 +89,10 @@
       "status": "open",
       "issued_at": "2026-06-11T14:52:46.054549",
       "last_seen": "2026-06-11T16:25:26.389007",
-      "current_price": 88.91,
-      "current_price_time": "2026-06-11T17:42:47.173339+00:00",
-      "pnl_pct_live": 0.02,
-      "progression_pct": 0.3
+      "current_price": 88.71,
+      "current_price_time": "2026-06-11T18:43:39.421901+00:00",
+      "pnl_pct_live": -0.2,
+      "progression_pct": -6.7
     },
     {
       "ticker": "ODFL",
@@ -116,9 +120,15 @@
       "news_score": null,
       "top_news_title": null,
       "top_news_url": null,
-      "status": "open",
+      "status": "expired",
       "issued_at": "2026-06-10T14:39:16.463577",
-      "last_seen": "2026-06-11T17:44:47.934166"
+      "last_seen": "2026-06-11T17:44:47.934166",
+      "current_price": 246.27,
+      "current_price_time": "2026-06-11T18:43:39.421901+00:00",
+      "exit_price": 246.27,
+      "exit_date": "2026-06-11T18:43:39.421901+00:00",
+      "pnl_pct": 3.16,
+      "pnl_pct_live": 3.16
     },
     {
       "ticker": "CTAS",
@@ -153,10 +163,10 @@
       "status": "open",
       "issued_at": "2026-06-11T14:52:46.054568",
       "last_seen": "2026-06-11T14:52:46.055373",
-      "current_price": 184.2,
-      "current_price_time": "2026-06-11T17:42:47.173339+00:00",
-      "pnl_pct_live": 1.12,
-      "progression_pct": 25.3
+      "current_price": 183.44,
+      "current_price_time": "2026-06-11T18:43:39.421901+00:00",
+      "pnl_pct_live": 0.7,
+      "progression_pct": 15.9
     },
     {
       "ticker": "KLAC",
@@ -191,11 +201,11 @@
       "status": "open",
       "issued_at": "2026-06-11T14:52:46.054565",
       "last_seen": "2026-06-11T16:25:26.389007",
-      "current_price": 2368.14,
-      "current_price_time": "2026-06-11T17:42:47.173339+00:00",
-      "pnl_pct_live": 2.25,
+      "current_price": 2364.63,
+      "current_price_time": "2026-06-11T18:43:39.421901+00:00",
+      "pnl_pct_live": 2.1,
       "trail_level": 1,
-      "progression_pct": 34.2
+      "progression_pct": 31.9
     },
     {
       "ticker": "ADBE",
@@ -230,10 +240,10 @@
       "status": "open",
       "issued_at": "2026-06-11T14:52:46.054561",
       "last_seen": "2026-06-11T16:25:26.389007",
-      "current_price": 224.89,
-      "current_price_time": "2026-06-11T17:42:47.173339+00:00",
-      "pnl_pct_live": -0.98,
-      "progression_pct": -32.8
+      "current_price": 222.94,
+      "current_price_time": "2026-06-11T18:43:39.421901+00:00",
+      "pnl_pct_live": -0.11,
+      "progression_pct": -3.6
     },
     {
       "ticker": "LRCX",
@@ -261,9 +271,15 @@
       "news_score": null,
       "top_news_title": null,
       "top_news_url": null,
-      "status": "open",
+      "status": "sl_hit",
       "issued_at": "2026-06-10T20:19:25.854780",
-      "last_seen": "2026-06-11T17:44:47.934166"
+      "last_seen": "2026-06-11T17:44:47.934166",
+      "current_price": 354.62,
+      "current_price_time": "2026-06-11T18:43:39.421901+00:00",
+      "exit_price": 328.84,
+      "exit_date": "2026-06-11T18:43:39.421901+00:00",
+      "pnl_pct": -2.28,
+      "pnl_pct_live": -2.28
     },
     {
       "ticker": "ASML",
@@ -291,9 +307,15 @@
       "news_score": null,
       "top_news_title": null,
       "top_news_url": null,
-      "status": "open",
+      "status": "expired",
       "issued_at": "2026-06-10T17:39:33.400940",
-      "last_seen": "2026-06-11T17:44:47.934166"
+      "last_seen": "2026-06-11T17:44:47.934166",
+      "current_price": 1859.18,
+      "current_price_time": "2026-06-11T18:43:39.421901+00:00",
+      "exit_price": 1859.18,
+      "exit_date": "2026-06-11T18:43:39.421901+00:00",
+      "pnl_pct": -6.75,
+      "pnl_pct_live": -6.75
     },
     {
       "ticker": "NET",
@@ -321,9 +343,15 @@
       "news_score": null,
       "top_news_title": null,
       "top_news_url": null,
-      "status": "open",
+      "status": "expired",
       "issued_at": "2026-06-10T14:39:16.463584",
-      "last_seen": "2026-06-11T17:44:47.934166"
+      "last_seen": "2026-06-11T17:44:47.934166",
+      "current_price": 227.27,
+      "current_price_time": "2026-06-11T18:43:39.421901+00:00",
+      "exit_price": 227.27,
+      "exit_date": "2026-06-11T18:43:39.421901+00:00",
+      "pnl_pct": -0.24,
+      "pnl_pct_live": -0.24
     },
     {
       "ticker": "KLAC",
@@ -351,9 +379,15 @@
       "news_score": null,
       "top_news_title": null,
       "top_news_url": null,
-      "status": "open",
+      "status": "expired",
       "issued_at": "2026-06-10T17:39:33.400954",
-      "last_seen": "2026-06-11T17:44:47.934166"
+      "last_seen": "2026-06-11T17:44:47.934166",
+      "current_price": 2364.63,
+      "current_price_time": "2026-06-11T18:43:39.421901+00:00",
+      "exit_price": 2364.63,
+      "exit_date": "2026-06-11T18:43:39.421901+00:00",
+      "pnl_pct": -10.65,
+      "pnl_pct_live": -10.65
     },
     {
       "ticker": "DKNG",
