@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-06-12T08:51:39.309319",
+  "generated_at": "2026-06-12T10:09:26.516368+00:00",
   "date": "2026-06-12",
   "stats": {
     "total": 6,
@@ -23,7 +23,7 @@
       "action": "STRONG_BUY",
       "price": 30.5,
       "take_profit": 32.52,
-      "stop_loss": 29.59,
+      "stop_loss": 31.005000000000003,
       "upside_pct": 6.6,
       "confidence": 0.922,
       "score": 0.84,
@@ -46,7 +46,12 @@
       "top_news_url": null,
       "status": "open",
       "issued_at": "2026-06-11T17:44:47.933509",
-      "last_seen": "2026-06-12T08:51:39.309319"
+      "last_seen": "2026-06-12T08:51:39.309319",
+      "current_price": 31.96,
+      "current_price_time": "2026-06-12T10:09:26.516368+00:00",
+      "pnl_pct_live": 4.79,
+      "trail_level": 2,
+      "progression_pct": 72.3
     },
     {
       "ticker": "BNTX",
@@ -76,7 +81,11 @@
       "top_news_url": null,
       "status": "open",
       "issued_at": "2026-06-11T14:52:46.054549",
-      "last_seen": "2026-06-12T08:51:39.309319"
+      "last_seen": "2026-06-12T08:51:39.309319",
+      "current_price": 89.54,
+      "current_price_time": "2026-06-12T10:09:26.516368+00:00",
+      "pnl_pct_live": 1.12,
+      "progression_pct": 18.7
     },
     {
       "ticker": "AMAT",
@@ -110,14 +119,18 @@
       "top_news_url": null,
       "status": "open",
       "issued_at": "2026-06-12T08:51:39.308841",
-      "last_seen": "2026-06-12T08:51:39.309319"
+      "last_seen": "2026-06-12T08:51:39.309319",
+      "current_price": 552.5,
+      "current_price_time": "2026-06-12T10:09:26.516368+00:00",
+      "pnl_pct_live": 0.0,
+      "progression_pct": 0.0
     },
     {
       "ticker": "KLAC",
       "action": "STRONG_BUY",
       "price": 2312.09,
       "take_profit": 2464.69,
-      "stop_loss": 2242.73,
+      "stop_loss": 2350.2400000000002,
       "upside_pct": 6.6,
       "confidence": 0.77,
       "score": 0.4816,
@@ -140,7 +153,12 @@
       "top_news_url": null,
       "status": "open",
       "issued_at": "2026-06-11T14:52:46.054565",
-      "last_seen": "2026-06-12T08:51:39.309319"
+      "last_seen": "2026-06-12T08:51:39.309319",
+      "current_price": 2410.26,
+      "current_price_time": "2026-06-12T10:09:26.516368+00:00",
+      "pnl_pct_live": 4.25,
+      "trail_level": 2,
+      "progression_pct": 64.3
     },
     {
       "ticker": "CTAS",
@@ -170,7 +188,11 @@
       "top_news_url": null,
       "status": "open",
       "issued_at": "2026-06-11T14:52:46.054568",
-      "last_seen": "2026-06-12T08:51:39.309319"
+      "last_seen": "2026-06-12T08:51:39.309319",
+      "current_price": 181.87,
+      "current_price_time": "2026-06-12T10:09:26.516368+00:00",
+      "pnl_pct_live": -0.16,
+      "progression_pct": -7.9
     },
     {
       "ticker": "ADBE",
@@ -200,7 +222,11 @@
       "top_news_url": null,
       "status": "open",
       "issued_at": "2026-06-11T14:52:46.054561",
-      "last_seen": "2026-06-12T08:51:39.309319"
+      "last_seen": "2026-06-12T08:51:39.309319",
+      "current_price": 218.37,
+      "current_price_time": "2026-06-12T10:09:26.516368+00:00",
+      "pnl_pct_live": 1.42,
+      "progression_pct": 21.5
     },
     {
       "ticker": "DKNG",
