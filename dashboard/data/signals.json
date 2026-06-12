@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-06-12T16:23:13.643352+00:00",
+  "generated_at": "2026-06-12T17:26:07.892866+00:00",
   "date": "2026-06-12",
   "stats": {
     "total": 1,
@@ -195,10 +195,10 @@
       "status": "open",
       "issued_at": "2026-06-12T14:29:02.384487",
       "last_seen": "2026-06-12T14:29:02.385064",
-      "current_price": 177.45,
-      "current_price_time": "2026-06-12T16:23:13.643352+00:00",
-      "pnl_pct_live": -0.58,
-      "progression_pct": -19.3
+      "current_price": 177.17,
+      "current_price_time": "2026-06-12T17:26:07.892866+00:00",
+      "pnl_pct_live": -0.42,
+      "progression_pct": -14.0
     },
     {
       "ticker": "DKNG",
