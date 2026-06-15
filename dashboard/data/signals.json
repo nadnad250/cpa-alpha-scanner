@@ -1,21 +1,21 @@
 {
-  "generated_at": "2026-06-15T20:35:50.617553",
+  "generated_at": "2026-06-15T21:19:53.408849+00:00",
   "date": "2026-06-15",
   "stats": {
-    "total": 9,
-    "buy_signals": 7,
-    "sell_signals": 2,
+    "total": 0,
+    "buy_signals": 0,
+    "sell_signals": 0,
     "avg_confidence": 0.794,
     "avg_rr": 2.2,
-    "win_rate": 0.36,
-    "active_positions": 9,
-    "daily_pnl": -0.3786
+    "win_rate": 0.373,
+    "active_positions": 0,
+    "daily_pnl": -0.3638
   },
   "eod": {
-    "tp_hit": 18,
-    "sl_hit": 32,
-    "open": 9,
-    "cumulative_pnl": -0.3786
+    "tp_hit": 22,
+    "sl_hit": 37,
+    "open": 0,
+    "cumulative_pnl": -0.3638
   },
   "signals": [
     {
@@ -44,9 +44,15 @@
       "news_score": null,
       "top_news_title": null,
       "top_news_url": null,
-      "status": "open",
+      "status": "expired",
       "issued_at": "2026-06-15T09:39:15.009057",
-      "last_seen": "2026-06-15T20:35:50.617553"
+      "last_seen": "2026-06-15T20:35:50.617553",
+      "current_price": 140.89,
+      "current_price_time": "2026-06-15T21:19:53.408849+00:00",
+      "exit_price": 140.89,
+      "exit_date": "2026-06-15T21:19:53.408849+00:00",
+      "pnl_pct": -1.94,
+      "pnl_pct_live": -1.94
     },
     {
       "ticker": "AMAT",
@@ -74,9 +80,15 @@
       "news_score": null,
       "top_news_title": null,
       "top_news_url": null,
-      "status": "open",
+      "status": "expired",
       "issued_at": "2026-06-12T08:51:39.308841",
-      "last_seen": "2026-06-15T20:35:50.617553"
+      "last_seen": "2026-06-15T20:35:50.617553",
+      "current_price": 585.5,
+      "current_price_time": "2026-06-15T21:19:53.408849+00:00",
+      "exit_price": 585.5,
+      "exit_date": "2026-06-15T21:19:53.408849+00:00",
+      "pnl_pct": 5.97,
+      "pnl_pct_live": 5.97
     },
     {
       "ticker": "AFRM",
@@ -104,9 +116,15 @@
       "news_score": null,
       "top_news_title": null,
       "top_news_url": null,
-      "status": "open",
+      "status": "expired",
       "issued_at": "2026-06-15T15:33:51.524073",
-      "last_seen": "2026-06-15T20:35:50.617553"
+      "last_seen": "2026-06-15T20:35:50.617553",
+      "current_price": 71.91,
+      "current_price_time": "2026-06-15T21:19:53.408849+00:00",
+      "exit_price": 71.91,
+      "exit_date": "2026-06-15T21:19:53.408849+00:00",
+      "pnl_pct": -1.25,
+      "pnl_pct_live": -1.25
     },
     {
       "ticker": "KLAC",
@@ -134,9 +152,15 @@
       "news_score": null,
       "top_news_title": null,
       "top_news_url": null,
-      "status": "open",
+      "status": "expired",
       "issued_at": "2026-06-12T17:27:50.661547",
-      "last_seen": "2026-06-15T20:35:50.617553"
+      "last_seen": "2026-06-15T20:35:50.617553",
+      "current_price": 256.36,
+      "current_price_time": "2026-06-15T21:19:53.408849+00:00",
+      "exit_price": 256.36,
+      "exit_date": "2026-06-15T21:19:53.408849+00:00",
+      "pnl_pct": 2.4,
+      "pnl_pct_live": 2.4
     },
     {
       "ticker": "HON",
@@ -164,9 +188,15 @@
       "news_score": null,
       "top_news_title": null,
       "top_news_url": null,
-      "status": "open",
+      "status": "expired",
       "issued_at": "2026-06-15T15:33:51.524093",
-      "last_seen": "2026-06-15T20:35:50.617553"
+      "last_seen": "2026-06-15T20:35:50.617553",
+      "current_price": 227.52,
+      "current_price_time": "2026-06-15T21:19:53.408849+00:00",
+      "exit_price": 227.52,
+      "exit_date": "2026-06-15T21:19:53.408849+00:00",
+      "pnl_pct": -0.85,
+      "pnl_pct_live": -0.85
     },
     {
       "ticker": "ABNB",
@@ -194,9 +224,15 @@
       "news_score": null,
       "top_news_title": null,
       "top_news_url": null,
-      "status": "open",
+      "status": "expired",
       "issued_at": "2026-06-15T16:39:37.081639",
-      "last_seen": "2026-06-15T20:35:50.617553"
+      "last_seen": "2026-06-15T20:35:50.617553",
+      "current_price": 138.95,
+      "current_price_time": "2026-06-15T21:19:53.408849+00:00",
+      "exit_price": 138.95,
+      "exit_date": "2026-06-15T21:19:53.408849+00:00",
+      "pnl_pct": 0.26,
+      "pnl_pct_live": 0.26
     },
     {
       "ticker": "TTD",
@@ -224,9 +260,15 @@
       "news_score": null,
       "top_news_title": null,
       "top_news_url": null,
-      "status": "open",
+      "status": "expired",
       "issued_at": "2026-06-12T17:27:50.661551",
-      "last_seen": "2026-06-15T20:35:50.617553"
+      "last_seen": "2026-06-15T20:35:50.617553",
+      "current_price": 19.28,
+      "current_price_time": "2026-06-15T21:19:53.408849+00:00",
+      "exit_price": 19.28,
+      "exit_date": "2026-06-15T21:19:53.408849+00:00",
+      "pnl_pct": -2.63,
+      "pnl_pct_live": -2.63
     },
     {
       "ticker": "KLAC",
@@ -254,9 +296,15 @@
       "news_score": null,
       "top_news_title": null,
       "top_news_url": null,
-      "status": "open",
+      "status": "expired",
       "issued_at": "2026-06-15T15:33:51.524086",
-      "last_seen": "2026-06-15T20:35:50.617553"
+      "last_seen": "2026-06-15T20:35:50.617553",
+      "current_price": 256.36,
+      "current_price_time": "2026-06-15T21:19:53.408849+00:00",
+      "exit_price": 256.36,
+      "exit_date": "2026-06-15T21:19:53.408849+00:00",
+      "pnl_pct": -1.43,
+      "pnl_pct_live": -1.43
     },
     {
       "ticker": "CTAS",
@@ -284,9 +332,15 @@
       "news_score": null,
       "top_news_title": null,
       "top_news_url": null,
-      "status": "open",
+      "status": "expired",
       "issued_at": "2026-06-12T14:29:02.384487",
-      "last_seen": "2026-06-15T20:35:50.617553"
+      "last_seen": "2026-06-15T20:35:50.617553",
+      "current_price": 174.76,
+      "current_price_time": "2026-06-15T21:19:53.408849+00:00",
+      "exit_price": 174.76,
+      "exit_date": "2026-06-15T21:19:53.408849+00:00",
+      "pnl_pct": 0.95,
+      "pnl_pct_live": 0.95
     },
     {
       "ticker": "ROKU",
