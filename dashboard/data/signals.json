@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-06-15T11:20:38.020414+00:00",
+  "generated_at": "2026-06-15T13:31:31.177588+00:00",
   "date": "2026-06-15",
   "stats": {
     "total": 1,
@@ -51,10 +51,10 @@
       "status": "open",
       "issued_at": "2026-06-15T09:39:15.009057",
       "last_seen": "2026-06-15T09:39:15.009596",
-      "current_price": 143.68,
-      "current_price_time": "2026-06-15T11:20:38.020414+00:00",
-      "pnl_pct_live": 0.0,
-      "progression_pct": 0.0
+      "current_price": 145.09,
+      "current_price_time": "2026-06-15T13:31:31.177588+00:00",
+      "pnl_pct_live": 0.98,
+      "progression_pct": 14.9
     },
     {
       "ticker": "AMAT",
