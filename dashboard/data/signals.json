@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-06-16T12:26:11.879025+00:00",
+  "generated_at": "2026-06-16T14:18:00.833796+00:00",
   "date": "2026-06-16",
   "stats": {
     "total": 4,
@@ -95,7 +95,7 @@
       "action": "STRONG_BUY",
       "price": 72.82,
       "take_profit": 77.62,
-      "stop_loss": 70.63,
+      "stop_loss": 72.82,
       "upside_pct": 6.6,
       "confidence": 0.803,
       "score": 0.5602,
@@ -119,10 +119,11 @@
       "status": "open",
       "issued_at": "2026-06-15T15:33:51.524073",
       "last_seen": "2026-06-16T09:20:04.506153",
-      "current_price": 71.91,
-      "current_price_time": "2026-06-16T12:26:11.879025+00:00",
-      "pnl_pct_live": -1.25,
-      "progression_pct": -41.6
+      "current_price": 74.43,
+      "current_price_time": "2026-06-16T14:18:00.833796+00:00",
+      "pnl_pct_live": 2.21,
+      "progression_pct": 33.5,
+      "trail_level": 1
     },
     {
       "ticker": "HON",
@@ -153,10 +154,10 @@
       "status": "open",
       "issued_at": "2026-06-15T15:33:51.524093",
       "last_seen": "2026-06-16T09:20:04.506153",
-      "current_price": 227.52,
-      "current_price_time": "2026-06-16T12:26:11.879025+00:00",
-      "pnl_pct_live": -0.85,
-      "progression_pct": -44.2
+      "current_price": 231.23,
+      "current_price_time": "2026-06-16T14:18:00.833796+00:00",
+      "pnl_pct_live": 0.76,
+      "progression_pct": 17.9
     },
     {
       "ticker": "ABNB",
@@ -187,10 +188,10 @@
       "status": "open",
       "issued_at": "2026-06-15T16:39:37.081639",
       "last_seen": "2026-06-16T09:20:04.506153",
-      "current_price": 138.95,
-      "current_price_time": "2026-06-16T12:26:11.879025+00:00",
-      "pnl_pct_live": 0.26,
-      "progression_pct": 3.9
+      "current_price": 140.43,
+      "current_price_time": "2026-06-16T14:18:00.833796+00:00",
+      "pnl_pct_live": 1.33,
+      "progression_pct": 20.1
     },
     {
       "ticker": "KLAC",
@@ -221,10 +222,10 @@
       "status": "open",
       "issued_at": "2026-06-15T15:33:51.524086",
       "last_seen": "2026-06-16T09:20:04.506153",
-      "current_price": 256.36,
-      "current_price_time": "2026-06-16T12:26:11.879025+00:00",
-      "pnl_pct_live": -1.43,
-      "progression_pct": -47.8
+      "current_price": 252.17,
+      "current_price_time": "2026-06-16T14:18:00.833796+00:00",
+      "pnl_pct_live": 0.23,
+      "progression_pct": 3.4
     },
     {
       "ticker": "ROKU",
