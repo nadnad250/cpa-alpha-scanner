@@ -1,21 +1,21 @@
 {
-  "generated_at": "2026-06-16T19:08:41.370118",
+  "generated_at": "2026-06-16T19:14:51.172891+00:00",
   "date": "2026-06-16",
   "stats": {
-    "total": 10,
-    "buy_signals": 8,
-    "sell_signals": 2,
+    "total": 4,
+    "buy_signals": 3,
+    "sell_signals": 1,
     "avg_confidence": 0.8,
     "avg_rr": 2.2,
-    "win_rate": 0.4,
-    "active_positions": 10,
-    "daily_pnl": -0.3838
+    "win_rate": 0.429,
+    "active_positions": 4,
+    "daily_pnl": -0.4106
   },
   "eod": {
-    "tp_hit": 20,
-    "sl_hit": 30,
-    "open": 10,
-    "cumulative_pnl": -0.3838
+    "tp_hit": 24,
+    "sl_hit": 32,
+    "open": 4,
+    "cumulative_pnl": -0.4106
   },
   "signals": [
     {
@@ -44,9 +44,15 @@
       "news_score": null,
       "top_news_title": null,
       "top_news_url": null,
-      "status": "open",
+      "status": "expired",
       "issued_at": "2026-06-15T09:39:15.009057",
-      "last_seen": "2026-06-16T18:11:18.789725"
+      "last_seen": "2026-06-16T18:11:18.789725",
+      "current_price": 139.42,
+      "current_price_time": "2026-06-16T19:14:51.172891+00:00",
+      "exit_price": 139.42,
+      "exit_date": "2026-06-16T19:14:51.172891+00:00",
+      "pnl_pct": -2.96,
+      "pnl_pct_live": -2.96
     },
     {
       "ticker": "KLAC",
@@ -74,9 +80,15 @@
       "news_score": null,
       "top_news_title": null,
       "top_news_url": null,
-      "status": "open",
+      "status": "expired",
       "issued_at": "2026-06-15T09:39:15.009069",
-      "last_seen": "2026-06-16T18:11:18.789725"
+      "last_seen": "2026-06-16T18:11:18.789725",
+      "current_price": 238.91,
+      "current_price_time": "2026-06-16T19:14:51.172891+00:00",
+      "exit_price": 238.91,
+      "exit_date": "2026-06-16T19:14:51.172891+00:00",
+      "pnl_pct": -6.14,
+      "pnl_pct_live": -6.14
     },
     {
       "ticker": "AFRM",
@@ -104,9 +116,15 @@
       "news_score": null,
       "top_news_title": null,
       "top_news_url": null,
-      "status": "open",
+      "status": "expired",
       "issued_at": "2026-06-15T15:33:51.524073",
-      "last_seen": "2026-06-16T18:11:18.789725"
+      "last_seen": "2026-06-16T18:11:18.789725",
+      "current_price": 75.36,
+      "current_price_time": "2026-06-16T19:14:51.172891+00:00",
+      "exit_price": 75.36,
+      "exit_date": "2026-06-16T19:14:51.172891+00:00",
+      "pnl_pct": 3.49,
+      "pnl_pct_live": 3.49
     },
     {
       "ticker": "HON",
@@ -134,9 +152,15 @@
       "news_score": null,
       "top_news_title": null,
       "top_news_url": null,
-      "status": "open",
+      "status": "expired",
       "issued_at": "2026-06-15T15:33:51.524093",
-      "last_seen": "2026-06-16T18:11:18.789725"
+      "last_seen": "2026-06-16T18:11:18.789725",
+      "current_price": 230.28,
+      "current_price_time": "2026-06-16T19:14:51.172891+00:00",
+      "exit_price": 230.28,
+      "exit_date": "2026-06-16T19:14:51.172891+00:00",
+      "pnl_pct": 0.35,
+      "pnl_pct_live": 0.35
     },
     {
       "ticker": "PYPL",
@@ -171,10 +195,10 @@
       "status": "open",
       "issued_at": "2026-06-16T16:34:48.686671",
       "last_seen": "2026-06-16T16:34:48.687420",
-      "current_price": 43.31,
-      "current_price_time": "2026-06-16T17:55:46.478474+00:00",
-      "pnl_pct_live": -0.16,
-      "progression_pct": -8.7
+      "current_price": 43.72,
+      "current_price_time": "2026-06-16T19:14:51.172891+00:00",
+      "pnl_pct_live": 0.78,
+      "progression_pct": 19.3
     },
     {
       "ticker": "ABNB",
@@ -202,9 +226,15 @@
       "news_score": null,
       "top_news_title": null,
       "top_news_url": null,
-      "status": "open",
+      "status": "expired",
       "issued_at": "2026-06-15T16:39:37.081639",
-      "last_seen": "2026-06-16T18:11:18.789725"
+      "last_seen": "2026-06-16T18:11:18.789725",
+      "current_price": 141.27,
+      "current_price_time": "2026-06-16T19:14:51.172891+00:00",
+      "exit_price": 141.27,
+      "exit_date": "2026-06-16T19:14:51.172891+00:00",
+      "pnl_pct": 1.93,
+      "pnl_pct_live": 1.93
     },
     {
       "ticker": "MRNA",
@@ -239,11 +269,11 @@
       "status": "open",
       "issued_at": "2026-06-16T16:34:48.686681",
       "last_seen": "2026-06-16T16:34:48.687420",
-      "current_price": 57.22,
-      "current_price_time": "2026-06-16T17:55:46.478474+00:00",
-      "pnl_pct_live": 3.6,
+      "current_price": 56.68,
+      "current_price_time": "2026-06-16T19:14:51.172891+00:00",
+      "pnl_pct_live": 2.63,
       "trail_level": 1,
-      "progression_pct": 54.5
+      "progression_pct": 39.7
     },
     {
       "ticker": "MAR",
@@ -278,10 +308,10 @@
       "status": "open",
       "issued_at": "2026-06-16T15:22:43.087839",
       "last_seen": "2026-06-16T15:22:43.088368",
-      "current_price": 398.02,
-      "current_price_time": "2026-06-16T17:55:46.478474+00:00",
-      "pnl_pct_live": 0.27,
-      "progression_pct": 6.9
+      "current_price": 398.94,
+      "current_price_time": "2026-06-16T19:14:51.172891+00:00",
+      "pnl_pct_live": 0.5,
+      "progression_pct": 12.8
     },
     {
       "ticker": "KLAC",
@@ -313,9 +343,15 @@
       "news_score": null,
       "top_news_title": null,
       "top_news_url": null,
-      "status": "open",
+      "status": "expired",
       "issued_at": "2026-06-15T15:33:51.524086",
-      "last_seen": "2026-06-16T19:08:41.370118"
+      "last_seen": "2026-06-16T19:08:41.370118",
+      "current_price": 238.91,
+      "current_price_time": "2026-06-16T19:14:51.172891+00:00",
+      "exit_price": 238.91,
+      "exit_date": "2026-06-16T19:14:51.172891+00:00",
+      "pnl_pct": 0.65,
+      "pnl_pct_live": 0.65
     },
     {
       "ticker": "NFLX",
@@ -350,10 +386,10 @@
       "status": "open",
       "issued_at": "2026-06-16T15:22:43.087854",
       "last_seen": "2026-06-16T15:22:43.088368",
-      "current_price": 77.72,
-      "current_price_time": "2026-06-16T17:55:46.478474+00:00",
-      "pnl_pct_live": 1.69,
-      "progression_pct": 25.7
+      "current_price": 78.25,
+      "current_price_time": "2026-06-16T19:14:51.172891+00:00",
+      "pnl_pct_live": 1.02,
+      "progression_pct": 15.5
     },
     {
       "ticker": "ROKU",
