@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-06-16T18:11:18.789725",
+  "generated_at": "2026-06-16T19:08:41.370118",
   "date": "2026-06-16",
   "stats": {
     "total": 10,
@@ -286,9 +286,9 @@
     {
       "ticker": "KLAC",
       "action": "STRONG_SELL",
-      "price": 242.63,
-      "take_profit": 226.62,
-      "stop_loss": 249.91,
+      "price": 240.48,
+      "take_profit": 224.61,
+      "stop_loss": 247.69,
       "upside_pct": 6.6,
       "confidence": 0.99,
       "score": -1.0,
@@ -305,7 +305,7 @@
         "Gap -0.8%"
       ],
       "risk_flags": [],
-      "intrinsic_value": 226.62,
+      "intrinsic_value": 224.61,
       "value_gap": null,
       "factor_premia": null,
       "mean_reversion": null,
@@ -315,7 +315,7 @@
       "top_news_url": null,
       "status": "open",
       "issued_at": "2026-06-15T15:33:51.524086",
-      "last_seen": "2026-06-16T18:11:18.789725"
+      "last_seen": "2026-06-16T19:08:41.370118"
     },
     {
       "ticker": "NFLX",
