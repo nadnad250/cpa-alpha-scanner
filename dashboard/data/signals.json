@@ -1,21 +1,21 @@
 {
-  "generated_at": "2026-06-17T19:18:18.400150+00:00",
+  "generated_at": "2026-06-17T20:16:13.086086+00:00",
   "date": "2026-06-17",
   "stats": {
-    "total": 5,
-    "buy_signals": 4,
+    "total": 1,
+    "buy_signals": 0,
     "sell_signals": 1,
     "avg_confidence": 0.799,
     "avg_rr": 2.2,
-    "win_rate": 0.455,
-    "active_positions": 5,
-    "daily_pnl": -0.0955
+    "win_rate": 0.441,
+    "active_positions": 1,
+    "daily_pnl": -0.1311
   },
   "eod": {
-    "tp_hit": 25,
-    "sl_hit": 30,
-    "open": 5,
-    "cumulative_pnl": -0.0955
+    "tp_hit": 26,
+    "sl_hit": 33,
+    "open": 1,
+    "cumulative_pnl": -0.1311
   },
   "signals": [
     {
@@ -48,13 +48,16 @@
       "news_score": null,
       "top_news_title": null,
       "top_news_url": null,
-      "status": "open",
+      "status": "expired",
       "issued_at": "2026-06-17T18:44:41.033539",
       "last_seen": "2026-06-17T18:44:41.034160",
-      "current_price": 244.52,
-      "current_price_time": "2026-06-17T19:18:18.400150+00:00",
-      "pnl_pct_live": -0.88,
-      "progression_pct": -60.6
+      "current_price": 238.72,
+      "current_price_time": "2026-06-17T20:16:13.086086+00:00",
+      "pnl_pct_live": -3.23,
+      "progression_pct": -60.6,
+      "exit_price": 238.72,
+      "exit_date": "2026-06-17T20:16:13.086086+00:00",
+      "pnl_pct": -3.23
     },
     {
       "ticker": "MRNA",
@@ -86,14 +89,17 @@
       "news_score": null,
       "top_news_title": null,
       "top_news_url": null,
-      "status": "open",
+      "status": "expired",
       "issued_at": "2026-06-17T17:33:02.606117",
       "last_seen": "2026-06-17T17:33:02.606759",
-      "current_price": 61.44,
-      "current_price_time": "2026-06-17T19:18:18.400150+00:00",
-      "pnl_pct_live": 2.33,
+      "current_price": 61.77,
+      "current_price_time": "2026-06-17T20:16:13.086086+00:00",
+      "pnl_pct_live": 2.88,
       "progression_pct": 35.4,
-      "trail_level": 1
+      "trail_level": 1,
+      "exit_price": 61.77,
+      "exit_date": "2026-06-17T20:16:13.086086+00:00",
+      "pnl_pct": 2.88
     },
     {
       "ticker": "PYPL",
@@ -197,13 +203,16 @@
       "news_score": null,
       "top_news_title": null,
       "top_news_url": null,
-      "status": "open",
+      "status": "expired",
       "issued_at": "2026-06-17T16:19:29.373509",
       "last_seen": "2026-06-17T16:19:29.374148",
-      "current_price": 108.25,
-      "current_price_time": "2026-06-17T19:18:18.400150+00:00",
-      "pnl_pct_live": -0.07,
-      "progression_pct": -2.5
+      "current_price": 105.21,
+      "current_price_time": "2026-06-17T20:16:13.086086+00:00",
+      "pnl_pct_live": -2.88,
+      "progression_pct": -2.5,
+      "exit_price": 105.21,
+      "exit_date": "2026-06-17T20:16:13.086086+00:00",
+      "pnl_pct": -2.88
     },
     {
       "ticker": "MAR",
@@ -271,13 +280,16 @@
       "news_score": null,
       "top_news_title": null,
       "top_news_url": null,
-      "status": "open",
+      "status": "expired",
       "issued_at": "2026-06-17T14:39:05.878942",
       "last_seen": "2026-06-17T14:39:05.879373",
-      "current_price": 203.0,
-      "current_price_time": "2026-06-17T19:18:18.400150+00:00",
-      "pnl_pct_live": -0.35,
-      "progression_pct": -59.0
+      "current_price": 203.05,
+      "current_price_time": "2026-06-17T20:16:13.086086+00:00",
+      "pnl_pct_live": -0.33,
+      "progression_pct": -59.0,
+      "exit_price": 203.05,
+      "exit_date": "2026-06-17T20:16:13.086086+00:00",
+      "pnl_pct": -0.33
     },
     {
       "ticker": "KLAC",
@@ -344,10 +356,10 @@
       "status": "open",
       "issued_at": "2026-06-16T20:28:27.977211",
       "last_seen": "2026-06-17T18:44:41.034160",
-      "current_price": 137.96,
-      "current_price_time": "2026-06-17T19:18:18.400150+00:00",
-      "pnl_pct_live": -0.01,
-      "progression_pct": -0.8
+      "current_price": 137.29,
+      "current_price_time": "2026-06-17T20:16:13.086086+00:00",
+      "pnl_pct_live": 0.47,
+      "progression_pct": 11.3
     },
     {
       "ticker": "NFLX",
