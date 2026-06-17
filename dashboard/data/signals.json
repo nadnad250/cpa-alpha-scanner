@@ -1,21 +1,21 @@
 {
-  "generated_at": "2026-06-17T20:17:30.615704",
+  "generated_at": "2026-06-17T21:15:25.847479+00:00",
   "date": "2026-06-17",
   "stats": {
-    "total": 10,
-    "buy_signals": 7,
-    "sell_signals": 3,
+    "total": 0,
+    "buy_signals": 0,
+    "sell_signals": 0,
     "avg_confidence": 0.767,
     "avg_rr": 2.2,
-    "win_rate": 0.44,
-    "active_positions": 10,
-    "daily_pnl": -0.0589
+    "win_rate": 0.4,
+    "active_positions": 0,
+    "daily_pnl": -0.0139
   },
   "eod": {
-    "tp_hit": 22,
-    "sl_hit": 28,
-    "open": 10,
-    "cumulative_pnl": -0.0589
+    "tp_hit": 24,
+    "sl_hit": 36,
+    "open": 0,
+    "cumulative_pnl": -0.0139
   },
   "signals": [
     {
@@ -44,9 +44,15 @@
       "news_score": null,
       "top_news_title": null,
       "top_news_url": null,
-      "status": "open",
+      "status": "expired",
       "issued_at": "2026-06-17T18:44:41.033539",
-      "last_seen": "2026-06-17T20:17:30.615704"
+      "last_seen": "2026-06-17T20:17:30.615704",
+      "current_price": 238.72,
+      "current_price_time": "2026-06-17T21:15:25.847479+00:00",
+      "exit_price": 238.72,
+      "exit_date": "2026-06-17T21:15:25.847479+00:00",
+      "pnl_pct": -3.23,
+      "pnl_pct_live": -3.23
     },
     {
       "ticker": "MRNA",
@@ -78,9 +84,15 @@
       "news_score": null,
       "top_news_title": null,
       "top_news_url": null,
-      "status": "open",
+      "status": "expired",
       "issued_at": "2026-06-17T17:33:02.606117",
-      "last_seen": "2026-06-17T20:17:30.615704"
+      "last_seen": "2026-06-17T20:17:30.615704",
+      "current_price": 61.77,
+      "current_price_time": "2026-06-17T21:15:25.847479+00:00",
+      "exit_price": 61.77,
+      "exit_date": "2026-06-17T21:15:25.847479+00:00",
+      "pnl_pct": 0.0,
+      "pnl_pct_live": 0.0
     },
     {
       "ticker": "PYPL",
@@ -108,9 +120,15 @@
       "news_score": null,
       "top_news_title": null,
       "top_news_url": null,
-      "status": "open",
+      "status": "expired",
       "issued_at": "2026-06-16T16:34:48.686671",
-      "last_seen": "2026-06-17T20:17:30.615704"
+      "last_seen": "2026-06-17T20:17:30.615704",
+      "current_price": 42.09,
+      "current_price_time": "2026-06-17T21:15:25.847479+00:00",
+      "exit_price": 42.09,
+      "exit_date": "2026-06-17T21:15:25.847479+00:00",
+      "pnl_pct": -2.97,
+      "pnl_pct_live": -2.97
     },
     {
       "ticker": "MRNA",
@@ -138,9 +156,15 @@
       "news_score": null,
       "top_news_title": null,
       "top_news_url": null,
-      "status": "open",
+      "status": "expired",
       "issued_at": "2026-06-16T16:34:48.686681",
-      "last_seen": "2026-06-17T20:17:30.615704"
+      "last_seen": "2026-06-17T20:17:30.615704",
+      "current_price": 61.77,
+      "current_price_time": "2026-06-17T21:15:25.847479+00:00",
+      "exit_price": 61.77,
+      "exit_date": "2026-06-17T21:15:25.847479+00:00",
+      "pnl_pct": 11.84,
+      "pnl_pct_live": 11.84
     },
     {
       "ticker": "HOOD",
@@ -168,9 +192,15 @@
       "news_score": null,
       "top_news_title": null,
       "top_news_url": null,
-      "status": "open",
+      "status": "expired",
       "issued_at": "2026-06-17T16:19:29.373509",
-      "last_seen": "2026-06-17T20:17:30.615704"
+      "last_seen": "2026-06-17T20:17:30.615704",
+      "current_price": 105.21,
+      "current_price_time": "2026-06-17T21:15:25.847479+00:00",
+      "exit_price": 105.21,
+      "exit_date": "2026-06-17T21:15:25.847479+00:00",
+      "pnl_pct": -2.88,
+      "pnl_pct_live": -2.88
     },
     {
       "ticker": "MAR",
@@ -198,9 +228,15 @@
       "news_score": null,
       "top_news_title": null,
       "top_news_url": null,
-      "status": "open",
+      "status": "expired",
       "issued_at": "2026-06-16T15:22:43.087839",
-      "last_seen": "2026-06-17T20:17:30.615704"
+      "last_seen": "2026-06-17T20:17:30.615704",
+      "current_price": 394.55,
+      "current_price_time": "2026-06-17T21:15:25.847479+00:00",
+      "exit_price": 394.55,
+      "exit_date": "2026-06-17T21:15:25.847479+00:00",
+      "pnl_pct": -0.6,
+      "pnl_pct_live": -0.6
     },
     {
       "ticker": "EA",
@@ -228,9 +264,15 @@
       "news_score": null,
       "top_news_title": null,
       "top_news_url": null,
-      "status": "open",
+      "status": "expired",
       "issued_at": "2026-06-17T14:39:05.878942",
-      "last_seen": "2026-06-17T20:17:30.615704"
+      "last_seen": "2026-06-17T20:17:30.615704",
+      "current_price": 203.05,
+      "current_price_time": "2026-06-17T21:15:25.847479+00:00",
+      "exit_price": 203.05,
+      "exit_date": "2026-06-17T21:15:25.847479+00:00",
+      "pnl_pct": -0.33,
+      "pnl_pct_live": -0.33
     },
     {
       "ticker": "KLAC",
@@ -262,9 +304,15 @@
       "news_score": null,
       "top_news_title": null,
       "top_news_url": null,
-      "status": "open",
+      "status": "expired",
       "issued_at": "2026-06-16T16:34:48.686632",
-      "last_seen": "2026-06-17T20:17:30.615704"
+      "last_seen": "2026-06-17T20:17:30.615704",
+      "current_price": 238.72,
+      "current_price_time": "2026-06-17T21:15:25.847479+00:00",
+      "exit_price": 238.72,
+      "exit_date": "2026-06-17T21:15:25.847479+00:00",
+      "pnl_pct": 0.0,
+      "pnl_pct_live": 0.0
     },
     {
       "ticker": "ROKU",
@@ -296,9 +344,15 @@
       "news_score": null,
       "top_news_title": null,
       "top_news_url": null,
-      "status": "open",
+      "status": "expired",
       "issued_at": "2026-06-16T20:28:27.977211",
-      "last_seen": "2026-06-17T20:17:30.615704"
+      "last_seen": "2026-06-17T20:17:30.615704",
+      "current_price": 137.29,
+      "current_price_time": "2026-06-17T21:15:25.847479+00:00",
+      "exit_price": 137.29,
+      "exit_date": "2026-06-17T21:15:25.847479+00:00",
+      "pnl_pct": 0.0,
+      "pnl_pct_live": 0.0
     },
     {
       "ticker": "NFLX",
@@ -326,9 +380,15 @@
       "news_score": null,
       "top_news_title": null,
       "top_news_url": null,
-      "status": "open",
+      "status": "expired",
       "issued_at": "2026-06-16T15:22:43.087854",
-      "last_seen": "2026-06-17T20:17:30.615704"
+      "last_seen": "2026-06-17T20:17:30.615704",
+      "current_price": 76.95,
+      "current_price_time": "2026-06-17T21:15:25.847479+00:00",
+      "exit_price": 76.95,
+      "exit_date": "2026-06-17T21:15:25.847479+00:00",
+      "pnl_pct": 2.67,
+      "pnl_pct_live": 2.67
     },
     {
       "ticker": "ROKU",
