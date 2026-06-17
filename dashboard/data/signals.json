@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-06-17T14:39:05.879373",
+  "generated_at": "2026-06-17T14:41:49.025232+00:00",
   "date": "2026-06-17",
   "stats": {
     "total": 1,
@@ -50,7 +50,11 @@
       "top_news_url": null,
       "status": "open",
       "issued_at": "2026-06-17T14:39:05.878942",
-      "last_seen": "2026-06-17T14:39:05.879373"
+      "last_seen": "2026-06-17T14:39:05.879373",
+      "current_price": 203.7,
+      "current_price_time": "2026-06-17T14:41:49.025232+00:00",
+      "pnl_pct_live": -0.01,
+      "progression_pct": -1.6
     },
     {
       "ticker": "ROKU",
