@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-06-17T09:12:14.220907",
+  "generated_at": "2026-06-17T10:19:47.638510+00:00",
   "date": "2026-06-17",
   "stats": {
     "total": 6,
@@ -46,7 +46,11 @@
       "top_news_url": null,
       "status": "open",
       "issued_at": "2026-06-16T16:34:48.686671",
-      "last_seen": "2026-06-17T09:12:14.220907"
+      "last_seen": "2026-06-17T09:12:14.220907",
+      "current_price": 43.67,
+      "current_price_time": "2026-06-17T10:19:47.638510+00:00",
+      "pnl_pct_live": 0.67,
+      "progression_pct": 16.5
     },
     {
       "ticker": "MRNA",
@@ -76,7 +80,11 @@
       "top_news_url": null,
       "status": "open",
       "issued_at": "2026-06-16T16:34:48.686681",
-      "last_seen": "2026-06-17T09:12:14.220907"
+      "last_seen": "2026-06-17T09:12:14.220907",
+      "current_price": 55.38,
+      "current_price_time": "2026-06-17T10:19:47.638510+00:00",
+      "pnl_pct_live": 0.27,
+      "progression_pct": 4.1
     },
     {
       "ticker": "MAR",
@@ -106,7 +114,11 @@
       "top_news_url": null,
       "status": "open",
       "issued_at": "2026-06-16T15:22:43.087839",
-      "last_seen": "2026-06-17T09:12:14.220907"
+      "last_seen": "2026-06-17T09:12:14.220907",
+      "current_price": 399.09,
+      "current_price_time": "2026-06-17T10:19:47.638510+00:00",
+      "pnl_pct_live": 0.54,
+      "progression_pct": 13.7
     },
     {
       "ticker": "KLAC",
@@ -140,7 +152,11 @@
       "top_news_url": null,
       "status": "open",
       "issued_at": "2026-06-16T16:34:48.686632",
-      "last_seen": "2026-06-17T09:12:14.220907"
+      "last_seen": "2026-06-17T09:12:14.220907",
+      "current_price": 237.33,
+      "current_price_time": "2026-06-17T10:19:47.638510+00:00",
+      "pnl_pct_live": 0.0,
+      "progression_pct": 0.0
     },
     {
       "ticker": "ROKU",
@@ -174,7 +190,11 @@
       "top_news_url": null,
       "status": "open",
       "issued_at": "2026-06-16T20:28:27.977211",
-      "last_seen": "2026-06-17T09:12:14.220907"
+      "last_seen": "2026-06-17T09:12:14.220907",
+      "current_price": 137.94,
+      "current_price_time": "2026-06-17T10:19:47.638510+00:00",
+      "pnl_pct_live": 0.0,
+      "progression_pct": 0.0
     },
     {
       "ticker": "NFLX",
@@ -208,7 +228,11 @@
       "top_news_url": null,
       "status": "open",
       "issued_at": "2026-06-16T15:22:43.087854",
-      "last_seen": "2026-06-17T09:12:14.220907"
+      "last_seen": "2026-06-17T09:12:14.220907",
+      "current_price": 78.74,
+      "current_price_time": "2026-06-17T10:19:47.638510+00:00",
+      "pnl_pct_live": 0.0,
+      "progression_pct": 0.0
     },
     {
       "ticker": "ROKU",
