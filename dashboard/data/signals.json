@@ -1,21 +1,21 @@
 {
-  "generated_at": "2026-06-18T16:25:08.570276+00:00",
+  "generated_at": "2026-06-18T17:35:38.313520+00:00",
   "date": "2026-06-18",
   "stats": {
-    "total": 5,
-    "buy_signals": 4,
+    "total": 4,
+    "buy_signals": 3,
     "sell_signals": 1,
     "avg_confidence": 0.829,
     "avg_rr": 2.2,
-    "win_rate": 0.385,
-    "active_positions": 5,
-    "daily_pnl": -0.0607
+    "win_rate": 0.396,
+    "active_positions": 4,
+    "daily_pnl": -0.0161
   },
   "eod": {
-    "tp_hit": 20,
+    "tp_hit": 21,
     "sl_hit": 32,
-    "open": 5,
-    "cumulative_pnl": -0.0607
+    "open": 4,
+    "cumulative_pnl": -0.0161
   },
   "signals": [
     {
@@ -51,10 +51,10 @@
       "status": "open",
       "issued_at": "2026-06-18T14:34:36.038784",
       "last_seen": "2026-06-18T14:34:36.039461",
-      "current_price": 52.24,
-      "current_price_time": "2026-06-18T16:25:08.570276+00:00",
-      "pnl_pct_live": 1.42,
-      "progression_pct": 21.5
+      "current_price": 52.13,
+      "current_price_time": "2026-06-18T17:35:38.313520+00:00",
+      "pnl_pct_live": 1.2,
+      "progression_pct": 18.2
     },
     {
       "ticker": "TMUS",
@@ -89,10 +89,10 @@
       "status": "open",
       "issued_at": "2026-06-18T14:34:36.038789",
       "last_seen": "2026-06-18T14:34:36.039461",
-      "current_price": 182.19,
-      "current_price_time": "2026-06-18T16:25:08.570276+00:00",
-      "pnl_pct_live": -0.05,
-      "progression_pct": -4.8
+      "current_price": 181.17,
+      "current_price_time": "2026-06-18T17:35:38.313520+00:00",
+      "pnl_pct_live": -0.61,
+      "progression_pct": -53.8
     },
     {
       "ticker": "MRNA",
@@ -120,14 +120,17 @@
       "news_score": null,
       "top_news_title": null,
       "top_news_url": null,
-      "status": "open",
+      "status": "expired",
       "issued_at": "2026-06-17T17:33:02.606117",
       "last_seen": "2026-06-18T16:12:21.123073",
-      "current_price": 62.6,
-      "current_price_time": "2026-06-18T16:25:08.570276+00:00",
-      "pnl_pct_live": 4.26,
+      "current_price": 62.72,
+      "current_price_time": "2026-06-18T17:35:38.313520+00:00",
+      "pnl_pct_live": 4.46,
       "trail_level": 2,
-      "progression_pct": 64.6
+      "progression_pct": 64.6,
+      "exit_price": 62.72,
+      "exit_date": "2026-06-18T17:35:38.313520+00:00",
+      "pnl_pct": 4.46
     },
     {
       "ticker": "AMZN",
@@ -162,10 +165,10 @@
       "status": "open",
       "issued_at": "2026-06-18T16:12:21.122359",
       "last_seen": "2026-06-18T16:12:21.123073",
-      "current_price": 243.36,
-      "current_price_time": "2026-06-18T16:25:08.570276+00:00",
-      "pnl_pct_live": 0.15,
-      "progression_pct": 2.8
+      "current_price": 245.48,
+      "current_price_time": "2026-06-18T17:35:38.313520+00:00",
+      "pnl_pct_live": 1.02,
+      "progression_pct": 19.0
     },
     {
       "ticker": "EA",
@@ -236,10 +239,10 @@
       "status": "open",
       "issued_at": "2026-06-18T14:34:36.038772",
       "last_seen": "2026-06-18T14:34:36.039461",
-      "current_price": 58.58,
-      "current_price_time": "2026-06-18T16:25:08.570276+00:00",
-      "pnl_pct_live": -0.26,
-      "progression_pct": -9.9
+      "current_price": 58.62,
+      "current_price_time": "2026-06-18T17:35:38.313520+00:00",
+      "pnl_pct_live": -0.33,
+      "progression_pct": -12.6
     },
     {
       "ticker": "KLAC",
