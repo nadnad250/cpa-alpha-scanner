@@ -1,21 +1,21 @@
 {
-  "generated_at": "2026-06-19T09:13:35.106339",
+  "generated_at": "2026-06-19T10:32:37.700074+00:00",
   "date": "2026-06-19",
   "stats": {
-    "total": 9,
+    "total": 8,
     "buy_signals": 5,
-    "sell_signals": 4,
+    "sell_signals": 3,
     "avg_confidence": 0.828,
     "avg_rr": 2.2,
-    "win_rate": 0.4,
-    "active_positions": 9,
-    "daily_pnl": -0.0621
+    "win_rate": 0.392,
+    "active_positions": 8,
+    "daily_pnl": -0.0683
   },
   "eod": {
     "tp_hit": 20,
-    "sl_hit": 30,
-    "open": 9,
-    "cumulative_pnl": -0.0621
+    "sl_hit": 31,
+    "open": 8,
+    "cumulative_pnl": -0.0683
   },
   "signals": [
     {
@@ -50,7 +50,11 @@
       "top_news_url": null,
       "status": "open",
       "issued_at": "2026-06-18T18:46:39.623443",
-      "last_seen": "2026-06-19T09:13:35.106339"
+      "last_seen": "2026-06-19T09:13:35.106339",
+      "current_price": 259.01,
+      "current_price_time": "2026-06-19T10:32:37.700074+00:00",
+      "pnl_pct_live": 0.0,
+      "progression_pct": 0.0
     },
     {
       "ticker": "RBLX",
@@ -80,7 +84,11 @@
       "top_news_url": null,
       "status": "open",
       "issued_at": "2026-06-18T14:34:36.038784",
-      "last_seen": "2026-06-19T09:13:35.106339"
+      "last_seen": "2026-06-19T09:13:35.106339",
+      "current_price": 51.57,
+      "current_price_time": "2026-06-19T10:32:37.700074+00:00",
+      "pnl_pct_live": 0.12,
+      "progression_pct": 1.8
     },
     {
       "ticker": "TMUS",
@@ -110,7 +118,11 @@
       "top_news_url": null,
       "status": "open",
       "issued_at": "2026-06-18T14:34:36.038789",
-      "last_seen": "2026-06-19T09:13:35.106339"
+      "last_seen": "2026-06-19T09:13:35.106339",
+      "current_price": 181.63,
+      "current_price_time": "2026-06-19T10:32:37.700074+00:00",
+      "pnl_pct_live": -0.36,
+      "progression_pct": -31.7
     },
     {
       "ticker": "VRSK",
@@ -140,7 +152,11 @@
       "top_news_url": null,
       "status": "open",
       "issued_at": "2026-06-18T17:37:03.310999",
-      "last_seen": "2026-06-19T09:13:35.106339"
+      "last_seen": "2026-06-19T09:13:35.106339",
+      "current_price": 173.71,
+      "current_price_time": "2026-06-19T10:32:37.700074+00:00",
+      "pnl_pct_live": -1.68,
+      "progression_pct": -61.3
     },
     {
       "ticker": "AMZN",
@@ -170,7 +186,11 @@
       "top_news_url": null,
       "status": "open",
       "issued_at": "2026-06-18T16:12:21.122359",
-      "last_seen": "2026-06-19T09:13:35.106339"
+      "last_seen": "2026-06-19T09:13:35.106339",
+      "current_price": 244.35,
+      "current_price_time": "2026-06-19T10:32:37.700074+00:00",
+      "pnl_pct_live": 0.56,
+      "progression_pct": 10.4
     },
     {
       "ticker": "CHTR",
@@ -204,7 +224,11 @@
       "top_news_url": null,
       "status": "open",
       "issued_at": "2026-06-18T20:18:53.699759",
-      "last_seen": "2026-06-19T09:13:35.106339"
+      "last_seen": "2026-06-19T09:13:35.106339",
+      "current_price": 126.23,
+      "current_price_time": "2026-06-19T10:32:37.700074+00:00",
+      "pnl_pct_live": 0.0,
+      "progression_pct": 0.0
     },
     {
       "ticker": "EA",
@@ -238,7 +262,11 @@
       "top_news_url": null,
       "status": "open",
       "issued_at": "2026-06-18T20:18:53.699775",
-      "last_seen": "2026-06-19T09:13:35.106339"
+      "last_seen": "2026-06-19T09:13:35.106339",
+      "current_price": 202.18,
+      "current_price_time": "2026-06-19T10:32:37.700074+00:00",
+      "pnl_pct_live": 0.0,
+      "progression_pct": 0.0
     },
     {
       "ticker": "BKR",
@@ -272,7 +300,11 @@
       "top_news_url": null,
       "status": "open",
       "issued_at": "2026-06-18T14:34:36.038772",
-      "last_seen": "2026-06-19T09:13:35.106339"
+      "last_seen": "2026-06-19T09:13:35.106339",
+      "current_price": 58.4,
+      "current_price_time": "2026-06-19T10:32:37.700074+00:00",
+      "pnl_pct_live": 0.0,
+      "progression_pct": 0.0
     },
     {
       "ticker": "ROKU",
@@ -300,9 +332,15 @@
       "news_score": null,
       "top_news_title": null,
       "top_news_url": null,
-      "status": "open",
+      "status": "expired",
       "issued_at": "2026-06-18T09:03:19.795057",
-      "last_seen": "2026-06-19T09:13:35.106339"
+      "last_seen": "2026-06-19T09:13:35.106339",
+      "current_price": 138.14,
+      "current_price_time": "2026-06-19T10:32:37.700074+00:00",
+      "exit_price": 138.14,
+      "exit_date": "2026-06-19T10:32:37.700074+00:00",
+      "pnl_pct": -0.62,
+      "pnl_pct_live": -0.62
     },
     {
       "ticker": "ROKU",
