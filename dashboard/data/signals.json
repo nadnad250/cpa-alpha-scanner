@@ -1,21 +1,21 @@
 {
-  "generated_at": "2026-06-19T14:31:31.308467",
+  "generated_at": "2026-06-19T15:42:22.670845+00:00",
   "date": "2026-06-19",
   "stats": {
-    "total": 5,
+    "total": 3,
     "buy_signals": 1,
-    "sell_signals": 4,
+    "sell_signals": 2,
     "avg_confidence": 0.815,
     "avg_rr": 2.2,
-    "win_rate": 0.4,
-    "active_positions": 5,
-    "daily_pnl": -0.06
+    "win_rate": 0.385,
+    "active_positions": 3,
+    "daily_pnl": -0.0662
   },
   "eod": {
     "tp_hit": 20,
-    "sl_hit": 30,
-    "open": 5,
-    "cumulative_pnl": -0.06
+    "sl_hit": 32,
+    "open": 3,
+    "cumulative_pnl": -0.0662
   },
   "signals": [
     {
@@ -50,7 +50,11 @@
       "top_news_url": null,
       "status": "open",
       "issued_at": "2026-06-18T18:46:39.623443",
-      "last_seen": "2026-06-19T14:31:31.308467"
+      "last_seen": "2026-06-19T14:31:31.308467",
+      "current_price": 259.01,
+      "current_price_time": "2026-06-19T15:42:22.670845+00:00",
+      "pnl_pct_live": 0.0,
+      "progression_pct": 0.0
     },
     {
       "ticker": "CHTR",
@@ -84,7 +88,11 @@
       "top_news_url": null,
       "status": "open",
       "issued_at": "2026-06-18T20:18:53.699759",
-      "last_seen": "2026-06-19T14:31:31.308467"
+      "last_seen": "2026-06-19T14:31:31.308467",
+      "current_price": 126.23,
+      "current_price_time": "2026-06-19T15:42:22.670845+00:00",
+      "pnl_pct_live": 0.0,
+      "progression_pct": 0.0
     },
     {
       "ticker": "EA",
@@ -118,7 +126,11 @@
       "top_news_url": null,
       "status": "open",
       "issued_at": "2026-06-18T20:18:53.699775",
-      "last_seen": "2026-06-19T14:31:31.308467"
+      "last_seen": "2026-06-19T14:31:31.308467",
+      "current_price": 202.18,
+      "current_price_time": "2026-06-19T15:42:22.670845+00:00",
+      "pnl_pct_live": 0.0,
+      "progression_pct": 0.0
     },
     {
       "ticker": "BKR",
@@ -150,9 +162,15 @@
       "news_score": null,
       "top_news_title": null,
       "top_news_url": null,
-      "status": "open",
+      "status": "expired",
       "issued_at": "2026-06-18T14:34:36.038772",
-      "last_seen": "2026-06-19T14:31:31.308467"
+      "last_seen": "2026-06-19T14:31:31.308467",
+      "current_price": 58.4,
+      "current_price_time": "2026-06-19T15:42:22.670845+00:00",
+      "exit_price": 58.4,
+      "exit_date": "2026-06-19T15:42:22.670845+00:00",
+      "pnl_pct": 0.0,
+      "pnl_pct_live": 0.0
     },
     {
       "ticker": "ROKU",
@@ -180,9 +198,15 @@
       "news_score": null,
       "top_news_title": null,
       "top_news_url": null,
-      "status": "open",
+      "status": "expired",
       "issued_at": "2026-06-18T09:03:19.795057",
-      "last_seen": "2026-06-19T14:31:31.308467"
+      "last_seen": "2026-06-19T14:31:31.308467",
+      "current_price": 138.14,
+      "current_price_time": "2026-06-19T15:42:22.670845+00:00",
+      "exit_price": 138.14,
+      "exit_date": "2026-06-19T15:42:22.670845+00:00",
+      "pnl_pct": -0.62,
+      "pnl_pct_live": -0.62
     },
     {
       "ticker": "ROKU",
