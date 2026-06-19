@@ -1,21 +1,21 @@
 {
-  "generated_at": "2026-06-19T16:02:48.393460",
+  "generated_at": "2026-06-19T16:38:14.604001+00:00",
   "date": "2026-06-19",
   "stats": {
-    "total": 6,
-    "buy_signals": 4,
-    "sell_signals": 2,
+    "total": 1,
+    "buy_signals": 1,
+    "sell_signals": 0,
     "avg_confidence": 0.817,
     "avg_rr": 2.2,
-    "win_rate": 0.38,
-    "active_positions": 6,
-    "daily_pnl": -0.0579
+    "win_rate": 0.382,
+    "active_positions": 1,
+    "daily_pnl": -0.0609
   },
   "eod": {
-    "tp_hit": 19,
-    "sl_hit": 31,
-    "open": 6,
-    "cumulative_pnl": -0.0579
+    "tp_hit": 21,
+    "sl_hit": 34,
+    "open": 1,
+    "cumulative_pnl": -0.0609
   },
   "signals": [
     {
@@ -44,9 +44,15 @@
       "news_score": null,
       "top_news_title": null,
       "top_news_url": null,
-      "status": "open",
+      "status": "expired",
       "issued_at": "2026-06-18T14:34:36.038784",
-      "last_seen": "2026-06-19T16:02:48.393460"
+      "last_seen": "2026-06-19T16:02:48.393460",
+      "current_price": 51.57,
+      "current_price_time": "2026-06-19T16:38:14.604001+00:00",
+      "exit_price": 51.57,
+      "exit_date": "2026-06-19T16:38:14.604001+00:00",
+      "pnl_pct": 0.12,
+      "pnl_pct_live": 0.12
     },
     {
       "ticker": "TMUS",
@@ -74,9 +80,15 @@
       "news_score": null,
       "top_news_title": null,
       "top_news_url": null,
-      "status": "open",
+      "status": "expired",
       "issued_at": "2026-06-18T14:34:36.038789",
-      "last_seen": "2026-06-19T16:02:48.393460"
+      "last_seen": "2026-06-19T16:02:48.393460",
+      "current_price": 181.63,
+      "current_price_time": "2026-06-19T16:38:14.604001+00:00",
+      "exit_price": 181.63,
+      "exit_date": "2026-06-19T16:38:14.604001+00:00",
+      "pnl_pct": -0.36,
+      "pnl_pct_live": -0.36
     },
     {
       "ticker": "VRSK",
@@ -106,7 +118,11 @@
       "top_news_url": null,
       "status": "open",
       "issued_at": "2026-06-18T17:37:03.310999",
-      "last_seen": "2026-06-19T16:02:48.393460"
+      "last_seen": "2026-06-19T16:02:48.393460",
+      "current_price": 173.71,
+      "current_price_time": "2026-06-19T16:38:14.604001+00:00",
+      "pnl_pct_live": -1.68,
+      "progression_pct": -61.3
     },
     {
       "ticker": "AMZN",
@@ -134,9 +150,15 @@
       "news_score": null,
       "top_news_title": null,
       "top_news_url": null,
-      "status": "open",
+      "status": "expired",
       "issued_at": "2026-06-18T16:12:21.122359",
-      "last_seen": "2026-06-19T16:02:48.393460"
+      "last_seen": "2026-06-19T16:02:48.393460",
+      "current_price": 244.35,
+      "current_price_time": "2026-06-19T16:38:14.604001+00:00",
+      "exit_price": 244.35,
+      "exit_date": "2026-06-19T16:38:14.604001+00:00",
+      "pnl_pct": 0.56,
+      "pnl_pct_live": 0.56
     },
     {
       "ticker": "BKR",
@@ -168,9 +190,15 @@
       "news_score": null,
       "top_news_title": null,
       "top_news_url": null,
-      "status": "open",
+      "status": "expired",
       "issued_at": "2026-06-18T14:34:36.038772",
-      "last_seen": "2026-06-19T16:02:48.393460"
+      "last_seen": "2026-06-19T16:02:48.393460",
+      "current_price": 58.4,
+      "current_price_time": "2026-06-19T16:38:14.604001+00:00",
+      "exit_price": 58.4,
+      "exit_date": "2026-06-19T16:38:14.604001+00:00",
+      "pnl_pct": 0.0,
+      "pnl_pct_live": 0.0
     },
     {
       "ticker": "ROKU",
@@ -198,9 +226,15 @@
       "news_score": null,
       "top_news_title": null,
       "top_news_url": null,
-      "status": "open",
+      "status": "expired",
       "issued_at": "2026-06-18T09:03:19.795057",
-      "last_seen": "2026-06-19T16:02:48.393460"
+      "last_seen": "2026-06-19T16:02:48.393460",
+      "current_price": 138.14,
+      "current_price_time": "2026-06-19T16:38:14.604001+00:00",
+      "exit_price": 138.14,
+      "exit_date": "2026-06-19T16:38:14.604001+00:00",
+      "pnl_pct": -0.62,
+      "pnl_pct_live": -0.62
     },
     {
       "ticker": "ROKU",
