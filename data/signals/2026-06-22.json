@@ -205,5 +205,28 @@
     "ml_proba_up": null,
     "risk_reward": 2.2,
     "primary_reason": "Cassure ORB haussière (RVOL 1.7x, +VWAP) +gap"
+  },
+  {
+    "ticker": "PLTR",
+    "action": "STRONG_SELL",
+    "entry_price": 119.4801025390625,
+    "stop_loss": 123.06450561523438,
+    "take_profit": 111.59441577148438,
+    "score": -0.5787950128840516,
+    "confidence": 0.810987880475722,
+    "universe": "NASDAQ100",
+    "issued_at": "2026-06-22T20:23:30.435860",
+    "horizon_days": 1,
+    "horizon_hours": 24,
+    "status": "open",
+    "exit_price": null,
+    "exit_date": null,
+    "pnl_pct": null,
+    "max_favorable": null,
+    "max_adverse": null,
+    "sector": "",
+    "ml_proba_up": null,
+    "risk_reward": 2.2,
+    "primary_reason": "Cassure ORB baissière (RVOL 1.6x, -VWAP) +gap"
   }
 ]
