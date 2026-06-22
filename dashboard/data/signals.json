@@ -1,21 +1,21 @@
 {
-  "generated_at": "2026-06-22T19:03:01.776625",
+  "generated_at": "2026-06-22T19:44:38.454457+00:00",
   "date": "2026-06-22",
   "stats": {
-    "total": 7,
-    "buy_signals": 3,
-    "sell_signals": 4,
+    "total": 4,
+    "buy_signals": 1,
+    "sell_signals": 3,
     "avg_confidence": 0.832,
     "avg_rr": 2.2,
-    "win_rate": 0.4,
-    "active_positions": 7,
-    "daily_pnl": -0.0965
+    "win_rate": 0.396,
+    "active_positions": 4,
+    "daily_pnl": -0.1115
   },
   "eod": {
-    "tp_hit": 20,
-    "sl_hit": 30,
-    "open": 7,
-    "cumulative_pnl": -0.0965
+    "tp_hit": 21,
+    "sl_hit": 32,
+    "open": 4,
+    "cumulative_pnl": -0.1115
   },
   "signals": [
     {
@@ -44,9 +44,15 @@
       "news_score": null,
       "top_news_title": null,
       "top_news_url": null,
-      "status": "open",
+      "status": "expired",
       "issued_at": "2026-06-19T20:07:19.759609",
-      "last_seen": "2026-06-22T19:03:01.776625"
+      "last_seen": "2026-06-22T19:03:01.776625",
+      "current_price": 267.09,
+      "current_price_time": "2026-06-22T19:44:38.454457+00:00",
+      "exit_price": 267.09,
+      "exit_date": "2026-06-22T19:44:38.454457+00:00",
+      "pnl_pct": 3.12,
+      "pnl_pct_live": 3.12
     },
     {
       "ticker": "VRSK",
@@ -74,9 +80,15 @@
       "news_score": null,
       "top_news_title": null,
       "top_news_url": null,
-      "status": "open",
+      "status": "expired",
       "issued_at": "2026-06-18T17:37:03.310999",
-      "last_seen": "2026-06-22T19:03:01.776625"
+      "last_seen": "2026-06-22T19:03:01.776625",
+      "current_price": 169.9,
+      "current_price_time": "2026-06-22T19:44:38.454457+00:00",
+      "exit_price": 169.9,
+      "exit_date": "2026-06-22T19:44:38.454457+00:00",
+      "pnl_pct": -3.83,
+      "pnl_pct_live": -3.83
     },
     {
       "ticker": "SMCI",
@@ -110,7 +122,11 @@
       "top_news_url": null,
       "status": "open",
       "issued_at": "2026-06-22T15:26:07.682201",
-      "last_seen": "2026-06-22T19:03:01.776625"
+      "last_seen": "2026-06-22T19:03:01.776625",
+      "current_price": 35.35,
+      "current_price_time": "2026-06-22T19:44:38.454457+00:00",
+      "pnl_pct_live": -1.42,
+      "progression_pct": -47.2
     },
     {
       "ticker": "NFLX",
@@ -144,7 +160,11 @@
       "top_news_url": null,
       "status": "open",
       "issued_at": "2026-06-22T15:26:07.682195",
-      "last_seen": "2026-06-22T19:03:01.776625"
+      "last_seen": "2026-06-22T19:03:01.776625",
+      "current_price": 72.96,
+      "current_price_time": "2026-06-22T19:44:38.454457+00:00",
+      "pnl_pct_live": -0.04,
+      "progression_pct": -1.4
     },
     {
       "ticker": "RBLX",
@@ -178,7 +198,11 @@
       "top_news_url": null,
       "status": "open",
       "issued_at": "2026-06-22T15:26:07.682181",
-      "last_seen": "2026-06-22T19:03:01.776625"
+      "last_seen": "2026-06-22T19:03:01.776625",
+      "current_price": 46.29,
+      "current_price_time": "2026-06-22T19:44:38.454457+00:00",
+      "pnl_pct_live": 1.68,
+      "progression_pct": 25.4
     },
     {
       "ticker": "BKR",
@@ -206,9 +230,15 @@
       "news_score": null,
       "top_news_title": null,
       "top_news_url": null,
-      "status": "open",
+      "status": "expired",
       "issued_at": "2026-06-19T16:02:48.393017",
-      "last_seen": "2026-06-22T19:03:01.776625"
+      "last_seen": "2026-06-22T19:03:01.776625",
+      "current_price": 58.86,
+      "current_price_time": "2026-06-22T19:44:38.454457+00:00",
+      "exit_price": 58.86,
+      "exit_date": "2026-06-22T19:44:38.454457+00:00",
+      "pnl_pct": -0.79,
+      "pnl_pct_live": -0.79
     },
     {
       "ticker": "GOOGL",
@@ -242,7 +272,11 @@
       "top_news_url": null,
       "status": "open",
       "issued_at": "2026-06-22T16:36:11.794587",
-      "last_seen": "2026-06-22T19:03:01.776625"
+      "last_seen": "2026-06-22T19:03:01.776625",
+      "current_price": 348.55,
+      "current_price_time": "2026-06-22T19:44:38.454457+00:00",
+      "pnl_pct_live": -0.22,
+      "progression_pct": -7.3
     },
     {
       "ticker": "ROKU",
