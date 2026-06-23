@@ -1,21 +1,21 @@
 {
-  "generated_at": "2026-06-23T16:08:58.070703+00:00",
+  "generated_at": "2026-06-23T17:03:02.370242+00:00",
   "date": "2026-06-23",
   "stats": {
-    "total": 3,
+    "total": 2,
     "buy_signals": 0,
-    "sell_signals": 3,
+    "sell_signals": 2,
     "avg_confidence": 0.83,
     "avg_rr": 2.2,
-    "win_rate": 0.298,
-    "active_positions": 3,
-    "daily_pnl": -0.4543
+    "win_rate": 0.293,
+    "active_positions": 2,
+    "daily_pnl": -0.4584
   },
   "eod": {
     "tp_hit": 17,
-    "sl_hit": 40,
-    "open": 3,
-    "cumulative_pnl": -0.4543
+    "sl_hit": 41,
+    "open": 2,
+    "cumulative_pnl": -0.4584
   },
   "signals": [
     {
@@ -195,10 +195,10 @@
       "status": "open",
       "issued_at": "2026-06-23T14:28:08.584916",
       "last_seen": "2026-06-23T16:00:56.007506",
-      "current_price": 244.3,
-      "current_price_time": "2026-06-23T16:08:58.070703+00:00",
-      "pnl_pct_live": -0.51,
-      "progression_pct": -16.9
+      "current_price": 245.2,
+      "current_price_time": "2026-06-23T17:03:02.370242+00:00",
+      "pnl_pct_live": -0.88,
+      "progression_pct": -29.2
     },
     {
       "ticker": "CHTR",
@@ -265,10 +265,10 @@
       "status": "open",
       "issued_at": "2026-06-22T20:23:30.435860",
       "last_seen": "2026-06-23T16:00:56.007506",
-      "current_price": 119.06,
-      "current_price_time": "2026-06-23T16:08:58.070703+00:00",
-      "pnl_pct_live": 0.35,
-      "progression_pct": 5.3
+      "current_price": 118.96,
+      "current_price_time": "2026-06-23T17:03:02.370242+00:00",
+      "pnl_pct_live": 0.44,
+      "progression_pct": 6.6
     },
     {
       "ticker": "EA",
@@ -368,13 +368,16 @@
       "news_score": null,
       "top_news_title": null,
       "top_news_url": null,
-      "status": "open",
+      "status": "expired",
       "issued_at": "2026-06-22T16:36:11.794587",
       "last_seen": "2026-06-23T16:00:56.007506",
-      "current_price": 345.42,
-      "current_price_time": "2026-06-23T16:08:58.070703+00:00",
-      "pnl_pct_live": 0.17,
-      "progression_pct": 2.6
+      "current_price": 347.45,
+      "current_price_time": "2026-06-23T17:03:02.370242+00:00",
+      "pnl_pct_live": -0.41,
+      "progression_pct": 2.6,
+      "exit_price": 347.45,
+      "exit_date": "2026-06-23T17:03:02.370242+00:00",
+      "pnl_pct": -0.41
     },
     {
       "ticker": "ROKU",
