@@ -90,5 +90,28 @@
     "ml_proba_up": null,
     "risk_reward": 2.2,
     "primary_reason": "Cassure ORB baissière (RVOL 1.5x, -VWAP) +gap"
+  },
+  {
+    "ticker": "SHOP",
+    "action": "STRONG_BUY",
+    "entry_price": 111.66500091552734,
+    "stop_loss": 108.31505088806152,
+    "take_profit": 119.03489097595215,
+    "score": 0.49131781825112875,
+    "confidence": 0.7738100727567297,
+    "universe": "NASDAQ100",
+    "issued_at": "2026-06-24T17:15:38.039139",
+    "horizon_days": 1,
+    "horizon_hours": 24,
+    "status": "open",
+    "exit_price": null,
+    "exit_date": null,
+    "pnl_pct": null,
+    "max_favorable": null,
+    "max_adverse": null,
+    "sector": "",
+    "ml_proba_up": null,
+    "risk_reward": 2.2,
+    "primary_reason": "Cassure ORB haussière (RVOL 3.3x, +VWAP) (contre-gap)"
   }
 ]
