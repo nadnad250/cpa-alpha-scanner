@@ -1,21 +1,21 @@
 {
-  "generated_at": "2026-06-24T13:22:40.260693+00:00",
+  "generated_at": "2026-06-24T14:17:25.847748+00:00",
   "date": "2026-06-24",
   "stats": {
-    "total": 2,
-    "buy_signals": 1,
+    "total": 1,
+    "buy_signals": 0,
     "sell_signals": 1,
     "avg_confidence": 0.767,
     "avg_rr": 2.2,
-    "win_rate": 0.36,
-    "active_positions": 2,
-    "daily_pnl": -0.1868
+    "win_rate": 0.353,
+    "active_positions": 1,
+    "daily_pnl": -0.216
   },
   "eod": {
     "tp_hit": 18,
-    "sl_hit": 32,
-    "open": 2,
-    "cumulative_pnl": -0.1868
+    "sl_hit": 33,
+    "open": 1,
+    "cumulative_pnl": -0.216
   },
   "signals": [
     {
@@ -44,13 +44,16 @@
       "news_score": null,
       "top_news_title": null,
       "top_news_url": null,
-      "status": "open",
+      "status": "sl_hit",
       "issued_at": "2026-06-23T14:28:08.584927",
       "last_seen": "2026-06-24T08:36:50.743056",
-      "current_price": 103.21,
-      "current_price_time": "2026-06-24T13:22:40.260693+00:00",
-      "pnl_pct_live": -0.9,
-      "progression_pct": -30.9
+      "current_price": 97.92,
+      "current_price_time": "2026-06-24T14:17:25.847748+00:00",
+      "pnl_pct_live": -2.92,
+      "progression_pct": -30.9,
+      "exit_price": 101.11,
+      "exit_date": "2026-06-24T14:17:25.847748+00:00",
+      "pnl_pct": -2.92
     },
     {
       "ticker": "KLAC",
@@ -85,10 +88,10 @@
       "status": "open",
       "issued_at": "2026-06-23T14:28:08.584916",
       "last_seen": "2026-06-24T08:36:50.743056",
-      "current_price": 244.54,
-      "current_price_time": "2026-06-24T13:22:40.260693+00:00",
-      "pnl_pct_live": 0.0,
-      "progression_pct": 0.0
+      "current_price": 240.83,
+      "current_price_time": "2026-06-24T14:17:25.847748+00:00",
+      "pnl_pct_live": 1.52,
+      "progression_pct": 25.2
     },
     {
       "ticker": "ROKU",
