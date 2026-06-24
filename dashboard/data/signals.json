@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-06-24T18:43:52.577820+00:00",
+  "generated_at": "2026-06-24T19:19:24.871576+00:00",
   "date": "2026-06-24",
   "stats": {
     "total": 5,
@@ -51,10 +51,10 @@
       "status": "open",
       "issued_at": "2026-06-24T14:27:15.604450",
       "last_seen": "2026-06-24T14:27:15.605082",
-      "current_price": 184.52,
-      "current_price_time": "2026-06-24T18:43:52.577820+00:00",
-      "pnl_pct_live": 0.79,
-      "progression_pct": 11.9
+      "current_price": 184.14,
+      "current_price_time": "2026-06-24T19:19:24.871576+00:00",
+      "pnl_pct_live": 0.58,
+      "progression_pct": 8.8
     },
     {
       "ticker": "AFRM",
@@ -89,10 +89,10 @@
       "status": "open",
       "issued_at": "2026-06-24T14:27:15.604467",
       "last_seen": "2026-06-24T14:27:15.605082",
-      "current_price": 77.93,
-      "current_price_time": "2026-06-24T18:43:52.577820+00:00",
-      "pnl_pct_live": -0.64,
-      "progression_pct": -21.3
+      "current_price": 77.31,
+      "current_price_time": "2026-06-24T19:19:24.871576+00:00",
+      "pnl_pct_live": -1.43,
+      "progression_pct": -47.7
     },
     {
       "ticker": "EA",
@@ -127,10 +127,10 @@
       "status": "open",
       "issued_at": "2026-06-24T18:30:46.373182",
       "last_seen": "2026-06-24T18:30:46.374013",
-      "current_price": 204.73,
-      "current_price_time": "2026-06-24T18:43:52.577820+00:00",
-      "pnl_pct_live": -0.0,
-      "progression_pct": -0.8
+      "current_price": 204.74,
+      "current_price_time": "2026-06-24T19:19:24.871576+00:00",
+      "pnl_pct_live": 0.0,
+      "progression_pct": 0.0
     },
     {
       "ticker": "SHOP",
@@ -165,10 +165,10 @@
       "status": "open",
       "issued_at": "2026-06-24T17:15:38.039139",
       "last_seen": "2026-06-24T17:15:38.039850",
-      "current_price": 113.36,
-      "current_price_time": "2026-06-24T18:43:52.577820+00:00",
-      "pnl_pct_live": 1.51,
-      "progression_pct": 23.0
+      "current_price": 112.6,
+      "current_price_time": "2026-06-24T19:19:24.871576+00:00",
+      "pnl_pct_live": 0.83,
+      "progression_pct": 12.6
     },
     {
       "ticker": "HOOD",
@@ -275,10 +275,10 @@
       "status": "open",
       "issued_at": "2026-06-24T15:48:21.604654",
       "last_seen": "2026-06-24T15:48:21.605304",
-      "current_price": 56.03,
-      "current_price_time": "2026-06-24T18:43:52.577820+00:00",
-      "pnl_pct_live": 0.32,
-      "progression_pct": 6.5
+      "current_price": 56.19,
+      "current_price_time": "2026-06-24T19:19:24.871576+00:00",
+      "pnl_pct_live": 0.04,
+      "progression_pct": 0.7
     },
     {
       "ticker": "ROKU",
