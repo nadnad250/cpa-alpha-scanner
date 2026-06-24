@@ -1,21 +1,21 @@
 {
-  "generated_at": "2026-06-24T15:48:21.605304",
+  "generated_at": "2026-06-24T16:16:58.284616+00:00",
   "date": "2026-06-24",
   "stats": {
-    "total": 5,
-    "buy_signals": 3,
-    "sell_signals": 2,
+    "total": 3,
+    "buy_signals": 2,
+    "sell_signals": 1,
     "avg_confidence": 0.775,
     "avg_rr": 2.2,
-    "win_rate": 0.38,
-    "active_positions": 5,
-    "daily_pnl": -0.1957
+    "win_rate": 0.365,
+    "active_positions": 3,
+    "daily_pnl": -0.2482
   },
   "eod": {
     "tp_hit": 19,
-    "sl_hit": 31,
-    "open": 5,
-    "cumulative_pnl": -0.1957
+    "sl_hit": 33,
+    "open": 3,
+    "cumulative_pnl": -0.2482
   },
   "signals": [
     {
@@ -51,10 +51,10 @@
       "status": "open",
       "issued_at": "2026-06-24T14:27:15.604450",
       "last_seen": "2026-06-24T14:27:15.605082",
-      "current_price": 184.76,
-      "current_price_time": "2026-06-24T15:24:44.364460+00:00",
-      "pnl_pct_live": 0.92,
-      "progression_pct": 13.9
+      "current_price": 182.48,
+      "current_price_time": "2026-06-24T16:16:58.284616+00:00",
+      "pnl_pct_live": -0.33,
+      "progression_pct": -10.9
     },
     {
       "ticker": "AFRM",
@@ -89,10 +89,10 @@
       "status": "open",
       "issued_at": "2026-06-24T14:27:15.604467",
       "last_seen": "2026-06-24T14:27:15.605082",
-      "current_price": 79.74,
-      "current_price_time": "2026-06-24T15:24:44.364460+00:00",
-      "pnl_pct_live": 1.67,
-      "progression_pct": 25.3
+      "current_price": 78.38,
+      "current_price_time": "2026-06-24T16:16:58.284616+00:00",
+      "pnl_pct_live": -0.06,
+      "progression_pct": -2.1
     },
     {
       "ticker": "HOOD",
@@ -120,9 +120,15 @@
       "news_score": null,
       "top_news_title": null,
       "top_news_url": null,
-      "status": "open",
+      "status": "expired",
       "issued_at": "2026-06-23T14:28:08.584927",
-      "last_seen": "2026-06-24T15:48:21.605304"
+      "last_seen": "2026-06-24T15:48:21.605304",
+      "current_price": 99.48,
+      "current_price_time": "2026-06-24T16:16:58.284616+00:00",
+      "exit_price": 99.48,
+      "exit_date": "2026-06-24T16:16:58.284616+00:00",
+      "pnl_pct": -4.48,
+      "pnl_pct_live": -4.48
     },
     {
       "ticker": "BKR",
@@ -156,7 +162,11 @@
       "top_news_url": null,
       "status": "open",
       "issued_at": "2026-06-24T15:48:21.604654",
-      "last_seen": "2026-06-24T15:48:21.605304"
+      "last_seen": "2026-06-24T15:48:21.605304",
+      "current_price": 55.96,
+      "current_price_time": "2026-06-24T16:16:58.284616+00:00",
+      "pnl_pct_live": 0.44,
+      "progression_pct": 9.1
     },
     {
       "ticker": "KLAC",
@@ -188,9 +198,15 @@
       "news_score": null,
       "top_news_title": null,
       "top_news_url": null,
-      "status": "open",
+      "status": "expired",
       "issued_at": "2026-06-23T14:28:08.584916",
-      "last_seen": "2026-06-24T15:48:21.605304"
+      "last_seen": "2026-06-24T15:48:21.605304",
+      "current_price": 240.89,
+      "current_price_time": "2026-06-24T16:16:58.284616+00:00",
+      "exit_price": 240.89,
+      "exit_date": "2026-06-24T16:16:58.284616+00:00",
+      "pnl_pct": -0.77,
+      "pnl_pct_live": -0.77
     },
     {
       "ticker": "ROKU",
