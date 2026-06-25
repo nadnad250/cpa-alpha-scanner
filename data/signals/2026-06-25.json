@@ -159,5 +159,28 @@
     "ml_proba_up": null,
     "risk_reward": 2.2,
     "primary_reason": "Cassure ORB haussière (RVOL 1.6x, +VWAP) +gap"
+  },
+  {
+    "ticker": "QCOM",
+    "action": "SELL",
+    "entry_price": 209.11000061035156,
+    "stop_loss": 215.3833006286621,
+    "take_profit": 195.30874057006835,
+    "score": -0.3378787629816654,
+    "confidence": 0.7085984742672078,
+    "universe": "NASDAQ100",
+    "issued_at": "2026-06-25T18:39:06.477200",
+    "horizon_days": 1,
+    "horizon_hours": 24,
+    "status": "open",
+    "exit_price": null,
+    "exit_date": null,
+    "pnl_pct": null,
+    "max_favorable": null,
+    "max_adverse": null,
+    "sector": "",
+    "ml_proba_up": null,
+    "risk_reward": 2.2,
+    "primary_reason": "Cassure ORB baissière (RVOL 2.3x, -VWAP) (contre-gap)"
   }
 ]
