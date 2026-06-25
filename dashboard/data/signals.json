@@ -1,21 +1,21 @@
 {
-  "generated_at": "2026-06-25T15:53:45.329296",
+  "generated_at": "2026-06-25T16:21:05.964016+00:00",
   "date": "2026-06-25",
   "stats": {
-    "total": 10,
-    "buy_signals": 6,
-    "sell_signals": 4,
+    "total": 6,
+    "buy_signals": 4,
+    "sell_signals": 2,
     "avg_confidence": 0.799,
     "avg_rr": 2.2,
-    "win_rate": 0.36,
-    "active_positions": 10,
-    "daily_pnl": -0.2875
+    "win_rate": 0.333,
+    "active_positions": 6,
+    "daily_pnl": -0.3696
   },
   "eod": {
     "tp_hit": 18,
-    "sl_hit": 32,
-    "open": 10,
-    "cumulative_pnl": -0.2875
+    "sl_hit": 36,
+    "open": 6,
+    "cumulative_pnl": -0.3696
   },
   "signals": [
     {
@@ -44,9 +44,15 @@
       "news_score": null,
       "top_news_title": null,
       "top_news_url": null,
-      "status": "open",
+      "status": "expired",
       "issued_at": "2026-06-24T14:27:15.604450",
-      "last_seen": "2026-06-25T15:53:45.329296"
+      "last_seen": "2026-06-25T15:53:45.329296",
+      "current_price": 179.58,
+      "current_price_time": "2026-06-25T16:21:05.964016+00:00",
+      "exit_price": 179.58,
+      "exit_date": "2026-06-25T16:21:05.964016+00:00",
+      "pnl_pct": -1.91,
+      "pnl_pct_live": -1.91
     },
     {
       "ticker": "AFRM",
@@ -74,9 +80,15 @@
       "news_score": null,
       "top_news_title": null,
       "top_news_url": null,
-      "status": "open",
+      "status": "expired",
       "issued_at": "2026-06-24T14:27:15.604467",
-      "last_seen": "2026-06-25T15:53:45.329296"
+      "last_seen": "2026-06-25T15:53:45.329296",
+      "current_price": 77.92,
+      "current_price_time": "2026-06-25T16:21:05.964016+00:00",
+      "exit_price": 77.92,
+      "exit_date": "2026-06-25T16:21:05.964016+00:00",
+      "pnl_pct": -0.65,
+      "pnl_pct_live": -0.65
     },
     {
       "ticker": "DLTR",
@@ -111,10 +123,10 @@
       "status": "open",
       "issued_at": "2026-06-25T14:27:12.835182",
       "last_seen": "2026-06-25T14:27:12.836026",
-      "current_price": 118.17,
-      "current_price_time": "2026-06-25T15:28:16.487833+00:00",
-      "pnl_pct_live": -1.57,
-      "progression_pct": -52.5
+      "current_price": 117.23,
+      "current_price_time": "2026-06-25T16:21:05.964016+00:00",
+      "pnl_pct_live": -2.36,
+      "progression_pct": -78.6
     },
     {
       "ticker": "FTNT",
@@ -149,10 +161,10 @@
       "status": "open",
       "issued_at": "2026-06-25T14:27:12.835191",
       "last_seen": "2026-06-25T14:27:12.836026",
-      "current_price": 149.51,
-      "current_price_time": "2026-06-25T15:28:16.487833+00:00",
-      "pnl_pct_live": -1.24,
-      "progression_pct": -41.2
+      "current_price": 150.07,
+      "current_price_time": "2026-06-25T16:21:05.964016+00:00",
+      "pnl_pct_live": -0.87,
+      "progression_pct": -28.9
     },
     {
       "ticker": "EA",
@@ -182,14 +194,18 @@
       "top_news_url": null,
       "status": "open",
       "issued_at": "2026-06-24T18:30:46.373182",
-      "last_seen": "2026-06-25T15:53:45.329296"
+      "last_seen": "2026-06-25T15:53:45.329296",
+      "current_price": 204.71,
+      "current_price_time": "2026-06-25T16:21:05.964016+00:00",
+      "pnl_pct_live": -0.01,
+      "progression_pct": -2.5
     },
     {
       "ticker": "SHOP",
       "action": "STRONG_BUY",
       "price": 111.67,
       "take_profit": 119.03,
-      "stop_loss": 108.32,
+      "stop_loss": 111.67,
       "upside_pct": 6.6,
       "confidence": 0.774,
       "score": 0.4913,
@@ -212,7 +228,12 @@
       "top_news_url": null,
       "status": "open",
       "issued_at": "2026-06-24T17:15:38.039139",
-      "last_seen": "2026-06-25T15:53:45.329296"
+      "last_seen": "2026-06-25T15:53:45.329296",
+      "current_price": 115.42,
+      "current_price_time": "2026-06-25T16:21:05.964016+00:00",
+      "pnl_pct_live": 3.36,
+      "trail_level": 1,
+      "progression_pct": 51.0
     },
     {
       "ticker": "AAPL",
@@ -247,10 +268,10 @@
       "status": "open",
       "issued_at": "2026-06-25T14:27:12.835171",
       "last_seen": "2026-06-25T14:27:12.836026",
-      "current_price": 277.85,
-      "current_price_time": "2026-06-25T15:28:16.487833+00:00",
-      "pnl_pct_live": 0.48,
-      "progression_pct": 7.3
+      "current_price": 275.79,
+      "current_price_time": "2026-06-25T16:21:05.964016+00:00",
+      "pnl_pct_live": 1.22,
+      "progression_pct": 18.5
     },
     {
       "ticker": "PLTR",
@@ -284,7 +305,11 @@
       "top_news_url": null,
       "status": "open",
       "issued_at": "2026-06-25T15:53:45.328643",
-      "last_seen": "2026-06-25T15:53:45.329296"
+      "last_seen": "2026-06-25T15:53:45.329296",
+      "current_price": 107.74,
+      "current_price_time": "2026-06-25T16:21:05.964016+00:00",
+      "pnl_pct_live": -0.66,
+      "progression_pct": -22.1
     },
     {
       "ticker": "QCOM",
@@ -316,13 +341,16 @@
       "news_score": null,
       "top_news_title": null,
       "top_news_url": null,
-      "status": "open",
+      "status": "sl_hit",
       "issued_at": "2026-06-25T14:27:12.835187",
       "last_seen": "2026-06-25T14:27:12.836026",
-      "current_price": 204.71,
-      "current_price_time": "2026-06-25T15:28:16.487833+00:00",
-      "pnl_pct_live": 0.5,
-      "progression_pct": 7.6
+      "current_price": 212.63,
+      "current_price_time": "2026-06-25T16:21:05.964016+00:00",
+      "pnl_pct_live": -3.0,
+      "progression_pct": 7.6,
+      "exit_price": 211.91,
+      "exit_date": "2026-06-25T16:21:05.964016+00:00",
+      "pnl_pct": -3.0
     },
     {
       "ticker": "BKR",
@@ -350,9 +378,15 @@
       "news_score": null,
       "top_news_title": null,
       "top_news_url": null,
-      "status": "open",
+      "status": "expired",
       "issued_at": "2026-06-24T15:48:21.604654",
-      "last_seen": "2026-06-25T15:53:45.329296"
+      "last_seen": "2026-06-25T15:53:45.329296",
+      "current_price": 57.7,
+      "current_price_time": "2026-06-25T16:21:05.964016+00:00",
+      "exit_price": 57.7,
+      "exit_date": "2026-06-25T16:21:05.964016+00:00",
+      "pnl_pct": -2.65,
+      "pnl_pct_live": -2.65
     },
     {
       "ticker": "ROKU",
