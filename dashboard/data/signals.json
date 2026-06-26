@@ -1,21 +1,21 @@
 {
-  "generated_at": "2026-06-26T14:26:10.296811",
+  "generated_at": "2026-06-26T15:18:46.587769+00:00",
   "date": "2026-06-26",
   "stats": {
-    "total": 7,
-    "buy_signals": 3,
-    "sell_signals": 4,
+    "total": 4,
+    "buy_signals": 2,
+    "sell_signals": 2,
     "avg_confidence": 0.81,
     "avg_rr": 2.2,
-    "win_rate": 0.333,
-    "active_positions": 7,
-    "daily_pnl": -0.4313
+    "win_rate": 0.315,
+    "active_positions": 4,
+    "daily_pnl": -0.5169
   },
   "eod": {
     "tp_hit": 17,
-    "sl_hit": 34,
-    "open": 7,
-    "cumulative_pnl": -0.4313
+    "sl_hit": 37,
+    "open": 4,
+    "cumulative_pnl": -0.5169
   },
   "signals": [
     {
@@ -50,7 +50,11 @@
       "top_news_url": null,
       "status": "open",
       "issued_at": "2026-06-26T14:26:10.296155",
-      "last_seen": "2026-06-26T14:26:10.296811"
+      "last_seen": "2026-06-26T14:26:10.296811",
+      "current_price": 368.17,
+      "current_price_time": "2026-06-26T15:18:46.587769+00:00",
+      "pnl_pct_live": 0.36,
+      "progression_pct": 5.4
     },
     {
       "ticker": "VRTX",
@@ -84,7 +88,11 @@
       "top_news_url": null,
       "status": "open",
       "issued_at": "2026-06-26T14:26:10.296164",
-      "last_seen": "2026-06-26T14:26:10.296811"
+      "last_seen": "2026-06-26T14:26:10.296811",
+      "current_price": 499.67,
+      "current_price_time": "2026-06-26T15:18:46.587769+00:00",
+      "pnl_pct_live": 0.43,
+      "progression_pct": 6.5
     },
     {
       "ticker": "AMAT",
@@ -112,9 +120,15 @@
       "news_score": null,
       "top_news_title": null,
       "top_news_url": null,
-      "status": "open",
+      "status": "sl_hit",
       "issued_at": "2026-06-25T17:18:10.603669",
-      "last_seen": "2026-06-26T14:26:10.296811"
+      "last_seen": "2026-06-26T14:26:10.296811",
+      "current_price": 634.09,
+      "current_price_time": "2026-06-26T15:18:46.587769+00:00",
+      "exit_price": 635.52,
+      "exit_date": "2026-06-26T15:18:46.587769+00:00",
+      "pnl_pct": -3.0,
+      "pnl_pct_live": -3.0
     },
     {
       "ticker": "ADI",
@@ -148,7 +162,11 @@
       "top_news_url": null,
       "status": "open",
       "issued_at": "2026-06-26T14:26:10.296138",
-      "last_seen": "2026-06-26T14:26:10.296811"
+      "last_seen": "2026-06-26T14:26:10.296811",
+      "current_price": 388.56,
+      "current_price_time": "2026-06-26T15:18:46.587769+00:00",
+      "pnl_pct_live": 1.37,
+      "progression_pct": 20.7
     },
     {
       "ticker": "PLTR",
@@ -176,9 +194,15 @@
       "news_score": null,
       "top_news_title": null,
       "top_news_url": null,
-      "status": "open",
+      "status": "sl_hit",
       "issued_at": "2026-06-25T15:53:45.328643",
-      "last_seen": "2026-06-26T14:26:10.296811"
+      "last_seen": "2026-06-26T14:26:10.296811",
+      "current_price": 111.93,
+      "current_price_time": "2026-06-26T15:18:46.587769+00:00",
+      "exit_price": 110.24,
+      "exit_date": "2026-06-26T15:18:46.587769+00:00",
+      "pnl_pct": -3.0,
+      "pnl_pct_live": -3.0
     },
     {
       "ticker": "SNPS",
@@ -212,7 +236,11 @@
       "top_news_url": null,
       "status": "open",
       "issued_at": "2026-06-26T14:26:10.296171",
-      "last_seen": "2026-06-26T14:26:10.296811"
+      "last_seen": "2026-06-26T14:26:10.296811",
+      "current_price": 445.79,
+      "current_price_time": "2026-06-26T15:18:46.587769+00:00",
+      "pnl_pct_live": -0.96,
+      "progression_pct": -44.1
     },
     {
       "ticker": "MSFT",
@@ -240,9 +268,15 @@
       "news_score": null,
       "top_news_title": null,
       "top_news_url": null,
-      "status": "open",
+      "status": "sl_hit",
       "issued_at": "2026-06-25T15:53:45.328656",
-      "last_seen": "2026-06-26T14:26:10.296811"
+      "last_seen": "2026-06-26T14:26:10.296811",
+      "current_price": 368.17,
+      "current_price_time": "2026-06-26T15:18:46.587769+00:00",
+      "exit_price": 364.22,
+      "exit_date": "2026-06-26T15:18:46.587769+00:00",
+      "pnl_pct": -2.56,
+      "pnl_pct_live": -2.56
     },
     {
       "ticker": "ROKU",
