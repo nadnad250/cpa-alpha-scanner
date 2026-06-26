@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-06-26T18:37:32.414595+00:00",
+  "generated_at": "2026-06-26T19:20:50.674646+00:00",
   "date": "2026-06-26",
   "stats": {
     "total": 4,
@@ -92,10 +92,10 @@
       "status": "open",
       "issued_at": "2026-06-26T14:26:10.296155",
       "last_seen": "2026-06-26T14:26:10.296811",
-      "current_price": 370.98,
-      "current_price_time": "2026-06-26T18:37:32.414595+00:00",
-      "pnl_pct_live": 1.12,
-      "progression_pct": 17.0
+      "current_price": 371.17,
+      "current_price_time": "2026-06-26T19:20:50.674646+00:00",
+      "pnl_pct_live": 1.17,
+      "progression_pct": 17.8
     },
     {
       "ticker": "VRTX",
@@ -130,10 +130,10 @@
       "status": "open",
       "issued_at": "2026-06-26T14:26:10.296164",
       "last_seen": "2026-06-26T14:26:10.296811",
-      "current_price": 493.45,
-      "current_price_time": "2026-06-26T18:37:32.414595+00:00",
-      "pnl_pct_live": -0.82,
-      "progression_pct": -27.5
+      "current_price": 488.19,
+      "current_price_time": "2026-06-26T19:20:50.674646+00:00",
+      "pnl_pct_live": -1.88,
+      "progression_pct": -62.7
     },
     {
       "ticker": "DLTR",
@@ -240,10 +240,10 @@
       "status": "open",
       "issued_at": "2026-06-26T18:30:22.531185",
       "last_seen": "2026-06-26T18:30:22.531976",
-      "current_price": 90.06,
-      "current_price_time": "2026-06-26T18:37:32.414595+00:00",
-      "pnl_pct_live": 0.09,
-      "progression_pct": 1.3
+      "current_price": 90.92,
+      "current_price_time": "2026-06-26T19:20:50.674646+00:00",
+      "pnl_pct_live": -0.87,
+      "progression_pct": -28.9
     },
     {
       "ticker": "ADI",
@@ -278,10 +278,10 @@
       "status": "open",
       "issued_at": "2026-06-26T14:26:10.296138",
       "last_seen": "2026-06-26T14:26:10.296811",
-      "current_price": 385.85,
-      "current_price_time": "2026-06-26T18:37:32.414595+00:00",
-      "pnl_pct_live": 2.06,
-      "progression_pct": 31.1,
+      "current_price": 386.9,
+      "current_price_time": "2026-06-26T19:20:50.674646+00:00",
+      "pnl_pct_live": 1.79,
+      "progression_pct": 27.1,
       "trail_level": 1
     },
     {
