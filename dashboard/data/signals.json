@@ -1,21 +1,21 @@
 {
-  "generated_at": "2026-06-26T15:49:11.090432",
+  "generated_at": "2026-06-26T16:16:19.457173+00:00",
   "date": "2026-06-26",
   "stats": {
-    "total": 10,
-    "buy_signals": 5,
-    "sell_signals": 5,
+    "total": 6,
+    "buy_signals": 4,
+    "sell_signals": 2,
     "avg_confidence": 0.823,
     "avg_rr": 2.2,
-    "win_rate": 0.32,
-    "active_positions": 10,
-    "daily_pnl": -0.5059
+    "win_rate": 0.352,
+    "active_positions": 6,
+    "daily_pnl": -0.4928
   },
   "eod": {
-    "tp_hit": 16,
-    "sl_hit": 34,
-    "open": 10,
-    "cumulative_pnl": -0.5059
+    "tp_hit": 19,
+    "sl_hit": 35,
+    "open": 6,
+    "cumulative_pnl": -0.4928
   },
   "signals": [
     {
@@ -50,7 +50,11 @@
       "top_news_url": null,
       "status": "open",
       "issued_at": "2026-06-26T15:49:11.089821",
-      "last_seen": "2026-06-26T15:49:11.090432"
+      "last_seen": "2026-06-26T15:49:11.090432",
+      "current_price": 66.92,
+      "current_price_time": "2026-06-26T16:16:19.457173+00:00",
+      "pnl_pct_live": -1.66,
+      "progression_pct": -55.4
     },
     {
       "ticker": "MSFT",
@@ -85,10 +89,10 @@
       "status": "open",
       "issued_at": "2026-06-26T14:26:10.296155",
       "last_seen": "2026-06-26T14:26:10.296811",
-      "current_price": 368.17,
-      "current_price_time": "2026-06-26T15:18:46.587769+00:00",
-      "pnl_pct_live": 0.36,
-      "progression_pct": 5.4
+      "current_price": 368.42,
+      "current_price_time": "2026-06-26T16:16:19.457173+00:00",
+      "pnl_pct_live": 0.43,
+      "progression_pct": 6.4
     },
     {
       "ticker": "VRTX",
@@ -123,10 +127,10 @@
       "status": "open",
       "issued_at": "2026-06-26T14:26:10.296164",
       "last_seen": "2026-06-26T14:26:10.296811",
-      "current_price": 499.67,
-      "current_price_time": "2026-06-26T15:18:46.587769+00:00",
-      "pnl_pct_live": 0.43,
-      "progression_pct": 6.5
+      "current_price": 499.79,
+      "current_price_time": "2026-06-26T16:16:19.457173+00:00",
+      "pnl_pct_live": 0.45,
+      "progression_pct": 6.8
     },
     {
       "ticker": "DLTR",
@@ -154,9 +158,15 @@
       "news_score": null,
       "top_news_title": null,
       "top_news_url": null,
-      "status": "open",
+      "status": "expired",
       "issued_at": "2026-06-25T14:27:12.835182",
-      "last_seen": "2026-06-26T15:49:11.090432"
+      "last_seen": "2026-06-26T15:49:11.090432",
+      "current_price": 123.55,
+      "current_price_time": "2026-06-26T16:16:19.457173+00:00",
+      "exit_price": 123.55,
+      "exit_date": "2026-06-26T16:16:19.457173+00:00",
+      "pnl_pct": 2.91,
+      "pnl_pct_live": 2.91
     },
     {
       "ticker": "AMAT",
@@ -186,14 +196,18 @@
       "top_news_url": null,
       "status": "open",
       "issued_at": "2026-06-25T17:18:10.603669",
-      "last_seen": "2026-06-26T15:49:11.090432"
+      "last_seen": "2026-06-26T15:49:11.090432",
+      "current_price": 641.29,
+      "current_price_time": "2026-06-26T16:16:19.457173+00:00",
+      "pnl_pct_live": -2.12,
+      "progression_pct": -70.7
     },
     {
       "ticker": "ADI",
       "action": "STRONG_SELL",
       "price": 393.95,
       "take_profit": 367.94,
-      "stop_loss": 405.76,
+      "stop_loss": 393.95,
       "upside_pct": 6.6,
       "confidence": 0.851,
       "score": -0.6729,
@@ -221,10 +235,11 @@
       "status": "open",
       "issued_at": "2026-06-26T14:26:10.296138",
       "last_seen": "2026-06-26T14:26:10.296811",
-      "current_price": 388.56,
-      "current_price_time": "2026-06-26T15:18:46.587769+00:00",
-      "pnl_pct_live": 1.37,
-      "progression_pct": 20.7
+      "current_price": 385.36,
+      "current_price_time": "2026-06-26T16:16:19.457173+00:00",
+      "pnl_pct_live": 2.18,
+      "progression_pct": 33.0,
+      "trail_level": 1
     },
     {
       "ticker": "AAPL",
@@ -252,9 +267,15 @@
       "news_score": null,
       "top_news_title": null,
       "top_news_url": null,
-      "status": "open",
+      "status": "expired",
       "issued_at": "2026-06-25T14:27:12.835171",
-      "last_seen": "2026-06-26T15:49:11.090432"
+      "last_seen": "2026-06-26T15:49:11.090432",
+      "current_price": 275.86,
+      "current_price_time": "2026-06-26T16:16:19.457173+00:00",
+      "exit_price": 275.86,
+      "exit_date": "2026-06-26T16:16:19.457173+00:00",
+      "pnl_pct": 1.2,
+      "pnl_pct_live": 1.2
     },
     {
       "ticker": "PLTR",
@@ -282,9 +303,15 @@
       "news_score": null,
       "top_news_title": null,
       "top_news_url": null,
-      "status": "open",
+      "status": "expired",
       "issued_at": "2026-06-25T15:53:45.328643",
-      "last_seen": "2026-06-26T15:49:11.090432"
+      "last_seen": "2026-06-26T15:49:11.090432",
+      "current_price": 113.36,
+      "current_price_time": "2026-06-26T16:16:19.457173+00:00",
+      "exit_price": 113.36,
+      "exit_date": "2026-06-26T16:16:19.457173+00:00",
+      "pnl_pct": -5.91,
+      "pnl_pct_live": -5.91
     },
     {
       "ticker": "SNPS",
@@ -319,10 +346,10 @@
       "status": "open",
       "issued_at": "2026-06-26T14:26:10.296171",
       "last_seen": "2026-06-26T14:26:10.296811",
-      "current_price": 445.79,
-      "current_price_time": "2026-06-26T15:18:46.587769+00:00",
-      "pnl_pct_live": -0.96,
-      "progression_pct": -44.1
+      "current_price": 447.46,
+      "current_price_time": "2026-06-26T16:16:19.457173+00:00",
+      "pnl_pct_live": -1.34,
+      "progression_pct": -61.5
     },
     {
       "ticker": "QCOM",
@@ -350,9 +377,15 @@
       "news_score": null,
       "top_news_title": null,
       "top_news_url": null,
-      "status": "open",
+      "status": "expired",
       "issued_at": "2026-06-25T14:27:12.835187",
-      "last_seen": "2026-06-26T15:49:11.090432"
+      "last_seen": "2026-06-26T15:49:11.090432",
+      "current_price": 199.35,
+      "current_price_time": "2026-06-26T16:16:19.457173+00:00",
+      "exit_price": 199.35,
+      "exit_date": "2026-06-26T16:16:19.457173+00:00",
+      "pnl_pct": 3.11,
+      "pnl_pct_live": 3.11
     },
     {
       "ticker": "ROKU",
