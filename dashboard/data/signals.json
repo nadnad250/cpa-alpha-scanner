@@ -1,21 +1,21 @@
 {
-  "generated_at": "2026-06-26T16:16:19.457173+00:00",
+  "generated_at": "2026-06-26T17:08:10.831144+00:00",
   "date": "2026-06-26",
   "stats": {
-    "total": 6,
+    "total": 5,
     "buy_signals": 4,
-    "sell_signals": 2,
+    "sell_signals": 1,
     "avg_confidence": 0.823,
     "avg_rr": 2.2,
-    "win_rate": 0.352,
-    "active_positions": 6,
-    "daily_pnl": -0.4928
+    "win_rate": 0.345,
+    "active_positions": 5,
+    "daily_pnl": -0.5145
   },
   "eod": {
     "tp_hit": 19,
-    "sl_hit": 35,
-    "open": 6,
-    "cumulative_pnl": -0.4928
+    "sl_hit": 36,
+    "open": 5,
+    "cumulative_pnl": -0.5145
   },
   "signals": [
     {
@@ -51,10 +51,10 @@
       "status": "open",
       "issued_at": "2026-06-26T15:49:11.089821",
       "last_seen": "2026-06-26T15:49:11.090432",
-      "current_price": 66.92,
-      "current_price_time": "2026-06-26T16:16:19.457173+00:00",
-      "pnl_pct_live": -1.66,
-      "progression_pct": -55.4
+      "current_price": 66.47,
+      "current_price_time": "2026-06-26T17:08:10.831144+00:00",
+      "pnl_pct_live": -2.32,
+      "progression_pct": -77.5
     },
     {
       "ticker": "MSFT",
@@ -89,10 +89,10 @@
       "status": "open",
       "issued_at": "2026-06-26T14:26:10.296155",
       "last_seen": "2026-06-26T14:26:10.296811",
-      "current_price": 368.42,
-      "current_price_time": "2026-06-26T16:16:19.457173+00:00",
-      "pnl_pct_live": 0.43,
-      "progression_pct": 6.4
+      "current_price": 369.42,
+      "current_price_time": "2026-06-26T17:08:10.831144+00:00",
+      "pnl_pct_live": 0.7,
+      "progression_pct": 10.6
     },
     {
       "ticker": "VRTX",
@@ -127,10 +127,10 @@
       "status": "open",
       "issued_at": "2026-06-26T14:26:10.296164",
       "last_seen": "2026-06-26T14:26:10.296811",
-      "current_price": 499.79,
-      "current_price_time": "2026-06-26T16:16:19.457173+00:00",
-      "pnl_pct_live": 0.45,
-      "progression_pct": 6.8
+      "current_price": 493.98,
+      "current_price_time": "2026-06-26T17:08:10.831144+00:00",
+      "pnl_pct_live": -0.72,
+      "progression_pct": -23.9
     },
     {
       "ticker": "DLTR",
@@ -197,10 +197,10 @@
       "status": "open",
       "issued_at": "2026-06-25T17:18:10.603669",
       "last_seen": "2026-06-26T15:49:11.090432",
-      "current_price": 641.29,
-      "current_price_time": "2026-06-26T16:16:19.457173+00:00",
-      "pnl_pct_live": -2.12,
-      "progression_pct": -70.7
+      "current_price": 657.53,
+      "current_price_time": "2026-06-26T17:08:10.831144+00:00",
+      "pnl_pct_live": 0.36,
+      "progression_pct": 5.4
     },
     {
       "ticker": "ADI",
@@ -235,10 +235,10 @@
       "status": "open",
       "issued_at": "2026-06-26T14:26:10.296138",
       "last_seen": "2026-06-26T14:26:10.296811",
-      "current_price": 385.36,
-      "current_price_time": "2026-06-26T16:16:19.457173+00:00",
-      "pnl_pct_live": 2.18,
-      "progression_pct": 33.0,
+      "current_price": 388.0,
+      "current_price_time": "2026-06-26T17:08:10.831144+00:00",
+      "pnl_pct_live": 1.51,
+      "progression_pct": 22.9,
       "trail_level": 1
     },
     {
@@ -343,13 +343,16 @@
       "news_score": null,
       "top_news_title": null,
       "top_news_url": null,
-      "status": "open",
+      "status": "sl_hit",
       "issued_at": "2026-06-26T14:26:10.296171",
       "last_seen": "2026-06-26T14:26:10.296811",
-      "current_price": 447.46,
-      "current_price_time": "2026-06-26T16:16:19.457173+00:00",
-      "pnl_pct_live": -1.34,
-      "progression_pct": -61.5
+      "current_price": 452.78,
+      "current_price_time": "2026-06-26T17:08:10.831144+00:00",
+      "pnl_pct_live": -2.17,
+      "progression_pct": -61.5,
+      "exit_price": 451.16,
+      "exit_date": "2026-06-26T17:08:10.831144+00:00",
+      "pnl_pct": -2.17
     },
     {
       "ticker": "QCOM",
