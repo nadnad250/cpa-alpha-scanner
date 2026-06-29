@@ -274,5 +274,28 @@
     "ml_proba_up": null,
     "risk_reward": 2.2,
     "primary_reason": "Cassure ORB baissière (RVOL 6.1x, -VWAP) (contre-gap)"
+  },
+  {
+    "ticker": "PANW",
+    "action": "STRONG_BUY",
+    "entry_price": 331.9150085449219,
+    "stop_loss": 321.9575582885742,
+    "take_profit": 353.82139910888674,
+    "score": 0.5714823549882613,
+    "confidence": 0.8078800008700111,
+    "universe": "NASDAQ100",
+    "issued_at": "2026-06-29T20:13:18.508181",
+    "horizon_days": 1,
+    "horizon_hours": 24,
+    "status": "open",
+    "exit_price": null,
+    "exit_date": null,
+    "pnl_pct": null,
+    "max_favorable": null,
+    "max_adverse": null,
+    "sector": "",
+    "ml_proba_up": null,
+    "risk_reward": 2.2,
+    "primary_reason": "Cassure ORB haussière (RVOL 1.7x, +VWAP) +gap"
   }
 ]
