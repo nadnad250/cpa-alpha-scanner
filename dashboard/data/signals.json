@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-06-30T13:13:47.860702+00:00",
+  "generated_at": "2026-06-30T14:00:27.292612+00:00",
   "date": "2026-06-30",
   "stats": {
     "total": 6,
@@ -47,10 +47,10 @@
       "status": "open",
       "issued_at": "2026-06-29T14:52:26.376810",
       "last_seen": "2026-06-30T08:39:03.676357",
-      "current_price": 54.35,
-      "current_price_time": "2026-06-30T13:13:47.860702+00:00",
-      "pnl_pct_live": -1.4,
-      "progression_pct": -46.7
+      "current_price": 55.1,
+      "current_price_time": "2026-06-30T14:00:27.292612+00:00",
+      "pnl_pct_live": -0.04,
+      "progression_pct": -1.2
     },
     {
       "ticker": "CRWD",
@@ -81,10 +81,10 @@
       "status": "open",
       "issued_at": "2026-06-29T14:52:26.376826",
       "last_seen": "2026-06-30T08:39:03.676357",
-      "current_price": 742.56,
-      "current_price_time": "2026-06-30T13:13:47.860702+00:00",
-      "pnl_pct_live": -0.55,
-      "progression_pct": -18.4
+      "current_price": 757.29,
+      "current_price_time": "2026-06-30T14:00:27.292612+00:00",
+      "pnl_pct_live": 1.42,
+      "progression_pct": 21.5
     },
     {
       "ticker": "AMZN",
@@ -115,10 +115,10 @@
       "status": "open",
       "issued_at": "2026-06-29T14:52:26.376829",
       "last_seen": "2026-06-30T08:39:03.676357",
-      "current_price": 240.12,
-      "current_price_time": "2026-06-30T13:13:47.860702+00:00",
-      "pnl_pct_live": -2.35,
-      "progression_pct": -78.3
+      "current_price": 238.53,
+      "current_price_time": "2026-06-30T14:00:27.292612+00:00",
+      "pnl_pct_live": -3.0,
+      "progression_pct": -99.9
     },
     {
       "ticker": "MSFT",
@@ -233,7 +233,7 @@
       "action": "STRONG_SELL",
       "price": 171.07,
       "take_profit": 159.77,
-      "stop_loss": 176.2,
+      "stop_loss": 171.07,
       "upside_pct": 6.6,
       "confidence": 0.871,
       "score": -0.7198,
@@ -257,10 +257,11 @@
       "status": "open",
       "issued_at": "2026-06-29T14:52:26.376821",
       "last_seen": "2026-06-30T08:39:03.676357",
-      "current_price": 173.98,
-      "current_price_time": "2026-06-30T13:13:47.860702+00:00",
-      "pnl_pct_live": -1.7,
-      "progression_pct": -56.7
+      "current_price": 166.68,
+      "current_price_time": "2026-06-30T14:00:27.292612+00:00",
+      "pnl_pct_live": 2.57,
+      "progression_pct": 38.8,
+      "trail_level": 1
     },
     {
       "ticker": "ADI",
@@ -327,11 +328,11 @@
       "status": "open",
       "issued_at": "2026-06-29T18:36:11.831243",
       "last_seen": "2026-06-30T08:39:03.676357",
-      "current_price": 227.71,
-      "current_price_time": "2026-06-30T13:13:47.860702+00:00",
-      "pnl_pct_live": 2.91,
+      "current_price": 227.27,
+      "current_price_time": "2026-06-30T14:00:27.292612+00:00",
+      "pnl_pct_live": 3.1,
       "trail_level": 1,
-      "progression_pct": 44.1
+      "progression_pct": 47.0
     },
     {
       "ticker": "CMCSA",
@@ -366,10 +367,10 @@
       "status": "open",
       "issued_at": "2026-06-29T18:36:11.831260",
       "last_seen": "2026-06-30T08:39:03.676357",
-      "current_price": 24.19,
-      "current_price_time": "2026-06-30T13:13:47.860702+00:00",
-      "pnl_pct_live": 0.0,
-      "progression_pct": 0.0
+      "current_price": 24.33,
+      "current_price_time": "2026-06-30T14:00:27.292612+00:00",
+      "pnl_pct_live": -0.58,
+      "progression_pct": -19.2
     },
     {
       "ticker": "MRNA",
