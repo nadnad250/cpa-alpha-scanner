@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-06-30T16:07:52.751216+00:00",
+  "generated_at": "2026-06-30T16:57:49.438330+00:00",
   "date": "2026-06-30",
   "stats": {
     "total": 2,
@@ -335,11 +335,11 @@
       "status": "open",
       "issued_at": "2026-06-29T18:36:11.831243",
       "last_seen": "2026-06-30T15:54:31.606657",
-      "current_price": 223.51,
-      "current_price_time": "2026-06-30T16:07:52.751216+00:00",
-      "pnl_pct_live": 4.7,
+      "current_price": 224.94,
+      "current_price_time": "2026-06-30T16:57:49.438330+00:00",
+      "pnl_pct_live": 4.09,
       "trail_level": 2,
-      "progression_pct": 71.3
+      "progression_pct": 62.0
     },
     {
       "ticker": "CMCSA",
@@ -370,10 +370,10 @@
       "status": "open",
       "issued_at": "2026-06-29T18:36:11.831260",
       "last_seen": "2026-06-30T15:54:31.606657",
-      "current_price": 24.53,
-      "current_price_time": "2026-06-30T16:07:52.751216+00:00",
-      "pnl_pct_live": 0.28,
-      "progression_pct": 4.3
+      "current_price": 24.47,
+      "current_price_time": "2026-06-30T16:57:49.438330+00:00",
+      "pnl_pct_live": 0.53,
+      "progression_pct": 8.0
     },
     {
       "ticker": "MRNA",
