@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-06-30T17:42:43.618927+00:00",
+  "generated_at": "2026-06-30T18:22:10.951339+00:00",
   "date": "2026-06-30",
   "stats": {
     "total": 1,
@@ -375,11 +375,11 @@
       "status": "open",
       "issued_at": "2026-06-29T18:36:11.831267",
       "last_seen": "2026-06-30T17:13:34.410011",
-      "current_price": 139.52,
-      "current_price_time": "2026-06-30T17:42:43.618927+00:00",
-      "pnl_pct_live": 4.22,
+      "current_price": 138.88,
+      "current_price_time": "2026-06-30T18:22:10.951339+00:00",
+      "pnl_pct_live": 4.66,
       "trail_level": 2,
-      "progression_pct": 64.0
+      "progression_pct": 70.7
     },
     {
       "ticker": "MRNA",
