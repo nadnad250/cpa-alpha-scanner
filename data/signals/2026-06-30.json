@@ -1,0 +1,25 @@
+[
+  {
+    "ticker": "KLAC",
+    "action": "STRONG_BUY",
+    "entry_price": 303.0299987792969,
+    "stop_loss": 293.939098815918,
+    "take_profit": 323.0299786987305,
+    "score": 0.6078682331629586,
+    "confidence": 0.8233439990942574,
+    "universe": "NASDAQ100",
+    "issued_at": "2026-06-30T17:13:34.409528",
+    "horizon_days": 1,
+    "horizon_hours": 24,
+    "status": "open",
+    "exit_price": null,
+    "exit_date": null,
+    "pnl_pct": null,
+    "max_favorable": null,
+    "max_adverse": null,
+    "sector": "",
+    "ml_proba_up": null,
+    "risk_reward": 2.2,
+    "primary_reason": "Cassure ORB haussière (RVOL 1.7x, +VWAP) +gap"
+  }
+]
