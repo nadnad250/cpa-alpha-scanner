@@ -1,21 +1,21 @@
 {
-  "generated_at": "2026-07-01T14:26:56.424914",
+  "generated_at": "2026-07-01T15:25:04.533018+00:00",
   "date": "2026-07-01",
   "stats": {
-    "total": 3,
-    "buy_signals": 2,
+    "total": 2,
+    "buy_signals": 1,
     "sell_signals": 1,
     "avg_confidence": 0.88,
     "avg_rr": 2.2,
-    "win_rate": 0.34,
-    "active_positions": 3,
-    "daily_pnl": -0.6262
+    "win_rate": 0.333,
+    "active_positions": 2,
+    "daily_pnl": -0.6562
   },
   "eod": {
     "tp_hit": 17,
-    "sl_hit": 33,
-    "open": 3,
-    "cumulative_pnl": -0.6262
+    "sl_hit": 34,
+    "open": 2,
+    "cumulative_pnl": -0.6562
   },
   "signals": [
     {
@@ -23,7 +23,7 @@
       "action": "STRONG_BUY",
       "price": 612.23,
       "take_profit": 649.92,
-      "stop_loss": 595.1,
+      "stop_loss": 612.23,
       "upside_pct": 6.2,
       "confidence": 0.953,
       "score": 0.9132,
@@ -50,7 +50,12 @@
       "top_news_url": null,
       "status": "open",
       "issued_at": "2026-07-01T14:26:56.424325",
-      "last_seen": "2026-07-01T14:26:56.424914"
+      "last_seen": "2026-07-01T14:26:56.424914",
+      "current_price": 624.07,
+      "current_price_time": "2026-07-01T15:25:04.533018+00:00",
+      "pnl_pct_live": 1.93,
+      "trail_level": 1,
+      "progression_pct": 31.4
     },
     {
       "ticker": "KLAC",
@@ -78,16 +83,22 @@
       "news_score": null,
       "top_news_title": null,
       "top_news_url": null,
-      "status": "open",
+      "status": "sl_hit",
       "issued_at": "2026-06-30T17:13:34.409528",
-      "last_seen": "2026-07-01T14:26:56.424914"
+      "last_seen": "2026-07-01T14:26:56.424914",
+      "current_price": 272.77,
+      "current_price_time": "2026-07-01T15:25:04.533018+00:00",
+      "exit_price": 293.94,
+      "exit_date": "2026-07-01T15:25:04.533018+00:00",
+      "pnl_pct": -3.0,
+      "pnl_pct_live": -3.0
     },
     {
       "ticker": "CEG",
       "action": "STRONG_SELL",
       "price": 237.91,
       "take_profit": 222.21,
-      "stop_loss": 245.05,
+      "stop_loss": 237.91,
       "upside_pct": 6.6,
       "confidence": 0.863,
       "score": -0.7006,
@@ -114,7 +125,12 @@
       "top_news_url": null,
       "status": "open",
       "issued_at": "2026-07-01T14:26:56.424336",
-      "last_seen": "2026-07-01T14:26:56.424914"
+      "last_seen": "2026-07-01T14:26:56.424914",
+      "current_price": 233.13,
+      "current_price_time": "2026-07-01T15:25:04.533018+00:00",
+      "pnl_pct_live": 2.01,
+      "trail_level": 1,
+      "progression_pct": 30.4
     },
     {
       "ticker": "MRNA",
