@@ -1,21 +1,21 @@
 {
-  "generated_at": "2026-07-01T17:18:21.922175",
+  "generated_at": "2026-07-01T18:11:10.231706+00:00",
   "date": "2026-07-01",
   "stats": {
-    "total": 6,
-    "buy_signals": 3,
+    "total": 5,
+    "buy_signals": 2,
     "sell_signals": 3,
     "avg_confidence": 0.858,
     "avg_rr": 2.2,
-    "win_rate": 0.34,
-    "active_positions": 6,
-    "daily_pnl": -0.6262
+    "win_rate": 0.333,
+    "active_positions": 5,
+    "daily_pnl": -0.755
   },
   "eod": {
     "tp_hit": 17,
-    "sl_hit": 33,
-    "open": 6,
-    "cumulative_pnl": -0.6262
+    "sl_hit": 34,
+    "open": 5,
+    "cumulative_pnl": -0.755
   },
   "signals": [
     {
@@ -51,11 +51,11 @@
       "status": "open",
       "issued_at": "2026-07-01T14:26:56.424325",
       "last_seen": "2026-07-01T14:26:56.424914",
-      "current_price": 618.16,
-      "current_price_time": "2026-07-01T17:15:55.375436+00:00",
-      "pnl_pct_live": 0.97,
+      "current_price": 619.65,
+      "current_price_time": "2026-07-01T18:11:10.231706+00:00",
+      "pnl_pct_live": 1.21,
       "trail_level": 1,
-      "progression_pct": 15.7
+      "progression_pct": 19.7
     },
     {
       "ticker": "KLAC",
@@ -83,9 +83,15 @@
       "news_score": null,
       "top_news_title": null,
       "top_news_url": null,
-      "status": "open",
+      "status": "expired",
       "issued_at": "2026-06-30T17:13:34.409528",
-      "last_seen": "2026-07-01T17:18:21.922175"
+      "last_seen": "2026-07-01T17:18:21.922175",
+      "current_price": 264.01,
+      "current_price_time": "2026-07-01T18:11:10.231706+00:00",
+      "exit_price": 264.01,
+      "exit_date": "2026-07-01T18:11:10.231706+00:00",
+      "pnl_pct": -12.88,
+      "pnl_pct_live": -12.88
     },
     {
       "ticker": "COIN",
@@ -119,7 +125,11 @@
       "top_news_url": null,
       "status": "open",
       "issued_at": "2026-07-01T17:18:21.921542",
-      "last_seen": "2026-07-01T17:18:21.922175"
+      "last_seen": "2026-07-01T17:18:21.922175",
+      "current_price": 162.41,
+      "current_price_time": "2026-07-01T18:11:10.231706+00:00",
+      "pnl_pct_live": 0.01,
+      "progression_pct": 0.1
     },
     {
       "ticker": "CEG",
@@ -154,11 +164,11 @@
       "status": "open",
       "issued_at": "2026-07-01T14:26:56.424336",
       "last_seen": "2026-07-01T14:26:56.424914",
-      "current_price": 233.19,
-      "current_price_time": "2026-07-01T17:15:55.375436+00:00",
-      "pnl_pct_live": 1.98,
+      "current_price": 233.45,
+      "current_price_time": "2026-07-01T18:11:10.231706+00:00",
+      "pnl_pct_live": 1.87,
       "trail_level": 1,
-      "progression_pct": 30.1
+      "progression_pct": 28.4
     },
     {
       "ticker": "RIOT",
@@ -193,17 +203,17 @@
       "status": "open",
       "issued_at": "2026-07-01T15:54:11.916148",
       "last_seen": "2026-07-01T15:54:11.916885",
-      "current_price": 24.85,
-      "current_price_time": "2026-07-01T17:15:55.375436+00:00",
-      "pnl_pct_live": -1.93,
-      "progression_pct": -64.4
+      "current_price": 24.31,
+      "current_price_time": "2026-07-01T18:11:10.231706+00:00",
+      "pnl_pct_live": 0.29,
+      "progression_pct": 4.3
     },
     {
       "ticker": "KLAC",
       "action": "STRONG_SELL",
       "price": 271.24,
       "take_profit": 253.34,
-      "stop_loss": 279.38,
+      "stop_loss": 271.24,
       "upside_pct": 6.6,
       "confidence": 0.848,
       "score": -0.6649,
@@ -231,10 +241,11 @@
       "status": "open",
       "issued_at": "2026-07-01T15:54:11.916164",
       "last_seen": "2026-07-01T15:54:11.916885",
-      "current_price": 269.23,
-      "current_price_time": "2026-07-01T17:15:55.375436+00:00",
-      "pnl_pct_live": 0.74,
-      "progression_pct": 11.2
+      "current_price": 264.01,
+      "current_price_time": "2026-07-01T18:11:10.231706+00:00",
+      "pnl_pct_live": 2.67,
+      "progression_pct": 40.4,
+      "trail_level": 1
     },
     {
       "ticker": "MRNA",
