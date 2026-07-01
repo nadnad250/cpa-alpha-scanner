@@ -1,21 +1,21 @@
 {
-  "generated_at": "2026-07-01T19:35:04.235066+00:00",
+  "generated_at": "2026-07-01T20:11:32.860455",
   "date": "2026-07-01",
   "stats": {
-    "total": 5,
-    "buy_signals": 2,
+    "total": 6,
+    "buy_signals": 3,
     "sell_signals": 3,
-    "avg_confidence": 0.864,
+    "avg_confidence": 0.866,
     "avg_rr": 2.2,
-    "win_rate": 0.314,
-    "active_positions": 5,
-    "daily_pnl": -0.9058
+    "win_rate": 0.32,
+    "active_positions": 6,
+    "daily_pnl": -0.777
   },
   "eod": {
     "tp_hit": 16,
-    "sl_hit": 35,
-    "open": 5,
-    "cumulative_pnl": -0.9058
+    "sl_hit": 34,
+    "open": 6,
+    "cumulative_pnl": -0.777
   },
   "signals": [
     {
@@ -82,15 +82,9 @@
       "news_score": null,
       "top_news_title": null,
       "top_news_url": null,
-      "status": "expired",
+      "status": "open",
       "issued_at": "2026-06-30T17:13:34.409528",
-      "last_seen": "2026-07-01T18:34:02.525479",
-      "current_price": 260.03,
-      "current_price_time": "2026-07-01T18:56:10.662535+00:00",
-      "exit_price": 260.03,
-      "exit_date": "2026-07-01T18:56:10.662535+00:00",
-      "pnl_pct": -14.19,
-      "pnl_pct_live": -14.19
+      "last_seen": "2026-07-01T20:11:32.860455"
     },
     {
       "ticker": "COIN",
@@ -133,26 +127,26 @@
     {
       "ticker": "KLAC",
       "action": "STRONG_SELL",
-      "price": 262.74,
-      "take_profit": 245.4,
-      "stop_loss": 270.63,
+      "price": 266.38,
+      "take_profit": 248.8,
+      "stop_loss": 274.37,
       "upside_pct": 6.6,
-      "confidence": 0.907,
-      "score": -0.804,
+      "confidence": 0.917,
+      "score": -0.8291,
       "risk_reward": 2.2,
       "kelly_position": 0.12,
       "cpa_alpha": null,
       "ml_proba_up": null,
       "sector": "—",
       "universe": "NASDAQ100",
-      "primary_reason": "Cassure ORB baissière (RVOL 2.3x, -VWAP) +gap",
+      "primary_reason": "Cassure ORB baissière (RVOL 2.4x, -VWAP) +gap",
       "secondary_reasons": [
-        "RVOL 2.3x",
+        "RVOL 2.4x",
         "VWAP en-dessous",
         "Gap -5.4%"
       ],
       "risk_flags": [],
-      "intrinsic_value": 245.4,
+      "intrinsic_value": 248.8,
       "value_gap": null,
       "factor_premia": null,
       "mean_reversion": null,
@@ -162,11 +156,7 @@
       "top_news_url": null,
       "status": "open",
       "issued_at": "2026-07-01T15:54:11.916164",
-      "last_seen": "2026-07-01T18:34:02.525479",
-      "current_price": 266.07,
-      "current_price_time": "2026-07-01T19:35:04.235066+00:00",
-      "pnl_pct_live": -1.27,
-      "progression_pct": -42.2
+      "last_seen": "2026-07-01T20:11:32.860455"
     },
     {
       "ticker": "CEG",
@@ -209,26 +199,26 @@
     {
       "ticker": "RIOT",
       "action": "STRONG_SELL",
-      "price": 24.58,
-      "take_profit": 22.96,
-      "stop_loss": 25.32,
+      "price": 23.96,
+      "take_profit": 22.38,
+      "stop_loss": 24.68,
       "upside_pct": 6.6,
-      "confidence": 0.809,
-      "score": -0.5732,
+      "confidence": 0.814,
+      "score": -0.5867,
       "risk_reward": 2.2,
       "kelly_position": 0.1,
       "cpa_alpha": null,
       "ml_proba_up": null,
       "sector": "—",
       "universe": "NASDAQ100",
-      "primary_reason": "Cassure ORB baissière (RVOL 1.7x, -VWAP) +gap",
+      "primary_reason": "Cassure ORB baissière (RVOL 1.6x, -VWAP) +gap",
       "secondary_reasons": [
-        "RVOL 1.7x",
+        "RVOL 1.6x",
         "VWAP en-dessous",
         "Gap -1.9%"
       ],
       "risk_flags": [],
-      "intrinsic_value": 22.96,
+      "intrinsic_value": 22.38,
       "value_gap": null,
       "factor_premia": null,
       "mean_reversion": null,
@@ -238,11 +228,7 @@
       "top_news_url": null,
       "status": "open",
       "issued_at": "2026-07-01T15:54:11.916148",
-      "last_seen": "2026-07-01T18:34:02.525479",
-      "current_price": 24.43,
-      "current_price_time": "2026-07-01T19:35:04.235066+00:00",
-      "pnl_pct_live": 0.61,
-      "progression_pct": 9.3
+      "last_seen": "2026-07-01T20:11:32.860455"
     },
     {
       "ticker": "MRNA",
@@ -673,13 +659,13 @@
       "top_news_url": null,
       "status": "expired",
       "issued_at": "2026-06-30T17:13:34.409528",
-      "last_seen": "2026-07-01T17:18:21.922175",
-      "current_price": 264.01,
-      "current_price_time": "2026-07-01T18:11:10.231706+00:00",
-      "exit_price": 264.01,
-      "exit_date": "2026-07-01T18:11:10.231706+00:00",
-      "pnl_pct": -12.88,
-      "pnl_pct_live": -12.88
+      "last_seen": "2026-07-01T18:34:02.525479",
+      "current_price": 260.03,
+      "current_price_time": "2026-07-01T18:56:10.662535+00:00",
+      "exit_price": 260.03,
+      "exit_date": "2026-07-01T18:56:10.662535+00:00",
+      "pnl_pct": -14.19,
+      "pnl_pct_live": -14.19
     },
     {
       "ticker": "KLAC",
