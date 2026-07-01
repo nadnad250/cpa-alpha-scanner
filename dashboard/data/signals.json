@@ -1,21 +1,21 @@
 {
-  "generated_at": "2026-07-01T20:11:32.860455",
+  "generated_at": "2026-07-01T20:23:53.881790+00:00",
   "date": "2026-07-01",
   "stats": {
-    "total": 6,
-    "buy_signals": 3,
-    "sell_signals": 3,
+    "total": 0,
+    "buy_signals": 0,
+    "sell_signals": 0,
     "avg_confidence": 0.866,
     "avg_rr": 2.2,
-    "win_rate": 0.32,
-    "active_positions": 6,
-    "daily_pnl": -0.777
+    "win_rate": 0.286,
+    "active_positions": 0,
+    "daily_pnl": -0.9439
   },
   "eod": {
     "tp_hit": 16,
-    "sl_hit": 34,
-    "open": 6,
-    "cumulative_pnl": -0.777
+    "sl_hit": 40,
+    "open": 0,
+    "cumulative_pnl": -0.9439
   },
   "signals": [
     {
@@ -48,13 +48,16 @@
       "news_score": null,
       "top_news_title": null,
       "top_news_url": null,
-      "status": "open",
+      "status": "expired",
       "issued_at": "2026-07-01T14:26:56.424325",
       "last_seen": "2026-07-01T18:34:02.525479",
-      "current_price": 615.45,
-      "current_price_time": "2026-07-01T19:35:04.235066+00:00",
-      "pnl_pct_live": -0.81,
-      "progression_pct": -27.1
+      "current_price": 612.95,
+      "current_price_time": "2026-07-01T20:23:53.881790+00:00",
+      "pnl_pct_live": -1.22,
+      "progression_pct": -27.1,
+      "exit_price": 612.95,
+      "exit_date": "2026-07-01T20:23:53.881790+00:00",
+      "pnl_pct": -1.22
     },
     {
       "ticker": "KLAC",
@@ -82,9 +85,15 @@
       "news_score": null,
       "top_news_title": null,
       "top_news_url": null,
-      "status": "open",
+      "status": "expired",
       "issued_at": "2026-06-30T17:13:34.409528",
-      "last_seen": "2026-07-01T20:11:32.860455"
+      "last_seen": "2026-07-01T20:11:32.860455",
+      "current_price": 266.38,
+      "current_price_time": "2026-07-01T20:23:53.881790+00:00",
+      "exit_price": 266.38,
+      "exit_date": "2026-07-01T20:23:53.881790+00:00",
+      "pnl_pct": -12.09,
+      "pnl_pct_live": -12.09
     },
     {
       "ticker": "COIN",
@@ -116,13 +125,16 @@
       "news_score": null,
       "top_news_title": null,
       "top_news_url": null,
-      "status": "open",
+      "status": "expired",
       "issued_at": "2026-07-01T17:18:21.921542",
       "last_seen": "2026-07-01T17:18:21.922175",
-      "current_price": 160.97,
-      "current_price_time": "2026-07-01T19:35:04.235066+00:00",
-      "pnl_pct_live": -0.88,
-      "progression_pct": -29.4
+      "current_price": 159.36,
+      "current_price_time": "2026-07-01T20:23:53.881790+00:00",
+      "pnl_pct_live": -1.87,
+      "progression_pct": -29.4,
+      "exit_price": 159.36,
+      "exit_date": "2026-07-01T20:23:53.881790+00:00",
+      "pnl_pct": -1.87
     },
     {
       "ticker": "KLAC",
@@ -154,9 +166,15 @@
       "news_score": null,
       "top_news_title": null,
       "top_news_url": null,
-      "status": "open",
+      "status": "expired",
       "issued_at": "2026-07-01T15:54:11.916164",
-      "last_seen": "2026-07-01T20:11:32.860455"
+      "last_seen": "2026-07-01T20:11:32.860455",
+      "current_price": 266.38,
+      "current_price_time": "2026-07-01T20:23:53.881790+00:00",
+      "exit_price": 266.38,
+      "exit_date": "2026-07-01T20:23:53.881790+00:00",
+      "pnl_pct": 0.0,
+      "pnl_pct_live": 0.0
     },
     {
       "ticker": "CEG",
@@ -188,13 +206,16 @@
       "news_score": null,
       "top_news_title": null,
       "top_news_url": null,
-      "status": "open",
+      "status": "expired",
       "issued_at": "2026-07-01T14:26:56.424336",
       "last_seen": "2026-07-01T18:34:02.525479",
-      "current_price": 232.81,
-      "current_price_time": "2026-07-01T19:35:04.235066+00:00",
-      "pnl_pct_live": 0.05,
-      "progression_pct": 0.8
+      "current_price": 236.44,
+      "current_price_time": "2026-07-01T20:23:53.881790+00:00",
+      "pnl_pct_live": -1.51,
+      "progression_pct": 0.8,
+      "exit_price": 236.44,
+      "exit_date": "2026-07-01T20:23:53.881790+00:00",
+      "pnl_pct": -1.51
     },
     {
       "ticker": "RIOT",
@@ -226,9 +247,15 @@
       "news_score": null,
       "top_news_title": null,
       "top_news_url": null,
-      "status": "open",
+      "status": "expired",
       "issued_at": "2026-07-01T15:54:11.916148",
-      "last_seen": "2026-07-01T20:11:32.860455"
+      "last_seen": "2026-07-01T20:11:32.860455",
+      "current_price": 23.96,
+      "current_price_time": "2026-07-01T20:23:53.881790+00:00",
+      "exit_price": 23.96,
+      "exit_date": "2026-07-01T20:23:53.881790+00:00",
+      "pnl_pct": 0.0,
+      "pnl_pct_live": 0.0
     },
     {
       "ticker": "MRNA",
