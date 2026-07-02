@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-02T14:24:15.870983",
+  "generated_at": "2026-07-02T15:11:38.023463+00:00",
   "date": "2026-07-02",
   "stats": {
     "total": 3,
@@ -50,7 +50,11 @@
       "top_news_url": null,
       "status": "open",
       "issued_at": "2026-07-02T14:24:15.870459",
-      "last_seen": "2026-07-02T14:24:15.870983"
+      "last_seen": "2026-07-02T14:24:15.870983",
+      "current_price": 97.58,
+      "current_price_time": "2026-07-02T15:11:38.023463+00:00",
+      "pnl_pct_live": -0.31,
+      "progression_pct": -10.2
     },
     {
       "ticker": "CRSP",
@@ -84,7 +88,11 @@
       "top_news_url": null,
       "status": "open",
       "issued_at": "2026-07-02T14:24:15.870471",
-      "last_seen": "2026-07-02T14:24:15.870983"
+      "last_seen": "2026-07-02T14:24:15.870983",
+      "current_price": 59.54,
+      "current_price_time": "2026-07-02T15:11:38.023463+00:00",
+      "pnl_pct_live": -1.44,
+      "progression_pct": -48.1
     },
     {
       "ticker": "MRNA",
@@ -118,7 +126,11 @@
       "top_news_url": null,
       "status": "open",
       "issued_at": "2026-07-02T14:24:15.870476",
-      "last_seen": "2026-07-02T14:24:15.870983"
+      "last_seen": "2026-07-02T14:24:15.870983",
+      "current_price": 77.1,
+      "current_price_time": "2026-07-02T15:11:38.023463+00:00",
+      "pnl_pct_live": -2.13,
+      "progression_pct": -71.2
     },
     {
       "ticker": "META",
