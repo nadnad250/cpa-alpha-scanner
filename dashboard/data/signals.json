@@ -1,21 +1,21 @@
 {
-  "generated_at": "2026-07-02T18:28:30.733601",
+  "generated_at": "2026-07-02T18:47:33.977301+00:00",
   "date": "2026-07-02",
   "stats": {
-    "total": 10,
-    "buy_signals": 7,
-    "sell_signals": 3,
+    "total": 5,
+    "buy_signals": 5,
+    "sell_signals": 0,
     "avg_confidence": 0.847,
     "avg_rr": 2.2,
-    "win_rate": 0.38,
-    "active_positions": 10,
-    "daily_pnl": -0.3955
+    "win_rate": 0.4,
+    "active_positions": 5,
+    "daily_pnl": -0.3286
   },
   "eod": {
-    "tp_hit": 19,
-    "sl_hit": 31,
-    "open": 10,
-    "cumulative_pnl": -0.3955
+    "tp_hit": 22,
+    "sl_hit": 33,
+    "open": 5,
+    "cumulative_pnl": -0.3286
   },
   "signals": [
     {
@@ -44,9 +44,15 @@
       "news_score": null,
       "top_news_title": null,
       "top_news_url": null,
-      "status": "open",
+      "status": "expired",
       "issued_at": "2026-07-01T14:26:56.424325",
-      "last_seen": "2026-07-02T17:06:37.948525"
+      "last_seen": "2026-07-02T17:06:37.948525",
+      "current_price": 585.9,
+      "current_price_time": "2026-07-02T18:47:33.977301+00:00",
+      "exit_price": 585.9,
+      "exit_date": "2026-07-02T18:47:33.977301+00:00",
+      "pnl_pct": -4.3,
+      "pnl_pct_live": -4.3
     },
     {
       "ticker": "BNTX",
@@ -81,10 +87,10 @@
       "status": "open",
       "issued_at": "2026-07-02T14:24:15.870459",
       "last_seen": "2026-07-02T14:24:15.870983",
-      "current_price": 96.53,
-      "current_price_time": "2026-07-02T17:01:33.156607+00:00",
-      "pnl_pct_live": -1.38,
-      "progression_pct": -45.9
+      "current_price": 97.53,
+      "current_price_time": "2026-07-02T18:47:33.977301+00:00",
+      "pnl_pct_live": -0.36,
+      "progression_pct": -11.9
     },
     {
       "ticker": "CRSP",
@@ -114,7 +120,11 @@
       "top_news_url": null,
       "status": "open",
       "issued_at": "2026-07-02T14:24:15.870471",
-      "last_seen": "2026-07-02T17:06:37.948525"
+      "last_seen": "2026-07-02T17:06:37.948525",
+      "current_price": 59.21,
+      "current_price_time": "2026-07-02T18:47:33.977301+00:00",
+      "pnl_pct_live": -1.99,
+      "progression_pct": -66.3
     },
     {
       "ticker": "MRNA",
@@ -148,7 +158,11 @@
       "top_news_url": null,
       "status": "open",
       "issued_at": "2026-07-02T14:24:15.870476",
-      "last_seen": "2026-07-02T18:28:30.733601"
+      "last_seen": "2026-07-02T18:28:30.733601",
+      "current_price": 79.04,
+      "current_price_time": "2026-07-02T18:47:33.977301+00:00",
+      "pnl_pct_live": 0.13,
+      "progression_pct": 1.9
     },
     {
       "ticker": "COIN",
@@ -176,9 +190,15 @@
       "news_score": null,
       "top_news_title": null,
       "top_news_url": null,
-      "status": "open",
+      "status": "expired",
       "issued_at": "2026-07-01T17:18:21.921542",
-      "last_seen": "2026-07-02T18:28:30.733601"
+      "last_seen": "2026-07-02T18:28:30.733601",
+      "current_price": 165.51,
+      "current_price_time": "2026-07-02T18:47:33.977301+00:00",
+      "exit_price": 165.51,
+      "exit_date": "2026-07-02T18:47:33.977301+00:00",
+      "pnl_pct": 1.92,
+      "pnl_pct_live": 1.92
     },
     {
       "ticker": "AZN",
@@ -213,10 +233,10 @@
       "status": "open",
       "issued_at": "2026-07-02T15:48:52.483715",
       "last_seen": "2026-07-02T15:48:52.484458",
-      "current_price": 193.51,
-      "current_price_time": "2026-07-02T17:01:33.156607+00:00",
-      "pnl_pct_live": -0.24,
-      "progression_pct": -9.8
+      "current_price": 194.09,
+      "current_price_time": "2026-07-02T18:47:33.977301+00:00",
+      "pnl_pct_live": 0.06,
+      "progression_pct": 1.0
     },
     {
       "ticker": "CRWD",
@@ -251,10 +271,10 @@
       "status": "open",
       "issued_at": "2026-07-02T15:48:52.483728",
       "last_seen": "2026-07-02T15:48:52.484458",
-      "current_price": 194.61,
-      "current_price_time": "2026-07-02T17:01:33.156607+00:00",
-      "pnl_pct_live": -1.6,
-      "progression_pct": -53.5
+      "current_price": 196.52,
+      "current_price_time": "2026-07-02T18:47:33.977301+00:00",
+      "pnl_pct_live": -0.64,
+      "progression_pct": -21.2
     },
     {
       "ticker": "CEG",
@@ -282,9 +302,15 @@
       "news_score": null,
       "top_news_title": null,
       "top_news_url": null,
-      "status": "open",
+      "status": "expired",
       "issued_at": "2026-07-01T14:26:56.424336",
-      "last_seen": "2026-07-02T17:06:37.948525"
+      "last_seen": "2026-07-02T17:06:37.948525",
+      "current_price": 240.53,
+      "current_price_time": "2026-07-02T18:47:33.977301+00:00",
+      "exit_price": 240.53,
+      "exit_date": "2026-07-02T18:47:33.977301+00:00",
+      "pnl_pct": -1.1,
+      "pnl_pct_live": -1.1
     },
     {
       "ticker": "RIOT",
@@ -312,9 +338,15 @@
       "news_score": null,
       "top_news_title": null,
       "top_news_url": null,
-      "status": "open",
+      "status": "expired",
       "issued_at": "2026-07-01T15:54:11.916148",
-      "last_seen": "2026-07-02T17:06:37.948525"
+      "last_seen": "2026-07-02T17:06:37.948525",
+      "current_price": 22.1,
+      "current_price_time": "2026-07-02T18:47:33.977301+00:00",
+      "exit_price": 22.1,
+      "exit_date": "2026-07-02T18:47:33.977301+00:00",
+      "pnl_pct": 9.35,
+      "pnl_pct_live": 9.35
     },
     {
       "ticker": "KLAC",
@@ -346,9 +378,15 @@
       "news_score": null,
       "top_news_title": null,
       "top_news_url": null,
-      "status": "open",
+      "status": "expired",
       "issued_at": "2026-07-01T15:54:11.916164",
-      "last_seen": "2026-07-02T18:28:30.733601"
+      "last_seen": "2026-07-02T18:28:30.733601",
+      "current_price": 228.66,
+      "current_price_time": "2026-07-02T18:47:33.977301+00:00",
+      "exit_price": 228.66,
+      "exit_date": "2026-07-02T18:47:33.977301+00:00",
+      "pnl_pct": 0.82,
+      "pnl_pct_live": 0.82
     },
     {
       "ticker": "META",
