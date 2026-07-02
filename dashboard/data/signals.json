@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-02T08:30:51.167655",
+  "generated_at": "2026-07-02T10:50:37.253826+00:00",
   "date": "2026-07-02",
   "stats": {
     "total": 5,
@@ -46,7 +46,11 @@
       "top_news_url": null,
       "status": "open",
       "issued_at": "2026-07-01T14:26:56.424325",
-      "last_seen": "2026-07-02T08:30:51.167655"
+      "last_seen": "2026-07-02T08:30:51.167655",
+      "current_price": 612.95,
+      "current_price_time": "2026-07-02T10:50:37.253826+00:00",
+      "pnl_pct_live": 0.12,
+      "progression_pct": 1.9
     },
     {
       "ticker": "COIN",
@@ -76,7 +80,11 @@
       "top_news_url": null,
       "status": "open",
       "issued_at": "2026-07-01T17:18:21.921542",
-      "last_seen": "2026-07-02T08:30:51.167655"
+      "last_seen": "2026-07-02T08:30:51.167655",
+      "current_price": 159.36,
+      "current_price_time": "2026-07-02T10:50:37.253826+00:00",
+      "pnl_pct_live": -1.87,
+      "progression_pct": -62.4
     },
     {
       "ticker": "KLAC",
@@ -110,7 +118,11 @@
       "top_news_url": null,
       "status": "open",
       "issued_at": "2026-07-01T15:54:11.916164",
-      "last_seen": "2026-07-02T08:30:51.167655"
+      "last_seen": "2026-07-02T08:30:51.167655",
+      "current_price": 266.38,
+      "current_price_time": "2026-07-02T10:50:37.253826+00:00",
+      "pnl_pct_live": 0.0,
+      "progression_pct": 0.0
     },
     {
       "ticker": "CEG",
@@ -140,7 +152,11 @@
       "top_news_url": null,
       "status": "open",
       "issued_at": "2026-07-01T14:26:56.424336",
-      "last_seen": "2026-07-02T08:30:51.167655"
+      "last_seen": "2026-07-02T08:30:51.167655",
+      "current_price": 236.44,
+      "current_price_time": "2026-07-02T10:50:37.253826+00:00",
+      "pnl_pct_live": 0.62,
+      "progression_pct": 9.4
     },
     {
       "ticker": "RIOT",
@@ -174,7 +190,11 @@
       "top_news_url": null,
       "status": "open",
       "issued_at": "2026-07-01T15:54:11.916148",
-      "last_seen": "2026-07-02T08:30:51.167655"
+      "last_seen": "2026-07-02T08:30:51.167655",
+      "current_price": 23.96,
+      "current_price_time": "2026-07-02T10:50:37.253826+00:00",
+      "pnl_pct_live": 0.0,
+      "progression_pct": 0.0
     },
     {
       "ticker": "META",
