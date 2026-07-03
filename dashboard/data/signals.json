@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-03T10:14:29.373075",
+  "generated_at": "2026-07-03T12:06:01.777263+00:00",
   "date": "2026-07-03",
   "stats": {
     "total": 9,
@@ -46,7 +46,11 @@
       "top_news_url": null,
       "status": "open",
       "issued_at": "2026-07-02T14:24:15.870459",
-      "last_seen": "2026-07-03T10:14:29.373075"
+      "last_seen": "2026-07-03T10:14:29.373075",
+      "current_price": 97.42,
+      "current_price_time": "2026-07-03T12:06:01.777263+00:00",
+      "pnl_pct_live": -0.47,
+      "progression_pct": -15.6
     },
     {
       "ticker": "CRSP",
@@ -76,7 +80,11 @@
       "top_news_url": null,
       "status": "open",
       "issued_at": "2026-07-02T14:24:15.870471",
-      "last_seen": "2026-07-03T10:14:29.373075"
+      "last_seen": "2026-07-03T10:14:29.373075",
+      "current_price": 60.09,
+      "current_price_time": "2026-07-03T12:06:01.777263+00:00",
+      "pnl_pct_live": -0.53,
+      "progression_pct": -17.7
     },
     {
       "ticker": "MRNA",
@@ -106,7 +114,11 @@
       "top_news_url": null,
       "status": "open",
       "issued_at": "2026-07-02T14:24:15.870476",
-      "last_seen": "2026-07-03T10:14:29.373075"
+      "last_seen": "2026-07-03T10:14:29.373075",
+      "current_price": 79.8,
+      "current_price_time": "2026-07-03T12:06:01.777263+00:00",
+      "pnl_pct_live": 1.29,
+      "progression_pct": 19.6
     },
     {
       "ticker": "EXC",
@@ -140,7 +152,11 @@
       "top_news_url": null,
       "status": "open",
       "issued_at": "2026-07-03T10:14:29.372630",
-      "last_seen": "2026-07-03T10:14:29.373075"
+      "last_seen": "2026-07-03T10:14:29.373075",
+      "current_price": 47.87,
+      "current_price_time": "2026-07-03T12:06:01.777263+00:00",
+      "pnl_pct_live": 0.0,
+      "progression_pct": 0.0
     },
     {
       "ticker": "PEP",
@@ -170,7 +186,11 @@
       "top_news_url": null,
       "status": "open",
       "issued_at": "2026-07-02T17:06:37.947778",
-      "last_seen": "2026-07-03T10:14:29.373075"
+      "last_seen": "2026-07-03T10:14:29.373075",
+      "current_price": 144.15,
+      "current_price_time": "2026-07-03T12:06:01.777263+00:00",
+      "pnl_pct_live": 0.26,
+      "progression_pct": 13.0
     },
     {
       "ticker": "AZN",
@@ -200,7 +220,11 @@
       "top_news_url": null,
       "status": "open",
       "issued_at": "2026-07-02T15:48:52.483715",
-      "last_seen": "2026-07-03T10:14:29.373075"
+      "last_seen": "2026-07-03T10:14:29.373075",
+      "current_price": 195.08,
+      "current_price_time": "2026-07-03T12:06:01.777263+00:00",
+      "pnl_pct_live": 0.57,
+      "progression_pct": 10.4
     },
     {
       "ticker": "CRWD",
@@ -230,7 +254,11 @@
       "top_news_url": null,
       "status": "open",
       "issued_at": "2026-07-02T15:48:52.483728",
-      "last_seen": "2026-07-03T10:14:29.373075"
+      "last_seen": "2026-07-03T10:14:29.373075",
+      "current_price": 193.67,
+      "current_price_time": "2026-07-03T12:06:01.777263+00:00",
+      "pnl_pct_live": -2.08,
+      "progression_pct": -69.3
     },
     {
       "ticker": "ISRG",
@@ -260,7 +288,11 @@
       "top_news_url": null,
       "status": "open",
       "issued_at": "2026-07-02T17:06:37.947798",
-      "last_seen": "2026-07-03T10:14:29.373075"
+      "last_seen": "2026-07-03T10:14:29.373075",
+      "current_price": 426.0,
+      "current_price_time": "2026-07-03T12:06:01.777263+00:00",
+      "pnl_pct_live": 1.2,
+      "progression_pct": 18.2
     },
     {
       "ticker": "KLAC",
@@ -290,7 +322,11 @@
       "top_news_url": null,
       "status": "open",
       "issued_at": "2026-07-02T17:06:37.947792",
-      "last_seen": "2026-07-03T10:14:29.373075"
+      "last_seen": "2026-07-03T10:14:29.373075",
+      "current_price": 235.37,
+      "current_price_time": "2026-07-03T12:06:01.777263+00:00",
+      "pnl_pct_live": -1.02,
+      "progression_pct": -33.9
     },
     {
       "ticker": "META",
