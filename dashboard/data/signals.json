@@ -1,21 +1,21 @@
 {
-  "generated_at": "2026-07-03T15:35:49.633097",
+  "generated_at": "2026-07-03T16:12:53.006198+00:00",
   "date": "2026-07-03",
   "stats": {
-    "total": 4,
-    "buy_signals": 4,
+    "total": 1,
+    "buy_signals": 1,
     "sell_signals": 0,
     "avg_confidence": 0.837,
     "avg_rr": 2.2,
-    "win_rate": 0.38,
-    "active_positions": 4,
-    "daily_pnl": -0.5314
+    "win_rate": 0.358,
+    "active_positions": 1,
+    "daily_pnl": -0.5361
   },
   "eod": {
     "tp_hit": 19,
-    "sl_hit": 31,
-    "open": 4,
-    "cumulative_pnl": -0.5314
+    "sl_hit": 34,
+    "open": 1,
+    "cumulative_pnl": -0.5361
   },
   "signals": [
     {
@@ -44,9 +44,15 @@
       "news_score": null,
       "top_news_title": null,
       "top_news_url": null,
-      "status": "open",
+      "status": "expired",
       "issued_at": "2026-07-02T14:24:15.870459",
-      "last_seen": "2026-07-03T15:35:49.633097"
+      "last_seen": "2026-07-03T15:35:49.633097",
+      "current_price": 97.42,
+      "current_price_time": "2026-07-03T16:12:53.006198+00:00",
+      "exit_price": 97.42,
+      "exit_date": "2026-07-03T16:12:53.006198+00:00",
+      "pnl_pct": -0.47,
+      "pnl_pct_live": -0.47
     },
     {
       "ticker": "CRSP",
@@ -78,9 +84,15 @@
       "news_score": null,
       "top_news_title": null,
       "top_news_url": null,
-      "status": "open",
+      "status": "expired",
       "issued_at": "2026-07-02T14:24:15.870471",
-      "last_seen": "2026-07-03T15:35:49.633097"
+      "last_seen": "2026-07-03T15:35:49.633097",
+      "current_price": 60.09,
+      "current_price_time": "2026-07-03T16:12:53.006198+00:00",
+      "exit_price": 60.09,
+      "exit_date": "2026-07-03T16:12:53.006198+00:00",
+      "pnl_pct": 0.0,
+      "pnl_pct_live": 0.0
     },
     {
       "ticker": "MRNA",
@@ -112,9 +124,15 @@
       "news_score": null,
       "top_news_title": null,
       "top_news_url": null,
-      "status": "open",
+      "status": "expired",
       "issued_at": "2026-07-02T14:24:15.870476",
-      "last_seen": "2026-07-03T15:35:49.633097"
+      "last_seen": "2026-07-03T15:35:49.633097",
+      "current_price": 79.8,
+      "current_price_time": "2026-07-03T16:12:53.006198+00:00",
+      "exit_price": 79.8,
+      "exit_date": "2026-07-03T16:12:53.006198+00:00",
+      "pnl_pct": 0.0,
+      "pnl_pct_live": 0.0
     },
     {
       "ticker": "EXC",
@@ -150,7 +168,7 @@
       "issued_at": "2026-07-03T10:14:29.372630",
       "last_seen": "2026-07-03T10:14:29.373075",
       "current_price": 47.87,
-      "current_price_time": "2026-07-03T14:31:26.871546+00:00",
+      "current_price_time": "2026-07-03T16:12:53.006198+00:00",
       "pnl_pct_live": 0.0,
       "progression_pct": 0.0
     },
