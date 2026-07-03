@@ -1,21 +1,21 @@
 {
-  "generated_at": "2026-07-03T12:06:01.777263+00:00",
+  "generated_at": "2026-07-03T14:31:26.871546+00:00",
   "date": "2026-07-03",
   "stats": {
-    "total": 9,
-    "buy_signals": 8,
+    "total": 6,
+    "buy_signals": 5,
     "sell_signals": 1,
     "avg_confidence": 0.818,
     "avg_rr": 2.2,
-    "win_rate": 0.38,
-    "active_positions": 9,
-    "daily_pnl": -0.4907
+    "win_rate": 0.377,
+    "active_positions": 6,
+    "daily_pnl": -0.4878
   },
   "eod": {
-    "tp_hit": 19,
-    "sl_hit": 31,
-    "open": 9,
-    "cumulative_pnl": -0.4907
+    "tp_hit": 20,
+    "sl_hit": 33,
+    "open": 6,
+    "cumulative_pnl": -0.4878
   },
   "signals": [
     {
@@ -44,13 +44,16 @@
       "news_score": null,
       "top_news_title": null,
       "top_news_url": null,
-      "status": "open",
+      "status": "expired",
       "issued_at": "2026-07-02T14:24:15.870459",
       "last_seen": "2026-07-03T10:14:29.373075",
       "current_price": 97.42,
-      "current_price_time": "2026-07-03T12:06:01.777263+00:00",
+      "current_price_time": "2026-07-03T14:31:26.871546+00:00",
       "pnl_pct_live": -0.47,
-      "progression_pct": -15.6
+      "progression_pct": -15.6,
+      "exit_price": 97.42,
+      "exit_date": "2026-07-03T14:31:26.871546+00:00",
+      "pnl_pct": -0.47
     },
     {
       "ticker": "CRSP",
@@ -78,13 +81,16 @@
       "news_score": null,
       "top_news_title": null,
       "top_news_url": null,
-      "status": "open",
+      "status": "expired",
       "issued_at": "2026-07-02T14:24:15.870471",
       "last_seen": "2026-07-03T10:14:29.373075",
       "current_price": 60.09,
-      "current_price_time": "2026-07-03T12:06:01.777263+00:00",
+      "current_price_time": "2026-07-03T14:31:26.871546+00:00",
       "pnl_pct_live": -0.53,
-      "progression_pct": -17.7
+      "progression_pct": -17.7,
+      "exit_price": 60.09,
+      "exit_date": "2026-07-03T14:31:26.871546+00:00",
+      "pnl_pct": -0.53
     },
     {
       "ticker": "MRNA",
@@ -112,13 +118,16 @@
       "news_score": null,
       "top_news_title": null,
       "top_news_url": null,
-      "status": "open",
+      "status": "expired",
       "issued_at": "2026-07-02T14:24:15.870476",
       "last_seen": "2026-07-03T10:14:29.373075",
       "current_price": 79.8,
-      "current_price_time": "2026-07-03T12:06:01.777263+00:00",
+      "current_price_time": "2026-07-03T14:31:26.871546+00:00",
       "pnl_pct_live": 1.29,
-      "progression_pct": 19.6
+      "progression_pct": 19.6,
+      "exit_price": 79.8,
+      "exit_date": "2026-07-03T14:31:26.871546+00:00",
+      "pnl_pct": 1.29
     },
     {
       "ticker": "EXC",
@@ -154,7 +163,7 @@
       "issued_at": "2026-07-03T10:14:29.372630",
       "last_seen": "2026-07-03T10:14:29.373075",
       "current_price": 47.87,
-      "current_price_time": "2026-07-03T12:06:01.777263+00:00",
+      "current_price_time": "2026-07-03T14:31:26.871546+00:00",
       "pnl_pct_live": 0.0,
       "progression_pct": 0.0
     },
@@ -188,7 +197,7 @@
       "issued_at": "2026-07-02T17:06:37.947778",
       "last_seen": "2026-07-03T10:14:29.373075",
       "current_price": 144.15,
-      "current_price_time": "2026-07-03T12:06:01.777263+00:00",
+      "current_price_time": "2026-07-03T14:31:26.871546+00:00",
       "pnl_pct_live": 0.26,
       "progression_pct": 13.0
     },
@@ -222,7 +231,7 @@
       "issued_at": "2026-07-02T15:48:52.483715",
       "last_seen": "2026-07-03T10:14:29.373075",
       "current_price": 195.08,
-      "current_price_time": "2026-07-03T12:06:01.777263+00:00",
+      "current_price_time": "2026-07-03T14:31:26.871546+00:00",
       "pnl_pct_live": 0.57,
       "progression_pct": 10.4
     },
@@ -256,7 +265,7 @@
       "issued_at": "2026-07-02T15:48:52.483728",
       "last_seen": "2026-07-03T10:14:29.373075",
       "current_price": 193.67,
-      "current_price_time": "2026-07-03T12:06:01.777263+00:00",
+      "current_price_time": "2026-07-03T14:31:26.871546+00:00",
       "pnl_pct_live": -2.08,
       "progression_pct": -69.3
     },
@@ -290,7 +299,7 @@
       "issued_at": "2026-07-02T17:06:37.947798",
       "last_seen": "2026-07-03T10:14:29.373075",
       "current_price": 426.0,
-      "current_price_time": "2026-07-03T12:06:01.777263+00:00",
+      "current_price_time": "2026-07-03T14:31:26.871546+00:00",
       "pnl_pct_live": 1.2,
       "progression_pct": 18.2
     },
@@ -324,7 +333,7 @@
       "issued_at": "2026-07-02T17:06:37.947792",
       "last_seen": "2026-07-03T10:14:29.373075",
       "current_price": 235.37,
-      "current_price_time": "2026-07-03T12:06:01.777263+00:00",
+      "current_price_time": "2026-07-03T14:31:26.871546+00:00",
       "pnl_pct_live": -1.02,
       "progression_pct": -33.9
     },
