@@ -1,21 +1,21 @@
 {
-  "generated_at": "2026-07-06T16:41:22.357329",
+  "generated_at": "2026-07-06T17:27:43.393921+00:00",
   "date": "2026-07-06",
   "stats": {
-    "total": 6,
-    "buy_signals": 5,
+    "total": 2,
+    "buy_signals": 1,
     "sell_signals": 1,
     "avg_confidence": 0.784,
     "avg_rr": 2.2,
-    "win_rate": 0.36,
-    "active_positions": 6,
-    "daily_pnl": -0.5324
+    "win_rate": 0.389,
+    "active_positions": 2,
+    "daily_pnl": -0.4632
   },
   "eod": {
-    "tp_hit": 18,
-    "sl_hit": 32,
-    "open": 6,
-    "cumulative_pnl": -0.5324
+    "tp_hit": 21,
+    "sl_hit": 33,
+    "open": 2,
+    "cumulative_pnl": -0.4632
   },
   "signals": [
     {
@@ -44,9 +44,15 @@
       "news_score": null,
       "top_news_title": null,
       "top_news_url": null,
-      "status": "open",
+      "status": "expired",
       "issued_at": "2026-07-03T15:35:49.632457",
-      "last_seen": "2026-07-06T16:41:22.357329"
+      "last_seen": "2026-07-06T16:41:22.357329",
+      "current_price": 61.93,
+      "current_price_time": "2026-07-06T17:27:43.393921+00:00",
+      "exit_price": 61.93,
+      "exit_date": "2026-07-06T17:27:43.393921+00:00",
+      "pnl_pct": 3.06,
+      "pnl_pct_live": 3.06
     },
     {
       "ticker": "MRNA",
@@ -74,9 +80,15 @@
       "news_score": null,
       "top_news_title": null,
       "top_news_url": null,
-      "status": "open",
+      "status": "expired",
       "issued_at": "2026-07-03T15:35:49.632473",
-      "last_seen": "2026-07-06T16:41:22.357329"
+      "last_seen": "2026-07-06T16:41:22.357329",
+      "current_price": 82.44,
+      "current_price_time": "2026-07-06T17:27:43.393921+00:00",
+      "exit_price": 82.44,
+      "exit_date": "2026-07-06T17:27:43.393921+00:00",
+      "pnl_pct": 3.31,
+      "pnl_pct_live": 3.31
     },
     {
       "ticker": "EXC",
@@ -104,9 +116,15 @@
       "news_score": null,
       "top_news_title": null,
       "top_news_url": null,
-      "status": "open",
+      "status": "expired",
       "issued_at": "2026-07-03T10:14:29.372630",
-      "last_seen": "2026-07-06T16:41:22.357329"
+      "last_seen": "2026-07-06T16:41:22.357329",
+      "current_price": 47.03,
+      "current_price_time": "2026-07-06T17:27:43.393921+00:00",
+      "exit_price": 47.03,
+      "exit_date": "2026-07-06T17:27:43.393921+00:00",
+      "pnl_pct": -1.75,
+      "pnl_pct_live": -1.75
     },
     {
       "ticker": "ISRG",
@@ -134,9 +152,15 @@
       "news_score": null,
       "top_news_title": null,
       "top_news_url": null,
-      "status": "open",
+      "status": "expired",
       "issued_at": "2026-07-03T17:58:08.714714",
-      "last_seen": "2026-07-06T16:41:22.357329"
+      "last_seen": "2026-07-06T16:41:22.357329",
+      "current_price": 435.79,
+      "current_price_time": "2026-07-06T17:27:43.393921+00:00",
+      "exit_price": 435.79,
+      "exit_date": "2026-07-06T17:27:43.393921+00:00",
+      "pnl_pct": 2.3,
+      "pnl_pct_live": 2.3
     },
     {
       "ticker": "MRNA",
@@ -170,7 +194,11 @@
       "top_news_url": null,
       "status": "open",
       "issued_at": "2026-07-06T16:41:22.356622",
-      "last_seen": "2026-07-06T16:41:22.357329"
+      "last_seen": "2026-07-06T16:41:22.357329",
+      "current_price": 82.44,
+      "current_price_time": "2026-07-06T17:27:43.393921+00:00",
+      "pnl_pct_live": -1.1,
+      "progression_pct": -36.8
     },
     {
       "ticker": "ORLY",
@@ -204,7 +232,11 @@
       "top_news_url": null,
       "status": "open",
       "issued_at": "2026-07-06T16:41:22.356608",
-      "last_seen": "2026-07-06T16:41:22.357329"
+      "last_seen": "2026-07-06T16:41:22.357329",
+      "current_price": 83.84,
+      "current_price_time": "2026-07-06T17:27:43.393921+00:00",
+      "pnl_pct_live": 0.23,
+      "progression_pct": 3.4
     },
     {
       "ticker": "META",
