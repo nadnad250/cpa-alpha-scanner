@@ -90,5 +90,28 @@
     "ml_proba_up": null,
     "risk_reward": 2.2,
     "primary_reason": "Cassure ORB baissière (RVOL 2.0x, -VWAP) (contre-gap)"
+  },
+  {
+    "ticker": "CRWD",
+    "action": "STRONG_SELL",
+    "entry_price": 194.39999389648438,
+    "stop_loss": 200.2319937133789,
+    "take_profit": 181.5695942993164,
+    "score": -0.4523238122572846,
+    "confidence": 0.7572376202093459,
+    "universe": "NASDAQ100",
+    "issued_at": "2026-07-07T21:05:58.766069",
+    "horizon_days": 1,
+    "horizon_hours": 24,
+    "status": "open",
+    "exit_price": null,
+    "exit_date": null,
+    "pnl_pct": null,
+    "max_favorable": null,
+    "max_adverse": null,
+    "sector": "",
+    "ml_proba_up": null,
+    "risk_reward": 2.2,
+    "primary_reason": "Cassure ORB baissière (RVOL 2.5x, -VWAP) (contre-gap)"
   }
 ]
