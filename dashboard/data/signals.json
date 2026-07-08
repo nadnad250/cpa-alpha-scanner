@@ -1,21 +1,21 @@
 {
-  "generated_at": "2026-07-08T20:43:34.707532",
+  "generated_at": "2026-07-08T21:29:47.946438+00:00",
   "date": "2026-07-08",
   "stats": {
-    "total": 6,
-    "buy_signals": 4,
-    "sell_signals": 2,
+    "total": 0,
+    "buy_signals": 0,
+    "sell_signals": 0,
     "avg_confidence": 0.766,
     "avg_rr": 2.2,
-    "win_rate": 0.36,
-    "active_positions": 6,
-    "daily_pnl": -0.5142
+    "win_rate": 0.357,
+    "active_positions": 0,
+    "daily_pnl": -0.5328
   },
   "eod": {
-    "tp_hit": 18,
-    "sl_hit": 32,
-    "open": 6,
-    "cumulative_pnl": -0.5142
+    "tp_hit": 20,
+    "sl_hit": 36,
+    "open": 0,
+    "cumulative_pnl": -0.5328
   },
   "signals": [
     {
@@ -44,9 +44,15 @@
       "news_score": null,
       "top_news_title": null,
       "top_news_url": null,
-      "status": "open",
+      "status": "expired",
       "issued_at": "2026-07-07T16:06:11.445799",
-      "last_seen": "2026-07-08T20:43:34.707532"
+      "last_seen": "2026-07-08T20:43:34.707532",
+      "current_price": 273.41,
+      "current_price_time": "2026-07-08T21:29:47.946438+00:00",
+      "exit_price": 273.41,
+      "exit_date": "2026-07-08T21:29:47.946438+00:00",
+      "pnl_pct": 3.57,
+      "pnl_pct_live": 3.57
     },
     {
       "ticker": "BKR",
@@ -78,9 +84,15 @@
       "news_score": null,
       "top_news_title": null,
       "top_news_url": null,
-      "status": "open",
+      "status": "expired",
       "issued_at": "2026-07-08T15:52:49.056300",
-      "last_seen": "2026-07-08T20:43:34.707532"
+      "last_seen": "2026-07-08T20:43:34.707532",
+      "current_price": 57.61,
+      "current_price_time": "2026-07-08T21:29:47.946438+00:00",
+      "exit_price": 57.61,
+      "exit_date": "2026-07-08T21:29:47.946438+00:00",
+      "pnl_pct": 0.0,
+      "pnl_pct_live": 0.0
     },
     {
       "ticker": "WDAY",
@@ -108,9 +120,15 @@
       "news_score": null,
       "top_news_title": null,
       "top_news_url": null,
-      "status": "open",
+      "status": "expired",
       "issued_at": "2026-07-07T16:06:11.445814",
-      "last_seen": "2026-07-08T20:43:34.707532"
+      "last_seen": "2026-07-08T20:43:34.707532",
+      "current_price": 137.88,
+      "current_price_time": "2026-07-08T21:29:47.946438+00:00",
+      "exit_price": 137.88,
+      "exit_date": "2026-07-08T21:29:47.946438+00:00",
+      "pnl_pct": -4.75,
+      "pnl_pct_live": -4.75
     },
     {
       "ticker": "CTAS",
@@ -138,9 +156,15 @@
       "news_score": null,
       "top_news_title": null,
       "top_news_url": null,
-      "status": "open",
+      "status": "expired",
       "issued_at": "2026-07-08T15:52:49.056319",
-      "last_seen": "2026-07-08T20:43:34.707532"
+      "last_seen": "2026-07-08T20:43:34.707532",
+      "current_price": 180.14,
+      "current_price_time": "2026-07-08T21:29:47.946438+00:00",
+      "exit_price": 180.14,
+      "exit_date": "2026-07-08T21:29:47.946438+00:00",
+      "pnl_pct": -1.41,
+      "pnl_pct_live": -1.41
     },
     {
       "ticker": "PANW",
@@ -168,9 +192,15 @@
       "news_score": null,
       "top_news_title": null,
       "top_news_url": null,
-      "status": "open",
+      "status": "expired",
       "issued_at": "2026-07-08T15:52:49.056314",
-      "last_seen": "2026-07-08T20:43:34.707532"
+      "last_seen": "2026-07-08T20:43:34.707532",
+      "current_price": 320.51,
+      "current_price_time": "2026-07-08T21:29:47.946438+00:00",
+      "exit_price": 320.51,
+      "exit_date": "2026-07-08T21:29:47.946438+00:00",
+      "pnl_pct": -0.58,
+      "pnl_pct_live": -0.58
     },
     {
       "ticker": "MNST",
@@ -198,9 +228,15 @@
       "news_score": null,
       "top_news_title": null,
       "top_news_url": null,
-      "status": "open",
+      "status": "expired",
       "issued_at": "2026-07-07T19:28:57.112249",
-      "last_seen": "2026-07-08T20:43:34.707532"
+      "last_seen": "2026-07-08T20:43:34.707532",
+      "current_price": 95.12,
+      "current_price_time": "2026-07-08T21:29:47.946438+00:00",
+      "exit_price": 95.12,
+      "exit_date": "2026-07-08T21:29:47.946438+00:00",
+      "pnl_pct": 1.31,
+      "pnl_pct_live": 1.31
     },
     {
       "ticker": "META",
