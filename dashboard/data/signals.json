@@ -1,21 +1,21 @@
 {
-  "generated_at": "2026-07-08T12:59:25.099668+00:00",
+  "generated_at": "2026-07-08T15:26:36.966472+00:00",
   "date": "2026-07-08",
   "stats": {
-    "total": 4,
-    "buy_signals": 2,
+    "total": 3,
+    "buy_signals": 1,
     "sell_signals": 2,
     "avg_confidence": 0.783,
     "avg_rr": 2.2,
-    "win_rate": 0.34,
-    "active_positions": 4,
-    "daily_pnl": -0.5874
+    "win_rate": 0.333,
+    "active_positions": 3,
+    "daily_pnl": -0.6047
   },
   "eod": {
     "tp_hit": 17,
-    "sl_hit": 33,
-    "open": 4,
-    "cumulative_pnl": -0.5874
+    "sl_hit": 34,
+    "open": 3,
+    "cumulative_pnl": -0.6047
   },
   "signals": [
     {
@@ -51,10 +51,10 @@
       "status": "open",
       "issued_at": "2026-07-07T16:06:11.445799",
       "last_seen": "2026-07-08T09:55:29.520059",
-      "current_price": 268.71,
-      "current_price_time": "2026-07-08T12:59:25.099668+00:00",
-      "pnl_pct_live": 0.0,
-      "progression_pct": 0.0
+      "current_price": 262.73,
+      "current_price_time": "2026-07-08T15:26:36.966472+00:00",
+      "pnl_pct_live": -2.23,
+      "progression_pct": -74.2
     },
     {
       "ticker": "WDAY",
@@ -82,20 +82,23 @@
       "news_score": null,
       "top_news_title": null,
       "top_news_url": null,
-      "status": "open",
+      "status": "sl_hit",
       "issued_at": "2026-07-07T16:06:11.445814",
       "last_seen": "2026-07-08T09:55:29.520059",
-      "current_price": 143.65,
-      "current_price_time": "2026-07-08T12:59:25.099668+00:00",
-      "pnl_pct_live": -0.76,
-      "progression_pct": -43.8
+      "current_price": 138.06,
+      "current_price_time": "2026-07-08T15:26:36.966472+00:00",
+      "pnl_pct_live": -1.73,
+      "progression_pct": -43.8,
+      "exit_price": 142.24,
+      "exit_date": "2026-07-08T15:26:36.966472+00:00",
+      "pnl_pct": -1.73
     },
     {
       "ticker": "CRWD",
       "action": "STRONG_SELL",
       "price": 194.4,
       "take_profit": 181.57,
-      "stop_loss": 200.23,
+      "stop_loss": 191.1925,
       "upside_pct": 6.6,
       "confidence": 0.757,
       "score": -0.4523,
@@ -123,10 +126,11 @@
       "status": "open",
       "issued_at": "2026-07-07T21:05:58.766069",
       "last_seen": "2026-07-08T09:55:29.520059",
-      "current_price": 194.4,
-      "current_price_time": "2026-07-08T12:59:25.099668+00:00",
-      "pnl_pct_live": 0.0,
-      "progression_pct": 0.0
+      "current_price": 185.82,
+      "current_price_time": "2026-07-08T15:26:36.966472+00:00",
+      "pnl_pct_live": 4.41,
+      "progression_pct": 66.9,
+      "trail_level": 2
     },
     {
       "ticker": "MNST",
@@ -157,10 +161,10 @@
       "status": "open",
       "issued_at": "2026-07-07T19:28:57.112249",
       "last_seen": "2026-07-08T09:55:29.520059",
-      "current_price": 96.92,
-      "current_price_time": "2026-07-08T12:59:25.099668+00:00",
-      "pnl_pct_live": -0.56,
-      "progression_pct": -21.9
+      "current_price": 96.28,
+      "current_price_time": "2026-07-08T15:26:36.966472+00:00",
+      "pnl_pct_live": 0.1,
+      "progression_pct": 1.8
     },
     {
       "ticker": "META",
