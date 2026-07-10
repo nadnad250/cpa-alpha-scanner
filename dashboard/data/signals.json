@@ -1,21 +1,21 @@
 {
-  "generated_at": "2026-07-10T18:08:36.775714",
+  "generated_at": "2026-07-10T18:57:54.713906+00:00",
   "date": "2026-07-10",
   "stats": {
-    "total": 3,
-    "buy_signals": 1,
-    "sell_signals": 2,
+    "total": 1,
+    "buy_signals": 0,
+    "sell_signals": 1,
     "avg_confidence": 0.81,
     "avg_rr": 2.2,
-    "win_rate": 0.32,
-    "active_positions": 3,
-    "daily_pnl": -0.6228
+    "win_rate": 0.308,
+    "active_positions": 1,
+    "daily_pnl": -0.6561
   },
   "eod": {
     "tp_hit": 16,
-    "sl_hit": 34,
-    "open": 3,
-    "cumulative_pnl": -0.6228
+    "sl_hit": 36,
+    "open": 1,
+    "cumulative_pnl": -0.6561
   },
   "signals": [
     {
@@ -44,9 +44,15 @@
       "news_score": null,
       "top_news_title": null,
       "top_news_url": null,
-      "status": "open",
+      "status": "sl_hit",
       "issued_at": "2026-07-09T19:16:55.524668",
-      "last_seen": "2026-07-10T18:08:36.775714"
+      "last_seen": "2026-07-10T18:08:36.775714",
+      "current_price": 172.44,
+      "current_price_time": "2026-07-10T18:57:54.713906+00:00",
+      "exit_price": 173.97,
+      "exit_date": "2026-07-10T18:57:54.713906+00:00",
+      "pnl_pct": -3.0,
+      "pnl_pct_live": -3.0
     },
     {
       "ticker": "COST",
@@ -74,9 +80,15 @@
       "news_score": null,
       "top_news_title": null,
       "top_news_url": null,
-      "status": "open",
+      "status": "expired",
       "issued_at": "2026-07-09T16:13:44.690165",
-      "last_seen": "2026-07-10T18:08:36.775714"
+      "last_seen": "2026-07-10T18:08:36.775714",
+      "current_price": 915.04,
+      "current_price_time": "2026-07-10T18:57:54.713906+00:00",
+      "exit_price": 915.04,
+      "exit_date": "2026-07-10T18:57:54.713906+00:00",
+      "pnl_pct": -0.33,
+      "pnl_pct_live": -0.33
     },
     {
       "ticker": "AZN",
@@ -110,7 +122,11 @@
       "top_news_url": null,
       "status": "open",
       "issued_at": "2026-07-10T16:00:15.339761",
-      "last_seen": "2026-07-10T18:08:36.775714"
+      "last_seen": "2026-07-10T18:08:36.775714",
+      "current_price": 172.44,
+      "current_price_time": "2026-07-10T18:57:54.713906+00:00",
+      "pnl_pct_live": -0.16,
+      "progression_pct": -8.6
     },
     {
       "ticker": "META",
