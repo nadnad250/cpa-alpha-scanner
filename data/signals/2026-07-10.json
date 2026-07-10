@@ -1,0 +1,25 @@
+[
+  {
+    "ticker": "AZN",
+    "action": "STRONG_SELL",
+    "entry_price": 172.00999450683594,
+    "stop_loss": 175.8800048828125,
+    "take_profit": 163.4959716796875,
+    "score": -0.47515210460463286,
+    "confidence": 0.7669396444569689,
+    "universe": "NASDAQ100",
+    "issued_at": "2026-07-10T16:00:15.339761",
+    "horizon_days": 1,
+    "horizon_hours": 24,
+    "status": "open",
+    "exit_price": null,
+    "exit_date": null,
+    "pnl_pct": null,
+    "max_favorable": null,
+    "max_adverse": null,
+    "sector": "",
+    "ml_proba_up": null,
+    "risk_reward": 2.2,
+    "primary_reason": "Cassure ORB baissière (RVOL 1.7x, -VWAP) +gap"
+  }
+]
