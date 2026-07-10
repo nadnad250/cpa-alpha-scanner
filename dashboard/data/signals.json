@@ -1,21 +1,21 @@
 {
-  "generated_at": "2026-07-10T16:54:53.687678",
+  "generated_at": "2026-07-10T17:16:28.161485+00:00",
   "date": "2026-07-10",
   "stats": {
-    "total": 4,
-    "buy_signals": 2,
-    "sell_signals": 2,
+    "total": 2,
+    "buy_signals": 1,
+    "sell_signals": 1,
     "avg_confidence": 0.789,
     "avg_rr": 2.2,
-    "win_rate": 0.34,
-    "active_positions": 4,
-    "daily_pnl": -0.6182
+    "win_rate": 0.327,
+    "active_positions": 2,
+    "daily_pnl": -0.6515
   },
   "eod": {
     "tp_hit": 17,
-    "sl_hit": 33,
-    "open": 4,
-    "cumulative_pnl": -0.6182
+    "sl_hit": 35,
+    "open": 2,
+    "cumulative_pnl": -0.6515
   },
   "signals": [
     {
@@ -44,9 +44,15 @@
       "news_score": null,
       "top_news_title": null,
       "top_news_url": null,
-      "status": "open",
+      "status": "sl_hit",
       "issued_at": "2026-07-09T19:16:55.524668",
-      "last_seen": "2026-07-10T16:00:15.340178"
+      "last_seen": "2026-07-10T16:00:15.340178",
+      "current_price": 172.2,
+      "current_price_time": "2026-07-10T17:16:28.161485+00:00",
+      "exit_price": 173.97,
+      "exit_date": "2026-07-10T17:16:28.161485+00:00",
+      "pnl_pct": -3.0,
+      "pnl_pct_live": -3.0
     },
     {
       "ticker": "PEP",
@@ -76,7 +82,11 @@
       "top_news_url": null,
       "status": "open",
       "issued_at": "2026-07-09T19:16:55.524677",
-      "last_seen": "2026-07-10T16:54:53.687678"
+      "last_seen": "2026-07-10T16:54:53.687678",
+      "current_price": 136.77,
+      "current_price_time": "2026-07-10T17:16:28.161485+00:00",
+      "pnl_pct_live": -0.62,
+      "progression_pct": -29.0
     },
     {
       "ticker": "COST",
@@ -104,9 +114,15 @@
       "news_score": null,
       "top_news_title": null,
       "top_news_url": null,
-      "status": "open",
+      "status": "expired",
       "issued_at": "2026-07-09T16:13:44.690165",
-      "last_seen": "2026-07-10T16:54:53.687678"
+      "last_seen": "2026-07-10T16:54:53.687678",
+      "current_price": 914.97,
+      "current_price_time": "2026-07-10T17:16:28.161485+00:00",
+      "exit_price": 914.97,
+      "exit_date": "2026-07-10T17:16:28.161485+00:00",
+      "pnl_pct": -0.33,
+      "pnl_pct_live": -0.33
     },
     {
       "ticker": "AZN",
@@ -140,7 +156,11 @@
       "top_news_url": null,
       "status": "open",
       "issued_at": "2026-07-10T16:00:15.339761",
-      "last_seen": "2026-07-10T16:54:53.687678"
+      "last_seen": "2026-07-10T16:54:53.687678",
+      "current_price": 172.2,
+      "current_price_time": "2026-07-10T17:16:28.161485+00:00",
+      "pnl_pct_live": 0.19,
+      "progression_pct": 5.2
     },
     {
       "ticker": "META",
