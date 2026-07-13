@@ -1,23 +1,57 @@
 {
-  "generated_at": "2026-07-13T16:08:18.106069",
+  "generated_at": "2026-07-13T17:12:20.359856",
   "date": "2026-07-13",
   "stats": {
-    "total": 1,
-    "buy_signals": 0,
+    "total": 2,
+    "buy_signals": 1,
     "sell_signals": 1,
-    "avg_confidence": 0.767,
+    "avg_confidence": 0.766,
     "avg_rr": 2.2,
     "win_rate": 0.32,
-    "active_positions": 1,
+    "active_positions": 2,
     "daily_pnl": -0.6327
   },
   "eod": {
     "tp_hit": 16,
     "sl_hit": 34,
-    "open": 1,
+    "open": 2,
     "cumulative_pnl": -0.6327
   },
   "signals": [
+    {
+      "ticker": "ODFL",
+      "action": "STRONG_BUY",
+      "price": 234.03,
+      "take_profit": 244.66,
+      "stop_loss": 229.2,
+      "upside_pct": 4.5,
+      "confidence": 0.766,
+      "score": 0.4729,
+      "risk_reward": 2.2,
+      "kelly_position": 0.08,
+      "cpa_alpha": null,
+      "ml_proba_up": null,
+      "sector": "—",
+      "universe": "NASDAQ100",
+      "primary_reason": "Cassure ORB haussière (RVOL 1.8x, +VWAP) +gap",
+      "secondary_reasons": [
+        "RVOL 1.8x",
+        "VWAP au-dessus",
+        "Gap +0.8%"
+      ],
+      "risk_flags": [],
+      "intrinsic_value": 244.66,
+      "value_gap": null,
+      "factor_premia": null,
+      "mean_reversion": null,
+      "info_flow": null,
+      "news_score": null,
+      "top_news_title": null,
+      "top_news_url": null,
+      "status": "open",
+      "issued_at": "2026-07-13T17:12:20.359248",
+      "last_seen": "2026-07-13T17:12:20.359856"
+    },
     {
       "ticker": "AZN",
       "action": "STRONG_SELL",

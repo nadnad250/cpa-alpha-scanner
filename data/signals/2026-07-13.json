@@ -21,5 +21,28 @@
     "ml_proba_up": null,
     "risk_reward": 2.2,
     "primary_reason": "Cassure ORB baissière (RVOL 1.5x, -VWAP) +gap"
+  },
+  {
+    "ticker": "ODFL",
+    "action": "STRONG_BUY",
+    "entry_price": 234.02999877929688,
+    "stop_loss": 229.1999969482422,
+    "take_profit": 244.6560028076172,
+    "score": 0.4728708476537583,
+    "confidence": 0.7659701102528473,
+    "universe": "NASDAQ100",
+    "issued_at": "2026-07-13T17:12:20.359248",
+    "horizon_days": 1,
+    "horizon_hours": 24,
+    "status": "open",
+    "exit_price": null,
+    "exit_date": null,
+    "pnl_pct": null,
+    "max_favorable": null,
+    "max_adverse": null,
+    "sector": "",
+    "ml_proba_up": null,
+    "risk_reward": 2.2,
+    "primary_reason": "Cassure ORB haussière (RVOL 1.8x, +VWAP) +gap"
   }
 ]
