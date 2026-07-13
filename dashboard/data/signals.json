@@ -1,21 +1,21 @@
 {
-  "generated_at": "2026-07-13T19:03:26.866229+00:00",
+  "generated_at": "2026-07-13T19:07:57.258454",
   "date": "2026-07-13",
   "stats": {
-    "total": 3,
+    "total": 4,
     "buy_signals": 2,
-    "sell_signals": 1,
+    "sell_signals": 2,
     "avg_confidence": 0.749,
     "avg_rr": 2.2,
-    "win_rate": 0.353,
-    "active_positions": 3,
-    "daily_pnl": -0.5999
+    "win_rate": 0.34,
+    "active_positions": 4,
+    "daily_pnl": -0.6176
   },
   "eod": {
-    "tp_hit": 18,
+    "tp_hit": 17,
     "sl_hit": 33,
-    "open": 3,
-    "cumulative_pnl": -0.5999
+    "open": 4,
+    "cumulative_pnl": -0.6176
   },
   "signals": [
     {
@@ -120,15 +120,9 @@
       "news_score": null,
       "top_news_title": null,
       "top_news_url": null,
-      "status": "expired",
+      "status": "open",
       "issued_at": "2026-07-10T16:00:15.339761",
-      "last_seen": "2026-07-13T18:18:05.987408",
-      "current_price": 169.42,
-      "current_price_time": "2026-07-13T19:03:26.866229+00:00",
-      "exit_price": 169.42,
-      "exit_date": "2026-07-13T19:03:26.866229+00:00",
-      "pnl_pct": 1.51,
-      "pnl_pct_live": 1.51
+      "last_seen": "2026-07-13T19:07:57.258454"
     },
     {
       "ticker": "DKNG",
@@ -1799,13 +1793,13 @@
       "top_news_url": null,
       "status": "expired",
       "issued_at": "2026-07-10T16:00:15.339761",
-      "last_seen": "2026-07-13T16:08:18.106069",
-      "current_price": 168.96,
-      "current_price_time": "2026-07-13T17:35:40.687513+00:00",
-      "exit_price": 168.96,
-      "exit_date": "2026-07-13T17:35:40.687513+00:00",
-      "pnl_pct": 1.77,
-      "pnl_pct_live": 1.77
+      "last_seen": "2026-07-13T18:18:05.987408",
+      "current_price": 169.42,
+      "current_price_time": "2026-07-13T19:03:26.866229+00:00",
+      "exit_price": 169.42,
+      "exit_date": "2026-07-13T19:03:26.866229+00:00",
+      "pnl_pct": 1.51,
+      "pnl_pct_live": 1.51
     },
     {
       "ticker": "CRWD",
