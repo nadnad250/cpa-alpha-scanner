@@ -1,21 +1,21 @@
 {
-  "generated_at": "2026-07-14T12:07:41.201548+00:00",
+  "generated_at": "2026-07-14T14:11:50.016233+00:00",
   "date": "2026-07-14",
   "stats": {
-    "total": 3,
-    "buy_signals": 2,
+    "total": 1,
+    "buy_signals": 0,
     "sell_signals": 1,
     "avg_confidence": 0.754,
     "avg_rr": 2.2,
-    "win_rate": 0.333,
-    "active_positions": 3,
-    "daily_pnl": -0.5254
+    "win_rate": 0.321,
+    "active_positions": 1,
+    "daily_pnl": -0.576
   },
   "eod": {
     "tp_hit": 17,
-    "sl_hit": 34,
-    "open": 3,
-    "cumulative_pnl": -0.5254
+    "sl_hit": 36,
+    "open": 1,
+    "cumulative_pnl": -0.576
   },
   "signals": [
     {
@@ -48,13 +48,16 @@
       "news_score": null,
       "top_news_title": null,
       "top_news_url": null,
-      "status": "open",
+      "status": "sl_hit",
       "issued_at": "2026-07-13T18:18:05.986657",
       "last_seen": "2026-07-14T09:25:50.032099",
-      "current_price": 96.11,
-      "current_price_time": "2026-07-14T12:07:41.201548+00:00",
-      "pnl_pct_live": 0.0,
-      "progression_pct": 0.0
+      "current_price": 90.39,
+      "current_price_time": "2026-07-14T14:11:50.016233+00:00",
+      "pnl_pct_live": -3.0,
+      "progression_pct": 0.0,
+      "exit_price": 93.23,
+      "exit_date": "2026-07-14T14:11:50.016233+00:00",
+      "pnl_pct": -3.0
     },
     {
       "ticker": "ODFL",
@@ -82,13 +85,16 @@
       "news_score": null,
       "top_news_title": null,
       "top_news_url": null,
-      "status": "open",
+      "status": "sl_hit",
       "issued_at": "2026-07-13T17:12:20.359248",
       "last_seen": "2026-07-14T09:25:50.032099",
-      "current_price": 232.9,
-      "current_price_time": "2026-07-14T12:07:41.201548+00:00",
-      "pnl_pct_live": -0.48,
-      "progression_pct": -23.4
+      "current_price": 228.89,
+      "current_price_time": "2026-07-14T14:11:50.016233+00:00",
+      "pnl_pct_live": -2.06,
+      "progression_pct": -23.4,
+      "exit_price": 229.2,
+      "exit_date": "2026-07-14T14:11:50.016233+00:00",
+      "pnl_pct": -2.06
     },
     {
       "ticker": "AZN",
@@ -131,7 +137,7 @@
       "action": "SELL",
       "price": 26.42,
       "take_profit": 24.82,
-      "stop_loss": 27.14,
+      "stop_loss": 26.42,
       "upside_pct": 6.0,
       "confidence": 0.709,
       "score": -0.338,
@@ -155,10 +161,11 @@
       "status": "open",
       "issued_at": "2026-07-13T18:18:05.986674",
       "last_seen": "2026-07-14T09:25:50.032099",
-      "current_price": 26.46,
-      "current_price_time": "2026-07-14T12:07:41.201548+00:00",
-      "pnl_pct_live": -0.15,
-      "progression_pct": -5.6
+      "current_price": 25.65,
+      "current_price_time": "2026-07-14T14:11:50.016233+00:00",
+      "pnl_pct_live": 2.91,
+      "progression_pct": 48.1,
+      "trail_level": 1
     },
     {
       "ticker": "META",
