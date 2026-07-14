@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-14T10:55:38.796141+00:00",
+  "generated_at": "2026-07-14T12:07:41.201548+00:00",
   "date": "2026-07-14",
   "stats": {
     "total": 3,
@@ -52,7 +52,7 @@
       "issued_at": "2026-07-13T18:18:05.986657",
       "last_seen": "2026-07-14T09:25:50.032099",
       "current_price": 96.11,
-      "current_price_time": "2026-07-14T10:55:38.796141+00:00",
+      "current_price_time": "2026-07-14T12:07:41.201548+00:00",
       "pnl_pct_live": 0.0,
       "progression_pct": 0.0
     },
@@ -86,7 +86,7 @@
       "issued_at": "2026-07-13T17:12:20.359248",
       "last_seen": "2026-07-14T09:25:50.032099",
       "current_price": 232.9,
-      "current_price_time": "2026-07-14T10:55:38.796141+00:00",
+      "current_price_time": "2026-07-14T12:07:41.201548+00:00",
       "pnl_pct_live": -0.48,
       "progression_pct": -23.4
     },
@@ -156,7 +156,7 @@
       "issued_at": "2026-07-13T18:18:05.986674",
       "last_seen": "2026-07-14T09:25:50.032099",
       "current_price": 26.46,
-      "current_price_time": "2026-07-14T10:55:38.796141+00:00",
+      "current_price_time": "2026-07-14T12:07:41.201548+00:00",
       "pnl_pct_live": -0.15,
       "progression_pct": -5.6
     },
