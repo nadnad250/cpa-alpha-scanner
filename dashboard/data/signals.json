@@ -1,21 +1,21 @@
 {
-  "generated_at": "2026-07-14T17:41:53.272310",
+  "generated_at": "2026-07-14T17:58:51.149349+00:00",
   "date": "2026-07-14",
   "stats": {
-    "total": 9,
-    "buy_signals": 6,
-    "sell_signals": 3,
+    "total": 6,
+    "buy_signals": 4,
+    "sell_signals": 2,
     "avg_confidence": 0.816,
     "avg_rr": 2.2,
-    "win_rate": 0.32,
-    "active_positions": 9,
-    "daily_pnl": -0.4968
+    "win_rate": 0.321,
+    "active_positions": 6,
+    "daily_pnl": -0.526
   },
   "eod": {
-    "tp_hit": 16,
-    "sl_hit": 34,
-    "open": 9,
-    "cumulative_pnl": -0.4968
+    "tp_hit": 17,
+    "sl_hit": 36,
+    "open": 6,
+    "cumulative_pnl": -0.526
   },
   "signals": [
     {
@@ -50,7 +50,11 @@
       "top_news_url": null,
       "status": "open",
       "issued_at": "2026-07-14T15:10:16.194873",
-      "last_seen": "2026-07-14T17:41:53.272310"
+      "last_seen": "2026-07-14T17:41:53.272310",
+      "current_price": 207.49,
+      "current_price_time": "2026-07-14T17:58:51.149349+00:00",
+      "pnl_pct_live": -0.54,
+      "progression_pct": -18.1
     },
     {
       "ticker": "ODFL",
@@ -78,9 +82,15 @@
       "news_score": null,
       "top_news_title": null,
       "top_news_url": null,
-      "status": "open",
+      "status": "expired",
       "issued_at": "2026-07-13T17:12:20.359248",
-      "last_seen": "2026-07-14T17:41:53.272310"
+      "last_seen": "2026-07-14T17:41:53.272310",
+      "current_price": 226.9,
+      "current_price_time": "2026-07-14T17:58:51.149349+00:00",
+      "exit_price": 226.9,
+      "exit_date": "2026-07-14T17:58:51.149349+00:00",
+      "pnl_pct": -3.05,
+      "pnl_pct_live": -3.05
     },
     {
       "ticker": "OKTA",
@@ -115,10 +125,10 @@
       "status": "open",
       "issued_at": "2026-07-14T15:10:16.194879",
       "last_seen": "2026-07-14T15:10:16.195452",
-      "current_price": 154.74,
-      "current_price_time": "2026-07-14T16:53:52.218472+00:00",
-      "pnl_pct_live": 0.68,
-      "progression_pct": 10.3
+      "current_price": 153.41,
+      "current_price_time": "2026-07-14T17:58:51.149349+00:00",
+      "pnl_pct_live": -0.19,
+      "progression_pct": -6.3
     },
     {
       "ticker": "TEAM",
@@ -146,9 +156,15 @@
       "news_score": null,
       "top_news_title": null,
       "top_news_url": null,
-      "status": "open",
+      "status": "sl_hit",
       "issued_at": "2026-07-13T18:18:05.986657",
-      "last_seen": "2026-07-14T17:41:53.272310"
+      "last_seen": "2026-07-14T17:41:53.272310",
+      "current_price": 90.05,
+      "current_price_time": "2026-07-14T17:58:51.149349+00:00",
+      "exit_price": 91.84,
+      "exit_date": "2026-07-14T17:58:51.149349+00:00",
+      "pnl_pct": -3.0,
+      "pnl_pct_live": -3.0
     },
     {
       "ticker": "BNTX",
@@ -183,10 +199,10 @@
       "status": "open",
       "issued_at": "2026-07-14T16:13:31.839743",
       "last_seen": "2026-07-14T16:13:31.840347",
-      "current_price": 90.56,
-      "current_price_time": "2026-07-14T16:53:52.218472+00:00",
-      "pnl_pct_live": -0.18,
-      "progression_pct": -9.8
+      "current_price": 91.15,
+      "current_price_time": "2026-07-14T17:58:51.149349+00:00",
+      "pnl_pct_live": 0.47,
+      "progression_pct": 11.9
     },
     {
       "ticker": "OKTA",
@@ -220,7 +236,11 @@
       "top_news_url": null,
       "status": "open",
       "issued_at": "2026-07-14T17:41:53.272310",
-      "last_seen": "2026-07-14T17:41:53.272310"
+      "last_seen": "2026-07-14T17:41:53.272310",
+      "current_price": 153.41,
+      "current_price_time": "2026-07-14T17:58:51.149349+00:00",
+      "pnl_pct_live": -0.47,
+      "progression_pct": -15.6
     },
     {
       "ticker": "FAST",
@@ -254,7 +274,11 @@
       "top_news_url": null,
       "status": "open",
       "issued_at": "2026-07-14T15:10:16.194861",
-      "last_seen": "2026-07-14T17:41:53.272310"
+      "last_seen": "2026-07-14T17:41:53.272310",
+      "current_price": 45.46,
+      "current_price_time": "2026-07-14T17:58:51.149349+00:00",
+      "pnl_pct_live": 0.02,
+      "progression_pct": 0.3
     },
     {
       "ticker": "ISRG",
@@ -288,7 +312,11 @@
       "top_news_url": null,
       "status": "open",
       "issued_at": "2026-07-14T15:10:16.194876",
-      "last_seen": "2026-07-14T17:41:53.272310"
+      "last_seen": "2026-07-14T17:41:53.272310",
+      "current_price": 382.21,
+      "current_price_time": "2026-07-14T17:58:51.149349+00:00",
+      "pnl_pct_live": 0.14,
+      "progression_pct": 2.1
     },
     {
       "ticker": "AZN",
@@ -316,9 +344,15 @@
       "news_score": null,
       "top_news_title": null,
       "top_news_url": null,
-      "status": "open",
+      "status": "expired",
       "issued_at": "2026-07-13T10:39:11.812676",
-      "last_seen": "2026-07-14T17:41:53.272310"
+      "last_seen": "2026-07-14T17:41:53.272310",
+      "current_price": 166.25,
+      "current_price_time": "2026-07-14T17:58:51.149349+00:00",
+      "exit_price": 166.25,
+      "exit_date": "2026-07-14T17:58:51.149349+00:00",
+      "pnl_pct": 3.13,
+      "pnl_pct_live": 3.13
     },
     {
       "ticker": "META",
