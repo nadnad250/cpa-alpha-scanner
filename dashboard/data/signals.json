@@ -1,21 +1,21 @@
 {
-  "generated_at": "2026-07-14T09:25:50.032099",
+  "generated_at": "2026-07-14T10:55:38.796141+00:00",
   "date": "2026-07-14",
   "stats": {
-    "total": 4,
+    "total": 3,
     "buy_signals": 2,
-    "sell_signals": 2,
+    "sell_signals": 1,
     "avg_confidence": 0.754,
     "avg_rr": 2.2,
-    "win_rate": 0.32,
-    "active_positions": 4,
-    "daily_pnl": -0.5379
+    "win_rate": 0.333,
+    "active_positions": 3,
+    "daily_pnl": -0.5254
   },
   "eod": {
-    "tp_hit": 16,
+    "tp_hit": 17,
     "sl_hit": 34,
-    "open": 4,
-    "cumulative_pnl": -0.5379
+    "open": 3,
+    "cumulative_pnl": -0.5254
   },
   "signals": [
     {
@@ -50,7 +50,11 @@
       "top_news_url": null,
       "status": "open",
       "issued_at": "2026-07-13T18:18:05.986657",
-      "last_seen": "2026-07-14T09:25:50.032099"
+      "last_seen": "2026-07-14T09:25:50.032099",
+      "current_price": 96.11,
+      "current_price_time": "2026-07-14T10:55:38.796141+00:00",
+      "pnl_pct_live": 0.0,
+      "progression_pct": 0.0
     },
     {
       "ticker": "ODFL",
@@ -80,7 +84,11 @@
       "top_news_url": null,
       "status": "open",
       "issued_at": "2026-07-13T17:12:20.359248",
-      "last_seen": "2026-07-14T09:25:50.032099"
+      "last_seen": "2026-07-14T09:25:50.032099",
+      "current_price": 232.9,
+      "current_price_time": "2026-07-14T10:55:38.796141+00:00",
+      "pnl_pct_live": -0.48,
+      "progression_pct": -23.4
     },
     {
       "ticker": "AZN",
@@ -108,9 +116,15 @@
       "news_score": null,
       "top_news_title": null,
       "top_news_url": null,
-      "status": "open",
+      "status": "expired",
       "issued_at": "2026-07-13T10:39:11.812676",
-      "last_seen": "2026-07-14T09:25:50.032099"
+      "last_seen": "2026-07-14T09:25:50.032099",
+      "current_price": 169.47,
+      "current_price_time": "2026-07-14T10:55:38.796141+00:00",
+      "exit_price": 169.47,
+      "exit_date": "2026-07-14T10:55:38.796141+00:00",
+      "pnl_pct": 1.25,
+      "pnl_pct_live": 1.25
     },
     {
       "ticker": "DKNG",
@@ -140,7 +154,11 @@
       "top_news_url": null,
       "status": "open",
       "issued_at": "2026-07-13T18:18:05.986674",
-      "last_seen": "2026-07-14T09:25:50.032099"
+      "last_seen": "2026-07-14T09:25:50.032099",
+      "current_price": 26.46,
+      "current_price_time": "2026-07-14T10:55:38.796141+00:00",
+      "pnl_pct_live": -0.15,
+      "progression_pct": -5.6
     },
     {
       "ticker": "META",
