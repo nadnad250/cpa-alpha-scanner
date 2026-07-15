@@ -1,21 +1,21 @@
 {
-  "generated_at": "2026-07-15T12:41:42.504971+00:00",
+  "generated_at": "2026-07-15T14:26:22.856746+00:00",
   "date": "2026-07-15",
   "stats": {
-    "total": 6,
-    "buy_signals": 4,
-    "sell_signals": 2,
+    "total": 4,
+    "buy_signals": 3,
+    "sell_signals": 1,
     "avg_confidence": 0.838,
     "avg_rr": 2.2,
-    "win_rate": 0.36,
-    "active_positions": 6,
-    "daily_pnl": -0.5232
+    "win_rate": 0.365,
+    "active_positions": 4,
+    "daily_pnl": -0.5127
   },
   "eod": {
-    "tp_hit": 18,
-    "sl_hit": 32,
-    "open": 6,
-    "cumulative_pnl": -0.5232
+    "tp_hit": 19,
+    "sl_hit": 33,
+    "open": 4,
+    "cumulative_pnl": -0.5127
   },
   "signals": [
     {
@@ -51,10 +51,10 @@
       "status": "open",
       "issued_at": "2026-07-14T15:10:16.194873",
       "last_seen": "2026-07-15T09:29:20.256979",
-      "current_price": 210.68,
-      "current_price_time": "2026-07-15T12:41:42.504971+00:00",
-      "pnl_pct_live": 0.0,
-      "progression_pct": 0.0
+      "current_price": 210.73,
+      "current_price_time": "2026-07-15T14:26:22.856746+00:00",
+      "pnl_pct_live": 0.02,
+      "progression_pct": 0.4
     },
     {
       "ticker": "OKTA",
@@ -85,10 +85,10 @@
       "status": "open",
       "issued_at": "2026-07-14T15:10:16.194879",
       "last_seen": "2026-07-15T09:29:20.256979",
-      "current_price": 154.62,
-      "current_price_time": "2026-07-15T12:41:42.504971+00:00",
-      "pnl_pct_live": 0.6,
-      "progression_pct": 9.1
+      "current_price": 152.59,
+      "current_price_time": "2026-07-15T14:26:22.856746+00:00",
+      "pnl_pct_live": -0.72,
+      "progression_pct": -24.1
     },
     {
       "ticker": "BNTX",
@@ -119,10 +119,10 @@
       "status": "open",
       "issued_at": "2026-07-14T16:13:31.839743",
       "last_seen": "2026-07-15T09:29:20.256979",
-      "current_price": 90.4,
-      "current_price_time": "2026-07-15T12:41:42.504971+00:00",
-      "pnl_pct_live": -0.35,
-      "progression_pct": -19.5
+      "current_price": 90.53,
+      "current_price_time": "2026-07-15T14:26:22.856746+00:00",
+      "pnl_pct_live": -0.21,
+      "progression_pct": -11.6
     },
     {
       "ticker": "CTAS",
@@ -154,20 +154,23 @@
       "news_score": null,
       "top_news_title": null,
       "top_news_url": null,
-      "status": "open",
+      "status": "tp_hit",
       "issued_at": "2026-07-14T20:37:30.993334",
       "last_seen": "2026-07-15T09:29:20.256979",
-      "current_price": 184.24,
-      "current_price_time": "2026-07-15T12:41:42.504971+00:00",
-      "pnl_pct_live": 0.0,
-      "progression_pct": 0.0
+      "current_price": 196.56,
+      "current_price_time": "2026-07-15T14:26:22.856746+00:00",
+      "pnl_pct_live": 4.05,
+      "progression_pct": 0.0,
+      "exit_price": 191.7,
+      "exit_date": "2026-07-15T14:26:22.856746+00:00",
+      "pnl_pct": 4.05
     },
     {
       "ticker": "FAST",
       "action": "STRONG_SELL",
       "price": 45.74,
       "take_profit": 42.72,
-      "stop_loss": 47.11,
+      "stop_loss": 45.74,
       "upside_pct": 6.6,
       "confidence": 0.947,
       "score": -0.8993,
@@ -195,10 +198,11 @@
       "status": "open",
       "issued_at": "2026-07-14T15:10:16.194861",
       "last_seen": "2026-07-15T09:29:20.256979",
-      "current_price": 45.74,
-      "current_price_time": "2026-07-15T12:41:42.504971+00:00",
-      "pnl_pct_live": 0.0,
-      "progression_pct": 0.0
+      "current_price": 44.72,
+      "current_price_time": "2026-07-15T14:26:22.856746+00:00",
+      "pnl_pct_live": 2.23,
+      "progression_pct": 33.8,
+      "trail_level": 1
     },
     {
       "ticker": "ISRG",
@@ -230,13 +234,16 @@
       "news_score": null,
       "top_news_title": null,
       "top_news_url": null,
-      "status": "open",
+      "status": "sl_hit",
       "issued_at": "2026-07-14T15:10:16.194876",
       "last_seen": "2026-07-15T09:29:20.256979",
-      "current_price": 379.47,
-      "current_price_time": "2026-07-15T12:41:42.504971+00:00",
-      "pnl_pct_live": 0.0,
-      "progression_pct": 0.0
+      "current_price": 390.91,
+      "current_price_time": "2026-07-15T14:26:22.856746+00:00",
+      "pnl_pct_live": -3.0,
+      "progression_pct": 0.0,
+      "exit_price": 390.85,
+      "exit_date": "2026-07-15T14:26:22.856746+00:00",
+      "pnl_pct": -3.0
     },
     {
       "ticker": "META",
