@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-15T09:29:20.256979",
+  "generated_at": "2026-07-15T11:01:28.655452+00:00",
   "date": "2026-07-15",
   "stats": {
     "total": 6,
@@ -50,7 +50,11 @@
       "top_news_url": null,
       "status": "open",
       "issued_at": "2026-07-14T15:10:16.194873",
-      "last_seen": "2026-07-15T09:29:20.256979"
+      "last_seen": "2026-07-15T09:29:20.256979",
+      "current_price": 210.68,
+      "current_price_time": "2026-07-15T11:01:28.655452+00:00",
+      "pnl_pct_live": 0.0,
+      "progression_pct": 0.0
     },
     {
       "ticker": "OKTA",
@@ -80,7 +84,11 @@
       "top_news_url": null,
       "status": "open",
       "issued_at": "2026-07-14T15:10:16.194879",
-      "last_seen": "2026-07-15T09:29:20.256979"
+      "last_seen": "2026-07-15T09:29:20.256979",
+      "current_price": 154.62,
+      "current_price_time": "2026-07-15T11:01:28.655452+00:00",
+      "pnl_pct_live": 0.6,
+      "progression_pct": 9.1
     },
     {
       "ticker": "BNTX",
@@ -110,7 +118,11 @@
       "top_news_url": null,
       "status": "open",
       "issued_at": "2026-07-14T16:13:31.839743",
-      "last_seen": "2026-07-15T09:29:20.256979"
+      "last_seen": "2026-07-15T09:29:20.256979",
+      "current_price": 90.4,
+      "current_price_time": "2026-07-15T11:01:28.655452+00:00",
+      "pnl_pct_live": -0.35,
+      "progression_pct": -19.5
     },
     {
       "ticker": "CTAS",
@@ -144,7 +156,11 @@
       "top_news_url": null,
       "status": "open",
       "issued_at": "2026-07-14T20:37:30.993334",
-      "last_seen": "2026-07-15T09:29:20.256979"
+      "last_seen": "2026-07-15T09:29:20.256979",
+      "current_price": 184.24,
+      "current_price_time": "2026-07-15T11:01:28.655452+00:00",
+      "pnl_pct_live": 0.0,
+      "progression_pct": 0.0
     },
     {
       "ticker": "FAST",
@@ -178,7 +194,11 @@
       "top_news_url": null,
       "status": "open",
       "issued_at": "2026-07-14T15:10:16.194861",
-      "last_seen": "2026-07-15T09:29:20.256979"
+      "last_seen": "2026-07-15T09:29:20.256979",
+      "current_price": 45.74,
+      "current_price_time": "2026-07-15T11:01:28.655452+00:00",
+      "pnl_pct_live": 0.0,
+      "progression_pct": 0.0
     },
     {
       "ticker": "ISRG",
@@ -212,7 +232,11 @@
       "top_news_url": null,
       "status": "open",
       "issued_at": "2026-07-14T15:10:16.194876",
-      "last_seen": "2026-07-15T09:29:20.256979"
+      "last_seen": "2026-07-15T09:29:20.256979",
+      "current_price": 379.47,
+      "current_price_time": "2026-07-15T11:01:28.655452+00:00",
+      "pnl_pct_live": 0.0,
+      "progression_pct": 0.0
     },
     {
       "ticker": "META",
