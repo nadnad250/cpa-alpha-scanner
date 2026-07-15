@@ -1,21 +1,21 @@
 {
-  "generated_at": "2026-07-15T15:09:51.524947",
+  "generated_at": "2026-07-15T16:00:50.704736+00:00",
   "date": "2026-07-15",
   "stats": {
-    "total": 5,
+    "total": 4,
     "buy_signals": 4,
-    "sell_signals": 1,
+    "sell_signals": 0,
     "avg_confidence": 0.843,
     "avg_rr": 2.2,
-    "win_rate": 0.34,
-    "active_positions": 5,
-    "daily_pnl": -0.5588
+    "win_rate": 0.333,
+    "active_positions": 4,
+    "daily_pnl": -0.5766
   },
   "eod": {
     "tp_hit": 17,
-    "sl_hit": 33,
-    "open": 5,
-    "cumulative_pnl": -0.5588
+    "sl_hit": 34,
+    "open": 4,
+    "cumulative_pnl": -0.5766
   },
   "signals": [
     {
@@ -50,7 +50,11 @@
       "top_news_url": null,
       "status": "open",
       "issued_at": "2026-07-15T15:09:51.524400",
-      "last_seen": "2026-07-15T15:09:51.524947"
+      "last_seen": "2026-07-15T15:09:51.524947",
+      "current_price": 54.92,
+      "current_price_time": "2026-07-15T16:00:50.704736+00:00",
+      "pnl_pct_live": -1.01,
+      "progression_pct": -33.5
     },
     {
       "ticker": "EA",
@@ -84,7 +88,11 @@
       "top_news_url": null,
       "status": "open",
       "issued_at": "2026-07-15T15:09:51.524412",
-      "last_seen": "2026-07-15T15:09:51.524947"
+      "last_seen": "2026-07-15T15:09:51.524947",
+      "current_price": 207.34,
+      "current_price_time": "2026-07-15T16:00:50.704736+00:00",
+      "pnl_pct_live": 0.09,
+      "progression_pct": 7.0
     },
     {
       "ticker": "ISRG",
@@ -118,14 +126,18 @@
       "top_news_url": null,
       "status": "open",
       "issued_at": "2026-07-15T15:09:51.524417",
-      "last_seen": "2026-07-15T15:09:51.524947"
+      "last_seen": "2026-07-15T15:09:51.524947",
+      "current_price": 392.11,
+      "current_price_time": "2026-07-15T16:00:50.704736+00:00",
+      "pnl_pct_live": 0.35,
+      "progression_pct": 5.3
     },
     {
       "ticker": "CTAS",
       "action": "BUY",
       "price": 184.24,
       "take_profit": 191.7,
-      "stop_loss": 180.85,
+      "stop_loss": 188.716,
       "upside_pct": 4.0,
       "confidence": 0.713,
       "score": 0.348,
@@ -148,7 +160,12 @@
       "top_news_url": null,
       "status": "open",
       "issued_at": "2026-07-14T20:37:30.993334",
-      "last_seen": "2026-07-15T15:09:51.524947"
+      "last_seen": "2026-07-15T15:09:51.524947",
+      "current_price": 191.14,
+      "current_price_time": "2026-07-15T16:00:50.704736+00:00",
+      "pnl_pct_live": 3.75,
+      "trail_level": 3,
+      "progression_pct": 92.5
     },
     {
       "ticker": "ISRG",
@@ -176,9 +193,15 @@
       "news_score": null,
       "top_news_title": null,
       "top_news_url": null,
-      "status": "open",
+      "status": "expired",
       "issued_at": "2026-07-14T15:10:16.194876",
-      "last_seen": "2026-07-15T15:09:51.524947"
+      "last_seen": "2026-07-15T15:09:51.524947",
+      "current_price": 392.11,
+      "current_price_time": "2026-07-15T16:00:50.704736+00:00",
+      "exit_price": 392.11,
+      "exit_date": "2026-07-15T16:00:50.704736+00:00",
+      "pnl_pct": -1.78,
+      "pnl_pct_live": -1.78
     },
     {
       "ticker": "META",
