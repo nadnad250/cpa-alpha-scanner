@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-16T09:35:14.755882",
+  "generated_at": "2026-07-16T11:11:00.087074+00:00",
   "date": "2026-07-16",
   "stats": {
     "total": 5,
@@ -50,7 +50,11 @@
       "top_news_url": null,
       "status": "open",
       "issued_at": "2026-07-15T15:09:51.524400",
-      "last_seen": "2026-07-16T09:35:14.755882"
+      "last_seen": "2026-07-16T09:35:14.755882",
+      "current_price": 55.52,
+      "current_price_time": "2026-07-16T11:11:00.087074+00:00",
+      "pnl_pct_live": 0.0,
+      "progression_pct": 0.0
     },
     {
       "ticker": "EA",
@@ -84,7 +88,11 @@
       "top_news_url": null,
       "status": "open",
       "issued_at": "2026-07-15T15:09:51.524412",
-      "last_seen": "2026-07-16T09:35:14.755882"
+      "last_seen": "2026-07-16T09:35:14.755882",
+      "current_price": 207.23,
+      "current_price_time": "2026-07-16T11:11:00.087074+00:00",
+      "pnl_pct_live": 0.0,
+      "progression_pct": 0.0
     },
     {
       "ticker": "ISRG",
@@ -114,7 +122,11 @@
       "top_news_url": null,
       "status": "open",
       "issued_at": "2026-07-15T15:09:51.524417",
-      "last_seen": "2026-07-16T09:35:14.755882"
+      "last_seen": "2026-07-16T09:35:14.755882",
+      "current_price": 388.81,
+      "current_price_time": "2026-07-16T11:11:00.087074+00:00",
+      "pnl_pct_live": -0.5,
+      "progression_pct": -16.6
     },
     {
       "ticker": "ORLY",
@@ -148,7 +160,11 @@
       "top_news_url": null,
       "status": "open",
       "issued_at": "2026-07-15T16:20:41.043611",
-      "last_seen": "2026-07-16T09:35:14.755882"
+      "last_seen": "2026-07-16T09:35:14.755882",
+      "current_price": 82.69,
+      "current_price_time": "2026-07-16T11:11:00.087074+00:00",
+      "pnl_pct_live": 0.0,
+      "progression_pct": 0.0
     },
     {
       "ticker": "CRWD",
@@ -182,7 +198,11 @@
       "top_news_url": null,
       "status": "open",
       "issued_at": "2026-07-15T17:48:34.558617",
-      "last_seen": "2026-07-16T09:35:14.755882"
+      "last_seen": "2026-07-16T09:35:14.755882",
+      "current_price": 206.79,
+      "current_price_time": "2026-07-16T11:11:00.087074+00:00",
+      "pnl_pct_live": 0.0,
+      "progression_pct": 0.0
     },
     {
       "ticker": "PYPL",
