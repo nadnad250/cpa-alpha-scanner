@@ -1,21 +1,21 @@
 {
-  "generated_at": "2026-07-17T15:00:14.954231",
+  "generated_at": "2026-07-17T15:37:56.455344+00:00",
   "date": "2026-07-17",
   "stats": {
-    "total": 4,
-    "buy_signals": 2,
+    "total": 3,
+    "buy_signals": 1,
     "sell_signals": 2,
     "avg_confidence": 0.848,
     "avg_rr": 2.2,
-    "win_rate": 0.373,
-    "active_positions": 4,
-    "daily_pnl": -0.5088
+    "win_rate": 0.365,
+    "active_positions": 3,
+    "daily_pnl": -0.5303
   },
   "eod": {
     "tp_hit": 19,
-    "sl_hit": 32,
-    "open": 4,
-    "cumulative_pnl": -0.5088
+    "sl_hit": 33,
+    "open": 3,
+    "cumulative_pnl": -0.5303
   },
   "signals": [
     {
@@ -50,7 +50,11 @@
       "top_news_url": null,
       "status": "open",
       "issued_at": "2026-07-17T15:00:14.953791",
-      "last_seen": "2026-07-17T15:00:14.954231"
+      "last_seen": "2026-07-17T15:00:14.954231",
+      "current_price": 68.71,
+      "current_price_time": "2026-07-17T15:37:56.455344+00:00",
+      "pnl_pct_live": 0.35,
+      "progression_pct": 5.3
     },
     {
       "ticker": "ISRG",
@@ -78,9 +82,15 @@
       "news_score": null,
       "top_news_title": null,
       "top_news_url": null,
-      "status": "open",
+      "status": "sl_hit",
       "issued_at": "2026-07-16T20:26:21.588465",
-      "last_seen": "2026-07-17T15:00:14.954231"
+      "last_seen": "2026-07-17T15:00:14.954231",
+      "current_price": 351.23,
+      "current_price_time": "2026-07-17T15:37:56.455344+00:00",
+      "exit_price": 393.67,
+      "exit_date": "2026-07-17T15:37:56.455344+00:00",
+      "pnl_pct": -2.15,
+      "pnl_pct_live": -2.15
     },
     {
       "ticker": "SNPS",
@@ -114,7 +124,11 @@
       "top_news_url": null,
       "status": "open",
       "issued_at": "2026-07-17T15:00:14.953759",
-      "last_seen": "2026-07-17T15:00:14.954231"
+      "last_seen": "2026-07-17T15:00:14.954231",
+      "current_price": 380.81,
+      "current_price_time": "2026-07-17T15:37:56.455344+00:00",
+      "pnl_pct_live": -1.42,
+      "progression_pct": -47.3
     },
     {
       "ticker": "MNST",
@@ -148,7 +162,11 @@
       "top_news_url": null,
       "status": "open",
       "issued_at": "2026-07-17T15:00:14.953786",
-      "last_seen": "2026-07-17T15:00:14.954231"
+      "last_seen": "2026-07-17T15:00:14.954231",
+      "current_price": 98.79,
+      "current_price_time": "2026-07-17T15:37:56.455344+00:00",
+      "pnl_pct_live": -0.26,
+      "progression_pct": -14.4
     },
     {
       "ticker": "PYPL",
