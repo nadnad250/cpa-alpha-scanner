@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-17T09:27:46.800463",
+  "generated_at": "2026-07-17T10:57:45.702415+00:00",
   "date": "2026-07-17",
   "stats": {
     "total": 7,
@@ -46,7 +46,11 @@
       "top_news_url": null,
       "status": "open",
       "issued_at": "2026-07-16T15:19:27.174622",
-      "last_seen": "2026-07-17T09:27:46.800463"
+      "last_seen": "2026-07-17T09:27:46.800463",
+      "current_price": 86.26,
+      "current_price_time": "2026-07-17T10:57:45.702415+00:00",
+      "pnl_pct_live": 0.78,
+      "progression_pct": 16.5
     },
     {
       "ticker": "CTAS",
@@ -80,7 +84,11 @@
       "top_news_url": null,
       "status": "open",
       "issued_at": "2026-07-16T18:52:06.297053",
-      "last_seen": "2026-07-17T09:27:46.800463"
+      "last_seen": "2026-07-17T09:27:46.800463",
+      "current_price": 206.3,
+      "current_price_time": "2026-07-17T10:57:45.702415+00:00",
+      "pnl_pct_live": 0.0,
+      "progression_pct": 0.0
     },
     {
       "ticker": "DLTR",
@@ -110,7 +118,11 @@
       "top_news_url": null,
       "status": "open",
       "issued_at": "2026-07-16T17:47:19.279374",
-      "last_seen": "2026-07-17T09:27:46.800463"
+      "last_seen": "2026-07-17T09:27:46.800463",
+      "current_price": 128.47,
+      "current_price_time": "2026-07-17T10:57:45.702415+00:00",
+      "pnl_pct_live": -1.71,
+      "progression_pct": -56.9
     },
     {
       "ticker": "ISRG",
@@ -144,7 +156,11 @@
       "top_news_url": null,
       "status": "open",
       "issued_at": "2026-07-16T20:26:21.588465",
-      "last_seen": "2026-07-17T09:27:46.800463"
+      "last_seen": "2026-07-17T09:27:46.800463",
+      "current_price": 402.33,
+      "current_price_time": "2026-07-17T10:57:45.702415+00:00",
+      "pnl_pct_live": 0.0,
+      "progression_pct": 0.0
     },
     {
       "ticker": "DXCM",
@@ -178,7 +194,11 @@
       "top_news_url": null,
       "status": "open",
       "issued_at": "2026-07-16T15:19:27.174610",
-      "last_seen": "2026-07-17T09:27:46.800463"
+      "last_seen": "2026-07-17T09:27:46.800463",
+      "current_price": 78.0,
+      "current_price_time": "2026-07-17T10:57:45.702415+00:00",
+      "pnl_pct_live": 0.0,
+      "progression_pct": 0.0
     },
     {
       "ticker": "PYPL",
@@ -208,7 +228,11 @@
       "top_news_url": null,
       "status": "open",
       "issued_at": "2026-07-16T16:16:24.893086",
-      "last_seen": "2026-07-17T09:27:46.800463"
+      "last_seen": "2026-07-17T09:27:46.800463",
+      "current_price": 56.74,
+      "current_price_time": "2026-07-17T10:57:45.702415+00:00",
+      "pnl_pct_live": -0.44,
+      "progression_pct": -15.8
     },
     {
       "ticker": "GOOGL",
@@ -242,7 +266,11 @@
       "top_news_url": null,
       "status": "open",
       "issued_at": "2026-07-16T20:26:21.588478",
-      "last_seen": "2026-07-17T09:27:46.800463"
+      "last_seen": "2026-07-17T09:27:46.800463",
+      "current_price": 354.29,
+      "current_price_time": "2026-07-17T10:57:45.702415+00:00",
+      "pnl_pct_live": 0.0,
+      "progression_pct": 0.0
     },
     {
       "ticker": "PYPL",
