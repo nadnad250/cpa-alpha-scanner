@@ -1,21 +1,21 @@
 {
-  "generated_at": "2026-07-17T12:10:15.913654+00:00",
+  "generated_at": "2026-07-17T14:01:26.478879+00:00",
   "date": "2026-07-17",
   "stats": {
-    "total": 7,
-    "buy_signals": 6,
+    "total": 6,
+    "buy_signals": 5,
     "sell_signals": 1,
     "avg_confidence": 0.774,
     "avg_rr": 2.2,
-    "win_rate": 0.34,
-    "active_positions": 7,
-    "daily_pnl": -0.5216
+    "win_rate": 0.333,
+    "active_positions": 6,
+    "daily_pnl": -0.5431
   },
   "eod": {
     "tp_hit": 17,
-    "sl_hit": 33,
-    "open": 7,
-    "cumulative_pnl": -0.5216
+    "sl_hit": 34,
+    "open": 6,
+    "cumulative_pnl": -0.5431
   },
   "signals": [
     {
@@ -23,7 +23,7 @@
       "action": "STRONG_BUY",
       "price": 85.59,
       "take_profit": 89.66,
-      "stop_loss": 83.74,
+      "stop_loss": 85.59,
       "upside_pct": 4.8,
       "confidence": 0.822,
       "score": 0.6047,
@@ -47,10 +47,11 @@
       "status": "open",
       "issued_at": "2026-07-16T15:19:27.174622",
       "last_seen": "2026-07-17T09:27:46.800463",
-      "current_price": 86.26,
-      "current_price_time": "2026-07-17T12:10:15.913654+00:00",
-      "pnl_pct_live": 0.78,
-      "progression_pct": 16.5
+      "current_price": 86.97,
+      "current_price_time": "2026-07-17T14:01:26.478879+00:00",
+      "pnl_pct_live": 1.61,
+      "progression_pct": 33.9,
+      "trail_level": 1
     },
     {
       "ticker": "CTAS",
@@ -85,10 +86,10 @@
       "status": "open",
       "issued_at": "2026-07-16T18:52:06.297053",
       "last_seen": "2026-07-17T09:27:46.800463",
-      "current_price": 206.3,
-      "current_price_time": "2026-07-17T12:10:15.913654+00:00",
-      "pnl_pct_live": 0.0,
-      "progression_pct": 0.0
+      "current_price": 206.72,
+      "current_price_time": "2026-07-17T14:01:26.478879+00:00",
+      "pnl_pct_live": 0.2,
+      "progression_pct": 3.1
     },
     {
       "ticker": "DLTR",
@@ -119,10 +120,10 @@
       "status": "open",
       "issued_at": "2026-07-16T17:47:19.279374",
       "last_seen": "2026-07-17T09:27:46.800463",
-      "current_price": 128.47,
-      "current_price_time": "2026-07-17T12:10:15.913654+00:00",
-      "pnl_pct_live": -1.71,
-      "progression_pct": -56.9
+      "current_price": 131.89,
+      "current_price_time": "2026-07-17T14:01:26.478879+00:00",
+      "pnl_pct_live": 0.91,
+      "progression_pct": 13.8
     },
     {
       "ticker": "ISRG",
@@ -154,13 +155,16 @@
       "news_score": null,
       "top_news_title": null,
       "top_news_url": null,
-      "status": "open",
+      "status": "sl_hit",
       "issued_at": "2026-07-16T20:26:21.588465",
       "last_seen": "2026-07-17T09:27:46.800463",
-      "current_price": 402.33,
-      "current_price_time": "2026-07-17T12:10:15.913654+00:00",
-      "pnl_pct_live": 0.0,
-      "progression_pct": 0.0
+      "current_price": 357.83,
+      "current_price_time": "2026-07-17T14:01:26.478879+00:00",
+      "pnl_pct_live": -2.15,
+      "progression_pct": 0.0,
+      "exit_price": 393.67,
+      "exit_date": "2026-07-17T14:01:26.478879+00:00",
+      "pnl_pct": -2.15
     },
     {
       "ticker": "DXCM",
@@ -195,10 +199,10 @@
       "status": "open",
       "issued_at": "2026-07-16T15:19:27.174610",
       "last_seen": "2026-07-17T09:27:46.800463",
-      "current_price": 78.0,
-      "current_price_time": "2026-07-17T12:10:15.913654+00:00",
-      "pnl_pct_live": 0.0,
-      "progression_pct": 0.0
+      "current_price": 77.37,
+      "current_price_time": "2026-07-17T14:01:26.478879+00:00",
+      "pnl_pct_live": -0.81,
+      "progression_pct": -26.9
     },
     {
       "ticker": "PYPL",
@@ -229,17 +233,17 @@
       "status": "open",
       "issued_at": "2026-07-16T16:16:24.893086",
       "last_seen": "2026-07-17T09:27:46.800463",
-      "current_price": 56.74,
-      "current_price_time": "2026-07-17T12:10:15.913654+00:00",
-      "pnl_pct_live": -0.44,
-      "progression_pct": -15.8
+      "current_price": 55.82,
+      "current_price_time": "2026-07-17T14:01:26.478879+00:00",
+      "pnl_pct_live": -2.05,
+      "progression_pct": -74.1
     },
     {
       "ticker": "GOOGL",
       "action": "SELL",
       "price": 354.29,
       "take_profit": 330.91,
-      "stop_loss": 364.92,
+      "stop_loss": 354.29,
       "upside_pct": 6.6,
       "confidence": 0.706,
       "score": -0.3319,
@@ -267,10 +271,11 @@
       "status": "open",
       "issued_at": "2026-07-16T20:26:21.588478",
       "last_seen": "2026-07-17T09:27:46.800463",
-      "current_price": 354.29,
-      "current_price_time": "2026-07-17T12:10:15.913654+00:00",
-      "pnl_pct_live": 0.0,
-      "progression_pct": 0.0
+      "current_price": 347.08,
+      "current_price_time": "2026-07-17T14:01:26.478879+00:00",
+      "pnl_pct_live": 2.04,
+      "progression_pct": 30.8,
+      "trail_level": 1
     },
     {
       "ticker": "PYPL",
