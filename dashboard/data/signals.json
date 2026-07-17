@@ -1,21 +1,21 @@
 {
-  "generated_at": "2026-07-17T17:39:48.008101",
+  "generated_at": "2026-07-17T18:01:13.282468+00:00",
   "date": "2026-07-17",
   "stats": {
-    "total": 9,
-    "buy_signals": 5,
+    "total": 5,
+    "buy_signals": 1,
     "sell_signals": 4,
     "avg_confidence": 0.81,
     "avg_rr": 2.2,
-    "win_rate": 0.34,
-    "active_positions": 9,
-    "daily_pnl": -0.5525
+    "win_rate": 0.333,
+    "active_positions": 5,
+    "daily_pnl": -0.6028
   },
   "eod": {
-    "tp_hit": 17,
-    "sl_hit": 33,
-    "open": 9,
-    "cumulative_pnl": -0.5525
+    "tp_hit": 18,
+    "sl_hit": 36,
+    "open": 5,
+    "cumulative_pnl": -0.6028
   },
   "signals": [
     {
@@ -44,9 +44,15 @@
       "news_score": null,
       "top_news_title": null,
       "top_news_url": null,
-      "status": "open",
+      "status": "expired",
       "issued_at": "2026-07-16T15:19:27.174610",
-      "last_seen": "2026-07-17T17:39:48.008101"
+      "last_seen": "2026-07-17T17:39:48.008101",
+      "current_price": 76.05,
+      "current_price_time": "2026-07-17T18:01:13.282468+00:00",
+      "exit_price": 76.05,
+      "exit_date": "2026-07-17T18:01:13.282468+00:00",
+      "pnl_pct": -2.8,
+      "pnl_pct_live": -2.8
     },
     {
       "ticker": "ORLY",
@@ -74,9 +80,15 @@
       "news_score": null,
       "top_news_title": null,
       "top_news_url": null,
-      "status": "open",
+      "status": "expired",
       "issued_at": "2026-07-16T15:19:27.174622",
-      "last_seen": "2026-07-17T17:39:48.008101"
+      "last_seen": "2026-07-17T17:39:48.008101",
+      "current_price": 85.46,
+      "current_price_time": "2026-07-17T18:01:13.282468+00:00",
+      "exit_price": 85.46,
+      "exit_date": "2026-07-17T18:01:13.282468+00:00",
+      "pnl_pct": -0.15,
+      "pnl_pct_live": -0.15
     },
     {
       "ticker": "NFLX",
@@ -111,10 +123,10 @@
       "status": "open",
       "issued_at": "2026-07-17T15:00:14.953791",
       "last_seen": "2026-07-17T15:00:14.954231",
-      "current_price": 68.94,
-      "current_price_time": "2026-07-17T16:45:36.383871+00:00",
-      "pnl_pct_live": 0.69,
-      "progression_pct": 10.4
+      "current_price": 69.08,
+      "current_price_time": "2026-07-17T18:01:13.282468+00:00",
+      "pnl_pct_live": 0.89,
+      "progression_pct": 13.5
     },
     {
       "ticker": "ISRG",
@@ -142,9 +154,15 @@
       "news_score": null,
       "top_news_title": null,
       "top_news_url": null,
-      "status": "open",
+      "status": "sl_hit",
       "issued_at": "2026-07-16T20:26:21.588465",
-      "last_seen": "2026-07-17T17:39:48.008101"
+      "last_seen": "2026-07-17T17:39:48.008101",
+      "current_price": 349.36,
+      "current_price_time": "2026-07-17T18:01:13.282468+00:00",
+      "exit_price": 393.67,
+      "exit_date": "2026-07-17T18:01:13.282468+00:00",
+      "pnl_pct": -2.15,
+      "pnl_pct_live": -2.15
     },
     {
       "ticker": "PYPL",
@@ -172,9 +190,15 @@
       "news_score": null,
       "top_news_title": null,
       "top_news_url": null,
-      "status": "open",
+      "status": "expired",
       "issued_at": "2026-07-16T16:16:24.893086",
-      "last_seen": "2026-07-17T17:39:48.008101"
+      "last_seen": "2026-07-17T17:39:48.008101",
+      "current_price": 57.03,
+      "current_price_time": "2026-07-17T18:01:13.282468+00:00",
+      "exit_price": 57.03,
+      "exit_date": "2026-07-17T18:01:13.282468+00:00",
+      "pnl_pct": 0.07,
+      "pnl_pct_live": 0.07
     },
     {
       "ticker": "SNPS",
@@ -208,7 +232,11 @@
       "top_news_url": null,
       "status": "open",
       "issued_at": "2026-07-17T15:00:14.953759",
-      "last_seen": "2026-07-17T17:39:48.008101"
+      "last_seen": "2026-07-17T17:39:48.008101",
+      "current_price": 376.46,
+      "current_price_time": "2026-07-17T18:01:13.282468+00:00",
+      "pnl_pct_live": 0.07,
+      "progression_pct": 1.1
     },
     {
       "ticker": "MNST",
@@ -242,7 +270,11 @@
       "top_news_url": null,
       "status": "open",
       "issued_at": "2026-07-17T15:00:14.953786",
-      "last_seen": "2026-07-17T17:39:48.008101"
+      "last_seen": "2026-07-17T17:39:48.008101",
+      "current_price": 96.69,
+      "current_price_time": "2026-07-17T18:01:13.282468+00:00",
+      "pnl_pct_live": 0.22,
+      "progression_pct": 3.3
     },
     {
       "ticker": "MAR",
@@ -277,17 +309,17 @@
       "status": "open",
       "issued_at": "2026-07-17T16:14:43.725386",
       "last_seen": "2026-07-17T16:14:43.725981",
-      "current_price": 366.08,
-      "current_price_time": "2026-07-17T16:45:36.383871+00:00",
-      "pnl_pct_live": 0.15,
-      "progression_pct": 5.0
+      "current_price": 364.03,
+      "current_price_time": "2026-07-17T18:01:13.282468+00:00",
+      "pnl_pct_live": 0.71,
+      "progression_pct": 23.7
     },
     {
       "ticker": "GOOGL",
       "action": "SELL",
       "price": 354.29,
       "take_profit": 330.91,
-      "stop_loss": 364.92,
+      "stop_loss": 354.29,
       "upside_pct": 6.6,
       "confidence": 0.706,
       "score": -0.3319,
@@ -310,7 +342,12 @@
       "top_news_url": null,
       "status": "open",
       "issued_at": "2026-07-16T20:26:21.588478",
-      "last_seen": "2026-07-17T17:39:48.008101"
+      "last_seen": "2026-07-17T17:39:48.008101",
+      "current_price": 343.9,
+      "current_price_time": "2026-07-17T18:01:13.282468+00:00",
+      "pnl_pct_live": 2.93,
+      "trail_level": 1,
+      "progression_pct": 44.4
     },
     {
       "ticker": "PYPL",
