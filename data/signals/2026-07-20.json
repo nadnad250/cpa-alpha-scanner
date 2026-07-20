@@ -90,5 +90,28 @@
     "ml_proba_up": null,
     "risk_reward": 2.2,
     "primary_reason": "Cassure ORB baissière (RVOL 2.5x, -VWAP) (contre-gap)"
+  },
+  {
+    "ticker": "SNPS",
+    "action": "SELL",
+    "entry_price": 378.45001220703125,
+    "stop_loss": 383.79998779296875,
+    "take_profit": 366.68006591796876,
+    "score": -0.38609555010021446,
+    "confidence": 0.7290906087925911,
+    "universe": "NASDAQ100",
+    "issued_at": "2026-07-20T20:48:33.904815",
+    "horizon_days": 1,
+    "horizon_hours": 24,
+    "status": "open",
+    "exit_price": null,
+    "exit_date": null,
+    "pnl_pct": null,
+    "max_favorable": null,
+    "max_adverse": null,
+    "sector": "",
+    "ml_proba_up": null,
+    "risk_reward": 2.2,
+    "primary_reason": "Cassure ORB baissière (RVOL 1.5x, -VWAP) +gap"
   }
 ]
