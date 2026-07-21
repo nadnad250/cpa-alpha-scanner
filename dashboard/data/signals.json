@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-21T12:51:11.004112+00:00",
+  "generated_at": "2026-07-21T15:00:25.887296+00:00",
   "date": "2026-07-21",
   "stats": {
     "total": 1,
@@ -159,10 +159,10 @@
       "status": "open",
       "issued_at": "2026-07-20T20:48:33.904815",
       "last_seen": "2026-07-21T10:02:42.824837",
-      "current_price": 378.45,
-      "current_price_time": "2026-07-21T12:51:11.004112+00:00",
-      "pnl_pct_live": 0.0,
-      "progression_pct": 0.0
+      "current_price": 383.18,
+      "current_price_time": "2026-07-21T15:00:25.887296+00:00",
+      "pnl_pct_live": -1.25,
+      "progression_pct": -88.4
     },
     {
       "ticker": "EA",
