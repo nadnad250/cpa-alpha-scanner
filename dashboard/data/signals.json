@@ -1,21 +1,21 @@
 {
-  "generated_at": "2026-07-22T20:38:28.854827",
+  "generated_at": "2026-07-22T21:35:31.601287+00:00",
   "date": "2026-07-22",
   "stats": {
-    "total": 6,
-    "buy_signals": 5,
-    "sell_signals": 1,
+    "total": 0,
+    "buy_signals": 0,
+    "sell_signals": 0,
     "avg_confidence": 0.796,
     "avg_rr": 2.2,
-    "win_rate": 0.32,
-    "active_positions": 6,
-    "daily_pnl": -0.6083
+    "win_rate": 0.304,
+    "active_positions": 0,
+    "daily_pnl": -0.7301
   },
   "eod": {
-    "tp_hit": 16,
-    "sl_hit": 34,
-    "open": 6,
-    "cumulative_pnl": -0.6083
+    "tp_hit": 17,
+    "sl_hit": 39,
+    "open": 0,
+    "cumulative_pnl": -0.7301
   },
   "signals": [
     {
@@ -44,9 +44,15 @@
       "news_score": null,
       "top_news_title": null,
       "top_news_url": null,
-      "status": "open",
+      "status": "expired",
       "issued_at": "2026-07-22T15:22:08.577604",
-      "last_seen": "2026-07-22T20:38:28.854827"
+      "last_seen": "2026-07-22T20:38:28.854827",
+      "current_price": 30.54,
+      "current_price_time": "2026-07-22T21:35:31.601287+00:00",
+      "exit_price": 30.54,
+      "exit_date": "2026-07-22T21:35:31.601287+00:00",
+      "pnl_pct": -3.57,
+      "pnl_pct_live": -3.57
     },
     {
       "ticker": "COIN",
@@ -74,9 +80,15 @@
       "news_score": null,
       "top_news_title": null,
       "top_news_url": null,
-      "status": "open",
+      "status": "expired",
       "issued_at": "2026-07-21T15:24:12.413232",
-      "last_seen": "2026-07-22T20:38:28.854827"
+      "last_seen": "2026-07-22T20:38:28.854827",
+      "current_price": 166.13,
+      "current_price_time": "2026-07-22T21:35:31.601287+00:00",
+      "exit_price": 166.13,
+      "exit_date": "2026-07-22T21:35:31.601287+00:00",
+      "pnl_pct": -7.07,
+      "pnl_pct_live": -7.07
     },
     {
       "ticker": "EXC",
@@ -104,9 +116,15 @@
       "news_score": null,
       "top_news_title": null,
       "top_news_url": null,
-      "status": "open",
+      "status": "expired",
       "issued_at": "2026-07-22T17:49:27.158617",
-      "last_seen": "2026-07-22T20:38:28.854827"
+      "last_seen": "2026-07-22T20:38:28.854827",
+      "current_price": 46.69,
+      "current_price_time": "2026-07-22T21:35:31.601287+00:00",
+      "exit_price": 46.69,
+      "exit_date": "2026-07-22T21:35:31.601287+00:00",
+      "pnl_pct": -0.11,
+      "pnl_pct_live": -0.11
     },
     {
       "ticker": "CDNS",
@@ -134,9 +152,15 @@
       "news_score": null,
       "top_news_title": null,
       "top_news_url": null,
-      "status": "open",
+      "status": "expired",
       "issued_at": "2026-07-21T19:00:29.397037",
-      "last_seen": "2026-07-22T20:38:28.854827"
+      "last_seen": "2026-07-22T20:38:28.854827",
+      "current_price": 337.06,
+      "current_price_time": "2026-07-22T21:35:31.601287+00:00",
+      "exit_price": 337.06,
+      "exit_date": "2026-07-22T21:35:31.601287+00:00",
+      "pnl_pct": -2.42,
+      "pnl_pct_live": -2.42
     },
     {
       "ticker": "RIOT",
@@ -164,9 +188,15 @@
       "news_score": null,
       "top_news_title": null,
       "top_news_url": null,
-      "status": "open",
+      "status": "expired",
       "issued_at": "2026-07-22T16:19:45.588359",
-      "last_seen": "2026-07-22T20:38:28.854827"
+      "last_seen": "2026-07-22T20:38:28.854827",
+      "current_price": 23.39,
+      "current_price_time": "2026-07-22T21:35:31.601287+00:00",
+      "exit_price": 23.39,
+      "exit_date": "2026-07-22T21:35:31.601287+00:00",
+      "pnl_pct": 0.99,
+      "pnl_pct_live": 0.99
     },
     {
       "ticker": "DKNG",
@@ -198,9 +228,15 @@
       "news_score": null,
       "top_news_title": null,
       "top_news_url": null,
-      "status": "open",
+      "status": "expired",
       "issued_at": "2026-07-22T20:38:28.854188",
-      "last_seen": "2026-07-22T20:38:28.854827"
+      "last_seen": "2026-07-22T20:38:28.854827",
+      "current_price": 22.83,
+      "current_price_time": "2026-07-22T21:35:31.601287+00:00",
+      "exit_price": 22.83,
+      "exit_date": "2026-07-22T21:35:31.601287+00:00",
+      "pnl_pct": 0.0,
+      "pnl_pct_live": 0.0
     },
     {
       "ticker": "SMCI",
