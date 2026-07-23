@@ -1,21 +1,21 @@
 {
-  "generated_at": "2026-07-23T17:56:13.459351",
+  "generated_at": "2026-07-23T18:02:03.816194+00:00",
   "date": "2026-07-23",
   "stats": {
-    "total": 5,
-    "buy_signals": 1,
+    "total": 4,
+    "buy_signals": 0,
     "sell_signals": 4,
     "avg_confidence": 0.831,
     "avg_rr": 2.2,
-    "win_rate": 0.34,
-    "active_positions": 5,
-    "daily_pnl": -0.6324
+    "win_rate": 0.353,
+    "active_positions": 4,
+    "daily_pnl": -0.5879
   },
   "eod": {
-    "tp_hit": 17,
+    "tp_hit": 18,
     "sl_hit": 33,
-    "open": 5,
-    "cumulative_pnl": -0.6324
+    "open": 4,
+    "cumulative_pnl": -0.5879
   },
   "signals": [
     {
@@ -44,9 +44,15 @@
       "news_score": null,
       "top_news_title": null,
       "top_news_url": null,
-      "status": "open",
+      "status": "expired",
       "issued_at": "2026-07-22T16:19:45.588359",
-      "last_seen": "2026-07-23T17:56:13.459351"
+      "last_seen": "2026-07-23T17:56:13.459351",
+      "current_price": 24.19,
+      "current_price_time": "2026-07-23T18:02:03.816194+00:00",
+      "exit_price": 24.19,
+      "exit_date": "2026-07-23T18:02:03.816194+00:00",
+      "pnl_pct": 4.45,
+      "pnl_pct_live": 4.45
     },
     {
       "ticker": "TSLA",
@@ -81,10 +87,10 @@
       "status": "open",
       "issued_at": "2026-07-23T15:34:28.085684",
       "last_seen": "2026-07-23T15:34:28.086188",
-      "current_price": 322.92,
-      "current_price_time": "2026-07-23T16:44:49.271298+00:00",
-      "pnl_pct_live": -0.69,
-      "progression_pct": -23.0
+      "current_price": 320.96,
+      "current_price_time": "2026-07-23T18:02:03.816194+00:00",
+      "pnl_pct_live": -0.08,
+      "progression_pct": -2.6
     },
     {
       "ticker": "CHTR",
@@ -119,10 +125,10 @@
       "status": "open",
       "issued_at": "2026-07-23T15:34:28.085695",
       "last_seen": "2026-07-23T15:34:28.086188",
-      "current_price": 125.07,
-      "current_price_time": "2026-07-23T16:44:49.271298+00:00",
-      "pnl_pct_live": 0.37,
-      "progression_pct": 6.6
+      "current_price": 125.7,
+      "current_price_time": "2026-07-23T18:02:03.816194+00:00",
+      "pnl_pct_live": -0.14,
+      "progression_pct": -5.4
     },
     {
       "ticker": "WOLF",
@@ -156,7 +162,11 @@
       "top_news_url": null,
       "status": "open",
       "issued_at": "2026-07-23T17:56:13.458541",
-      "last_seen": "2026-07-23T17:56:13.459351"
+      "last_seen": "2026-07-23T17:56:13.459351",
+      "current_price": 25.86,
+      "current_price_time": "2026-07-23T18:02:03.816194+00:00",
+      "pnl_pct_live": 0.27,
+      "progression_pct": 4.1
     },
     {
       "ticker": "CMCSA",
@@ -191,10 +201,10 @@
       "status": "open",
       "issued_at": "2026-07-23T16:25:06.420936",
       "last_seen": "2026-07-23T16:25:06.421537",
-      "current_price": 22.53,
-      "current_price_time": "2026-07-23T16:44:49.271298+00:00",
-      "pnl_pct_live": 0.57,
-      "progression_pct": 8.7
+      "current_price": 22.59,
+      "current_price_time": "2026-07-23T18:02:03.816194+00:00",
+      "pnl_pct_live": 0.31,
+      "progression_pct": 4.7
     },
     {
       "ticker": "SMCI",
