@@ -113,5 +113,28 @@
     "ml_proba_up": null,
     "risk_reward": 2.2,
     "primary_reason": "Cassure ORB baissière (RVOL 3.5x, -VWAP) +gap"
+  },
+  {
+    "ticker": "TMUS",
+    "action": "STRONG_SELL",
+    "entry_price": 170.36000061035156,
+    "stop_loss": 175.47080062866212,
+    "take_profit": 159.11624057006836,
+    "score": -0.8843659624624174,
+    "confidence": 0.9408555340465274,
+    "universe": "NASDAQ100",
+    "issued_at": "2026-07-23T20:35:44.335976",
+    "horizon_days": 1,
+    "horizon_hours": 24,
+    "status": "open",
+    "exit_price": null,
+    "exit_date": null,
+    "pnl_pct": null,
+    "max_favorable": null,
+    "max_adverse": null,
+    "sector": "",
+    "ml_proba_up": null,
+    "risk_reward": 2.2,
+    "primary_reason": "Cassure ORB baissière (RVOL 2.6x, -VWAP) +gap"
   }
 ]
