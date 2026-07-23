@@ -90,5 +90,28 @@
     "ml_proba_up": null,
     "risk_reward": 2.2,
     "primary_reason": "Cassure ORB baissière (RVOL 1.5x, -VWAP) +gap"
+  },
+  {
+    "ticker": "GOOGL",
+    "action": "STRONG_SELL",
+    "entry_price": 318.9949951171875,
+    "stop_loss": 324.489990234375,
+    "take_profit": 306.906005859375,
+    "score": -0.8217169330305127,
+    "confidence": 0.9142296965379679,
+    "universe": "NASDAQ100",
+    "issued_at": "2026-07-23T18:55:28.921456",
+    "horizon_days": 1,
+    "horizon_hours": 24,
+    "status": "open",
+    "exit_price": null,
+    "exit_date": null,
+    "pnl_pct": null,
+    "max_favorable": null,
+    "max_adverse": null,
+    "sector": "",
+    "ml_proba_up": null,
+    "risk_reward": 2.2,
+    "primary_reason": "Cassure ORB baissière (RVOL 3.5x, -VWAP) +gap"
   }
 ]
