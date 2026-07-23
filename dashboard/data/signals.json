@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-23T09:58:47.254403",
+  "generated_at": "2026-07-23T11:22:57.814809+00:00",
   "date": "2026-07-23",
   "stats": {
     "total": 3,
@@ -50,7 +50,11 @@
       "top_news_url": null,
       "status": "open",
       "issued_at": "2026-07-22T17:49:27.158617",
-      "last_seen": "2026-07-23T09:58:47.254403"
+      "last_seen": "2026-07-23T09:58:47.254403",
+      "current_price": 46.69,
+      "current_price_time": "2026-07-23T11:22:57.814809+00:00",
+      "pnl_pct_live": 0.0,
+      "progression_pct": 0.0
     },
     {
       "ticker": "RIOT",
@@ -84,7 +88,11 @@
       "top_news_url": null,
       "status": "open",
       "issued_at": "2026-07-22T16:19:45.588359",
-      "last_seen": "2026-07-23T09:58:47.254403"
+      "last_seen": "2026-07-23T09:58:47.254403",
+      "current_price": 23.39,
+      "current_price_time": "2026-07-23T11:22:57.814809+00:00",
+      "pnl_pct_live": 0.0,
+      "progression_pct": 0.0
     },
     {
       "ticker": "DKNG",
@@ -118,7 +126,11 @@
       "top_news_url": null,
       "status": "open",
       "issued_at": "2026-07-22T20:38:28.854188",
-      "last_seen": "2026-07-23T09:58:47.254403"
+      "last_seen": "2026-07-23T09:58:47.254403",
+      "current_price": 22.83,
+      "current_price_time": "2026-07-23T11:22:57.814809+00:00",
+      "pnl_pct_live": 0.0,
+      "progression_pct": 0.0
     },
     {
       "ticker": "SMCI",
