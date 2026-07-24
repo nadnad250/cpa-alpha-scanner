@@ -1,21 +1,21 @@
 {
-  "generated_at": "2026-07-24T15:15:02.152066",
+  "generated_at": "2026-07-24T16:33:16.641817+00:00",
   "date": "2026-07-24",
   "stats": {
-    "total": 3,
+    "total": 1,
     "buy_signals": 0,
-    "sell_signals": 3,
+    "sell_signals": 1,
     "avg_confidence": 0.878,
     "avg_rr": 2.2,
-    "win_rate": 0.38,
-    "active_positions": 3,
-    "daily_pnl": -0.405
+    "win_rate": 0.385,
+    "active_positions": 1,
+    "daily_pnl": -0.3691
   },
   "eod": {
-    "tp_hit": 19,
-    "sl_hit": 31,
-    "open": 3,
-    "cumulative_pnl": -0.405
+    "tp_hit": 20,
+    "sl_hit": 32,
+    "open": 1,
+    "cumulative_pnl": -0.3691
   },
   "signals": [
     {
@@ -44,9 +44,15 @@
       "news_score": null,
       "top_news_title": null,
       "top_news_url": null,
-      "status": "open",
+      "status": "sl_hit",
       "issued_at": "2026-07-23T20:35:44.335976",
-      "last_seen": "2026-07-24T15:15:02.152066"
+      "last_seen": "2026-07-24T15:15:02.152066",
+      "current_price": 179.07,
+      "current_price_time": "2026-07-24T16:33:16.641817+00:00",
+      "exit_price": 175.47,
+      "exit_date": "2026-07-24T16:33:16.641817+00:00",
+      "pnl_pct": -3.0,
+      "pnl_pct_live": -3.0
     },
     {
       "ticker": "INTC",
@@ -80,7 +86,11 @@
       "top_news_url": null,
       "status": "open",
       "issued_at": "2026-07-24T15:15:02.151485",
-      "last_seen": "2026-07-24T15:15:02.152066"
+      "last_seen": "2026-07-24T15:15:02.152066",
+      "current_price": 95.43,
+      "current_price_time": "2026-07-24T16:33:16.641817+00:00",
+      "pnl_pct_live": 1.06,
+      "progression_pct": 16.0
     },
     {
       "ticker": "WOLF",
@@ -108,9 +118,15 @@
       "news_score": null,
       "top_news_title": null,
       "top_news_url": null,
-      "status": "open",
+      "status": "tp_hit",
       "issued_at": "2026-07-23T17:56:13.458541",
-      "last_seen": "2026-07-24T15:15:02.152066"
+      "last_seen": "2026-07-24T15:15:02.152066",
+      "current_price": 23.86,
+      "current_price_time": "2026-07-24T16:33:16.641817+00:00",
+      "exit_price": 24.22,
+      "exit_date": "2026-07-24T16:33:16.641817+00:00",
+      "pnl_pct": 6.59,
+      "pnl_pct_live": 6.59
     },
     {
       "ticker": "SMCI",
