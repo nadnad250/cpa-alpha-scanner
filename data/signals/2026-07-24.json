@@ -1,0 +1,25 @@
+[
+  {
+    "ticker": "INTC",
+    "action": "STRONG_SELL",
+    "entry_price": 96.44999694824219,
+    "stop_loss": 99.34349685668946,
+    "take_profit": 90.0842971496582,
+    "score": -0.7590130301959419,
+    "confidence": 0.8875805378332754,
+    "universe": "NASDAQ100",
+    "issued_at": "2026-07-24T15:15:02.151485",
+    "horizon_days": 1,
+    "horizon_hours": 24,
+    "status": "open",
+    "exit_price": null,
+    "exit_date": null,
+    "pnl_pct": null,
+    "max_favorable": null,
+    "max_adverse": null,
+    "sector": "",
+    "ml_proba_up": null,
+    "risk_reward": 2.2,
+    "primary_reason": "Cassure ORB baissière (RVOL 2.2x, -VWAP) +gap"
+  }
+]
