@@ -1,21 +1,21 @@
 {
-  "generated_at": "2026-07-24T16:41:14.030761",
+  "generated_at": "2026-07-24T17:58:43.594170+00:00",
   "date": "2026-07-24",
   "stats": {
-    "total": 7,
+    "total": 2,
     "buy_signals": 0,
-    "sell_signals": 7,
+    "sell_signals": 2,
     "avg_confidence": 0.87,
     "avg_rr": 2.2,
-    "win_rate": 0.38,
-    "active_positions": 7,
-    "daily_pnl": -0.405
+    "win_rate": 0.418,
+    "active_positions": 2,
+    "daily_pnl": -0.259
   },
   "eod": {
-    "tp_hit": 19,
-    "sl_hit": 31,
-    "open": 7,
-    "cumulative_pnl": -0.405
+    "tp_hit": 23,
+    "sl_hit": 32,
+    "open": 2,
+    "cumulative_pnl": -0.259
   },
   "signals": [
     {
@@ -44,9 +44,15 @@
       "news_score": null,
       "top_news_title": null,
       "top_news_url": null,
-      "status": "open",
+      "status": "expired",
       "issued_at": "2026-07-23T15:34:28.085684",
-      "last_seen": "2026-07-24T16:41:14.030761"
+      "last_seen": "2026-07-24T16:41:14.030761",
+      "current_price": 309.56,
+      "current_price_time": "2026-07-24T17:58:43.594170+00:00",
+      "exit_price": 309.56,
+      "exit_date": "2026-07-24T17:58:43.594170+00:00",
+      "pnl_pct": 3.48,
+      "pnl_pct_live": 3.48
     },
     {
       "ticker": "TMUS",
@@ -74,9 +80,15 @@
       "news_score": null,
       "top_news_title": null,
       "top_news_url": null,
-      "status": "open",
+      "status": "sl_hit",
       "issued_at": "2026-07-23T20:35:44.335976",
-      "last_seen": "2026-07-24T16:41:14.030761"
+      "last_seen": "2026-07-24T16:41:14.030761",
+      "current_price": 179.34,
+      "current_price_time": "2026-07-24T17:58:43.594170+00:00",
+      "exit_price": 175.47,
+      "exit_date": "2026-07-24T17:58:43.594170+00:00",
+      "pnl_pct": -3.0,
+      "pnl_pct_live": -3.0
     },
     {
       "ticker": "CHTR",
@@ -104,9 +116,15 @@
       "news_score": null,
       "top_news_title": null,
       "top_news_url": null,
-      "status": "open",
+      "status": "expired",
       "issued_at": "2026-07-23T15:34:28.085695",
-      "last_seen": "2026-07-24T16:41:14.030761"
+      "last_seen": "2026-07-24T16:41:14.030761",
+      "current_price": 123.21,
+      "current_price_time": "2026-07-24T17:58:43.594170+00:00",
+      "exit_price": 123.21,
+      "exit_date": "2026-07-24T17:58:43.594170+00:00",
+      "pnl_pct": 1.85,
+      "pnl_pct_live": 1.85
     },
     {
       "ticker": "GOOGL",
@@ -136,7 +154,11 @@
       "top_news_url": null,
       "status": "open",
       "issued_at": "2026-07-23T18:55:28.921456",
-      "last_seen": "2026-07-24T16:41:14.030761"
+      "last_seen": "2026-07-24T16:41:14.030761",
+      "current_price": 320.01,
+      "current_price_time": "2026-07-24T17:58:43.594170+00:00",
+      "pnl_pct_live": -0.32,
+      "progression_pct": -18.5
     },
     {
       "ticker": "WOLF",
@@ -164,9 +186,15 @@
       "news_score": null,
       "top_news_title": null,
       "top_news_url": null,
-      "status": "open",
+      "status": "expired",
       "issued_at": "2026-07-23T17:56:13.458541",
-      "last_seen": "2026-07-24T16:41:14.030761"
+      "last_seen": "2026-07-24T16:41:14.030761",
+      "current_price": 23.24,
+      "current_price_time": "2026-07-24T17:58:43.594170+00:00",
+      "exit_price": 23.24,
+      "exit_date": "2026-07-24T17:58:43.594170+00:00",
+      "pnl_pct": 10.37,
+      "pnl_pct_live": 10.37
     },
     {
       "ticker": "INTC",
@@ -200,7 +228,11 @@
       "top_news_url": null,
       "status": "open",
       "issued_at": "2026-07-24T15:15:02.151485",
-      "last_seen": "2026-07-24T16:41:14.030761"
+      "last_seen": "2026-07-24T16:41:14.030761",
+      "current_price": 96.11,
+      "current_price_time": "2026-07-24T17:58:43.594170+00:00",
+      "pnl_pct_live": -0.36,
+      "progression_pct": -11.8
     },
     {
       "ticker": "CMCSA",
@@ -228,9 +260,15 @@
       "news_score": null,
       "top_news_title": null,
       "top_news_url": null,
-      "status": "open",
+      "status": "expired",
       "issued_at": "2026-07-23T16:25:06.420936",
-      "last_seen": "2026-07-24T16:41:14.030761"
+      "last_seen": "2026-07-24T16:41:14.030761",
+      "current_price": 22.23,
+      "current_price_time": "2026-07-24T17:58:43.594170+00:00",
+      "exit_price": 22.23,
+      "exit_date": "2026-07-24T17:58:43.594170+00:00",
+      "pnl_pct": 1.9,
+      "pnl_pct_live": 1.9
     },
     {
       "ticker": "SMCI",
