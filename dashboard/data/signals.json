@@ -1,21 +1,21 @@
 {
-  "generated_at": "2026-07-24T20:46:38.341070",
+  "generated_at": "2026-07-24T20:49:06.460119+00:00",
   "date": "2026-07-24",
   "stats": {
-    "total": 9,
-    "buy_signals": 2,
-    "sell_signals": 7,
+    "total": 0,
+    "buy_signals": 0,
+    "sell_signals": 0,
     "avg_confidence": 0.857,
     "avg_rr": 2.2,
-    "win_rate": 0.38,
-    "active_positions": 9,
-    "daily_pnl": -0.4134
+    "win_rate": 0.373,
+    "active_positions": 0,
+    "daily_pnl": -0.4153
   },
   "eod": {
-    "tp_hit": 19,
-    "sl_hit": 31,
-    "open": 9,
-    "cumulative_pnl": -0.4134
+    "tp_hit": 22,
+    "sl_hit": 37,
+    "open": 0,
+    "cumulative_pnl": -0.4153
   },
   "signals": [
     {
@@ -48,9 +48,15 @@
       "news_score": null,
       "top_news_title": null,
       "top_news_url": null,
-      "status": "open",
+      "status": "expired",
       "issued_at": "2026-07-24T18:00:53.761919",
-      "last_seen": "2026-07-24T20:46:38.341070"
+      "last_seen": "2026-07-24T20:46:38.341070",
+      "current_price": 123.31,
+      "current_price_time": "2026-07-24T20:49:06.460119+00:00",
+      "exit_price": 123.31,
+      "exit_date": "2026-07-24T20:49:06.460119+00:00",
+      "pnl_pct": 0.0,
+      "pnl_pct_live": 0.0
     },
     {
       "ticker": "TTD",
@@ -82,9 +88,15 @@
       "news_score": null,
       "top_news_title": null,
       "top_news_url": null,
-      "status": "open",
+      "status": "expired",
       "issued_at": "2026-07-24T18:00:53.761923",
-      "last_seen": "2026-07-24T20:46:38.341070"
+      "last_seen": "2026-07-24T20:46:38.341070",
+      "current_price": 17.29,
+      "current_price_time": "2026-07-24T20:49:06.460119+00:00",
+      "exit_price": 17.29,
+      "exit_date": "2026-07-24T20:49:06.460119+00:00",
+      "pnl_pct": 0.0,
+      "pnl_pct_live": 0.0
     },
     {
       "ticker": "TSLA",
@@ -112,9 +124,15 @@
       "news_score": null,
       "top_news_title": null,
       "top_news_url": null,
-      "status": "open",
+      "status": "expired",
       "issued_at": "2026-07-23T15:34:28.085684",
-      "last_seen": "2026-07-24T20:46:38.341070"
+      "last_seen": "2026-07-24T20:46:38.341070",
+      "current_price": 313.0,
+      "current_price_time": "2026-07-24T20:49:06.460119+00:00",
+      "exit_price": 313.0,
+      "exit_date": "2026-07-24T20:49:06.460119+00:00",
+      "pnl_pct": 2.4,
+      "pnl_pct_live": 2.4
     },
     {
       "ticker": "TMUS",
@@ -142,9 +160,15 @@
       "news_score": null,
       "top_news_title": null,
       "top_news_url": null,
-      "status": "open",
+      "status": "expired",
       "issued_at": "2026-07-23T20:35:44.335976",
-      "last_seen": "2026-07-24T20:46:38.341070"
+      "last_seen": "2026-07-24T20:46:38.341070",
+      "current_price": 180.09,
+      "current_price_time": "2026-07-24T20:49:06.460119+00:00",
+      "exit_price": 180.09,
+      "exit_date": "2026-07-24T20:49:06.460119+00:00",
+      "pnl_pct": -5.71,
+      "pnl_pct_live": -5.71
     },
     {
       "ticker": "CHTR",
@@ -172,9 +196,15 @@
       "news_score": null,
       "top_news_title": null,
       "top_news_url": null,
-      "status": "open",
+      "status": "expired",
       "issued_at": "2026-07-23T15:34:28.085695",
-      "last_seen": "2026-07-24T20:46:38.341070"
+      "last_seen": "2026-07-24T20:46:38.341070",
+      "current_price": 123.31,
+      "current_price_time": "2026-07-24T20:49:06.460119+00:00",
+      "exit_price": 123.31,
+      "exit_date": "2026-07-24T20:49:06.460119+00:00",
+      "pnl_pct": 1.77,
+      "pnl_pct_live": 1.77
     },
     {
       "ticker": "GOOGL",
@@ -202,9 +232,15 @@
       "news_score": null,
       "top_news_title": null,
       "top_news_url": null,
-      "status": "open",
+      "status": "expired",
       "issued_at": "2026-07-23T18:55:28.921456",
-      "last_seen": "2026-07-24T20:46:38.341070"
+      "last_seen": "2026-07-24T20:46:38.341070",
+      "current_price": 319.77,
+      "current_price_time": "2026-07-24T20:49:06.460119+00:00",
+      "exit_price": 319.77,
+      "exit_date": "2026-07-24T20:49:06.460119+00:00",
+      "pnl_pct": -0.24,
+      "pnl_pct_live": -0.24
     },
     {
       "ticker": "WOLF",
@@ -236,9 +272,15 @@
       "news_score": null,
       "top_news_title": null,
       "top_news_url": null,
-      "status": "open",
+      "status": "expired",
       "issued_at": "2026-07-23T17:56:13.458541",
-      "last_seen": "2026-07-24T20:46:38.341070"
+      "last_seen": "2026-07-24T20:46:38.341070",
+      "current_price": 23.09,
+      "current_price_time": "2026-07-24T20:49:06.460119+00:00",
+      "exit_price": 23.09,
+      "exit_date": "2026-07-24T20:49:06.460119+00:00",
+      "pnl_pct": 0.0,
+      "pnl_pct_live": 0.0
     },
     {
       "ticker": "INTC",
@@ -270,9 +312,15 @@
       "news_score": null,
       "top_news_title": null,
       "top_news_url": null,
-      "status": "open",
+      "status": "expired",
       "issued_at": "2026-07-24T15:15:02.151485",
-      "last_seen": "2026-07-24T20:46:38.341070"
+      "last_seen": "2026-07-24T20:46:38.341070",
+      "current_price": 92.32,
+      "current_price_time": "2026-07-24T20:49:06.460119+00:00",
+      "exit_price": 92.32,
+      "exit_date": "2026-07-24T20:49:06.460119+00:00",
+      "pnl_pct": 0.0,
+      "pnl_pct_live": 0.0
     },
     {
       "ticker": "CMCSA",
@@ -300,9 +348,15 @@
       "news_score": null,
       "top_news_title": null,
       "top_news_url": null,
-      "status": "open",
+      "status": "expired",
       "issued_at": "2026-07-23T16:25:06.420936",
-      "last_seen": "2026-07-24T20:46:38.341070"
+      "last_seen": "2026-07-24T20:46:38.341070",
+      "current_price": 22.3,
+      "current_price_time": "2026-07-24T20:49:06.460119+00:00",
+      "exit_price": 22.3,
+      "exit_date": "2026-07-24T20:49:06.460119+00:00",
+      "pnl_pct": 1.59,
+      "pnl_pct_live": 1.59
     },
     {
       "ticker": "SMCI",
