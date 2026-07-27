@@ -1,21 +1,21 @@
 {
-  "generated_at": "2026-07-27T19:19:55.126861+00:00",
+  "generated_at": "2026-07-27T20:49:27.618019+00:00",
   "date": "2026-07-27",
   "stats": {
-    "total": 5,
-    "buy_signals": 4,
-    "sell_signals": 1,
+    "total": 0,
+    "buy_signals": 0,
+    "sell_signals": 0,
     "avg_confidence": 0.823,
     "avg_rr": 2.2,
-    "win_rate": 0.444,
-    "active_positions": 5,
-    "daily_pnl": -0.0852
+    "win_rate": 0.458,
+    "active_positions": 0,
+    "daily_pnl": -0.0823
   },
   "eod": {
-    "tp_hit": 24,
-    "sl_hit": 30,
-    "open": 5,
-    "cumulative_pnl": -0.0852
+    "tp_hit": 27,
+    "sl_hit": 32,
+    "open": 0,
+    "cumulative_pnl": -0.0823
   },
   "signals": [
     {
@@ -48,13 +48,16 @@
       "news_score": null,
       "top_news_title": null,
       "top_news_url": null,
-      "status": "open",
+      "status": "expired",
       "issued_at": "2026-07-27T16:00:59.088943",
       "last_seen": "2026-07-27T16:56:08.981125",
-      "current_price": 95.65,
-      "current_price_time": "2026-07-27T19:19:55.126861+00:00",
-      "pnl_pct_live": 0.04,
-      "progression_pct": 0.6
+      "current_price": 95.84,
+      "current_price_time": "2026-07-27T20:49:27.618019+00:00",
+      "pnl_pct_live": 0.24,
+      "progression_pct": 0.6,
+      "exit_price": 95.84,
+      "exit_date": "2026-07-27T20:49:27.618019+00:00",
+      "pnl_pct": 0.24
     },
     {
       "ticker": "CPRT",
@@ -86,13 +89,16 @@
       "news_score": null,
       "top_news_title": null,
       "top_news_url": null,
-      "status": "open",
+      "status": "expired",
       "issued_at": "2026-07-27T16:00:59.088939",
       "last_seen": "2026-07-27T16:56:08.981125",
-      "current_price": 29.85,
-      "current_price_time": "2026-07-27T19:19:55.126861+00:00",
-      "pnl_pct_live": 0.84,
-      "progression_pct": 12.8
+      "current_price": 29.8,
+      "current_price_time": "2026-07-27T20:49:27.618019+00:00",
+      "pnl_pct_live": 0.68,
+      "progression_pct": 12.8,
+      "exit_price": 29.8,
+      "exit_date": "2026-07-27T20:49:27.618019+00:00",
+      "pnl_pct": 0.68
     },
     {
       "ticker": "SIRI",
@@ -124,13 +130,16 @@
       "news_score": null,
       "top_news_title": null,
       "top_news_url": null,
-      "status": "open",
+      "status": "expired",
       "issued_at": "2026-07-27T16:00:59.088934",
       "last_seen": "2026-07-27T16:56:08.981125",
-      "current_price": 31.2,
-      "current_price_time": "2026-07-27T19:19:55.126861+00:00",
-      "pnl_pct_live": -0.48,
-      "progression_pct": -16.0
+      "current_price": 31.19,
+      "current_price_time": "2026-07-27T20:49:27.618019+00:00",
+      "pnl_pct_live": -0.51,
+      "progression_pct": -16.0,
+      "exit_price": 31.19,
+      "exit_date": "2026-07-27T20:49:27.618019+00:00",
+      "pnl_pct": -0.51
     },
     {
       "ticker": "CHTR",
@@ -202,13 +211,16 @@
       "news_score": null,
       "top_news_title": null,
       "top_news_url": null,
-      "status": "open",
+      "status": "expired",
       "issued_at": "2026-07-27T19:05:56.339557",
       "last_seen": "2026-07-27T19:05:56.340671",
-      "current_price": 125.81,
-      "current_price_time": "2026-07-27T19:19:55.126861+00:00",
-      "pnl_pct_live": 0.33,
-      "progression_pct": 5.1
+      "current_price": 126.9,
+      "current_price_time": "2026-07-27T20:49:27.618019+00:00",
+      "pnl_pct_live": 1.2,
+      "progression_pct": 5.1,
+      "exit_price": 126.9,
+      "exit_date": "2026-07-27T20:49:27.618019+00:00",
+      "pnl_pct": 1.2
     },
     {
       "ticker": "TTD",
@@ -312,13 +324,16 @@
       "news_score": null,
       "top_news_title": null,
       "top_news_url": null,
-      "status": "open",
+      "status": "expired",
       "issued_at": "2026-07-27T16:00:59.088921",
       "last_seen": "2026-07-27T16:56:08.981125",
-      "current_price": 1653.9,
-      "current_price_time": "2026-07-27T19:19:55.126861+00:00",
-      "pnl_pct_live": -1.18,
-      "progression_pct": -39.3
+      "current_price": 1656.17,
+      "current_price_time": "2026-07-27T20:49:27.618019+00:00",
+      "pnl_pct_live": -1.32,
+      "progression_pct": -39.3,
+      "exit_price": 1656.17,
+      "exit_date": "2026-07-27T20:49:27.618019+00:00",
+      "pnl_pct": -1.32
     },
     {
       "ticker": "WOLF",
