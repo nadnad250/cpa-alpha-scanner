@@ -1,20 +1,20 @@
 {
-  "generated_at": "2026-07-27T18:07:14.789321",
+  "generated_at": "2026-07-27T19:05:56.340671",
   "date": "2026-07-27",
   "stats": {
-    "total": 8,
-    "buy_signals": 5,
+    "total": 9,
+    "buy_signals": 6,
     "sell_signals": 3,
-    "avg_confidence": 0.827,
+    "avg_confidence": 0.823,
     "avg_rr": 2.2,
     "win_rate": 0.44,
-    "active_positions": 8,
+    "active_positions": 9,
     "daily_pnl": -0.1679
   },
   "eod": {
     "tp_hit": 22,
     "sl_hit": 28,
-    "open": 8,
+    "open": 9,
     "cumulative_pnl": -0.1679
   },
   "signals": [
@@ -165,6 +165,40 @@
       "status": "open",
       "issued_at": "2026-07-24T18:00:53.761919",
       "last_seen": "2026-07-27T18:07:14.789321"
+    },
+    {
+      "ticker": "SHOP",
+      "action": "STRONG_BUY",
+      "price": 125.39,
+      "take_profit": 133.67,
+      "stop_loss": 121.63,
+      "upside_pct": 6.6,
+      "confidence": 0.787,
+      "score": 0.5222,
+      "risk_reward": 2.2,
+      "kelly_position": 0.08,
+      "cpa_alpha": null,
+      "ml_proba_up": null,
+      "sector": "—",
+      "universe": "NASDAQ100",
+      "primary_reason": "Cassure ORB haussière (RVOL 1.6x, +VWAP) +gap",
+      "secondary_reasons": [
+        "RVOL 1.6x",
+        "VWAP au-dessus",
+        "Gap +3.9%"
+      ],
+      "risk_flags": [],
+      "intrinsic_value": 133.67,
+      "value_gap": null,
+      "factor_premia": null,
+      "mean_reversion": null,
+      "info_flow": null,
+      "news_score": null,
+      "top_news_title": null,
+      "top_news_url": null,
+      "status": "open",
+      "issued_at": "2026-07-27T19:05:56.339557",
+      "last_seen": "2026-07-27T19:05:56.340671"
     },
     {
       "ticker": "TTD",
