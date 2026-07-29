@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-29T15:34:24.872397",
+  "generated_at": "2026-07-29T15:52:38.157528+00:00",
   "date": "2026-07-29",
   "stats": {
     "total": 3,
@@ -50,7 +50,11 @@
       "top_news_url": null,
       "status": "open",
       "issued_at": "2026-07-29T15:34:24.871769",
-      "last_seen": "2026-07-29T15:34:24.872397"
+      "last_seen": "2026-07-29T15:34:24.872397",
+      "current_price": 263.54,
+      "current_price_time": "2026-07-29T15:52:38.157528+00:00",
+      "pnl_pct_live": 0.22,
+      "progression_pct": 3.4
     },
     {
       "ticker": "ADP",
@@ -84,7 +88,11 @@
       "top_news_url": null,
       "status": "open",
       "issued_at": "2026-07-29T15:34:24.871773",
-      "last_seen": "2026-07-29T15:34:24.872397"
+      "last_seen": "2026-07-29T15:34:24.872397",
+      "current_price": 278.81,
+      "current_price_time": "2026-07-29T15:52:38.157528+00:00",
+      "pnl_pct_live": 0.1,
+      "progression_pct": 1.6
     },
     {
       "ticker": "KLAC",
@@ -118,7 +126,11 @@
       "top_news_url": null,
       "status": "open",
       "issued_at": "2026-07-29T15:34:24.871759",
-      "last_seen": "2026-07-29T15:34:24.872397"
+      "last_seen": "2026-07-29T15:34:24.872397",
+      "current_price": 174.4,
+      "current_price_time": "2026-07-29T15:52:38.157528+00:00",
+      "pnl_pct_live": 1.18,
+      "progression_pct": 17.9
     },
     {
       "ticker": "SMCI",
