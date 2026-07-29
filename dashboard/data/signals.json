@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-29T10:08:28.831257",
+  "generated_at": "2026-07-29T11:48:46.127138+00:00",
   "date": "2026-07-29",
   "stats": {
     "total": 6,
@@ -46,7 +46,11 @@
       "top_news_url": null,
       "status": "open",
       "issued_at": "2026-07-28T16:39:50.449440",
-      "last_seen": "2026-07-29T10:08:28.831257"
+      "last_seen": "2026-07-29T10:08:28.831257",
+      "current_price": 118.87,
+      "current_price_time": "2026-07-29T11:48:46.127138+00:00",
+      "pnl_pct_live": -0.29,
+      "progression_pct": -13.6
     },
     {
       "ticker": "TEAM",
@@ -76,7 +80,11 @@
       "top_news_url": null,
       "status": "open",
       "issued_at": "2026-07-28T16:39:50.449478",
-      "last_seen": "2026-07-29T10:08:28.831257"
+      "last_seen": "2026-07-29T10:08:28.831257",
+      "current_price": 99.99,
+      "current_price_time": "2026-07-29T11:48:46.127138+00:00",
+      "pnl_pct_live": -1.62,
+      "progression_pct": -54.1
     },
     {
       "ticker": "ABNB",
@@ -110,7 +118,11 @@
       "top_news_url": null,
       "status": "open",
       "issued_at": "2026-07-28T15:52:55.865161",
-      "last_seen": "2026-07-29T10:08:28.831257"
+      "last_seen": "2026-07-29T10:08:28.831257",
+      "current_price": 153.08,
+      "current_price_time": "2026-07-29T11:48:46.127138+00:00",
+      "pnl_pct_live": 0.0,
+      "progression_pct": 0.0
     },
     {
       "ticker": "WDAY",
@@ -144,7 +156,11 @@
       "top_news_url": null,
       "status": "open",
       "issued_at": "2026-07-28T15:52:55.865177",
-      "last_seen": "2026-07-29T10:08:28.831257"
+      "last_seen": "2026-07-29T10:08:28.831257",
+      "current_price": 159.65,
+      "current_price_time": "2026-07-29T11:48:46.127138+00:00",
+      "pnl_pct_live": 0.0,
+      "progression_pct": 0.0
     },
     {
       "ticker": "BKNG",
@@ -178,7 +194,11 @@
       "top_news_url": null,
       "status": "open",
       "issued_at": "2026-07-28T20:43:45.809653",
-      "last_seen": "2026-07-29T10:08:28.831257"
+      "last_seen": "2026-07-29T10:08:28.831257",
+      "current_price": 199.31,
+      "current_price_time": "2026-07-29T11:48:46.127138+00:00",
+      "pnl_pct_live": 0.0,
+      "progression_pct": 0.0
     },
     {
       "ticker": "KHC",
@@ -212,7 +232,11 @@
       "top_news_url": null,
       "status": "open",
       "issued_at": "2026-07-28T20:43:45.809666",
-      "last_seen": "2026-07-29T10:08:28.831257"
+      "last_seen": "2026-07-29T10:08:28.831257",
+      "current_price": 27.31,
+      "current_price_time": "2026-07-29T11:48:46.127138+00:00",
+      "pnl_pct_live": 0.0,
+      "progression_pct": 0.0
     },
     {
       "ticker": "SMCI",
