@@ -1,21 +1,21 @@
 {
-  "generated_at": "2026-07-29T18:47:50.222812",
+  "generated_at": "2026-07-29T19:46:11.822965+00:00",
   "date": "2026-07-29",
   "stats": {
-    "total": 10,
-    "buy_signals": 9,
+    "total": 6,
+    "buy_signals": 5,
     "sell_signals": 1,
     "avg_confidence": 0.862,
     "avg_rr": 2.2,
-    "win_rate": 0.5,
-    "active_positions": 10,
-    "daily_pnl": 0.2545
+    "win_rate": 0.537,
+    "active_positions": 6,
+    "daily_pnl": 0.3877
   },
   "eod": {
-    "tp_hit": 25,
+    "tp_hit": 29,
     "sl_hit": 25,
-    "open": 10,
-    "cumulative_pnl": 0.2545
+    "open": 6,
+    "cumulative_pnl": 0.3877
   },
   "signals": [
     {
@@ -44,9 +44,15 @@
       "news_score": null,
       "top_news_title": null,
       "top_news_url": null,
-      "status": "open",
+      "status": "expired",
       "issued_at": "2026-07-28T16:39:50.449440",
-      "last_seen": "2026-07-29T18:47:50.222812"
+      "last_seen": "2026-07-29T18:47:50.222812",
+      "current_price": 122.39,
+      "current_price_time": "2026-07-29T19:46:11.822965+00:00",
+      "exit_price": 122.39,
+      "exit_date": "2026-07-29T19:46:11.822965+00:00",
+      "pnl_pct": 2.66,
+      "pnl_pct_live": 2.66
     },
     {
       "ticker": "TEAM",
@@ -74,9 +80,15 @@
       "news_score": null,
       "top_news_title": null,
       "top_news_url": null,
-      "status": "open",
+      "status": "expired",
       "issued_at": "2026-07-28T16:39:50.449478",
-      "last_seen": "2026-07-29T18:47:50.222812"
+      "last_seen": "2026-07-29T18:47:50.222812",
+      "current_price": 104.79,
+      "current_price_time": "2026-07-29T19:46:11.822965+00:00",
+      "exit_price": 104.79,
+      "exit_date": "2026-07-29T19:46:11.822965+00:00",
+      "pnl_pct": 3.1,
+      "pnl_pct_live": 3.1
     },
     {
       "ticker": "SNOW",
@@ -110,7 +122,11 @@
       "top_news_url": null,
       "status": "open",
       "issued_at": "2026-07-29T18:47:50.222266",
-      "last_seen": "2026-07-29T18:47:50.222812"
+      "last_seen": "2026-07-29T18:47:50.222812",
+      "current_price": 285.91,
+      "current_price_time": "2026-07-29T19:46:11.822965+00:00",
+      "pnl_pct_live": -2.19,
+      "progression_pct": -73.0
     },
     {
       "ticker": "ABNB",
@@ -138,9 +154,15 @@
       "news_score": null,
       "top_news_title": null,
       "top_news_url": null,
-      "status": "open",
+      "status": "expired",
       "issued_at": "2026-07-28T15:52:55.865161",
-      "last_seen": "2026-07-29T18:47:50.222812"
+      "last_seen": "2026-07-29T18:47:50.222812",
+      "current_price": 153.09,
+      "current_price_time": "2026-07-29T19:46:11.822965+00:00",
+      "exit_price": 153.09,
+      "exit_date": "2026-07-29T19:46:11.822965+00:00",
+      "pnl_pct": 1.11,
+      "pnl_pct_live": 1.11
     },
     {
       "ticker": "WDAY",
@@ -168,9 +190,15 @@
       "news_score": null,
       "top_news_title": null,
       "top_news_url": null,
-      "status": "open",
+      "status": "expired",
       "issued_at": "2026-07-28T15:52:55.865177",
-      "last_seen": "2026-07-29T18:47:50.222812"
+      "last_seen": "2026-07-29T18:47:50.222812",
+      "current_price": 168.12,
+      "current_price_time": "2026-07-29T19:46:11.822965+00:00",
+      "exit_price": 168.12,
+      "exit_date": "2026-07-29T19:46:11.822965+00:00",
+      "pnl_pct": 6.45,
+      "pnl_pct_live": 6.45
     },
     {
       "ticker": "ADBE",
@@ -205,10 +233,10 @@
       "status": "open",
       "issued_at": "2026-07-29T15:34:24.871769",
       "last_seen": "2026-07-29T16:20:42.915382",
-      "current_price": 263.94,
-      "current_price_time": "2026-07-29T18:14:46.953278+00:00",
-      "pnl_pct_live": 0.4,
-      "progression_pct": 6.0
+      "current_price": 263.73,
+      "current_price_time": "2026-07-29T19:46:11.822965+00:00",
+      "pnl_pct_live": 0.32,
+      "progression_pct": 4.8
     },
     {
       "ticker": "BKNG",
@@ -238,7 +266,11 @@
       "top_news_url": null,
       "status": "open",
       "issued_at": "2026-07-28T20:43:45.809653",
-      "last_seen": "2026-07-29T18:47:50.222812"
+      "last_seen": "2026-07-29T18:47:50.222812",
+      "current_price": 202.13,
+      "current_price_time": "2026-07-29T19:46:11.822965+00:00",
+      "pnl_pct_live": 1.41,
+      "progression_pct": 21.4
     },
     {
       "ticker": "KHC",
@@ -268,7 +300,11 @@
       "top_news_url": null,
       "status": "open",
       "issued_at": "2026-07-28T20:43:45.809666",
-      "last_seen": "2026-07-29T18:47:50.222812"
+      "last_seen": "2026-07-29T18:47:50.222812",
+      "current_price": 27.62,
+      "current_price_time": "2026-07-29T19:46:11.822965+00:00",
+      "pnl_pct_live": 1.14,
+      "progression_pct": 20.7
     },
     {
       "ticker": "INTU",
@@ -303,10 +339,10 @@
       "status": "open",
       "issued_at": "2026-07-29T17:49:16.556295",
       "last_seen": "2026-07-29T17:49:16.557023",
-      "current_price": 333.53,
-      "current_price_time": "2026-07-29T18:14:46.953278+00:00",
-      "pnl_pct_live": 0.39,
-      "progression_pct": 6.0
+      "current_price": 333.77,
+      "current_price_time": "2026-07-29T19:46:11.822965+00:00",
+      "pnl_pct_live": 0.47,
+      "progression_pct": 7.1
     },
     {
       "ticker": "KLAC",
@@ -341,10 +377,10 @@
       "status": "open",
       "issued_at": "2026-07-29T15:34:24.871759",
       "last_seen": "2026-07-29T16:20:42.915382",
-      "current_price": 176.01,
-      "current_price_time": "2026-07-29T18:14:46.953278+00:00",
-      "pnl_pct_live": -1.6,
-      "progression_pct": -53.5
+      "current_price": 172.7,
+      "current_price_time": "2026-07-29T19:46:11.822965+00:00",
+      "pnl_pct_live": 0.31,
+      "progression_pct": 4.6
     },
     {
       "ticker": "SMCI",
