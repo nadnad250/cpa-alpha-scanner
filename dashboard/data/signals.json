@@ -1,21 +1,21 @@
 {
-  "generated_at": "2026-07-30T09:59:06.649685",
+  "generated_at": "2026-07-30T11:29:00.945879+00:00",
   "date": "2026-07-30",
   "stats": {
-    "total": 7,
-    "buy_signals": 4,
+    "total": 6,
+    "buy_signals": 3,
     "sell_signals": 3,
     "avg_confidence": 0.797,
     "avg_rr": 2.2,
-    "win_rate": 0.52,
-    "active_positions": 7,
-    "daily_pnl": 0.2489
+    "win_rate": 0.51,
+    "active_positions": 6,
+    "daily_pnl": 0.2189
   },
   "eod": {
     "tp_hit": 26,
-    "sl_hit": 24,
-    "open": 7,
-    "cumulative_pnl": 0.2489
+    "sl_hit": 25,
+    "open": 6,
+    "cumulative_pnl": 0.2189
   },
   "signals": [
     {
@@ -50,7 +50,11 @@
       "top_news_url": null,
       "status": "open",
       "issued_at": "2026-07-29T15:34:24.871769",
-      "last_seen": "2026-07-30T09:59:06.649685"
+      "last_seen": "2026-07-30T09:59:06.649685",
+      "current_price": 263.35,
+      "current_price_time": "2026-07-30T11:29:00.945879+00:00",
+      "pnl_pct_live": 0.0,
+      "progression_pct": 0.0
     },
     {
       "ticker": "INTU",
@@ -80,7 +84,11 @@
       "top_news_url": null,
       "status": "open",
       "issued_at": "2026-07-29T17:49:16.556295",
-      "last_seen": "2026-07-30T09:59:06.649685"
+      "last_seen": "2026-07-30T09:59:06.649685",
+      "current_price": 332.95,
+      "current_price_time": "2026-07-30T11:29:00.945879+00:00",
+      "pnl_pct_live": 0.22,
+      "progression_pct": 3.3
     },
     {
       "ticker": "MDB",
@@ -108,9 +116,15 @@
       "news_score": null,
       "top_news_title": null,
       "top_news_url": null,
-      "status": "open",
+      "status": "sl_hit",
       "issued_at": "2026-07-29T18:47:50.222276",
-      "last_seen": "2026-07-30T09:59:06.649685"
+      "last_seen": "2026-07-30T09:59:06.649685",
+      "current_price": 320.84,
+      "current_price_time": "2026-07-30T11:29:00.945879+00:00",
+      "exit_price": 321.03,
+      "exit_date": "2026-07-30T11:29:00.945879+00:00",
+      "pnl_pct": -3.0,
+      "pnl_pct_live": -3.0
     },
     {
       "ticker": "ADP",
@@ -140,7 +154,11 @@
       "top_news_url": null,
       "status": "open",
       "issued_at": "2026-07-29T15:34:24.871773",
-      "last_seen": "2026-07-30T09:59:06.649685"
+      "last_seen": "2026-07-30T09:59:06.649685",
+      "current_price": 273.39,
+      "current_price_time": "2026-07-30T11:29:00.945879+00:00",
+      "pnl_pct_live": -1.84,
+      "progression_pct": -61.4
     },
     {
       "ticker": "KLAC",
@@ -174,7 +192,11 @@
       "top_news_url": null,
       "status": "open",
       "issued_at": "2026-07-29T15:34:24.871759",
-      "last_seen": "2026-07-30T09:59:06.649685"
+      "last_seen": "2026-07-30T09:59:06.649685",
+      "current_price": 169.82,
+      "current_price_time": "2026-07-30T11:29:00.945879+00:00",
+      "pnl_pct_live": 0.0,
+      "progression_pct": 0.0
     },
     {
       "ticker": "QCOM",
@@ -208,7 +230,11 @@
       "top_news_url": null,
       "status": "open",
       "issued_at": "2026-07-29T20:29:59.553489",
-      "last_seen": "2026-07-30T09:59:06.649685"
+      "last_seen": "2026-07-30T09:59:06.649685",
+      "current_price": 155.28,
+      "current_price_time": "2026-07-30T11:29:00.945879+00:00",
+      "pnl_pct_live": 0.0,
+      "progression_pct": 0.0
     },
     {
       "ticker": "VRSK",
@@ -238,7 +264,11 @@
       "top_news_url": null,
       "status": "open",
       "issued_at": "2026-07-29T17:49:16.556306",
-      "last_seen": "2026-07-30T09:59:06.649685"
+      "last_seen": "2026-07-30T09:59:06.649685",
+      "current_price": 213.23,
+      "current_price_time": "2026-07-30T11:29:00.945879+00:00",
+      "pnl_pct_live": 1.17,
+      "progression_pct": 22.8
     },
     {
       "ticker": "SMCI",
