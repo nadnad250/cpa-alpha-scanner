@@ -136,5 +136,28 @@
     "ml_proba_up": null,
     "risk_reward": 2.2,
     "primary_reason": "Cassure ORB haussière (RVOL 1.6x, +VWAP) +gap"
+  },
+  {
+    "ticker": "AAPL",
+    "action": "STRONG_BUY",
+    "entry_price": 309.0299987792969,
+    "stop_loss": 300.54998779296875,
+    "take_profit": 327.68602294921874,
+    "score": 0.5510931323573847,
+    "confidence": 0.7992145812518885,
+    "universe": "NASDAQ100",
+    "issued_at": "2026-07-31T20:41:59.350960",
+    "horizon_days": 1,
+    "horizon_hours": 24,
+    "status": "open",
+    "exit_price": null,
+    "exit_date": null,
+    "pnl_pct": null,
+    "max_favorable": null,
+    "max_adverse": null,
+    "sector": "",
+    "ml_proba_up": null,
+    "risk_reward": 2.2,
+    "primary_reason": "Cassure ORB haussière (RVOL 2.9x, +VWAP) (contre-gap)"
   }
 ]
