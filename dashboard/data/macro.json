@@ -1,13 +1,13 @@
 {
   "risk_free_rate": 3.63,
-  "treasury_10y": 4.61,
+  "treasury_10y": 4.67,
   "yield_curve": 0.45,
-  "vix": 18.21,
+  "vix": 20.66,
   "dollar_index": 120.7105,
   "unemployment": 4.2,
   "cpi_yoy": null,
   "regime": "neutral",
   "regime_score": 0.0,
   "regime_reasons": [],
-  "fetched_at": "2026-07-30T19:48:48.198520"
+  "fetched_at": "2026-07-31T03:47:12.753170"
 }
