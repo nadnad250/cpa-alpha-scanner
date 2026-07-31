@@ -1,21 +1,21 @@
 {
-  "generated_at": "2026-07-31T11:47:26.034905+00:00",
+  "generated_at": "2026-07-31T13:53:34.926878+00:00",
   "date": "2026-07-31",
   "stats": {
-    "total": 9,
-    "buy_signals": 5,
-    "sell_signals": 4,
+    "total": 7,
+    "buy_signals": 4,
+    "sell_signals": 3,
     "avg_confidence": 0.88,
     "avg_rr": 2.2,
-    "win_rate": 0.48,
-    "active_positions": 9,
-    "daily_pnl": 0.2518
+    "win_rate": 0.5,
+    "active_positions": 7,
+    "daily_pnl": 0.3766
   },
   "eod": {
-    "tp_hit": 24,
+    "tp_hit": 26,
     "sl_hit": 26,
-    "open": 9,
-    "cumulative_pnl": 0.2518
+    "open": 7,
+    "cumulative_pnl": 0.3766
   },
   "signals": [
     {
@@ -51,10 +51,10 @@
       "status": "open",
       "issued_at": "2026-07-30T19:05:06.995902",
       "last_seen": "2026-07-31T10:05:45.243382",
-      "current_price": 451.48,
-      "current_price_time": "2026-07-31T11:47:26.034905+00:00",
-      "pnl_pct_live": 0.0,
-      "progression_pct": 0.0
+      "current_price": 459.86,
+      "current_price_time": "2026-07-31T13:53:34.926878+00:00",
+      "pnl_pct_live": 1.86,
+      "progression_pct": 28.1
     },
     {
       "ticker": "REGN",
@@ -89,10 +89,10 @@
       "status": "open",
       "issued_at": "2026-07-30T17:57:15.663752",
       "last_seen": "2026-07-31T10:05:45.243382",
-      "current_price": 738.41,
-      "current_price_time": "2026-07-31T11:47:26.034905+00:00",
-      "pnl_pct_live": 0.0,
-      "progression_pct": 0.0
+      "current_price": 741.15,
+      "current_price_time": "2026-07-31T13:53:34.926878+00:00",
+      "pnl_pct_live": 0.37,
+      "progression_pct": 5.6
     },
     {
       "ticker": "AMZN",
@@ -120,13 +120,16 @@
       "news_score": null,
       "top_news_title": null,
       "top_news_url": null,
-      "status": "open",
+      "status": "tp_hit",
       "issued_at": "2026-07-30T15:34:54.673487",
       "last_seen": "2026-07-31T10:05:45.243382",
-      "current_price": 236.03,
-      "current_price_time": "2026-07-31T11:47:26.034905+00:00",
-      "pnl_pct_live": -0.57,
-      "progression_pct": -21.4
+      "current_price": 267.72,
+      "current_price_time": "2026-07-31T13:53:34.926878+00:00",
+      "pnl_pct_live": 5.86,
+      "progression_pct": -21.4,
+      "exit_price": 251.28,
+      "exit_date": "2026-07-31T13:53:34.926878+00:00",
+      "pnl_pct": 5.86
     },
     {
       "ticker": "WOLF",
@@ -161,10 +164,10 @@
       "status": "open",
       "issued_at": "2026-07-30T20:43:12.467441",
       "last_seen": "2026-07-31T10:05:45.243382",
-      "current_price": 23.82,
-      "current_price_time": "2026-07-31T11:47:26.034905+00:00",
-      "pnl_pct_live": 0.0,
-      "progression_pct": 0.0
+      "current_price": 23.53,
+      "current_price_time": "2026-07-31T13:53:34.926878+00:00",
+      "pnl_pct_live": -1.22,
+      "progression_pct": -40.8
     },
     {
       "ticker": "SNOW",
@@ -199,10 +202,10 @@
       "status": "open",
       "issued_at": "2026-07-30T20:43:12.467452",
       "last_seen": "2026-07-31T10:05:45.243382",
-      "current_price": 297.93,
-      "current_price_time": "2026-07-31T11:47:26.034905+00:00",
-      "pnl_pct_live": 0.0,
-      "progression_pct": 0.0
+      "current_price": 302.14,
+      "current_price_time": "2026-07-31T13:53:34.926878+00:00",
+      "pnl_pct_live": 1.41,
+      "progression_pct": 21.4
     },
     {
       "ticker": "RBLX",
@@ -230,13 +233,16 @@
       "news_score": null,
       "top_news_title": null,
       "top_news_url": null,
-      "status": "open",
+      "status": "tp_hit",
       "issued_at": "2026-07-30T15:34:54.673463",
       "last_seen": "2026-07-31T10:05:45.243382",
-      "current_price": 48.63,
-      "current_price_time": "2026-07-31T11:47:26.034905+00:00",
-      "pnl_pct_live": -1.52,
-      "progression_pct": -51.0
+      "current_price": 35.52,
+      "current_price_time": "2026-07-31T13:53:34.926878+00:00",
+      "pnl_pct_live": 6.62,
+      "progression_pct": -51.0,
+      "exit_price": 44.73,
+      "exit_date": "2026-07-31T13:53:34.926878+00:00",
+      "pnl_pct": 6.62
     },
     {
       "ticker": "EXC",
@@ -268,7 +274,7 @@
       "issued_at": "2026-07-30T15:34:54.673478",
       "last_seen": "2026-07-31T10:05:45.243382",
       "current_price": 45.58,
-      "current_price_time": "2026-07-31T11:47:26.034905+00:00",
+      "current_price_time": "2026-07-31T13:53:34.926878+00:00",
       "pnl_pct_live": -1.15,
       "progression_pct": -38.5
     },
@@ -301,10 +307,10 @@
       "status": "open",
       "issued_at": "2026-07-30T15:34:54.673483",
       "last_seen": "2026-07-31T10:05:45.243382",
-      "current_price": 212.51,
-      "current_price_time": "2026-07-31T11:47:26.034905+00:00",
-      "pnl_pct_live": -1.5,
-      "progression_pct": -50.0
+      "current_price": 212.43,
+      "current_price_time": "2026-07-31T13:53:34.926878+00:00",
+      "pnl_pct_live": -1.46,
+      "progression_pct": -48.7
     },
     {
       "ticker": "FTNT",
@@ -335,10 +341,10 @@
       "status": "open",
       "issued_at": "2026-07-30T19:05:06.995919",
       "last_seen": "2026-07-31T10:05:45.243382",
-      "current_price": 154.24,
-      "current_price_time": "2026-07-31T11:47:26.034905+00:00",
-      "pnl_pct_live": -0.5,
-      "progression_pct": -16.5
+      "current_price": 156.63,
+      "current_price_time": "2026-07-31T13:53:34.926878+00:00",
+      "pnl_pct_live": -2.05,
+      "progression_pct": -68.5
     },
     {
       "ticker": "SMCI",
