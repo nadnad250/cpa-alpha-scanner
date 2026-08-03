@@ -182,5 +182,28 @@
     "ml_proba_up": null,
     "risk_reward": 2.2,
     "primary_reason": "Cassure ORB haussière (RVOL 1.8x, +VWAP) +gap"
+  },
+  {
+    "ticker": "DXCM",
+    "action": "STRONG_BUY",
+    "entry_price": 86.41010284423828,
+    "stop_loss": 83.81779975891114,
+    "take_profit": 92.113169631958,
+    "score": 0.5114381004029768,
+    "confidence": 0.7823611926712651,
+    "universe": "NASDAQ100",
+    "issued_at": "2026-08-03T18:17:53.310218",
+    "horizon_days": 1,
+    "horizon_hours": 24,
+    "status": "open",
+    "exit_price": null,
+    "exit_date": null,
+    "pnl_pct": null,
+    "max_favorable": null,
+    "max_adverse": null,
+    "sector": "",
+    "ml_proba_up": null,
+    "risk_reward": 2.2,
+    "primary_reason": "Cassure ORB haussière (RVOL 1.9x, +VWAP) +gap"
   }
 ]
