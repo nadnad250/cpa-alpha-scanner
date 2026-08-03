@@ -1,21 +1,21 @@
 {
-  "generated_at": "2026-08-03T19:13:48.585445",
+  "generated_at": "2026-08-03T19:56:04.378275+00:00",
   "date": "2026-08-03",
   "stats": {
-    "total": 10,
-    "buy_signals": 8,
-    "sell_signals": 2,
+    "total": 0,
+    "buy_signals": 0,
+    "sell_signals": 0,
     "avg_confidence": 0.833,
     "avg_rr": 2.2,
-    "win_rate": 0.62,
-    "active_positions": 10,
-    "daily_pnl": 0.8828
+    "win_rate": 0.617,
+    "active_positions": 0,
+    "daily_pnl": 0.945
   },
   "eod": {
-    "tp_hit": 31,
-    "sl_hit": 19,
-    "open": 10,
-    "cumulative_pnl": 0.8828
+    "tp_hit": 37,
+    "sl_hit": 23,
+    "open": 0,
+    "cumulative_pnl": 0.945
   },
   "signals": [
     {
@@ -44,9 +44,15 @@
       "news_score": null,
       "top_news_title": null,
       "top_news_url": null,
-      "status": "open",
+      "status": "expired",
       "issued_at": "2026-07-31T19:03:45.039631",
-      "last_seen": "2026-08-03T18:17:53.310976"
+      "last_seen": "2026-08-03T18:17:53.310976",
+      "current_price": 284.12,
+      "current_price_time": "2026-08-03T19:56:04.378275+00:00",
+      "exit_price": 284.12,
+      "exit_date": "2026-08-03T19:56:04.378275+00:00",
+      "pnl_pct": 4.68,
+      "pnl_pct_live": 4.68
     },
     {
       "ticker": "SNOW",
@@ -78,13 +84,16 @@
       "news_score": null,
       "top_news_title": null,
       "top_news_url": null,
-      "status": "open",
+      "status": "expired",
       "issued_at": "2026-08-03T16:05:10.405995",
       "last_seen": "2026-08-03T16:05:10.406792",
-      "current_price": 309.15,
-      "current_price_time": "2026-08-03T18:03:43.358822+00:00",
-      "pnl_pct_live": -1.75,
-      "progression_pct": -58.4
+      "current_price": 308.51,
+      "current_price_time": "2026-08-03T19:56:04.378275+00:00",
+      "pnl_pct_live": -1.95,
+      "progression_pct": -58.4,
+      "exit_price": 308.51,
+      "exit_date": "2026-08-03T19:56:04.378275+00:00",
+      "pnl_pct": -1.95
     },
     {
       "ticker": "RBLX",
@@ -116,9 +125,15 @@
       "news_score": null,
       "top_news_title": null,
       "top_news_url": null,
-      "status": "open",
+      "status": "expired",
       "issued_at": "2026-08-03T17:08:29.266041",
-      "last_seen": "2026-08-03T19:13:48.585445"
+      "last_seen": "2026-08-03T19:13:48.585445",
+      "current_price": 36.76,
+      "current_price_time": "2026-08-03T19:56:04.378275+00:00",
+      "exit_price": 36.76,
+      "exit_date": "2026-08-03T19:56:04.378275+00:00",
+      "pnl_pct": -2.1,
+      "pnl_pct_live": -2.1
     },
     {
       "ticker": "DXCM",
@@ -150,9 +165,15 @@
       "news_score": null,
       "top_news_title": null,
       "top_news_url": null,
-      "status": "open",
+      "status": "expired",
       "issued_at": "2026-07-31T19:03:45.039622",
-      "last_seen": "2026-08-03T19:13:48.585445"
+      "last_seen": "2026-08-03T19:13:48.585445",
+      "current_price": 87.36,
+      "current_price_time": "2026-08-03T19:56:04.378275+00:00",
+      "exit_price": 87.36,
+      "exit_date": "2026-08-03T19:56:04.378275+00:00",
+      "pnl_pct": 0.6,
+      "pnl_pct_live": 0.6
     },
     {
       "ticker": "EA",
@@ -180,9 +201,15 @@
       "news_score": null,
       "top_news_title": null,
       "top_news_url": null,
-      "status": "open",
+      "status": "expired",
       "issued_at": "2026-07-31T15:39:30.659820",
-      "last_seen": "2026-08-03T18:17:53.310976"
+      "last_seen": "2026-08-03T18:17:53.310976",
+      "current_price": 209.91,
+      "current_price_time": "2026-08-03T19:56:04.378275+00:00",
+      "exit_price": 209.91,
+      "exit_date": "2026-08-03T19:56:04.378275+00:00",
+      "pnl_pct": 0.01,
+      "pnl_pct_live": 0.01
     },
     {
       "ticker": "AAPL",
@@ -210,9 +237,15 @@
       "news_score": null,
       "top_news_title": null,
       "top_news_url": null,
-      "status": "open",
+      "status": "expired",
       "issued_at": "2026-07-31T20:41:59.350960",
-      "last_seen": "2026-08-03T18:17:53.310976"
+      "last_seen": "2026-08-03T18:17:53.310976",
+      "current_price": 303.02,
+      "current_price_time": "2026-08-03T19:56:04.378275+00:00",
+      "exit_price": 303.02,
+      "exit_date": "2026-08-03T19:56:04.378275+00:00",
+      "pnl_pct": -1.94,
+      "pnl_pct_live": -1.94
     },
     {
       "ticker": "GOOG",
@@ -240,9 +273,15 @@
       "news_score": null,
       "top_news_title": null,
       "top_news_url": null,
-      "status": "open",
+      "status": "expired",
       "issued_at": "2026-07-31T19:03:45.039634",
-      "last_seen": "2026-08-03T18:17:53.310976"
+      "last_seen": "2026-08-03T18:17:53.310976",
+      "current_price": 372.75,
+      "current_price_time": "2026-08-03T19:56:04.378275+00:00",
+      "exit_price": 372.75,
+      "exit_date": "2026-08-03T19:56:04.378275+00:00",
+      "pnl_pct": 4.83,
+      "pnl_pct_live": 4.83
     },
     {
       "ticker": "META",
@@ -274,9 +313,15 @@
       "news_score": null,
       "top_news_title": null,
       "top_news_url": null,
-      "status": "open",
+      "status": "expired",
       "issued_at": "2026-08-03T17:08:29.266052",
-      "last_seen": "2026-08-03T19:13:48.585445"
+      "last_seen": "2026-08-03T19:13:48.585445",
+      "current_price": 591.41,
+      "current_price_time": "2026-08-03T19:56:04.378275+00:00",
+      "exit_price": 591.41,
+      "exit_date": "2026-08-03T19:56:04.378275+00:00",
+      "pnl_pct": -0.27,
+      "pnl_pct_live": -0.27
     },
     {
       "ticker": "MAR",
@@ -308,9 +353,15 @@
       "news_score": null,
       "top_news_title": null,
       "top_news_url": null,
-      "status": "open",
+      "status": "expired",
       "issued_at": "2026-08-03T16:05:10.405983",
-      "last_seen": "2026-08-03T19:13:48.585445"
+      "last_seen": "2026-08-03T19:13:48.585445",
+      "current_price": 347.38,
+      "current_price_time": "2026-08-03T19:56:04.378275+00:00",
+      "exit_price": 347.38,
+      "exit_date": "2026-08-03T19:56:04.378275+00:00",
+      "pnl_pct": 0.39,
+      "pnl_pct_live": 0.39
     },
     {
       "ticker": "MRNA",
@@ -338,9 +389,15 @@
       "news_score": null,
       "top_news_title": null,
       "top_news_url": null,
-      "status": "open",
+      "status": "expired",
       "issued_at": "2026-07-31T15:39:30.659817",
-      "last_seen": "2026-08-03T18:17:53.310976"
+      "last_seen": "2026-08-03T18:17:53.310976",
+      "current_price": 55.33,
+      "current_price_time": "2026-08-03T19:56:04.378275+00:00",
+      "exit_price": 55.33,
+      "exit_date": "2026-08-03T19:56:04.378275+00:00",
+      "pnl_pct": 1.97,
+      "pnl_pct_live": 1.97
     },
     {
       "ticker": "MSFT",
