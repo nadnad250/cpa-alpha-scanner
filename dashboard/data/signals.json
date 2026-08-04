@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-04T11:48:23.847329+00:00",
+  "generated_at": "2026-08-04T13:59:39.138588+00:00",
   "date": "2026-08-04",
   "stats": {
     "total": 5,
@@ -83,10 +83,10 @@
       "status": "open",
       "issued_at": "2026-08-03T16:05:10.405995",
       "last_seen": "2026-08-04T10:11:04.838344",
-      "current_price": 307.42,
-      "current_price_time": "2026-08-04T11:48:23.847329+00:00",
-      "pnl_pct_live": -2.3,
-      "progression_pct": -76.7
+      "current_price": 313.63,
+      "current_price_time": "2026-08-04T13:59:39.138588+00:00",
+      "pnl_pct_live": -0.33,
+      "progression_pct": -10.9
     },
     {
       "ticker": "RBLX",
@@ -117,10 +117,10 @@
       "status": "open",
       "issued_at": "2026-08-03T17:08:29.266041",
       "last_seen": "2026-08-04T10:11:04.838344",
-      "current_price": 36.67,
-      "current_price_time": "2026-08-04T11:48:23.847329+00:00",
-      "pnl_pct_live": -2.63,
-      "progression_pct": -87.6
+      "current_price": 37.5,
+      "current_price_time": "2026-08-04T13:59:39.138588+00:00",
+      "pnl_pct_live": -0.42,
+      "progression_pct": -14.2
     },
     {
       "ticker": "DXCM",
@@ -267,10 +267,10 @@
       "status": "open",
       "issued_at": "2026-08-03T20:43:42.412027",
       "last_seen": "2026-08-04T10:11:04.838344",
-      "current_price": 487.6,
-      "current_price_time": "2026-08-04T11:48:23.847329+00:00",
-      "pnl_pct_live": 0.0,
-      "progression_pct": 0.0
+      "current_price": 490.52,
+      "current_price_time": "2026-08-04T13:59:39.138588+00:00",
+      "pnl_pct_live": 0.6,
+      "progression_pct": 11.8
     },
     {
       "ticker": "META",
@@ -305,10 +305,10 @@
       "status": "open",
       "issued_at": "2026-08-03T17:08:29.266052",
       "last_seen": "2026-08-04T10:11:04.838344",
-      "current_price": 590.53,
-      "current_price_time": "2026-08-04T11:48:23.847329+00:00",
-      "pnl_pct_live": 0.0,
-      "progression_pct": 0.0
+      "current_price": 585.07,
+      "current_price_time": "2026-08-04T13:59:39.138588+00:00",
+      "pnl_pct_live": -0.92,
+      "progression_pct": -30.8
     },
     {
       "ticker": "MAR",
@@ -343,10 +343,10 @@
       "status": "open",
       "issued_at": "2026-08-03T16:05:10.405983",
       "last_seen": "2026-08-04T10:11:04.838344",
-      "current_price": 346.59,
-      "current_price_time": "2026-08-04T11:48:23.847329+00:00",
-      "pnl_pct_live": 0.0,
-      "progression_pct": 0.0
+      "current_price": 342.65,
+      "current_price_time": "2026-08-04T13:59:39.138588+00:00",
+      "pnl_pct_live": 1.14,
+      "progression_pct": 17.2
     },
     {
       "ticker": "MSFT",
