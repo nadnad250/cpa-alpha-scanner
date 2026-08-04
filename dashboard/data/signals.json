@@ -1,11 +1,11 @@
 {
-  "generated_at": "2026-08-04T18:11:44.707784",
+  "generated_at": "2026-08-04T19:14:54.529614",
   "date": "2026-08-04",
   "stats": {
     "total": 10,
     "buy_signals": 8,
     "sell_signals": 2,
-    "avg_confidence": 0.884,
+    "avg_confidence": 0.886,
     "avg_rr": 2.2,
     "win_rate": 0.6,
     "active_positions": 10,
@@ -21,9 +21,9 @@
     {
       "ticker": "PLTR",
       "action": "STRONG_BUY",
-      "price": 163.12,
-      "take_profit": 173.89,
-      "stop_loss": 158.23,
+      "price": 163.84,
+      "take_profit": 174.65,
+      "stop_loss": 158.92,
       "upside_pct": 6.6,
       "confidence": 0.99,
       "score": 1.0,
@@ -33,14 +33,14 @@
       "ml_proba_up": null,
       "sector": "—",
       "universe": "NASDAQ100",
-      "primary_reason": "Cassure ORB haussière (RVOL 6.6x, +VWAP) +gap",
+      "primary_reason": "Cassure ORB haussière (RVOL 6.4x, +VWAP) +gap",
       "secondary_reasons": [
-        "RVOL 6.6x",
+        "RVOL 6.4x",
         "VWAP au-dessus",
         "Gap +15.3%"
       ],
       "risk_flags": [],
-      "intrinsic_value": 173.89,
+      "intrinsic_value": 174.65,
       "value_gap": null,
       "factor_premia": null,
       "mean_reversion": null,
@@ -50,7 +50,7 @@
       "top_news_url": null,
       "status": "open",
       "issued_at": "2026-08-04T15:59:30.492412",
-      "last_seen": "2026-08-04T18:11:44.707784"
+      "last_seen": "2026-08-04T19:14:54.529614"
     },
     {
       "ticker": "AMZN",
@@ -115,14 +115,14 @@
     {
       "ticker": "SHOP",
       "action": "STRONG_BUY",
-      "price": 121.21,
-      "take_profit": 129.15,
-      "stop_loss": 117.6,
+      "price": 122.1,
+      "take_profit": 130.15,
+      "stop_loss": 118.43,
       "upside_pct": 6.6,
-      "confidence": 0.885,
-      "score": 0.7536,
+      "confidence": 0.911,
+      "score": 0.8141,
       "risk_reward": 2.2,
-      "kelly_position": 0.1,
+      "kelly_position": 0.12,
       "cpa_alpha": null,
       "ml_proba_up": null,
       "sector": "—",
@@ -134,7 +134,7 @@
         "Gap +0.5%"
       ],
       "risk_flags": [],
-      "intrinsic_value": 129.15,
+      "intrinsic_value": 130.15,
       "value_gap": null,
       "factor_premia": null,
       "mean_reversion": null,
@@ -144,7 +144,7 @@
       "top_news_url": null,
       "status": "open",
       "issued_at": "2026-08-04T15:59:30.492426",
-      "last_seen": "2026-08-04T18:11:44.707784"
+      "last_seen": "2026-08-04T19:14:54.529614"
     },
     {
       "ticker": "SNOW",
@@ -315,26 +315,26 @@
     {
       "ticker": "AZN",
       "action": "STRONG_SELL",
-      "price": 155.89,
-      "take_profit": 151.36,
+      "price": 155.57,
+      "take_profit": 150.33,
       "stop_loss": 157.95,
-      "upside_pct": 2.9,
-      "confidence": 0.83,
-      "score": -0.6225,
+      "upside_pct": 3.4,
+      "confidence": 0.821,
+      "score": -0.6034,
       "risk_reward": 2.2,
       "kelly_position": 0.1,
       "cpa_alpha": null,
       "ml_proba_up": null,
       "sector": "—",
       "universe": "NASDAQ100",
-      "primary_reason": "Cassure ORB baissière (RVOL 2.7x, -VWAP)",
+      "primary_reason": "Cassure ORB baissière (RVOL 2.6x, -VWAP)",
       "secondary_reasons": [
-        "RVOL 2.7x",
+        "RVOL 2.6x",
         "VWAP en-dessous",
         "Gap -0.0%"
       ],
       "risk_flags": [],
-      "intrinsic_value": 151.36,
+      "intrinsic_value": 150.33,
       "value_gap": null,
       "factor_premia": null,
       "mean_reversion": null,
@@ -344,7 +344,7 @@
       "top_news_url": null,
       "status": "open",
       "issued_at": "2026-08-04T16:50:45.304356",
-      "last_seen": "2026-08-04T18:11:44.707784"
+      "last_seen": "2026-08-04T19:14:54.529614"
     },
     {
       "ticker": "AMZN",
