@@ -1,21 +1,21 @@
 {
-  "generated_at": "2026-08-04T15:59:30.493109",
+  "generated_at": "2026-08-04T16:15:54.064875+00:00",
   "date": "2026-08-04",
   "stats": {
-    "total": 8,
-    "buy_signals": 8,
+    "total": 4,
+    "buy_signals": 4,
     "sell_signals": 0,
     "avg_confidence": 0.862,
     "avg_rr": 2.2,
-    "win_rate": 0.54,
-    "active_positions": 8,
-    "daily_pnl": 0.7303
+    "win_rate": 0.556,
+    "active_positions": 4,
+    "daily_pnl": 0.8374
   },
   "eod": {
-    "tp_hit": 27,
-    "sl_hit": 23,
-    "open": 8,
-    "cumulative_pnl": 0.7303
+    "tp_hit": 30,
+    "sl_hit": 24,
+    "open": 4,
+    "cumulative_pnl": 0.8374
   },
   "signals": [
     {
@@ -50,7 +50,11 @@
       "top_news_url": null,
       "status": "open",
       "issued_at": "2026-08-04T15:59:30.492412",
-      "last_seen": "2026-08-04T15:59:30.493109"
+      "last_seen": "2026-08-04T15:59:30.493109",
+      "current_price": 160.62,
+      "current_price_time": "2026-08-04T16:15:54.064875+00:00",
+      "pnl_pct_live": 1.58,
+      "progression_pct": 23.9
     },
     {
       "ticker": "AMZN",
@@ -78,9 +82,15 @@
       "news_score": null,
       "top_news_title": null,
       "top_news_url": null,
-      "status": "open",
+      "status": "expired",
       "issued_at": "2026-08-03T10:55:19.222571",
-      "last_seen": "2026-08-04T15:59:30.493109"
+      "last_seen": "2026-08-04T15:59:30.493109",
+      "current_price": 278.37,
+      "current_price_time": "2026-08-04T16:15:54.064875+00:00",
+      "exit_price": 278.37,
+      "exit_date": "2026-08-04T16:15:54.064875+00:00",
+      "pnl_pct": 2.49,
+      "pnl_pct_live": 2.49
     },
     {
       "ticker": "DXCM",
@@ -108,9 +118,15 @@
       "news_score": null,
       "top_news_title": null,
       "top_news_url": null,
-      "status": "open",
+      "status": "expired",
       "issued_at": "2026-08-03T10:55:19.222585",
-      "last_seen": "2026-08-04T15:59:30.493109"
+      "last_seen": "2026-08-04T15:59:30.493109",
+      "current_price": 87.13,
+      "current_price_time": "2026-08-04T16:15:54.064875+00:00",
+      "exit_price": 87.13,
+      "exit_date": "2026-08-04T16:15:54.064875+00:00",
+      "pnl_pct": 4.38,
+      "pnl_pct_live": 4.38
     },
     {
       "ticker": "SHOP",
@@ -144,7 +160,11 @@
       "top_news_url": null,
       "status": "open",
       "issued_at": "2026-08-04T15:59:30.492426",
-      "last_seen": "2026-08-04T15:59:30.493109"
+      "last_seen": "2026-08-04T15:59:30.493109",
+      "current_price": 120.33,
+      "current_price_time": "2026-08-04T16:15:54.064875+00:00",
+      "pnl_pct_live": -0.13,
+      "progression_pct": -5.5
     },
     {
       "ticker": "BNTX",
@@ -178,7 +198,11 @@
       "top_news_url": null,
       "status": "open",
       "issued_at": "2026-08-04T15:59:30.492430",
-      "last_seen": "2026-08-04T15:59:30.493109"
+      "last_seen": "2026-08-04T15:59:30.493109",
+      "current_price": 93.09,
+      "current_price_time": "2026-08-04T16:15:54.064875+00:00",
+      "pnl_pct_live": -0.25,
+      "progression_pct": -8.2
     },
     {
       "ticker": "AAPL",
@@ -206,9 +230,15 @@
       "news_score": null,
       "top_news_title": null,
       "top_news_url": null,
-      "status": "open",
+      "status": "expired",
       "issued_at": "2026-08-03T10:55:19.222591",
-      "last_seen": "2026-08-04T15:59:30.493109"
+      "last_seen": "2026-08-04T15:59:30.493109",
+      "current_price": 306.36,
+      "current_price_time": "2026-08-04T16:15:54.064875+00:00",
+      "exit_price": 306.36,
+      "exit_date": "2026-08-04T16:15:54.064875+00:00",
+      "pnl_pct": -0.86,
+      "pnl_pct_live": -0.86
     },
     {
       "ticker": "GOOG",
@@ -236,9 +266,15 @@
       "news_score": null,
       "top_news_title": null,
       "top_news_url": null,
-      "status": "open",
+      "status": "expired",
       "issued_at": "2026-08-03T10:55:19.222595",
-      "last_seen": "2026-08-04T15:59:30.493109"
+      "last_seen": "2026-08-04T15:59:30.493109",
+      "current_price": 373.47,
+      "current_price_time": "2026-08-04T16:15:54.064875+00:00",
+      "exit_price": 373.47,
+      "exit_date": "2026-08-04T16:15:54.064875+00:00",
+      "pnl_pct": 4.7,
+      "pnl_pct_live": 4.7
     },
     {
       "ticker": "PINS",
@@ -272,7 +308,11 @@
       "top_news_url": null,
       "status": "open",
       "issued_at": "2026-08-04T15:59:30.492434",
-      "last_seen": "2026-08-04T15:59:30.493109"
+      "last_seen": "2026-08-04T15:59:30.493109",
+      "current_price": 25.5,
+      "current_price_time": "2026-08-04T16:15:54.064875+00:00",
+      "pnl_pct_live": -0.23,
+      "progression_pct": -7.8
     },
     {
       "ticker": "AMZN",
