@@ -90,5 +90,28 @@
     "ml_proba_up": null,
     "risk_reward": 2.2,
     "primary_reason": "Cassure ORB baissière (RVOL 1.5x, -VWAP) +gap"
+  },
+  {
+    "ticker": "DKNG",
+    "action": "STRONG_SELL",
+    "entry_price": 21.9778995513916,
+    "stop_loss": 22.63723653793335,
+    "take_profit": 20.527358180999755,
+    "score": -0.7961455035334333,
+    "confidence": 0.9033618390017091,
+    "universe": "NASDAQ100",
+    "issued_at": "2026-08-05T19:08:21.620849",
+    "horizon_days": 1,
+    "horizon_hours": 24,
+    "status": "open",
+    "exit_price": null,
+    "exit_date": null,
+    "pnl_pct": null,
+    "max_favorable": null,
+    "max_adverse": null,
+    "sector": "",
+    "ml_proba_up": null,
+    "risk_reward": 2.2,
+    "primary_reason": "Cassure ORB baissière (RVOL 2.7x, -VWAP) +gap"
   }
 ]
