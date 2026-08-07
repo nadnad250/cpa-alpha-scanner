@@ -4,10 +4,10 @@
   "yield_curve": 0.44,
   "vix": 15.81,
   "dollar_index": 119.7034,
-  "unemployment": 4.2,
+  "unemployment": 4.1,
   "cpi_yoy": null,
   "regime": "neutral",
   "regime_score": 0.0,
   "regime_reasons": [],
-  "fetched_at": "2026-08-07T07:38:41.889005"
+  "fetched_at": "2026-08-07T13:35:53.260033"
 }
