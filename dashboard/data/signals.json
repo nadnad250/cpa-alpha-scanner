@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-07T08:34:47.275058",
+  "generated_at": "2026-08-07T09:14:18.521567+00:00",
   "date": "2026-08-07",
   "stats": {
     "total": 6,
@@ -50,7 +50,11 @@
       "top_news_url": null,
       "status": "open",
       "issued_at": "2026-08-06T23:46:41.892293",
-      "last_seen": "2026-08-07T08:34:47.275058"
+      "last_seen": "2026-08-07T08:34:47.275058",
+      "current_price": 150.08,
+      "current_price_time": "2026-08-07T09:14:18.521567+00:00",
+      "pnl_pct_live": 0.0,
+      "progression_pct": 0.0
     },
     {
       "ticker": "DKNG",
@@ -84,7 +88,11 @@
       "top_news_url": null,
       "status": "open",
       "issued_at": "2026-08-06T23:46:41.892308",
-      "last_seen": "2026-08-07T08:34:47.275058"
+      "last_seen": "2026-08-07T08:34:47.275058",
+      "current_price": 22.24,
+      "current_price_time": "2026-08-07T09:14:18.521567+00:00",
+      "pnl_pct_live": 0.0,
+      "progression_pct": 0.0
     },
     {
       "ticker": "TTD",
@@ -118,7 +126,11 @@
       "top_news_url": null,
       "status": "open",
       "issued_at": "2026-08-06T15:58:02.464289",
-      "last_seen": "2026-08-07T08:34:47.275058"
+      "last_seen": "2026-08-07T08:34:47.275058",
+      "current_price": 17.67,
+      "current_price_time": "2026-08-07T09:14:18.521567+00:00",
+      "pnl_pct_live": 0.0,
+      "progression_pct": 0.0
     },
     {
       "ticker": "MELI",
@@ -148,7 +160,11 @@
       "top_news_url": null,
       "status": "open",
       "issued_at": "2026-08-06T15:58:02.464302",
-      "last_seen": "2026-08-07T08:34:47.275058"
+      "last_seen": "2026-08-07T08:34:47.275058",
+      "current_price": 1830.0,
+      "current_price_time": "2026-08-07T09:14:18.521567+00:00",
+      "pnl_pct_live": -2.53,
+      "progression_pct": -94.5
     },
     {
       "ticker": "EA",
@@ -182,7 +198,11 @@
       "top_news_url": null,
       "status": "open",
       "issued_at": "2026-08-06T10:09:17.703526",
-      "last_seen": "2026-08-07T08:34:47.275058"
+      "last_seen": "2026-08-07T08:34:47.275058",
+      "current_price": 209.82,
+      "current_price_time": "2026-08-07T09:14:18.521567+00:00",
+      "pnl_pct_live": 0.0,
+      "progression_pct": 0.0
     },
     {
       "ticker": "KDP",
@@ -212,7 +232,11 @@
       "top_news_url": null,
       "status": "open",
       "issued_at": "2026-08-06T15:58:02.464307",
-      "last_seen": "2026-08-07T08:34:47.275058"
+      "last_seen": "2026-08-07T08:34:47.275058",
+      "current_price": 30.37,
+      "current_price_time": "2026-08-07T09:14:18.521567+00:00",
+      "pnl_pct_live": -0.03,
+      "progression_pct": -1.1
     },
     {
       "ticker": "PLTR",
