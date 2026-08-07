@@ -1,21 +1,21 @@
 {
-  "generated_at": "2026-08-07T17:24:39.373531",
+  "generated_at": "2026-08-07T18:00:43.614283+00:00",
   "date": "2026-08-07",
   "stats": {
-    "total": 9,
+    "total": 5,
     "buy_signals": 4,
-    "sell_signals": 5,
+    "sell_signals": 1,
     "avg_confidence": 0.873,
     "avg_rr": 2.2,
-    "win_rate": 0.54,
-    "active_positions": 9,
-    "daily_pnl": 0.8809
+    "win_rate": 0.537,
+    "active_positions": 5,
+    "daily_pnl": 1.0991
   },
   "eod": {
-    "tp_hit": 27,
-    "sl_hit": 23,
-    "open": 9,
-    "cumulative_pnl": 0.8809
+    "tp_hit": 29,
+    "sl_hit": 25,
+    "open": 5,
+    "cumulative_pnl": 1.0991
   },
   "signals": [
     {
@@ -51,10 +51,10 @@
       "status": "open",
       "issued_at": "2026-08-07T14:35:09.433157",
       "last_seen": "2026-08-07T14:35:09.433669",
-      "current_price": 174.08,
-      "current_price_time": "2026-08-07T17:06:02.141141+00:00",
-      "pnl_pct_live": -1.16,
-      "progression_pct": -38.6
+      "current_price": 174.59,
+      "current_price_time": "2026-08-07T18:00:43.614283+00:00",
+      "pnl_pct_live": -0.87,
+      "progression_pct": -29.0
     },
     {
       "ticker": "DKNG",
@@ -89,17 +89,17 @@
       "status": "open",
       "issued_at": "2026-08-07T15:54:41.026070",
       "last_seen": "2026-08-07T15:54:41.026615",
-      "current_price": 23.27,
-      "current_price_time": "2026-08-07T17:06:02.141141+00:00",
-      "pnl_pct_live": -2.35,
-      "progression_pct": -78.9
+      "current_price": 23.57,
+      "current_price_time": "2026-08-07T18:00:43.614283+00:00",
+      "pnl_pct_live": -1.09,
+      "progression_pct": -36.6
     },
     {
       "ticker": "WOLF",
       "action": "STRONG_BUY",
       "price": 30.66,
       "take_profit": 32.69,
-      "stop_loss": 29.74,
+      "stop_loss": 30.66,
       "upside_pct": 6.6,
       "confidence": 0.894,
       "score": 0.7741,
@@ -122,14 +122,19 @@
       "top_news_url": null,
       "status": "open",
       "issued_at": "2026-08-07T14:35:09.433166",
-      "last_seen": "2026-08-07T17:24:39.373531"
+      "last_seen": "2026-08-07T17:24:39.373531",
+      "current_price": 31.65,
+      "current_price_time": "2026-08-07T18:00:43.614283+00:00",
+      "pnl_pct_live": 3.23,
+      "trail_level": 1,
+      "progression_pct": 48.8
     },
     {
       "ticker": "DKNG",
       "action": "BUY",
       "price": 22.24,
       "take_profit": 23.7,
-      "stop_loss": 21.57,
+      "stop_loss": 23.116,
       "upside_pct": 6.6,
       "confidence": 0.729,
       "score": 0.3861,
@@ -152,7 +157,12 @@
       "top_news_url": null,
       "status": "open",
       "issued_at": "2026-08-06T23:46:41.892308",
-      "last_seen": "2026-08-07T17:24:39.373531"
+      "last_seen": "2026-08-07T17:24:39.373531",
+      "current_price": 23.57,
+      "current_price_time": "2026-08-07T18:00:43.614283+00:00",
+      "pnl_pct_live": 5.98,
+      "trail_level": 3,
+      "progression_pct": 91.1
     },
     {
       "ticker": "TTD",
@@ -180,9 +190,15 @@
       "news_score": null,
       "top_news_title": null,
       "top_news_url": null,
-      "status": "open",
+      "status": "expired",
       "issued_at": "2026-08-06T15:58:02.464289",
-      "last_seen": "2026-08-07T17:24:39.373531"
+      "last_seen": "2026-08-07T17:24:39.373531",
+      "current_price": 13.81,
+      "current_price_time": "2026-08-07T18:00:43.614283+00:00",
+      "exit_price": 13.81,
+      "exit_date": "2026-08-07T18:00:43.614283+00:00",
+      "pnl_pct": 22.28,
+      "pnl_pct_live": 22.28
     },
     {
       "ticker": "MELI",
@@ -210,9 +226,15 @@
       "news_score": null,
       "top_news_title": null,
       "top_news_url": null,
-      "status": "open",
+      "status": "expired",
       "issued_at": "2026-08-06T15:58:02.464302",
-      "last_seen": "2026-08-07T17:24:39.373531"
+      "last_seen": "2026-08-07T17:24:39.373531",
+      "current_price": 1812.5,
+      "current_price_time": "2026-08-07T18:00:43.614283+00:00",
+      "exit_price": 1812.5,
+      "exit_date": "2026-08-07T18:00:43.614283+00:00",
+      "pnl_pct": -1.55,
+      "pnl_pct_live": -1.55
     },
     {
       "ticker": "MNST",
@@ -246,7 +268,11 @@
       "top_news_url": null,
       "status": "open",
       "issued_at": "2026-08-07T17:24:39.372907",
-      "last_seen": "2026-08-07T17:24:39.373531"
+      "last_seen": "2026-08-07T17:24:39.373531",
+      "current_price": 89.97,
+      "current_price_time": "2026-08-07T18:00:43.614283+00:00",
+      "pnl_pct_live": 0.35,
+      "progression_pct": 5.4
     },
     {
       "ticker": "EA",
@@ -274,9 +300,15 @@
       "news_score": null,
       "top_news_title": null,
       "top_news_url": null,
-      "status": "open",
+      "status": "expired",
       "issued_at": "2026-08-06T10:09:17.703526",
-      "last_seen": "2026-08-07T17:24:39.373531"
+      "last_seen": "2026-08-07T17:24:39.373531",
+      "current_price": 209.82,
+      "current_price_time": "2026-08-07T18:00:43.614283+00:00",
+      "exit_price": 209.82,
+      "exit_date": "2026-08-07T18:00:43.614283+00:00",
+      "pnl_pct": 0.0,
+      "pnl_pct_live": 0.0
     },
     {
       "ticker": "KDP",
@@ -304,9 +336,15 @@
       "news_score": null,
       "top_news_title": null,
       "top_news_url": null,
-      "status": "open",
+      "status": "expired",
       "issued_at": "2026-08-06T15:58:02.464307",
-      "last_seen": "2026-08-07T17:24:39.373531"
+      "last_seen": "2026-08-07T17:24:39.373531",
+      "current_price": 30.03,
+      "current_price_time": "2026-08-07T18:00:43.614283+00:00",
+      "exit_price": 30.03,
+      "exit_date": "2026-08-07T18:00:43.614283+00:00",
+      "pnl_pct": 1.09,
+      "pnl_pct_live": 1.09
     },
     {
       "ticker": "PLTR",
