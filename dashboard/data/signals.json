@@ -1,21 +1,21 @@
 {
-  "generated_at": "2026-08-07T16:07:46.560604+00:00",
+  "generated_at": "2026-08-07T17:06:02.141141+00:00",
   "date": "2026-08-07",
   "stats": {
-    "total": 4,
-    "buy_signals": 4,
+    "total": 3,
+    "buy_signals": 3,
     "sell_signals": 0,
     "avg_confidence": 0.861,
     "avg_rr": 2.2,
-    "win_rate": 0.509,
-    "active_positions": 4,
-    "daily_pnl": 0.7526
+    "win_rate": 0.518,
+    "active_positions": 3,
+    "daily_pnl": 0.7923
   },
   "eod": {
-    "tp_hit": 28,
+    "tp_hit": 29,
     "sl_hit": 27,
-    "open": 4,
-    "cumulative_pnl": 0.7526
+    "open": 3,
+    "cumulative_pnl": 0.7923
   },
   "signals": [
     {
@@ -51,10 +51,10 @@
       "status": "open",
       "issued_at": "2026-08-07T14:35:09.433157",
       "last_seen": "2026-08-07T14:35:09.433669",
-      "current_price": 174.9,
-      "current_price_time": "2026-08-07T16:07:46.560604+00:00",
-      "pnl_pct_live": -0.69,
-      "progression_pct": -23.1
+      "current_price": 174.08,
+      "current_price_time": "2026-08-07T17:06:02.141141+00:00",
+      "pnl_pct_live": -1.16,
+      "progression_pct": -38.6
     },
     {
       "ticker": "DKNG",
@@ -89,10 +89,10 @@
       "status": "open",
       "issued_at": "2026-08-07T15:54:41.026070",
       "last_seen": "2026-08-07T15:54:41.026615",
-      "current_price": 23.8,
-      "current_price_time": "2026-08-07T16:07:46.560604+00:00",
-      "pnl_pct_live": -0.13,
-      "progression_pct": -4.2
+      "current_price": 23.27,
+      "current_price_time": "2026-08-07T17:06:02.141141+00:00",
+      "pnl_pct_live": -2.35,
+      "progression_pct": -78.9
     },
     {
       "ticker": "WOLF",
@@ -124,14 +124,17 @@
       "news_score": null,
       "top_news_title": null,
       "top_news_url": null,
-      "status": "open",
+      "status": "sl_hit",
       "issued_at": "2026-08-07T14:35:09.433166",
       "last_seen": "2026-08-07T14:35:09.433669",
-      "current_price": 32.56,
-      "current_price_time": "2026-08-07T16:07:46.560604+00:00",
-      "pnl_pct_live": 6.2,
+      "current_price": 31.77,
+      "current_price_time": "2026-08-07T17:06:02.141141+00:00",
+      "pnl_pct_live": 3.97,
       "progression_pct": 93.6,
-      "trail_level": 3
+      "trail_level": 3,
+      "exit_price": 31.878,
+      "exit_date": "2026-08-07T17:06:02.141141+00:00",
+      "pnl_pct": 3.97
     },
     {
       "ticker": "ROKU",
@@ -162,11 +165,11 @@
       "status": "open",
       "issued_at": "2026-08-06T23:46:41.892293",
       "last_seen": "2026-08-07T15:54:41.026615",
-      "current_price": 152.44,
-      "current_price_time": "2026-08-07T16:07:46.560604+00:00",
-      "pnl_pct_live": 1.57,
+      "current_price": 152.54,
+      "current_price_time": "2026-08-07T17:06:02.141141+00:00",
+      "pnl_pct_live": 1.64,
       "trail_level": 1,
-      "progression_pct": 51.5
+      "progression_pct": 53.7
     },
     {
       "ticker": "DKNG",
