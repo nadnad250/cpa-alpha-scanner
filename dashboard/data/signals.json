@@ -1,21 +1,21 @@
 {
-  "generated_at": "2026-08-07T19:13:43.771208+00:00",
+  "generated_at": "2026-08-07T19:59:46.559180+00:00",
   "date": "2026-08-07",
   "stats": {
-    "total": 6,
-    "buy_signals": 5,
-    "sell_signals": 1,
+    "total": 1,
+    "buy_signals": 1,
+    "sell_signals": 0,
     "avg_confidence": 0.885,
     "avg_rr": 2.2,
-    "win_rate": 0.537,
-    "active_positions": 6,
-    "daily_pnl": 1.1526
+    "win_rate": 0.542,
+    "active_positions": 1,
+    "daily_pnl": 1.2128
   },
   "eod": {
-    "tp_hit": 29,
-    "sl_hit": 25,
-    "open": 6,
-    "cumulative_pnl": 1.1526
+    "tp_hit": 32,
+    "sl_hit": 27,
+    "open": 1,
+    "cumulative_pnl": 1.2128
   },
   "signals": [
     {
@@ -48,13 +48,16 @@
       "news_score": null,
       "top_news_title": null,
       "top_news_url": null,
-      "status": "open",
+      "status": "expired",
       "issued_at": "2026-08-07T18:35:52.079443",
       "last_seen": "2026-08-07T18:35:52.079926",
-      "current_price": 151.11,
-      "current_price_time": "2026-08-07T19:13:43.771208+00:00",
-      "pnl_pct_live": -1.01,
-      "progression_pct": -33.7
+      "current_price": 149.17,
+      "current_price_time": "2026-08-07T19:59:46.559180+00:00",
+      "pnl_pct_live": -2.28,
+      "progression_pct": -33.7,
+      "exit_price": 149.17,
+      "exit_date": "2026-08-07T19:59:46.559180+00:00",
+      "pnl_pct": -2.28
     },
     {
       "ticker": "ABNB",
@@ -86,13 +89,16 @@
       "news_score": null,
       "top_news_title": null,
       "top_news_url": null,
-      "status": "open",
+      "status": "expired",
       "issued_at": "2026-08-07T14:35:09.433157",
       "last_seen": "2026-08-07T14:35:09.433669",
-      "current_price": 175.45,
-      "current_price_time": "2026-08-07T19:13:43.771208+00:00",
-      "pnl_pct_live": -0.38,
-      "progression_pct": -12.7
+      "current_price": 177.99,
+      "current_price_time": "2026-08-07T19:59:46.559180+00:00",
+      "pnl_pct_live": 1.06,
+      "progression_pct": -12.7,
+      "exit_price": 177.99,
+      "exit_date": "2026-08-07T19:59:46.559180+00:00",
+      "pnl_pct": 1.06
     },
     {
       "ticker": "DKNG",
@@ -124,13 +130,16 @@
       "news_score": null,
       "top_news_title": null,
       "top_news_url": null,
-      "status": "open",
+      "status": "expired",
       "issued_at": "2026-08-07T15:54:41.026070",
       "last_seen": "2026-08-07T15:54:41.026615",
-      "current_price": 23.5,
-      "current_price_time": "2026-08-07T19:13:43.771208+00:00",
-      "pnl_pct_live": -1.38,
-      "progression_pct": -46.5
+      "current_price": 24.05,
+      "current_price_time": "2026-08-07T19:59:46.559180+00:00",
+      "pnl_pct_live": 0.92,
+      "progression_pct": -46.5,
+      "exit_price": 24.05,
+      "exit_date": "2026-08-07T19:59:46.559180+00:00",
+      "pnl_pct": 0.92
     },
     {
       "ticker": "WOLF",
@@ -158,14 +167,17 @@
       "news_score": null,
       "top_news_title": null,
       "top_news_url": null,
-      "status": "open",
+      "status": "expired",
       "issued_at": "2026-08-07T14:35:09.433166",
       "last_seen": "2026-08-07T17:24:39.373531",
-      "current_price": 32.59,
-      "current_price_time": "2026-08-07T19:13:43.771208+00:00",
-      "pnl_pct_live": 6.29,
+      "current_price": 32.62,
+      "current_price_time": "2026-08-07T19:59:46.559180+00:00",
+      "pnl_pct_live": 6.39,
       "trail_level": 3,
-      "progression_pct": 95.1
+      "progression_pct": 95.1,
+      "exit_price": 32.62,
+      "exit_date": "2026-08-07T19:59:46.559180+00:00",
+      "pnl_pct": 6.39
     },
     {
       "ticker": "ROKU",
@@ -196,11 +208,11 @@
       "status": "open",
       "issued_at": "2026-08-06T23:46:41.892293",
       "last_seen": "2026-08-07T18:35:52.079926",
-      "current_price": 153.14,
-      "current_price_time": "2026-08-07T19:13:43.771208+00:00",
-      "pnl_pct_live": 2.04,
+      "current_price": 153.12,
+      "current_price_time": "2026-08-07T19:59:46.559180+00:00",
+      "pnl_pct_live": 2.03,
       "trail_level": 2,
-      "progression_pct": 66.8
+      "progression_pct": 66.4
     },
     {
       "ticker": "TTD",
@@ -304,13 +316,16 @@
       "news_score": null,
       "top_news_title": null,
       "top_news_url": null,
-      "status": "open",
+      "status": "expired",
       "issued_at": "2026-08-07T17:24:39.372907",
       "last_seen": "2026-08-07T17:24:39.373531",
-      "current_price": 90.55,
-      "current_price_time": "2026-08-07T19:13:43.771208+00:00",
-      "pnl_pct_live": -0.29,
-      "progression_pct": -9.6
+      "current_price": 90.35,
+      "current_price_time": "2026-08-07T19:59:46.559180+00:00",
+      "pnl_pct_live": -0.07,
+      "progression_pct": -9.6,
+      "exit_price": 90.35,
+      "exit_date": "2026-08-07T19:59:46.559180+00:00",
+      "pnl_pct": -0.07
     },
     {
       "ticker": "EA",
