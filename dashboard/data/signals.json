@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-10T17:35:01.233555+00:00",
+  "generated_at": "2026-08-10T18:32:48.151607+00:00",
   "date": "2026-08-10",
   "stats": {
     "total": 3,
@@ -311,10 +311,10 @@
       "status": "open",
       "issued_at": "2026-08-10T14:40:04.651921",
       "last_seen": "2026-08-10T17:26:44.425293",
-      "current_price": 13.02,
-      "current_price_time": "2026-08-10T17:35:01.233555+00:00",
-      "pnl_pct_live": 0.0,
-      "progression_pct": 0.0
+      "current_price": 13.06,
+      "current_price_time": "2026-08-10T18:32:48.151607+00:00",
+      "pnl_pct_live": -0.31,
+      "progression_pct": -10.0
     },
     {
       "ticker": "VRTX",
@@ -349,10 +349,10 @@
       "status": "open",
       "issued_at": "2026-08-10T14:40:04.651925",
       "last_seen": "2026-08-10T17:26:44.425293",
-      "current_price": 530.57,
-      "current_price_time": "2026-08-10T17:35:01.233555+00:00",
-      "pnl_pct_live": 0.11,
-      "progression_pct": 1.8
+      "current_price": 527.77,
+      "current_price_time": "2026-08-10T18:32:48.151607+00:00",
+      "pnl_pct_live": 0.64,
+      "progression_pct": 10.3
     },
     {
       "ticker": "XEL",
@@ -387,10 +387,10 @@
       "status": "open",
       "issued_at": "2026-08-10T14:40:04.651928",
       "last_seen": "2026-08-10T14:40:04.652784",
-      "current_price": 76.78,
-      "current_price_time": "2026-08-10T17:35:01.233555+00:00",
-      "pnl_pct_live": 0.16,
-      "progression_pct": 4.9
+      "current_price": 76.62,
+      "current_price_time": "2026-08-10T18:32:48.151607+00:00",
+      "pnl_pct_live": 0.36,
+      "progression_pct": 11.3
     },
     {
       "ticker": "TEAM",
