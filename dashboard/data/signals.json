@@ -1,21 +1,21 @@
 {
-  "generated_at": "2026-08-11T15:59:28.497379",
+  "generated_at": "2026-08-11T16:24:11.583122+00:00",
   "date": "2026-08-11",
   "stats": {
-    "total": 10,
-    "buy_signals": 4,
-    "sell_signals": 6,
+    "total": 5,
+    "buy_signals": 1,
+    "sell_signals": 4,
     "avg_confidence": 0.8,
     "avg_rr": 2.2,
-    "win_rate": 0.52,
-    "active_positions": 10,
-    "daily_pnl": 0.8239
+    "win_rate": 0.509,
+    "active_positions": 5,
+    "daily_pnl": 0.8695
   },
   "eod": {
-    "tp_hit": 26,
-    "sl_hit": 24,
-    "open": 10,
-    "cumulative_pnl": 0.8239
+    "tp_hit": 28,
+    "sl_hit": 27,
+    "open": 5,
+    "cumulative_pnl": 0.8695
   },
   "signals": [
     {
@@ -44,9 +44,15 @@
       "news_score": null,
       "top_news_title": null,
       "top_news_url": null,
-      "status": "open",
+      "status": "expired",
       "issued_at": "2026-08-10T08:58:06.650481",
-      "last_seen": "2026-08-11T15:59:28.497379"
+      "last_seen": "2026-08-11T15:59:28.497379",
+      "current_price": 25.14,
+      "current_price_time": "2026-08-11T16:24:11.583122+00:00",
+      "exit_price": 25.14,
+      "exit_date": "2026-08-11T16:24:11.583122+00:00",
+      "pnl_pct": 4.62,
+      "pnl_pct_live": 4.62
     },
     {
       "ticker": "PLTR",
@@ -74,9 +80,15 @@
       "news_score": null,
       "top_news_title": null,
       "top_news_url": null,
-      "status": "open",
+      "status": "expired",
       "issued_at": "2026-08-10T08:58:06.650489",
-      "last_seen": "2026-08-11T15:59:28.497379"
+      "last_seen": "2026-08-11T15:59:28.497379",
+      "current_price": 172.97,
+      "current_price_time": "2026-08-11T16:24:11.583122+00:00",
+      "exit_price": 172.97,
+      "exit_date": "2026-08-11T16:24:11.583122+00:00",
+      "pnl_pct": 0.56,
+      "pnl_pct_live": 0.56
     },
     {
       "ticker": "NET",
@@ -106,7 +118,11 @@
       "top_news_url": null,
       "status": "open",
       "issued_at": "2026-08-10T20:08:51.402172",
-      "last_seen": "2026-08-11T15:59:28.497379"
+      "last_seen": "2026-08-11T15:59:28.497379",
+      "current_price": 311.39,
+      "current_price_time": "2026-08-11T16:24:11.583122+00:00",
+      "pnl_pct_live": 0.31,
+      "progression_pct": 4.7
     },
     {
       "ticker": "ABNB",
@@ -138,9 +154,15 @@
       "news_score": null,
       "top_news_title": null,
       "top_news_url": null,
-      "status": "open",
+      "status": "expired",
       "issued_at": "2026-08-10T08:58:06.650470",
-      "last_seen": "2026-08-11T15:59:28.497379"
+      "last_seen": "2026-08-11T15:59:28.497379",
+      "current_price": 185.06,
+      "current_price_time": "2026-08-11T16:24:11.583122+00:00",
+      "exit_price": 185.06,
+      "exit_date": "2026-08-11T16:24:11.583122+00:00",
+      "pnl_pct": -0.01,
+      "pnl_pct_live": -0.01
     },
     {
       "ticker": "EA",
@@ -205,10 +227,10 @@
       "status": "open",
       "issued_at": "2026-08-11T14:39:03.538793",
       "last_seen": "2026-08-11T14:39:03.539313",
-      "current_price": 20.23,
-      "current_price_time": "2026-08-11T15:27:54.225734+00:00",
-      "pnl_pct_live": 0.49,
-      "progression_pct": 7.5
+      "current_price": 19.93,
+      "current_price_time": "2026-08-11T16:24:11.583122+00:00",
+      "pnl_pct_live": 1.97,
+      "progression_pct": 29.9
     },
     {
       "ticker": "VRSK",
@@ -238,7 +260,11 @@
       "top_news_url": null,
       "status": "open",
       "issued_at": "2026-08-10T18:38:41.084409",
-      "last_seen": "2026-08-11T15:59:28.497379"
+      "last_seen": "2026-08-11T15:59:28.497379",
+      "current_price": 181.76,
+      "current_price_time": "2026-08-11T16:24:11.583122+00:00",
+      "pnl_pct_live": -0.9,
+      "progression_pct": -33.6
     },
     {
       "ticker": "VRTX",
@@ -266,9 +292,15 @@
       "news_score": null,
       "top_news_title": null,
       "top_news_url": null,
-      "status": "open",
+      "status": "expired",
       "issued_at": "2026-08-10T14:40:04.651925",
-      "last_seen": "2026-08-11T15:59:28.497379"
+      "last_seen": "2026-08-11T15:59:28.497379",
+      "current_price": 528.83,
+      "current_price_time": "2026-08-11T16:24:11.583122+00:00",
+      "exit_price": 528.83,
+      "exit_date": "2026-08-11T16:24:11.583122+00:00",
+      "pnl_pct": -0.06,
+      "pnl_pct_live": -0.06
     },
     {
       "ticker": "XEL",
@@ -296,9 +328,15 @@
       "news_score": null,
       "top_news_title": null,
       "top_news_url": null,
-      "status": "open",
+      "status": "expired",
       "issued_at": "2026-08-10T14:40:04.651928",
-      "last_seen": "2026-08-11T15:59:28.497379"
+      "last_seen": "2026-08-11T15:59:28.497379",
+      "current_price": 77.32,
+      "current_price_time": "2026-08-11T16:24:11.583122+00:00",
+      "exit_price": 77.32,
+      "exit_date": "2026-08-11T16:24:11.583122+00:00",
+      "pnl_pct": -0.55,
+      "pnl_pct_live": -0.55
     },
     {
       "ticker": "HON",
@@ -333,10 +371,10 @@
       "status": "open",
       "issued_at": "2026-08-11T14:39:03.538808",
       "last_seen": "2026-08-11T14:39:03.539313",
-      "current_price": 234.1,
-      "current_price_time": "2026-08-11T15:27:54.225734+00:00",
-      "pnl_pct_live": 1.01,
-      "progression_pct": 15.3
+      "current_price": 235.62,
+      "current_price_time": "2026-08-11T16:24:11.583122+00:00",
+      "pnl_pct_live": 0.37,
+      "progression_pct": 5.6
     },
     {
       "ticker": "ABNB",
