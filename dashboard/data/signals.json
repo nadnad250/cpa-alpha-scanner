@@ -1,21 +1,21 @@
 {
-  "generated_at": "2026-08-12T12:25:45.039111+00:00",
+  "generated_at": "2026-08-12T13:55:00.281109+00:00",
   "date": "2026-08-12",
   "stats": {
-    "total": 6,
+    "total": 5,
     "buy_signals": 2,
-    "sell_signals": 4,
+    "sell_signals": 3,
     "avg_confidence": 0.785,
     "avg_rr": 2.2,
-    "win_rate": 0.52,
-    "active_positions": 6,
-    "daily_pnl": 0.5106
+    "win_rate": 0.51,
+    "active_positions": 5,
+    "daily_pnl": 0.4804
   },
   "eod": {
     "tp_hit": 26,
-    "sl_hit": 24,
-    "open": 6,
-    "cumulative_pnl": 0.5106
+    "sl_hit": 25,
+    "open": 5,
+    "cumulative_pnl": 0.4804
   },
   "signals": [
     {
@@ -51,10 +51,10 @@
       "status": "open",
       "issued_at": "2026-08-11T17:29:29.961868",
       "last_seen": "2026-08-12T08:48:24.269558",
-      "current_price": 1940.34,
-      "current_price_time": "2026-08-12T12:25:45.039111+00:00",
-      "pnl_pct_live": 0.0,
-      "progression_pct": 0.0
+      "current_price": 1888.13,
+      "current_price_time": "2026-08-12T13:55:00.281109+00:00",
+      "pnl_pct_live": -2.69,
+      "progression_pct": -89.7
     },
     {
       "ticker": "ABNB",
@@ -85,10 +85,10 @@
       "status": "open",
       "issued_at": "2026-08-11T15:59:28.496717",
       "last_seen": "2026-08-12T08:48:24.269558",
-      "current_price": 184.98,
-      "current_price_time": "2026-08-12T12:25:45.039111+00:00",
-      "pnl_pct_live": -0.05,
-      "progression_pct": -1.8
+      "current_price": 181.86,
+      "current_price_time": "2026-08-12T13:55:00.281109+00:00",
+      "pnl_pct_live": -1.74,
+      "progression_pct": -58.0
     },
     {
       "ticker": "EA",
@@ -154,13 +154,16 @@
       "news_score": null,
       "top_news_title": null,
       "top_news_url": null,
-      "status": "open",
+      "status": "sl_hit",
       "issued_at": "2026-08-11T14:39:03.538793",
       "last_seen": "2026-08-12T08:48:24.269558",
-      "current_price": 20.23,
-      "current_price_time": "2026-08-12T12:25:45.039111+00:00",
-      "pnl_pct_live": 0.0,
-      "progression_pct": 0.0
+      "current_price": 20.96,
+      "current_price_time": "2026-08-12T13:55:00.281109+00:00",
+      "pnl_pct_live": -3.02,
+      "progression_pct": 0.0,
+      "exit_price": 20.84,
+      "exit_date": "2026-08-12T13:55:00.281109+00:00",
+      "pnl_pct": -3.02
     },
     {
       "ticker": "HON",
@@ -195,10 +198,10 @@
       "status": "open",
       "issued_at": "2026-08-11T20:10:11.265445",
       "last_seen": "2026-08-12T08:48:24.269558",
-      "current_price": 230.02,
-      "current_price_time": "2026-08-12T12:25:45.039111+00:00",
-      "pnl_pct_live": 0.0,
-      "progression_pct": 0.0
+      "current_price": 230.86,
+      "current_price_time": "2026-08-12T13:55:00.281109+00:00",
+      "pnl_pct_live": -0.37,
+      "progression_pct": -12.2
     },
     {
       "ticker": "HON",
@@ -229,11 +232,11 @@
       "status": "open",
       "issued_at": "2026-08-11T14:39:03.538808",
       "last_seen": "2026-08-12T08:48:24.269558",
-      "current_price": 230.02,
-      "current_price_time": "2026-08-12T12:25:45.039111+00:00",
-      "pnl_pct_live": 2.74,
+      "current_price": 230.86,
+      "current_price_time": "2026-08-12T13:55:00.281109+00:00",
+      "pnl_pct_live": 2.38,
       "trail_level": 1,
-      "progression_pct": 41.4
+      "progression_pct": 36.1
     },
     {
       "ticker": "ABNB",
