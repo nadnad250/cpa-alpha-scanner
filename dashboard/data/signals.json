@@ -1,21 +1,21 @@
 {
-  "generated_at": "2026-08-12T18:55:51.320615+00:00",
+  "generated_at": "2026-08-12T19:59:12.776120+00:00",
   "date": "2026-08-12",
   "stats": {
-    "total": 6,
-    "buy_signals": 4,
+    "total": 2,
+    "buy_signals": 0,
     "sell_signals": 2,
     "avg_confidence": 0.803,
     "avg_rr": 2.2,
-    "win_rate": 0.444,
-    "active_positions": 6,
-    "daily_pnl": 0.2601
+    "win_rate": 0.466,
+    "active_positions": 2,
+    "daily_pnl": 0.2689
   },
   "eod": {
-    "tp_hit": 24,
-    "sl_hit": 30,
-    "open": 6,
-    "cumulative_pnl": 0.2601
+    "tp_hit": 27,
+    "sl_hit": 31,
+    "open": 2,
+    "cumulative_pnl": 0.2689
   },
   "signals": [
     {
@@ -48,13 +48,16 @@
       "news_score": null,
       "top_news_title": null,
       "top_news_url": null,
-      "status": "open",
+      "status": "expired",
       "issued_at": "2026-08-12T14:39:04.777062",
       "last_seen": "2026-08-12T18:42:56.238323",
-      "current_price": 37.58,
-      "current_price_time": "2026-08-12T18:55:51.320615+00:00",
-      "pnl_pct_live": -0.61,
-      "progression_pct": -20.4
+      "current_price": 37.65,
+      "current_price_time": "2026-08-12T19:59:12.776120+00:00",
+      "pnl_pct_live": -0.42,
+      "progression_pct": -20.4,
+      "exit_price": 37.65,
+      "exit_date": "2026-08-12T19:59:12.776120+00:00",
+      "pnl_pct": -0.42
     },
     {
       "ticker": "NVDA",
@@ -86,13 +89,16 @@
       "news_score": null,
       "top_news_title": null,
       "top_news_url": null,
-      "status": "open",
+      "status": "expired",
       "issued_at": "2026-08-12T17:30:40.278794",
       "last_seen": "2026-08-12T17:30:40.279508",
-      "current_price": 223.66,
-      "current_price_time": "2026-08-12T18:55:51.320615+00:00",
-      "pnl_pct_live": -0.17,
-      "progression_pct": -9.7
+      "current_price": 224.21,
+      "current_price_time": "2026-08-12T19:59:12.776120+00:00",
+      "pnl_pct_live": 0.08,
+      "progression_pct": -9.7,
+      "exit_price": 224.21,
+      "exit_date": "2026-08-12T19:59:12.776120+00:00",
+      "pnl_pct": 0.08
     },
     {
       "ticker": "MNST",
@@ -124,13 +130,16 @@
       "news_score": null,
       "top_news_title": null,
       "top_news_url": null,
-      "status": "open",
+      "status": "expired",
       "issued_at": "2026-08-12T15:58:02.515142",
       "last_seen": "2026-08-12T15:58:02.515846",
-      "current_price": 45.63,
-      "current_price_time": "2026-08-12T18:55:51.320615+00:00",
-      "pnl_pct_live": -0.11,
-      "progression_pct": -7.9
+      "current_price": 45.94,
+      "current_price_time": "2026-08-12T19:59:12.776120+00:00",
+      "pnl_pct_live": 0.57,
+      "progression_pct": -7.9,
+      "exit_price": 45.94,
+      "exit_date": "2026-08-12T19:59:12.776120+00:00",
+      "pnl_pct": 0.57
     },
     {
       "ticker": "MELI",
@@ -198,13 +207,16 @@
       "news_score": null,
       "top_news_title": null,
       "top_news_url": null,
-      "status": "open",
+      "status": "expired",
       "issued_at": "2026-08-12T15:58:02.515159",
       "last_seen": "2026-08-12T15:58:02.515846",
-      "current_price": 29.37,
-      "current_price_time": "2026-08-12T18:55:51.320615+00:00",
-      "pnl_pct_live": 0.17,
-      "progression_pct": 6.3
+      "current_price": 29.51,
+      "current_price_time": "2026-08-12T19:59:12.776120+00:00",
+      "pnl_pct_live": 0.65,
+      "progression_pct": 6.3,
+      "exit_price": 29.51,
+      "exit_date": "2026-08-12T19:59:12.776120+00:00",
+      "pnl_pct": 0.65
     },
     {
       "ticker": "ABNB",
@@ -341,10 +353,10 @@
       "status": "open",
       "issued_at": "2026-08-11T20:10:11.265445",
       "last_seen": "2026-08-12T18:42:56.238323",
-      "current_price": 234.81,
-      "current_price_time": "2026-08-12T18:55:51.320615+00:00",
-      "pnl_pct_live": -2.08,
-      "progression_pct": -69.4
+      "current_price": 235.38,
+      "current_price_time": "2026-08-12T19:59:12.776120+00:00",
+      "pnl_pct_live": -2.33,
+      "progression_pct": -77.7
     },
     {
       "ticker": "HON",
