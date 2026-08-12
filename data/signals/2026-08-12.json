@@ -1,0 +1,25 @@
+[
+  {
+    "ticker": "SMCI",
+    "action": "STRONG_BUY",
+    "entry_price": 36.380001068115234,
+    "stop_loss": 35.288601036071775,
+    "take_profit": 38.78108113861084,
+    "score": 0.9168552773932113,
+    "confidence": 0.9546634928921148,
+    "universe": "NASDAQ100",
+    "issued_at": "2026-08-12T14:39:04.777062",
+    "horizon_days": 1,
+    "horizon_hours": 24,
+    "status": "open",
+    "exit_price": null,
+    "exit_date": null,
+    "pnl_pct": null,
+    "max_favorable": null,
+    "max_adverse": null,
+    "sector": "",
+    "ml_proba_up": null,
+    "risk_reward": 2.2,
+    "primary_reason": "Cassure ORB haussière (RVOL 4.8x, +VWAP) +gap"
+  }
+]
