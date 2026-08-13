@@ -1,0 +1,25 @@
+[
+  {
+    "ticker": "MDB",
+    "action": "STRONG_BUY",
+    "entry_price": 459.5000915527344,
+    "stop_loss": 445.7150888061523,
+    "take_profit": 489.82709759521487,
+    "score": 0.5146586358494801,
+    "confidence": 0.783729920236029,
+    "universe": "NASDAQ100",
+    "issued_at": "2026-08-13T14:39:28.090871",
+    "horizon_days": 1,
+    "horizon_hours": 24,
+    "status": "open",
+    "exit_price": null,
+    "exit_date": null,
+    "pnl_pct": null,
+    "max_favorable": null,
+    "max_adverse": null,
+    "sector": "",
+    "ml_proba_up": null,
+    "risk_reward": 2.2,
+    "primary_reason": "Cassure ORB haussière (RVOL 1.7x, +VWAP) +gap"
+  }
+]
