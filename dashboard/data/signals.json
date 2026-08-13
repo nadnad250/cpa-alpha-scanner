@@ -1,21 +1,21 @@
 {
-  "generated_at": "2026-08-13T17:30:11.320789",
+  "generated_at": "2026-08-13T18:06:16.613470+00:00",
   "date": "2026-08-13",
   "stats": {
-    "total": 7,
-    "buy_signals": 5,
-    "sell_signals": 2,
+    "total": 2,
+    "buy_signals": 1,
+    "sell_signals": 1,
     "avg_confidence": 0.79,
     "avg_rr": 2.2,
-    "win_rate": 0.48,
-    "active_positions": 7,
-    "daily_pnl": 0.4118
+    "win_rate": 0.509,
+    "active_positions": 2,
+    "daily_pnl": 0.6103
   },
   "eod": {
-    "tp_hit": 24,
-    "sl_hit": 26,
-    "open": 7,
-    "cumulative_pnl": 0.4118
+    "tp_hit": 28,
+    "sl_hit": 27,
+    "open": 2,
+    "cumulative_pnl": 0.6103
   },
   "signals": [
     {
@@ -44,9 +44,15 @@
       "news_score": null,
       "top_news_title": null,
       "top_news_url": null,
-      "status": "open",
+      "status": "expired",
       "issued_at": "2026-08-12T14:39:04.777062",
-      "last_seen": "2026-08-13T17:30:11.320789"
+      "last_seen": "2026-08-13T17:30:11.320789",
+      "current_price": 39.65,
+      "current_price_time": "2026-08-13T18:06:16.613470+00:00",
+      "exit_price": 39.65,
+      "exit_date": "2026-08-13T18:06:16.613470+00:00",
+      "pnl_pct": 8.99,
+      "pnl_pct_live": 8.99
     },
     {
       "ticker": "MDB",
@@ -81,10 +87,10 @@
       "status": "open",
       "issued_at": "2026-08-13T14:39:28.090871",
       "last_seen": "2026-08-13T14:39:28.091363",
-      "current_price": 457.39,
-      "current_price_time": "2026-08-13T17:11:02.886378+00:00",
-      "pnl_pct_live": -0.46,
-      "progression_pct": -15.3
+      "current_price": 458.46,
+      "current_price_time": "2026-08-13T18:06:16.613470+00:00",
+      "pnl_pct_live": -0.23,
+      "progression_pct": -7.5
     },
     {
       "ticker": "CSCO",
@@ -112,9 +118,15 @@
       "news_score": null,
       "top_news_title": null,
       "top_news_url": null,
-      "status": "open",
+      "status": "sl_hit",
       "issued_at": "2026-08-12T20:09:38.639998",
-      "last_seen": "2026-08-13T17:30:11.320789"
+      "last_seen": "2026-08-13T17:30:11.320789",
+      "current_price": 112.76,
+      "current_price_time": "2026-08-13T18:06:16.613470+00:00",
+      "exit_price": 122.26,
+      "exit_date": "2026-08-13T18:06:16.613470+00:00",
+      "pnl_pct": -1.38,
+      "pnl_pct_live": -1.38
     },
     {
       "ticker": "MNST",
@@ -142,9 +154,15 @@
       "news_score": null,
       "top_news_title": null,
       "top_news_url": null,
-      "status": "open",
+      "status": "expired",
       "issued_at": "2026-08-12T15:58:02.515142",
-      "last_seen": "2026-08-13T17:30:11.320789"
+      "last_seen": "2026-08-13T17:30:11.320789",
+      "current_price": 46.88,
+      "current_price_time": "2026-08-13T18:06:16.613470+00:00",
+      "exit_price": 46.88,
+      "exit_date": "2026-08-13T18:06:16.613470+00:00",
+      "pnl_pct": 2.63,
+      "pnl_pct_live": 2.63
     },
     {
       "ticker": "KDP",
@@ -172,9 +190,15 @@
       "news_score": null,
       "top_news_title": null,
       "top_news_url": null,
-      "status": "open",
+      "status": "expired",
       "issued_at": "2026-08-12T15:58:02.515159",
-      "last_seen": "2026-08-13T17:30:11.320789"
+      "last_seen": "2026-08-13T17:30:11.320789",
+      "current_price": 30.92,
+      "current_price_time": "2026-08-13T18:06:16.613470+00:00",
+      "exit_price": 30.92,
+      "exit_date": "2026-08-13T18:06:16.613470+00:00",
+      "pnl_pct": 5.46,
+      "pnl_pct_live": 5.46
     },
     {
       "ticker": "EA",
@@ -236,9 +260,15 @@
       "news_score": null,
       "top_news_title": null,
       "top_news_url": null,
-      "status": "open",
+      "status": "expired",
       "issued_at": "2026-08-12T15:58:02.515168",
-      "last_seen": "2026-08-13T17:30:11.320789"
+      "last_seen": "2026-08-13T17:30:11.320789",
+      "current_price": 19.62,
+      "current_price_time": "2026-08-13T18:06:16.613470+00:00",
+      "exit_price": 19.62,
+      "exit_date": "2026-08-13T18:06:16.613470+00:00",
+      "pnl_pct": 4.15,
+      "pnl_pct_live": 4.15
     },
     {
       "ticker": "TEAM",
