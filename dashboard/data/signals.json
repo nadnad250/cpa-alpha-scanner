@@ -1,21 +1,21 @@
 {
-  "generated_at": "2026-08-13T19:18:11.115133+00:00",
+  "generated_at": "2026-08-13T20:03:28.559097+00:00",
   "date": "2026-08-13",
   "stats": {
-    "total": 3,
-    "buy_signals": 1,
+    "total": 2,
+    "buy_signals": 0,
     "sell_signals": 2,
     "avg_confidence": 0.808,
     "avg_rr": 2.2,
-    "win_rate": 0.536,
-    "active_positions": 3,
-    "daily_pnl": 0.7444
+    "win_rate": 0.544,
+    "active_positions": 2,
+    "daily_pnl": 0.7577
   },
   "eod": {
-    "tp_hit": 30,
+    "tp_hit": 31,
     "sl_hit": 26,
-    "open": 3,
-    "cumulative_pnl": 0.7444
+    "open": 2,
+    "cumulative_pnl": 0.7577
   },
   "signals": [
     {
@@ -120,13 +120,16 @@
       "news_score": null,
       "top_news_title": null,
       "top_news_url": null,
-      "status": "open",
+      "status": "expired",
       "issued_at": "2026-08-13T14:39:28.090871",
       "last_seen": "2026-08-13T18:43:39.927273",
-      "current_price": 464.73,
-      "current_price_time": "2026-08-13T19:18:11.115133+00:00",
-      "pnl_pct_live": -0.3,
-      "progression_pct": -9.9
+      "current_price": 472.29,
+      "current_price_time": "2026-08-13T20:03:28.559097+00:00",
+      "pnl_pct_live": 1.33,
+      "progression_pct": -9.9,
+      "exit_price": 472.29,
+      "exit_date": "2026-08-13T20:03:28.559097+00:00",
+      "pnl_pct": 1.33
     },
     {
       "ticker": "CSCO",
@@ -299,10 +302,10 @@
       "status": "open",
       "issued_at": "2026-08-12T20:09:38.639986",
       "last_seen": "2026-08-13T18:43:39.927273",
-      "current_price": 1828.4,
-      "current_price_time": "2026-08-13T19:18:11.115133+00:00",
-      "pnl_pct_live": -0.01,
-      "progression_pct": -0.2
+      "current_price": 1827.02,
+      "current_price_time": "2026-08-13T20:03:28.559097+00:00",
+      "pnl_pct_live": 0.07,
+      "progression_pct": 1.1
     },
     {
       "ticker": "RIOT",
