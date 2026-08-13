@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-13T16:10:35.887813+00:00",
+  "generated_at": "2026-08-13T17:11:02.886378+00:00",
   "date": "2026-08-13",
   "stats": {
     "total": 4,
@@ -87,10 +87,10 @@
       "status": "open",
       "issued_at": "2026-08-12T17:30:40.278794",
       "last_seen": "2026-08-13T15:57:51.483767",
-      "current_price": 225.13,
-      "current_price_time": "2026-08-13T16:10:35.887813+00:00",
-      "pnl_pct_live": 0.49,
-      "progression_pct": 13.0
+      "current_price": 225.69,
+      "current_price_time": "2026-08-13T17:11:02.886378+00:00",
+      "pnl_pct_live": 0.74,
+      "progression_pct": 19.7
     },
     {
       "ticker": "MDB",
@@ -125,10 +125,10 @@
       "status": "open",
       "issued_at": "2026-08-13T14:39:28.090871",
       "last_seen": "2026-08-13T14:39:28.091363",
-      "current_price": 453.23,
-      "current_price_time": "2026-08-13T16:10:35.887813+00:00",
-      "pnl_pct_live": -1.36,
-      "progression_pct": -45.5
+      "current_price": 457.39,
+      "current_price_time": "2026-08-13T17:11:02.886378+00:00",
+      "pnl_pct_live": -0.46,
+      "progression_pct": -15.3
     },
     {
       "ticker": "CSCO",
@@ -301,10 +301,10 @@
       "status": "open",
       "issued_at": "2026-08-12T20:09:38.639986",
       "last_seen": "2026-08-13T15:57:51.483767",
-      "current_price": 1828.74,
-      "current_price_time": "2026-08-13T16:10:35.887813+00:00",
-      "pnl_pct_live": -0.02,
-      "progression_pct": -0.8
+      "current_price": 1832.62,
+      "current_price_time": "2026-08-13T17:11:02.886378+00:00",
+      "pnl_pct_live": -0.24,
+      "progression_pct": -7.9
     },
     {
       "ticker": "RIOT",
