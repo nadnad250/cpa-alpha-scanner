@@ -90,5 +90,28 @@
     "ml_proba_up": null,
     "risk_reward": 2.2,
     "primary_reason": "Cassure ORB baissière (RVOL 2.9x, -VWAP)"
+  },
+  {
+    "ticker": "CDNS",
+    "action": "STRONG_BUY",
+    "entry_price": 326.30999755859375,
+    "stop_loss": 321.1499938964844,
+    "take_profit": 337.66200561523436,
+    "score": 0.4830243759923057,
+    "confidence": 0.77028535979673,
+    "universe": "NASDAQ100",
+    "issued_at": "2026-08-14T17:30:15.169400",
+    "horizon_days": 1,
+    "horizon_hours": 24,
+    "status": "open",
+    "exit_price": null,
+    "exit_date": null,
+    "pnl_pct": null,
+    "max_favorable": null,
+    "max_adverse": null,
+    "sector": "",
+    "ml_proba_up": null,
+    "risk_reward": 2.2,
+    "primary_reason": "Cassure ORB haussière (RVOL 1.7x, +VWAP) +gap"
   }
 ]
