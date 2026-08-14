@@ -1,21 +1,21 @@
 {
-  "generated_at": "2026-08-14T17:30:15.170006",
+  "generated_at": "2026-08-14T17:37:04.187379+00:00",
   "date": "2026-08-14",
   "stats": {
-    "total": 8,
-    "buy_signals": 5,
+    "total": 5,
+    "buy_signals": 2,
     "sell_signals": 3,
     "avg_confidence": 0.818,
     "avg_rr": 2.2,
-    "win_rate": 0.48,
-    "active_positions": 8,
-    "daily_pnl": 0.443
+    "win_rate": 0.453,
+    "active_positions": 5,
+    "daily_pnl": 0.3829
   },
   "eod": {
     "tp_hit": 24,
-    "sl_hit": 26,
-    "open": 8,
-    "cumulative_pnl": 0.443
+    "sl_hit": 29,
+    "open": 5,
+    "cumulative_pnl": 0.3829
   },
   "signals": [
     {
@@ -51,10 +51,10 @@
       "status": "open",
       "issued_at": "2026-08-14T15:49:34.336969",
       "last_seen": "2026-08-14T15:49:34.337503",
-      "current_price": 31.43,
-      "current_price_time": "2026-08-14T16:30:52.089470+00:00",
-      "pnl_pct_live": 0.03,
-      "progression_pct": 0.5
+      "current_price": 31.52,
+      "current_price_time": "2026-08-14T17:37:04.187379+00:00",
+      "pnl_pct_live": 0.32,
+      "progression_pct": 4.8
     },
     {
       "ticker": "DOCU",
@@ -82,9 +82,15 @@
       "news_score": null,
       "top_news_title": null,
       "top_news_url": null,
-      "status": "open",
+      "status": "sl_hit",
       "issued_at": "2026-08-13T20:04:15.154949",
-      "last_seen": "2026-08-14T17:30:15.170006"
+      "last_seen": "2026-08-14T17:30:15.170006",
+      "current_price": 61.38,
+      "current_price_time": "2026-08-14T17:37:04.187379+00:00",
+      "exit_price": 62.18,
+      "exit_date": "2026-08-14T17:37:04.187379+00:00",
+      "pnl_pct": -3.0,
+      "pnl_pct_live": -3.0
     },
     {
       "ticker": "NET",
@@ -112,9 +118,15 @@
       "news_score": null,
       "top_news_title": null,
       "top_news_url": null,
-      "status": "open",
+      "status": "sl_hit",
       "issued_at": "2026-08-14T08:45:31.187500",
-      "last_seen": "2026-08-14T17:30:15.170006"
+      "last_seen": "2026-08-14T17:30:15.170006",
+      "current_price": 320.39,
+      "current_price_time": "2026-08-14T17:37:04.187379+00:00",
+      "exit_price": 320.9,
+      "exit_date": "2026-08-14T17:37:04.187379+00:00",
+      "pnl_pct": -3.0,
+      "pnl_pct_live": -3.0
     },
     {
       "ticker": "MDB",
@@ -142,9 +154,15 @@
       "news_score": null,
       "top_news_title": null,
       "top_news_url": null,
-      "status": "open",
+      "status": "expired",
       "issued_at": "2026-08-13T14:39:28.090871",
-      "last_seen": "2026-08-14T17:30:15.170006"
+      "last_seen": "2026-08-14T17:30:15.170006",
+      "current_price": 459.45,
+      "current_price_time": "2026-08-14T17:37:04.187379+00:00",
+      "exit_price": 459.45,
+      "exit_date": "2026-08-14T17:37:04.187379+00:00",
+      "pnl_pct": -0.01,
+      "pnl_pct_live": -0.01
     },
     {
       "ticker": "CDNS",
@@ -178,7 +196,11 @@
       "top_news_url": null,
       "status": "open",
       "issued_at": "2026-08-14T17:30:15.169400",
-      "last_seen": "2026-08-14T17:30:15.170006"
+      "last_seen": "2026-08-14T17:30:15.170006",
+      "current_price": 326.27,
+      "current_price_time": "2026-08-14T17:37:04.187379+00:00",
+      "pnl_pct_live": -0.01,
+      "progression_pct": -0.8
     },
     {
       "ticker": "EA",
@@ -247,10 +269,10 @@
       "status": "open",
       "issued_at": "2026-08-14T15:49:34.336977",
       "last_seen": "2026-08-14T15:49:34.337503",
-      "current_price": 345.18,
-      "current_price_time": "2026-08-14T16:30:52.089470+00:00",
-      "pnl_pct_live": -0.0,
-      "progression_pct": -0.2
+      "current_price": 344.61,
+      "current_price_time": "2026-08-14T17:37:04.187379+00:00",
+      "pnl_pct_live": 0.16,
+      "progression_pct": 5.4
     },
     {
       "ticker": "AVGO",
@@ -285,10 +307,10 @@
       "status": "open",
       "issued_at": "2026-08-14T14:33:59.286649",
       "last_seen": "2026-08-14T14:33:59.287168",
-      "current_price": 394.9,
-      "current_price_time": "2026-08-14T16:30:52.089470+00:00",
-      "pnl_pct_live": 0.69,
-      "progression_pct": 10.4
+      "current_price": 391.56,
+      "current_price_time": "2026-08-14T17:37:04.187379+00:00",
+      "pnl_pct_live": 1.53,
+      "progression_pct": 23.2
     },
     {
       "ticker": "TEAM",
