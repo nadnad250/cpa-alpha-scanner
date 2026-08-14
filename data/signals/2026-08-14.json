@@ -21,5 +21,28 @@
     "ml_proba_up": null,
     "risk_reward": 2.2,
     "primary_reason": "Cassure ORB haussière (RVOL 1.7x, +VWAP) +gap"
+  },
+  {
+    "ticker": "AVGO",
+    "action": "STRONG_SELL",
+    "entry_price": 397.6400146484375,
+    "stop_loss": 409.5692150878906,
+    "take_profit": 371.3957736816406,
+    "score": -0.5782682940554034,
+    "confidence": 0.8107640249735465,
+    "universe": "NASDAQ100",
+    "issued_at": "2026-08-14T14:33:59.286649",
+    "horizon_days": 1,
+    "horizon_hours": 24,
+    "status": "open",
+    "exit_price": null,
+    "exit_date": null,
+    "pnl_pct": null,
+    "max_favorable": null,
+    "max_adverse": null,
+    "sector": "",
+    "ml_proba_up": null,
+    "risk_reward": 2.2,
+    "primary_reason": "Cassure ORB baissière (RVOL 1.9x, -VWAP) +gap"
   }
 ]
