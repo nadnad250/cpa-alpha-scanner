@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-14T08:45:31.187965",
+  "generated_at": "2026-08-14T09:19:39.763293+00:00",
   "date": "2026-08-14",
   "stats": {
     "total": 5,
@@ -46,7 +46,11 @@
       "top_news_url": null,
       "status": "open",
       "issued_at": "2026-08-13T20:04:15.154949",
-      "last_seen": "2026-08-14T08:45:31.187965"
+      "last_seen": "2026-08-14T08:45:31.187965",
+      "current_price": 64.1,
+      "current_price_time": "2026-08-14T09:19:39.763293+00:00",
+      "pnl_pct_live": 0.0,
+      "progression_pct": 0.0
     },
     {
       "ticker": "NET",
@@ -80,14 +84,18 @@
       "top_news_url": null,
       "status": "open",
       "issued_at": "2026-08-14T08:45:31.187500",
-      "last_seen": "2026-08-14T08:45:31.187965"
+      "last_seen": "2026-08-14T08:45:31.187965",
+      "current_price": 330.82,
+      "current_price_time": "2026-08-14T09:19:39.763293+00:00",
+      "pnl_pct_live": 0.0,
+      "progression_pct": 0.0
     },
     {
       "ticker": "MDB",
       "action": "STRONG_BUY",
       "price": 459.5,
       "take_profit": 489.83,
-      "stop_loss": 445.72,
+      "stop_loss": 459.5,
       "upside_pct": 6.6,
       "confidence": 0.784,
       "score": 0.5147,
@@ -110,7 +118,12 @@
       "top_news_url": null,
       "status": "open",
       "issued_at": "2026-08-13T14:39:28.090871",
-      "last_seen": "2026-08-14T08:45:31.187965"
+      "last_seen": "2026-08-14T08:45:31.187965",
+      "current_price": 472.29,
+      "current_price_time": "2026-08-14T09:19:39.763293+00:00",
+      "pnl_pct_live": 2.78,
+      "trail_level": 1,
+      "progression_pct": 42.2
     },
     {
       "ticker": "EA",
@@ -174,7 +187,11 @@
       "top_news_url": null,
       "status": "open",
       "issued_at": "2026-08-13T20:04:15.154959",
-      "last_seen": "2026-08-14T08:45:31.187965"
+      "last_seen": "2026-08-14T08:45:31.187965",
+      "current_price": 535.52,
+      "current_price_time": "2026-08-14T09:19:39.763293+00:00",
+      "pnl_pct_live": 0.0,
+      "progression_pct": 0.0
     },
     {
       "ticker": "TEAM",
