@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-14T17:37:04.187379+00:00",
+  "generated_at": "2026-08-14T18:32:03.113593+00:00",
   "date": "2026-08-14",
   "stats": {
     "total": 5,
@@ -51,10 +51,10 @@
       "status": "open",
       "issued_at": "2026-08-14T15:49:34.336969",
       "last_seen": "2026-08-14T15:49:34.337503",
-      "current_price": 31.52,
-      "current_price_time": "2026-08-14T17:37:04.187379+00:00",
-      "pnl_pct_live": 0.32,
-      "progression_pct": 4.8
+      "current_price": 31.67,
+      "current_price_time": "2026-08-14T18:32:03.113593+00:00",
+      "pnl_pct_live": 0.8,
+      "progression_pct": 12.1
     },
     {
       "ticker": "DOCU",
@@ -197,10 +197,10 @@
       "status": "open",
       "issued_at": "2026-08-14T17:30:15.169400",
       "last_seen": "2026-08-14T17:30:15.170006",
-      "current_price": 326.27,
-      "current_price_time": "2026-08-14T17:37:04.187379+00:00",
-      "pnl_pct_live": -0.01,
-      "progression_pct": -0.8
+      "current_price": 325.55,
+      "current_price_time": "2026-08-14T18:32:03.113593+00:00",
+      "pnl_pct_live": -0.23,
+      "progression_pct": -14.7
     },
     {
       "ticker": "EA",
@@ -269,17 +269,17 @@
       "status": "open",
       "issued_at": "2026-08-14T15:49:34.336977",
       "last_seen": "2026-08-14T15:49:34.337503",
-      "current_price": 344.61,
-      "current_price_time": "2026-08-14T17:37:04.187379+00:00",
-      "pnl_pct_live": 0.16,
-      "progression_pct": 5.4
+      "current_price": 345.11,
+      "current_price_time": "2026-08-14T18:32:03.113593+00:00",
+      "pnl_pct_live": 0.02,
+      "progression_pct": 0.6
     },
     {
       "ticker": "AVGO",
       "action": "STRONG_SELL",
       "price": 397.64,
       "take_profit": 371.4,
-      "stop_loss": 409.57,
+      "stop_loss": 397.64,
       "upside_pct": 6.6,
       "confidence": 0.811,
       "score": -0.5783,
@@ -307,10 +307,11 @@
       "status": "open",
       "issued_at": "2026-08-14T14:33:59.286649",
       "last_seen": "2026-08-14T14:33:59.287168",
-      "current_price": 391.56,
-      "current_price_time": "2026-08-14T17:37:04.187379+00:00",
-      "pnl_pct_live": 1.53,
-      "progression_pct": 23.2
+      "current_price": 389.57,
+      "current_price_time": "2026-08-14T18:32:03.113593+00:00",
+      "pnl_pct_live": 2.03,
+      "progression_pct": 30.8,
+      "trail_level": 1
     },
     {
       "ticker": "TEAM",
