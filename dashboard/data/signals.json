@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-17T18:56:27.550461+00:00",
+  "generated_at": "2026-08-17T19:26:02.049099+00:00",
   "date": "2026-08-17",
   "stats": {
     "total": 2,
@@ -301,10 +301,10 @@
       "status": "open",
       "issued_at": "2026-08-17T16:56:47.464395",
       "last_seen": "2026-08-17T18:18:53.610212",
-      "current_price": 237.22,
-      "current_price_time": "2026-08-17T18:56:27.550461+00:00",
-      "pnl_pct_live": -0.47,
-      "progression_pct": -15.8
+      "current_price": 236.76,
+      "current_price_time": "2026-08-17T19:26:02.049099+00:00",
+      "pnl_pct_live": -0.28,
+      "progression_pct": -9.3
     },
     {
       "ticker": "TEAM",
