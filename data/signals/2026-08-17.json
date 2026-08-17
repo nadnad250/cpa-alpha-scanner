@@ -67,5 +67,28 @@
     "ml_proba_up": null,
     "risk_reward": 2.2,
     "primary_reason": "Cassure ORB haussière (RVOL 1.7x, +VWAP)"
+  },
+  {
+    "ticker": "ROST",
+    "action": "SELL",
+    "entry_price": 237.13999938964844,
+    "stop_loss": 244.2541993713379,
+    "take_profit": 221.48875942993163,
+    "score": -0.3602828492416698,
+    "confidence": 0.7181202109277097,
+    "universe": "NASDAQ100",
+    "issued_at": "2026-08-17T16:56:47.464395",
+    "horizon_days": 1,
+    "horizon_hours": 24,
+    "status": "open",
+    "exit_price": null,
+    "exit_date": null,
+    "pnl_pct": null,
+    "max_favorable": null,
+    "max_adverse": null,
+    "sector": "",
+    "ml_proba_up": null,
+    "risk_reward": 2.2,
+    "primary_reason": "Cassure ORB baissière (RVOL 1.6x, -VWAP)"
   }
 ]
