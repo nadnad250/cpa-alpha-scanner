@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-18T18:54:58.952234+00:00",
+  "generated_at": "2026-08-18T19:23:24.683097+00:00",
   "date": "2026-08-18",
   "stats": {
     "total": 8,
@@ -51,10 +51,10 @@
       "status": "open",
       "issued_at": "2026-08-18T15:29:06.579508",
       "last_seen": "2026-08-18T15:29:06.580220",
-      "current_price": 310.53,
-      "current_price_time": "2026-08-18T18:54:58.952234+00:00",
-      "pnl_pct_live": 0.03,
-      "progression_pct": 1.0
+      "current_price": 309.8,
+      "current_price_time": "2026-08-18T19:23:24.683097+00:00",
+      "pnl_pct_live": -0.2,
+      "progression_pct": -14.2
     },
     {
       "ticker": "ROST",
@@ -89,10 +89,10 @@
       "status": "open",
       "issued_at": "2026-08-18T15:29:06.579518",
       "last_seen": "2026-08-18T15:29:06.580220",
-      "current_price": 238.05,
-      "current_price_time": "2026-08-18T18:54:58.952234+00:00",
-      "pnl_pct_live": -0.2,
-      "progression_pct": -11.3
+      "current_price": 237.49,
+      "current_price_time": "2026-08-18T19:23:24.683097+00:00",
+      "pnl_pct_live": -0.44,
+      "progression_pct": -24.6
     },
     {
       "ticker": "CPRT",
@@ -163,10 +163,10 @@
       "status": "open",
       "issued_at": "2026-08-18T14:09:35.426097",
       "last_seen": "2026-08-18T14:09:35.426519",
-      "current_price": 47.35,
-      "current_price_time": "2026-08-18T18:54:58.952234+00:00",
-      "pnl_pct_live": 1.31,
-      "progression_pct": 28.9,
+      "current_price": 47.36,
+      "current_price_time": "2026-08-18T19:23:24.683097+00:00",
+      "pnl_pct_live": 1.33,
+      "progression_pct": 29.4,
       "trail_level": 1
     },
     {
@@ -202,10 +202,10 @@
       "status": "open",
       "issued_at": "2026-08-18T14:09:35.426109",
       "last_seen": "2026-08-18T14:09:35.426519",
-      "current_price": 73.32,
-      "current_price_time": "2026-08-18T18:54:58.952234+00:00",
-      "pnl_pct_live": -2.66,
-      "progression_pct": -88.5
+      "current_price": 73.76,
+      "current_price_time": "2026-08-18T19:23:24.683097+00:00",
+      "pnl_pct_live": -2.07,
+      "progression_pct": -69.0
     },
     {
       "ticker": "WOLF",
@@ -240,10 +240,10 @@
       "status": "open",
       "issued_at": "2026-08-18T18:17:48.352951",
       "last_seen": "2026-08-18T18:17:48.353840",
-      "current_price": 31.48,
-      "current_price_time": "2026-08-18T18:54:58.952234+00:00",
-      "pnl_pct_live": -0.1,
-      "progression_pct": -3.2
+      "current_price": 31.34,
+      "current_price_time": "2026-08-18T19:23:24.683097+00:00",
+      "pnl_pct_live": 0.35,
+      "progression_pct": 5.3
     },
     {
       "ticker": "EA",
@@ -312,10 +312,10 @@
       "status": "open",
       "issued_at": "2026-08-18T18:17:48.352962",
       "last_seen": "2026-08-18T18:17:48.353840",
-      "current_price": 545.46,
-      "current_price_time": "2026-08-18T18:54:58.952234+00:00",
-      "pnl_pct_live": 0.5,
-      "progression_pct": 10.1
+      "current_price": 544.44,
+      "current_price_time": "2026-08-18T19:23:24.683097+00:00",
+      "pnl_pct_live": 0.69,
+      "progression_pct": 13.8
     },
     {
       "ticker": "AVGO",
@@ -386,10 +386,10 @@
       "status": "open",
       "issued_at": "2026-08-18T16:58:49.784430",
       "last_seen": "2026-08-18T16:58:49.785122",
-      "current_price": 372.09,
-      "current_price_time": "2026-08-18T18:54:58.952234+00:00",
-      "pnl_pct_live": 0.12,
-      "progression_pct": 1.7
+      "current_price": 372.34,
+      "current_price_time": "2026-08-18T19:23:24.683097+00:00",
+      "pnl_pct_live": 0.05,
+      "progression_pct": 0.7
     },
     {
       "ticker": "TEAM",
