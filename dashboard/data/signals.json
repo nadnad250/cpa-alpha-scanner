@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-18T08:03:44.153700",
+  "generated_at": "2026-08-18T08:06:30.256349+00:00",
   "date": "2026-08-18",
   "stats": {
     "total": 5,
@@ -46,7 +46,11 @@
       "top_news_url": null,
       "status": "open",
       "issued_at": "2026-08-17T08:07:46.659194",
-      "last_seen": "2026-08-18T08:03:44.153700"
+      "last_seen": "2026-08-18T08:03:44.153700",
+      "current_price": 31.72,
+      "current_price_time": "2026-08-18T08:06:30.256349+00:00",
+      "pnl_pct_live": 0.35,
+      "progression_pct": 5.3
     },
     {
       "ticker": "PYPL",
@@ -76,7 +80,11 @@
       "top_news_url": null,
       "status": "open",
       "issued_at": "2026-08-17T08:07:46.659198",
-      "last_seen": "2026-08-18T08:03:44.153700"
+      "last_seen": "2026-08-18T08:03:44.153700",
+      "current_price": 60.48,
+      "current_price_time": "2026-08-18T08:06:30.256349+00:00",
+      "pnl_pct_live": -1.91,
+      "progression_pct": -86.8
     },
     {
       "ticker": "EA",
@@ -140,7 +148,11 @@
       "top_news_url": null,
       "status": "open",
       "issued_at": "2026-08-17T08:07:46.659184",
-      "last_seen": "2026-08-18T08:03:44.153700"
+      "last_seen": "2026-08-18T08:03:44.153700",
+      "current_price": 392.45,
+      "current_price_time": "2026-08-18T08:06:30.256349+00:00",
+      "pnl_pct_live": 0.15,
+      "progression_pct": 2.3
     },
     {
       "ticker": "ROST",
@@ -174,7 +186,11 @@
       "top_news_url": null,
       "status": "open",
       "issued_at": "2026-08-17T16:56:47.464395",
-      "last_seen": "2026-08-18T08:03:44.153700"
+      "last_seen": "2026-08-18T08:03:44.153700",
+      "current_price": 235.31,
+      "current_price_time": "2026-08-18T08:06:30.256349+00:00",
+      "pnl_pct_live": 0.0,
+      "progression_pct": 0.0
     },
     {
       "ticker": "TEAM",
