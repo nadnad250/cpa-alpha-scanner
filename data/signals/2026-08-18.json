@@ -159,5 +159,28 @@
     "ml_proba_up": null,
     "risk_reward": 2.2,
     "primary_reason": "Cassure ORB baissière (RVOL 2.2x, -VWAP) +gap"
+  },
+  {
+    "ticker": "CPRT",
+    "action": "SELL",
+    "entry_price": 31.489999771118164,
+    "stop_loss": 32.150001525878906,
+    "take_profit": 30.037995910644533,
+    "score": -0.35717907601231597,
+    "confidence": 0.7168011073052343,
+    "universe": "NASDAQ100",
+    "issued_at": "2026-08-18T19:49:18.833873",
+    "horizon_days": 1,
+    "horizon_hours": 24,
+    "status": "open",
+    "exit_price": null,
+    "exit_date": null,
+    "pnl_pct": null,
+    "max_favorable": null,
+    "max_adverse": null,
+    "sector": "",
+    "ml_proba_up": null,
+    "risk_reward": 2.2,
+    "primary_reason": "Cassure ORB baissière (RVOL 1.8x, -VWAP) (contre-gap)"
   }
 ]
