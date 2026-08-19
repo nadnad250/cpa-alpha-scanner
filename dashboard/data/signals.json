@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-19T17:38:48.429981+00:00",
+  "generated_at": "2026-08-19T17:58:17.405153+00:00",
   "date": "2026-08-19",
   "stats": {
     "total": 4,
@@ -51,10 +51,10 @@
       "status": "open",
       "issued_at": "2026-08-19T15:28:43.434970",
       "last_seen": "2026-08-19T15:28:43.435623",
-      "current_price": 346.48,
-      "current_price_time": "2026-08-19T17:38:48.429981+00:00",
-      "pnl_pct_live": -0.28,
-      "progression_pct": -9.7
+      "current_price": 347.6,
+      "current_price_time": "2026-08-19T17:58:17.405153+00:00",
+      "pnl_pct_live": 0.05,
+      "progression_pct": 0.7
     },
     {
       "ticker": "CRSP",
@@ -89,10 +89,10 @@
       "status": "open",
       "issued_at": "2026-08-19T14:09:18.836155",
       "last_seen": "2026-08-19T14:09:18.836782",
-      "current_price": 57.18,
-      "current_price_time": "2026-08-19T17:38:48.429981+00:00",
-      "pnl_pct_live": 0.95,
-      "progression_pct": 14.9
+      "current_price": 57.59,
+      "current_price_time": "2026-08-19T17:58:17.405153+00:00",
+      "pnl_pct_live": 1.68,
+      "progression_pct": 26.2
     },
     {
       "ticker": "AAPL",
@@ -348,10 +348,10 @@
       "status": "open",
       "issued_at": "2026-08-19T14:09:18.836141",
       "last_seen": "2026-08-19T14:09:18.836782",
-      "current_price": 364.21,
-      "current_price_time": "2026-08-19T17:38:48.429981+00:00",
-      "pnl_pct_live": -1.07,
-      "progression_pct": -35.6
+      "current_price": 364.17,
+      "current_price_time": "2026-08-19T17:58:17.405153+00:00",
+      "pnl_pct_live": -1.06,
+      "progression_pct": -35.2
     },
     {
       "ticker": "EA",
