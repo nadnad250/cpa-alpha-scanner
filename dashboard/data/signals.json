@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-19T15:57:09.383374+00:00",
+  "generated_at": "2026-08-19T16:30:52.038592+00:00",
   "date": "2026-08-19",
   "stats": {
     "total": 7,
@@ -51,10 +51,10 @@
       "status": "open",
       "issued_at": "2026-08-19T15:28:43.434970",
       "last_seen": "2026-08-19T15:28:43.435623",
-      "current_price": 346.7,
-      "current_price_time": "2026-08-19T15:57:09.383374+00:00",
-      "pnl_pct_live": -0.21,
-      "progression_pct": -7.5
+      "current_price": 347.68,
+      "current_price_time": "2026-08-19T16:30:52.038592+00:00",
+      "pnl_pct_live": 0.07,
+      "progression_pct": 1.1
     },
     {
       "ticker": "CRSP",
@@ -89,10 +89,10 @@
       "status": "open",
       "issued_at": "2026-08-19T14:09:18.836155",
       "last_seen": "2026-08-19T14:09:18.836782",
-      "current_price": 56.55,
-      "current_price_time": "2026-08-19T15:57:09.383374+00:00",
-      "pnl_pct_live": -0.16,
-      "progression_pct": -5.5
+      "current_price": 56.82,
+      "current_price_time": "2026-08-19T16:30:52.038592+00:00",
+      "pnl_pct_live": 0.32,
+      "progression_pct": 5.0
     },
     {
       "ticker": "AAPL",
@@ -163,10 +163,10 @@
       "status": "open",
       "issued_at": "2026-08-19T15:28:43.435016",
       "last_seen": "2026-08-19T15:28:43.435623",
-      "current_price": 162.72,
-      "current_price_time": "2026-08-19T15:57:09.383374+00:00",
-      "pnl_pct_live": 0.09,
-      "progression_pct": 1.4
+      "current_price": 165.27,
+      "current_price_time": "2026-08-19T16:30:52.038592+00:00",
+      "pnl_pct_live": 1.66,
+      "progression_pct": 25.2
     },
     {
       "ticker": "MNST",
@@ -273,10 +273,10 @@
       "status": "open",
       "issued_at": "2026-08-19T14:09:18.836141",
       "last_seen": "2026-08-19T14:09:18.836782",
-      "current_price": 361.85,
-      "current_price_time": "2026-08-19T15:57:09.383374+00:00",
-      "pnl_pct_live": -0.41,
-      "progression_pct": -13.8
+      "current_price": 364.96,
+      "current_price_time": "2026-08-19T16:30:52.038592+00:00",
+      "pnl_pct_live": -1.28,
+      "progression_pct": -42.6
     },
     {
       "ticker": "EA",
@@ -341,10 +341,10 @@
       "status": "open",
       "issued_at": "2026-08-18T18:17:48.352962",
       "last_seen": "2026-08-19T15:28:43.435623",
-      "current_price": 552.3,
-      "current_price_time": "2026-08-19T15:57:09.383374+00:00",
-      "pnl_pct_live": -0.75,
-      "progression_pct": -32.9
+      "current_price": 551.79,
+      "current_price_time": "2026-08-19T16:30:52.038592+00:00",
+      "pnl_pct_live": -0.65,
+      "progression_pct": -28.8
     },
     {
       "ticker": "ADI",
@@ -375,10 +375,10 @@
       "status": "open",
       "issued_at": "2026-08-18T16:58:49.784430",
       "last_seen": "2026-08-19T15:28:43.435623",
-      "current_price": 379.66,
-      "current_price_time": "2026-08-19T15:57:09.383374+00:00",
-      "pnl_pct_live": -1.92,
-      "progression_pct": -63.9
+      "current_price": 379.29,
+      "current_price_time": "2026-08-19T16:30:52.038592+00:00",
+      "pnl_pct_live": -1.82,
+      "progression_pct": -60.6
     },
     {
       "ticker": "TEAM",
