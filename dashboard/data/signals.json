@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-19T14:52:12.324452+00:00",
+  "generated_at": "2026-08-19T15:26:24.086147+00:00",
   "date": "2026-08-19",
   "stats": {
     "total": 4,
@@ -51,10 +51,10 @@
       "status": "open",
       "issued_at": "2026-08-19T14:09:18.836155",
       "last_seen": "2026-08-19T14:09:18.836782",
-      "current_price": 57.44,
-      "current_price_time": "2026-08-19T14:52:12.324452+00:00",
-      "pnl_pct_live": 1.41,
-      "progression_pct": 22.0
+      "current_price": 57.43,
+      "current_price_time": "2026-08-19T15:26:24.086147+00:00",
+      "pnl_pct_live": 1.39,
+      "progression_pct": 21.8
     },
     {
       "ticker": "ROST",
@@ -85,10 +85,10 @@
       "status": "open",
       "issued_at": "2026-08-18T15:29:06.579518",
       "last_seen": "2026-08-19T14:09:18.836782",
-      "current_price": 235.74,
-      "current_price_time": "2026-08-19T14:52:12.324452+00:00",
-      "pnl_pct_live": -1.17,
-      "progression_pct": -66.0
+      "current_price": 235.49,
+      "current_price_time": "2026-08-19T15:26:24.086147+00:00",
+      "pnl_pct_live": -1.27,
+      "progression_pct": -71.9
     },
     {
       "ticker": "WOLF",
@@ -159,10 +159,10 @@
       "status": "open",
       "issued_at": "2026-08-19T14:09:18.836141",
       "last_seen": "2026-08-19T14:09:18.836782",
-      "current_price": 360.85,
-      "current_price_time": "2026-08-19T14:52:12.324452+00:00",
-      "pnl_pct_live": -0.14,
-      "progression_pct": -4.5
+      "current_price": 361.98,
+      "current_price_time": "2026-08-19T15:26:24.086147+00:00",
+      "pnl_pct_live": -0.45,
+      "progression_pct": -15.0
     },
     {
       "ticker": "EA",
