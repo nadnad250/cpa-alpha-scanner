@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-19T19:06:31.097017+00:00",
+  "generated_at": "2026-08-19T19:37:05.342491+00:00",
   "date": "2026-08-19",
   "stats": {
     "total": 5,
@@ -51,10 +51,10 @@
       "status": "open",
       "issued_at": "2026-08-19T15:28:43.434970",
       "last_seen": "2026-08-19T15:28:43.435623",
-      "current_price": 348.3,
-      "current_price_time": "2026-08-19T19:06:31.097017+00:00",
-      "pnl_pct_live": 0.25,
-      "progression_pct": 4.0
+      "current_price": 349.16,
+      "current_price_time": "2026-08-19T19:37:05.342491+00:00",
+      "pnl_pct_live": 0.5,
+      "progression_pct": 7.9
     },
     {
       "ticker": "CRSP",
@@ -89,10 +89,10 @@
       "status": "open",
       "issued_at": "2026-08-19T14:09:18.836155",
       "last_seen": "2026-08-19T18:14:47.949950",
-      "current_price": 58.78,
-      "current_price_time": "2026-08-19T19:06:31.097017+00:00",
-      "pnl_pct_live": 1.66,
-      "progression_pct": 25.1
+      "current_price": 58.82,
+      "current_price_time": "2026-08-19T19:37:05.342491+00:00",
+      "pnl_pct_live": 1.73,
+      "progression_pct": 26.2
     },
     {
       "ticker": "AAPL",
@@ -199,10 +199,10 @@
       "status": "open",
       "issued_at": "2026-08-19T15:28:43.435016",
       "last_seen": "2026-08-19T18:14:47.949950",
-      "current_price": 159.65,
-      "current_price_time": "2026-08-19T19:06:31.097017+00:00",
-      "pnl_pct_live": -0.13,
-      "progression_pct": -4.4
+      "current_price": 157.96,
+      "current_price_time": "2026-08-19T19:37:05.342491+00:00",
+      "pnl_pct_live": -1.19,
+      "progression_pct": -39.7
     },
     {
       "ticker": "WOLF",
@@ -273,10 +273,10 @@
       "status": "open",
       "issued_at": "2026-08-19T14:09:18.836141",
       "last_seen": "2026-08-19T14:09:18.836782",
-      "current_price": 364.33,
-      "current_price_time": "2026-08-19T19:06:31.097017+00:00",
-      "pnl_pct_live": -1.1,
-      "progression_pct": -36.7
+      "current_price": 363.55,
+      "current_price_time": "2026-08-19T19:37:05.342491+00:00",
+      "pnl_pct_live": -0.89,
+      "progression_pct": -29.5
     },
     {
       "ticker": "EA",
