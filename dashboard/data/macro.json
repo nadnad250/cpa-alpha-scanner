@@ -1,7 +1,7 @@
 {
   "risk_free_rate": 3.63,
-  "treasury_10y": 4.68,
-  "yield_curve": 0.53,
+  "treasury_10y": 4.72,
+  "yield_curve": 0.52,
   "vix": 15.19,
   "dollar_index": 118.9028,
   "unemployment": 4.1,
@@ -9,5 +9,5 @@
   "regime": "neutral",
   "regime_score": 0.0,
   "regime_reasons": [],
-  "fetched_at": "2026-08-18T18:54:08.338542"
+  "fetched_at": "2026-08-19T01:50:52.729048"
 }
