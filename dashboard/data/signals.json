@@ -1,21 +1,21 @@
 {
-  "generated_at": "2026-08-19T17:01:49.358662+00:00",
+  "generated_at": "2026-08-19T17:38:48.429981+00:00",
   "date": "2026-08-19",
   "stats": {
-    "total": 5,
-    "buy_signals": 3,
+    "total": 4,
+    "buy_signals": 2,
     "sell_signals": 2,
     "avg_confidence": 0.879,
     "avg_rr": 2.2,
-    "win_rate": 0.473,
-    "active_positions": 5,
-    "daily_pnl": 0.3414
+    "win_rate": 0.464,
+    "active_positions": 4,
+    "daily_pnl": 0.3114
   },
   "eod": {
     "tp_hit": 26,
-    "sl_hit": 29,
-    "open": 5,
-    "cumulative_pnl": 0.3414
+    "sl_hit": 30,
+    "open": 4,
+    "cumulative_pnl": 0.3114
   },
   "signals": [
     {
@@ -51,10 +51,10 @@
       "status": "open",
       "issued_at": "2026-08-19T15:28:43.434970",
       "last_seen": "2026-08-19T15:28:43.435623",
-      "current_price": 347.26,
-      "current_price_time": "2026-08-19T17:01:49.358662+00:00",
-      "pnl_pct_live": -0.05,
-      "progression_pct": -1.8
+      "current_price": 346.48,
+      "current_price_time": "2026-08-19T17:38:48.429981+00:00",
+      "pnl_pct_live": -0.28,
+      "progression_pct": -9.7
     },
     {
       "ticker": "CRSP",
@@ -89,10 +89,10 @@
       "status": "open",
       "issued_at": "2026-08-19T14:09:18.836155",
       "last_seen": "2026-08-19T14:09:18.836782",
-      "current_price": 56.88,
-      "current_price_time": "2026-08-19T17:01:49.358662+00:00",
-      "pnl_pct_live": 0.42,
-      "progression_pct": 6.6
+      "current_price": 57.18,
+      "current_price_time": "2026-08-19T17:38:48.429981+00:00",
+      "pnl_pct_live": 0.95,
+      "progression_pct": 14.9
     },
     {
       "ticker": "AAPL",
@@ -160,13 +160,16 @@
       "news_score": null,
       "top_news_title": null,
       "top_news_url": null,
-      "status": "open",
+      "status": "sl_hit",
       "issued_at": "2026-08-19T15:28:43.435016",
       "last_seen": "2026-08-19T16:57:10.912800",
-      "current_price": 164.39,
-      "current_price_time": "2026-08-19T17:01:49.358662+00:00",
-      "pnl_pct_live": -0.3,
-      "progression_pct": -9.9
+      "current_price": 159.67,
+      "current_price_time": "2026-08-19T17:38:48.429981+00:00",
+      "pnl_pct_live": -3.0,
+      "progression_pct": -9.9,
+      "exit_price": 159.93,
+      "exit_date": "2026-08-19T17:38:48.429981+00:00",
+      "pnl_pct": -3.0
     },
     {
       "ticker": "ROST",
@@ -345,10 +348,10 @@
       "status": "open",
       "issued_at": "2026-08-19T14:09:18.836141",
       "last_seen": "2026-08-19T14:09:18.836782",
-      "current_price": 363.6,
-      "current_price_time": "2026-08-19T17:01:49.358662+00:00",
-      "pnl_pct_live": -0.9,
-      "progression_pct": -30.0
+      "current_price": 364.21,
+      "current_price_time": "2026-08-19T17:38:48.429981+00:00",
+      "pnl_pct_live": -1.07,
+      "progression_pct": -35.6
     },
     {
       "ticker": "EA",
