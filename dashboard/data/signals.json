@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-20T18:57:43.298737+00:00",
+  "generated_at": "2026-08-20T19:32:44.191505+00:00",
   "date": "2026-08-20",
   "stats": {
     "total": 5,
@@ -119,10 +119,10 @@
       "status": "open",
       "issued_at": "2026-08-19T19:49:54.771227",
       "last_seen": "2026-08-20T18:18:53.251294",
-      "current_price": 111.51,
-      "current_price_time": "2026-08-20T18:57:43.298737+00:00",
-      "pnl_pct_live": -0.6,
-      "progression_pct": -19.9
+      "current_price": 111.01,
+      "current_price_time": "2026-08-20T19:32:44.191505+00:00",
+      "pnl_pct_live": -1.04,
+      "progression_pct": -34.8
     },
     {
       "ticker": "CRSP",
@@ -193,10 +193,10 @@
       "status": "open",
       "issued_at": "2026-08-20T15:31:31.273134",
       "last_seen": "2026-08-20T17:02:10.791691",
-      "current_price": 10.84,
-      "current_price_time": "2026-08-20T18:57:43.298737+00:00",
-      "pnl_pct_live": -0.09,
-      "progression_pct": -3.0
+      "current_price": 10.98,
+      "current_price_time": "2026-08-20T19:32:44.191505+00:00",
+      "pnl_pct_live": 1.2,
+      "progression_pct": 18.3
     },
     {
       "ticker": "MRNA",
@@ -272,10 +272,10 @@
       "status": "open",
       "issued_at": "2026-08-20T18:18:53.250504",
       "last_seen": "2026-08-20T18:18:53.251294",
-      "current_price": 58.46,
-      "current_price_time": "2026-08-20T18:57:43.298737+00:00",
-      "pnl_pct_live": -2.24,
-      "progression_pct": -74.4
+      "current_price": 58.58,
+      "current_price_time": "2026-08-20T19:32:44.191505+00:00",
+      "pnl_pct_live": -2.45,
+      "progression_pct": -81.4
     },
     {
       "ticker": "AVGO",
@@ -346,10 +346,10 @@
       "status": "open",
       "issued_at": "2026-08-20T18:18:53.250517",
       "last_seen": "2026-08-20T18:18:53.251294",
-      "current_price": 343.58,
-      "current_price_time": "2026-08-20T18:57:43.298737+00:00",
-      "pnl_pct_live": -0.44,
-      "progression_pct": -28.0
+      "current_price": 343.85,
+      "current_price_time": "2026-08-20T19:32:44.191505+00:00",
+      "pnl_pct_live": -0.52,
+      "progression_pct": -33.0
     },
     {
       "ticker": "ROST",
@@ -384,10 +384,10 @@
       "status": "open",
       "issued_at": "2026-08-20T18:18:53.250522",
       "last_seen": "2026-08-20T18:18:53.251294",
-      "current_price": 228.67,
-      "current_price_time": "2026-08-20T18:57:43.298737+00:00",
-      "pnl_pct_live": 0.33,
-      "progression_pct": 14.3
+      "current_price": 229.44,
+      "current_price_time": "2026-08-20T19:32:44.191505+00:00",
+      "pnl_pct_live": -0.01,
+      "progression_pct": -0.8
     },
     {
       "ticker": "MRNA",
