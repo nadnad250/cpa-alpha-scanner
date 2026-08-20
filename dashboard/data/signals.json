@@ -1,21 +1,21 @@
 {
-  "generated_at": "2026-08-20T14:20:05.693106+00:00",
+  "generated_at": "2026-08-20T15:03:23.945570+00:00",
   "date": "2026-08-20",
   "stats": {
-    "total": 3,
-    "buy_signals": 1,
+    "total": 2,
+    "buy_signals": 0,
     "sell_signals": 2,
     "avg_confidence": 0.937,
     "avg_rr": 2.2,
-    "win_rate": 0.373,
-    "active_positions": 3,
-    "daily_pnl": -0.0264
+    "win_rate": 0.365,
+    "active_positions": 2,
+    "daily_pnl": -0.0564
   },
   "eod": {
     "tp_hit": 19,
-    "sl_hit": 32,
-    "open": 3,
-    "cumulative_pnl": -0.0264
+    "sl_hit": 33,
+    "open": 2,
+    "cumulative_pnl": -0.0564
   },
   "signals": [
     {
@@ -80,13 +80,16 @@
       "news_score": null,
       "top_news_title": null,
       "top_news_url": null,
-      "status": "open",
+      "status": "sl_hit",
       "issued_at": "2026-08-19T19:49:54.771227",
       "last_seen": "2026-08-20T14:13:57.201463",
-      "current_price": 109.0,
-      "current_price_time": "2026-08-20T14:20:05.693106+00:00",
-      "pnl_pct_live": -2.83,
-      "progression_pct": -94.6
+      "current_price": 108.14,
+      "current_price_time": "2026-08-20T15:03:23.945570+00:00",
+      "pnl_pct_live": -3.0,
+      "progression_pct": -94.6,
+      "exit_price": 108.82,
+      "exit_date": "2026-08-20T15:03:23.945570+00:00",
+      "pnl_pct": -3.0
     },
     {
       "ticker": "MRNA",
@@ -121,10 +124,10 @@
       "status": "open",
       "issued_at": "2026-08-20T14:13:57.200963",
       "last_seen": "2026-08-20T14:13:57.201463",
-      "current_price": 140.39,
-      "current_price_time": "2026-08-20T14:20:05.693106+00:00",
-      "pnl_pct_live": -0.95,
-      "progression_pct": -31.7
+      "current_price": 139.45,
+      "current_price_time": "2026-08-20T15:03:23.945570+00:00",
+      "pnl_pct_live": -0.27,
+      "progression_pct": -9.1
     },
     {
       "ticker": "EA",
