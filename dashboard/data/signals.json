@@ -1,21 +1,21 @@
 {
-  "generated_at": "2026-08-20T18:18:53.251294",
+  "generated_at": "2026-08-20T18:57:43.298737+00:00",
   "date": "2026-08-20",
   "stats": {
-    "total": 10,
-    "buy_signals": 5,
-    "sell_signals": 5,
+    "total": 5,
+    "buy_signals": 2,
+    "sell_signals": 3,
     "avg_confidence": 0.935,
     "avg_rr": 2.2,
-    "win_rate": 0.34,
-    "active_positions": 10,
-    "daily_pnl": -0.1028
+    "win_rate": 0.327,
+    "active_positions": 5,
+    "daily_pnl": -0.151
   },
   "eod": {
-    "tp_hit": 17,
-    "sl_hit": 33,
-    "open": 10,
-    "cumulative_pnl": -0.1028
+    "tp_hit": 18,
+    "sl_hit": 37,
+    "open": 5,
+    "cumulative_pnl": -0.151
   },
   "signals": [
     {
@@ -44,9 +44,15 @@
       "news_score": null,
       "top_news_title": null,
       "top_news_url": null,
-      "status": "open",
+      "status": "sl_hit",
       "issued_at": "2026-08-19T19:49:54.771215",
-      "last_seen": "2026-08-20T18:18:53.251294"
+      "last_seen": "2026-08-20T18:18:53.251294",
+      "current_price": 135.97,
+      "current_price_time": "2026-08-20T18:57:43.298737+00:00",
+      "exit_price": 163.96,
+      "exit_date": "2026-08-20T18:57:43.298737+00:00",
+      "pnl_pct": -3.0,
+      "pnl_pct_live": -3.0
     },
     {
       "ticker": "TSLA",
@@ -74,9 +80,15 @@
       "news_score": null,
       "top_news_title": null,
       "top_news_url": null,
-      "status": "open",
+      "status": "expired",
       "issued_at": "2026-08-19T15:28:43.434970",
-      "last_seen": "2026-08-20T18:18:53.251294"
+      "last_seen": "2026-08-20T18:18:53.251294",
+      "current_price": 343.58,
+      "current_price_time": "2026-08-20T18:57:43.298737+00:00",
+      "exit_price": 343.58,
+      "exit_date": "2026-08-20T18:57:43.298737+00:00",
+      "pnl_pct": -1.11,
+      "pnl_pct_live": -1.11
     },
     {
       "ticker": "BNTX",
@@ -106,7 +118,11 @@
       "top_news_url": null,
       "status": "open",
       "issued_at": "2026-08-19T19:49:54.771227",
-      "last_seen": "2026-08-20T18:18:53.251294"
+      "last_seen": "2026-08-20T18:18:53.251294",
+      "current_price": 111.51,
+      "current_price_time": "2026-08-20T18:57:43.298737+00:00",
+      "pnl_pct_live": -0.6,
+      "progression_pct": -19.9
     },
     {
       "ticker": "CRSP",
@@ -134,9 +150,15 @@
       "news_score": null,
       "top_news_title": null,
       "top_news_url": null,
-      "status": "open",
+      "status": "expired",
       "issued_at": "2026-08-19T14:09:18.836155",
-      "last_seen": "2026-08-20T18:18:53.251294"
+      "last_seen": "2026-08-20T18:18:53.251294",
+      "current_price": 58.46,
+      "current_price_time": "2026-08-20T18:57:43.298737+00:00",
+      "exit_price": 58.46,
+      "exit_date": "2026-08-20T18:57:43.298737+00:00",
+      "pnl_pct": 3.21,
+      "pnl_pct_live": 3.21
     },
     {
       "ticker": "MARA",
@@ -171,10 +193,10 @@
       "status": "open",
       "issued_at": "2026-08-20T15:31:31.273134",
       "last_seen": "2026-08-20T17:02:10.791691",
-      "current_price": 10.88,
-      "current_price_time": "2026-08-20T18:04:06.299646+00:00",
-      "pnl_pct_live": 0.28,
-      "progression_pct": 4.2
+      "current_price": 10.84,
+      "current_price_time": "2026-08-20T18:57:43.298737+00:00",
+      "pnl_pct_live": -0.09,
+      "progression_pct": -3.0
     },
     {
       "ticker": "MRNA",
@@ -206,13 +228,16 @@
       "news_score": null,
       "top_news_title": null,
       "top_news_url": null,
-      "status": "open",
+      "status": "sl_hit",
       "issued_at": "2026-08-20T14:13:57.200963",
       "last_seen": "2026-08-20T17:02:10.791691",
-      "current_price": 131.94,
-      "current_price_time": "2026-08-20T18:04:06.299646+00:00",
-      "pnl_pct_live": -1.67,
-      "progression_pct": -55.6
+      "current_price": 135.97,
+      "current_price_time": "2026-08-20T18:57:43.298737+00:00",
+      "pnl_pct_live": -3.01,
+      "progression_pct": -55.6,
+      "exit_price": 133.67,
+      "exit_date": "2026-08-20T18:57:43.298737+00:00",
+      "pnl_pct": -3.01
     },
     {
       "ticker": "CRSP",
@@ -246,7 +271,11 @@
       "top_news_url": null,
       "status": "open",
       "issued_at": "2026-08-20T18:18:53.250504",
-      "last_seen": "2026-08-20T18:18:53.251294"
+      "last_seen": "2026-08-20T18:18:53.251294",
+      "current_price": 58.46,
+      "current_price_time": "2026-08-20T18:57:43.298737+00:00",
+      "pnl_pct_live": -2.24,
+      "progression_pct": -74.4
     },
     {
       "ticker": "AVGO",
@@ -274,9 +303,15 @@
       "news_score": null,
       "top_news_title": null,
       "top_news_url": null,
-      "status": "open",
+      "status": "expired",
       "issued_at": "2026-08-19T14:09:18.836141",
-      "last_seen": "2026-08-20T18:18:53.251294"
+      "last_seen": "2026-08-20T18:18:53.251294",
+      "current_price": 363.65,
+      "current_price_time": "2026-08-20T18:57:43.298737+00:00",
+      "exit_price": 363.65,
+      "exit_date": "2026-08-20T18:57:43.298737+00:00",
+      "pnl_pct": -0.91,
+      "pnl_pct_live": -0.91
     },
     {
       "ticker": "TSLA",
@@ -310,7 +345,11 @@
       "top_news_url": null,
       "status": "open",
       "issued_at": "2026-08-20T18:18:53.250517",
-      "last_seen": "2026-08-20T18:18:53.251294"
+      "last_seen": "2026-08-20T18:18:53.251294",
+      "current_price": 343.58,
+      "current_price_time": "2026-08-20T18:57:43.298737+00:00",
+      "pnl_pct_live": -0.44,
+      "progression_pct": -28.0
     },
     {
       "ticker": "ROST",
@@ -344,7 +383,11 @@
       "top_news_url": null,
       "status": "open",
       "issued_at": "2026-08-20T18:18:53.250522",
-      "last_seen": "2026-08-20T18:18:53.251294"
+      "last_seen": "2026-08-20T18:18:53.251294",
+      "current_price": 228.67,
+      "current_price_time": "2026-08-20T18:57:43.298737+00:00",
+      "pnl_pct_live": 0.33,
+      "progression_pct": 14.3
     },
     {
       "ticker": "MRNA",
