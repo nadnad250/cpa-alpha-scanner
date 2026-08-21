@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-21T18:54:39.983452+00:00",
+  "generated_at": "2026-08-21T19:21:59.800502+00:00",
   "date": "2026-08-21",
   "stats": {
     "total": 4,
@@ -87,10 +87,10 @@
       "status": "open",
       "issued_at": "2026-08-21T15:30:39.815833",
       "last_seen": "2026-08-21T15:30:39.816544",
-      "current_price": 107.69,
-      "current_price_time": "2026-08-21T18:54:39.983452+00:00",
-      "pnl_pct_live": 1.39,
-      "progression_pct": 21.1,
+      "current_price": 106.75,
+      "current_price_time": "2026-08-21T19:21:59.800502+00:00",
+      "pnl_pct_live": 0.51,
+      "progression_pct": 7.7,
       "trail_level": 1
     },
     {
@@ -162,10 +162,10 @@
       "status": "open",
       "issued_at": "2026-08-21T15:30:39.815843",
       "last_seen": "2026-08-21T15:30:39.816544",
-      "current_price": 365.16,
-      "current_price_time": "2026-08-21T18:54:39.983452+00:00",
-      "pnl_pct_live": 1.73,
-      "progression_pct": 26.2
+      "current_price": 364.16,
+      "current_price_time": "2026-08-21T19:21:59.800502+00:00",
+      "pnl_pct_live": 1.45,
+      "progression_pct": 22.0
     },
     {
       "ticker": "COST",
@@ -200,10 +200,10 @@
       "status": "open",
       "issued_at": "2026-08-21T14:09:34.419728",
       "last_seen": "2026-08-21T14:09:34.420372",
-      "current_price": 946.78,
-      "current_price_time": "2026-08-21T18:54:39.983452+00:00",
-      "pnl_pct_live": 0.54,
-      "progression_pct": 29.8,
+      "current_price": 946.53,
+      "current_price_time": "2026-08-21T19:21:59.800502+00:00",
+      "pnl_pct_live": 0.52,
+      "progression_pct": 28.3,
       "trail_level": 1
     },
     {
@@ -239,10 +239,10 @@
       "status": "open",
       "issued_at": "2026-08-21T14:09:34.419740",
       "last_seen": "2026-08-21T14:09:34.420372",
-      "current_price": 835.99,
-      "current_price_time": "2026-08-21T18:54:39.983452+00:00",
-      "pnl_pct_live": -0.45,
-      "progression_pct": -28.7
+      "current_price": 836.06,
+      "current_price_time": "2026-08-21T19:21:59.800502+00:00",
+      "pnl_pct_live": -0.44,
+      "progression_pct": -28.1
     },
     {
       "ticker": "MRNA",
