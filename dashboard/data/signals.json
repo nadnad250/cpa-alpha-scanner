@@ -1,21 +1,21 @@
 {
-  "generated_at": "2026-08-21T14:09:34.420372",
+  "generated_at": "2026-08-21T14:17:58.922834+00:00",
   "date": "2026-08-21",
   "stats": {
-    "total": 6,
+    "total": 3,
     "buy_signals": 2,
-    "sell_signals": 4,
+    "sell_signals": 1,
     "avg_confidence": 0.89,
     "avg_rr": 2.2,
-    "win_rate": 0.34,
-    "active_positions": 6,
-    "daily_pnl": -0.2116
+    "win_rate": 0.321,
+    "active_positions": 3,
+    "daily_pnl": -0.268
   },
   "eod": {
     "tp_hit": 17,
-    "sl_hit": 33,
-    "open": 6,
-    "cumulative_pnl": -0.2116
+    "sl_hit": 36,
+    "open": 3,
+    "cumulative_pnl": -0.268
   },
   "signals": [
     {
@@ -50,7 +50,11 @@
       "top_news_url": null,
       "status": "open",
       "issued_at": "2026-08-21T14:09:34.419728",
-      "last_seen": "2026-08-21T14:09:34.420372"
+      "last_seen": "2026-08-21T14:09:34.420372",
+      "current_price": 945.66,
+      "current_price_time": "2026-08-21T14:17:58.922834+00:00",
+      "pnl_pct_live": 0.43,
+      "progression_pct": 23.3
     },
     {
       "ticker": "REGN",
@@ -84,7 +88,11 @@
       "top_news_url": null,
       "status": "open",
       "issued_at": "2026-08-21T14:09:34.419740",
-      "last_seen": "2026-08-21T14:09:34.420372"
+      "last_seen": "2026-08-21T14:09:34.420372",
+      "current_price": 840.38,
+      "current_price_time": "2026-08-21T14:17:58.922834+00:00",
+      "pnl_pct_live": 0.08,
+      "progression_pct": 2.2
     },
     {
       "ticker": "CRSP",
@@ -112,9 +120,15 @@
       "news_score": null,
       "top_news_title": null,
       "top_news_url": null,
-      "status": "open",
+      "status": "sl_hit",
       "issued_at": "2026-08-20T18:18:53.250504",
-      "last_seen": "2026-08-21T14:09:34.420372"
+      "last_seen": "2026-08-21T14:09:34.420372",
+      "current_price": 61.76,
+      "current_price_time": "2026-08-21T14:17:58.922834+00:00",
+      "exit_price": 58.9,
+      "exit_date": "2026-08-21T14:17:58.922834+00:00",
+      "pnl_pct": -3.01,
+      "pnl_pct_live": -3.01
     },
     {
       "ticker": "TSLA",
@@ -142,9 +156,15 @@
       "news_score": null,
       "top_news_title": null,
       "top_news_url": null,
-      "status": "open",
+      "status": "sl_hit",
       "issued_at": "2026-08-20T18:18:53.250517",
-      "last_seen": "2026-08-21T14:09:34.420372"
+      "last_seen": "2026-08-21T14:09:34.420372",
+      "current_price": 358.13,
+      "current_price_time": "2026-08-21T14:17:58.922834+00:00",
+      "exit_price": 347.49,
+      "exit_date": "2026-08-21T14:17:58.922834+00:00",
+      "pnl_pct": -1.59,
+      "pnl_pct_live": -1.59
     },
     {
       "ticker": "ROST",
@@ -172,9 +192,15 @@
       "news_score": null,
       "top_news_title": null,
       "top_news_url": null,
-      "status": "open",
+      "status": "sl_hit",
       "issued_at": "2026-08-20T18:18:53.250522",
-      "last_seen": "2026-08-21T14:09:34.420372"
+      "last_seen": "2026-08-21T14:09:34.420372",
+      "current_price": 236.27,
+      "current_price_time": "2026-08-21T14:17:58.922834+00:00",
+      "exit_price": 231.8,
+      "exit_date": "2026-08-21T14:17:58.922834+00:00",
+      "pnl_pct": -1.04,
+      "pnl_pct_live": -1.04
     },
     {
       "ticker": "EA",
