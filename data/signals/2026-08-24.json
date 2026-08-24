@@ -228,5 +228,28 @@
     "ml_proba_up": null,
     "risk_reward": 2.2,
     "primary_reason": "Cassure ORB baissière (RVOL 2.2x, -VWAP)"
+  },
+  {
+    "ticker": "TSLA",
+    "action": "STRONG_SELL",
+    "entry_price": 353.25,
+    "stop_loss": 363.239990234375,
+    "take_profit": 331.272021484375,
+    "score": -0.8746704182107494,
+    "confidence": 0.9367349277395686,
+    "universe": "NASDAQ100",
+    "issued_at": "2026-08-24T18:20:27.952992",
+    "horizon_days": 1,
+    "horizon_hours": 24,
+    "status": "open",
+    "exit_price": null,
+    "exit_date": null,
+    "pnl_pct": null,
+    "max_favorable": null,
+    "max_adverse": null,
+    "sector": "",
+    "ml_proba_up": null,
+    "risk_reward": 2.2,
+    "primary_reason": "Cassure ORB baissière (RVOL 5.7x, -VWAP) +gap"
   }
 ]
