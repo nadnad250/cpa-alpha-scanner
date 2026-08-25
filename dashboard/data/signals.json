@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-25T15:58:16.772046+00:00",
+  "generated_at": "2026-08-25T16:40:11.229751+00:00",
   "date": "2026-08-25",
   "stats": {
     "total": 6,
@@ -51,10 +51,10 @@
       "status": "open",
       "issued_at": "2026-08-25T15:39:59.289050",
       "last_seen": "2026-08-25T15:39:59.289757",
-      "current_price": 353.74,
-      "current_price_time": "2026-08-25T15:58:16.772046+00:00",
-      "pnl_pct_live": 0.19,
-      "progression_pct": 7.9
+      "current_price": 355.11,
+      "current_price_time": "2026-08-25T16:40:11.229751+00:00",
+      "pnl_pct_live": 0.58,
+      "progression_pct": 24.0
     },
     {
       "ticker": "SNPS",
@@ -89,10 +89,10 @@
       "status": "open",
       "issued_at": "2026-08-25T15:39:59.289063",
       "last_seen": "2026-08-25T15:39:59.289757",
-      "current_price": 404.95,
-      "current_price_time": "2026-08-25T15:58:16.772046+00:00",
-      "pnl_pct_live": -0.7,
-      "progression_pct": -24.8
+      "current_price": 403.27,
+      "current_price_time": "2026-08-25T16:40:11.229751+00:00",
+      "pnl_pct_live": -1.11,
+      "progression_pct": -39.4
     },
     {
       "ticker": "AMZN",
@@ -163,10 +163,10 @@
       "status": "open",
       "issued_at": "2026-08-25T15:39:59.289071",
       "last_seen": "2026-08-25T15:39:59.289757",
-      "current_price": 328.81,
-      "current_price_time": "2026-08-25T15:58:16.772046+00:00",
-      "pnl_pct_live": -0.2,
-      "progression_pct": -6.8
+      "current_price": 327.83,
+      "current_price_time": "2026-08-25T16:40:11.229751+00:00",
+      "pnl_pct_live": -0.5,
+      "progression_pct": -16.7
     },
     {
       "ticker": "TSLA",
@@ -197,10 +197,10 @@
       "status": "open",
       "issued_at": "2026-08-24T18:20:27.952992",
       "last_seen": "2026-08-25T15:39:59.289757",
-      "current_price": 353.74,
-      "current_price_time": "2026-08-25T15:58:16.772046+00:00",
-      "pnl_pct_live": -0.14,
-      "progression_pct": -4.9
+      "current_price": 355.11,
+      "current_price_time": "2026-08-25T16:40:11.229751+00:00",
+      "pnl_pct_live": -0.53,
+      "progression_pct": -18.6
     },
     {
       "ticker": "NVDA",
@@ -337,10 +337,10 @@
       "status": "open",
       "issued_at": "2026-08-24T17:06:10.574688",
       "last_seen": "2026-08-25T15:39:59.289757",
-      "current_price": 102.64,
-      "current_price_time": "2026-08-25T15:58:16.772046+00:00",
-      "pnl_pct_live": 0.66,
-      "progression_pct": 10.0
+      "current_price": 102.54,
+      "current_price_time": "2026-08-25T16:40:11.229751+00:00",
+      "pnl_pct_live": 0.75,
+      "progression_pct": 11.4
     },
     {
       "ticker": "PANW",
