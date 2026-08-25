@@ -1,21 +1,21 @@
 {
-  "generated_at": "2026-08-25T14:24:06.926814",
+  "generated_at": "2026-08-25T15:03:11.775720+00:00",
   "date": "2026-08-25",
   "stats": {
-    "total": 6,
+    "total": 4,
     "buy_signals": 2,
-    "sell_signals": 4,
+    "sell_signals": 2,
     "avg_confidence": 0.761,
     "avg_rr": 2.2,
-    "win_rate": 0.327,
-    "active_positions": 6,
-    "daily_pnl": -0.4941
+    "win_rate": 0.315,
+    "active_positions": 4,
+    "daily_pnl": -0.5755
   },
   "eod": {
     "tp_hit": 17,
-    "sl_hit": 35,
-    "open": 6,
-    "cumulative_pnl": -0.4941
+    "sl_hit": 37,
+    "open": 4,
+    "cumulative_pnl": -0.5755
   },
   "signals": [
     {
@@ -50,14 +50,18 @@
       "top_news_url": null,
       "status": "open",
       "issued_at": "2026-08-25T14:24:06.926248",
-      "last_seen": "2026-08-25T14:24:06.926814"
+      "last_seen": "2026-08-25T14:24:06.926814",
+      "current_price": 281.72,
+      "current_price_time": "2026-08-25T15:03:11.775720+00:00",
+      "pnl_pct_live": -0.33,
+      "progression_pct": -27.8
     },
     {
       "ticker": "HOOD",
       "action": "BUY",
       "price": 107.86,
       "take_profit": 114.97,
-      "stop_loss": 104.62,
+      "stop_loss": 107.86,
       "upside_pct": 6.6,
       "confidence": 0.717,
       "score": 0.3584,
@@ -84,7 +88,12 @@
       "top_news_url": null,
       "status": "open",
       "issued_at": "2026-08-25T14:24:06.926262",
-      "last_seen": "2026-08-25T14:24:06.926814"
+      "last_seen": "2026-08-25T14:24:06.926814",
+      "current_price": 110.12,
+      "current_price_time": "2026-08-25T15:03:11.775720+00:00",
+      "pnl_pct_live": 2.1,
+      "trail_level": 1,
+      "progression_pct": 31.8
     },
     {
       "ticker": "EA",
@@ -146,9 +155,15 @@
       "news_score": null,
       "top_news_title": null,
       "top_news_url": null,
-      "status": "open",
+      "status": "expired",
       "issued_at": "2026-08-24T08:11:25.514938",
-      "last_seen": "2026-08-25T14:24:06.926814"
+      "last_seen": "2026-08-25T14:24:06.926814",
+      "current_price": 11.8,
+      "current_price_time": "2026-08-25T15:03:11.775720+00:00",
+      "exit_price": 11.8,
+      "exit_date": "2026-08-25T15:03:11.775720+00:00",
+      "pnl_pct": -4.61,
+      "pnl_pct_live": -4.61
     },
     {
       "ticker": "MU",
@@ -176,9 +191,15 @@
       "news_score": null,
       "top_news_title": null,
       "top_news_url": null,
-      "status": "open",
+      "status": "expired",
       "issued_at": "2026-08-24T14:21:31.336288",
-      "last_seen": "2026-08-25T14:24:06.926814"
+      "last_seen": "2026-08-25T14:24:06.926814",
+      "current_price": 928.36,
+      "current_price_time": "2026-08-25T15:03:11.775720+00:00",
+      "exit_price": 928.36,
+      "exit_date": "2026-08-25T15:03:11.775720+00:00",
+      "pnl_pct": -3.53,
+      "pnl_pct_live": -3.53
     },
     {
       "ticker": "INTU",
@@ -212,7 +233,11 @@
       "top_news_url": null,
       "status": "open",
       "issued_at": "2026-08-25T14:24:06.926260",
-      "last_seen": "2026-08-25T14:24:06.926814"
+      "last_seen": "2026-08-25T14:24:06.926814",
+      "current_price": 360.3,
+      "current_price_time": "2026-08-25T15:03:11.775720+00:00",
+      "pnl_pct_live": 0.42,
+      "progression_pct": 17.8
     },
     {
       "ticker": "MRNA",
