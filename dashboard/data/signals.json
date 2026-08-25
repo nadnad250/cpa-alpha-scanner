@@ -1,21 +1,21 @@
 {
-  "generated_at": "2026-08-25T08:07:39.425867",
+  "generated_at": "2026-08-25T08:21:35.361194+00:00",
   "date": "2026-08-25",
   "stats": {
-    "total": 9,
+    "total": 8,
     "buy_signals": 1,
-    "sell_signals": 8,
+    "sell_signals": 7,
     "avg_confidence": 0.827,
     "avg_rr": 2.2,
-    "win_rate": 0.3,
-    "active_positions": 9,
-    "daily_pnl": -0.5008
+    "win_rate": 0.314,
+    "active_positions": 8,
+    "daily_pnl": -0.491
   },
   "eod": {
-    "tp_hit": 15,
+    "tp_hit": 16,
     "sl_hit": 35,
-    "open": 9,
-    "cumulative_pnl": -0.5008
+    "open": 8,
+    "cumulative_pnl": -0.491
   },
   "signals": [
     {
@@ -46,7 +46,11 @@
       "top_news_url": null,
       "status": "open",
       "issued_at": "2026-08-24T15:37:15.439023",
-      "last_seen": "2026-08-25T08:07:39.425867"
+      "last_seen": "2026-08-25T08:07:39.425867",
+      "current_price": 262.03,
+      "current_price_time": "2026-08-25T08:21:35.361194+00:00",
+      "pnl_pct_live": -0.18,
+      "progression_pct": -13.9
     },
     {
       "ticker": "TSLA",
@@ -76,7 +80,11 @@
       "top_news_url": null,
       "status": "open",
       "issued_at": "2026-08-24T18:20:27.952992",
-      "last_seen": "2026-08-25T08:07:39.425867"
+      "last_seen": "2026-08-25T08:07:39.425867",
+      "current_price": 348.94,
+      "current_price_time": "2026-08-25T08:21:35.361194+00:00",
+      "pnl_pct_live": 1.22,
+      "progression_pct": 19.6
     },
     {
       "ticker": "NVDA",
@@ -106,7 +114,11 @@
       "top_news_url": null,
       "status": "open",
       "issued_at": "2026-08-24T14:21:31.336270",
-      "last_seen": "2026-08-25T08:07:39.425867"
+      "last_seen": "2026-08-25T08:07:39.425867",
+      "current_price": 208.46,
+      "current_price_time": "2026-08-25T08:21:35.361194+00:00",
+      "pnl_pct_live": 0.31,
+      "progression_pct": 4.6
     },
     {
       "ticker": "EA",
@@ -170,7 +182,11 @@
       "top_news_url": null,
       "status": "open",
       "issued_at": "2026-08-24T15:37:15.439036",
-      "last_seen": "2026-08-25T08:07:39.425867"
+      "last_seen": "2026-08-25T08:07:39.425867",
+      "current_price": 358.77,
+      "current_price_time": "2026-08-25T08:21:35.361194+00:00",
+      "pnl_pct_live": 0.79,
+      "progression_pct": 29.6
     },
     {
       "ticker": "ZM",
@@ -200,7 +216,11 @@
       "top_news_url": null,
       "status": "open",
       "issued_at": "2026-08-24T17:06:10.574688",
-      "last_seen": "2026-08-25T08:07:39.425867"
+      "last_seen": "2026-08-25T08:07:39.425867",
+      "current_price": 104.88,
+      "current_price_time": "2026-08-25T08:21:35.361194+00:00",
+      "pnl_pct_live": -1.51,
+      "progression_pct": -50.3
     },
     {
       "ticker": "PANW",
@@ -230,7 +250,11 @@
       "top_news_url": null,
       "status": "open",
       "issued_at": "2026-08-24T14:21:31.336282",
-      "last_seen": "2026-08-25T08:07:39.425867"
+      "last_seen": "2026-08-25T08:07:39.425867",
+      "current_price": 350.8,
+      "current_price_time": "2026-08-25T08:21:35.361194+00:00",
+      "pnl_pct_live": -0.73,
+      "progression_pct": -27.8
     },
     {
       "ticker": "MARA",
@@ -258,9 +282,15 @@
       "news_score": null,
       "top_news_title": null,
       "top_news_url": null,
-      "status": "open",
+      "status": "expired",
       "issued_at": "2026-08-24T08:11:25.514938",
-      "last_seen": "2026-08-25T08:07:39.425867"
+      "last_seen": "2026-08-25T08:07:39.425867",
+      "current_price": 11.17,
+      "current_price_time": "2026-08-25T08:21:35.361194+00:00",
+      "exit_price": 11.17,
+      "exit_date": "2026-08-25T08:21:35.361194+00:00",
+      "pnl_pct": 0.98,
+      "pnl_pct_live": 0.98
     },
     {
       "ticker": "MU",
@@ -290,7 +320,11 @@
       "top_news_url": null,
       "status": "open",
       "issued_at": "2026-08-24T14:21:31.336288",
-      "last_seen": "2026-08-25T08:07:39.425867"
+      "last_seen": "2026-08-25T08:07:39.425867",
+      "current_price": 910.43,
+      "current_price_time": "2026-08-25T08:21:35.361194+00:00",
+      "pnl_pct_live": -1.53,
+      "progression_pct": -50.9
     },
     {
       "ticker": "MRNA",
