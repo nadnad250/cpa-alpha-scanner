@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-25T19:17:03.424827+00:00",
+  "generated_at": "2026-08-25T19:54:19.789522+00:00",
   "date": "2026-08-25",
   "stats": {
     "total": 5,
@@ -51,10 +51,10 @@
       "status": "open",
       "issued_at": "2026-08-25T17:06:30.240451",
       "last_seen": "2026-08-25T18:20:10.834339",
-      "current_price": 212.07,
-      "current_price_time": "2026-08-25T19:17:03.424827+00:00",
-      "pnl_pct_live": 0.03,
-      "progression_pct": 1.4
+      "current_price": 212.85,
+      "current_price_time": "2026-08-25T19:54:19.789522+00:00",
+      "pnl_pct_live": 0.4,
+      "progression_pct": 20.1
     },
     {
       "ticker": "TSLA",
@@ -89,10 +89,10 @@
       "status": "open",
       "issued_at": "2026-08-25T15:39:59.289050",
       "last_seen": "2026-08-25T18:20:10.834339",
-      "current_price": 351.95,
-      "current_price_time": "2026-08-25T19:17:03.424827+00:00",
-      "pnl_pct_live": -0.1,
-      "progression_pct": -11.0
+      "current_price": 350.49,
+      "current_price_time": "2026-08-25T19:54:19.789522+00:00",
+      "pnl_pct_live": -0.51,
+      "progression_pct": -58.3
     },
     {
       "ticker": "SNPS",
@@ -127,10 +127,10 @@
       "status": "open",
       "issued_at": "2026-08-25T15:39:59.289063",
       "last_seen": "2026-08-25T15:39:59.289757",
-      "current_price": 408.99,
-      "current_price_time": "2026-08-25T19:17:03.424827+00:00",
-      "pnl_pct_live": 0.29,
-      "progression_pct": 4.7
+      "current_price": 410.78,
+      "current_price_time": "2026-08-25T19:54:19.789522+00:00",
+      "pnl_pct_live": 0.73,
+      "progression_pct": 11.8
     },
     {
       "ticker": "AMZN",
@@ -237,10 +237,10 @@
       "status": "open",
       "issued_at": "2026-08-25T14:24:06.926260",
       "last_seen": "2026-08-25T18:20:10.834339",
-      "current_price": 357.74,
-      "current_price_time": "2026-08-25T19:17:03.424827+00:00",
-      "pnl_pct_live": 0.42,
-      "progression_pct": 10.6
+      "current_price": 356.52,
+      "current_price_time": "2026-08-25T19:54:19.789522+00:00",
+      "pnl_pct_live": 0.76,
+      "progression_pct": 19.2
     },
     {
       "ticker": "NVDA",
