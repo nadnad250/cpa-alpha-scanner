@@ -159,5 +159,28 @@
     "ml_proba_up": null,
     "risk_reward": 2.2,
     "primary_reason": "Cassure ORB haussière (RVOL 3.1x, +VWAP) (contre-gap)"
+  },
+  {
+    "ticker": "ZM",
+    "action": "STRONG_SELL",
+    "entry_price": 93.80000305175781,
+    "stop_loss": 96.61400314331054,
+    "take_profit": 87.6092028503418,
+    "score": -0.7560460415339272,
+    "confidence": 0.8863195676519191,
+    "universe": "NASDAQ100",
+    "issued_at": "2026-08-26T22:23:44.862142",
+    "horizon_days": 1,
+    "horizon_hours": 24,
+    "status": "open",
+    "exit_price": null,
+    "exit_date": null,
+    "pnl_pct": null,
+    "max_favorable": null,
+    "max_adverse": null,
+    "sector": "",
+    "ml_proba_up": null,
+    "risk_reward": 2.2,
+    "primary_reason": "Cassure ORB baissière (RVOL 2.6x, -VWAP) +gap"
   }
 ]
