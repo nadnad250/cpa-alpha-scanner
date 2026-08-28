@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-08-27T23:03:08.473311",
-  "date": "2026-08-27",
+  "generated_at": "2026-08-28T00:14:28.433822",
+  "date": "2026-08-28",
   "stats": {
     "total": 10,
     "buy_signals": 4,
@@ -50,7 +50,7 @@
       "top_news_url": null,
       "status": "open",
       "issued_at": "2026-08-27T18:22:46.303387",
-      "last_seen": "2026-08-27T23:03:08.473311"
+      "last_seen": "2026-08-28T00:14:28.433822"
     },
     {
       "ticker": "OKTA",
@@ -84,7 +84,7 @@
       "top_news_url": null,
       "status": "open",
       "issued_at": "2026-08-27T18:22:46.303397",
-      "last_seen": "2026-08-27T23:03:08.473311"
+      "last_seen": "2026-08-28T00:14:28.433822"
     },
     {
       "ticker": "AAPL",
