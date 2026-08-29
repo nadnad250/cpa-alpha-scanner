@@ -1,11 +1,11 @@
 {
-  "generated_at": "2026-08-28T23:51:49.870810",
-  "date": "2026-08-28",
+  "generated_at": "2026-08-29T00:37:55.544673",
+  "date": "2026-08-29",
   "stats": {
     "total": 10,
     "buy_signals": 6,
     "sell_signals": 4,
-    "avg_confidence": 0.888,
+    "avg_confidence": 0.91,
     "avg_rr": 2.2,
     "win_rate": 0.34,
     "active_positions": 10,
@@ -170,7 +170,7 @@
       "top_news_url": null,
       "status": "open",
       "issued_at": "2026-08-28T23:51:49.870076",
-      "last_seen": "2026-08-28T23:51:49.870810"
+      "last_seen": "2026-08-29T00:37:55.544673"
     },
     {
       "ticker": "KHC",
@@ -213,17 +213,17 @@
       "take_profit": 202.3,
       "stop_loss": 223.09,
       "upside_pct": 6.6,
-      "confidence": 0.897,
-      "score": -0.7801,
+      "confidence": 0.99,
+      "score": -1.0,
       "risk_reward": 2.2,
-      "kelly_position": 0.1,
+      "kelly_position": 0.12,
       "cpa_alpha": null,
       "ml_proba_up": null,
       "sector": "—",
       "universe": "NASDAQ100",
-      "primary_reason": "Cassure ORB baissière (RVOL 2.3x, -VWAP) +gap",
+      "primary_reason": "Cassure ORB baissière (RVOL 3.4x, -VWAP) +gap",
       "secondary_reasons": [
-        "RVOL 2.3x",
+        "RVOL 3.4x",
         "VWAP en-dessous",
         "Gap -6.7%"
       ],
@@ -238,7 +238,41 @@
       "top_news_url": null,
       "status": "open",
       "issued_at": "2026-08-28T19:32:23.744886",
-      "last_seen": "2026-08-28T23:11:18.191022"
+      "last_seen": "2026-08-29T00:37:55.544673"
+    },
+    {
+      "ticker": "NVDA",
+      "action": "STRONG_SELL",
+      "price": 217.54,
+      "take_profit": 203.18,
+      "stop_loss": 224.07,
+      "upside_pct": 6.6,
+      "confidence": 0.955,
+      "score": -0.9169,
+      "risk_reward": 2.2,
+      "kelly_position": 0.12,
+      "cpa_alpha": null,
+      "ml_proba_up": null,
+      "sector": "—",
+      "universe": "NASDAQ100",
+      "primary_reason": "Cassure ORB baissière (RVOL 12.4x, -VWAP) +gap",
+      "secondary_reasons": [
+        "RVOL 12.4x",
+        "VWAP en-dessous",
+        "Gap -0.3%"
+      ],
+      "risk_flags": [],
+      "intrinsic_value": 203.18,
+      "value_gap": null,
+      "factor_premia": null,
+      "mean_reversion": null,
+      "info_flow": null,
+      "news_score": null,
+      "top_news_title": null,
+      "top_news_url": null,
+      "status": "open",
+      "issued_at": "2026-08-28T19:32:23.744896",
+      "last_seen": "2026-08-29T00:37:55.544673"
     },
     {
       "ticker": "EA",
@@ -275,40 +309,6 @@
       "last_seen": "2026-08-26T08:08:33.316939"
     },
     {
-      "ticker": "NVDA",
-      "action": "STRONG_SELL",
-      "price": 217.54,
-      "take_profit": 203.18,
-      "stop_loss": 224.07,
-      "upside_pct": 6.6,
-      "confidence": 0.827,
-      "score": -0.6156,
-      "risk_reward": 2.2,
-      "kelly_position": 0.1,
-      "cpa_alpha": null,
-      "ml_proba_up": null,
-      "sector": "—",
-      "universe": "NASDAQ100",
-      "primary_reason": "Cassure ORB baissière (RVOL 1.7x, -VWAP) +gap",
-      "secondary_reasons": [
-        "RVOL 1.7x",
-        "VWAP en-dessous",
-        "Gap -0.3%"
-      ],
-      "risk_flags": [],
-      "intrinsic_value": 203.18,
-      "value_gap": null,
-      "factor_premia": null,
-      "mean_reversion": null,
-      "info_flow": null,
-      "news_score": null,
-      "top_news_title": null,
-      "top_news_url": null,
-      "status": "open",
-      "issued_at": "2026-08-28T19:32:23.744896",
-      "last_seen": "2026-08-28T23:11:18.191022"
-    },
-    {
       "ticker": "AFRM",
       "action": "STRONG_SELL",
       "price": 77.75,
@@ -340,7 +340,7 @@
       "top_news_url": null,
       "status": "open",
       "issued_at": "2026-08-28T19:32:23.744899",
-      "last_seen": "2026-08-28T23:11:18.191022"
+      "last_seen": "2026-08-29T00:37:55.544673"
     },
     {
       "ticker": "CRWD",
