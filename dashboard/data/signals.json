@@ -1,21 +1,21 @@
 {
-  "generated_at": "2026-08-29T01:13:12.297046",
+  "generated_at": "2026-08-29T02:12:09.745990+00:00",
   "date": "2026-08-29",
   "stats": {
-    "total": 10,
-    "buy_signals": 6,
+    "total": 6,
+    "buy_signals": 2,
     "sell_signals": 4,
     "avg_confidence": 0.91,
     "avg_rr": 2.2,
-    "win_rate": 0.34,
-    "active_positions": 10,
-    "daily_pnl": -0.3659
+    "win_rate": 0.315,
+    "active_positions": 6,
+    "daily_pnl": -0.4932
   },
   "eod": {
     "tp_hit": 17,
-    "sl_hit": 33,
-    "open": 10,
-    "cumulative_pnl": -0.3659
+    "sl_hit": 37,
+    "open": 6,
+    "cumulative_pnl": -0.4932
   },
   "signals": [
     {
@@ -44,9 +44,15 @@
       "news_score": null,
       "top_news_title": null,
       "top_news_url": null,
-      "status": "open",
+      "status": "expired",
       "issued_at": "2026-08-27T18:22:46.303387",
-      "last_seen": "2026-08-28T19:32:23.745541"
+      "last_seen": "2026-08-28T19:32:23.745541",
+      "current_price": 442.83,
+      "current_price_time": "2026-08-29T02:12:09.745990+00:00",
+      "exit_price": 442.83,
+      "exit_date": "2026-08-29T02:12:09.745990+00:00",
+      "pnl_pct": -3.37,
+      "pnl_pct_live": -3.37
     },
     {
       "ticker": "OKTA",
@@ -74,9 +80,15 @@
       "news_score": null,
       "top_news_title": null,
       "top_news_url": null,
-      "status": "open",
+      "status": "expired",
       "issued_at": "2026-08-27T18:22:46.303397",
-      "last_seen": "2026-08-28T19:32:23.745541"
+      "last_seen": "2026-08-28T19:32:23.745541",
+      "current_price": 166.19,
+      "current_price_time": "2026-08-29T02:12:09.745990+00:00",
+      "exit_price": 166.19,
+      "exit_date": "2026-08-29T02:12:09.745990+00:00",
+      "pnl_pct": -3.37,
+      "pnl_pct_live": -3.37
     },
     {
       "ticker": "CRWD",
@@ -104,9 +116,15 @@
       "news_score": null,
       "top_news_title": null,
       "top_news_url": null,
-      "status": "open",
+      "status": "sl_hit",
       "issued_at": "2026-08-28T03:39:23.215718",
-      "last_seen": "2026-08-28T19:32:23.745541"
+      "last_seen": "2026-08-28T19:32:23.745541",
+      "current_price": 218.43,
+      "current_price_time": "2026-08-29T02:12:09.745990+00:00",
+      "exit_price": 221.11,
+      "exit_date": "2026-08-29T02:12:09.745990+00:00",
+      "pnl_pct": -3.0,
+      "pnl_pct_live": -3.0
     },
     {
       "ticker": "NVDA",
@@ -134,9 +152,15 @@
       "news_score": null,
       "top_news_title": null,
       "top_news_url": null,
-      "status": "open",
+      "status": "sl_hit",
       "issued_at": "2026-08-28T03:39:23.215730",
-      "last_seen": "2026-08-28T19:32:23.745541"
+      "last_seen": "2026-08-28T19:32:23.745541",
+      "current_price": 217.54,
+      "current_price_time": "2026-08-29T02:12:09.745990+00:00",
+      "exit_price": 221.22,
+      "exit_date": "2026-08-29T02:12:09.745990+00:00",
+      "pnl_pct": -2.99,
+      "pnl_pct_live": -2.99
     },
     {
       "ticker": "AMZN",
@@ -170,7 +194,11 @@
       "top_news_url": null,
       "status": "open",
       "issued_at": "2026-08-28T23:51:49.870076",
-      "last_seen": "2026-08-29T01:13:12.297046"
+      "last_seen": "2026-08-29T01:13:12.297046",
+      "current_price": 266.38,
+      "current_price_time": "2026-08-29T02:12:09.745990+00:00",
+      "pnl_pct_live": 0.0,
+      "progression_pct": 0.0
     },
     {
       "ticker": "KHC",
@@ -204,7 +232,11 @@
       "top_news_url": null,
       "status": "open",
       "issued_at": "2026-08-28T19:32:23.744902",
-      "last_seen": "2026-08-28T23:11:18.191022"
+      "last_seen": "2026-08-28T23:11:18.191022",
+      "current_price": 25.69,
+      "current_price_time": "2026-08-29T02:12:09.745990+00:00",
+      "pnl_pct_live": 0.0,
+      "progression_pct": 0.0
     },
     {
       "ticker": "MRVL",
@@ -238,7 +270,11 @@
       "top_news_url": null,
       "status": "open",
       "issued_at": "2026-08-28T19:32:23.744886",
-      "last_seen": "2026-08-29T01:13:12.297046"
+      "last_seen": "2026-08-29T01:13:12.297046",
+      "current_price": 216.6,
+      "current_price_time": "2026-08-29T02:12:09.745990+00:00",
+      "pnl_pct_live": 0.0,
+      "progression_pct": 0.0
     },
     {
       "ticker": "NVDA",
@@ -272,7 +308,11 @@
       "top_news_url": null,
       "status": "open",
       "issued_at": "2026-08-28T19:32:23.744896",
-      "last_seen": "2026-08-29T01:13:12.297046"
+      "last_seen": "2026-08-29T01:13:12.297046",
+      "current_price": 217.54,
+      "current_price_time": "2026-08-29T02:12:09.745990+00:00",
+      "pnl_pct_live": 0.0,
+      "progression_pct": 0.0
     },
     {
       "ticker": "EA",
@@ -340,7 +380,11 @@
       "top_news_url": null,
       "status": "open",
       "issued_at": "2026-08-28T19:32:23.744899",
-      "last_seen": "2026-08-29T01:13:12.297046"
+      "last_seen": "2026-08-29T01:13:12.297046",
+      "current_price": 77.75,
+      "current_price_time": "2026-08-29T02:12:09.745990+00:00",
+      "pnl_pct_live": 0.0,
+      "progression_pct": 0.0
     },
     {
       "ticker": "CRWD",
