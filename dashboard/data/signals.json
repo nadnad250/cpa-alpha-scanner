@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-29T00:37:55.544673",
+  "generated_at": "2026-08-29T01:13:12.297046",
   "date": "2026-08-29",
   "stats": {
     "total": 10,
@@ -170,7 +170,7 @@
       "top_news_url": null,
       "status": "open",
       "issued_at": "2026-08-28T23:51:49.870076",
-      "last_seen": "2026-08-29T00:37:55.544673"
+      "last_seen": "2026-08-29T01:13:12.297046"
     },
     {
       "ticker": "KHC",
@@ -238,7 +238,7 @@
       "top_news_url": null,
       "status": "open",
       "issued_at": "2026-08-28T19:32:23.744886",
-      "last_seen": "2026-08-29T00:37:55.544673"
+      "last_seen": "2026-08-29T01:13:12.297046"
     },
     {
       "ticker": "NVDA",
@@ -272,7 +272,7 @@
       "top_news_url": null,
       "status": "open",
       "issued_at": "2026-08-28T19:32:23.744896",
-      "last_seen": "2026-08-29T00:37:55.544673"
+      "last_seen": "2026-08-29T01:13:12.297046"
     },
     {
       "ticker": "EA",
@@ -340,7 +340,7 @@
       "top_news_url": null,
       "status": "open",
       "issued_at": "2026-08-28T19:32:23.744899",
-      "last_seen": "2026-08-29T00:37:55.544673"
+      "last_seen": "2026-08-29T01:13:12.297046"
     },
     {
       "ticker": "CRWD",
