@@ -1,21 +1,21 @@
 {
-  "generated_at": "2026-08-31T23:17:22.639997",
+  "generated_at": "2026-09-01T00:04:43.822684+00:00",
   "date": "2026-08-31",
   "stats": {
-    "total": 10,
-    "buy_signals": 4,
-    "sell_signals": 6,
+    "total": 5,
+    "buy_signals": 2,
+    "sell_signals": 3,
     "avg_confidence": 0.859,
     "avg_rr": 2.2,
-    "win_rate": 0.36,
-    "active_positions": 10,
-    "daily_pnl": -0.4454
+    "win_rate": 0.382,
+    "active_positions": 5,
+    "daily_pnl": -0.3969
   },
   "eod": {
-    "tp_hit": 18,
-    "sl_hit": 32,
-    "open": 10,
-    "cumulative_pnl": -0.4454
+    "tp_hit": 21,
+    "sl_hit": 34,
+    "open": 5,
+    "cumulative_pnl": -0.3969
   },
   "signals": [
     {
@@ -50,7 +50,11 @@
       "top_news_url": null,
       "status": "open",
       "issued_at": "2026-08-31T20:39:49.373355",
-      "last_seen": "2026-08-31T23:17:22.639997"
+      "last_seen": "2026-08-31T23:17:22.639997",
+      "current_price": 170.48,
+      "current_price_time": "2026-09-01T00:04:43.822684+00:00",
+      "pnl_pct_live": 0.0,
+      "progression_pct": 0.0
     },
     {
       "ticker": "RBLX",
@@ -84,7 +88,11 @@
       "top_news_url": null,
       "status": "open",
       "issued_at": "2026-08-31T20:39:49.373368",
-      "last_seen": "2026-08-31T23:17:22.639997"
+      "last_seen": "2026-08-31T23:17:22.639997",
+      "current_price": 41.28,
+      "current_price_time": "2026-09-01T00:04:43.822684+00:00",
+      "pnl_pct_live": 0.0,
+      "progression_pct": 0.0
     },
     {
       "ticker": "AMZN",
@@ -112,9 +120,15 @@
       "news_score": null,
       "top_news_title": null,
       "top_news_url": null,
-      "status": "open",
+      "status": "expired",
       "issued_at": "2026-08-28T23:51:49.870076",
-      "last_seen": "2026-08-31T20:39:49.374130"
+      "last_seen": "2026-08-31T20:39:49.374130",
+      "current_price": 259.93,
+      "current_price_time": "2026-09-01T00:04:43.822684+00:00",
+      "exit_price": 259.93,
+      "exit_date": "2026-09-01T00:04:43.822684+00:00",
+      "pnl_pct": -2.42,
+      "pnl_pct_live": -2.42
     },
     {
       "ticker": "KHC",
@@ -142,9 +156,15 @@
       "news_score": null,
       "top_news_title": null,
       "top_news_url": null,
-      "status": "open",
+      "status": "expired",
       "issued_at": "2026-08-28T19:32:23.744902",
-      "last_seen": "2026-08-31T20:39:49.374130"
+      "last_seen": "2026-08-31T20:39:49.374130",
+      "current_price": 25.69,
+      "current_price_time": "2026-09-01T00:04:43.822684+00:00",
+      "exit_price": 25.69,
+      "exit_date": "2026-09-01T00:04:43.822684+00:00",
+      "pnl_pct": 0.35,
+      "pnl_pct_live": 0.35
     },
     {
       "ticker": "GOOGL",
@@ -174,7 +194,11 @@
       "top_news_url": null,
       "status": "open",
       "issued_at": "2026-08-31T15:17:50.669161",
-      "last_seen": "2026-08-31T20:39:49.374130"
+      "last_seen": "2026-08-31T20:39:49.374130",
+      "current_price": 339.28,
+      "current_price_time": "2026-09-01T00:04:43.822684+00:00",
+      "pnl_pct_live": -0.19,
+      "progression_pct": -10.6
     },
     {
       "ticker": "PINS",
@@ -204,7 +228,11 @@
       "top_news_url": null,
       "status": "open",
       "issued_at": "2026-08-31T15:17:50.669171",
-      "last_seen": "2026-08-31T20:39:49.374130"
+      "last_seen": "2026-08-31T20:39:49.374130",
+      "current_price": 21.7,
+      "current_price_time": "2026-09-01T00:04:43.822684+00:00",
+      "pnl_pct_live": 0.23,
+      "progression_pct": 3.5
     },
     {
       "ticker": "MRVL",
@@ -232,9 +260,15 @@
       "news_score": null,
       "top_news_title": null,
       "top_news_url": null,
-      "status": "open",
+      "status": "expired",
       "issued_at": "2026-08-28T19:32:23.744886",
-      "last_seen": "2026-08-31T20:39:49.374130"
+      "last_seen": "2026-08-31T20:39:49.374130",
+      "current_price": 211.64,
+      "current_price_time": "2026-09-01T00:04:43.822684+00:00",
+      "exit_price": 211.64,
+      "exit_date": "2026-09-01T00:04:43.822684+00:00",
+      "pnl_pct": 2.85,
+      "pnl_pct_live": 2.85
     },
     {
       "ticker": "EA",
@@ -296,9 +330,15 @@
       "news_score": null,
       "top_news_title": null,
       "top_news_url": null,
-      "status": "open",
+      "status": "expired",
       "issued_at": "2026-08-28T19:32:23.744896",
-      "last_seen": "2026-08-31T20:39:49.374130"
+      "last_seen": "2026-08-31T20:39:49.374130",
+      "current_price": 220.88,
+      "current_price_time": "2026-09-01T00:04:43.822684+00:00",
+      "exit_price": 220.88,
+      "exit_date": "2026-09-01T00:04:43.822684+00:00",
+      "pnl_pct": -1.61,
+      "pnl_pct_live": -1.61
     },
     {
       "ticker": "AFRM",
@@ -326,9 +366,15 @@
       "news_score": null,
       "top_news_title": null,
       "top_news_url": null,
-      "status": "open",
+      "status": "expired",
       "issued_at": "2026-08-28T19:32:23.744899",
-      "last_seen": "2026-08-31T20:39:49.374130"
+      "last_seen": "2026-08-31T20:39:49.374130",
+      "current_price": 74.41,
+      "current_price_time": "2026-09-01T00:04:43.822684+00:00",
+      "exit_price": 74.41,
+      "exit_date": "2026-09-01T00:04:43.822684+00:00",
+      "pnl_pct": 5.68,
+      "pnl_pct_live": 5.68
     },
     {
       "ticker": "CRWD",
