@@ -67,5 +67,28 @@
     "ml_proba_up": null,
     "risk_reward": 2.2,
     "primary_reason": "Cassure ORB baissière (RVOL 1.5x, -VWAP) +gap"
+  },
+  {
+    "ticker": "MDB",
+    "action": "SELL",
+    "entry_price": 437.7825012207031,
+    "stop_loss": 447.760009765625,
+    "take_profit": 415.831982421875,
+    "score": -0.38395177286318466,
+    "confidence": 0.7281795034668535,
+    "universe": "NASDAQ100",
+    "issued_at": "2026-09-01T18:09:34.804296",
+    "horizon_days": 1,
+    "horizon_hours": 24,
+    "status": "open",
+    "exit_price": null,
+    "exit_date": null,
+    "pnl_pct": null,
+    "max_favorable": null,
+    "max_adverse": null,
+    "sector": "",
+    "ml_proba_up": null,
+    "risk_reward": 2.2,
+    "primary_reason": "Cassure ORB baissière (RVOL 1.6x, -VWAP) +gap"
   }
 ]
