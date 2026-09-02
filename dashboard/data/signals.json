@@ -1,21 +1,21 @@
 {
-  "generated_at": "2026-09-02T12:14:24.260703",
+  "generated_at": "2026-09-02T15:51:57.621716+00:00",
   "date": "2026-09-02",
   "stats": {
-    "total": 8,
+    "total": 4,
     "buy_signals": 0,
-    "sell_signals": 8,
+    "sell_signals": 4,
     "avg_confidence": 0.776,
     "avg_rr": 2.2,
-    "win_rate": 0.36,
-    "active_positions": 8,
-    "daily_pnl": -0.3216
+    "win_rate": 0.389,
+    "active_positions": 4,
+    "daily_pnl": -0.1725
   },
   "eod": {
-    "tp_hit": 18,
-    "sl_hit": 32,
-    "open": 8,
-    "cumulative_pnl": -0.3216
+    "tp_hit": 21,
+    "sl_hit": 33,
+    "open": 4,
+    "cumulative_pnl": -0.1725
   },
   "signals": [
     {
@@ -57,7 +57,7 @@
       "action": "STRONG_SELL",
       "price": 214.55,
       "take_profit": 200.39,
-      "stop_loss": 220.99,
+      "stop_loss": 211.01,
       "upside_pct": 6.6,
       "confidence": 0.794,
       "score": -0.5386,
@@ -80,7 +80,12 @@
       "top_news_url": null,
       "status": "open",
       "issued_at": "2026-09-01T17:26:06.797830",
-      "last_seen": "2026-09-02T12:14:24.260703"
+      "last_seen": "2026-09-02T12:14:24.260703",
+      "current_price": 204.07,
+      "current_price_time": "2026-09-02T15:51:57.621716+00:00",
+      "pnl_pct_live": 4.88,
+      "trail_level": 2,
+      "progression_pct": 74.0
     },
     {
       "ticker": "MDB",
@@ -112,9 +117,15 @@
       "news_score": null,
       "top_news_title": null,
       "top_news_url": null,
-      "status": "open",
+      "status": "tp_hit",
       "issued_at": "2026-09-01T20:12:39.305749",
-      "last_seen": "2026-09-02T12:14:24.260703"
+      "last_seen": "2026-09-02T12:14:24.260703",
+      "current_price": 385.95,
+      "current_price_time": "2026-09-02T15:51:57.621716+00:00",
+      "exit_price": 407.86,
+      "exit_date": "2026-09-02T15:51:57.621716+00:00",
+      "pnl_pct": 6.3,
+      "pnl_pct_live": 6.3
     },
     {
       "ticker": "PANW",
@@ -142,9 +153,15 @@
       "news_score": null,
       "top_news_title": null,
       "top_news_url": null,
-      "status": "open",
+      "status": "tp_hit",
       "issued_at": "2026-09-01T17:26:06.797844",
-      "last_seen": "2026-09-02T12:14:24.260703"
+      "last_seen": "2026-09-02T12:14:24.260703",
+      "current_price": 329.26,
+      "current_price_time": "2026-09-02T15:51:57.621716+00:00",
+      "exit_price": 334.93,
+      "exit_date": "2026-09-02T15:51:57.621716+00:00",
+      "pnl_pct": 6.6,
+      "pnl_pct_live": 6.6
     },
     {
       "ticker": "SHOP",
@@ -178,7 +195,11 @@
       "top_news_url": null,
       "status": "open",
       "issued_at": "2026-09-01T20:12:39.305761",
-      "last_seen": "2026-09-02T12:14:24.260703"
+      "last_seen": "2026-09-02T12:14:24.260703",
+      "current_price": 139.87,
+      "current_price_time": "2026-09-02T15:51:57.621716+00:00",
+      "pnl_pct_live": -0.12,
+      "progression_pct": -4.1
     },
     {
       "ticker": "AFRM",
@@ -210,9 +231,15 @@
       "news_score": null,
       "top_news_title": null,
       "top_news_url": null,
-      "status": "open",
+      "status": "sl_hit",
       "issued_at": "2026-09-01T20:12:39.305766",
-      "last_seen": "2026-09-02T12:14:24.260703"
+      "last_seen": "2026-09-02T12:14:24.260703",
+      "current_price": 73.88,
+      "current_price_time": "2026-09-02T15:51:57.621716+00:00",
+      "exit_price": 72.01,
+      "exit_date": "2026-09-02T15:51:57.621716+00:00",
+      "pnl_pct": -3.0,
+      "pnl_pct_live": -3.0
     },
     {
       "ticker": "ODFL",
@@ -246,7 +273,11 @@
       "top_news_url": null,
       "status": "open",
       "issued_at": "2026-09-01T17:26:06.797841",
-      "last_seen": "2026-09-02T12:14:24.260703"
+      "last_seen": "2026-09-02T12:14:24.260703",
+      "current_price": 188.89,
+      "current_price_time": "2026-09-02T15:51:57.621716+00:00",
+      "pnl_pct_live": -1.01,
+      "progression_pct": -33.5
     },
     {
       "ticker": "MDB",
@@ -274,9 +305,15 @@
       "news_score": null,
       "top_news_title": null,
       "top_news_url": null,
-      "status": "open",
+      "status": "tp_hit",
       "issued_at": "2026-09-01T18:09:34.804296",
-      "last_seen": "2026-09-02T12:14:24.260703"
+      "last_seen": "2026-09-02T12:14:24.260703",
+      "current_price": 385.95,
+      "current_price_time": "2026-09-02T15:51:57.621716+00:00",
+      "exit_price": 415.83,
+      "exit_date": "2026-09-02T15:51:57.621716+00:00",
+      "pnl_pct": 5.01,
+      "pnl_pct_live": 5.01
     },
     {
       "ticker": "CRWD",
