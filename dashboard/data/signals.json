@@ -1,21 +1,21 @@
 {
-  "generated_at": "2026-09-03T18:20:43.770719",
+  "generated_at": "2026-09-03T18:52:22.002488+00:00",
   "date": "2026-09-03",
   "stats": {
-    "total": 9,
-    "buy_signals": 4,
-    "sell_signals": 5,
+    "total": 6,
+    "buy_signals": 3,
+    "sell_signals": 3,
     "avg_confidence": 0.876,
     "avg_rr": 2.2,
-    "win_rate": 0.5,
-    "active_positions": 9,
-    "daily_pnl": 0.1532
+    "win_rate": 0.491,
+    "active_positions": 6,
+    "daily_pnl": -0.051
   },
   "eod": {
-    "tp_hit": 25,
-    "sl_hit": 25,
-    "open": 9,
-    "cumulative_pnl": 0.1532
+    "tp_hit": 26,
+    "sl_hit": 27,
+    "open": 6,
+    "cumulative_pnl": -0.051
   },
   "signals": [
     {
@@ -50,7 +50,11 @@
       "top_news_url": null,
       "status": "open",
       "issued_at": "2026-09-03T17:09:33.822404",
-      "last_seen": "2026-09-03T17:09:33.822972"
+      "last_seen": "2026-09-03T17:09:33.822972",
+      "current_price": 123.24,
+      "current_price_time": "2026-09-03T18:52:22.002488+00:00",
+      "pnl_pct_live": 0.08,
+      "progression_pct": 1.2
     },
     {
       "ticker": "SIRI",
@@ -78,9 +82,15 @@
       "news_score": null,
       "top_news_title": null,
       "top_news_url": null,
-      "status": "open",
+      "status": "expired",
       "issued_at": "2026-09-02T17:17:42.544193",
-      "last_seen": "2026-09-03T18:20:43.770719"
+      "last_seen": "2026-09-03T18:20:43.770719",
+      "current_price": 30.01,
+      "current_price_time": "2026-09-03T18:52:22.002488+00:00",
+      "exit_price": 30.01,
+      "exit_date": "2026-09-03T18:52:22.002488+00:00",
+      "pnl_pct": 1.15,
+      "pnl_pct_live": 1.15
     },
     {
       "ticker": "VRTX",
@@ -110,7 +120,11 @@
       "top_news_url": null,
       "status": "open",
       "issued_at": "2026-09-02T19:27:55.983493",
-      "last_seen": "2026-09-03T18:20:43.770719"
+      "last_seen": "2026-09-03T18:20:43.770719",
+      "current_price": 556.95,
+      "current_price_time": "2026-09-03T18:52:22.002488+00:00",
+      "pnl_pct_live": 0.2,
+      "progression_pct": 10.2
     },
     {
       "ticker": "TSLA",
@@ -144,7 +158,11 @@
       "top_news_url": null,
       "status": "open",
       "issued_at": "2026-09-03T17:09:33.822418",
-      "last_seen": "2026-09-03T18:20:43.770719"
+      "last_seen": "2026-09-03T18:20:43.770719",
+      "current_price": 381.54,
+      "current_price_time": "2026-09-03T18:52:22.002488+00:00",
+      "pnl_pct_live": -0.19,
+      "progression_pct": -6.5
     },
     {
       "ticker": "PANW",
@@ -174,7 +192,11 @@
       "top_news_url": null,
       "status": "open",
       "issued_at": "2026-09-02T19:27:55.983479",
-      "last_seen": "2026-09-03T18:20:43.770719"
+      "last_seen": "2026-09-03T18:20:43.770719",
+      "current_price": 330.07,
+      "current_price_time": "2026-09-03T18:52:22.002488+00:00",
+      "pnl_pct_live": -1.06,
+      "progression_pct": -35.2
     },
     {
       "ticker": "SNOW",
@@ -202,9 +224,15 @@
       "news_score": null,
       "top_news_title": null,
       "top_news_url": null,
-      "status": "open",
+      "status": "expired",
       "issued_at": "2026-09-02T17:17:42.544205",
-      "last_seen": "2026-09-03T17:09:33.822972"
+      "last_seen": "2026-09-03T17:09:33.822972",
+      "current_price": 364.73,
+      "current_price_time": "2026-09-03T18:52:22.002488+00:00",
+      "exit_price": 364.73,
+      "exit_date": "2026-09-03T18:52:22.002488+00:00",
+      "pnl_pct": -19.62,
+      "pnl_pct_live": -19.62
     },
     {
       "ticker": "EA",
@@ -266,9 +294,15 @@
       "news_score": null,
       "top_news_title": null,
       "top_news_url": null,
-      "status": "open",
+      "status": "expired",
       "issued_at": "2026-09-02T18:25:54.437228",
-      "last_seen": "2026-09-03T17:09:33.822972"
+      "last_seen": "2026-09-03T17:09:33.822972",
+      "current_price": 214.99,
+      "current_price_time": "2026-09-03T18:52:22.002488+00:00",
+      "exit_price": 214.99,
+      "exit_date": "2026-09-03T18:52:22.002488+00:00",
+      "pnl_pct": -1.95,
+      "pnl_pct_live": -1.95
     },
     {
       "ticker": "KHC",
@@ -302,7 +336,11 @@
       "top_news_url": null,
       "status": "open",
       "issued_at": "2026-09-03T17:09:33.822425",
-      "last_seen": "2026-09-03T17:09:33.822972"
+      "last_seen": "2026-09-03T17:09:33.822972",
+      "current_price": 25.42,
+      "current_price_time": "2026-09-03T18:52:22.002488+00:00",
+      "pnl_pct_live": 0.08,
+      "progression_pct": 1.4
     },
     {
       "ticker": "CRWD",
