@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-07T18:22:14.434753",
+  "generated_at": "2026-09-07T18:59:33.080911",
   "date": "2026-09-07",
   "stats": {
     "total": 7,
@@ -50,7 +50,7 @@
       "top_news_url": null,
       "status": "open",
       "issued_at": "2026-09-04T17:01:48.086040",
-      "last_seen": "2026-09-07T18:22:14.434753"
+      "last_seen": "2026-09-07T18:59:33.080911"
     },
     {
       "ticker": "EA",
@@ -105,7 +105,7 @@
       "secondary_reasons": [
         "RVOL 1.7x",
         "VWAP en-dessous",
-        "Gap -0.6%"
+        "Gap -0.8%"
       ],
       "risk_flags": [],
       "intrinsic_value": 315.01,
@@ -118,7 +118,7 @@
       "top_news_url": null,
       "status": "open",
       "issued_at": "2026-09-04T19:57:28.142712",
-      "last_seen": "2026-09-07T18:22:14.434753"
+      "last_seen": "2026-09-07T18:59:33.080911"
     },
     {
       "ticker": "ROKU",
@@ -182,7 +182,7 @@
       "top_news_url": null,
       "status": "open",
       "issued_at": "2026-09-04T19:57:28.142753",
-      "last_seen": "2026-09-07T18:22:14.434753"
+      "last_seen": "2026-09-07T18:59:33.080911"
     },
     {
       "ticker": "CDNS",
@@ -216,7 +216,7 @@
       "top_news_url": null,
       "status": "open",
       "issued_at": "2026-09-04T17:01:48.086030",
-      "last_seen": "2026-09-07T18:22:14.434753"
+      "last_seen": "2026-09-07T18:59:33.080911"
     },
     {
       "ticker": "TSLA",
