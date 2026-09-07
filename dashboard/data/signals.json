@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-07T20:06:00.976276",
+  "generated_at": "2026-09-07T20:50:51.890367",
   "date": "2026-09-07",
   "stats": {
     "total": 7,
@@ -50,7 +50,7 @@
       "top_news_url": null,
       "status": "open",
       "issued_at": "2026-09-04T17:01:48.086040",
-      "last_seen": "2026-09-07T20:06:00.976276"
+      "last_seen": "2026-09-07T20:50:51.890367"
     },
     {
       "ticker": "EA",
@@ -118,7 +118,7 @@
       "top_news_url": null,
       "status": "open",
       "issued_at": "2026-09-04T19:57:28.142712",
-      "last_seen": "2026-09-07T20:06:00.976276"
+      "last_seen": "2026-09-07T20:50:51.890367"
     },
     {
       "ticker": "ROKU",
@@ -182,7 +182,7 @@
       "top_news_url": null,
       "status": "open",
       "issued_at": "2026-09-04T19:57:28.142753",
-      "last_seen": "2026-09-07T20:06:00.976276"
+      "last_seen": "2026-09-07T20:50:51.890367"
     },
     {
       "ticker": "CDNS",
@@ -216,7 +216,7 @@
       "top_news_url": null,
       "status": "open",
       "issued_at": "2026-09-04T17:01:48.086030",
-      "last_seen": "2026-09-07T20:06:00.976276"
+      "last_seen": "2026-09-07T20:50:51.890367"
     },
     {
       "ticker": "TSLA",
