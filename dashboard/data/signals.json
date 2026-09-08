@@ -1,21 +1,21 @@
 {
-  "generated_at": "2026-09-08T12:15:02.591123",
+  "generated_at": "2026-09-08T16:02:06.173821+00:00",
   "date": "2026-09-08",
   "stats": {
-    "total": 5,
-    "buy_signals": 1,
-    "sell_signals": 4,
+    "total": 1,
+    "buy_signals": 0,
+    "sell_signals": 1,
     "avg_confidence": 0.806,
     "avg_rr": 2.2,
-    "win_rate": 0.48,
-    "active_positions": 5,
-    "daily_pnl": 0.1451
+    "win_rate": 0.519,
+    "active_positions": 1,
+    "daily_pnl": 0.2035
   },
   "eod": {
-    "tp_hit": 24,
+    "tp_hit": 28,
     "sl_hit": 26,
-    "open": 5,
-    "cumulative_pnl": 0.1451
+    "open": 1,
+    "cumulative_pnl": 0.2035
   },
   "signals": [
     {
@@ -48,9 +48,15 @@
       "news_score": null,
       "top_news_title": null,
       "top_news_url": null,
-      "status": "open",
+      "status": "expired",
       "issued_at": "2026-09-07T13:37:47.143091",
-      "last_seen": "2026-09-08T12:15:02.591123"
+      "last_seen": "2026-09-08T12:15:02.591123",
+      "current_price": 189.6,
+      "current_price_time": "2026-09-08T16:02:06.173821+00:00",
+      "exit_price": 189.6,
+      "exit_date": "2026-09-08T16:02:06.173821+00:00",
+      "pnl_pct": 2.19,
+      "pnl_pct_live": 2.19
     },
     {
       "ticker": "EA",
@@ -116,9 +122,15 @@
       "news_score": null,
       "top_news_title": null,
       "top_news_url": null,
-      "status": "open",
+      "status": "expired",
       "issued_at": "2026-09-07T13:37:47.143068",
-      "last_seen": "2026-09-08T12:15:02.591123"
+      "last_seen": "2026-09-08T12:15:02.591123",
+      "current_price": 334.85,
+      "current_price_time": "2026-09-08T16:02:06.173821+00:00",
+      "exit_price": 334.85,
+      "exit_date": "2026-09-08T16:02:06.173821+00:00",
+      "pnl_pct": 0.72,
+      "pnl_pct_live": 0.72
     },
     {
       "ticker": "NFLX",
@@ -150,9 +162,15 @@
       "news_score": null,
       "top_news_title": null,
       "top_news_url": null,
-      "status": "open",
+      "status": "expired",
       "issued_at": "2026-09-07T13:37:47.143083",
-      "last_seen": "2026-09-08T12:15:02.591123"
+      "last_seen": "2026-09-08T12:15:02.591123",
+      "current_price": 76.36,
+      "current_price_time": "2026-09-08T16:02:06.173821+00:00",
+      "exit_price": 76.36,
+      "exit_date": "2026-09-08T16:02:06.173821+00:00",
+      "pnl_pct": 2.4,
+      "pnl_pct_live": 2.4
     },
     {
       "ticker": "CDNS",
@@ -184,9 +202,15 @@
       "news_score": null,
       "top_news_title": null,
       "top_news_url": null,
-      "status": "open",
+      "status": "expired",
       "issued_at": "2026-09-07T13:37:47.143087",
-      "last_seen": "2026-09-08T12:15:02.591123"
+      "last_seen": "2026-09-08T12:15:02.591123",
+      "current_price": 291.2,
+      "current_price_time": "2026-09-08T16:02:06.173821+00:00",
+      "exit_price": 291.2,
+      "exit_date": "2026-09-08T16:02:06.173821+00:00",
+      "pnl_pct": 0.53,
+      "pnl_pct_live": 0.53
     },
     {
       "ticker": "CRWD",
