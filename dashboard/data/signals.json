@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-09T12:26:38.448735",
+  "generated_at": "2026-09-09T16:36:39.782342+00:00",
   "date": "2026-09-09",
   "stats": {
     "total": 5,
@@ -23,7 +23,7 @@
       "action": "STRONG_SELL",
       "price": 180.31,
       "take_profit": 168.41,
-      "stop_loss": 185.72,
+      "stop_loss": 177.335,
       "upside_pct": 6.6,
       "confidence": 0.9,
       "score": -0.7877,
@@ -50,14 +50,19 @@
       "top_news_url": null,
       "status": "open",
       "issued_at": "2026-09-08T17:26:07.125445",
-      "last_seen": "2026-09-09T12:26:38.448735"
+      "last_seen": "2026-09-09T12:26:38.448735",
+      "current_price": 171.65,
+      "current_price_time": "2026-09-09T16:36:39.782342+00:00",
+      "pnl_pct_live": 4.8,
+      "trail_level": 2,
+      "progression_pct": 72.8
     },
     {
       "ticker": "SHOP",
       "action": "STRONG_SELL",
       "price": 134.14,
       "take_profit": 125.29,
-      "stop_loss": 138.16,
+      "stop_loss": 131.92749999999998,
       "upside_pct": 6.6,
       "confidence": 0.851,
       "score": -0.6724,
@@ -84,7 +89,12 @@
       "top_news_url": null,
       "status": "open",
       "issued_at": "2026-09-08T17:26:07.125462",
-      "last_seen": "2026-09-09T12:26:38.448735"
+      "last_seen": "2026-09-09T12:26:38.448735",
+      "current_price": 128.4,
+      "current_price_time": "2026-09-09T16:36:39.782342+00:00",
+      "pnl_pct_live": 4.28,
+      "trail_level": 2,
+      "progression_pct": 64.9
     },
     {
       "ticker": "EA",
@@ -152,7 +162,11 @@
       "top_news_url": null,
       "status": "open",
       "issued_at": "2026-09-08T19:31:50.761593",
-      "last_seen": "2026-09-09T12:26:38.448735"
+      "last_seen": "2026-09-09T12:26:38.448735",
+      "current_price": 285.51,
+      "current_price_time": "2026-09-09T16:36:39.782342+00:00",
+      "pnl_pct_live": -0.44,
+      "progression_pct": -14.5
     },
     {
       "ticker": "QCOM",
@@ -186,7 +200,11 @@
       "top_news_url": null,
       "status": "open",
       "issued_at": "2026-09-08T19:31:50.761605",
-      "last_seen": "2026-09-09T12:26:38.448735"
+      "last_seen": "2026-09-09T12:26:38.448735",
+      "current_price": 176.66,
+      "current_price_time": "2026-09-09T16:36:39.782342+00:00",
+      "pnl_pct_live": -1.48,
+      "progression_pct": -49.2
     },
     {
       "ticker": "CRWD",
