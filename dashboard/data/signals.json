@@ -1,21 +1,21 @@
 {
-  "generated_at": "2026-09-09T19:23:32.816828",
+  "generated_at": "2026-09-09T19:29:32.509926+00:00",
   "date": "2026-09-09",
   "stats": {
-    "total": 10,
-    "buy_signals": 2,
-    "sell_signals": 8,
+    "total": 7,
+    "buy_signals": 1,
+    "sell_signals": 6,
     "avg_confidence": 0.878,
     "avg_rr": 2.2,
-    "win_rate": 0.52,
-    "active_positions": 10,
-    "daily_pnl": 0.1635
+    "win_rate": 0.528,
+    "active_positions": 7,
+    "daily_pnl": 0.2399
   },
   "eod": {
-    "tp_hit": 26,
-    "sl_hit": 24,
-    "open": 10,
-    "cumulative_pnl": 0.1635
+    "tp_hit": 28,
+    "sl_hit": 25,
+    "open": 7,
+    "cumulative_pnl": 0.2399
   },
   "signals": [
     {
@@ -50,7 +50,11 @@
       "top_news_url": null,
       "status": "open",
       "issued_at": "2026-09-09T17:15:25.501152",
-      "last_seen": "2026-09-09T18:18:41.416127"
+      "last_seen": "2026-09-09T18:18:41.416127",
+      "current_price": 315.59,
+      "current_price_time": "2026-09-09T19:29:32.509926+00:00",
+      "pnl_pct_live": -0.16,
+      "progression_pct": -5.3
     },
     {
       "ticker": "AMD",
@@ -78,9 +82,15 @@
       "news_score": null,
       "top_news_title": null,
       "top_news_url": null,
-      "status": "open",
+      "status": "expired",
       "issued_at": "2026-09-08T17:26:07.125456",
-      "last_seen": "2026-09-09T17:15:25.501850"
+      "last_seen": "2026-09-09T17:15:25.501850",
+      "current_price": 519.49,
+      "current_price_time": "2026-09-09T19:29:32.509926+00:00",
+      "exit_price": 519.49,
+      "exit_date": "2026-09-09T19:29:32.509926+00:00",
+      "pnl_pct": 1.66,
+      "pnl_pct_live": 1.66
     },
     {
       "ticker": "PINS",
@@ -114,7 +124,11 @@
       "top_news_url": null,
       "status": "open",
       "issued_at": "2026-09-09T17:15:25.501143",
-      "last_seen": "2026-09-09T19:23:32.816828"
+      "last_seen": "2026-09-09T19:23:32.816828",
+      "current_price": 18.58,
+      "current_price_time": "2026-09-09T19:29:32.509926+00:00",
+      "pnl_pct_live": 0.05,
+      "progression_pct": 0.8
     },
     {
       "ticker": "CMCSA",
@@ -148,7 +162,11 @@
       "top_news_url": null,
       "status": "open",
       "issued_at": "2026-09-09T17:15:25.501133",
-      "last_seen": "2026-09-09T19:23:32.816828"
+      "last_seen": "2026-09-09T19:23:32.816828",
+      "current_price": 24.57,
+      "current_price_time": "2026-09-09T19:29:32.509926+00:00",
+      "pnl_pct_live": 0.04,
+      "progression_pct": 0.6
     },
     {
       "ticker": "BKNG",
@@ -180,9 +198,15 @@
       "news_score": null,
       "top_news_title": null,
       "top_news_url": null,
-      "status": "open",
+      "status": "expired",
       "issued_at": "2026-09-08T17:26:07.125445",
-      "last_seen": "2026-09-09T19:23:32.816828"
+      "last_seen": "2026-09-09T19:23:32.816828",
+      "current_price": 172.28,
+      "current_price_time": "2026-09-09T19:29:32.509926+00:00",
+      "exit_price": 172.28,
+      "exit_date": "2026-09-09T19:29:32.509926+00:00",
+      "pnl_pct": -0.16,
+      "pnl_pct_live": -0.16
     },
     {
       "ticker": "CHTR",
@@ -216,7 +240,11 @@
       "top_news_url": null,
       "status": "open",
       "issued_at": "2026-09-09T17:15:25.501148",
-      "last_seen": "2026-09-09T19:23:32.816828"
+      "last_seen": "2026-09-09T19:23:32.816828",
+      "current_price": 134.62,
+      "current_price_time": "2026-09-09T19:29:32.509926+00:00",
+      "pnl_pct_live": 0.1,
+      "progression_pct": 1.5
     },
     {
       "ticker": "CDNS",
@@ -246,7 +274,11 @@
       "top_news_url": null,
       "status": "open",
       "issued_at": "2026-09-08T19:31:50.761593",
-      "last_seen": "2026-09-09T18:18:41.416127"
+      "last_seen": "2026-09-09T18:18:41.416127",
+      "current_price": 284.86,
+      "current_price_time": "2026-09-09T19:29:32.509926+00:00",
+      "pnl_pct_live": 0.22,
+      "progression_pct": 3.3
     },
     {
       "ticker": "EA",
@@ -308,9 +340,15 @@
       "news_score": null,
       "top_news_title": null,
       "top_news_url": null,
-      "status": "open",
+      "status": "expired",
       "issued_at": "2026-09-08T17:26:07.125462",
-      "last_seen": "2026-09-09T18:18:41.416127"
+      "last_seen": "2026-09-09T18:18:41.416127",
+      "current_price": 126.66,
+      "current_price_time": "2026-09-09T19:29:32.509926+00:00",
+      "exit_price": 126.66,
+      "exit_date": "2026-09-09T19:29:32.509926+00:00",
+      "pnl_pct": 6.14,
+      "pnl_pct_live": 6.14
     },
     {
       "ticker": "QCOM",
@@ -340,7 +378,11 @@
       "top_news_url": null,
       "status": "open",
       "issued_at": "2026-09-08T19:31:50.761605",
-      "last_seen": "2026-09-09T18:18:41.416127"
+      "last_seen": "2026-09-09T18:18:41.416127",
+      "current_price": 175.87,
+      "current_price_time": "2026-09-09T19:29:32.509926+00:00",
+      "pnl_pct_live": -1.95,
+      "progression_pct": -64.9
     },
     {
       "ticker": "CRWD",
