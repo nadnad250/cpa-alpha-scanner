@@ -1,21 +1,21 @@
 {
-  "generated_at": "2026-09-10T12:20:04.141618",
+  "generated_at": "2026-09-10T16:22:49.378618+00:00",
   "date": "2026-09-10",
   "stats": {
-    "total": 6,
+    "total": 5,
     "buy_signals": 2,
-    "sell_signals": 4,
+    "sell_signals": 3,
     "avg_confidence": 0.889,
     "avg_rr": 2.2,
-    "win_rate": 0.48,
-    "active_positions": 6,
-    "daily_pnl": 0.1394
+    "win_rate": 0.471,
+    "active_positions": 5,
+    "daily_pnl": 0.1094
   },
   "eod": {
     "tp_hit": 24,
-    "sl_hit": 26,
-    "open": 6,
-    "cumulative_pnl": 0.1394
+    "sl_hit": 27,
+    "open": 5,
+    "cumulative_pnl": 0.1094
   },
   "signals": [
     {
@@ -50,7 +50,11 @@
       "top_news_url": null,
       "status": "open",
       "issued_at": "2026-09-09T20:06:27.539488",
-      "last_seen": "2026-09-10T12:20:04.141618"
+      "last_seen": "2026-09-10T12:20:04.141618",
+      "current_price": 651.4,
+      "current_price_time": "2026-09-10T16:22:49.378618+00:00",
+      "pnl_pct_live": -0.31,
+      "progression_pct": -13.5
     },
     {
       "ticker": "NET",
@@ -80,7 +84,11 @@
       "top_news_url": null,
       "status": "open",
       "issued_at": "2026-09-09T17:15:25.501152",
-      "last_seen": "2026-09-10T12:20:04.141618"
+      "last_seen": "2026-09-10T12:20:04.141618",
+      "current_price": 313.42,
+      "current_price_time": "2026-09-10T16:22:49.378618+00:00",
+      "pnl_pct_live": 0.09,
+      "progression_pct": 1.3
     },
     {
       "ticker": "PINS",
@@ -114,7 +122,11 @@
       "top_news_url": null,
       "status": "open",
       "issued_at": "2026-09-09T17:15:25.501143",
-      "last_seen": "2026-09-10T12:20:04.141618"
+      "last_seen": "2026-09-10T12:20:04.141618",
+      "current_price": 18.82,
+      "current_price_time": "2026-09-10T16:22:49.378618+00:00",
+      "pnl_pct_live": -2.95,
+      "progression_pct": -98.2
     },
     {
       "ticker": "CMCSA",
@@ -148,7 +160,11 @@
       "top_news_url": null,
       "status": "open",
       "issued_at": "2026-09-09T17:15:25.501133",
-      "last_seen": "2026-09-10T12:20:04.141618"
+      "last_seen": "2026-09-10T12:20:04.141618",
+      "current_price": 25.01,
+      "current_price_time": "2026-09-10T16:22:49.378618+00:00",
+      "pnl_pct_live": -1.75,
+      "progression_pct": -58.1
     },
     {
       "ticker": "CHTR",
@@ -180,9 +196,15 @@
       "news_score": null,
       "top_news_title": null,
       "top_news_url": null,
-      "status": "open",
+      "status": "sl_hit",
       "issued_at": "2026-09-09T17:15:25.501148",
-      "last_seen": "2026-09-10T12:20:04.141618"
+      "last_seen": "2026-09-10T12:20:04.141618",
+      "current_price": 140.14,
+      "current_price_time": "2026-09-10T16:22:49.378618+00:00",
+      "exit_price": 137.88,
+      "exit_date": "2026-09-10T16:22:49.378618+00:00",
+      "pnl_pct": -3.0,
+      "pnl_pct_live": -3.0
     },
     {
       "ticker": "EA",
