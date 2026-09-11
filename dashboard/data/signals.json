@@ -1,20 +1,20 @@
 {
-  "generated_at": "2026-09-11T19:14:27.567334",
+  "generated_at": "2026-09-11T20:08:00.992681",
   "date": "2026-09-11",
   "stats": {
-    "total": 8,
-    "buy_signals": 4,
+    "total": 9,
+    "buy_signals": 5,
     "sell_signals": 4,
-    "avg_confidence": 0.807,
+    "avg_confidence": 0.81,
     "avg_rr": 2.2,
     "win_rate": 0.52,
-    "active_positions": 8,
+    "active_positions": 9,
     "daily_pnl": 0.2117
   },
   "eod": {
     "tp_hit": 26,
     "sl_hit": 24,
-    "open": 8,
+    "open": 9,
     "cumulative_pnl": 0.2117
   },
   "signals": [
@@ -81,6 +81,40 @@
       "status": "open",
       "issued_at": "2026-09-11T17:09:25.741793",
       "last_seen": "2026-09-11T19:14:27.567334"
+    },
+    {
+      "ticker": "KHC",
+      "action": "STRONG_BUY",
+      "price": 24.61,
+      "take_profit": 25.55,
+      "stop_loss": 24.18,
+      "upside_pct": 3.8,
+      "confidence": 0.832,
+      "score": 0.6272,
+      "risk_reward": 2.2,
+      "kelly_position": 0.1,
+      "cpa_alpha": null,
+      "ml_proba_up": null,
+      "sector": "—",
+      "universe": "NASDAQ100",
+      "primary_reason": "Cassure ORB haussière (RVOL 2.2x, +VWAP) +gap",
+      "secondary_reasons": [
+        "RVOL 2.2x",
+        "VWAP au-dessus",
+        "Gap +0.7%"
+      ],
+      "risk_flags": [],
+      "intrinsic_value": 25.55,
+      "value_gap": null,
+      "factor_premia": null,
+      "mean_reversion": null,
+      "info_flow": null,
+      "news_score": null,
+      "top_news_title": null,
+      "top_news_url": null,
+      "status": "open",
+      "issued_at": "2026-09-11T20:08:00.991963",
+      "last_seen": "2026-09-11T20:08:00.992681"
     },
     {
       "ticker": "ADBE",
