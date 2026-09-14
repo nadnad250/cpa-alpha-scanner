@@ -1,21 +1,21 @@
 {
-  "generated_at": "2026-09-14T18:51:00.077780",
+  "generated_at": "2026-09-14T18:52:03.862963+00:00",
   "date": "2026-09-14",
   "stats": {
-    "total": 9,
-    "buy_signals": 7,
-    "sell_signals": 2,
+    "total": 5,
+    "buy_signals": 4,
+    "sell_signals": 1,
     "avg_confidence": 0.862,
     "avg_rr": 2.2,
-    "win_rate": 0.52,
-    "active_positions": 9,
-    "daily_pnl": 0.2993
+    "win_rate": 0.5,
+    "active_positions": 5,
+    "daily_pnl": 0.2458
   },
   "eod": {
-    "tp_hit": 26,
-    "sl_hit": 24,
-    "open": 9,
-    "cumulative_pnl": 0.2993
+    "tp_hit": 27,
+    "sl_hit": 27,
+    "open": 5,
+    "cumulative_pnl": 0.2458
   },
   "signals": [
     {
@@ -23,7 +23,7 @@
       "action": "STRONG_BUY",
       "price": 230.4,
       "take_profit": 245.61,
-      "stop_loss": 223.49,
+      "stop_loss": 230.4,
       "upside_pct": 6.6,
       "confidence": 0.942,
       "score": 0.8862,
@@ -50,7 +50,12 @@
       "top_news_url": null,
       "status": "open",
       "issued_at": "2026-09-14T14:20:33.446366",
-      "last_seen": "2026-09-14T14:20:33.446890"
+      "last_seen": "2026-09-14T14:20:33.446890",
+      "current_price": 237.38,
+      "current_price_time": "2026-09-14T18:52:03.862963+00:00",
+      "pnl_pct_live": 3.03,
+      "trail_level": 1,
+      "progression_pct": 45.9
     },
     {
       "ticker": "ZS",
@@ -84,7 +89,11 @@
       "top_news_url": null,
       "status": "open",
       "issued_at": "2026-09-14T18:51:00.077160",
-      "last_seen": "2026-09-14T18:51:00.077780"
+      "last_seen": "2026-09-14T18:51:00.077780",
+      "current_price": 190.23,
+      "current_price_time": "2026-09-14T18:52:03.862963+00:00",
+      "pnl_pct_live": 0.09,
+      "progression_pct": 1.4
     },
     {
       "ticker": "PANW",
@@ -118,7 +127,11 @@
       "top_news_url": null,
       "status": "open",
       "issued_at": "2026-09-14T18:51:00.077174",
-      "last_seen": "2026-09-14T18:51:00.077780"
+      "last_seen": "2026-09-14T18:51:00.077780",
+      "current_price": 377.35,
+      "current_price_time": "2026-09-14T18:52:03.862963+00:00",
+      "pnl_pct_live": 0.05,
+      "progression_pct": 0.8
     },
     {
       "ticker": "RBLX",
@@ -152,7 +165,11 @@
       "top_news_url": null,
       "status": "open",
       "issued_at": "2026-09-14T18:51:00.077179",
-      "last_seen": "2026-09-14T18:51:00.077780"
+      "last_seen": "2026-09-14T18:51:00.077780",
+      "current_price": 50.37,
+      "current_price_time": "2026-09-14T18:52:03.862963+00:00",
+      "pnl_pct_live": 0.04,
+      "progression_pct": 0.6
     },
     {
       "ticker": "KHC",
@@ -180,9 +197,15 @@
       "news_score": null,
       "top_news_title": null,
       "top_news_url": null,
-      "status": "open",
+      "status": "expired",
       "issued_at": "2026-09-11T20:08:00.991963",
-      "last_seen": "2026-09-14T14:20:33.446890"
+      "last_seen": "2026-09-14T14:20:33.446890",
+      "current_price": 24.31,
+      "current_price_time": "2026-09-14T18:52:03.862963+00:00",
+      "exit_price": 24.31,
+      "exit_date": "2026-09-14T18:52:03.862963+00:00",
+      "pnl_pct": -1.22,
+      "pnl_pct_live": -1.22
     },
     {
       "ticker": "ON",
@@ -210,9 +233,15 @@
       "news_score": null,
       "top_news_title": null,
       "top_news_url": null,
-      "status": "open",
+      "status": "expired",
       "issued_at": "2026-09-11T17:09:25.741793",
-      "last_seen": "2026-09-14T14:20:33.446890"
+      "last_seen": "2026-09-14T14:20:33.446890",
+      "current_price": 72.45,
+      "current_price_time": "2026-09-14T18:52:03.862963+00:00",
+      "exit_price": 72.45,
+      "exit_date": "2026-09-14T18:52:03.862963+00:00",
+      "pnl_pct": -3.35,
+      "pnl_pct_live": -3.35
     },
     {
       "ticker": "ADBE",
@@ -240,9 +269,15 @@
       "news_score": null,
       "top_news_title": null,
       "top_news_url": null,
-      "status": "open",
+      "status": "expired",
       "issued_at": "2026-09-11T18:10:39.739670",
-      "last_seen": "2026-09-14T14:20:33.446890"
+      "last_seen": "2026-09-14T14:20:33.446890",
+      "current_price": 263.51,
+      "current_price_time": "2026-09-14T18:52:03.862963+00:00",
+      "exit_price": 263.51,
+      "exit_date": "2026-09-14T18:52:03.862963+00:00",
+      "pnl_pct": 4.23,
+      "pnl_pct_live": 4.23
     },
     {
       "ticker": "EA",
@@ -304,9 +339,15 @@
       "news_score": null,
       "top_news_title": null,
       "top_news_url": null,
-      "status": "open",
+      "status": "expired",
       "issued_at": "2026-09-11T21:50:36.733304",
-      "last_seen": "2026-09-14T14:20:33.446890"
+      "last_seen": "2026-09-14T14:20:33.446890",
+      "current_price": 31.44,
+      "current_price_time": "2026-09-14T18:52:03.862963+00:00",
+      "exit_price": 31.44,
+      "exit_date": "2026-09-14T18:52:03.862963+00:00",
+      "pnl_pct": -5.01,
+      "pnl_pct_live": -5.01
     },
     {
       "ticker": "HOOD",
