@@ -1,0 +1,25 @@
+[
+  {
+    "ticker": "CRWD",
+    "action": "STRONG_BUY",
+    "entry_price": 230.39999389648438,
+    "stop_loss": 223.48799407958984,
+    "take_profit": 245.60639349365235,
+    "score": 0.8862164023083832,
+    "confidence": 0.9416419709810628,
+    "universe": "NASDAQ100",
+    "issued_at": "2026-09-14T14:20:33.446366",
+    "horizon_days": 1,
+    "horizon_hours": 24,
+    "status": "open",
+    "exit_price": null,
+    "exit_date": null,
+    "pnl_pct": null,
+    "max_favorable": null,
+    "max_adverse": null,
+    "sector": "",
+    "ml_proba_up": null,
+    "risk_reward": 2.2,
+    "primary_reason": "Cassure ORB haussière (RVOL 2.6x, +VWAP) +gap"
+  }
+]
