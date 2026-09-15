@@ -1,21 +1,21 @@
 {
-  "generated_at": "2026-09-15T12:48:21.265813",
+  "generated_at": "2026-09-15T17:10:38.851748+00:00",
   "date": "2026-09-15",
   "stats": {
-    "total": 5,
-    "buy_signals": 4,
+    "total": 4,
+    "buy_signals": 3,
     "sell_signals": 1,
     "avg_confidence": 0.881,
     "avg_rr": 2.2,
-    "win_rate": 0.48,
-    "active_positions": 5,
-    "daily_pnl": 0.1635
+    "win_rate": 0.49,
+    "active_positions": 4,
+    "daily_pnl": 0.1965
   },
   "eod": {
-    "tp_hit": 24,
+    "tp_hit": 25,
     "sl_hit": 26,
-    "open": 5,
-    "cumulative_pnl": 0.1635
+    "open": 4,
+    "cumulative_pnl": 0.1965
   },
   "signals": [
     {
@@ -50,7 +50,11 @@
       "top_news_url": null,
       "status": "open",
       "issued_at": "2026-09-14T18:51:00.077160",
-      "last_seen": "2026-09-15T12:48:21.265813"
+      "last_seen": "2026-09-15T12:48:21.265813",
+      "current_price": 195.21,
+      "current_price_time": "2026-09-15T17:10:38.851748+00:00",
+      "pnl_pct_live": 1.88,
+      "progression_pct": 28.5
     },
     {
       "ticker": "CRWD",
@@ -82,9 +86,15 @@
       "news_score": null,
       "top_news_title": null,
       "top_news_url": null,
-      "status": "open",
+      "status": "expired",
       "issued_at": "2026-09-14T14:20:33.446366",
-      "last_seen": "2026-09-15T12:48:21.265813"
+      "last_seen": "2026-09-15T12:48:21.265813",
+      "current_price": 243.2,
+      "current_price_time": "2026-09-15T17:10:38.851748+00:00",
+      "exit_price": 243.2,
+      "exit_date": "2026-09-15T17:10:38.851748+00:00",
+      "pnl_pct": 3.3,
+      "pnl_pct_live": 3.3
     },
     {
       "ticker": "PANW",
@@ -118,7 +128,11 @@
       "top_news_url": null,
       "status": "open",
       "issued_at": "2026-09-14T18:51:00.077174",
-      "last_seen": "2026-09-15T12:48:21.265813"
+      "last_seen": "2026-09-15T12:48:21.265813",
+      "current_price": 379.29,
+      "current_price_time": "2026-09-15T17:10:38.851748+00:00",
+      "pnl_pct_live": 1.43,
+      "progression_pct": 21.6
     },
     {
       "ticker": "RBLX",
@@ -152,7 +166,11 @@
       "top_news_url": null,
       "status": "open",
       "issued_at": "2026-09-14T18:51:00.077179",
-      "last_seen": "2026-09-15T12:48:21.265813"
+      "last_seen": "2026-09-15T12:48:21.265813",
+      "current_price": 50.76,
+      "current_price_time": "2026-09-15T17:10:38.851748+00:00",
+      "pnl_pct_live": -1.01,
+      "progression_pct": -33.8
     },
     {
       "ticker": "EA",
