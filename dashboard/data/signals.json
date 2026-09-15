@@ -1,20 +1,20 @@
 {
-  "generated_at": "2026-09-15T18:42:48.042028",
+  "generated_at": "2026-09-15T19:47:20.616941",
   "date": "2026-09-15",
   "stats": {
-    "total": 9,
+    "total": 10,
     "buy_signals": 6,
-    "sell_signals": 3,
-    "avg_confidence": 0.842,
+    "sell_signals": 4,
+    "avg_confidence": 0.835,
     "avg_rr": 2.2,
     "win_rate": 0.54,
-    "active_positions": 9,
+    "active_positions": 10,
     "daily_pnl": 0.2195
   },
   "eod": {
     "tp_hit": 27,
     "sl_hit": 23,
-    "open": 9,
+    "open": 10,
     "cumulative_pnl": 0.2195
   },
   "signals": [
@@ -273,6 +273,40 @@
       "status": "open",
       "issued_at": "2026-09-15T18:42:48.041379",
       "last_seen": "2026-09-15T18:42:48.042028"
+    },
+    {
+      "ticker": "MELI",
+      "action": "STRONG_SELL",
+      "price": 1837.15,
+      "take_profit": 1728.88,
+      "stop_loss": 1886.35,
+      "upside_pct": 5.9,
+      "confidence": 0.768,
+      "score": -0.4765,
+      "risk_reward": 2.2,
+      "kelly_position": 0.08,
+      "cpa_alpha": null,
+      "ml_proba_up": null,
+      "sector": "—",
+      "universe": "NASDAQ100",
+      "primary_reason": "Cassure ORB baissière (RVOL 1.6x, -VWAP) +gap",
+      "secondary_reasons": [
+        "RVOL 1.6x",
+        "VWAP en-dessous",
+        "Gap -1.5%"
+      ],
+      "risk_flags": [],
+      "intrinsic_value": 1728.88,
+      "value_gap": null,
+      "factor_premia": null,
+      "mean_reversion": null,
+      "info_flow": null,
+      "news_score": null,
+      "top_news_title": null,
+      "top_news_url": null,
+      "status": "open",
+      "issued_at": "2026-09-15T19:47:20.616226",
+      "last_seen": "2026-09-15T19:47:20.616941"
     },
     {
       "ticker": "XEL",
