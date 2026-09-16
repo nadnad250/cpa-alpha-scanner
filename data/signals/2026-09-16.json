@@ -1,0 +1,25 @@
+[
+  {
+    "ticker": "ROST",
+    "action": "BUY",
+    "entry_price": 227.52000427246094,
+    "stop_loss": 225.00999450683594,
+    "take_profit": 233.04202575683593,
+    "score": 0.3232118497606721,
+    "confidence": 0.7023650361482856,
+    "universe": "NASDAQ100",
+    "issued_at": "2026-09-16T17:44:57.676656",
+    "horizon_days": 1,
+    "horizon_hours": 24,
+    "status": "open",
+    "exit_price": null,
+    "exit_date": null,
+    "pnl_pct": null,
+    "max_favorable": null,
+    "max_adverse": null,
+    "sector": "",
+    "ml_proba_up": null,
+    "risk_reward": 2.2,
+    "primary_reason": "Cassure ORB haussière (RVOL 1.5x, +VWAP)"
+  }
+]
