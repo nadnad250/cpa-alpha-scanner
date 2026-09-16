@@ -1,20 +1,20 @@
 {
-  "generated_at": "2026-09-16T18:39:08.033785",
+  "generated_at": "2026-09-16T19:39:28.291078",
   "date": "2026-09-16",
   "stats": {
-    "total": 8,
+    "total": 10,
     "buy_signals": 3,
-    "sell_signals": 5,
-    "avg_confidence": 0.755,
+    "sell_signals": 7,
+    "avg_confidence": 0.758,
     "avg_rr": 2.2,
     "win_rate": 0.52,
-    "active_positions": 8,
+    "active_positions": 10,
     "daily_pnl": 0.3194
   },
   "eod": {
     "tp_hit": 26,
     "sl_hit": 24,
-    "open": 8,
+    "open": 10,
     "cumulative_pnl": 0.3194
   },
   "signals": [
@@ -147,6 +147,40 @@
       "last_seen": "2026-08-26T08:08:33.316939"
     },
     {
+      "ticker": "ORLY",
+      "action": "STRONG_SELL",
+      "price": 83.68,
+      "take_profit": 79.86,
+      "stop_loss": 85.41,
+      "upside_pct": 4.6,
+      "confidence": 0.798,
+      "score": -0.5486,
+      "risk_reward": 2.2,
+      "kelly_position": 0.08,
+      "cpa_alpha": null,
+      "ml_proba_up": null,
+      "sector": "—",
+      "universe": "NASDAQ100",
+      "primary_reason": "Cassure ORB baissière (RVOL 1.6x, -VWAP) +gap",
+      "secondary_reasons": [
+        "RVOL 1.6x",
+        "VWAP en-dessous",
+        "Gap -0.4%"
+      ],
+      "risk_flags": [],
+      "intrinsic_value": 79.86,
+      "value_gap": null,
+      "factor_premia": null,
+      "mean_reversion": null,
+      "info_flow": null,
+      "news_score": null,
+      "top_news_title": null,
+      "top_news_url": null,
+      "status": "open",
+      "issued_at": "2026-09-16T19:39:28.290630",
+      "last_seen": "2026-09-16T19:39:28.291078"
+    },
+    {
       "ticker": "MELI",
       "action": "STRONG_SELL",
       "price": 1837.15,
@@ -205,6 +239,40 @@
       "status": "open",
       "issued_at": "2026-09-15T17:45:44.221240",
       "last_seen": "2026-09-16T18:39:08.033785"
+    },
+    {
+      "ticker": "HOOD",
+      "action": "STRONG_SELL",
+      "price": 102.96,
+      "take_profit": 96.16,
+      "stop_loss": 106.05,
+      "upside_pct": 6.6,
+      "confidence": 0.738,
+      "score": -0.4067,
+      "risk_reward": 2.2,
+      "kelly_position": 0.08,
+      "cpa_alpha": null,
+      "ml_proba_up": null,
+      "sector": "—",
+      "universe": "NASDAQ100",
+      "primary_reason": "Cassure ORB baissière (RVOL 1.5x, -VWAP)",
+      "secondary_reasons": [
+        "RVOL 1.5x",
+        "VWAP en-dessous",
+        "Gap +0.0%"
+      ],
+      "risk_flags": [],
+      "intrinsic_value": 96.16,
+      "value_gap": null,
+      "factor_premia": null,
+      "mean_reversion": null,
+      "info_flow": null,
+      "news_score": null,
+      "top_news_title": null,
+      "top_news_url": null,
+      "status": "open",
+      "issued_at": "2026-09-16T19:39:28.290638",
+      "last_seen": "2026-09-16T19:39:28.291078"
     },
     {
       "ticker": "COIN",
