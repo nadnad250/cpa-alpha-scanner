@@ -1,21 +1,21 @@
 {
-  "generated_at": "2026-09-17T12:43:32.927400",
+  "generated_at": "2026-09-17T17:11:28.628274+00:00",
   "date": "2026-09-17",
   "stats": {
-    "total": 6,
+    "total": 3,
     "buy_signals": 1,
-    "sell_signals": 5,
+    "sell_signals": 2,
     "avg_confidence": 0.762,
     "avg_rr": 2.2,
-    "win_rate": 0.42,
-    "active_positions": 6,
-    "daily_pnl": -0.0447
+    "win_rate": 0.396,
+    "active_positions": 3,
+    "daily_pnl": -0.1347
   },
   "eod": {
     "tp_hit": 21,
-    "sl_hit": 29,
-    "open": 6,
-    "cumulative_pnl": -0.0447
+    "sl_hit": 32,
+    "open": 3,
+    "cumulative_pnl": -0.1347
   },
   "signals": [
     {
@@ -50,7 +50,11 @@
       "top_news_url": null,
       "status": "open",
       "issued_at": "2026-09-16T20:30:34.803295",
-      "last_seen": "2026-09-17T12:43:32.927400"
+      "last_seen": "2026-09-17T12:43:32.927400",
+      "current_price": 1818.54,
+      "current_price_time": "2026-09-17T17:11:28.628274+00:00",
+      "pnl_pct_live": -0.97,
+      "progression_pct": -62.7
     },
     {
       "ticker": "EA",
@@ -116,9 +120,15 @@
       "news_score": null,
       "top_news_title": null,
       "top_news_url": null,
-      "status": "open",
+      "status": "sl_hit",
       "issued_at": "2026-09-16T20:30:34.803268",
-      "last_seen": "2026-09-17T12:43:32.927400"
+      "last_seen": "2026-09-17T12:43:32.927400",
+      "current_price": 68.71,
+      "current_price_time": "2026-09-17T17:11:28.628274+00:00",
+      "exit_price": 68.59,
+      "exit_date": "2026-09-17T17:11:28.628274+00:00",
+      "pnl_pct": -3.0,
+      "pnl_pct_live": -3.0
     },
     {
       "ticker": "ORLY",
@@ -152,7 +162,11 @@
       "top_news_url": null,
       "status": "open",
       "issued_at": "2026-09-16T19:39:28.290630",
-      "last_seen": "2026-09-17T12:43:32.927400"
+      "last_seen": "2026-09-17T12:43:32.927400",
+      "current_price": 85.06,
+      "current_price_time": "2026-09-17T17:11:28.628274+00:00",
+      "pnl_pct_live": -1.65,
+      "progression_pct": -79.8
     },
     {
       "ticker": "HOOD",
@@ -180,9 +194,15 @@
       "news_score": null,
       "top_news_title": null,
       "top_news_url": null,
-      "status": "open",
+      "status": "sl_hit",
       "issued_at": "2026-09-16T19:39:28.290638",
-      "last_seen": "2026-09-17T12:43:32.927400"
+      "last_seen": "2026-09-17T12:43:32.927400",
+      "current_price": 107.47,
+      "current_price_time": "2026-09-17T17:11:28.628274+00:00",
+      "exit_price": 106.05,
+      "exit_date": "2026-09-17T17:11:28.628274+00:00",
+      "pnl_pct": -3.0,
+      "pnl_pct_live": -3.0
     },
     {
       "ticker": "COIN",
@@ -214,9 +234,15 @@
       "news_score": null,
       "top_news_title": null,
       "top_news_url": null,
-      "status": "open",
+      "status": "sl_hit",
       "issued_at": "2026-09-16T20:30:34.803299",
-      "last_seen": "2026-09-17T12:43:32.927400"
+      "last_seen": "2026-09-17T12:43:32.927400",
+      "current_price": 172.24,
+      "current_price_time": "2026-09-17T17:11:28.628274+00:00",
+      "exit_price": 169.44,
+      "exit_date": "2026-09-17T17:11:28.628274+00:00",
+      "pnl_pct": -3.0,
+      "pnl_pct_live": -3.0
     },
     {
       "ticker": "HOOD",
