@@ -1,21 +1,21 @@
 {
-  "generated_at": "2026-09-18T12:19:29.572159",
+  "generated_at": "2026-09-18T16:22:39.677901+00:00",
   "date": "2026-09-18",
   "stats": {
-    "total": 7,
-    "buy_signals": 4,
+    "total": 4,
+    "buy_signals": 1,
     "sell_signals": 3,
     "avg_confidence": 0.811,
     "avg_rr": 2.2,
-    "win_rate": 0.36,
-    "active_positions": 7,
-    "daily_pnl": -0.1956
+    "win_rate": 0.358,
+    "active_positions": 4,
+    "daily_pnl": -0.2011
   },
   "eod": {
-    "tp_hit": 18,
-    "sl_hit": 32,
-    "open": 7,
-    "cumulative_pnl": -0.1956
+    "tp_hit": 19,
+    "sl_hit": 34,
+    "open": 4,
+    "cumulative_pnl": -0.2011
   },
   "signals": [
     {
@@ -50,7 +50,11 @@
       "top_news_url": null,
       "status": "open",
       "issued_at": "2026-09-17T18:49:33.749081",
-      "last_seen": "2026-09-18T12:19:29.572159"
+      "last_seen": "2026-09-18T12:19:29.572159",
+      "current_price": 56.05,
+      "current_price_time": "2026-09-18T16:22:39.677901+00:00",
+      "pnl_pct_live": -2.3,
+      "progression_pct": -76.7
     },
     {
       "ticker": "MARA",
@@ -78,9 +82,15 @@
       "news_score": null,
       "top_news_title": null,
       "top_news_url": null,
-      "status": "open",
+      "status": "tp_hit",
       "issued_at": "2026-09-17T17:44:11.636930",
-      "last_seen": "2026-09-18T12:19:29.572159"
+      "last_seen": "2026-09-18T12:19:29.572159",
+      "current_price": 12.84,
+      "current_price_time": "2026-09-18T16:22:39.677901+00:00",
+      "exit_price": 12.35,
+      "exit_date": "2026-09-18T16:22:39.677901+00:00",
+      "pnl_pct": 5.47,
+      "pnl_pct_live": 5.47
     },
     {
       "ticker": "INTC",
@@ -108,9 +118,15 @@
       "news_score": null,
       "top_news_title": null,
       "top_news_url": null,
-      "status": "open",
+      "status": "sl_hit",
       "issued_at": "2026-09-17T17:44:11.636934",
-      "last_seen": "2026-09-18T12:19:29.572159"
+      "last_seen": "2026-09-18T12:19:29.572159",
+      "current_price": 107.04,
+      "current_price_time": "2026-09-18T16:22:39.677901+00:00",
+      "exit_price": 107.74,
+      "exit_date": "2026-09-18T16:22:39.677901+00:00",
+      "pnl_pct": -3.0,
+      "pnl_pct_live": -3.0
     },
     {
       "ticker": "SMCI",
@@ -142,9 +158,15 @@
       "news_score": null,
       "top_news_title": null,
       "top_news_url": null,
-      "status": "open",
+      "status": "sl_hit",
       "issued_at": "2026-09-17T17:44:11.636919",
-      "last_seen": "2026-09-18T12:19:29.572159"
+      "last_seen": "2026-09-18T12:19:29.572159",
+      "current_price": 38.66,
+      "current_price_time": "2026-09-18T16:22:39.677901+00:00",
+      "exit_price": 39.13,
+      "exit_date": "2026-09-18T16:22:39.677901+00:00",
+      "pnl_pct": -3.02,
+      "pnl_pct_live": -3.02
     },
     {
       "ticker": "EA",
@@ -212,7 +234,11 @@
       "top_news_url": null,
       "status": "open",
       "issued_at": "2026-09-17T18:49:33.749088",
-      "last_seen": "2026-09-18T12:19:29.572159"
+      "last_seen": "2026-09-18T12:19:29.572159",
+      "current_price": 167.33,
+      "current_price_time": "2026-09-18T16:22:39.677901+00:00",
+      "pnl_pct_live": -0.53,
+      "progression_pct": -17.8
     },
     {
       "ticker": "DKNG",
@@ -246,7 +272,11 @@
       "top_news_url": null,
       "status": "open",
       "issued_at": "2026-09-17T20:37:37.139551",
-      "last_seen": "2026-09-18T12:19:29.572159"
+      "last_seen": "2026-09-18T12:19:29.572159",
+      "current_price": 22.12,
+      "current_price_time": "2026-09-18T16:22:39.677901+00:00",
+      "pnl_pct_live": 1.51,
+      "progression_pct": 23.0
     },
     {
       "ticker": "CRWD",
