@@ -1,21 +1,21 @@
 {
-  "generated_at": "2026-09-18T18:04:51.231198",
+  "generated_at": "2026-09-18T19:06:17.464635+00:00",
   "date": "2026-09-18",
   "stats": {
-    "total": 10,
-    "buy_signals": 6,
-    "sell_signals": 4,
+    "total": 5,
+    "buy_signals": 2,
+    "sell_signals": 3,
     "avg_confidence": 0.849,
     "avg_rr": 2.2,
-    "win_rate": 0.34,
-    "active_positions": 10,
-    "daily_pnl": -0.2427
+    "win_rate": 0.327,
+    "active_positions": 5,
+    "daily_pnl": -0.3424
   },
   "eod": {
-    "tp_hit": 17,
-    "sl_hit": 33,
-    "open": 10,
-    "cumulative_pnl": -0.2427
+    "tp_hit": 18,
+    "sl_hit": 37,
+    "open": 5,
+    "cumulative_pnl": -0.3424
   },
   "signals": [
     {
@@ -50,7 +50,11 @@
       "top_news_url": null,
       "status": "open",
       "issued_at": "2026-09-18T17:10:48.480192",
-      "last_seen": "2026-09-18T18:04:51.231198"
+      "last_seen": "2026-09-18T18:04:51.231198",
+      "current_price": 194.7,
+      "current_price_time": "2026-09-18T19:06:17.464635+00:00",
+      "pnl_pct_live": -0.17,
+      "progression_pct": -5.8
     },
     {
       "ticker": "SMCI",
@@ -78,9 +82,15 @@
       "news_score": null,
       "top_news_title": null,
       "top_news_url": null,
-      "status": "open",
+      "status": "expired",
       "issued_at": "2026-09-17T17:44:11.636919",
-      "last_seen": "2026-09-18T17:10:48.480898"
+      "last_seen": "2026-09-18T17:10:48.480898",
+      "current_price": 38.92,
+      "current_price_time": "2026-09-18T19:06:17.464635+00:00",
+      "exit_price": 38.92,
+      "exit_date": "2026-09-18T19:06:17.464635+00:00",
+      "pnl_pct": -4.33,
+      "pnl_pct_live": -4.33
     },
     {
       "ticker": "CRSP",
@@ -108,9 +118,15 @@
       "news_score": null,
       "top_news_title": null,
       "top_news_url": null,
-      "status": "open",
+      "status": "expired",
       "issued_at": "2026-09-17T18:49:33.749081",
-      "last_seen": "2026-09-18T18:04:51.231198"
+      "last_seen": "2026-09-18T18:04:51.231198",
+      "current_price": 56.42,
+      "current_price_time": "2026-09-18T19:06:17.464635+00:00",
+      "exit_price": 56.42,
+      "exit_date": "2026-09-18T19:06:17.464635+00:00",
+      "pnl_pct": -1.67,
+      "pnl_pct_live": -1.67
     },
     {
       "ticker": "DXCM",
@@ -144,7 +160,11 @@
       "top_news_url": null,
       "status": "open",
       "issued_at": "2026-09-18T17:10:48.480203",
-      "last_seen": "2026-09-18T18:04:51.231198"
+      "last_seen": "2026-09-18T18:04:51.231198",
+      "current_price": 89.5,
+      "current_price_time": "2026-09-18T19:06:17.464635+00:00",
+      "pnl_pct_live": 0.64,
+      "progression_pct": 16.8
     },
     {
       "ticker": "MARA",
@@ -176,9 +196,15 @@
       "news_score": null,
       "top_news_title": null,
       "top_news_url": null,
-      "status": "open",
+      "status": "expired",
       "issued_at": "2026-09-17T17:44:11.636930",
-      "last_seen": "2026-09-18T18:04:51.231198"
+      "last_seen": "2026-09-18T18:04:51.231198",
+      "current_price": 13.19,
+      "current_price_time": "2026-09-18T19:06:17.464635+00:00",
+      "exit_price": 13.19,
+      "exit_date": "2026-09-18T19:06:17.464635+00:00",
+      "pnl_pct": 0.92,
+      "pnl_pct_live": 0.92
     },
     {
       "ticker": "INTC",
@@ -206,9 +232,15 @@
       "news_score": null,
       "top_news_title": null,
       "top_news_url": null,
-      "status": "open",
+      "status": "expired",
       "issued_at": "2026-09-17T17:44:11.636934",
-      "last_seen": "2026-09-18T17:10:48.480898"
+      "last_seen": "2026-09-18T17:10:48.480898",
+      "current_price": 106.97,
+      "current_price_time": "2026-09-18T19:06:17.464635+00:00",
+      "exit_price": 106.97,
+      "exit_date": "2026-09-18T19:06:17.464635+00:00",
+      "pnl_pct": -3.69,
+      "pnl_pct_live": -3.69
     },
     {
       "ticker": "VRTX",
@@ -242,7 +274,11 @@
       "top_news_url": null,
       "status": "open",
       "issued_at": "2026-09-18T17:10:48.480211",
-      "last_seen": "2026-09-18T17:10:48.480898"
+      "last_seen": "2026-09-18T17:10:48.480898",
+      "current_price": 510.41,
+      "current_price_time": "2026-09-18T19:06:17.464635+00:00",
+      "pnl_pct_live": -1.0,
+      "progression_pct": -39.9
     },
     {
       "ticker": "EA",
@@ -310,7 +346,11 @@
       "top_news_url": null,
       "status": "open",
       "issued_at": "2026-09-18T17:10:48.480208",
-      "last_seen": "2026-09-18T18:04:51.231198"
+      "last_seen": "2026-09-18T18:04:51.231198",
+      "current_price": 130.15,
+      "current_price_time": "2026-09-18T19:06:17.464635+00:00",
+      "pnl_pct_live": 0.2,
+      "progression_pct": 6.4
     },
     {
       "ticker": "TMUS",
@@ -338,9 +378,15 @@
       "news_score": null,
       "top_news_title": null,
       "top_news_url": null,
-      "status": "open",
+      "status": "expired",
       "issued_at": "2026-09-17T18:49:33.749088",
-      "last_seen": "2026-09-18T18:04:51.231198"
+      "last_seen": "2026-09-18T18:04:51.231198",
+      "current_price": 169.0,
+      "current_price_time": "2026-09-18T19:06:17.464635+00:00",
+      "exit_price": 169.0,
+      "exit_date": "2026-09-18T19:06:17.464635+00:00",
+      "pnl_pct": -1.2,
+      "pnl_pct_live": -1.2
     },
     {
       "ticker": "CRWD",
