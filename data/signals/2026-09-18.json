@@ -90,5 +90,28 @@
     "ml_proba_up": null,
     "risk_reward": 2.2,
     "primary_reason": "Cassure ORB baissière (RVOL 2.1x, -VWAP) +gap"
+  },
+  {
+    "ticker": "MARA",
+    "action": "STRONG_BUY",
+    "entry_price": 13.164999961853027,
+    "stop_loss": 12.770049962997437,
+    "take_profit": 14.033889959335328,
+    "score": 0.6389190931569115,
+    "confidence": 0.8365406145916874,
+    "universe": "NASDAQ100",
+    "issued_at": "2026-09-18T19:07:39.169952",
+    "horizon_days": 1,
+    "horizon_hours": 24,
+    "status": "open",
+    "exit_price": null,
+    "exit_date": null,
+    "pnl_pct": null,
+    "max_favorable": null,
+    "max_adverse": null,
+    "sector": "",
+    "ml_proba_up": null,
+    "risk_reward": 2.2,
+    "primary_reason": "Cassure ORB haussière (RVOL 1.8x, +VWAP) +gap"
   }
 ]
