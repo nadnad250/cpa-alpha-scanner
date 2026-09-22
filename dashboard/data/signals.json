@@ -1,21 +1,21 @@
 {
-  "generated_at": "2026-09-22T12:46:29.180765",
+  "generated_at": "2026-09-22T17:07:34.877589+00:00",
   "date": "2026-09-22",
   "stats": {
-    "total": 5,
-    "buy_signals": 4,
+    "total": 4,
+    "buy_signals": 3,
     "sell_signals": 1,
     "avg_confidence": 0.899,
     "avg_rr": 2.2,
-    "win_rate": 0.3,
-    "active_positions": 5,
-    "daily_pnl": -0.3925
+    "win_rate": 0.314,
+    "active_positions": 4,
+    "daily_pnl": -0.3696
   },
   "eod": {
-    "tp_hit": 15,
+    "tp_hit": 16,
     "sl_hit": 35,
-    "open": 5,
-    "cumulative_pnl": -0.3925
+    "open": 4,
+    "cumulative_pnl": -0.3696
   },
   "signals": [
     {
@@ -48,9 +48,15 @@
       "news_score": null,
       "top_news_title": null,
       "top_news_url": null,
-      "status": "open",
+      "status": "expired",
       "issued_at": "2026-09-21T14:27:04.671562",
-      "last_seen": "2026-09-22T12:46:29.180765"
+      "last_seen": "2026-09-22T12:46:29.180765",
+      "current_price": 330.5,
+      "current_price_time": "2026-09-22T17:07:34.877589+00:00",
+      "exit_price": 330.5,
+      "exit_date": "2026-09-22T17:07:34.877589+00:00",
+      "pnl_pct": 2.29,
+      "pnl_pct_live": 2.29
     },
     {
       "ticker": "META",
@@ -84,7 +90,11 @@
       "top_news_url": null,
       "status": "open",
       "issued_at": "2026-09-21T18:53:45.252758",
-      "last_seen": "2026-09-22T12:46:29.180765"
+      "last_seen": "2026-09-22T12:46:29.180765",
+      "current_price": 745.93,
+      "current_price_time": "2026-09-22T17:07:34.877589+00:00",
+      "pnl_pct_live": 0.65,
+      "progression_pct": 9.8
     },
     {
       "ticker": "AMD",
@@ -118,7 +128,11 @@
       "top_news_url": null,
       "status": "open",
       "issued_at": "2026-09-21T18:53:45.252772",
-      "last_seen": "2026-09-22T12:46:29.180765"
+      "last_seen": "2026-09-22T12:46:29.180765",
+      "current_price": 616.74,
+      "current_price_time": "2026-09-22T17:07:34.877589+00:00",
+      "pnl_pct_live": 0.22,
+      "progression_pct": 3.4
     },
     {
       "ticker": "INTC",
@@ -152,7 +166,11 @@
       "top_news_url": null,
       "status": "open",
       "issued_at": "2026-09-21T19:52:14.486663",
-      "last_seen": "2026-09-22T12:46:29.180765"
+      "last_seen": "2026-09-22T12:46:29.180765",
+      "current_price": 121.59,
+      "current_price_time": "2026-09-22T17:07:34.877589+00:00",
+      "pnl_pct_live": -0.16,
+      "progression_pct": -5.2
     },
     {
       "ticker": "EA",
