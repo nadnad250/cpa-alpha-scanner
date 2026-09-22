@@ -1,7 +1,7 @@
 {
   "risk_free_rate": 3.88,
-  "treasury_10y": 5.01,
-  "yield_curve": 0.2,
+  "treasury_10y": 4.96,
+  "yield_curve": 0.25,
   "vix": 14.87,
   "dollar_index": 119.5133,
   "unemployment": 4.1,
@@ -11,5 +11,5 @@
   "regime_reasons": [
     "VIX bas (14.87) — risk-on"
   ],
-  "fetched_at": "2026-09-22T16:54:31.820753"
+  "fetched_at": "2026-09-22T21:15:33.555039"
 }
