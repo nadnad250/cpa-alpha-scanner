@@ -67,5 +67,28 @@
     "ml_proba_up": null,
     "risk_reward": 2.2,
     "primary_reason": "Cassure ORB baissière (RVOL 2.3x, -VWAP) +gap"
+  },
+  {
+    "ticker": "ADP",
+    "action": "STRONG_SELL",
+    "entry_price": 265.82501220703125,
+    "stop_loss": 269.6300048828125,
+    "take_profit": 257.4540283203125,
+    "score": -0.47966633116880086,
+    "confidence": 0.7688581907467404,
+    "universe": "NASDAQ100",
+    "issued_at": "2026-09-23T18:50:47.104738",
+    "horizon_days": 1,
+    "horizon_hours": 24,
+    "status": "open",
+    "exit_price": null,
+    "exit_date": null,
+    "pnl_pct": null,
+    "max_favorable": null,
+    "max_adverse": null,
+    "sector": "",
+    "ml_proba_up": null,
+    "risk_reward": 2.2,
+    "primary_reason": "Cassure ORB baissière (RVOL 1.8x, -VWAP) +gap"
   }
 ]
