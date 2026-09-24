@@ -1,20 +1,20 @@
 {
-  "generated_at": "2026-09-24T20:50:36.883374",
+  "generated_at": "2026-09-24T22:39:06.060066",
   "date": "2026-09-24",
   "stats": {
-    "total": 9,
+    "total": 10,
     "buy_signals": 2,
-    "sell_signals": 7,
-    "avg_confidence": 0.82,
+    "sell_signals": 8,
+    "avg_confidence": 0.822,
     "avg_rr": 2.2,
     "win_rate": 0.36,
-    "active_positions": 9,
+    "active_positions": 10,
     "daily_pnl": -0.1798
   },
   "eod": {
     "tp_hit": 18,
     "sl_hit": 32,
-    "open": 9,
+    "open": 10,
     "cumulative_pnl": -0.1798
   },
   "signals": [
@@ -204,7 +204,37 @@
       "top_news_url": null,
       "status": "open",
       "issued_at": "2026-09-24T17:56:39.155979",
-      "last_seen": "2026-09-24T20:50:36.883374"
+      "last_seen": "2026-09-24T22:39:06.060066"
+    },
+    {
+      "ticker": "CTAS",
+      "action": "STRONG_SELL",
+      "price": 191.95,
+      "take_profit": 179.28,
+      "stop_loss": 197.71,
+      "upside_pct": 6.6,
+      "confidence": 0.838,
+      "score": -0.6425,
+      "risk_reward": 2.2,
+      "kelly_position": 0.1,
+      "cpa_alpha": null,
+      "ml_proba_up": null,
+      "sector": "—",
+      "universe": "NASDAQ100",
+      "primary_reason": "Cassure ORB baissière (RVOL 1.9x, -VWAP) +gap",
+      "secondary_reasons": [],
+      "risk_flags": [],
+      "intrinsic_value": null,
+      "value_gap": 0,
+      "factor_premia": 0,
+      "mean_reversion": 0,
+      "info_flow": 0,
+      "news_score": null,
+      "top_news_title": null,
+      "top_news_url": null,
+      "status": "open",
+      "issued_at": "2026-09-23T20:45:05.291856",
+      "last_seen": "2026-09-24T22:39:06.060066"
     },
     {
       "ticker": "EA",
