@@ -1,21 +1,21 @@
 {
-  "generated_at": "2026-09-24T12:50:28.917694",
+  "generated_at": "2026-09-24T17:29:49.958455+00:00",
   "date": "2026-09-24",
   "stats": {
-    "total": 6,
+    "total": 5,
     "buy_signals": 0,
-    "sell_signals": 6,
+    "sell_signals": 5,
     "avg_confidence": 0.868,
     "avg_rr": 2.2,
-    "win_rate": 0.34,
-    "active_positions": 6,
-    "daily_pnl": -0.1471
+    "win_rate": 0.333,
+    "active_positions": 5,
+    "daily_pnl": -0.1771
   },
   "eod": {
     "tp_hit": 17,
-    "sl_hit": 33,
-    "open": 6,
-    "cumulative_pnl": -0.1471
+    "sl_hit": 34,
+    "open": 5,
+    "cumulative_pnl": -0.1771
   },
   "signals": [
     {
@@ -50,7 +50,11 @@
       "top_news_url": null,
       "status": "open",
       "issued_at": "2026-09-23T17:57:15.735047",
-      "last_seen": "2026-09-24T12:50:28.917694"
+      "last_seen": "2026-09-24T12:50:28.917694",
+      "current_price": 150.65,
+      "current_price_time": "2026-09-24T17:29:49.958455+00:00",
+      "pnl_pct_live": -0.65,
+      "progression_pct": -21.8
     },
     {
       "ticker": "PAYX",
@@ -84,7 +88,11 @@
       "top_news_url": null,
       "status": "open",
       "issued_at": "2026-09-23T17:57:15.735064",
-      "last_seen": "2026-09-24T12:50:28.917694"
+      "last_seen": "2026-09-24T12:50:28.917694",
+      "current_price": 102.78,
+      "current_price_time": "2026-09-24T17:29:49.958455+00:00",
+      "pnl_pct_live": 1.64,
+      "progression_pct": 24.8
     },
     {
       "ticker": "CTAS",
@@ -116,9 +124,15 @@
       "news_score": null,
       "top_news_title": null,
       "top_news_url": null,
-      "status": "open",
+      "status": "sl_hit",
       "issued_at": "2026-09-23T20:45:05.291856",
-      "last_seen": "2026-09-24T12:50:28.917694"
+      "last_seen": "2026-09-24T12:50:28.917694",
+      "current_price": 197.74,
+      "current_price_time": "2026-09-24T17:29:49.958455+00:00",
+      "exit_price": 197.71,
+      "exit_date": "2026-09-24T17:29:49.958455+00:00",
+      "pnl_pct": -3.0,
+      "pnl_pct_live": -3.0
     },
     {
       "ticker": "EA",
@@ -186,14 +200,18 @@
       "top_news_url": null,
       "status": "open",
       "issued_at": "2026-09-23T17:57:15.735071",
-      "last_seen": "2026-09-24T12:50:28.917694"
+      "last_seen": "2026-09-24T12:50:28.917694",
+      "current_price": 156.11,
+      "current_price_time": "2026-09-24T17:29:49.958455+00:00",
+      "pnl_pct_live": -0.14,
+      "progression_pct": -4.7
     },
     {
       "ticker": "ADP",
       "action": "STRONG_SELL",
       "price": 265.83,
       "take_profit": 257.45,
-      "stop_loss": 269.63,
+      "stop_loss": 265.83,
       "upside_pct": 3.1,
       "confidence": 0.769,
       "score": -0.4797,
@@ -216,7 +234,12 @@
       "top_news_url": null,
       "status": "open",
       "issued_at": "2026-09-23T18:50:47.104738",
-      "last_seen": "2026-09-24T12:50:28.917694"
+      "last_seen": "2026-09-24T12:50:28.917694",
+      "current_price": 262.21,
+      "current_price_time": "2026-09-24T17:29:49.958455+00:00",
+      "pnl_pct_live": 1.36,
+      "trail_level": 1,
+      "progression_pct": 43.2
     },
     {
       "ticker": "ARM",
