@@ -1,21 +1,21 @@
 {
-  "generated_at": "2026-09-25T12:53:03.378731",
+  "generated_at": "2026-09-25T17:32:27.918384+00:00",
   "date": "2026-09-25",
   "stats": {
-    "total": 5,
-    "buy_signals": 2,
-    "sell_signals": 3,
+    "total": 3,
+    "buy_signals": 1,
+    "sell_signals": 2,
     "avg_confidence": 0.785,
     "avg_rr": 2.2,
-    "win_rate": 0.34,
-    "active_positions": 5,
-    "daily_pnl": -0.1784
+    "win_rate": 0.327,
+    "active_positions": 3,
+    "daily_pnl": -0.2384
   },
   "eod": {
     "tp_hit": 17,
-    "sl_hit": 33,
-    "open": 5,
-    "cumulative_pnl": -0.1784
+    "sl_hit": 35,
+    "open": 3,
+    "cumulative_pnl": -0.2384
   },
   "signals": [
     {
@@ -48,9 +48,15 @@
       "news_score": null,
       "top_news_title": null,
       "top_news_url": null,
-      "status": "open",
+      "status": "sl_hit",
       "issued_at": "2026-09-24T17:56:39.155996",
-      "last_seen": "2026-09-25T12:53:03.378731"
+      "last_seen": "2026-09-25T12:53:03.378731",
+      "current_price": 749.95,
+      "current_price_time": "2026-09-25T17:32:27.918384+00:00",
+      "exit_price": 754.12,
+      "exit_date": "2026-09-25T17:32:27.918384+00:00",
+      "pnl_pct": -3.0,
+      "pnl_pct_live": -3.0
     },
     {
       "ticker": "CTAS",
@@ -80,7 +86,11 @@
       "top_news_url": null,
       "status": "open",
       "issued_at": "2026-09-24T17:56:39.156003",
-      "last_seen": "2026-09-25T12:53:03.378731"
+      "last_seen": "2026-09-25T12:53:03.378731",
+      "current_price": 199.68,
+      "current_price_time": "2026-09-25T17:32:27.918384+00:00",
+      "pnl_pct_live": 0.9,
+      "progression_pct": 13.6
     },
     {
       "ticker": "ARM",
@@ -112,9 +122,15 @@
       "news_score": null,
       "top_news_title": null,
       "top_news_url": null,
-      "status": "open",
+      "status": "sl_hit",
       "issued_at": "2026-09-24T17:56:39.155979",
-      "last_seen": "2026-09-25T12:53:03.378731"
+      "last_seen": "2026-09-25T12:53:03.378731",
+      "current_price": 317.11,
+      "current_price_time": "2026-09-25T17:32:27.918384+00:00",
+      "exit_price": 315.62,
+      "exit_date": "2026-09-25T17:32:27.918384+00:00",
+      "pnl_pct": -3.0,
+      "pnl_pct_live": -3.0
     },
     {
       "ticker": "EA",
@@ -178,7 +194,11 @@
       "top_news_url": null,
       "status": "open",
       "issued_at": "2026-09-24T17:56:39.156009",
-      "last_seen": "2026-09-25T12:53:03.378731"
+      "last_seen": "2026-09-25T12:53:03.378731",
+      "current_price": 50.82,
+      "current_price_time": "2026-09-25T17:32:27.918384+00:00",
+      "pnl_pct_live": -0.38,
+      "progression_pct": -36.5
     },
     {
       "ticker": "ARM",
