@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-29T00:58:08.456573+00:00",
+  "generated_at": "2026-09-29T13:41:34.372760+00:00",
   "date": "2026-09-28",
   "stats": {
     "total": 5,
@@ -87,10 +87,10 @@
       "status": "open",
       "issued_at": "2026-09-28T15:47:13.321634",
       "last_seen": "2026-09-28T23:52:56.675913",
-      "current_price": 334.6,
-      "current_price_time": "2026-09-29T00:58:08.456573+00:00",
-      "pnl_pct_live": 0.0,
-      "progression_pct": 0.0
+      "current_price": 324.94,
+      "current_price_time": "2026-09-29T13:41:34.372760+00:00",
+      "pnl_pct_live": -2.89,
+      "progression_pct": -96.2
     },
     {
       "ticker": "COST",
@@ -233,10 +233,10 @@
       "status": "open",
       "issued_at": "2026-09-28T20:13:20.929818",
       "last_seen": "2026-09-28T23:52:56.675913",
-      "current_price": 41.89,
-      "current_price_time": "2026-09-29T00:58:08.456573+00:00",
-      "pnl_pct_live": 0.0,
-      "progression_pct": 0.0
+      "current_price": 41.24,
+      "current_price_time": "2026-09-29T13:41:34.372760+00:00",
+      "pnl_pct_live": 1.55,
+      "progression_pct": 23.5
     },
     {
       "ticker": "EA",
@@ -341,10 +341,10 @@
       "status": "open",
       "issued_at": "2026-09-28T20:13:20.929830",
       "last_seen": "2026-09-28T23:52:56.675913",
-      "current_price": 752.24,
-      "current_price_time": "2026-09-29T00:58:08.456573+00:00",
-      "pnl_pct_live": 0.0,
-      "progression_pct": 0.0
+      "current_price": 747.84,
+      "current_price_time": "2026-09-29T13:41:34.372760+00:00",
+      "pnl_pct_live": 0.58,
+      "progression_pct": 8.9
     },
     {
       "ticker": "ARM",
@@ -379,10 +379,10 @@
       "status": "open",
       "issued_at": "2026-09-28T15:47:13.321645",
       "last_seen": "2026-09-28T23:52:56.675913",
-      "current_price": 283.26,
-      "current_price_time": "2026-09-29T00:58:08.456573+00:00",
-      "pnl_pct_live": 0.0,
-      "progression_pct": 0.0
+      "current_price": 290.29,
+      "current_price_time": "2026-09-29T13:41:34.372760+00:00",
+      "pnl_pct_live": -2.48,
+      "progression_pct": -82.7
     },
     {
       "ticker": "ARM",
