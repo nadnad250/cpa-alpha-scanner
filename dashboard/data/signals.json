@@ -1,21 +1,21 @@
 {
-  "generated_at": "2026-10-01T19:00:41.085732",
+  "generated_at": "2026-10-01T19:31:03.955668+00:00",
   "date": "2026-10-01",
   "stats": {
-    "total": 10,
-    "buy_signals": 4,
-    "sell_signals": 6,
+    "total": 8,
+    "buy_signals": 3,
+    "sell_signals": 5,
     "avg_confidence": 0.768,
     "avg_rr": 2.2,
-    "win_rate": 0.46,
-    "active_positions": 10,
-    "daily_pnl": 0.0534
+    "win_rate": 0.481,
+    "active_positions": 8,
+    "daily_pnl": 0.2066
   },
   "eod": {
-    "tp_hit": 23,
+    "tp_hit": 25,
     "sl_hit": 27,
-    "open": 10,
-    "cumulative_pnl": 0.0534
+    "open": 8,
+    "cumulative_pnl": 0.2066
   },
   "signals": [
     {
@@ -44,9 +44,15 @@
       "news_score": null,
       "top_news_title": null,
       "top_news_url": null,
-      "status": "open",
+      "status": "expired",
       "issued_at": "2026-09-30T18:32:52.942934",
-      "last_seen": "2026-10-01T14:41:04.669229"
+      "last_seen": "2026-10-01T14:41:04.669229",
+      "current_price": 492.95,
+      "current_price_time": "2026-10-01T19:31:03.955668+00:00",
+      "exit_price": 492.95,
+      "exit_date": "2026-10-01T19:31:03.955668+00:00",
+      "pnl_pct": 12.28,
+      "pnl_pct_live": 12.28
     },
     {
       "ticker": "KDP",
@@ -80,7 +86,11 @@
       "top_news_url": null,
       "status": "open",
       "issued_at": "2026-10-01T14:41:04.668621",
-      "last_seen": "2026-10-01T14:41:04.669229"
+      "last_seen": "2026-10-01T14:41:04.669229",
+      "current_price": 30.53,
+      "current_price_time": "2026-10-01T19:31:03.955668+00:00",
+      "pnl_pct_live": -1.99,
+      "progression_pct": -78.5
     },
     {
       "ticker": "WOLF",
@@ -114,7 +124,11 @@
       "top_news_url": null,
       "status": "open",
       "issued_at": "2026-10-01T19:00:41.084942",
-      "last_seen": "2026-10-01T19:00:41.085732"
+      "last_seen": "2026-10-01T19:00:41.085732",
+      "current_price": 30.77,
+      "current_price_time": "2026-10-01T19:31:03.955668+00:00",
+      "pnl_pct_live": -0.13,
+      "progression_pct": -4.3
     },
     {
       "ticker": "MU",
@@ -148,7 +162,11 @@
       "top_news_url": null,
       "status": "open",
       "issued_at": "2026-10-01T19:00:41.084953",
-      "last_seen": "2026-10-01T19:00:41.085732"
+      "last_seen": "2026-10-01T19:00:41.085732",
+      "current_price": 1091.43,
+      "current_price_time": "2026-10-01T19:31:03.955668+00:00",
+      "pnl_pct_live": 0.03,
+      "progression_pct": 0.4
     },
     {
       "ticker": "EA",
@@ -210,9 +228,15 @@
       "news_score": null,
       "top_news_title": null,
       "top_news_url": null,
-      "status": "open",
+      "status": "expired",
       "issued_at": "2026-09-30T14:05:54.313674",
-      "last_seen": "2026-10-01T14:41:04.669229"
+      "last_seen": "2026-10-01T14:41:04.669229",
+      "current_price": 111.85,
+      "current_price_time": "2026-10-01T19:31:03.955668+00:00",
+      "exit_price": 111.85,
+      "exit_date": "2026-10-01T19:31:03.955668+00:00",
+      "pnl_pct": 3.04,
+      "pnl_pct_live": 3.04
     },
     {
       "ticker": "REGN",
@@ -246,7 +270,11 @@
       "top_news_url": null,
       "status": "open",
       "issued_at": "2026-10-01T14:41:04.668635",
-      "last_seen": "2026-10-01T14:41:04.669229"
+      "last_seen": "2026-10-01T14:41:04.669229",
+      "current_price": 740.26,
+      "current_price_time": "2026-10-01T19:31:03.955668+00:00",
+      "pnl_pct_live": -0.9,
+      "progression_pct": -29.9
     },
     {
       "ticker": "CEG",
@@ -280,7 +308,11 @@
       "top_news_url": null,
       "status": "open",
       "issued_at": "2026-10-01T19:00:41.084957",
-      "last_seen": "2026-10-01T19:00:41.085732"
+      "last_seen": "2026-10-01T19:00:41.085732",
+      "current_price": 257.39,
+      "current_price_time": "2026-10-01T19:31:03.955668+00:00",
+      "pnl_pct_live": 0.12,
+      "progression_pct": 2.0
     },
     {
       "ticker": "HOOD",
@@ -310,7 +342,11 @@
       "top_news_url": null,
       "status": "open",
       "issued_at": "2026-09-30T23:08:40.132979",
-      "last_seen": "2026-10-01T19:00:41.085732"
+      "last_seen": "2026-10-01T19:00:41.085732",
+      "current_price": 111.85,
+      "current_price_time": "2026-10-01T19:31:03.955668+00:00",
+      "pnl_pct_live": 0.6,
+      "progression_pct": 9.0
     },
     {
       "ticker": "KHC",
@@ -344,7 +380,11 @@
       "top_news_url": null,
       "status": "open",
       "issued_at": "2026-10-01T14:41:04.668640",
-      "last_seen": "2026-10-01T14:41:04.669229"
+      "last_seen": "2026-10-01T14:41:04.669229",
+      "current_price": 22.27,
+      "current_price_time": "2026-10-01T19:31:03.955668+00:00",
+      "pnl_pct_live": -0.59,
+      "progression_pct": -24.5
     },
     {
       "ticker": "ARM",
