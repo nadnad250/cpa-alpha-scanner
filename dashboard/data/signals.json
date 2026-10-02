@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-02T19:45:31.487686",
+  "generated_at": "2026-10-02T20:53:09.701650",
   "date": "2026-10-02",
   "stats": {
     "total": 10,
@@ -18,6 +18,40 @@
     "cumulative_pnl": 0.1212
   },
   "signals": [
+    {
+      "ticker": "WOLF",
+      "action": "STRONG_BUY",
+      "price": 35.26,
+      "take_profit": 37.59,
+      "stop_loss": 34.2,
+      "upside_pct": 6.6,
+      "confidence": 0.967,
+      "score": 0.9456,
+      "risk_reward": 2.2,
+      "kelly_position": 0.12,
+      "cpa_alpha": null,
+      "ml_proba_up": null,
+      "sector": "—",
+      "universe": "NASDAQ100",
+      "primary_reason": "Cassure ORB haussière (RVOL 3.5x, +VWAP) +gap",
+      "secondary_reasons": [
+        "RVOL 3.5x",
+        "VWAP au-dessus",
+        "Gap +3.6%"
+      ],
+      "risk_flags": [],
+      "intrinsic_value": 37.59,
+      "value_gap": null,
+      "factor_premia": null,
+      "mean_reversion": null,
+      "info_flow": null,
+      "news_score": null,
+      "top_news_title": null,
+      "top_news_url": null,
+      "status": "open",
+      "issued_at": "2026-10-01T19:00:41.084942",
+      "last_seen": "2026-10-02T20:53:09.701650"
+    },
     {
       "ticker": "SNPS",
       "action": "STRONG_BUY",
@@ -47,40 +81,6 @@
       "status": "open",
       "issued_at": "2026-10-01T20:06:39.103349",
       "last_seen": "2026-10-02T14:01:54.016709"
-    },
-    {
-      "ticker": "WOLF",
-      "action": "STRONG_BUY",
-      "price": 35.19,
-      "take_profit": 37.51,
-      "stop_loss": 34.13,
-      "upside_pct": 6.6,
-      "confidence": 0.962,
-      "score": 0.9352,
-      "risk_reward": 2.2,
-      "kelly_position": 0.12,
-      "cpa_alpha": null,
-      "ml_proba_up": null,
-      "sector": "—",
-      "universe": "NASDAQ100",
-      "primary_reason": "Cassure ORB haussière (RVOL 3.7x, +VWAP) +gap",
-      "secondary_reasons": [
-        "RVOL 3.7x",
-        "VWAP au-dessus",
-        "Gap +3.6%"
-      ],
-      "risk_flags": [],
-      "intrinsic_value": 37.51,
-      "value_gap": null,
-      "factor_premia": null,
-      "mean_reversion": null,
-      "info_flow": null,
-      "news_score": null,
-      "top_news_title": null,
-      "top_news_url": null,
-      "status": "open",
-      "issued_at": "2026-10-01T19:00:41.084942",
-      "last_seen": "2026-10-02T19:45:31.487686"
     },
     {
       "ticker": "KDP",
