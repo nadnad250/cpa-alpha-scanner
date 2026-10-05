@@ -1,21 +1,21 @@
 {
-  "generated_at": "2026-10-05T21:49:58.243715",
+  "generated_at": "2026-10-05T22:09:01.233659+00:00",
   "date": "2026-10-05",
   "stats": {
-    "total": 7,
-    "buy_signals": 5,
-    "sell_signals": 2,
+    "total": 1,
+    "buy_signals": 0,
+    "sell_signals": 1,
     "avg_confidence": 0.829,
     "avg_rr": 2.2,
-    "win_rate": 0.5,
-    "active_positions": 7,
-    "daily_pnl": 0.047
+    "win_rate": 0.482,
+    "active_positions": 1,
+    "daily_pnl": 0.0009
   },
   "eod": {
-    "tp_hit": 25,
-    "sl_hit": 25,
-    "open": 7,
-    "cumulative_pnl": 0.047
+    "tp_hit": 27,
+    "sl_hit": 29,
+    "open": 1,
+    "cumulative_pnl": 0.0009
   },
   "signals": [
     {
@@ -44,9 +44,15 @@
       "news_score": null,
       "top_news_title": null,
       "top_news_url": null,
-      "status": "open",
+      "status": "expired",
       "issued_at": "2026-10-02T23:08:47.217449",
-      "last_seen": "2026-10-05T16:18:33.442882"
+      "last_seen": "2026-10-05T16:18:33.442882",
+      "current_price": 33.5,
+      "current_price_time": "2026-10-05T22:09:01.233659+00:00",
+      "exit_price": 33.5,
+      "exit_date": "2026-10-05T22:09:01.233659+00:00",
+      "pnl_pct": -4.99,
+      "pnl_pct_live": -4.99
     },
     {
       "ticker": "DKNG",
@@ -78,9 +84,15 @@
       "news_score": null,
       "top_news_title": null,
       "top_news_url": null,
-      "status": "open",
+      "status": "expired",
       "issued_at": "2026-10-05T16:18:33.442463",
-      "last_seen": "2026-10-05T16:18:33.442882"
+      "last_seen": "2026-10-05T16:18:33.442882",
+      "current_price": 19.58,
+      "current_price_time": "2026-10-05T22:09:01.233659+00:00",
+      "exit_price": 19.58,
+      "exit_date": "2026-10-05T22:09:01.233659+00:00",
+      "pnl_pct": -2.64,
+      "pnl_pct_live": -2.64
     },
     {
       "ticker": "MELI",
@@ -112,9 +124,15 @@
       "news_score": null,
       "top_news_title": null,
       "top_news_url": null,
-      "status": "open",
+      "status": "expired",
       "issued_at": "2026-10-05T21:23:30.772555",
-      "last_seen": "2026-10-05T21:49:58.243715"
+      "last_seen": "2026-10-05T21:49:58.243715",
+      "current_price": 1861.5,
+      "current_price_time": "2026-10-05T22:09:01.233659+00:00",
+      "exit_price": 1861.5,
+      "exit_date": "2026-10-05T22:09:01.233659+00:00",
+      "pnl_pct": 0.0,
+      "pnl_pct_live": 0.0
     },
     {
       "ticker": "NVDA",
@@ -142,9 +160,15 @@
       "news_score": null,
       "top_news_title": null,
       "top_news_url": null,
-      "status": "open",
+      "status": "expired",
       "issued_at": "2026-10-02T14:01:54.016126",
-      "last_seen": "2026-10-05T16:18:33.442882"
+      "last_seen": "2026-10-05T16:18:33.442882",
+      "current_price": 239.11,
+      "current_price_time": "2026-10-05T22:09:01.233659+00:00",
+      "exit_price": 239.11,
+      "exit_date": "2026-10-05T22:09:01.233659+00:00",
+      "pnl_pct": 0.59,
+      "pnl_pct_live": 0.59
     },
     {
       "ticker": "BNTX",
@@ -176,9 +200,15 @@
       "news_score": null,
       "top_news_title": null,
       "top_news_url": null,
-      "status": "open",
+      "status": "expired",
       "issued_at": "2026-10-05T21:23:30.772564",
-      "last_seen": "2026-10-05T21:49:58.243715"
+      "last_seen": "2026-10-05T21:49:58.243715",
+      "current_price": 97.56,
+      "current_price_time": "2026-10-05T22:09:01.233659+00:00",
+      "exit_price": 97.56,
+      "exit_date": "2026-10-05T22:09:01.233659+00:00",
+      "pnl_pct": 0.0,
+      "pnl_pct_live": 0.0
     },
     {
       "ticker": "EA",
@@ -240,9 +270,15 @@
       "news_score": null,
       "top_news_title": null,
       "top_news_url": null,
-      "status": "open",
+      "status": "expired",
       "issued_at": "2026-10-02T14:01:54.016137",
-      "last_seen": "2026-10-05T16:18:33.442882"
+      "last_seen": "2026-10-05T16:18:33.442882",
+      "current_price": 226.42,
+      "current_price_time": "2026-10-05T22:09:01.233659+00:00",
+      "exit_price": 226.42,
+      "exit_date": "2026-10-05T22:09:01.233659+00:00",
+      "pnl_pct": 2.43,
+      "pnl_pct_live": 2.43
     },
     {
       "ticker": "ARM",
