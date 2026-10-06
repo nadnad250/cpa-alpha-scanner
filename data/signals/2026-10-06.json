@@ -136,5 +136,28 @@
     "ml_proba_up": null,
     "risk_reward": 2.2,
     "primary_reason": "Cassure ORB baissière (RVOL 1.7x, -VWAP)"
+  },
+  {
+    "ticker": "WOLF",
+    "action": "STRONG_SELL",
+    "entry_price": 31.825000762939453,
+    "stop_loss": 32.77975078582764,
+    "take_profit": 29.724550712585447,
+    "score": -0.5335831702709122,
+    "confidence": 0.7917728473651378,
+    "universe": "NASDAQ100",
+    "issued_at": "2026-10-06T21:56:20.631691",
+    "horizon_days": 1,
+    "horizon_hours": 24,
+    "status": "open",
+    "exit_price": null,
+    "exit_date": null,
+    "pnl_pct": null,
+    "max_favorable": null,
+    "max_adverse": null,
+    "sector": "",
+    "ml_proba_up": null,
+    "risk_reward": 2.2,
+    "primary_reason": "Cassure ORB baissière (RVOL 2.7x, -VWAP) (contre-gap)"
   }
 ]
