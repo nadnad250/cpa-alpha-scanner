@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-10-05T23:23:58.315399",
-  "date": "2026-10-05",
+  "generated_at": "2026-10-06T00:54:45.441822",
+  "date": "2026-10-06",
   "stats": {
     "total": 7,
     "buy_signals": 5,
@@ -110,7 +110,7 @@
       "top_news_url": null,
       "status": "open",
       "issued_at": "2026-10-05T21:23:30.772555",
-      "last_seen": "2026-10-05T23:23:58.315399"
+      "last_seen": "2026-10-06T00:54:45.441822"
     },
     {
       "ticker": "NVDA",
@@ -174,7 +174,7 @@
       "top_news_url": null,
       "status": "open",
       "issued_at": "2026-10-05T21:23:30.772564",
-      "last_seen": "2026-10-05T23:23:58.315399"
+      "last_seen": "2026-10-06T00:54:45.441822"
     },
     {
       "ticker": "EA",
