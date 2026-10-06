@@ -1,21 +1,21 @@
 {
-  "generated_at": "2026-10-06T00:54:45.441822",
+  "generated_at": "2026-10-06T13:52:06.309870+00:00",
   "date": "2026-10-06",
   "stats": {
-    "total": 7,
-    "buy_signals": 5,
-    "sell_signals": 2,
+    "total": 4,
+    "buy_signals": 3,
+    "sell_signals": 1,
     "avg_confidence": 0.829,
     "avg_rr": 2.2,
-    "win_rate": 0.48,
-    "active_positions": 7,
-    "daily_pnl": 0.0231
+    "win_rate": 0.491,
+    "active_positions": 4,
+    "daily_pnl": 0.0365
   },
   "eod": {
-    "tp_hit": 24,
-    "sl_hit": 26,
-    "open": 7,
-    "cumulative_pnl": 0.0231
+    "tp_hit": 26,
+    "sl_hit": 27,
+    "open": 4,
+    "cumulative_pnl": 0.0365
   },
   "signals": [
     {
@@ -44,9 +44,15 @@
       "news_score": null,
       "top_news_title": null,
       "top_news_url": null,
-      "status": "open",
+      "status": "expired",
       "issued_at": "2026-10-02T23:08:47.217449",
-      "last_seen": "2026-10-05T22:51:58.174837"
+      "last_seen": "2026-10-05T22:51:58.174837",
+      "current_price": 34.17,
+      "current_price_time": "2026-10-06T13:52:06.309870+00:00",
+      "exit_price": 34.17,
+      "exit_date": "2026-10-06T13:52:06.309870+00:00",
+      "pnl_pct": -3.09,
+      "pnl_pct_live": -3.09
     },
     {
       "ticker": "DKNG",
@@ -76,7 +82,11 @@
       "top_news_url": null,
       "status": "open",
       "issued_at": "2026-10-05T16:18:33.442463",
-      "last_seen": "2026-10-05T22:51:58.174837"
+      "last_seen": "2026-10-05T22:51:58.174837",
+      "current_price": 19.98,
+      "current_price_time": "2026-10-06T13:52:06.309870+00:00",
+      "pnl_pct_live": -0.65,
+      "progression_pct": -21.7
     },
     {
       "ticker": "MELI",
@@ -110,7 +120,11 @@
       "top_news_url": null,
       "status": "open",
       "issued_at": "2026-10-05T21:23:30.772555",
-      "last_seen": "2026-10-06T00:54:45.441822"
+      "last_seen": "2026-10-06T00:54:45.441822",
+      "current_price": 1847.38,
+      "current_price_time": "2026-10-06T13:52:06.309870+00:00",
+      "pnl_pct_live": -0.76,
+      "progression_pct": -25.3
     },
     {
       "ticker": "NVDA",
@@ -138,9 +152,15 @@
       "news_score": null,
       "top_news_title": null,
       "top_news_url": null,
-      "status": "open",
+      "status": "expired",
       "issued_at": "2026-10-02T14:01:54.016126",
-      "last_seen": "2026-10-05T22:51:58.174837"
+      "last_seen": "2026-10-05T22:51:58.174837",
+      "current_price": 242.11,
+      "current_price_time": "2026-10-06T13:52:06.309870+00:00",
+      "exit_price": 242.11,
+      "exit_date": "2026-10-06T13:52:06.309870+00:00",
+      "pnl_pct": 1.85,
+      "pnl_pct_live": 1.85
     },
     {
       "ticker": "BNTX",
@@ -174,7 +194,11 @@
       "top_news_url": null,
       "status": "open",
       "issued_at": "2026-10-05T21:23:30.772564",
-      "last_seen": "2026-10-06T00:54:45.441822"
+      "last_seen": "2026-10-06T00:54:45.441822",
+      "current_price": 98.25,
+      "current_price_time": "2026-10-06T13:52:06.309870+00:00",
+      "pnl_pct_live": 0.71,
+      "progression_pct": 13.3
     },
     {
       "ticker": "EA",
@@ -236,9 +260,15 @@
       "news_score": null,
       "top_news_title": null,
       "top_news_url": null,
-      "status": "open",
+      "status": "expired",
       "issued_at": "2026-10-02T14:01:54.016137",
-      "last_seen": "2026-10-05T22:51:58.174837"
+      "last_seen": "2026-10-05T22:51:58.174837",
+      "current_price": 226.07,
+      "current_price_time": "2026-10-06T13:52:06.309870+00:00",
+      "exit_price": 226.07,
+      "exit_date": "2026-10-06T13:52:06.309870+00:00",
+      "pnl_pct": 2.58,
+      "pnl_pct_live": 2.58
     },
     {
       "ticker": "ARM",
