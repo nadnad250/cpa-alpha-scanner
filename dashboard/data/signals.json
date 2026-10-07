@@ -1,21 +1,21 @@
 {
-  "generated_at": "2026-10-07T19:29:26.414303",
+  "generated_at": "2026-10-07T19:58:26.515798+00:00",
   "date": "2026-10-07",
   "stats": {
-    "total": 10,
-    "buy_signals": 2,
-    "sell_signals": 8,
+    "total": 2,
+    "buy_signals": 0,
+    "sell_signals": 2,
     "avg_confidence": 0.836,
     "avg_rr": 2.2,
-    "win_rate": 0.5,
-    "active_positions": 10,
-    "daily_pnl": -0.0585
+    "win_rate": 0.517,
+    "active_positions": 2,
+    "daily_pnl": -0.0485
   },
   "eod": {
-    "tp_hit": 25,
-    "sl_hit": 25,
-    "open": 10,
-    "cumulative_pnl": -0.0585
+    "tp_hit": 30,
+    "sl_hit": 28,
+    "open": 2,
+    "cumulative_pnl": -0.0485
   },
   "signals": [
     {
@@ -44,9 +44,15 @@
       "news_score": null,
       "top_news_title": null,
       "top_news_url": null,
-      "status": "open",
+      "status": "expired",
       "issued_at": "2026-10-06T14:24:12.109977",
-      "last_seen": "2026-10-07T19:29:26.414303"
+      "last_seen": "2026-10-07T19:29:26.414303",
+      "current_price": 21.99,
+      "current_price_time": "2026-10-07T19:58:26.515798+00:00",
+      "exit_price": 21.99,
+      "exit_date": "2026-10-07T19:58:26.515798+00:00",
+      "pnl_pct": 0.23,
+      "pnl_pct_live": 0.23
     },
     {
       "ticker": "GOOGL",
@@ -78,9 +84,15 @@
       "news_score": null,
       "top_news_title": null,
       "top_news_url": null,
-      "status": "open",
+      "status": "expired",
       "issued_at": "2026-10-07T19:29:26.413654",
-      "last_seen": "2026-10-07T19:29:26.414303"
+      "last_seen": "2026-10-07T19:29:26.414303",
+      "current_price": 350.69,
+      "current_price_time": "2026-10-07T19:58:26.515798+00:00",
+      "exit_price": 350.69,
+      "exit_date": "2026-10-07T19:58:26.515798+00:00",
+      "pnl_pct": 0.27,
+      "pnl_pct_live": 0.27
     },
     {
       "ticker": "NVDA",
@@ -112,9 +124,15 @@
       "news_score": null,
       "top_news_title": null,
       "top_news_url": null,
-      "status": "open",
+      "status": "expired",
       "issued_at": "2026-10-07T19:29:26.413645",
-      "last_seen": "2026-10-07T19:29:26.414303"
+      "last_seen": "2026-10-07T19:29:26.414303",
+      "current_price": 237.48,
+      "current_price_time": "2026-10-07T19:58:26.515798+00:00",
+      "exit_price": 237.48,
+      "exit_date": "2026-10-07T19:58:26.515798+00:00",
+      "pnl_pct": -0.19,
+      "pnl_pct_live": -0.19
     },
     {
       "ticker": "ADBE",
@@ -146,9 +164,15 @@
       "news_score": null,
       "top_news_title": null,
       "top_news_url": null,
-      "status": "open",
+      "status": "expired",
       "issued_at": "2026-10-07T14:39:46.980699",
-      "last_seen": "2026-10-07T14:39:46.981253"
+      "last_seen": "2026-10-07T14:39:46.981253",
+      "current_price": 232.73,
+      "current_price_time": "2026-10-07T19:58:26.515798+00:00",
+      "exit_price": 232.73,
+      "exit_date": "2026-10-07T19:58:26.515798+00:00",
+      "pnl_pct": -1.99,
+      "pnl_pct_live": -1.99
     },
     {
       "ticker": "EA",
@@ -214,9 +238,15 @@
       "news_score": null,
       "top_news_title": null,
       "top_news_url": null,
-      "status": "open",
+      "status": "expired",
       "issued_at": "2026-10-07T14:39:46.980712",
-      "last_seen": "2026-10-07T14:39:46.981253"
+      "last_seen": "2026-10-07T14:39:46.981253",
+      "current_price": 123.65,
+      "current_price_time": "2026-10-07T19:58:26.515798+00:00",
+      "exit_price": 123.65,
+      "exit_date": "2026-10-07T19:58:26.515798+00:00",
+      "pnl_pct": 1.0,
+      "pnl_pct_live": 1.0
     },
     {
       "ticker": "MRNA",
@@ -244,9 +274,15 @@
       "news_score": null,
       "top_news_title": null,
       "top_news_url": null,
-      "status": "open",
+      "status": "expired",
       "issued_at": "2026-10-06T14:24:12.109990",
-      "last_seen": "2026-10-07T19:29:26.414303"
+      "last_seen": "2026-10-07T19:29:26.414303",
+      "current_price": 196.0,
+      "current_price_time": "2026-10-07T19:58:26.515798+00:00",
+      "exit_price": 196.0,
+      "exit_date": "2026-10-07T19:58:26.515798+00:00",
+      "pnl_pct": -3.88,
+      "pnl_pct_live": -3.88
     },
     {
       "ticker": "CRSP",
@@ -274,9 +310,15 @@
       "news_score": null,
       "top_news_title": null,
       "top_news_url": null,
-      "status": "open",
+      "status": "expired",
       "issued_at": "2026-10-06T14:24:12.109994",
-      "last_seen": "2026-10-07T19:29:26.414303"
+      "last_seen": "2026-10-07T19:29:26.414303",
+      "current_price": 52.38,
+      "current_price_time": "2026-10-07T19:58:26.515798+00:00",
+      "exit_price": 52.38,
+      "exit_date": "2026-10-07T19:58:26.515798+00:00",
+      "pnl_pct": 4.26,
+      "pnl_pct_live": 4.26
     },
     {
       "ticker": "WOLF",
@@ -306,7 +348,11 @@
       "top_news_url": null,
       "status": "open",
       "issued_at": "2026-10-06T21:56:20.631691",
-      "last_seen": "2026-10-07T19:29:26.414303"
+      "last_seen": "2026-10-07T19:29:26.414303",
+      "current_price": 31.43,
+      "current_price_time": "2026-10-07T19:58:26.515798+00:00",
+      "pnl_pct_live": 1.26,
+      "progression_pct": 19.0
     },
     {
       "ticker": "CPRT",
@@ -334,9 +380,15 @@
       "news_score": null,
       "top_news_title": null,
       "top_news_url": null,
-      "status": "open",
+      "status": "expired",
       "issued_at": "2026-10-06T14:24:12.109997",
-      "last_seen": "2026-10-07T19:29:26.414303"
+      "last_seen": "2026-10-07T19:29:26.414303",
+      "current_price": 26.6,
+      "current_price_time": "2026-10-07T19:58:26.515798+00:00",
+      "exit_price": 26.6,
+      "exit_date": "2026-10-07T19:58:26.515798+00:00",
+      "pnl_pct": 1.3,
+      "pnl_pct_live": 1.3
     },
     {
       "ticker": "WOLF",
