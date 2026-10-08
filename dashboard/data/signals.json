@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-08T21:26:43.219297",
+  "generated_at": "2026-10-08T22:32:28.557638",
   "date": "2026-10-08",
   "stats": {
     "total": 10,
@@ -50,7 +50,7 @@
       "top_news_url": null,
       "status": "open",
       "issued_at": "2026-10-08T14:47:24.380378",
-      "last_seen": "2026-10-08T21:26:43.219297"
+      "last_seen": "2026-10-08T22:32:28.557638"
     },
     {
       "ticker": "KHC",
@@ -84,7 +84,7 @@
       "top_news_url": null,
       "status": "open",
       "issued_at": "2026-10-08T20:30:10.491363",
-      "last_seen": "2026-10-08T20:30:10.492147"
+      "last_seen": "2026-10-08T22:32:28.557638"
     },
     {
       "ticker": "NVDA",
@@ -182,7 +182,7 @@
       "top_news_url": null,
       "status": "open",
       "issued_at": "2026-10-08T19:24:55.845745",
-      "last_seen": "2026-10-08T21:26:43.219297"
+      "last_seen": "2026-10-08T22:32:28.557638"
     },
     {
       "ticker": "ASML",
@@ -314,7 +314,7 @@
       "top_news_url": null,
       "status": "open",
       "issued_at": "2026-10-08T14:47:24.380388",
-      "last_seen": "2026-10-08T20:30:10.492147"
+      "last_seen": "2026-10-08T22:32:28.557638"
     },
     {
       "ticker": "CEG",
