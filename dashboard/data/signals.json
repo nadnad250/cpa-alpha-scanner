@@ -1,20 +1,20 @@
 {
-  "generated_at": "2026-10-08T00:04:19.415221+00:00",
+  "generated_at": "2026-10-08T14:19:52.044758+00:00",
   "date": "2026-10-07",
   "stats": {
-    "total": 5,
+    "total": 4,
     "buy_signals": 1,
-    "sell_signals": 4,
+    "sell_signals": 3,
     "avg_confidence": 0.837,
     "avg_rr": 2.2,
-    "win_rate": 0.509,
-    "active_positions": 5,
+    "win_rate": 0.5,
+    "active_positions": 4,
     "daily_pnl": -0.1046
   },
   "eod": {
     "tp_hit": 28,
-    "sl_hit": 27,
-    "open": 5,
+    "sl_hit": 28,
+    "open": 4,
     "cumulative_pnl": -0.1046
   },
   "signals": [
@@ -87,17 +87,17 @@
       "status": "open",
       "issued_at": "2026-10-07T19:29:26.413654",
       "last_seen": "2026-10-07T22:20:36.002146",
-      "current_price": 350.37,
-      "current_price_time": "2026-10-08T00:04:19.415221+00:00",
-      "pnl_pct_live": 0.0,
-      "progression_pct": 0.0
+      "current_price": 352.13,
+      "current_price_time": "2026-10-08T14:19:52.044758+00:00",
+      "pnl_pct_live": 0.5,
+      "progression_pct": 16.8
     },
     {
       "ticker": "NVDA",
       "action": "STRONG_SELL",
       "price": 237.04,
       "take_profit": 233.91,
-      "stop_loss": 238.46,
+      "stop_loss": 237.04,
       "upside_pct": 1.3,
       "confidence": 0.911,
       "score": -0.8141,
@@ -121,10 +121,11 @@
       "status": "open",
       "issued_at": "2026-10-07T19:29:26.413645",
       "last_seen": "2026-10-07T20:25:11.972404",
-      "current_price": 237.36,
-      "current_price_time": "2026-10-08T00:04:19.415221+00:00",
-      "pnl_pct_live": -0.13,
-      "progression_pct": -22.5
+      "current_price": 235.98,
+      "current_price_time": "2026-10-08T14:19:52.044758+00:00",
+      "pnl_pct_live": 0.45,
+      "progression_pct": 33.9,
+      "trail_level": 1
     },
     {
       "ticker": "ADBE",
@@ -155,10 +156,10 @@
       "status": "open",
       "issued_at": "2026-10-07T14:39:46.980699",
       "last_seen": "2026-10-07T20:25:11.972404",
-      "current_price": 232.7,
-      "current_price_time": "2026-10-08T00:04:19.415221+00:00",
-      "pnl_pct_live": -1.98,
-      "progression_pct": -66.1
+      "current_price": 234.82,
+      "current_price_time": "2026-10-08T14:19:52.044758+00:00",
+      "pnl_pct_live": -2.91,
+      "progression_pct": -97.1
     },
     {
       "ticker": "EA",
@@ -220,14 +221,17 @@
       "news_score": null,
       "top_news_title": null,
       "top_news_url": null,
-      "status": "open",
+      "status": "sl_hit",
       "issued_at": "2026-10-07T14:39:46.980712",
       "last_seen": "2026-10-07T20:25:11.972404",
-      "current_price": 123.65,
-      "current_price_time": "2026-10-08T00:04:19.415221+00:00",
-      "pnl_pct_live": 1.0,
+      "current_price": 126.29,
+      "current_price_time": "2026-10-08T14:19:52.044758+00:00",
+      "pnl_pct_live": 0.0,
       "trail_level": 1,
-      "progression_pct": 37.0
+      "progression_pct": 37.0,
+      "exit_price": 124.9,
+      "exit_date": "2026-10-08T14:19:52.044758+00:00",
+      "pnl_pct": 0.0
     },
     {
       "ticker": "MRNA",
