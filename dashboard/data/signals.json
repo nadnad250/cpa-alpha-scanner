@@ -1,21 +1,21 @@
 {
-  "generated_at": "2026-10-09T21:55:15.333933",
+  "generated_at": "2026-10-09T23:24:22.290225",
   "date": "2026-10-09",
   "stats": {
     "total": 10,
-    "buy_signals": 5,
-    "sell_signals": 5,
-    "avg_confidence": 0.912,
+    "buy_signals": 6,
+    "sell_signals": 4,
+    "avg_confidence": 0.915,
     "avg_rr": 2.2,
-    "win_rate": 0.392,
+    "win_rate": 0.4,
     "active_positions": 10,
-    "daily_pnl": -0.3073
+    "daily_pnl": -0.2773
   },
   "eod": {
     "tp_hit": 20,
-    "sl_hit": 31,
+    "sl_hit": 30,
     "open": 10,
-    "cumulative_pnl": -0.3073
+    "cumulative_pnl": -0.2773
   },
   "signals": [
     {
@@ -50,7 +50,7 @@
       "top_news_url": null,
       "status": "open",
       "issued_at": "2026-10-09T14:31:39.106244",
-      "last_seen": "2026-10-09T21:55:15.333933"
+      "last_seen": "2026-10-09T23:24:22.290225"
     },
     {
       "ticker": "PLTR",
@@ -84,7 +84,7 @@
       "top_news_url": null,
       "status": "open",
       "issued_at": "2026-10-09T18:58:00.669840",
-      "last_seen": "2026-10-09T21:55:15.333933"
+      "last_seen": "2026-10-09T23:24:22.290225"
     },
     {
       "ticker": "SNOW",
@@ -118,7 +118,7 @@
       "top_news_url": null,
       "status": "open",
       "issued_at": "2026-10-09T14:31:39.106225",
-      "last_seen": "2026-10-09T21:55:15.333933"
+      "last_seen": "2026-10-09T23:24:22.290225"
     },
     {
       "ticker": "PEP",
@@ -151,21 +151,21 @@
       "last_seen": "2026-10-09T20:00:14.468936"
     },
     {
-      "ticker": "KHC",
+      "ticker": "RBLX",
       "action": "STRONG_BUY",
-      "price": 22.48,
-      "take_profit": 23.37,
-      "stop_loss": 22.07,
-      "upside_pct": 4.0,
-      "confidence": 0.825,
-      "score": 0.6114,
+      "price": 48.5,
+      "take_profit": 51.7,
+      "stop_loss": 47.05,
+      "upside_pct": 6.6,
+      "confidence": 0.842,
+      "score": 0.6519,
       "risk_reward": 2.2,
       "kelly_position": 0.1,
       "cpa_alpha": null,
       "ml_proba_up": null,
       "sector": "—",
       "universe": "NASDAQ100",
-      "primary_reason": "Cassure ORB haussière (RVOL 2.1x, +VWAP) +gap",
+      "primary_reason": "Cassure ORB haussière (RVOL 2.0x, +VWAP) +gap",
       "secondary_reasons": [],
       "risk_flags": [],
       "intrinsic_value": null,
@@ -177,8 +177,38 @@
       "top_news_title": null,
       "top_news_url": null,
       "status": "open",
-      "issued_at": "2026-10-08T20:30:10.491363",
-      "last_seen": "2026-10-09T21:55:15.333933"
+      "issued_at": "2026-10-09T14:31:39.106236",
+      "last_seen": "2026-10-09T23:24:22.290225"
+    },
+    {
+      "ticker": "PYPL",
+      "action": "STRONG_BUY",
+      "price": 55.38,
+      "take_profit": 56.69,
+      "stop_loss": 54.78,
+      "upside_pct": 2.4,
+      "confidence": 0.831,
+      "score": 0.6249,
+      "risk_reward": 2.2,
+      "kelly_position": 0.1,
+      "cpa_alpha": null,
+      "ml_proba_up": null,
+      "sector": "—",
+      "universe": "NASDAQ100",
+      "primary_reason": "Cassure ORB haussière (RVOL 2.7x, +VWAP)",
+      "secondary_reasons": [],
+      "risk_flags": [],
+      "intrinsic_value": null,
+      "value_gap": 0,
+      "factor_premia": 0,
+      "mean_reversion": 0,
+      "info_flow": 0,
+      "news_score": null,
+      "top_news_title": null,
+      "top_news_url": null,
+      "status": "open",
+      "issued_at": "2026-10-09T14:31:39.106241",
+      "last_seen": "2026-10-09T23:24:22.290225"
     },
     {
       "ticker": "TMUS",
@@ -212,7 +242,7 @@
       "top_news_url": null,
       "status": "open",
       "issued_at": "2026-10-09T18:58:00.669828",
-      "last_seen": "2026-10-09T21:55:15.333933"
+      "last_seen": "2026-10-09T23:24:22.290225"
     },
     {
       "ticker": "ASML",
@@ -307,36 +337,6 @@
       "status": "open",
       "issued_at": "2026-08-20T19:55:46.098613",
       "last_seen": "2026-08-26T08:08:33.316939"
-    },
-    {
-      "ticker": "CEG",
-      "action": "STRONG_SELL",
-      "price": 284.92,
-      "take_profit": 266.12,
-      "stop_loss": 293.47,
-      "upside_pct": 6.6,
-      "confidence": 0.816,
-      "score": -0.5908,
-      "risk_reward": 2.2,
-      "kelly_position": 0.1,
-      "cpa_alpha": null,
-      "ml_proba_up": null,
-      "sector": "—",
-      "universe": "NASDAQ100",
-      "primary_reason": "Cassure ORB baissière (RVOL 1.7x, -VWAP) +gap",
-      "secondary_reasons": [],
-      "risk_flags": [],
-      "intrinsic_value": null,
-      "value_gap": 0,
-      "factor_premia": 0,
-      "mean_reversion": 0,
-      "info_flow": 0,
-      "news_score": null,
-      "top_news_title": null,
-      "top_news_url": null,
-      "status": "open",
-      "issued_at": "2026-10-08T20:30:10.491366",
-      "last_seen": "2026-10-09T21:55:15.333933"
     },
     {
       "ticker": "WOLF",
@@ -1374,46 +1374,6 @@
       "exit_date": "2026-10-09T19:31:59.584636+00:00",
       "pnl_pct": -1.05,
       "pnl_pct_live": -1.05
-    },
-    {
-      "ticker": "ARM",
-      "action": "STRONG_SELL",
-      "price": 306.43,
-      "take_profit": 286.21,
-      "stop_loss": 315.62,
-      "upside_pct": 6.6,
-      "confidence": 0.839,
-      "score": -0.6443,
-      "risk_reward": 2.2,
-      "kelly_position": 0.1,
-      "cpa_alpha": null,
-      "ml_proba_up": null,
-      "sector": "—",
-      "universe": "NASDAQ100",
-      "primary_reason": "Cassure ORB baissière (RVOL 1.8x, -VWAP) +gap",
-      "secondary_reasons": [
-        "RVOL 1.8x",
-        "VWAP en-dessous",
-        "Gap -4.0%"
-      ],
-      "risk_flags": [],
-      "intrinsic_value": 286.21,
-      "value_gap": null,
-      "factor_premia": null,
-      "mean_reversion": null,
-      "info_flow": null,
-      "news_score": null,
-      "top_news_title": null,
-      "top_news_url": null,
-      "status": "sl_hit",
-      "issued_at": "2026-09-24T17:56:39.155979",
-      "last_seen": "2026-09-25T12:53:03.378731",
-      "current_price": 317.11,
-      "current_price_time": "2026-09-25T17:32:27.918384+00:00",
-      "exit_price": 315.62,
-      "exit_date": "2026-09-25T17:32:27.918384+00:00",
-      "pnl_pct": -3.0,
-      "pnl_pct_live": -3.0
     },
     {
       "ticker": "PEP",
