@@ -1,21 +1,21 @@
 {
-  "generated_at": "2026-10-09T00:21:48.934867+00:00",
+  "generated_at": "2026-10-09T14:04:51.145506+00:00",
   "date": "2026-10-08",
   "stats": {
-    "total": 7,
-    "buy_signals": 2,
+    "total": 6,
+    "buy_signals": 1,
     "sell_signals": 5,
     "avg_confidence": 0.856,
     "avg_rr": 2.2,
-    "win_rate": 0.415,
-    "active_positions": 7,
-    "daily_pnl": -0.3235
+    "win_rate": 0.407,
+    "active_positions": 6,
+    "daily_pnl": -0.3417
   },
   "eod": {
     "tp_hit": 22,
-    "sl_hit": 31,
-    "open": 7,
-    "cumulative_pnl": -0.3235
+    "sl_hit": 32,
+    "open": 6,
+    "cumulative_pnl": -0.3417
   },
   "signals": [
     {
@@ -51,10 +51,10 @@
       "status": "open",
       "issued_at": "2026-10-08T14:47:24.380378",
       "last_seen": "2026-10-08T23:51:28.137146",
-      "current_price": 128.62,
-      "current_price_time": "2026-10-09T00:21:48.934867+00:00",
-      "pnl_pct_live": 0.0,
-      "progression_pct": 0.0
+      "current_price": 125.58,
+      "current_price_time": "2026-10-09T14:04:51.145506+00:00",
+      "pnl_pct_live": -2.36,
+      "progression_pct": -78.8
     },
     {
       "ticker": "KHC",
@@ -86,13 +86,16 @@
       "news_score": null,
       "top_news_title": null,
       "top_news_url": null,
-      "status": "open",
+      "status": "sl_hit",
       "issued_at": "2026-10-08T20:30:10.491363",
       "last_seen": "2026-10-08T22:32:28.557638",
-      "current_price": 22.48,
-      "current_price_time": "2026-10-09T00:21:48.934867+00:00",
-      "pnl_pct_live": 0.0,
-      "progression_pct": 0.0
+      "current_price": 21.95,
+      "current_price_time": "2026-10-09T14:04:51.145506+00:00",
+      "pnl_pct_live": -1.82,
+      "progression_pct": 0.0,
+      "exit_price": 22.07,
+      "exit_date": "2026-10-09T14:04:51.145506+00:00",
+      "pnl_pct": -1.82
     },
     {
       "ticker": "ASML",
@@ -127,10 +130,10 @@
       "status": "open",
       "issued_at": "2026-10-08T19:24:55.845737",
       "last_seen": "2026-10-08T23:51:28.137146",
-      "current_price": 1770.29,
-      "current_price_time": "2026-10-09T00:21:48.934867+00:00",
-      "pnl_pct_live": 0.0,
-      "progression_pct": 0.0
+      "current_price": 1795.66,
+      "current_price_time": "2026-10-09T14:04:51.145506+00:00",
+      "pnl_pct_live": -1.43,
+      "progression_pct": -74.1
     },
     {
       "ticker": "NVDA",
@@ -311,10 +314,10 @@
       "status": "open",
       "issued_at": "2026-10-08T19:24:55.845745",
       "last_seen": "2026-10-08T23:51:28.137146",
-      "current_price": 360.15,
-      "current_price_time": "2026-10-09T00:21:48.934867+00:00",
-      "pnl_pct_live": 0.0,
-      "progression_pct": 0.0
+      "current_price": 363.07,
+      "current_price_time": "2026-10-09T14:04:51.145506+00:00",
+      "pnl_pct_live": -0.81,
+      "progression_pct": -27.0
     },
     {
       "ticker": "RIOT",
@@ -349,10 +352,10 @@
       "status": "open",
       "issued_at": "2026-10-08T14:47:24.380388",
       "last_seen": "2026-10-08T22:32:28.557638",
-      "current_price": 16.83,
-      "current_price_time": "2026-10-09T00:21:48.934867+00:00",
-      "pnl_pct_live": 0.0,
-      "progression_pct": 0.0
+      "current_price": 16.73,
+      "current_price_time": "2026-10-09T14:04:51.145506+00:00",
+      "pnl_pct_live": 0.59,
+      "progression_pct": 9.0
     },
     {
       "ticker": "CEG",
@@ -387,10 +390,10 @@
       "status": "open",
       "issued_at": "2026-10-08T20:30:10.491366",
       "last_seen": "2026-10-08T20:30:10.492147",
-      "current_price": 284.92,
-      "current_price_time": "2026-10-09T00:21:48.934867+00:00",
-      "pnl_pct_live": 0.0,
-      "progression_pct": 0.0
+      "current_price": 292.99,
+      "current_price_time": "2026-10-09T14:04:51.145506+00:00",
+      "pnl_pct_live": -2.83,
+      "progression_pct": -94.4
     },
     {
       "ticker": "WOLF",
