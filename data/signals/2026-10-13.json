@@ -113,5 +113,28 @@
     "ml_proba_up": null,
     "risk_reward": 2.2,
     "primary_reason": "Cassure ORB baissière (RVOL 4.2x, -VWAP) (contre-gap)"
+  },
+  {
+    "ticker": "BNTX",
+    "action": "STRONG_SELL",
+    "entry_price": 89.0,
+    "stop_loss": 91.67,
+    "take_profit": 83.126,
+    "score": -0.7183312076077473,
+    "confidence": 0.8702907632332926,
+    "universe": "NASDAQ100",
+    "issued_at": "2026-10-13T20:30:07.605105",
+    "horizon_days": 1,
+    "horizon_hours": 24,
+    "status": "open",
+    "exit_price": null,
+    "exit_date": null,
+    "pnl_pct": null,
+    "max_favorable": null,
+    "max_adverse": null,
+    "sector": "",
+    "ml_proba_up": null,
+    "risk_reward": 2.2,
+    "primary_reason": "Cassure ORB baissière (RVOL 2.1x, -VWAP) +gap"
   }
 ]
