@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-13T22:00:29.979877",
+  "generated_at": "2026-10-13T23:22:49.576004",
   "date": "2026-10-13",
   "stats": {
     "total": 10,
@@ -80,7 +80,7 @@
       "top_news_url": null,
       "status": "open",
       "issued_at": "2026-10-13T19:56:48.408171",
-      "last_seen": "2026-10-13T22:00:29.979877"
+      "last_seen": "2026-10-13T23:22:49.576004"
     },
     {
       "ticker": "MSFT",
@@ -174,7 +174,7 @@
       "top_news_url": null,
       "status": "open",
       "issued_at": "2026-10-13T15:13:08.267414",
-      "last_seen": "2026-10-13T22:00:29.979877"
+      "last_seen": "2026-10-13T23:22:49.576004"
     },
     {
       "ticker": "PLTR",
@@ -272,7 +272,7 @@
       "top_news_url": null,
       "status": "open",
       "issued_at": "2026-10-13T19:56:48.408160",
-      "last_seen": "2026-10-13T22:00:29.979877"
+      "last_seen": "2026-10-13T23:22:49.576004"
     },
     {
       "ticker": "AAPL",
@@ -336,7 +336,7 @@
       "top_news_url": null,
       "status": "open",
       "issued_at": "2026-10-13T21:26:32.200590",
-      "last_seen": "2026-10-13T22:00:29.979877"
+      "last_seen": "2026-10-13T23:22:49.576004"
     },
     {
       "ticker": "WOLF",
