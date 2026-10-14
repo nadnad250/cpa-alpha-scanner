@@ -159,5 +159,28 @@
     "ml_proba_up": null,
     "risk_reward": 2.2,
     "primary_reason": "Cassure ORB baissière (RVOL 2.7x, -VWAP) +gap"
+  },
+  {
+    "ticker": "MU",
+    "action": "STRONG_SELL",
+    "entry_price": 913.9149780273438,
+    "stop_loss": 941.3324273681641,
+    "take_profit": 853.596589477539,
+    "score": -0.7725156598453349,
+    "confidence": 0.8933191554342674,
+    "universe": "NASDAQ100",
+    "issued_at": "2026-10-14T21:01:35.800331",
+    "horizon_days": 1,
+    "horizon_hours": 24,
+    "status": "open",
+    "exit_price": null,
+    "exit_date": null,
+    "pnl_pct": null,
+    "max_favorable": null,
+    "max_adverse": null,
+    "sector": "",
+    "ml_proba_up": null,
+    "risk_reward": 2.2,
+    "primary_reason": "Cassure ORB baissière (RVOL 2.3x, -VWAP) +gap"
   }
 ]
