@@ -136,5 +136,28 @@
     "ml_proba_up": null,
     "risk_reward": 2.2,
     "primary_reason": "Cassure ORB baissière (RVOL 2.6x, -VWAP) +gap"
+  },
+  {
+    "ticker": "OKTA",
+    "action": "STRONG_SELL",
+    "entry_price": 211.85000610351562,
+    "stop_loss": 218.2055062866211,
+    "take_profit": 197.8679057006836,
+    "score": -0.8803865058918545,
+    "confidence": 0.9391642650040382,
+    "universe": "NASDAQ100",
+    "issued_at": "2026-10-14T20:17:55.822468",
+    "horizon_days": 1,
+    "horizon_hours": 24,
+    "status": "open",
+    "exit_price": null,
+    "exit_date": null,
+    "pnl_pct": null,
+    "max_favorable": null,
+    "max_adverse": null,
+    "sector": "",
+    "ml_proba_up": null,
+    "risk_reward": 2.2,
+    "primary_reason": "Cassure ORB baissière (RVOL 2.7x, -VWAP) +gap"
   }
 ]
