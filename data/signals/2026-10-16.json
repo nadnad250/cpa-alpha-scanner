@@ -136,5 +136,28 @@
     "ml_proba_up": null,
     "risk_reward": 2.2,
     "primary_reason": "Cassure ORB baissière (RVOL 2.4x, -VWAP) +gap"
+  },
+  {
+    "ticker": "META",
+    "action": "STRONG_SELL",
+    "entry_price": 704.0650024414062,
+    "stop_loss": 725.1869525146484,
+    "take_profit": 657.5967122802734,
+    "score": -0.747335219589238,
+    "confidence": 0.8826174683254262,
+    "universe": "NASDAQ100",
+    "issued_at": "2026-10-16T19:39:20.741841",
+    "horizon_days": 1,
+    "horizon_hours": 24,
+    "status": "open",
+    "exit_price": null,
+    "exit_date": null,
+    "pnl_pct": null,
+    "max_favorable": null,
+    "max_adverse": null,
+    "sector": "",
+    "ml_proba_up": null,
+    "risk_reward": 2.2,
+    "primary_reason": "Cassure ORB baissière (RVOL 3.7x, -VWAP)"
   }
 ]
