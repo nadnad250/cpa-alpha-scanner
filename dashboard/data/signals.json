@@ -1,21 +1,21 @@
 {
-  "generated_at": "2026-10-16T12:38:37.447077",
+  "generated_at": "2026-10-16T16:36:44.346768+00:00",
   "date": "2026-10-16",
   "stats": {
-    "total": 8,
-    "buy_signals": 7,
+    "total": 6,
+    "buy_signals": 5,
     "sell_signals": 1,
     "avg_confidence": 0.807,
     "avg_rr": 2.2,
-    "win_rate": 0.44,
-    "active_positions": 8,
-    "daily_pnl": -0.3916
+    "win_rate": 0.442,
+    "active_positions": 6,
+    "daily_pnl": -0.399
   },
   "eod": {
-    "tp_hit": 22,
-    "sl_hit": 28,
-    "open": 8,
-    "cumulative_pnl": -0.3916
+    "tp_hit": 23,
+    "sl_hit": 29,
+    "open": 6,
+    "cumulative_pnl": -0.399
   },
   "signals": [
     {
@@ -44,9 +44,15 @@
       "news_score": null,
       "top_news_title": null,
       "top_news_url": null,
-      "status": "open",
+      "status": "expired",
       "issued_at": "2026-10-15T12:46:42.304140",
-      "last_seen": "2026-10-16T12:38:37.447077"
+      "last_seen": "2026-10-16T12:38:37.447077",
+      "current_price": 503.37,
+      "current_price_time": "2026-10-16T16:36:44.346768+00:00",
+      "exit_price": 503.37,
+      "exit_date": "2026-10-16T16:36:44.346768+00:00",
+      "pnl_pct": 0.98,
+      "pnl_pct_live": 0.98
     },
     {
       "ticker": "MU",
@@ -76,7 +82,11 @@
       "top_news_url": null,
       "status": "open",
       "issued_at": "2026-10-15T18:52:51.110433",
-      "last_seen": "2026-10-16T12:38:37.447077"
+      "last_seen": "2026-10-16T12:38:37.447077",
+      "current_price": 897.33,
+      "current_price_time": "2026-10-16T16:36:44.346768+00:00",
+      "pnl_pct_live": -1.06,
+      "progression_pct": -35.4
     },
     {
       "ticker": "CPRT",
@@ -110,7 +120,11 @@
       "top_news_url": null,
       "status": "open",
       "issued_at": "2026-10-15T18:52:51.110448",
-      "last_seen": "2026-10-16T12:38:37.447077"
+      "last_seen": "2026-10-16T12:38:37.447077",
+      "current_price": 27.78,
+      "current_price_time": "2026-10-16T16:36:44.346768+00:00",
+      "pnl_pct_live": 0.11,
+      "progression_pct": 1.6
     },
     {
       "ticker": "MSFT",
@@ -138,9 +152,15 @@
       "news_score": null,
       "top_news_title": null,
       "top_news_url": null,
-      "status": "open",
+      "status": "sl_hit",
       "issued_at": "2026-10-15T17:53:06.868792",
-      "last_seen": "2026-10-16T12:38:37.447077"
+      "last_seen": "2026-10-16T12:38:37.447077",
+      "current_price": 528.43,
+      "current_price_time": "2026-10-16T16:36:44.346768+00:00",
+      "exit_price": 531.22,
+      "exit_date": "2026-10-16T16:36:44.346768+00:00",
+      "pnl_pct": -1.72,
+      "pnl_pct_live": -1.72
     },
     {
       "ticker": "KDP",
@@ -174,7 +194,11 @@
       "top_news_url": null,
       "status": "open",
       "issued_at": "2026-10-15T20:35:43.197359",
-      "last_seen": "2026-10-16T12:38:37.447077"
+      "last_seen": "2026-10-16T12:38:37.447077",
+      "current_price": 34.29,
+      "current_price_time": "2026-10-16T16:36:44.346768+00:00",
+      "pnl_pct_live": 0.35,
+      "progression_pct": 11.1
     },
     {
       "ticker": "DXCM",
@@ -208,7 +232,11 @@
       "top_news_url": null,
       "status": "open",
       "issued_at": "2026-10-15T20:35:43.197370",
-      "last_seen": "2026-10-16T12:38:37.447077"
+      "last_seen": "2026-10-16T12:38:37.447077",
+      "current_price": 86.74,
+      "current_price_time": "2026-10-16T16:36:44.346768+00:00",
+      "pnl_pct_live": -1.09,
+      "progression_pct": -42.3
     },
     {
       "ticker": "MAR",
@@ -242,7 +270,11 @@
       "top_news_url": null,
       "status": "open",
       "issued_at": "2026-10-15T18:52:51.110441",
-      "last_seen": "2026-10-16T12:38:37.447077"
+      "last_seen": "2026-10-16T12:38:37.447077",
+      "current_price": 389.77,
+      "current_price_time": "2026-10-16T16:36:44.346768+00:00",
+      "pnl_pct_live": 1.05,
+      "progression_pct": 19.3
     },
     {
       "ticker": "CSCO",
@@ -272,7 +304,11 @@
       "top_news_url": null,
       "status": "open",
       "issued_at": "2026-10-15T18:52:51.110418",
-      "last_seen": "2026-10-16T12:38:37.447077"
+      "last_seen": "2026-10-16T12:38:37.447077",
+      "current_price": 107.88,
+      "current_price_time": "2026-10-16T16:36:44.346768+00:00",
+      "pnl_pct_live": 1.15,
+      "progression_pct": 17.7
     },
     {
       "ticker": "WOLF",
