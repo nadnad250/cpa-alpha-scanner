@@ -1,21 +1,21 @@
 {
-  "generated_at": "2026-10-20T22:30:40.985553",
+  "generated_at": "2026-10-20T23:35:56.875706+00:00",
   "date": "2026-10-20",
   "stats": {
-    "total": 10,
-    "buy_signals": 8,
-    "sell_signals": 2,
+    "total": 0,
+    "buy_signals": 0,
+    "sell_signals": 0,
     "avg_confidence": 0.841,
     "avg_rr": 2.2,
-    "win_rate": 0.42,
-    "active_positions": 10,
-    "daily_pnl": -0.3746
+    "win_rate": 0.433,
+    "active_positions": 0,
+    "daily_pnl": -0.3565
   },
   "eod": {
-    "tp_hit": 21,
-    "sl_hit": 29,
-    "open": 10,
-    "cumulative_pnl": -0.3746
+    "tp_hit": 26,
+    "sl_hit": 34,
+    "open": 0,
+    "cumulative_pnl": -0.3565
   },
   "signals": [
     {
@@ -44,9 +44,15 @@
       "news_score": null,
       "top_news_title": null,
       "top_news_url": null,
-      "status": "open",
+      "status": "expired",
       "issued_at": "2026-10-19T14:52:53.440521",
-      "last_seen": "2026-10-20T20:56:38.951573"
+      "last_seen": "2026-10-20T20:56:38.951573",
+      "current_price": 262.76,
+      "current_price_time": "2026-10-20T23:35:56.875706+00:00",
+      "exit_price": 262.76,
+      "exit_date": "2026-10-20T23:35:56.875706+00:00",
+      "pnl_pct": 0.49,
+      "pnl_pct_live": 0.49
     },
     {
       "ticker": "TSLA",
@@ -78,9 +84,15 @@
       "news_score": null,
       "top_news_title": null,
       "top_news_url": null,
-      "status": "open",
+      "status": "expired",
       "issued_at": "2026-10-19T14:52:53.440533",
-      "last_seen": "2026-10-20T22:30:40.985553"
+      "last_seen": "2026-10-20T22:30:40.985553",
+      "current_price": 373.77,
+      "current_price_time": "2026-10-20T23:35:56.875706+00:00",
+      "exit_price": 373.77,
+      "exit_date": "2026-10-20T23:35:56.875706+00:00",
+      "pnl_pct": 0.0,
+      "pnl_pct_live": 0.0
     },
     {
       "ticker": "AZN",
@@ -112,9 +124,15 @@
       "news_score": null,
       "top_news_title": null,
       "top_news_url": null,
-      "status": "open",
+      "status": "expired",
       "issued_at": "2026-10-20T18:05:52.744732",
-      "last_seen": "2026-10-20T22:30:40.985553"
+      "last_seen": "2026-10-20T22:30:40.985553",
+      "current_price": 168.84,
+      "current_price_time": "2026-10-20T23:35:56.875706+00:00",
+      "exit_price": 168.84,
+      "exit_date": "2026-10-20T23:35:56.875706+00:00",
+      "pnl_pct": 0.0,
+      "pnl_pct_live": 0.0
     },
     {
       "ticker": "MAR",
@@ -142,9 +160,15 @@
       "news_score": null,
       "top_news_title": null,
       "top_news_url": null,
-      "status": "open",
+      "status": "expired",
       "issued_at": "2026-10-20T18:05:52.744720",
-      "last_seen": "2026-10-20T20:56:38.951573"
+      "last_seen": "2026-10-20T20:56:38.951573",
+      "current_price": 397.44,
+      "current_price_time": "2026-10-20T23:35:56.875706+00:00",
+      "exit_price": 397.44,
+      "exit_date": "2026-10-20T23:35:56.875706+00:00",
+      "pnl_pct": 0.31,
+      "pnl_pct_live": 0.31
     },
     {
       "ticker": "VRTX",
@@ -172,9 +196,15 @@
       "news_score": null,
       "top_news_title": null,
       "top_news_url": null,
-      "status": "open",
+      "status": "expired",
       "issued_at": "2026-10-20T18:05:52.744729",
-      "last_seen": "2026-10-20T20:56:38.951573"
+      "last_seen": "2026-10-20T20:56:38.951573",
+      "current_price": 514.69,
+      "current_price_time": "2026-10-20T23:35:56.875706+00:00",
+      "exit_price": 514.69,
+      "exit_date": "2026-10-20T23:35:56.875706+00:00",
+      "pnl_pct": 0.61,
+      "pnl_pct_live": 0.61
     },
     {
       "ticker": "CPRT",
@@ -206,9 +236,15 @@
       "news_score": null,
       "top_news_title": null,
       "top_news_url": null,
-      "status": "open",
+      "status": "expired",
       "issued_at": "2026-10-20T20:05:22.487006",
-      "last_seen": "2026-10-20T22:30:40.985553"
+      "last_seen": "2026-10-20T22:30:40.985553",
+      "current_price": 27.86,
+      "current_price_time": "2026-10-20T23:35:56.875706+00:00",
+      "exit_price": 27.86,
+      "exit_date": "2026-10-20T23:35:56.875706+00:00",
+      "pnl_pct": 0.0,
+      "pnl_pct_live": 0.0
     },
     {
       "ticker": "BNTX",
@@ -240,9 +276,15 @@
       "news_score": null,
       "top_news_title": null,
       "top_news_url": null,
-      "status": "open",
+      "status": "expired",
       "issued_at": "2026-10-20T20:05:22.487019",
-      "last_seen": "2026-10-20T22:30:40.985553"
+      "last_seen": "2026-10-20T22:30:40.985553",
+      "current_price": 91.13,
+      "current_price_time": "2026-10-20T23:35:56.875706+00:00",
+      "exit_price": 91.13,
+      "exit_date": "2026-10-20T23:35:56.875706+00:00",
+      "pnl_pct": 0.0,
+      "pnl_pct_live": 0.0
     },
     {
       "ticker": "SNOW",
@@ -270,9 +312,15 @@
       "news_score": null,
       "top_news_title": null,
       "top_news_url": null,
-      "status": "open",
+      "status": "expired",
       "issued_at": "2026-10-19T14:52:53.440538",
-      "last_seen": "2026-10-20T20:56:38.951573"
+      "last_seen": "2026-10-20T20:56:38.951573",
+      "current_price": 319.63,
+      "current_price_time": "2026-10-20T23:35:56.875706+00:00",
+      "exit_price": 319.63,
+      "exit_date": "2026-10-20T23:35:56.875706+00:00",
+      "pnl_pct": 0.2,
+      "pnl_pct_live": 0.2
     },
     {
       "ticker": "AZN",
@@ -300,9 +348,15 @@
       "news_score": null,
       "top_news_title": null,
       "top_news_url": null,
-      "status": "open",
+      "status": "expired",
       "issued_at": "2026-10-19T20:21:52.912723",
-      "last_seen": "2026-10-20T20:56:38.951573"
+      "last_seen": "2026-10-20T20:56:38.951573",
+      "current_price": 168.84,
+      "current_price_time": "2026-10-20T23:35:56.875706+00:00",
+      "exit_price": 168.84,
+      "exit_date": "2026-10-20T23:35:56.875706+00:00",
+      "pnl_pct": -2.96,
+      "pnl_pct_live": -2.96
     },
     {
       "ticker": "LRCX",
@@ -330,9 +384,15 @@
       "news_score": null,
       "top_news_title": null,
       "top_news_url": null,
-      "status": "open",
+      "status": "expired",
       "issued_at": "2026-10-19T20:21:52.912725",
-      "last_seen": "2026-10-20T20:56:38.951573"
+      "last_seen": "2026-10-20T20:56:38.951573",
+      "current_price": 263.45,
+      "current_price_time": "2026-10-20T23:35:56.875706+00:00",
+      "exit_price": 263.45,
+      "exit_date": "2026-10-20T23:35:56.875706+00:00",
+      "pnl_pct": 3.16,
+      "pnl_pct_live": 3.16
     },
     {
       "ticker": "AMZN",
