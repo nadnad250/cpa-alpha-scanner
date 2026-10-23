@@ -1,21 +1,21 @@
 {
-  "generated_at": "2026-10-23T20:02:10.917147",
+  "generated_at": "2026-10-23T20:33:37.472465+00:00",
   "date": "2026-10-23",
   "stats": {
-    "total": 10,
-    "buy_signals": 2,
-    "sell_signals": 8,
+    "total": 2,
+    "buy_signals": 0,
+    "sell_signals": 2,
     "avg_confidence": 0.842,
     "avg_rr": 2.2,
-    "win_rate": 0.51,
-    "active_positions": 10,
-    "daily_pnl": -0.2436
+    "win_rate": 0.492,
+    "active_positions": 2,
+    "daily_pnl": -0.2557
   },
   "eod": {
-    "tp_hit": 26,
-    "sl_hit": 25,
-    "open": 10,
-    "cumulative_pnl": -0.2436
+    "tp_hit": 29,
+    "sl_hit": 30,
+    "open": 2,
+    "cumulative_pnl": -0.2557
   },
   "signals": [
     {
@@ -48,9 +48,15 @@
       "news_score": null,
       "top_news_title": null,
       "top_news_url": null,
-      "status": "open",
+      "status": "expired",
       "issued_at": "2026-10-23T17:57:30.149982",
-      "last_seen": "2026-10-23T20:02:10.917147"
+      "last_seen": "2026-10-23T20:02:10.917147",
+      "current_price": 325.97,
+      "current_price_time": "2026-10-23T20:33:37.472465+00:00",
+      "exit_price": 325.97,
+      "exit_date": "2026-10-23T20:33:37.472465+00:00",
+      "pnl_pct": 0.08,
+      "pnl_pct_live": 0.08
     },
     {
       "ticker": "CRWD",
@@ -82,9 +88,15 @@
       "news_score": null,
       "top_news_title": null,
       "top_news_url": null,
-      "status": "open",
+      "status": "expired",
       "issued_at": "2026-10-23T20:02:10.917147",
-      "last_seen": "2026-10-23T20:02:10.917147"
+      "last_seen": "2026-10-23T20:02:10.917147",
+      "current_price": 257.59,
+      "current_price_time": "2026-10-23T20:33:37.472465+00:00",
+      "exit_price": 257.59,
+      "exit_date": "2026-10-23T20:33:37.472465+00:00",
+      "pnl_pct": 0.0,
+      "pnl_pct_live": 0.0
     },
     {
       "ticker": "LRCX",
@@ -112,9 +124,15 @@
       "news_score": null,
       "top_news_title": null,
       "top_news_url": null,
-      "status": "open",
+      "status": "expired",
       "issued_at": "2026-10-22T18:08:55.089755",
-      "last_seen": "2026-10-23T18:53:35.467410"
+      "last_seen": "2026-10-23T18:53:35.467410",
+      "current_price": 230.14,
+      "current_price_time": "2026-10-23T20:33:37.472465+00:00",
+      "exit_price": 230.14,
+      "exit_date": "2026-10-23T20:33:37.472465+00:00",
+      "pnl_pct": 0.78,
+      "pnl_pct_live": 0.78
     },
     {
       "ticker": "NVDA",
@@ -142,9 +160,15 @@
       "news_score": null,
       "top_news_title": null,
       "top_news_url": null,
-      "status": "open",
+      "status": "expired",
       "issued_at": "2026-10-22T18:08:55.089760",
-      "last_seen": "2026-10-23T18:53:35.467410"
+      "last_seen": "2026-10-23T18:53:35.467410",
+      "current_price": 211.0,
+      "current_price_time": "2026-10-23T20:33:37.472465+00:00",
+      "exit_price": 211.0,
+      "exit_date": "2026-10-23T20:33:37.472465+00:00",
+      "pnl_pct": 0.62,
+      "pnl_pct_live": 0.62
     },
     {
       "ticker": "META",
@@ -174,7 +198,11 @@
       "top_news_url": null,
       "status": "open",
       "issued_at": "2026-10-22T20:54:12.533534",
-      "last_seen": "2026-10-23T18:53:35.467410"
+      "last_seen": "2026-10-23T18:53:35.467410",
+      "current_price": 642.3,
+      "current_price_time": "2026-10-23T20:33:37.472465+00:00",
+      "pnl_pct_live": 1.02,
+      "progression_pct": 15.4
     },
     {
       "ticker": "AAPL",
@@ -206,9 +234,15 @@
       "news_score": null,
       "top_news_title": null,
       "top_news_url": null,
-      "status": "open",
+      "status": "expired",
       "issued_at": "2026-10-23T17:57:30.149970",
-      "last_seen": "2026-10-23T18:53:35.467410"
+      "last_seen": "2026-10-23T18:53:35.467410",
+      "current_price": 347.73,
+      "current_price_time": "2026-10-23T20:33:37.472465+00:00",
+      "exit_price": 347.73,
+      "exit_date": "2026-10-23T20:33:37.472465+00:00",
+      "pnl_pct": -0.43,
+      "pnl_pct_live": -0.43
     },
     {
       "ticker": "VRSK",
@@ -240,9 +274,15 @@
       "news_score": null,
       "top_news_title": null,
       "top_news_url": null,
-      "status": "open",
+      "status": "expired",
       "issued_at": "2026-10-23T17:57:30.149991",
-      "last_seen": "2026-10-23T18:53:35.467410"
+      "last_seen": "2026-10-23T18:53:35.467410",
+      "current_price": 195.77,
+      "current_price_time": "2026-10-23T20:33:37.472465+00:00",
+      "exit_price": 195.77,
+      "exit_date": "2026-10-23T20:33:37.472465+00:00",
+      "pnl_pct": -0.93,
+      "pnl_pct_live": -0.93
     },
     {
       "ticker": "GOOGL",
@@ -276,7 +316,11 @@
       "top_news_url": null,
       "status": "open",
       "issued_at": "2026-10-22T20:54:12.533544",
-      "last_seen": "2026-10-23T20:02:10.917147"
+      "last_seen": "2026-10-23T20:02:10.917147",
+      "current_price": 320.25,
+      "current_price_time": "2026-10-23T20:33:37.472465+00:00",
+      "pnl_pct_live": 0.0,
+      "progression_pct": 0.0
     },
     {
       "ticker": "DLTR",
@@ -308,9 +352,15 @@
       "news_score": null,
       "top_news_title": null,
       "top_news_url": null,
-      "status": "open",
+      "status": "expired",
       "issued_at": "2026-10-23T17:57:30.149987",
-      "last_seen": "2026-10-23T18:53:35.467410"
+      "last_seen": "2026-10-23T18:53:35.467410",
+      "current_price": 125.34,
+      "current_price_time": "2026-10-23T20:33:37.472465+00:00",
+      "exit_price": 125.34,
+      "exit_date": "2026-10-23T20:33:37.472465+00:00",
+      "pnl_pct": -1.33,
+      "pnl_pct_live": -1.33
     },
     {
       "ticker": "ROKU",
@@ -342,9 +392,15 @@
       "news_score": null,
       "top_news_title": null,
       "top_news_url": null,
-      "status": "open",
+      "status": "expired",
       "issued_at": "2026-10-23T20:02:10.917147",
-      "last_seen": "2026-10-23T20:02:10.917147"
+      "last_seen": "2026-10-23T20:02:10.917147",
+      "current_price": 158.58,
+      "current_price_time": "2026-10-23T20:33:37.472465+00:00",
+      "exit_price": 158.58,
+      "exit_date": "2026-10-23T20:33:37.472465+00:00",
+      "pnl_pct": 0.0,
+      "pnl_pct_live": 0.0
     },
     {
       "ticker": "AMZN",
