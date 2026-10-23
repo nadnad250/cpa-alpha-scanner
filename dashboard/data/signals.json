@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-23T12:45:26.483977",
+  "generated_at": "2026-10-23T17:20:24.354432+00:00",
   "date": "2026-10-23",
   "stats": {
     "total": 6,
@@ -50,7 +50,11 @@
       "top_news_url": null,
       "status": "open",
       "issued_at": "2026-10-23T12:45:26.483581",
-      "last_seen": "2026-10-23T12:45:26.483977"
+      "last_seen": "2026-10-23T12:45:26.483977",
+      "current_price": 34.83,
+      "current_price_time": "2026-10-23T17:20:24.354432+00:00",
+      "pnl_pct_live": -1.02,
+      "progression_pct": -66.7
     },
     {
       "ticker": "LRCX",
@@ -80,7 +84,11 @@
       "top_news_url": null,
       "status": "open",
       "issued_at": "2026-10-22T18:08:55.089755",
-      "last_seen": "2026-10-23T12:45:26.483977"
+      "last_seen": "2026-10-23T12:45:26.483977",
+      "current_price": 231.27,
+      "current_price_time": "2026-10-23T17:20:24.354432+00:00",
+      "pnl_pct_live": 0.3,
+      "progression_pct": 6.8
     },
     {
       "ticker": "NVDA",
@@ -110,7 +118,11 @@
       "top_news_url": null,
       "status": "open",
       "issued_at": "2026-10-22T18:08:55.089760",
-      "last_seen": "2026-10-23T12:45:26.483977"
+      "last_seen": "2026-10-23T12:45:26.483977",
+      "current_price": 212.01,
+      "current_price_time": "2026-10-23T17:20:24.354432+00:00",
+      "pnl_pct_live": 0.14,
+      "progression_pct": 2.2
     },
     {
       "ticker": "META",
@@ -140,7 +152,11 @@
       "top_news_url": null,
       "status": "open",
       "issued_at": "2026-10-22T20:54:12.533534",
-      "last_seen": "2026-10-23T12:45:26.483977"
+      "last_seen": "2026-10-23T12:45:26.483977",
+      "current_price": 645.41,
+      "current_price_time": "2026-10-23T17:20:24.354432+00:00",
+      "pnl_pct_live": 0.54,
+      "progression_pct": 8.2
     },
     {
       "ticker": "GOOGL",
@@ -170,14 +186,18 @@
       "top_news_url": null,
       "status": "open",
       "issued_at": "2026-10-22T20:54:12.533544",
-      "last_seen": "2026-10-23T12:45:26.483977"
+      "last_seen": "2026-10-23T12:45:26.483977",
+      "current_price": 322.53,
+      "current_price_time": "2026-10-23T17:20:24.354432+00:00",
+      "pnl_pct_live": 0.52,
+      "progression_pct": 10.6
     },
     {
       "ticker": "MAR",
       "action": "STRONG_SELL",
       "price": 396.81,
       "take_profit": 382.6,
-      "stop_loss": 403.27,
+      "stop_loss": 396.81,
       "upside_pct": 3.6,
       "confidence": 0.852,
       "score": -0.6756,
@@ -204,7 +224,12 @@
       "top_news_url": null,
       "status": "open",
       "issued_at": "2026-10-23T12:45:26.483591",
-      "last_seen": "2026-10-23T12:45:26.483977"
+      "last_seen": "2026-10-23T12:45:26.483977",
+      "current_price": 392.36,
+      "current_price_time": "2026-10-23T17:20:24.354432+00:00",
+      "pnl_pct_live": 1.12,
+      "trail_level": 1,
+      "progression_pct": 31.3
     },
     {
       "ticker": "AMZN",
