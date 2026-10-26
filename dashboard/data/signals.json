@@ -1,11 +1,11 @@
 {
-  "generated_at": "2026-10-26T20:18:26.289305",
+  "generated_at": "2026-10-26T21:08:44.614689",
   "date": "2026-10-26",
   "stats": {
     "total": 10,
     "buy_signals": 6,
     "sell_signals": 4,
-    "avg_confidence": 0.84,
+    "avg_confidence": 0.83,
     "avg_rr": 2.2,
     "win_rate": 0.54,
     "active_positions": 10,
@@ -148,7 +148,7 @@
       "top_news_url": null,
       "status": "open",
       "issued_at": "2026-10-26T20:18:26.288403",
-      "last_seen": "2026-10-26T20:18:26.289305"
+      "last_seen": "2026-10-26T21:08:44.614689"
     },
     {
       "ticker": "MRNA",
@@ -220,40 +220,6 @@
       "top_news_url": null,
       "status": "open",
       "issued_at": "2026-10-26T20:18:26.288408",
-      "last_seen": "2026-10-26T20:18:26.289305"
-    },
-    {
-      "ticker": "GOOGL",
-      "action": "STRONG_SELL",
-      "price": 316.89,
-      "take_profit": 307.1,
-      "stop_loss": 321.34,
-      "upside_pct": 3.1,
-      "confidence": 0.871,
-      "score": -0.7211,
-      "risk_reward": 2.2,
-      "kelly_position": 0.1,
-      "cpa_alpha": null,
-      "ml_proba_up": null,
-      "sector": "—",
-      "universe": "NASDAQ100",
-      "primary_reason": "Cassure ORB baissière (RVOL 3.1x, -VWAP)",
-      "secondary_reasons": [
-        "RVOL 3.1x",
-        "VWAP en-dessous",
-        "Gap +0.2%"
-      ],
-      "risk_flags": [],
-      "intrinsic_value": 307.1,
-      "value_gap": null,
-      "factor_premia": null,
-      "mean_reversion": null,
-      "info_flow": null,
-      "news_score": null,
-      "top_news_title": null,
-      "top_news_url": null,
-      "status": "open",
-      "issued_at": "2026-10-26T20:18:26.288391",
       "last_seen": "2026-10-26T20:18:26.289305"
     },
     {
@@ -345,6 +311,40 @@
       "status": "open",
       "issued_at": "2026-10-23T17:57:30.149987",
       "last_seen": "2026-10-26T20:18:26.289305"
+    },
+    {
+      "ticker": "GOOGL",
+      "action": "STRONG_SELL",
+      "price": 316.89,
+      "take_profit": 307.1,
+      "stop_loss": 321.34,
+      "upside_pct": 3.1,
+      "confidence": 0.771,
+      "score": -0.4856,
+      "risk_reward": 2.2,
+      "kelly_position": 0.08,
+      "cpa_alpha": null,
+      "ml_proba_up": null,
+      "sector": "—",
+      "universe": "NASDAQ100",
+      "primary_reason": "Cassure ORB baissière (RVOL 2.2x, -VWAP)",
+      "secondary_reasons": [
+        "RVOL 2.2x",
+        "VWAP en-dessous",
+        "Gap +0.2%"
+      ],
+      "risk_flags": [],
+      "intrinsic_value": 307.1,
+      "value_gap": null,
+      "factor_premia": null,
+      "mean_reversion": null,
+      "info_flow": null,
+      "news_score": null,
+      "top_news_title": null,
+      "top_news_url": null,
+      "status": "open",
+      "issued_at": "2026-10-26T20:18:26.288391",
+      "last_seen": "2026-10-26T21:08:44.614689"
     },
     {
       "ticker": "AMZN",
