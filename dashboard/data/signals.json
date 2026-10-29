@@ -1,21 +1,21 @@
 {
-  "generated_at": "2026-10-28T23:24:03.582701",
+  "generated_at": "2026-10-29T13:53:58.965763+00:00",
   "date": "2026-10-28",
   "stats": {
-    "total": 10,
-    "buy_signals": 6,
-    "sell_signals": 4,
+    "total": 2,
+    "buy_signals": 0,
+    "sell_signals": 2,
     "avg_confidence": 0.938,
     "avg_rr": 2.2,
-    "win_rate": 0.52,
-    "active_positions": 10,
-    "daily_pnl": 0.1284
+    "win_rate": 0.5,
+    "active_positions": 2,
+    "daily_pnl": 0.1249
   },
   "eod": {
-    "tp_hit": 26,
-    "sl_hit": 24,
-    "open": 10,
-    "cumulative_pnl": 0.1284
+    "tp_hit": 29,
+    "sl_hit": 29,
+    "open": 2,
+    "cumulative_pnl": 0.1249
   },
   "signals": [
     {
@@ -44,9 +44,15 @@
       "news_score": null,
       "top_news_title": null,
       "top_news_url": null,
-      "status": "open",
+      "status": "expired",
       "issued_at": "2026-10-27T18:54:12.993116",
-      "last_seen": "2026-10-28T23:24:03.582701"
+      "last_seen": "2026-10-28T23:24:03.582701",
+      "current_price": 344.57,
+      "current_price_time": "2026-10-29T13:53:58.965763+00:00",
+      "exit_price": 344.57,
+      "exit_date": "2026-10-29T13:53:58.965763+00:00",
+      "pnl_pct": -0.19,
+      "pnl_pct_live": -0.19
     },
     {
       "ticker": "SOFI",
@@ -74,9 +80,15 @@
       "news_score": null,
       "top_news_title": null,
       "top_news_url": null,
-      "status": "open",
+      "status": "expired",
       "issued_at": "2026-10-27T18:54:12.993127",
-      "last_seen": "2026-10-28T23:24:03.582701"
+      "last_seen": "2026-10-28T23:24:03.582701",
+      "current_price": 17.33,
+      "current_price_time": "2026-10-29T13:53:58.965763+00:00",
+      "exit_price": 17.33,
+      "exit_date": "2026-10-29T13:53:58.965763+00:00",
+      "pnl_pct": 5.48,
+      "pnl_pct_live": 5.48
     },
     {
       "ticker": "MU",
@@ -104,9 +116,15 @@
       "news_score": null,
       "top_news_title": null,
       "top_news_url": null,
-      "status": "open",
+      "status": "sl_hit",
       "issued_at": "2026-10-28T19:03:54.444861",
-      "last_seen": "2026-10-28T23:24:03.582701"
+      "last_seen": "2026-10-28T23:24:03.582701",
+      "current_price": 945.6,
+      "current_price_time": "2026-10-29T13:53:58.965763+00:00",
+      "exit_price": 959.34,
+      "exit_date": "2026-10-29T13:53:58.965763+00:00",
+      "pnl_pct": -2.26,
+      "pnl_pct_live": -2.26
     },
     {
       "ticker": "TSLA",
@@ -134,9 +152,15 @@
       "news_score": null,
       "top_news_title": null,
       "top_news_url": null,
-      "status": "open",
+      "status": "expired",
       "issued_at": "2026-10-27T18:54:12.993131",
-      "last_seen": "2026-10-28T23:24:03.582701"
+      "last_seen": "2026-10-28T23:24:03.582701",
+      "current_price": 402.11,
+      "current_price_time": "2026-10-29T13:53:58.965763+00:00",
+      "exit_price": 402.11,
+      "exit_date": "2026-10-29T13:53:58.965763+00:00",
+      "pnl_pct": -1.19,
+      "pnl_pct_live": -1.19
     },
     {
       "ticker": "AVGO",
@@ -164,9 +188,15 @@
       "news_score": null,
       "top_news_title": null,
       "top_news_url": null,
-      "status": "open",
+      "status": "expired",
       "issued_at": "2026-10-27T18:54:12.993134",
-      "last_seen": "2026-10-28T23:24:03.582701"
+      "last_seen": "2026-10-28T23:24:03.582701",
+      "current_price": 339.58,
+      "current_price_time": "2026-10-29T13:53:58.965763+00:00",
+      "exit_price": 339.58,
+      "exit_date": "2026-10-29T13:53:58.965763+00:00",
+      "pnl_pct": -0.77,
+      "pnl_pct_live": -0.77
     },
     {
       "ticker": "BKR",
@@ -194,9 +224,15 @@
       "news_score": null,
       "top_news_title": null,
       "top_news_url": null,
-      "status": "open",
+      "status": "expired",
       "issued_at": "2026-10-27T21:31:18.534865",
-      "last_seen": "2026-10-28T23:24:03.582701"
+      "last_seen": "2026-10-28T23:24:03.582701",
+      "current_price": 54.23,
+      "current_price_time": "2026-10-29T13:53:58.965763+00:00",
+      "exit_price": 54.23,
+      "exit_date": "2026-10-29T13:53:58.965763+00:00",
+      "pnl_pct": -8.05,
+      "pnl_pct_live": -8.05
     },
     {
       "ticker": "ODFL",
@@ -230,7 +266,11 @@
       "top_news_url": null,
       "status": "open",
       "issued_at": "2026-10-28T14:18:57.047487",
-      "last_seen": "2026-10-28T23:24:03.582701"
+      "last_seen": "2026-10-28T23:24:03.582701",
+      "current_price": 170.4,
+      "current_price_time": "2026-10-29T13:53:58.965763+00:00",
+      "pnl_pct_live": 1.59,
+      "progression_pct": 24.1
     },
     {
       "ticker": "BKR",
@@ -264,7 +304,11 @@
       "top_news_url": null,
       "status": "open",
       "issued_at": "2026-10-28T14:18:57.047499",
-      "last_seen": "2026-10-28T23:24:03.582701"
+      "last_seen": "2026-10-28T23:24:03.582701",
+      "current_price": 54.23,
+      "current_price_time": "2026-10-29T13:53:58.965763+00:00",
+      "pnl_pct_live": 0.77,
+      "progression_pct": 11.6
     },
     {
       "ticker": "META",
@@ -292,9 +336,15 @@
       "news_score": null,
       "top_news_title": null,
       "top_news_url": null,
-      "status": "open",
+      "status": "expired",
       "issued_at": "2026-10-27T19:49:39.345322",
-      "last_seen": "2026-10-28T23:24:03.582701"
+      "last_seen": "2026-10-28T23:24:03.582701",
+      "current_price": 620.5,
+      "current_price_time": "2026-10-29T13:53:58.965763+00:00",
+      "exit_price": 620.5,
+      "exit_date": "2026-10-29T13:53:58.965763+00:00",
+      "pnl_pct": 0.03,
+      "pnl_pct_live": 0.03
     },
     {
       "ticker": "FTNT",
@@ -322,9 +372,15 @@
       "news_score": null,
       "top_news_title": null,
       "top_news_url": null,
-      "status": "open",
+      "status": "tp_hit",
       "issued_at": "2026-10-28T21:15:30.562027",
-      "last_seen": "2026-10-28T23:24:03.582701"
+      "last_seen": "2026-10-28T23:24:03.582701",
+      "current_price": 136.91,
+      "current_price_time": "2026-10-29T13:53:58.965763+00:00",
+      "exit_price": 162.79,
+      "exit_date": "2026-10-29T13:53:58.965763+00:00",
+      "pnl_pct": 6.6,
+      "pnl_pct_live": 6.6
     },
     {
       "ticker": "CDNS",
