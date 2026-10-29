@@ -1,21 +1,21 @@
 {
-  "generated_at": "2026-10-29T21:20:53.601034",
+  "generated_at": "2026-10-29T22:05:00.597548",
   "date": "2026-10-29",
   "stats": {
     "total": 10,
     "buy_signals": 4,
     "sell_signals": 6,
-    "avg_confidence": 0.905,
+    "avg_confidence": 0.903,
     "avg_rr": 2.2,
-    "win_rate": 0.54,
+    "win_rate": 0.529,
     "active_positions": 10,
-    "daily_pnl": 0.0054
+    "daily_pnl": -0.0182
   },
   "eod": {
     "tp_hit": 27,
-    "sl_hit": 23,
+    "sl_hit": 24,
     "open": 10,
-    "cumulative_pnl": 0.0054
+    "cumulative_pnl": -0.0182
   },
   "signals": [
     {
@@ -109,28 +109,28 @@
       "last_seen": "2026-10-29T20:04:03.124211"
     },
     {
-      "ticker": "KLAC",
+      "ticker": "FTNT",
       "action": "STRONG_BUY",
-      "price": 170.62,
-      "take_profit": 181.88,
-      "stop_loss": 165.5,
+      "price": 139.08,
+      "take_profit": 148.26,
+      "stop_loss": 134.91,
       "upside_pct": 6.6,
-      "confidence": 0.825,
-      "score": 0.6108,
+      "confidence": 0.813,
+      "score": 0.584,
       "risk_reward": 2.2,
       "kelly_position": 0.1,
       "cpa_alpha": null,
       "ml_proba_up": null,
       "sector": "—",
       "universe": "NASDAQ100",
-      "primary_reason": "Cassure ORB haussière (RVOL 1.7x, +VWAP) +gap",
+      "primary_reason": "Cassure ORB haussière (RVOL 5.5x, +VWAP) (contre-gap)",
       "secondary_reasons": [
-        "RVOL 1.7x",
+        "RVOL 5.5x",
         "VWAP au-dessus",
-        "Gap +2.1%"
+        "Gap -26.7%"
       ],
       "risk_flags": [],
-      "intrinsic_value": 181.88,
+      "intrinsic_value": 148.26,
       "value_gap": null,
       "factor_premia": null,
       "mean_reversion": null,
@@ -139,12 +139,8 @@
       "top_news_title": null,
       "top_news_url": null,
       "status": "open",
-      "issued_at": "2026-10-29T14:35:02.623011",
-      "last_seen": "2026-10-29T14:35:02.623541",
-      "current_price": 166.6,
-      "current_price_time": "2026-10-29T19:23:11.013469+00:00",
-      "pnl_pct_live": -2.36,
-      "progression_pct": -78.5
+      "issued_at": "2026-10-29T20:04:03.123332",
+      "last_seen": "2026-10-29T22:05:00.597548"
     },
     {
       "ticker": "ODFL",
@@ -208,7 +204,7 @@
       "top_news_url": null,
       "status": "open",
       "issued_at": "2026-10-29T19:10:29.999007",
-      "last_seen": "2026-10-29T21:20:53.601034"
+      "last_seen": "2026-10-29T22:05:00.597548"
     },
     {
       "ticker": "BKR",
@@ -340,7 +336,7 @@
       "top_news_url": null,
       "status": "open",
       "issued_at": "2026-10-29T19:10:29.998994",
-      "last_seen": "2026-10-29T21:20:53.601034"
+      "last_seen": "2026-10-29T22:05:00.597548"
     },
     {
       "ticker": "CDNS",
@@ -955,6 +951,47 @@
       "exit_date": "2026-10-26T23:21:38.030326+00:00",
       "pnl_pct": 1.47,
       "pnl_pct_live": 1.47
+    },
+    {
+      "ticker": "KLAC",
+      "action": "STRONG_BUY",
+      "price": 170.62,
+      "take_profit": 181.88,
+      "stop_loss": 165.5,
+      "upside_pct": 6.6,
+      "confidence": 0.825,
+      "score": 0.6108,
+      "risk_reward": 2.2,
+      "kelly_position": 0.1,
+      "cpa_alpha": null,
+      "ml_proba_up": null,
+      "sector": "—",
+      "universe": "NASDAQ100",
+      "primary_reason": "Cassure ORB haussière (RVOL 1.7x, +VWAP) +gap",
+      "secondary_reasons": [
+        "RVOL 1.7x",
+        "VWAP au-dessus",
+        "Gap +2.1%"
+      ],
+      "risk_flags": [],
+      "intrinsic_value": 181.88,
+      "value_gap": null,
+      "factor_premia": null,
+      "mean_reversion": null,
+      "info_flow": null,
+      "news_score": null,
+      "top_news_title": null,
+      "top_news_url": null,
+      "status": "expired",
+      "issued_at": "2026-10-29T14:35:02.623011",
+      "last_seen": "2026-10-29T14:35:02.623541",
+      "current_price": 166.6,
+      "current_price_time": "2026-10-29T19:23:11.013469+00:00",
+      "pnl_pct_live": -2.36,
+      "progression_pct": -78.5,
+      "exit_price": 166.6,
+      "exit_date": "2026-10-29T22:05:00.597548",
+      "pnl_pct": -2.36
     },
     {
       "ticker": "AZN",
