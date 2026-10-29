@@ -1,21 +1,21 @@
 {
-  "generated_at": "2026-10-29T19:10:30",
+  "generated_at": "2026-10-29T19:23:11.013469+00:00",
   "date": "2026-10-29",
   "stats": {
-    "total": 10,
-    "buy_signals": 4,
-    "sell_signals": 6,
+    "total": 5,
+    "buy_signals": 2,
+    "sell_signals": 3,
     "avg_confidence": 0.921,
     "avg_rr": 2.2,
-    "win_rate": 0.58,
-    "active_positions": 10,
-    "daily_pnl": 0.2157
+    "win_rate": 0.582,
+    "active_positions": 5,
+    "daily_pnl": 0.1332
   },
   "eod": {
-    "tp_hit": 29,
-    "sl_hit": 21,
-    "open": 10,
-    "cumulative_pnl": 0.2157
+    "tp_hit": 32,
+    "sl_hit": 23,
+    "open": 5,
+    "cumulative_pnl": 0.1332
   },
   "signals": [
     {
@@ -44,16 +44,22 @@
       "news_score": null,
       "top_news_title": null,
       "top_news_url": null,
-      "status": "open",
+      "status": "expired",
       "issued_at": "2026-10-28T19:03:54.444861",
-      "last_seen": "2026-10-29T14:35:02.623541"
+      "last_seen": "2026-10-29T14:35:02.623541",
+      "current_price": 929.07,
+      "current_price_time": "2026-10-29T19:23:11.013469+00:00",
+      "exit_price": 929.07,
+      "exit_date": "2026-10-29T19:23:11.013469+00:00",
+      "pnl_pct": -5.35,
+      "pnl_pct_live": -5.35
     },
     {
       "ticker": "SOFI",
       "action": "STRONG_BUY",
       "price": 17.14,
       "take_profit": 18.27,
-      "stop_loss": 16.63,
+      "stop_loss": 17.14,
       "upside_pct": 6.6,
       "confidence": 0.911,
       "score": 0.8133,
@@ -76,7 +82,12 @@
       "top_news_url": null,
       "status": "open",
       "issued_at": "2026-10-28T20:04:11.730779",
-      "last_seen": "2026-10-29T14:35:02.623541"
+      "last_seen": "2026-10-29T14:35:02.623541",
+      "current_price": 17.51,
+      "current_price_time": "2026-10-29T19:23:11.013469+00:00",
+      "pnl_pct_live": 2.16,
+      "trail_level": 1,
+      "progression_pct": 32.7
     },
     {
       "ticker": "GOOG",
@@ -104,9 +115,15 @@
       "news_score": null,
       "top_news_title": null,
       "top_news_url": null,
-      "status": "open",
+      "status": "expired",
       "issued_at": "2026-10-28T19:03:54.444872",
-      "last_seen": "2026-10-29T14:35:02.623541"
+      "last_seen": "2026-10-29T14:35:02.623541",
+      "current_price": 280.55,
+      "current_price_time": "2026-10-29T19:23:11.013469+00:00",
+      "exit_price": 280.55,
+      "exit_date": "2026-10-29T19:23:11.013469+00:00",
+      "pnl_pct": -13.06,
+      "pnl_pct_live": -13.06
     },
     {
       "ticker": "KLAC",
@@ -140,7 +157,11 @@
       "top_news_url": null,
       "status": "open",
       "issued_at": "2026-10-29T14:35:02.623011",
-      "last_seen": "2026-10-29T14:35:02.623541"
+      "last_seen": "2026-10-29T14:35:02.623541",
+      "current_price": 166.6,
+      "current_price_time": "2026-10-29T19:23:11.013469+00:00",
+      "pnl_pct_live": -2.36,
+      "progression_pct": -78.5
     },
     {
       "ticker": "MRVL",
@@ -174,7 +195,11 @@
       "top_news_url": null,
       "status": "open",
       "issued_at": "2026-10-29T19:10:29.998994",
-      "last_seen": "2026-10-29T19:10:30"
+      "last_seen": "2026-10-29T19:10:30",
+      "current_price": 215.64,
+      "current_price_time": "2026-10-29T19:23:11.013469+00:00",
+      "pnl_pct_live": 0.1,
+      "progression_pct": 1.5
     },
     {
       "ticker": "PINS",
@@ -208,7 +233,11 @@
       "top_news_url": null,
       "status": "open",
       "issued_at": "2026-10-29T19:10:29.999007",
-      "last_seen": "2026-10-29T19:10:30"
+      "last_seen": "2026-10-29T19:10:30",
+      "current_price": 19.74,
+      "current_price_time": "2026-10-29T19:23:11.013469+00:00",
+      "pnl_pct_live": -0.36,
+      "progression_pct": -12.1
     },
     {
       "ticker": "ODFL",
@@ -236,9 +265,15 @@
       "news_score": null,
       "top_news_title": null,
       "top_news_url": null,
-      "status": "open",
+      "status": "expired",
       "issued_at": "2026-10-28T14:18:57.047487",
-      "last_seen": "2026-10-29T19:10:30"
+      "last_seen": "2026-10-29T19:10:30",
+      "current_price": 170.08,
+      "current_price_time": "2026-10-29T19:23:11.013469+00:00",
+      "exit_price": 170.08,
+      "exit_date": "2026-10-29T19:23:11.013469+00:00",
+      "pnl_pct": 1.61,
+      "pnl_pct_live": 1.61
     },
     {
       "ticker": "BKR",
@@ -266,9 +301,15 @@
       "news_score": null,
       "top_news_title": null,
       "top_news_url": null,
-      "status": "open",
+      "status": "expired",
       "issued_at": "2026-10-28T14:18:57.047499",
-      "last_seen": "2026-10-29T19:10:30"
+      "last_seen": "2026-10-29T19:10:30",
+      "current_price": 54.68,
+      "current_price_time": "2026-10-29T19:23:11.013469+00:00",
+      "exit_price": 54.68,
+      "exit_date": "2026-10-29T19:23:11.013469+00:00",
+      "pnl_pct": 1.95,
+      "pnl_pct_live": 1.95
     },
     {
       "ticker": "NVDA",
@@ -302,7 +343,11 @@
       "top_news_url": null,
       "status": "open",
       "issued_at": "2026-10-29T19:10:29.999012",
-      "last_seen": "2026-10-29T19:10:30"
+      "last_seen": "2026-10-29T19:10:30",
+      "current_price": 212.92,
+      "current_price_time": "2026-10-29T19:23:11.013469+00:00",
+      "pnl_pct_live": -0.13,
+      "progression_pct": -10.1
     },
     {
       "ticker": "FTNT",
@@ -330,9 +375,15 @@
       "news_score": null,
       "top_news_title": null,
       "top_news_url": null,
-      "status": "open",
+      "status": "tp_hit",
       "issued_at": "2026-10-28T21:15:30.562027",
-      "last_seen": "2026-10-29T14:35:02.623541"
+      "last_seen": "2026-10-29T14:35:02.623541",
+      "current_price": 135.79,
+      "current_price_time": "2026-10-29T19:23:11.013469+00:00",
+      "exit_price": 162.79,
+      "exit_date": "2026-10-29T19:23:11.013469+00:00",
+      "pnl_pct": 6.6,
+      "pnl_pct_live": 6.6
     },
     {
       "ticker": "CDNS",
