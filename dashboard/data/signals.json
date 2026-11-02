@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-02T17:21:28.129720",
+  "generated_at": "2026-11-02T22:27:34.068374",
   "date": "2026-11-02",
   "stats": {
     "total": 10,
@@ -21,9 +21,9 @@
     {
       "ticker": "IDXX",
       "action": "STRONG_BUY",
-      "price": 659.93,
-      "take_profit": 703.49,
-      "stop_loss": 640.14,
+      "price": 671.84,
+      "take_profit": 716.18,
+      "stop_loss": 651.68,
       "upside_pct": 6.6,
       "confidence": 0.99,
       "score": 1.0,
@@ -33,14 +33,14 @@
       "ml_proba_up": null,
       "sector": "—",
       "universe": "NASDAQ100",
-      "primary_reason": "Cassure ORB haussière (RVOL 6.6x, +VWAP) +gap",
+      "primary_reason": "Cassure ORB haussière (RVOL 4.4x, +VWAP) +gap",
       "secondary_reasons": [
-        "RVOL 6.6x",
+        "RVOL 4.4x",
         "VWAP au-dessus",
         "Gap +12.7%"
       ],
       "risk_flags": [],
-      "intrinsic_value": 703.49,
+      "intrinsic_value": 716.18,
       "value_gap": null,
       "factor_premia": null,
       "mean_reversion": null,
@@ -50,7 +50,7 @@
       "top_news_url": null,
       "status": "open",
       "issued_at": "2026-11-02T17:21:28.129019",
-      "last_seen": "2026-11-02T17:21:28.129720"
+      "last_seen": "2026-11-02T22:27:34.068374"
     },
     {
       "ticker": "REGN",
@@ -85,9 +85,9 @@
     {
       "ticker": "INTC",
       "action": "STRONG_SELL",
-      "price": 62.87,
-      "take_profit": 58.72,
-      "stop_loss": 64.76,
+      "price": 59.95,
+      "take_profit": 55.99,
+      "stop_loss": 61.75,
       "upside_pct": 6.6,
       "confidence": 0.99,
       "score": -1.0,
@@ -97,14 +97,14 @@
       "ml_proba_up": null,
       "sector": "—",
       "universe": "NASDAQ100",
-      "primary_reason": "Cassure ORB baissière (RVOL 6.2x, -VWAP) +gap",
+      "primary_reason": "Cassure ORB baissière (RVOL 4.4x, -VWAP) +gap",
       "secondary_reasons": [
-        "RVOL 6.2x",
+        "RVOL 4.4x",
         "VWAP en-dessous",
         "Gap -0.8%"
       ],
       "risk_flags": [],
-      "intrinsic_value": 58.72,
+      "intrinsic_value": 55.99,
       "value_gap": null,
       "factor_premia": null,
       "mean_reversion": null,
@@ -114,14 +114,14 @@
       "top_news_url": null,
       "status": "open",
       "issued_at": "2026-11-02T17:21:28.129007",
-      "last_seen": "2026-11-02T17:21:28.129720"
+      "last_seen": "2026-11-02T22:27:34.068374"
     },
     {
       "ticker": "MRVL",
       "action": "STRONG_SELL",
-      "price": 179.45,
-      "take_profit": 167.6,
-      "stop_loss": 184.83,
+      "price": 171.35,
+      "take_profit": 160.04,
+      "stop_loss": 176.49,
       "upside_pct": 6.6,
       "confidence": 0.99,
       "score": -1.0,
@@ -131,14 +131,14 @@
       "ml_proba_up": null,
       "sector": "—",
       "universe": "NASDAQ100",
-      "primary_reason": "Cassure ORB baissière (RVOL 4.5x, -VWAP) +gap",
+      "primary_reason": "Cassure ORB baissière (RVOL 4.1x, -VWAP) +gap",
       "secondary_reasons": [
-        "RVOL 4.5x",
+        "RVOL 4.1x",
         "VWAP en-dessous",
         "Gap -2.3%"
       ],
       "risk_flags": [],
-      "intrinsic_value": 167.6,
+      "intrinsic_value": 160.04,
       "value_gap": null,
       "factor_premia": null,
       "mean_reversion": null,
@@ -148,7 +148,7 @@
       "top_news_url": null,
       "status": "open",
       "issued_at": "2026-11-02T17:21:28.129023",
-      "last_seen": "2026-11-02T17:21:28.129720"
+      "last_seen": "2026-11-02T22:27:34.068374"
     },
     {
       "ticker": "RBLX",
