@@ -274,5 +274,28 @@
     "ml_proba_up": null,
     "risk_reward": 2.2,
     "primary_reason": "Cassure ORB haussière (RVOL 1.8x, +VWAP) +gap"
+  },
+  {
+    "ticker": "BKNG",
+    "action": "STRONG_BUY",
+    "entry_price": 157.24000549316406,
+    "stop_loss": 153.25999450683594,
+    "take_profit": 165.99602966308595,
+    "score": 0.6902028355626699,
+    "confidence": 0.8583362051141348,
+    "universe": "NASDAQ100",
+    "issued_at": "2026-11-03T21:54:20.217707",
+    "horizon_days": 1,
+    "horizon_hours": 24,
+    "status": "open",
+    "exit_price": null,
+    "exit_date": null,
+    "pnl_pct": null,
+    "max_favorable": null,
+    "max_adverse": null,
+    "sector": "",
+    "ml_proba_up": null,
+    "risk_reward": 2.2,
+    "primary_reason": "Cassure ORB haussière (RVOL 1.9x, +VWAP) +gap"
   }
 ]
