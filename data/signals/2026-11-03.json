@@ -251,5 +251,28 @@
     "ml_proba_up": null,
     "risk_reward": 2.2,
     "primary_reason": "Cassure ORB haussière (RVOL 3.7x, +VWAP) (contre-gap)"
+  },
+  {
+    "ticker": "SIRI",
+    "action": "STRONG_BUY",
+    "entry_price": 30.875,
+    "stop_loss": 29.94875,
+    "take_profit": 32.91275,
+    "score": 0.5682333730316316,
+    "confidence": 0.8064991835384434,
+    "universe": "NASDAQ100",
+    "issued_at": "2026-11-03T20:46:28.314821",
+    "horizon_days": 1,
+    "horizon_hours": 24,
+    "status": "open",
+    "exit_price": null,
+    "exit_date": null,
+    "pnl_pct": null,
+    "max_favorable": null,
+    "max_adverse": null,
+    "sector": "",
+    "ml_proba_up": null,
+    "risk_reward": 2.2,
+    "primary_reason": "Cassure ORB haussière (RVOL 1.8x, +VWAP) +gap"
   }
 ]
