@@ -1,21 +1,21 @@
 {
-  "generated_at": "2026-11-04T21:03:58.079691",
+  "generated_at": "2026-11-04T21:18:55.662696+00:00",
   "date": "2026-11-04",
   "stats": {
-    "total": 10,
-    "buy_signals": 4,
-    "sell_signals": 6,
+    "total": 0,
+    "buy_signals": 0,
+    "sell_signals": 0,
     "avg_confidence": 0.944,
     "avg_rr": 2.2,
-    "win_rate": 0.48,
-    "active_positions": 10,
-    "daily_pnl": 0.2778
+    "win_rate": 0.5,
+    "active_positions": 0,
+    "daily_pnl": 0.4756
   },
   "eod": {
-    "tp_hit": 24,
-    "sl_hit": 26,
-    "open": 10,
-    "cumulative_pnl": 0.2778
+    "tp_hit": 30,
+    "sl_hit": 30,
+    "open": 0,
+    "cumulative_pnl": 0.4756
   },
   "signals": [
     {
@@ -44,9 +44,15 @@
       "news_score": null,
       "top_news_title": null,
       "top_news_url": null,
-      "status": "open",
+      "status": "expired",
       "issued_at": "2026-11-03T00:05:30.743465",
-      "last_seen": "2026-11-04T15:40:33.678709"
+      "last_seen": "2026-11-04T15:40:33.678709",
+      "current_price": 699.21,
+      "current_price_time": "2026-11-04T21:18:55.662696+00:00",
+      "exit_price": 699.21,
+      "exit_date": "2026-11-04T21:18:55.662696+00:00",
+      "pnl_pct": 4.07,
+      "pnl_pct_live": 4.07
     },
     {
       "ticker": "KHC",
@@ -78,9 +84,15 @@
       "news_score": null,
       "top_news_title": null,
       "top_news_url": null,
-      "status": "open",
+      "status": "expired",
       "issued_at": "2026-11-04T15:40:33.678109",
-      "last_seen": "2026-11-04T15:40:33.678709"
+      "last_seen": "2026-11-04T15:40:33.678709",
+      "current_price": 25.46,
+      "current_price_time": "2026-11-04T21:18:55.662696+00:00",
+      "exit_price": 25.46,
+      "exit_date": "2026-11-04T21:18:55.662696+00:00",
+      "pnl_pct": -1.51,
+      "pnl_pct_live": -1.51
     },
     {
       "ticker": "SIRI",
@@ -108,9 +120,15 @@
       "news_score": null,
       "top_news_title": null,
       "top_news_url": null,
-      "status": "open",
+      "status": "expired",
       "issued_at": "2026-11-03T15:25:10.140057",
-      "last_seen": "2026-11-04T20:31:31.624853"
+      "last_seen": "2026-11-04T20:31:31.624853",
+      "current_price": 33.39,
+      "current_price_time": "2026-11-04T21:18:55.662696+00:00",
+      "exit_price": 33.39,
+      "exit_date": "2026-11-04T21:18:55.662696+00:00",
+      "pnl_pct": 9.94,
+      "pnl_pct_live": 9.94
     },
     {
       "ticker": "BKNG",
@@ -138,9 +156,15 @@
       "news_score": null,
       "top_news_title": null,
       "top_news_url": null,
-      "status": "open",
+      "status": "tp_hit",
       "issued_at": "2026-11-03T21:54:20.217707",
-      "last_seen": "2026-11-04T15:40:33.678709"
+      "last_seen": "2026-11-04T15:40:33.678709",
+      "current_price": 170.98,
+      "current_price_time": "2026-11-04T21:18:55.662696+00:00",
+      "exit_price": 166.0,
+      "exit_date": "2026-11-04T21:18:55.662696+00:00",
+      "pnl_pct": 5.57,
+      "pnl_pct_live": 5.57
     },
     {
       "ticker": "MRVL",
@@ -168,9 +192,15 @@
       "news_score": null,
       "top_news_title": null,
       "top_news_url": null,
-      "status": "open",
+      "status": "expired",
       "issued_at": "2026-11-03T00:05:30.743477",
-      "last_seen": "2026-11-04T15:40:33.678709"
+      "last_seen": "2026-11-04T15:40:33.678709",
+      "current_price": 159.91,
+      "current_price_time": "2026-11-04T21:18:55.662696+00:00",
+      "exit_price": 159.91,
+      "exit_date": "2026-11-04T21:18:55.662696+00:00",
+      "pnl_pct": 6.68,
+      "pnl_pct_live": 6.68
     },
     {
       "ticker": "DDOG",
@@ -202,9 +232,15 @@
       "news_score": null,
       "top_news_title": null,
       "top_news_url": null,
-      "status": "open",
+      "status": "expired",
       "issued_at": "2026-11-04T20:31:31.624171",
-      "last_seen": "2026-11-04T20:31:31.624853"
+      "last_seen": "2026-11-04T20:31:31.624853",
+      "current_price": 188.63,
+      "current_price_time": "2026-11-04T21:18:55.662696+00:00",
+      "exit_price": 188.63,
+      "exit_date": "2026-11-04T21:18:55.662696+00:00",
+      "pnl_pct": 0.47,
+      "pnl_pct_live": 0.47
     },
     {
       "ticker": "CEG",
@@ -236,9 +272,15 @@
       "news_score": null,
       "top_news_title": null,
       "top_news_url": null,
-      "status": "open",
+      "status": "expired",
       "issued_at": "2026-11-04T15:40:33.678099",
-      "last_seen": "2026-11-04T15:40:33.678709"
+      "last_seen": "2026-11-04T15:40:33.678709",
+      "current_price": 245.72,
+      "current_price_time": "2026-11-04T21:18:55.662696+00:00",
+      "exit_price": 245.72,
+      "exit_date": "2026-11-04T21:18:55.662696+00:00",
+      "pnl_pct": -1.66,
+      "pnl_pct_live": -1.66
     },
     {
       "ticker": "KDP",
@@ -266,9 +308,15 @@
       "news_score": null,
       "top_news_title": null,
       "top_news_url": null,
-      "status": "open",
+      "status": "expired",
       "issued_at": "2026-11-03T15:25:10.140045",
-      "last_seen": "2026-11-04T15:40:33.678709"
+      "last_seen": "2026-11-04T15:40:33.678709",
+      "current_price": 36.8,
+      "current_price_time": "2026-11-04T21:18:55.662696+00:00",
+      "exit_price": 36.8,
+      "exit_date": "2026-11-04T21:18:55.662696+00:00",
+      "pnl_pct": -6.57,
+      "pnl_pct_live": -6.57
     },
     {
       "ticker": "NVDA",
@@ -300,9 +348,15 @@
       "news_score": null,
       "top_news_title": null,
       "top_news_url": null,
-      "status": "open",
+      "status": "expired",
       "issued_at": "2026-11-04T21:03:58.079070",
-      "last_seen": "2026-11-04T21:03:58.079691"
+      "last_seen": "2026-11-04T21:03:58.079691",
+      "current_price": 200.28,
+      "current_price_time": "2026-11-04T21:18:55.662696+00:00",
+      "exit_price": 200.28,
+      "exit_date": "2026-11-04T21:18:55.662696+00:00",
+      "pnl_pct": 0.0,
+      "pnl_pct_live": 0.0
     },
     {
       "ticker": "INTC",
@@ -330,9 +384,15 @@
       "news_score": null,
       "top_news_title": null,
       "top_news_url": null,
-      "status": "open",
+      "status": "expired",
       "issued_at": "2026-11-03T00:05:30.743482",
-      "last_seen": "2026-11-04T15:40:33.678709"
+      "last_seen": "2026-11-04T15:40:33.678709",
+      "current_price": 58.28,
+      "current_price_time": "2026-11-04T21:18:55.662696+00:00",
+      "exit_price": 58.28,
+      "exit_date": "2026-11-04T21:18:55.662696+00:00",
+      "pnl_pct": 2.79,
+      "pnl_pct_live": 2.79
     },
     {
       "ticker": "IDXX",
