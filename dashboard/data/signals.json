@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-11-03T22:37:38.253522",
-  "date": "2026-11-03",
+  "generated_at": "2026-11-04T00:04:42.616978",
+  "date": "2026-11-04",
   "stats": {
     "total": 10,
     "buy_signals": 7,
@@ -80,7 +80,7 @@
       "top_news_url": null,
       "status": "open",
       "issued_at": "2026-11-03T20:16:24.219673",
-      "last_seen": "2026-11-03T22:37:38.253522"
+      "last_seen": "2026-11-04T00:04:42.616978"
     },
     {
       "ticker": "BKNG",
@@ -114,7 +114,7 @@
       "top_news_url": null,
       "status": "open",
       "issued_at": "2026-11-03T21:54:20.217707",
-      "last_seen": "2026-11-03T22:37:38.253522"
+      "last_seen": "2026-11-04T00:04:42.616978"
     },
     {
       "ticker": "KDP",
@@ -208,7 +208,7 @@
       "top_news_url": null,
       "status": "open",
       "issued_at": "2026-11-03T20:16:24.219684",
-      "last_seen": "2026-11-03T22:37:38.253522"
+      "last_seen": "2026-11-04T00:04:42.616978"
     },
     {
       "ticker": "SIRI",
@@ -336,7 +336,7 @@
       "top_news_url": null,
       "status": "open",
       "issued_at": "2026-11-03T15:25:10.140045",
-      "last_seen": "2026-11-03T22:37:38.253522"
+      "last_seen": "2026-11-04T00:04:42.616978"
     },
     {
       "ticker": "IDXX",
