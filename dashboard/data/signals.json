@@ -1,21 +1,21 @@
 {
-  "generated_at": "2026-11-04T00:04:42.616978",
+  "generated_at": "2026-11-04T00:55:48.840898+00:00",
   "date": "2026-11-04",
   "stats": {
-    "total": 10,
-    "buy_signals": 7,
-    "sell_signals": 3,
+    "total": 6,
+    "buy_signals": 5,
+    "sell_signals": 1,
     "avg_confidence": 0.883,
     "avg_rr": 2.2,
-    "win_rate": 0.5,
-    "active_positions": 10,
-    "daily_pnl": 0.1509
+    "win_rate": 0.519,
+    "active_positions": 6,
+    "daily_pnl": 0.1889
   },
   "eod": {
-    "tp_hit": 25,
-    "sl_hit": 25,
-    "open": 10,
-    "cumulative_pnl": 0.1509
+    "tp_hit": 28,
+    "sl_hit": 26,
+    "open": 6,
+    "cumulative_pnl": 0.1889
   },
   "signals": [
     {
@@ -44,9 +44,15 @@
       "news_score": null,
       "top_news_title": null,
       "top_news_url": null,
-      "status": "open",
+      "status": "expired",
       "issued_at": "2026-11-02T17:21:28.129019",
-      "last_seen": "2026-11-03T20:46:28.315802"
+      "last_seen": "2026-11-03T20:46:28.315802",
+      "current_price": 672.2,
+      "current_price_time": "2026-11-04T00:55:48.840898+00:00",
+      "exit_price": 672.2,
+      "exit_date": "2026-11-04T00:55:48.840898+00:00",
+      "pnl_pct": 1.86,
+      "pnl_pct_live": 1.86
     },
     {
       "ticker": "RIOT",
@@ -80,7 +86,11 @@
       "top_news_url": null,
       "status": "open",
       "issued_at": "2026-11-03T20:16:24.219673",
-      "last_seen": "2026-11-04T00:04:42.616978"
+      "last_seen": "2026-11-04T00:04:42.616978",
+      "current_price": 14.02,
+      "current_price_time": "2026-11-04T00:55:48.840898+00:00",
+      "pnl_pct_live": 0.0,
+      "progression_pct": 0.0
     },
     {
       "ticker": "BKNG",
@@ -114,7 +124,11 @@
       "top_news_url": null,
       "status": "open",
       "issued_at": "2026-11-03T21:54:20.217707",
-      "last_seen": "2026-11-04T00:04:42.616978"
+      "last_seen": "2026-11-04T00:04:42.616978",
+      "current_price": 157.4,
+      "current_price_time": "2026-11-04T00:55:48.840898+00:00",
+      "pnl_pct_live": 0.1,
+      "progression_pct": 1.8
     },
     {
       "ticker": "KDP",
@@ -142,9 +156,15 @@
       "news_score": null,
       "top_news_title": null,
       "top_news_url": null,
-      "status": "open",
+      "status": "expired",
       "issued_at": "2026-11-03T00:05:30.743486",
-      "last_seen": "2026-11-03T20:46:28.315802"
+      "last_seen": "2026-11-03T20:46:28.315802",
+      "current_price": 34.72,
+      "current_price_time": "2026-11-04T00:55:48.840898+00:00",
+      "exit_price": 34.72,
+      "exit_date": "2026-11-04T00:55:48.840898+00:00",
+      "pnl_pct": -6.04,
+      "pnl_pct_live": -6.04
     },
     {
       "ticker": "RBLX",
@@ -174,7 +194,11 @@
       "top_news_url": null,
       "status": "open",
       "issued_at": "2026-11-03T15:25:10.140064",
-      "last_seen": "2026-11-03T20:46:28.315802"
+      "last_seen": "2026-11-03T20:46:28.315802",
+      "current_price": 45.47,
+      "current_price_time": "2026-11-04T00:55:48.840898+00:00",
+      "pnl_pct_live": 0.42,
+      "progression_pct": 6.4
     },
     {
       "ticker": "PLTR",
@@ -208,7 +232,11 @@
       "top_news_url": null,
       "status": "open",
       "issued_at": "2026-11-03T20:16:24.219684",
-      "last_seen": "2026-11-04T00:04:42.616978"
+      "last_seen": "2026-11-04T00:04:42.616978",
+      "current_price": 175.41,
+      "current_price_time": "2026-11-04T00:55:48.840898+00:00",
+      "pnl_pct_live": 0.0,
+      "progression_pct": 0.0
     },
     {
       "ticker": "SIRI",
@@ -242,7 +270,11 @@
       "top_news_url": null,
       "status": "open",
       "issued_at": "2026-11-03T15:25:10.140057",
-      "last_seen": "2026-11-03T20:46:28.315802"
+      "last_seen": "2026-11-03T20:46:28.315802",
+      "current_price": 30.8,
+      "current_price_time": "2026-11-04T00:55:48.840898+00:00",
+      "pnl_pct_live": -0.26,
+      "progression_pct": -8.6
     },
     {
       "ticker": "INTC",
@@ -270,9 +302,15 @@
       "news_score": null,
       "top_news_title": null,
       "top_news_url": null,
-      "status": "open",
+      "status": "expired",
       "issued_at": "2026-11-02T17:21:28.129007",
-      "last_seen": "2026-11-03T20:46:28.315802"
+      "last_seen": "2026-11-03T20:46:28.315802",
+      "current_price": 60.5,
+      "current_price_time": "2026-11-04T00:55:48.840898+00:00",
+      "exit_price": 60.5,
+      "exit_date": "2026-11-04T00:55:48.840898+00:00",
+      "pnl_pct": 3.77,
+      "pnl_pct_live": 3.77
     },
     {
       "ticker": "MRVL",
@@ -300,9 +338,15 @@
       "news_score": null,
       "top_news_title": null,
       "top_news_url": null,
-      "status": "open",
+      "status": "expired",
       "issued_at": "2026-11-02T17:21:28.129023",
-      "last_seen": "2026-11-03T20:46:28.315802"
+      "last_seen": "2026-11-03T20:46:28.315802",
+      "current_price": 171.89,
+      "current_price_time": "2026-11-04T00:55:48.840898+00:00",
+      "exit_price": 171.89,
+      "exit_date": "2026-11-04T00:55:48.840898+00:00",
+      "pnl_pct": 4.21,
+      "pnl_pct_live": 4.21
     },
     {
       "ticker": "KDP",
@@ -336,7 +380,11 @@
       "top_news_url": null,
       "status": "open",
       "issued_at": "2026-11-03T15:25:10.140045",
-      "last_seen": "2026-11-04T00:04:42.616978"
+      "last_seen": "2026-11-04T00:04:42.616978",
+      "current_price": 34.72,
+      "current_price_time": "2026-11-04T00:55:48.840898+00:00",
+      "pnl_pct_live": 0.0,
+      "progression_pct": 0.0
     },
     {
       "ticker": "IDXX",
