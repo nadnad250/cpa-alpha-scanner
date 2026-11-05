@@ -1,21 +1,21 @@
 {
-  "generated_at": "2026-11-05T01:35:44.322717+00:00",
+  "generated_at": "2026-11-05T15:07:19.698656+00:00",
   "date": "2026-11-05",
   "stats": {
-    "total": 6,
+    "total": 2,
     "buy_signals": 1,
-    "sell_signals": 5,
+    "sell_signals": 1,
     "avg_confidence": 0.962,
     "avg_rr": 2.2,
-    "win_rate": 0.481,
-    "active_positions": 6,
-    "daily_pnl": 0.2659
+    "win_rate": 0.517,
+    "active_positions": 2,
+    "daily_pnl": 0.5128
   },
   "eod": {
-    "tp_hit": 26,
+    "tp_hit": 30,
     "sl_hit": 28,
-    "open": 6,
-    "cumulative_pnl": 0.2659
+    "open": 2,
+    "cumulative_pnl": 0.5128
   },
   "signals": [
     {
@@ -83,10 +83,10 @@
       "status": "open",
       "issued_at": "2026-11-04T15:40:33.678109",
       "last_seen": "2026-11-04T22:04:48.962050",
-      "current_price": 25.46,
-      "current_price_time": "2026-11-05T01:35:44.322717+00:00",
-      "pnl_pct_live": -1.51,
-      "progression_pct": -50.6
+      "current_price": 25.33,
+      "current_price_time": "2026-11-05T15:07:19.698656+00:00",
+      "pnl_pct_live": -2.01,
+      "progression_pct": -67.5
     },
     {
       "ticker": "DDOG",
@@ -118,13 +118,16 @@
       "news_score": null,
       "top_news_title": null,
       "top_news_url": null,
-      "status": "open",
+      "status": "tp_hit",
       "issued_at": "2026-11-04T20:31:31.624171",
       "last_seen": "2026-11-05T00:28:57.690418",
-      "current_price": 188.63,
-      "current_price_time": "2026-11-05T01:35:44.322717+00:00",
-      "pnl_pct_live": 0.0,
-      "progression_pct": 0.0
+      "current_price": 174.74,
+      "current_price_time": "2026-11-05T15:07:19.698656+00:00",
+      "pnl_pct_live": 6.6,
+      "progression_pct": 0.0,
+      "exit_price": 176.18,
+      "exit_date": "2026-11-05T15:07:19.698656+00:00",
+      "pnl_pct": 6.6
     },
     {
       "ticker": "MU",
@@ -156,13 +159,16 @@
       "news_score": null,
       "top_news_title": null,
       "top_news_url": null,
-      "status": "open",
+      "status": "tp_hit",
       "issued_at": "2026-11-04T22:04:48.961316",
       "last_seen": "2026-11-04T22:04:48.962050",
-      "current_price": 795.45,
-      "current_price_time": "2026-11-05T01:35:44.322717+00:00",
-      "pnl_pct_live": 0.0,
-      "progression_pct": 0.0
+      "current_price": 713.4,
+      "current_price_time": "2026-11-05T15:07:19.698656+00:00",
+      "pnl_pct_live": 6.6,
+      "progression_pct": 0.0,
+      "exit_price": 742.95,
+      "exit_date": "2026-11-05T15:07:19.698656+00:00",
+      "pnl_pct": 6.6
     },
     {
       "ticker": "MRVL",
@@ -205,7 +211,7 @@
       "action": "STRONG_SELL",
       "price": 241.7,
       "take_profit": 225.75,
-      "stop_loss": 248.95,
+      "stop_loss": 241.7,
       "upside_pct": 6.6,
       "confidence": 0.979,
       "score": -0.9733,
@@ -229,10 +235,11 @@
       "status": "open",
       "issued_at": "2026-11-04T15:40:33.678099",
       "last_seen": "2026-11-04T22:04:48.962050",
-      "current_price": 245.72,
-      "current_price_time": "2026-11-05T01:35:44.322717+00:00",
-      "pnl_pct_live": -1.66,
-      "progression_pct": -55.4
+      "current_price": 236.23,
+      "current_price_time": "2026-11-05T15:07:19.698656+00:00",
+      "pnl_pct_live": 2.26,
+      "progression_pct": 34.3,
+      "trail_level": 1
     },
     {
       "ticker": "NVDA",
@@ -264,13 +271,16 @@
       "news_score": null,
       "top_news_title": null,
       "top_news_url": null,
-      "status": "open",
+      "status": "tp_hit",
       "issued_at": "2026-11-04T21:03:58.079070",
       "last_seen": "2026-11-05T00:28:57.690418",
-      "current_price": 200.29,
-      "current_price_time": "2026-11-05T01:35:44.322717+00:00",
-      "pnl_pct_live": -0.0,
-      "progression_pct": -0.2
+      "current_price": 188.96,
+      "current_price_time": "2026-11-05T15:07:19.698656+00:00",
+      "pnl_pct_live": 4.9,
+      "progression_pct": -0.2,
+      "exit_price": 190.47,
+      "exit_date": "2026-11-05T15:07:19.698656+00:00",
+      "pnl_pct": 4.9
     },
     {
       "ticker": "KDP",
@@ -338,13 +348,16 @@
       "news_score": null,
       "top_news_title": null,
       "top_news_url": null,
-      "status": "open",
+      "status": "tp_hit",
       "issued_at": "2026-11-04T22:04:48.961327",
       "last_seen": "2026-11-05T00:28:57.690418",
-      "current_price": 29.59,
-      "current_price_time": "2026-11-05T01:35:44.322717+00:00",
-      "pnl_pct_live": 0.0,
-      "progression_pct": 0.0
+      "current_price": 27.24,
+      "current_price_time": "2026-11-05T15:07:19.698656+00:00",
+      "pnl_pct_live": 6.59,
+      "progression_pct": 0.0,
+      "exit_price": 27.64,
+      "exit_date": "2026-11-05T15:07:19.698656+00:00",
+      "pnl_pct": 6.59
     },
     {
       "ticker": "INTC",
