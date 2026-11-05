@@ -1,20 +1,20 @@
 {
-  "generated_at": "2026-11-05T20:48:03.922582",
+  "generated_at": "2026-11-05T21:20:21.515351",
   "date": "2026-11-05",
   "stats": {
-    "total": 8,
+    "total": 9,
     "buy_signals": 1,
-    "sell_signals": 7,
-    "avg_confidence": 0.963,
+    "sell_signals": 8,
+    "avg_confidence": 0.966,
     "avg_rr": 2.2,
     "win_rate": 0.5,
-    "active_positions": 8,
+    "active_positions": 9,
     "daily_pnl": 0.4197
   },
   "eod": {
     "tp_hit": 25,
     "sl_hit": 25,
-    "open": 8,
+    "open": 9,
     "cumulative_pnl": 0.4197
   },
   "signals": [
@@ -47,6 +47,40 @@
       "status": "open",
       "issued_at": "2026-11-04T15:40:33.678109",
       "last_seen": "2026-11-05T20:48:03.922582"
+    },
+    {
+      "ticker": "INTC",
+      "action": "STRONG_SELL",
+      "price": 52.12,
+      "take_profit": 48.68,
+      "stop_loss": 53.69,
+      "upside_pct": 6.6,
+      "confidence": 0.99,
+      "score": -1.0,
+      "risk_reward": 2.2,
+      "kelly_position": 0.12,
+      "cpa_alpha": null,
+      "ml_proba_up": null,
+      "sector": "—",
+      "universe": "NASDAQ100",
+      "primary_reason": "Cassure ORB baissière (RVOL 4.3x, -VWAP) +gap",
+      "secondary_reasons": [
+        "RVOL 4.3x",
+        "VWAP en-dessous",
+        "Gap -3.8%"
+      ],
+      "risk_flags": [],
+      "intrinsic_value": 48.68,
+      "value_gap": null,
+      "factor_premia": null,
+      "mean_reversion": null,
+      "info_flow": null,
+      "news_score": null,
+      "top_news_title": null,
+      "top_news_url": null,
+      "status": "open",
+      "issued_at": "2026-11-05T21:20:21.514751",
+      "last_seen": "2026-11-05T21:20:21.515351"
     },
     {
       "ticker": "TXN",
