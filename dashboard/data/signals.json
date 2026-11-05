@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-11-04T22:56:51.908857",
-  "date": "2026-11-04",
+  "generated_at": "2026-11-05T00:28:57.690418",
+  "date": "2026-11-05",
   "stats": {
     "total": 10,
     "buy_signals": 2,
@@ -110,7 +110,7 @@
       "top_news_url": null,
       "status": "open",
       "issued_at": "2026-11-04T20:31:31.624171",
-      "last_seen": "2026-11-04T22:56:51.908857"
+      "last_seen": "2026-11-05T00:28:57.690418"
     },
     {
       "ticker": "MU",
@@ -207,6 +207,40 @@
       "last_seen": "2026-11-04T22:04:48.962050"
     },
     {
+      "ticker": "NVDA",
+      "action": "STRONG_SELL",
+      "price": 200.28,
+      "take_profit": 190.47,
+      "stop_loss": 204.74,
+      "upside_pct": 4.9,
+      "confidence": 0.968,
+      "score": -0.9481,
+      "risk_reward": 2.2,
+      "kelly_position": 0.12,
+      "cpa_alpha": null,
+      "ml_proba_up": null,
+      "sector": "—",
+      "universe": "NASDAQ100",
+      "primary_reason": "Cassure ORB baissière (RVOL 7.7x, -VWAP) +gap",
+      "secondary_reasons": [
+        "RVOL 7.7x",
+        "VWAP en-dessous",
+        "Gap -0.9%"
+      ],
+      "risk_flags": [],
+      "intrinsic_value": 190.47,
+      "value_gap": null,
+      "factor_premia": null,
+      "mean_reversion": null,
+      "info_flow": null,
+      "news_score": null,
+      "top_news_title": null,
+      "top_news_url": null,
+      "status": "open",
+      "issued_at": "2026-11-04T21:03:58.079070",
+      "last_seen": "2026-11-05T00:28:57.690418"
+    },
+    {
       "ticker": "KDP",
       "action": "STRONG_SELL",
       "price": 34.53,
@@ -235,40 +269,6 @@
       "status": "open",
       "issued_at": "2026-11-03T15:25:10.140045",
       "last_seen": "2026-11-04T22:04:48.962050"
-    },
-    {
-      "ticker": "NVDA",
-      "action": "STRONG_SELL",
-      "price": 200.29,
-      "take_profit": 190.33,
-      "stop_loss": 204.81,
-      "upside_pct": 5.0,
-      "confidence": 0.96,
-      "score": -0.9285,
-      "risk_reward": 2.2,
-      "kelly_position": 0.12,
-      "cpa_alpha": null,
-      "ml_proba_up": null,
-      "sector": "—",
-      "universe": "NASDAQ100",
-      "primary_reason": "Cassure ORB baissière (RVOL 8.4x, -VWAP) +gap",
-      "secondary_reasons": [
-        "RVOL 8.4x",
-        "VWAP en-dessous",
-        "Gap -1.4%"
-      ],
-      "risk_flags": [],
-      "intrinsic_value": 190.33,
-      "value_gap": null,
-      "factor_premia": null,
-      "mean_reversion": null,
-      "info_flow": null,
-      "news_score": null,
-      "top_news_title": null,
-      "top_news_url": null,
-      "status": "open",
-      "issued_at": "2026-11-04T21:03:58.079070",
-      "last_seen": "2026-11-04T22:56:51.908857"
     },
     {
       "ticker": "SMCI",
@@ -302,7 +302,7 @@
       "top_news_url": null,
       "status": "open",
       "issued_at": "2026-11-04T22:04:48.961327",
-      "last_seen": "2026-11-04T22:04:48.962050"
+      "last_seen": "2026-11-05T00:28:57.690418"
     },
     {
       "ticker": "INTC",
