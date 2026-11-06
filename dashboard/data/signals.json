@@ -1,21 +1,21 @@
 {
-  "generated_at": "2026-11-06T00:29:19.209964",
+  "generated_at": "2026-11-06T01:43:08.690845+00:00",
   "date": "2026-11-06",
   "stats": {
-    "total": 10,
-    "buy_signals": 1,
-    "sell_signals": 9,
+    "total": 4,
+    "buy_signals": 0,
+    "sell_signals": 4,
     "avg_confidence": 0.972,
     "avg_rr": 2.2,
-    "win_rate": 0.52,
-    "active_positions": 10,
-    "daily_pnl": 0.5509
+    "win_rate": 0.536,
+    "active_positions": 4,
+    "daily_pnl": 0.8731
   },
   "eod": {
-    "tp_hit": 26,
-    "sl_hit": 24,
-    "open": 10,
-    "cumulative_pnl": 0.5509
+    "tp_hit": 30,
+    "sl_hit": 26,
+    "open": 4,
+    "cumulative_pnl": 0.8731
   },
   "signals": [
     {
@@ -44,9 +44,15 @@
       "news_score": null,
       "top_news_title": null,
       "top_news_url": null,
-      "status": "open",
+      "status": "expired",
       "issued_at": "2026-11-04T15:40:33.678109",
-      "last_seen": "2026-11-05T22:12:03.106589"
+      "last_seen": "2026-11-05T22:12:03.106589",
+      "current_price": 25.33,
+      "current_price_time": "2026-11-06T01:43:08.690845+00:00",
+      "exit_price": 25.33,
+      "exit_date": "2026-11-06T01:43:08.690845+00:00",
+      "pnl_pct": -2.01,
+      "pnl_pct_live": -2.01
     },
     {
       "ticker": "NVDA",
@@ -78,9 +84,15 @@
       "news_score": null,
       "top_news_title": null,
       "top_news_url": null,
-      "status": "open",
+      "status": "expired",
       "issued_at": "2026-11-04T21:03:58.079070",
-      "last_seen": "2026-11-05T22:12:03.106589"
+      "last_seen": "2026-11-05T22:12:03.106589",
+      "current_price": 181.6,
+      "current_price_time": "2026-11-06T01:43:08.690845+00:00",
+      "exit_price": 181.6,
+      "exit_date": "2026-11-06T01:43:08.690845+00:00",
+      "pnl_pct": 0.0,
+      "pnl_pct_live": 0.0
     },
     {
       "ticker": "AMD",
@@ -114,7 +126,11 @@
       "top_news_url": null,
       "status": "open",
       "issued_at": "2026-11-05T22:12:03.105935",
-      "last_seen": "2026-11-05T22:12:03.106589"
+      "last_seen": "2026-11-05T22:12:03.106589",
+      "current_price": 402.51,
+      "current_price_time": "2026-11-06T01:43:08.690845+00:00",
+      "pnl_pct_live": 0.0,
+      "progression_pct": 0.0
     },
     {
       "ticker": "MU",
@@ -142,16 +158,22 @@
       "news_score": null,
       "top_news_title": null,
       "top_news_url": null,
-      "status": "open",
+      "status": "expired",
       "issued_at": "2026-11-04T22:04:48.961316",
-      "last_seen": "2026-11-05T22:12:03.106589"
+      "last_seen": "2026-11-05T22:12:03.106589",
+      "current_price": 658.7,
+      "current_price_time": "2026-11-06T01:43:08.690845+00:00",
+      "exit_price": 658.7,
+      "exit_date": "2026-11-06T01:43:08.690845+00:00",
+      "pnl_pct": 17.19,
+      "pnl_pct_live": 17.19
     },
     {
       "ticker": "TXN",
       "action": "STRONG_SELL",
       "price": 289.48,
       "take_profit": 270.37,
-      "stop_loss": 298.16,
+      "stop_loss": 289.48,
       "upside_pct": 6.6,
       "confidence": 0.99,
       "score": -1.0,
@@ -174,7 +196,12 @@
       "top_news_url": null,
       "status": "open",
       "issued_at": "2026-11-05T15:42:19.464867",
-      "last_seen": "2026-11-05T22:12:03.106589"
+      "last_seen": "2026-11-05T22:12:03.106589",
+      "current_price": 278.15,
+      "current_price_time": "2026-11-06T01:43:08.690845+00:00",
+      "pnl_pct_live": 3.91,
+      "trail_level": 1,
+      "progression_pct": 59.3
     },
     {
       "ticker": "INTC",
@@ -204,7 +231,11 @@
       "top_news_url": null,
       "status": "open",
       "issued_at": "2026-11-05T21:20:21.514751",
-      "last_seen": "2026-11-05T22:12:03.106589"
+      "last_seen": "2026-11-05T22:12:03.106589",
+      "current_price": 52.12,
+      "current_price_time": "2026-11-06T01:43:08.690845+00:00",
+      "pnl_pct_live": 0.0,
+      "progression_pct": 0.0
     },
     {
       "ticker": "DDOG",
@@ -232,9 +263,15 @@
       "news_score": null,
       "top_news_title": null,
       "top_news_url": null,
-      "status": "open",
+      "status": "expired",
       "issued_at": "2026-11-04T20:31:31.624171",
-      "last_seen": "2026-11-05T22:12:03.106589"
+      "last_seen": "2026-11-05T22:12:03.106589",
+      "current_price": 174.82,
+      "current_price_time": "2026-11-06T01:43:08.690845+00:00",
+      "exit_price": 174.82,
+      "exit_date": "2026-11-06T01:43:08.690845+00:00",
+      "pnl_pct": 7.76,
+      "pnl_pct_live": 7.76
     },
     {
       "ticker": "CEG",
@@ -262,16 +299,22 @@
       "news_score": null,
       "top_news_title": null,
       "top_news_url": null,
-      "status": "open",
+      "status": "expired",
       "issued_at": "2026-11-04T15:40:33.678099",
-      "last_seen": "2026-11-05T22:12:03.106589"
+      "last_seen": "2026-11-05T22:12:03.106589",
+      "current_price": 239.69,
+      "current_price_time": "2026-11-06T01:43:08.690845+00:00",
+      "exit_price": 239.69,
+      "exit_date": "2026-11-06T01:43:08.690845+00:00",
+      "pnl_pct": 0.83,
+      "pnl_pct_live": 0.83
     },
     {
       "ticker": "ADI",
       "action": "STRONG_SELL",
       "price": 372.1,
       "take_profit": 347.54,
-      "stop_loss": 383.26,
+      "stop_loss": 372.1,
       "upside_pct": 6.6,
       "confidence": 0.942,
       "score": -0.8863,
@@ -294,7 +337,12 @@
       "top_news_url": null,
       "status": "open",
       "issued_at": "2026-11-05T20:48:03.921885",
-      "last_seen": "2026-11-05T22:12:03.106589"
+      "last_seen": "2026-11-05T22:12:03.106589",
+      "current_price": 361.1,
+      "current_price_time": "2026-11-06T01:43:08.690845+00:00",
+      "pnl_pct_live": 2.96,
+      "trail_level": 1,
+      "progression_pct": 44.8
     },
     {
       "ticker": "SMCI",
@@ -322,9 +370,15 @@
       "news_score": null,
       "top_news_title": null,
       "top_news_url": null,
-      "status": "open",
+      "status": "expired",
       "issued_at": "2026-11-04T22:04:48.961327",
-      "last_seen": "2026-11-05T22:12:03.106589"
+      "last_seen": "2026-11-05T22:12:03.106589",
+      "current_price": 27.09,
+      "current_price_time": "2026-11-06T01:43:08.690845+00:00",
+      "exit_price": 27.09,
+      "exit_date": "2026-11-06T01:43:08.690845+00:00",
+      "pnl_pct": 8.45,
+      "pnl_pct_live": 8.45
     },
     {
       "ticker": "IDXX",
