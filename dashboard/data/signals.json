@@ -1,21 +1,21 @@
 {
-  "generated_at": "2026-11-07T00:19:53.809823+00:00",
+  "generated_at": "2026-11-09T17:05:23.150997+00:00",
   "date": "2026-11-06",
   "stats": {
-    "total": 5,
-    "buy_signals": 5,
+    "total": 0,
+    "buy_signals": 0,
     "sell_signals": 0,
     "avg_confidence": 0.951,
     "avg_rr": 2.2,
-    "win_rate": 0.491,
-    "active_positions": 5,
-    "daily_pnl": 0.6167
+    "win_rate": 0.533,
+    "active_positions": 0,
+    "daily_pnl": 0.9287
   },
   "eod": {
-    "tp_hit": 27,
+    "tp_hit": 32,
     "sl_hit": 28,
-    "open": 5,
-    "cumulative_pnl": 0.6167
+    "open": 0,
+    "cumulative_pnl": 0.9287
   },
   "signals": [
     {
@@ -48,13 +48,16 @@
       "news_score": null,
       "top_news_title": null,
       "top_news_url": null,
-      "status": "open",
+      "status": "expired",
       "issued_at": "2026-11-06T20:42:06.872271",
       "last_seen": "2026-11-06T20:42:06.873169",
-      "current_price": 56.34,
-      "current_price_time": "2026-11-07T00:19:53.809823+00:00",
-      "pnl_pct_live": -0.39,
-      "progression_pct": -12.9
+      "current_price": 58.33,
+      "current_price_time": "2026-11-09T17:05:23.150997+00:00",
+      "pnl_pct_live": 3.13,
+      "progression_pct": -12.9,
+      "exit_price": 58.33,
+      "exit_date": "2026-11-09T17:05:23.150997+00:00",
+      "pnl_pct": 3.13
     },
     {
       "ticker": "MRNA",
@@ -86,13 +89,16 @@
       "news_score": null,
       "top_news_title": null,
       "top_news_url": null,
-      "status": "open",
+      "status": "expired",
       "issued_at": "2026-11-06T20:42:06.872278",
       "last_seen": "2026-11-06T20:42:06.873169",
-      "current_price": 254.27,
-      "current_price_time": "2026-11-07T00:19:53.809823+00:00",
-      "pnl_pct_live": -2.78,
-      "progression_pct": -92.7
+      "current_price": 279.35,
+      "current_price_time": "2026-11-09T17:05:23.150997+00:00",
+      "pnl_pct_live": 6.81,
+      "progression_pct": -92.7,
+      "exit_price": 279.35,
+      "exit_date": "2026-11-09T17:05:23.150997+00:00",
+      "pnl_pct": 6.81
     },
     {
       "ticker": "TSLA",
@@ -120,13 +126,16 @@
       "news_score": null,
       "top_news_title": null,
       "top_news_url": null,
-      "status": "open",
+      "status": "expired",
       "issued_at": "2026-11-06T20:03:39.827614",
       "last_seen": "2026-11-06T20:42:06.873169",
-      "current_price": 358.2,
-      "current_price_time": "2026-11-07T00:19:53.809823+00:00",
-      "pnl_pct_live": -1.01,
-      "progression_pct": -33.5
+      "current_price": 377.73,
+      "current_price_time": "2026-11-09T17:05:23.150997+00:00",
+      "pnl_pct_live": 4.39,
+      "progression_pct": -33.5,
+      "exit_price": 377.73,
+      "exit_date": "2026-11-09T17:05:23.150997+00:00",
+      "pnl_pct": 4.39
     },
     {
       "ticker": "AMD",
@@ -158,13 +167,16 @@
       "news_score": null,
       "top_news_title": null,
       "top_news_url": null,
-      "status": "open",
+      "status": "expired",
       "issued_at": "2026-11-06T20:42:06.872283",
       "last_seen": "2026-11-06T20:42:06.873169",
-      "current_price": 449.03,
-      "current_price_time": "2026-11-07T00:19:53.809823+00:00",
-      "pnl_pct_live": 0.03,
-      "progression_pct": 0.4
+      "current_price": 499.66,
+      "current_price_time": "2026-11-09T17:05:23.150997+00:00",
+      "pnl_pct_live": 11.31,
+      "progression_pct": 0.4,
+      "exit_price": 499.66,
+      "exit_date": "2026-11-09T17:05:23.150997+00:00",
+      "pnl_pct": 11.31
     },
     {
       "ticker": "RIOT",
@@ -196,13 +208,16 @@
       "news_score": null,
       "top_news_title": null,
       "top_news_url": null,
-      "status": "open",
+      "status": "expired",
       "issued_at": "2026-11-06T20:03:39.827631",
       "last_seen": "2026-11-06T23:46:14.320204",
-      "current_price": 16.72,
-      "current_price_time": "2026-11-07T00:19:53.809823+00:00",
-      "pnl_pct_live": 0.0,
-      "progression_pct": 0.0
+      "current_price": 17.65,
+      "current_price_time": "2026-11-09T17:05:23.150997+00:00",
+      "pnl_pct_live": 5.56,
+      "progression_pct": 0.0,
+      "exit_price": 17.65,
+      "exit_date": "2026-11-09T17:05:23.150997+00:00",
+      "pnl_pct": 5.56
     },
     {
       "ticker": "TXN",
