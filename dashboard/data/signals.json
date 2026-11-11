@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-11-10T22:36:08.886473",
-  "date": "2026-11-10",
+  "generated_at": "2026-11-11T00:10:44.578313",
+  "date": "2026-11-11",
   "stats": {
     "total": 10,
     "buy_signals": 8,
@@ -80,7 +80,7 @@
       "top_news_url": null,
       "status": "open",
       "issued_at": "2026-11-10T20:35:35.376657",
-      "last_seen": "2026-11-10T22:36:08.886473"
+      "last_seen": "2026-11-11T00:10:44.578313"
     },
     {
       "ticker": "PEP",
@@ -204,7 +204,7 @@
       "top_news_url": null,
       "status": "open",
       "issued_at": "2026-11-09T17:44:41.258399",
-      "last_seen": "2026-11-10T22:36:08.886473"
+      "last_seen": "2026-11-11T00:10:44.578313"
     },
     {
       "ticker": "MARA",
@@ -268,7 +268,7 @@
       "top_news_url": null,
       "status": "open",
       "issued_at": "2026-11-09T17:44:41.258414",
-      "last_seen": "2026-11-10T22:36:08.886473"
+      "last_seen": "2026-11-11T00:10:44.578313"
     },
     {
       "ticker": "CRSP",
@@ -302,7 +302,7 @@
       "top_news_url": null,
       "status": "open",
       "issued_at": "2026-11-10T20:35:35.376646",
-      "last_seen": "2026-11-10T22:36:08.886473"
+      "last_seen": "2026-11-11T00:10:44.578313"
     },
     {
       "ticker": "NVDA",
