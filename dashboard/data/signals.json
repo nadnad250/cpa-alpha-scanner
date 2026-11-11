@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-11T01:20:58.504031+00:00",
+  "generated_at": "2026-11-11T14:53:01.885039+00:00",
   "date": "2026-11-11",
   "stats": {
     "total": 4,
@@ -87,10 +87,10 @@
       "status": "open",
       "issued_at": "2026-11-10T20:35:35.376657",
       "last_seen": "2026-11-11T00:10:44.578313",
-      "current_price": 134.04,
-      "current_price_time": "2026-11-11T01:20:58.504031+00:00",
-      "pnl_pct_live": 0.0,
-      "progression_pct": 0.0
+      "current_price": 134.39,
+      "current_price_time": "2026-11-11T14:53:01.885039+00:00",
+      "pnl_pct_live": 0.26,
+      "progression_pct": 4.0
     },
     {
       "ticker": "PEP",
@@ -269,10 +269,10 @@
       "status": "open",
       "issued_at": "2026-11-10T15:43:21.737191",
       "last_seen": "2026-11-10T21:53:36.950624",
-      "current_price": 7.35,
-      "current_price_time": "2026-11-11T01:20:58.504031+00:00",
-      "pnl_pct_live": -1.08,
-      "progression_pct": -36.4
+      "current_price": 7.56,
+      "current_price_time": "2026-11-11T14:53:01.885039+00:00",
+      "pnl_pct_live": 1.75,
+      "progression_pct": 26.5
     },
     {
       "ticker": "MU",
@@ -347,10 +347,10 @@
       "status": "open",
       "issued_at": "2026-11-10T20:35:35.376646",
       "last_seen": "2026-11-11T00:10:44.578313",
-      "current_price": 45.14,
-      "current_price_time": "2026-11-11T01:20:58.504031+00:00",
-      "pnl_pct_live": 0.0,
-      "progression_pct": 0.0
+      "current_price": 45.4,
+      "current_price_time": "2026-11-11T14:53:01.885039+00:00",
+      "pnl_pct_live": -0.58,
+      "progression_pct": -19.3
     },
     {
       "ticker": "NVDA",
@@ -381,10 +381,10 @@
       "status": "open",
       "issued_at": "2026-11-10T20:35:35.376662",
       "last_seen": "2026-11-10T21:53:36.950624",
-      "current_price": 168.79,
-      "current_price_time": "2026-11-11T01:20:58.504031+00:00",
-      "pnl_pct_live": -0.36,
-      "progression_pct": -11.9
+      "current_price": 172.8,
+      "current_price_time": "2026-11-11T14:53:01.885039+00:00",
+      "pnl_pct_live": -2.74,
+      "progression_pct": -91.3
     },
     {
       "ticker": "IDXX",
