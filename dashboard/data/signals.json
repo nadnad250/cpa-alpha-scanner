@@ -1,21 +1,21 @@
 {
-  "generated_at": "2026-11-12T02:31:39.714073+00:00",
+  "generated_at": "2026-11-12T15:44:01.594270+00:00",
   "date": "2026-11-12",
   "stats": {
-    "total": 5,
-    "buy_signals": 3,
-    "sell_signals": 2,
+    "total": 2,
+    "buy_signals": 2,
+    "sell_signals": 0,
     "avg_confidence": 0.847,
     "avg_rr": 2.2,
-    "win_rate": 0.6,
-    "active_positions": 5,
-    "daily_pnl": 1.0462
+    "win_rate": 0.569,
+    "active_positions": 2,
+    "daily_pnl": 1.0003
   },
   "eod": {
     "tp_hit": 33,
-    "sl_hit": 22,
-    "open": 5,
-    "cumulative_pnl": 1.0462
+    "sl_hit": 25,
+    "open": 2,
+    "cumulative_pnl": 1.0003
   },
   "signals": [
     {
@@ -84,20 +84,23 @@
       "news_score": null,
       "top_news_title": null,
       "top_news_url": null,
-      "status": "open",
+      "status": "expired",
       "issued_at": "2026-11-11T15:31:32.414766",
       "last_seen": "2026-11-12T01:37:30.820729",
-      "current_price": 98.07,
-      "current_price_time": "2026-11-12T02:31:39.714073+00:00",
-      "pnl_pct_live": 0.0,
-      "progression_pct": 0.0
+      "current_price": 96.94,
+      "current_price_time": "2026-11-12T15:44:01.594270+00:00",
+      "pnl_pct_live": -1.15,
+      "progression_pct": 0.0,
+      "exit_price": 96.94,
+      "exit_date": "2026-11-12T15:44:01.594270+00:00",
+      "pnl_pct": -1.15
     },
     {
       "ticker": "AMD",
       "action": "STRONG_BUY",
       "price": 552.96,
       "take_profit": 589.46,
-      "stop_loss": 536.37,
+      "stop_loss": 552.96,
       "upside_pct": 6.6,
       "confidence": 0.809,
       "score": 0.5735,
@@ -125,10 +128,11 @@
       "status": "open",
       "issued_at": "2026-11-11T21:44:17.004740",
       "last_seen": "2026-11-12T01:37:30.820729",
-      "current_price": 552.96,
-      "current_price_time": "2026-11-12T02:31:39.714073+00:00",
-      "pnl_pct_live": 0.0,
-      "progression_pct": 0.0
+      "current_price": 570.74,
+      "current_price_time": "2026-11-12T15:44:01.594270+00:00",
+      "pnl_pct_live": 3.22,
+      "progression_pct": 48.7,
+      "trail_level": 1
     },
     {
       "ticker": "TTD",
@@ -199,10 +203,10 @@
       "status": "open",
       "issued_at": "2026-11-11T21:44:17.004748",
       "last_seen": "2026-11-12T01:37:30.820729",
-      "current_price": 355.79,
-      "current_price_time": "2026-11-12T02:31:39.714073+00:00",
-      "pnl_pct_live": 0.0,
-      "progression_pct": 0.0
+      "current_price": 357.72,
+      "current_price_time": "2026-11-12T15:44:01.594270+00:00",
+      "pnl_pct_live": 0.54,
+      "progression_pct": 13.6
     },
     {
       "ticker": "MARA",
@@ -342,13 +346,16 @@
       "news_score": null,
       "top_news_title": null,
       "top_news_url": null,
-      "status": "open",
+      "status": "expired",
       "issued_at": "2026-11-11T15:31:32.414779",
       "last_seen": "2026-11-11T22:56:05.711264",
-      "current_price": 521.21,
-      "current_price_time": "2026-11-12T02:31:39.714073+00:00",
-      "pnl_pct_live": 0.0,
-      "progression_pct": 0.0
+      "current_price": 525.5,
+      "current_price_time": "2026-11-12T15:44:01.594270+00:00",
+      "pnl_pct_live": -0.82,
+      "progression_pct": 0.0,
+      "exit_price": 525.5,
+      "exit_date": "2026-11-12T15:44:01.594270+00:00",
+      "pnl_pct": -0.82
     },
     {
       "ticker": "AVGO",
@@ -380,13 +387,16 @@
       "news_score": null,
       "top_news_title": null,
       "top_news_url": null,
-      "status": "open",
+      "status": "sl_hit",
       "issued_at": "2026-11-11T21:44:17.004744",
       "last_seen": "2026-11-12T01:37:30.820729",
-      "current_price": 345.45,
-      "current_price_time": "2026-11-12T02:31:39.714073+00:00",
-      "pnl_pct_live": 0.0,
-      "progression_pct": 0.0
+      "current_price": 361.52,
+      "current_price_time": "2026-11-12T15:44:01.594270+00:00",
+      "pnl_pct_live": -2.62,
+      "progression_pct": 0.0,
+      "exit_price": 354.5,
+      "exit_date": "2026-11-12T15:44:01.594270+00:00",
+      "pnl_pct": -2.62
     },
     {
       "ticker": "IDXX",
