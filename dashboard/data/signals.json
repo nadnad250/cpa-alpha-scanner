@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-12T22:24:28.359301",
+  "generated_at": "2026-11-12T22:55:30.767118",
   "date": "2026-11-12",
   "stats": {
     "total": 10,
@@ -50,7 +50,7 @@
       "top_news_url": null,
       "status": "open",
       "issued_at": "2026-11-12T16:07:56.701196",
-      "last_seen": "2026-11-12T22:24:28.359301"
+      "last_seen": "2026-11-12T22:55:30.767118"
     },
     {
       "ticker": "GOOGL",
@@ -68,19 +68,23 @@
       "sector": "—",
       "universe": "NASDAQ100",
       "primary_reason": "Cassure ORB haussière (RVOL 2.9x, +VWAP)",
-      "secondary_reasons": [],
+      "secondary_reasons": [
+        "RVOL 2.9x",
+        "VWAP au-dessus",
+        "Gap +0.1%"
+      ],
       "risk_flags": [],
-      "intrinsic_value": null,
-      "value_gap": 0,
-      "factor_premia": 0,
-      "mean_reversion": 0,
-      "info_flow": 0,
+      "intrinsic_value": 309.64,
+      "value_gap": null,
+      "factor_premia": null,
+      "mean_reversion": null,
+      "info_flow": null,
       "news_score": null,
       "top_news_title": null,
       "top_news_url": null,
       "status": "open",
       "issued_at": "2026-11-12T21:03:26.036460",
-      "last_seen": "2026-11-12T22:24:28.359301"
+      "last_seen": "2026-11-12T22:55:30.767118"
     },
     {
       "ticker": "AMD",
@@ -114,7 +118,7 @@
       "top_news_url": null,
       "status": "open",
       "issued_at": "2026-11-11T21:44:17.004740",
-      "last_seen": "2026-11-12T22:24:28.359301"
+      "last_seen": "2026-11-12T22:55:30.767118"
     },
     {
       "ticker": "NVDA",
@@ -252,19 +256,23 @@
       "sector": "—",
       "universe": "NASDAQ100",
       "primary_reason": "Cassure ORB baissière (RVOL 2.1x, -VWAP) +gap",
-      "secondary_reasons": [],
+      "secondary_reasons": [
+        "RVOL 2.1x",
+        "VWAP en-dessous",
+        "Gap -4.5%"
+      ],
       "risk_flags": [],
-      "intrinsic_value": null,
-      "value_gap": 0,
-      "factor_premia": 0,
-      "mean_reversion": 0,
-      "info_flow": 0,
+      "intrinsic_value": 33.08,
+      "value_gap": null,
+      "factor_premia": null,
+      "mean_reversion": null,
+      "info_flow": null,
       "news_score": null,
       "top_news_title": null,
       "top_news_url": null,
       "status": "open",
       "issued_at": "2026-11-12T21:03:26.036451",
-      "last_seen": "2026-11-12T22:24:28.359301"
+      "last_seen": "2026-11-12T22:55:30.767118"
     },
     {
       "ticker": "AVGO",
