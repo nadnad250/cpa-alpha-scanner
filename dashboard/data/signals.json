@@ -1,21 +1,21 @@
 {
-  "generated_at": "2026-11-14T01:32:52.891136+00:00",
+  "generated_at": "2026-11-16T16:42:19.117065+00:00",
   "date": "2026-11-14",
   "stats": {
-    "total": 3,
-    "buy_signals": 2,
-    "sell_signals": 1,
+    "total": 0,
+    "buy_signals": 0,
+    "sell_signals": 0,
     "avg_confidence": 0.834,
     "avg_rr": 2.2,
-    "win_rate": 0.404,
-    "active_positions": 3,
-    "daily_pnl": 0.2809
+    "win_rate": 0.433,
+    "active_positions": 0,
+    "daily_pnl": 0.3019
   },
   "eod": {
-    "tp_hit": 23,
+    "tp_hit": 26,
     "sl_hit": 34,
-    "open": 3,
-    "cumulative_pnl": 0.2809
+    "open": 0,
+    "cumulative_pnl": 0.3019
   },
   "signals": [
     {
@@ -44,13 +44,16 @@
       "news_score": null,
       "top_news_title": null,
       "top_news_url": null,
-      "status": "open",
+      "status": "expired",
       "issued_at": "2026-11-13T20:38:22.690786",
       "last_seen": "2026-11-13T22:05:30.612675",
-      "current_price": 36.34,
-      "current_price_time": "2026-11-14T01:32:52.891136+00:00",
-      "pnl_pct_live": -0.66,
-      "progression_pct": -25.0
+      "current_price": 36.76,
+      "current_price_time": "2026-11-16T16:42:19.117065+00:00",
+      "pnl_pct_live": 0.49,
+      "progression_pct": -25.0,
+      "exit_price": 36.76,
+      "exit_date": "2026-11-16T16:42:19.117065+00:00",
+      "pnl_pct": 0.49
     },
     {
       "ticker": "AVGO",
@@ -222,13 +225,16 @@
       "news_score": null,
       "top_news_title": null,
       "top_news_url": null,
-      "status": "open",
+      "status": "expired",
       "issued_at": "2026-11-13T20:38:22.690796",
       "last_seen": "2026-11-13T22:05:30.612675",
-      "current_price": 25.11,
-      "current_price_time": "2026-11-14T01:32:52.891136+00:00",
-      "pnl_pct_live": -0.12,
-      "progression_pct": -5.1
+      "current_price": 25.23,
+      "current_price_time": "2026-11-16T16:42:19.117065+00:00",
+      "pnl_pct_live": 0.36,
+      "progression_pct": -5.1,
+      "exit_price": 25.23,
+      "exit_date": "2026-11-16T16:42:19.117065+00:00",
+      "pnl_pct": 0.36
     },
     {
       "ticker": "ASML",
@@ -368,13 +374,16 @@
       "news_score": null,
       "top_news_title": null,
       "top_news_url": null,
-      "status": "open",
+      "status": "expired",
       "issued_at": "2026-11-13T15:36:31.924301",
       "last_seen": "2026-11-13T22:05:30.612675",
-      "current_price": 95.64,
-      "current_price_time": "2026-11-14T01:32:52.891136+00:00",
-      "pnl_pct_live": 0.0,
-      "progression_pct": 0.0
+      "current_price": 94.44,
+      "current_price_time": "2026-11-16T16:42:19.117065+00:00",
+      "pnl_pct_live": 1.25,
+      "progression_pct": 0.0,
+      "exit_price": 94.44,
+      "exit_date": "2026-11-16T16:42:19.117065+00:00",
+      "pnl_pct": 1.25
     },
     {
       "ticker": "CEG",
