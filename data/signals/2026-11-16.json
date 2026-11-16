@@ -90,5 +90,28 @@
     "ml_proba_up": null,
     "risk_reward": 2.2,
     "primary_reason": "Cassure ORB baissière (RVOL 2.0x, -VWAP) +gap"
+  },
+  {
+    "ticker": "CRSP",
+    "action": "STRONG_SELL",
+    "entry_price": 40.349998474121094,
+    "stop_loss": 41.56049842834473,
+    "take_profit": 37.6868985748291,
+    "score": -0.5630891124842381,
+    "confidence": 0.8043128728058012,
+    "universe": "NASDAQ100",
+    "issued_at": "2026-11-16T23:00:11.995997",
+    "horizon_days": 1,
+    "horizon_hours": 24,
+    "status": "open",
+    "exit_price": null,
+    "exit_date": null,
+    "pnl_pct": null,
+    "max_favorable": null,
+    "max_adverse": null,
+    "sector": "",
+    "ml_proba_up": null,
+    "risk_reward": 2.2,
+    "primary_reason": "Cassure ORB baissière (RVOL 1.6x, -VWAP) +gap"
   }
 ]
