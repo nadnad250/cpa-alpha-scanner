@@ -1,11 +1,11 @@
 {
-  "generated_at": "2026-11-16T23:38:48.820981",
-  "date": "2026-11-16",
+  "generated_at": "2026-11-17T00:23:50.484846",
+  "date": "2026-11-17",
   "stats": {
     "total": 10,
     "buy_signals": 3,
     "sell_signals": 7,
-    "avg_confidence": 0.853,
+    "avg_confidence": 0.85,
     "avg_rr": 2.2,
     "win_rate": 0.5,
     "active_positions": 10,
@@ -115,17 +115,17 @@
       "take_profit": 148.37,
       "stop_loss": 159.7,
       "upside_pct": 5.0,
-      "confidence": 0.935,
-      "score": -0.8703,
+      "confidence": 0.94,
+      "score": -0.8819,
       "risk_reward": 2.2,
       "kelly_position": 0.12,
       "cpa_alpha": null,
       "ml_proba_up": null,
       "sector": "—",
       "universe": "NASDAQ100",
-      "primary_reason": "Cassure ORB baissière (RVOL 14.7x, -VWAP) +gap",
+      "primary_reason": "Cassure ORB baissière (RVOL 9.0x, -VWAP) +gap",
       "secondary_reasons": [
-        "RVOL 14.7x",
+        "RVOL 9.0x",
         "VWAP en-dessous",
         "Gap -2.3%"
       ],
@@ -140,7 +140,7 @@
       "top_news_url": null,
       "status": "open",
       "issued_at": "2026-11-16T17:18:37.509610",
-      "last_seen": "2026-11-16T23:38:48.820981"
+      "last_seen": "2026-11-17T00:23:50.484846"
     },
     {
       "ticker": "CSCO",
@@ -237,40 +237,6 @@
       "last_seen": "2026-11-16T17:18:37.510295"
     },
     {
-      "ticker": "AAPL",
-      "action": "STRONG_SELL",
-      "price": 352.81,
-      "take_profit": 343.37,
-      "stop_loss": 357.1,
-      "upside_pct": 2.7,
-      "confidence": 0.831,
-      "score": -0.6255,
-      "risk_reward": 2.2,
-      "kelly_position": 0.1,
-      "cpa_alpha": null,
-      "ml_proba_up": null,
-      "sector": "—",
-      "universe": "NASDAQ100",
-      "primary_reason": "Cassure ORB baissière (RVOL 2.8x, -VWAP)",
-      "secondary_reasons": [
-        "RVOL 2.8x",
-        "VWAP en-dessous",
-        "Gap -0.2%"
-      ],
-      "risk_flags": [],
-      "intrinsic_value": 343.37,
-      "value_gap": null,
-      "factor_premia": null,
-      "mean_reversion": null,
-      "info_flow": null,
-      "news_score": null,
-      "top_news_title": null,
-      "top_news_url": null,
-      "status": "open",
-      "issued_at": "2026-11-16T17:18:37.509625",
-      "last_seen": "2026-11-16T23:38:48.820981"
-    },
-    {
       "ticker": "CRSP",
       "action": "STRONG_SELL",
       "price": 40.35,
@@ -302,7 +268,7 @@
       "top_news_url": null,
       "status": "open",
       "issued_at": "2026-11-16T23:00:11.995997",
-      "last_seen": "2026-11-16T23:00:11.996591"
+      "last_seen": "2026-11-17T00:23:50.484846"
     },
     {
       "ticker": "TSLA",
@@ -337,6 +303,40 @@
       "status": "open",
       "issued_at": "2026-11-16T17:18:37.509628",
       "last_seen": "2026-11-16T17:18:37.510295"
+    },
+    {
+      "ticker": "AAPL",
+      "action": "STRONG_SELL",
+      "price": 352.7,
+      "take_profit": 343.02,
+      "stop_loss": 357.1,
+      "upside_pct": 2.7,
+      "confidence": 0.792,
+      "score": -0.5336,
+      "risk_reward": 2.2,
+      "kelly_position": 0.08,
+      "cpa_alpha": null,
+      "ml_proba_up": null,
+      "sector": "—",
+      "universe": "NASDAQ100",
+      "primary_reason": "Cassure ORB baissière (RVOL 2.5x, -VWAP)",
+      "secondary_reasons": [
+        "RVOL 2.5x",
+        "VWAP en-dessous",
+        "Gap -0.2%"
+      ],
+      "risk_flags": [],
+      "intrinsic_value": 343.02,
+      "value_gap": null,
+      "factor_premia": null,
+      "mean_reversion": null,
+      "info_flow": null,
+      "news_score": null,
+      "top_news_title": null,
+      "top_news_url": null,
+      "status": "open",
+      "issued_at": "2026-11-16T17:18:37.509625",
+      "last_seen": "2026-11-17T00:23:50.484846"
     },
     {
       "ticker": "CEG",
