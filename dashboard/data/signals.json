@@ -1,21 +1,21 @@
 {
-  "generated_at": "2026-11-17T00:23:50.484846",
+  "generated_at": "2026-11-17T00:29:51.460026+00:00",
   "date": "2026-11-17",
   "stats": {
-    "total": 10,
-    "buy_signals": 3,
-    "sell_signals": 7,
+    "total": 5,
+    "buy_signals": 0,
+    "sell_signals": 5,
     "avg_confidence": 0.85,
     "avg_rr": 2.2,
-    "win_rate": 0.5,
-    "active_positions": 10,
-    "daily_pnl": 0.4493
+    "win_rate": 0.491,
+    "active_positions": 5,
+    "daily_pnl": 0.4216
   },
   "eod": {
-    "tp_hit": 25,
-    "sl_hit": 25,
-    "open": 10,
-    "cumulative_pnl": 0.4493
+    "tp_hit": 27,
+    "sl_hit": 28,
+    "open": 5,
+    "cumulative_pnl": 0.4216
   },
   "signals": [
     {
@@ -44,9 +44,15 @@
       "news_score": null,
       "top_news_title": null,
       "top_news_url": null,
-      "status": "open",
+      "status": "expired",
       "issued_at": "2026-11-13T20:38:22.690786",
-      "last_seen": "2026-11-16T17:18:37.510295"
+      "last_seen": "2026-11-16T17:18:37.510295",
+      "current_price": 35.6,
+      "current_price_time": "2026-11-17T00:29:51.460026+00:00",
+      "exit_price": 35.6,
+      "exit_date": "2026-11-17T00:29:51.460026+00:00",
+      "pnl_pct": -2.68,
+      "pnl_pct_live": -2.68
     },
     {
       "ticker": "KHC",
@@ -74,9 +80,15 @@
       "news_score": null,
       "top_news_title": null,
       "top_news_url": null,
-      "status": "open",
+      "status": "expired",
       "issued_at": "2026-11-13T20:38:22.690796",
-      "last_seen": "2026-11-16T17:18:37.510295"
+      "last_seen": "2026-11-16T17:18:37.510295",
+      "current_price": 25.07,
+      "current_price_time": "2026-11-17T00:29:51.460026+00:00",
+      "exit_price": 25.07,
+      "exit_date": "2026-11-17T00:29:51.460026+00:00",
+      "pnl_pct": -0.28,
+      "pnl_pct_live": -0.28
     },
     {
       "ticker": "ZM",
@@ -104,9 +116,15 @@
       "news_score": null,
       "top_news_title": null,
       "top_news_url": null,
-      "status": "open",
+      "status": "expired",
       "issued_at": "2026-11-13T22:57:22.560162",
-      "last_seen": "2026-11-16T17:18:37.510295"
+      "last_seen": "2026-11-16T17:18:37.510295",
+      "current_price": 96.18,
+      "current_price_time": "2026-11-17T00:29:51.460026+00:00",
+      "exit_price": 96.18,
+      "exit_date": "2026-11-17T00:29:51.460026+00:00",
+      "pnl_pct": -3.64,
+      "pnl_pct_live": -3.64
     },
     {
       "ticker": "NVDA",
@@ -140,7 +158,11 @@
       "top_news_url": null,
       "status": "open",
       "issued_at": "2026-11-16T17:18:37.509610",
-      "last_seen": "2026-11-17T00:23:50.484846"
+      "last_seen": "2026-11-17T00:23:50.484846",
+      "current_price": 156.16,
+      "current_price_time": "2026-11-17T00:29:51.460026+00:00",
+      "pnl_pct_live": 0.0,
+      "progression_pct": 0.0
     },
     {
       "ticker": "CSCO",
@@ -168,9 +190,15 @@
       "news_score": null,
       "top_news_title": null,
       "top_news_url": null,
-      "status": "open",
+      "status": "expired",
       "issued_at": "2026-11-13T15:36:31.924301",
-      "last_seen": "2026-11-16T17:18:37.510295"
+      "last_seen": "2026-11-16T17:18:37.510295",
+      "current_price": 94.56,
+      "current_price_time": "2026-11-17T00:29:51.460026+00:00",
+      "exit_price": 94.56,
+      "exit_date": "2026-11-17T00:29:51.460026+00:00",
+      "pnl_pct": 1.84,
+      "pnl_pct_live": 1.84
     },
     {
       "ticker": "AMZN",
@@ -204,7 +232,11 @@
       "top_news_url": null,
       "status": "open",
       "issued_at": "2026-11-16T17:18:37.509621",
-      "last_seen": "2026-11-16T23:38:48.820981"
+      "last_seen": "2026-11-16T23:38:48.820981",
+      "current_price": 257.8,
+      "current_price_time": "2026-11-17T00:29:51.460026+00:00",
+      "pnl_pct_live": 0.0,
+      "progression_pct": 0.0
     },
     {
       "ticker": "AMAT",
@@ -232,9 +264,15 @@
       "news_score": null,
       "top_news_title": null,
       "top_news_url": null,
-      "status": "open",
+      "status": "expired",
       "issued_at": "2026-11-13T15:36:31.924313",
-      "last_seen": "2026-11-16T17:18:37.510295"
+      "last_seen": "2026-11-16T17:18:37.510295",
+      "current_price": 350.46,
+      "current_price_time": "2026-11-17T00:29:51.460026+00:00",
+      "exit_price": 350.46,
+      "exit_date": "2026-11-17T00:29:51.460026+00:00",
+      "pnl_pct": 1.99,
+      "pnl_pct_live": 1.99
     },
     {
       "ticker": "CRSP",
@@ -268,7 +306,11 @@
       "top_news_url": null,
       "status": "open",
       "issued_at": "2026-11-16T23:00:11.995997",
-      "last_seen": "2026-11-17T00:23:50.484846"
+      "last_seen": "2026-11-17T00:23:50.484846",
+      "current_price": 40.35,
+      "current_price_time": "2026-11-17T00:29:51.460026+00:00",
+      "pnl_pct_live": 0.0,
+      "progression_pct": 0.0
     },
     {
       "ticker": "TSLA",
@@ -302,7 +344,11 @@
       "top_news_url": null,
       "status": "open",
       "issued_at": "2026-11-16T17:18:37.509628",
-      "last_seen": "2026-11-16T17:18:37.510295"
+      "last_seen": "2026-11-16T17:18:37.510295",
+      "current_price": 379.78,
+      "current_price_time": "2026-11-17T00:29:51.460026+00:00",
+      "pnl_pct_live": -0.0,
+      "progression_pct": -0.1
     },
     {
       "ticker": "AAPL",
@@ -336,7 +382,11 @@
       "top_news_url": null,
       "status": "open",
       "issued_at": "2026-11-16T17:18:37.509625",
-      "last_seen": "2026-11-17T00:23:50.484846"
+      "last_seen": "2026-11-17T00:23:50.484846",
+      "current_price": 352.7,
+      "current_price_time": "2026-11-17T00:29:51.460026+00:00",
+      "pnl_pct_live": 0.0,
+      "progression_pct": 0.0
     },
     {
       "ticker": "CEG",
