@@ -1,21 +1,21 @@
 {
-  "generated_at": "2026-11-18T01:47:07.303191",
+  "generated_at": "2026-11-18T16:07:38.178092+00:00",
   "date": "2026-11-18",
   "stats": {
-    "total": 10,
+    "total": 4,
     "buy_signals": 0,
-    "sell_signals": 10,
+    "sell_signals": 4,
     "avg_confidence": 0.841,
     "avg_rr": 2.2,
-    "win_rate": 0.42,
-    "active_positions": 10,
-    "daily_pnl": -0.0781
+    "win_rate": 0.429,
+    "active_positions": 4,
+    "daily_pnl": -0.0736
   },
   "eod": {
-    "tp_hit": 21,
-    "sl_hit": 29,
-    "open": 10,
-    "cumulative_pnl": -0.0781
+    "tp_hit": 24,
+    "sl_hit": 32,
+    "open": 4,
+    "cumulative_pnl": -0.0736
   },
   "signals": [
     {
@@ -44,9 +44,15 @@
       "news_score": null,
       "top_news_title": null,
       "top_news_url": null,
-      "status": "open",
+      "status": "expired",
       "issued_at": "2026-11-16T17:18:37.509610",
-      "last_seen": "2026-11-18T00:04:40.001907"
+      "last_seen": "2026-11-18T00:04:40.001907",
+      "current_price": 152.42,
+      "current_price_time": "2026-11-18T16:07:38.178092+00:00",
+      "exit_price": 152.42,
+      "exit_date": "2026-11-18T16:07:38.178092+00:00",
+      "pnl_pct": 3.49,
+      "pnl_pct_live": 3.49
     },
     {
       "ticker": "AMZN",
@@ -74,16 +80,22 @@
       "news_score": null,
       "top_news_title": null,
       "top_news_url": null,
-      "status": "open",
+      "status": "expired",
       "issued_at": "2026-11-16T17:18:37.509621",
-      "last_seen": "2026-11-18T00:04:40.001907"
+      "last_seen": "2026-11-18T00:04:40.001907",
+      "current_price": 263.61,
+      "current_price_time": "2026-11-18T16:07:38.178092+00:00",
+      "exit_price": 263.61,
+      "exit_date": "2026-11-18T16:07:38.178092+00:00",
+      "pnl_pct": -1.88,
+      "pnl_pct_live": -1.88
     },
     {
       "ticker": "INTU",
       "action": "STRONG_SELL",
       "price": 320.73,
       "take_profit": 299.56,
-      "stop_loss": 330.35,
+      "stop_loss": 320.73,
       "upside_pct": 6.6,
       "confidence": 0.863,
       "score": -0.7007,
@@ -110,7 +122,12 @@
       "top_news_url": null,
       "status": "open",
       "issued_at": "2026-11-17T21:53:20.228368",
-      "last_seen": "2026-11-18T01:47:07.303191"
+      "last_seen": "2026-11-18T01:47:07.303191",
+      "current_price": 314.1,
+      "current_price_time": "2026-11-18T16:07:38.178092+00:00",
+      "pnl_pct_live": 2.07,
+      "trail_level": 1,
+      "progression_pct": 31.3
     },
     {
       "ticker": "ASML",
@@ -138,9 +155,15 @@
       "news_score": null,
       "top_news_title": null,
       "top_news_url": null,
-      "status": "open",
+      "status": "expired",
       "issued_at": "2026-11-17T01:10:14.722706",
-      "last_seen": "2026-11-18T00:04:40.001907"
+      "last_seen": "2026-11-18T00:04:40.001907",
+      "current_price": 1385.76,
+      "current_price_time": "2026-11-18T16:07:38.178092+00:00",
+      "exit_price": 1385.76,
+      "exit_date": "2026-11-18T16:07:38.178092+00:00",
+      "pnl_pct": 1.48,
+      "pnl_pct_live": 1.48
     },
     {
       "ticker": "AAPL",
@@ -168,16 +191,22 @@
       "news_score": null,
       "top_news_title": null,
       "top_news_url": null,
-      "status": "open",
+      "status": "expired",
       "issued_at": "2026-11-16T17:18:37.509625",
-      "last_seen": "2026-11-18T00:04:40.001907"
+      "last_seen": "2026-11-18T00:04:40.001907",
+      "current_price": 353.23,
+      "current_price_time": "2026-11-18T16:07:38.178092+00:00",
+      "exit_price": 353.23,
+      "exit_date": "2026-11-18T16:07:38.178092+00:00",
+      "pnl_pct": 0.1,
+      "pnl_pct_live": 0.1
     },
     {
       "ticker": "VRSK",
       "action": "STRONG_SELL",
       "price": 205.4,
       "take_profit": 196.59,
-      "stop_loss": 209.4,
+      "stop_loss": 205.4,
       "upside_pct": 4.3,
       "confidence": 0.816,
       "score": -0.5896,
@@ -204,7 +233,12 @@
       "top_news_url": null,
       "status": "open",
       "issued_at": "2026-11-17T16:59:57.303460",
-      "last_seen": "2026-11-18T01:47:07.303191"
+      "last_seen": "2026-11-18T01:47:07.303191",
+      "current_price": 200.85,
+      "current_price_time": "2026-11-18T16:07:38.178092+00:00",
+      "pnl_pct_live": 2.22,
+      "trail_level": 1,
+      "progression_pct": 51.6
     },
     {
       "ticker": "CRSP",
@@ -232,9 +266,15 @@
       "news_score": null,
       "top_news_title": null,
       "top_news_url": null,
-      "status": "open",
+      "status": "expired",
       "issued_at": "2026-11-16T23:00:11.995997",
-      "last_seen": "2026-11-18T00:04:40.001907"
+      "last_seen": "2026-11-18T00:04:40.001907",
+      "current_price": 41.31,
+      "current_price_time": "2026-11-18T16:07:38.178092+00:00",
+      "exit_price": 41.31,
+      "exit_date": "2026-11-18T16:07:38.178092+00:00",
+      "pnl_pct": -2.38,
+      "pnl_pct_live": -2.38
     },
     {
       "ticker": "PYPL",
@@ -264,7 +304,11 @@
       "top_news_url": null,
       "status": "open",
       "issued_at": "2026-11-17T21:53:20.228378",
-      "last_seen": "2026-11-18T00:04:40.001907"
+      "last_seen": "2026-11-18T00:04:40.001907",
+      "current_price": 58.06,
+      "current_price_time": "2026-11-18T16:07:38.178092+00:00",
+      "pnl_pct_live": 0.1,
+      "progression_pct": 3.6
     },
     {
       "ticker": "TSLA",
@@ -292,16 +336,22 @@
       "news_score": null,
       "top_news_title": null,
       "top_news_url": null,
-      "status": "open",
+      "status": "expired",
       "issued_at": "2026-11-16T17:18:37.509628",
-      "last_seen": "2026-11-18T00:04:40.001907"
+      "last_seen": "2026-11-18T00:04:40.001907",
+      "current_price": 381.15,
+      "current_price_time": "2026-11-18T16:07:38.178092+00:00",
+      "exit_price": 381.15,
+      "exit_date": "2026-11-18T16:07:38.178092+00:00",
+      "pnl_pct": -0.36,
+      "pnl_pct_live": -0.36
     },
     {
       "ticker": "XEL",
       "action": "STRONG_SELL",
       "price": 80.72,
       "take_profit": 79.65,
-      "stop_loss": 81.2,
+      "stop_loss": 80.72,
       "upside_pct": 1.3,
       "confidence": 0.773,
       "score": -0.4905,
@@ -328,7 +378,12 @@
       "top_news_url": null,
       "status": "open",
       "issued_at": "2026-11-17T21:53:20.228382",
-      "last_seen": "2026-11-18T01:47:07.303191"
+      "last_seen": "2026-11-18T01:47:07.303191",
+      "current_price": 80.28,
+      "current_price_time": "2026-11-18T16:07:38.178092+00:00",
+      "pnl_pct_live": 0.55,
+      "trail_level": 1,
+      "progression_pct": 41.1
     },
     {
       "ticker": "CEG",
