@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-19T21:45:16.545614",
+  "generated_at": "2026-11-19T22:34:12.497731",
   "date": "2026-11-19",
   "stats": {
     "total": 8,
@@ -109,40 +109,6 @@
       "last_seen": "2026-11-19T16:43:14.358026"
     },
     {
-      "ticker": "GOOGL",
-      "action": "STRONG_SELL",
-      "price": 272.5,
-      "take_profit": 254.51,
-      "stop_loss": 280.68,
-      "upside_pct": 6.6,
-      "confidence": 0.813,
-      "score": -0.584,
-      "risk_reward": 2.2,
-      "kelly_position": 0.1,
-      "cpa_alpha": null,
-      "ml_proba_up": null,
-      "sector": "—",
-      "universe": "NASDAQ100",
-      "primary_reason": "Cassure ORB baissière (RVOL 3.0x, -VWAP) (contre-gap)",
-      "secondary_reasons": [
-        "RVOL 3.0x",
-        "VWAP en-dessous",
-        "Gap +4.2%"
-      ],
-      "risk_flags": [],
-      "intrinsic_value": 254.51,
-      "value_gap": null,
-      "factor_premia": null,
-      "mean_reversion": null,
-      "info_flow": null,
-      "news_score": null,
-      "top_news_title": null,
-      "top_news_url": null,
-      "status": "open",
-      "issued_at": "2026-11-19T21:45:16.545078",
-      "last_seen": "2026-11-19T21:45:16.545614"
-    },
-    {
       "ticker": "NVDA",
       "action": "STRONG_SELL",
       "price": 146.0,
@@ -174,7 +140,41 @@
       "top_news_url": null,
       "status": "open",
       "issued_at": "2026-11-18T16:39:59.015512",
-      "last_seen": "2026-11-19T21:45:16.545614"
+      "last_seen": "2026-11-19T22:34:12.497731"
+    },
+    {
+      "ticker": "GOOGL",
+      "action": "STRONG_SELL",
+      "price": 272.5,
+      "take_profit": 254.51,
+      "stop_loss": 280.68,
+      "upside_pct": 6.6,
+      "confidence": 0.813,
+      "score": -0.584,
+      "risk_reward": 2.2,
+      "kelly_position": 0.1,
+      "cpa_alpha": null,
+      "ml_proba_up": null,
+      "sector": "—",
+      "universe": "NASDAQ100",
+      "primary_reason": "Cassure ORB baissière (RVOL 3.0x, -VWAP) (contre-gap)",
+      "secondary_reasons": [
+        "RVOL 3.0x",
+        "VWAP en-dessous",
+        "Gap +4.2%"
+      ],
+      "risk_flags": [],
+      "intrinsic_value": 254.51,
+      "value_gap": null,
+      "factor_premia": null,
+      "mean_reversion": null,
+      "info_flow": null,
+      "news_score": null,
+      "top_news_title": null,
+      "top_news_url": null,
+      "status": "open",
+      "issued_at": "2026-11-19T21:45:16.545078",
+      "last_seen": "2026-11-19T22:34:12.497731"
     },
     {
       "ticker": "ZM",
@@ -208,7 +208,7 @@
       "top_news_url": null,
       "status": "open",
       "issued_at": "2026-11-19T21:45:16.545092",
-      "last_seen": "2026-11-19T21:45:16.545614"
+      "last_seen": "2026-11-19T22:34:12.497731"
     },
     {
       "ticker": "AMD",
@@ -242,7 +242,7 @@
       "top_news_url": null,
       "status": "open",
       "issued_at": "2026-11-19T21:45:16.545095",
-      "last_seen": "2026-11-19T21:45:16.545614"
+      "last_seen": "2026-11-19T22:34:12.497731"
     },
     {
       "ticker": "MSFT",
