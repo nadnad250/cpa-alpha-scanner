@@ -1,21 +1,21 @@
 {
-  "generated_at": "2026-11-23T19:25:20.339252",
+  "generated_at": "2026-11-24T04:10:05.205511+00:00",
   "date": "2026-11-23",
   "stats": {
-    "total": 7,
-    "buy_signals": 5,
-    "sell_signals": 2,
+    "total": 4,
+    "buy_signals": 4,
+    "sell_signals": 0,
     "avg_confidence": 0.878,
     "avg_rr": 2.2,
-    "win_rate": 0.48,
-    "active_positions": 7,
-    "daily_pnl": 0.0104
+    "win_rate": 0.491,
+    "active_positions": 4,
+    "daily_pnl": 0.0241
   },
   "eod": {
-    "tp_hit": 24,
-    "sl_hit": 26,
-    "open": 7,
-    "cumulative_pnl": 0.0104
+    "tp_hit": 26,
+    "sl_hit": 27,
+    "open": 4,
+    "cumulative_pnl": 0.0241
   },
   "signals": [
     {
@@ -50,7 +50,11 @@
       "top_news_url": null,
       "status": "open",
       "issued_at": "2026-11-23T19:25:20.338696",
-      "last_seen": "2026-11-23T19:25:20.339252"
+      "last_seen": "2026-11-23T19:25:20.339252",
+      "current_price": 707.69,
+      "current_price_time": "2026-11-24T04:10:05.205511+00:00",
+      "pnl_pct_live": -0.12,
+      "progression_pct": -4.1
     },
     {
       "ticker": "CTAS",
@@ -78,9 +82,15 @@
       "news_score": null,
       "top_news_title": null,
       "top_news_url": null,
-      "status": "open",
+      "status": "expired",
       "issued_at": "2026-11-20T16:18:03.685028",
-      "last_seen": "2026-11-23T19:25:20.339252"
+      "last_seen": "2026-11-23T19:25:20.339252",
+      "current_price": 223.68,
+      "current_price_time": "2026-11-24T04:10:05.205511+00:00",
+      "exit_price": 223.68,
+      "exit_date": "2026-11-24T04:10:05.205511+00:00",
+      "pnl_pct": -0.66,
+      "pnl_pct_live": -0.66
     },
     {
       "ticker": "AAPL",
@@ -114,7 +124,11 @@
       "top_news_url": null,
       "status": "open",
       "issued_at": "2026-11-23T19:25:20.338706",
-      "last_seen": "2026-11-23T19:25:20.339252"
+      "last_seen": "2026-11-23T19:25:20.339252",
+      "current_price": 349.62,
+      "current_price_time": "2026-11-24T04:10:05.205511+00:00",
+      "pnl_pct_live": -0.11,
+      "progression_pct": -13.5
     },
     {
       "ticker": "ZM",
@@ -148,7 +162,11 @@
       "top_news_url": null,
       "status": "open",
       "issued_at": "2026-11-23T19:25:20.338709",
-      "last_seen": "2026-11-23T19:25:20.339252"
+      "last_seen": "2026-11-23T19:25:20.339252",
+      "current_price": 86.1,
+      "current_price_time": "2026-11-24T04:10:05.205511+00:00",
+      "pnl_pct_live": -0.46,
+      "progression_pct": -17.4
     },
     {
       "ticker": "FAST",
@@ -182,7 +200,11 @@
       "top_news_url": null,
       "status": "open",
       "issued_at": "2026-11-23T19:25:20.338712",
-      "last_seen": "2026-11-23T19:25:20.339252"
+      "last_seen": "2026-11-23T19:25:20.339252",
+      "current_price": 52.07,
+      "current_price_time": "2026-11-24T04:10:05.205511+00:00",
+      "pnl_pct_live": -0.5,
+      "progression_pct": -32.5
     },
     {
       "ticker": "INTU",
@@ -210,9 +232,15 @@
       "news_score": null,
       "top_news_title": null,
       "top_news_url": null,
-      "status": "open",
+      "status": "expired",
       "issued_at": "2026-11-20T16:18:03.685009",
-      "last_seen": "2026-11-23T19:25:20.339252"
+      "last_seen": "2026-11-23T19:25:20.339252",
+      "current_price": 275.45,
+      "current_price_time": "2026-11-24T04:10:05.205511+00:00",
+      "exit_price": 275.45,
+      "exit_date": "2026-11-24T04:10:05.205511+00:00",
+      "pnl_pct": 1.36,
+      "pnl_pct_live": 1.36
     },
     {
       "ticker": "AVGO",
@@ -240,9 +268,15 @@
       "news_score": null,
       "top_news_title": null,
       "top_news_url": null,
-      "status": "open",
+      "status": "expired",
       "issued_at": "2026-11-20T16:18:03.685024",
-      "last_seen": "2026-11-23T19:25:20.339252"
+      "last_seen": "2026-11-23T19:25:20.339252",
+      "current_price": 313.54,
+      "current_price_time": "2026-11-24T04:10:05.205511+00:00",
+      "exit_price": 313.54,
+      "exit_date": "2026-11-24T04:10:05.205511+00:00",
+      "pnl_pct": 0.67,
+      "pnl_pct_live": 0.67
     },
     {
       "ticker": "CEG",
