@@ -1,15 +1,15 @@
 {
   "risk_free_rate": 3.88,
   "treasury_10y": 4.92,
-  "yield_curve": 0.29,
-  "vix": 35.89,
+  "yield_curve": 0.28,
+  "vix": 26.62,
   "dollar_index": 123.5978,
   "unemployment": 4.1,
   "cpi_yoy": null,
   "regime": "bearish",
-  "regime_score": -0.3,
+  "regime_score": -0.15,
   "regime_reasons": [
-    "VIX extrême (35.89) — panique"
+    "VIX élevé (26.62) — risk-off"
   ],
-  "fetched_at": "2026-11-24T09:48:14.010191"
+  "fetched_at": "2026-11-24T22:21:22.942729"
 }
