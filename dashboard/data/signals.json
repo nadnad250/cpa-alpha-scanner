@@ -1,21 +1,21 @@
 {
-  "generated_at": "2026-11-24T04:10:05.205511+00:00",
+  "generated_at": "2026-11-24T18:35:05.378896+00:00",
   "date": "2026-11-23",
   "stats": {
-    "total": 4,
-    "buy_signals": 4,
+    "total": 3,
+    "buy_signals": 3,
     "sell_signals": 0,
     "avg_confidence": 0.878,
     "avg_rr": 2.2,
-    "win_rate": 0.491,
-    "active_positions": 4,
-    "daily_pnl": 0.0241
+    "win_rate": 0.481,
+    "active_positions": 3,
+    "daily_pnl": -0.0059
   },
   "eod": {
     "tp_hit": 26,
-    "sl_hit": 27,
-    "open": 4,
-    "cumulative_pnl": 0.0241
+    "sl_hit": 28,
+    "open": 3,
+    "cumulative_pnl": -0.0059
   },
   "signals": [
     {
@@ -48,13 +48,16 @@
       "news_score": null,
       "top_news_title": null,
       "top_news_url": null,
-      "status": "open",
+      "status": "sl_hit",
       "issued_at": "2026-11-23T19:25:20.338696",
       "last_seen": "2026-11-23T19:25:20.339252",
-      "current_price": 707.69,
-      "current_price_time": "2026-11-24T04:10:05.205511+00:00",
-      "pnl_pct_live": -0.12,
-      "progression_pct": -4.1
+      "current_price": 635.4,
+      "current_price_time": "2026-11-24T18:35:05.378896+00:00",
+      "pnl_pct_live": -3.0,
+      "progression_pct": -4.1,
+      "exit_price": 687.32,
+      "exit_date": "2026-11-24T18:35:05.378896+00:00",
+      "pnl_pct": -3.0
     },
     {
       "ticker": "CTAS",
@@ -97,7 +100,7 @@
       "action": "STRONG_BUY",
       "price": 350.01,
       "take_profit": 356.37,
-      "stop_loss": 347.12,
+      "stop_loss": 350.01,
       "upside_pct": 1.8,
       "confidence": 0.862,
       "score": 0.6985,
@@ -125,10 +128,11 @@
       "status": "open",
       "issued_at": "2026-11-23T19:25:20.338706",
       "last_seen": "2026-11-23T19:25:20.339252",
-      "current_price": 349.62,
-      "current_price_time": "2026-11-24T04:10:05.205511+00:00",
-      "pnl_pct_live": -0.11,
-      "progression_pct": -13.5
+      "current_price": 353.24,
+      "current_price_time": "2026-11-24T18:35:05.378896+00:00",
+      "pnl_pct_live": 0.92,
+      "progression_pct": 50.8,
+      "trail_level": 1
     },
     {
       "ticker": "ZM",
@@ -163,10 +167,10 @@
       "status": "open",
       "issued_at": "2026-11-23T19:25:20.338709",
       "last_seen": "2026-11-23T19:25:20.339252",
-      "current_price": 86.1,
-      "current_price_time": "2026-11-24T04:10:05.205511+00:00",
-      "pnl_pct_live": -0.46,
-      "progression_pct": -17.4
+      "current_price": 87.58,
+      "current_price_time": "2026-11-24T18:35:05.378896+00:00",
+      "pnl_pct_live": 1.25,
+      "progression_pct": 21.3
     },
     {
       "ticker": "FAST",
@@ -201,10 +205,10 @@
       "status": "open",
       "issued_at": "2026-11-23T19:25:20.338712",
       "last_seen": "2026-11-23T19:25:20.339252",
-      "current_price": 52.07,
-      "current_price_time": "2026-11-24T04:10:05.205511+00:00",
-      "pnl_pct_live": -0.5,
-      "progression_pct": -32.5
+      "current_price": 52.12,
+      "current_price_time": "2026-11-24T18:35:05.378896+00:00",
+      "pnl_pct_live": -0.4,
+      "progression_pct": -26.3
     },
     {
       "ticker": "INTU",
