@@ -1,21 +1,21 @@
 {
-  "generated_at": "2026-11-25T03:07:11.671203",
+  "generated_at": "2026-11-25T17:45:28.125132+00:00",
   "date": "2026-11-25",
   "stats": {
-    "total": 8,
-    "buy_signals": 8,
+    "total": 4,
+    "buy_signals": 4,
     "sell_signals": 0,
     "avg_confidence": 0.812,
     "avg_rr": 2.2,
-    "win_rate": 0.46,
-    "active_positions": 8,
-    "daily_pnl": -0.2078
+    "win_rate": 0.481,
+    "active_positions": 4,
+    "daily_pnl": -0.3643
   },
   "eod": {
-    "tp_hit": 23,
-    "sl_hit": 27,
-    "open": 8,
-    "cumulative_pnl": -0.2078
+    "tp_hit": 26,
+    "sl_hit": 28,
+    "open": 4,
+    "cumulative_pnl": -0.3643
   },
   "signals": [
     {
@@ -50,7 +50,11 @@
       "top_news_url": null,
       "status": "open",
       "issued_at": "2026-11-24T23:14:56.289597",
-      "last_seen": "2026-11-25T03:07:11.671203"
+      "last_seen": "2026-11-25T03:07:11.671203",
+      "current_price": 153.2,
+      "current_price_time": "2026-11-25T17:45:28.125132+00:00",
+      "pnl_pct_live": -0.94,
+      "progression_pct": -31.5
     },
     {
       "ticker": "MU",
@@ -78,9 +82,15 @@
       "news_score": null,
       "top_news_title": null,
       "top_news_url": null,
-      "status": "open",
+      "status": "expired",
       "issued_at": "2026-11-23T19:25:20.338696",
-      "last_seen": "2026-11-25T03:07:11.671203"
+      "last_seen": "2026-11-25T03:07:11.671203",
+      "current_price": 574.97,
+      "current_price_time": "2026-11-25T17:45:28.125132+00:00",
+      "exit_price": 574.97,
+      "exit_date": "2026-11-25T17:45:28.125132+00:00",
+      "pnl_pct": -18.85,
+      "pnl_pct_live": -18.85
     },
     {
       "ticker": "AAPL",
@@ -108,9 +118,15 @@
       "news_score": null,
       "top_news_title": null,
       "top_news_url": null,
-      "status": "open",
+      "status": "expired",
       "issued_at": "2026-11-23T19:25:20.338706",
-      "last_seen": "2026-11-25T03:07:11.671203"
+      "last_seen": "2026-11-25T03:07:11.671203",
+      "current_price": 352.63,
+      "current_price_time": "2026-11-25T17:45:28.125132+00:00",
+      "exit_price": 352.63,
+      "exit_date": "2026-11-25T17:45:28.125132+00:00",
+      "pnl_pct": 0.75,
+      "pnl_pct_live": 0.75
     },
     {
       "ticker": "ZM",
@@ -138,9 +154,15 @@
       "news_score": null,
       "top_news_title": null,
       "top_news_url": null,
-      "status": "open",
+      "status": "expired",
       "issued_at": "2026-11-23T19:25:20.338709",
-      "last_seen": "2026-11-25T03:07:11.671203"
+      "last_seen": "2026-11-25T03:07:11.671203",
+      "current_price": 88.35,
+      "current_price_time": "2026-11-25T17:45:28.125132+00:00",
+      "exit_price": 88.35,
+      "exit_date": "2026-11-25T17:45:28.125132+00:00",
+      "pnl_pct": 2.14,
+      "pnl_pct_live": 2.14
     },
     {
       "ticker": "FAST",
@@ -168,9 +190,15 @@
       "news_score": null,
       "top_news_title": null,
       "top_news_url": null,
-      "status": "open",
+      "status": "expired",
       "issued_at": "2026-11-23T19:25:20.338712",
-      "last_seen": "2026-11-25T03:07:11.671203"
+      "last_seen": "2026-11-25T03:07:11.671203",
+      "current_price": 52.49,
+      "current_price_time": "2026-11-25T17:45:28.125132+00:00",
+      "exit_price": 52.49,
+      "exit_date": "2026-11-25T17:45:28.125132+00:00",
+      "pnl_pct": 0.31,
+      "pnl_pct_live": 0.31
     },
     {
       "ticker": "AZN",
@@ -205,10 +233,10 @@
       "status": "open",
       "issued_at": "2026-11-24T23:14:56.289612",
       "last_seen": "2026-11-24T23:14:56.290057",
-      "current_price": 183.22,
-      "current_price_time": "2026-11-25T02:46:38.966935+00:00",
-      "pnl_pct_live": 0.0,
-      "progression_pct": 0.0
+      "current_price": 184.3,
+      "current_price_time": "2026-11-25T17:45:28.125132+00:00",
+      "pnl_pct_live": 0.59,
+      "progression_pct": 10.5
     },
     {
       "ticker": "GILD",
@@ -242,7 +270,11 @@
       "top_news_url": null,
       "status": "open",
       "issued_at": "2026-11-24T23:14:56.289608",
-      "last_seen": "2026-11-25T03:07:11.671203"
+      "last_seen": "2026-11-25T03:07:11.671203",
+      "current_price": 177.8,
+      "current_price_time": "2026-11-25T17:45:28.125132+00:00",
+      "pnl_pct_live": -0.27,
+      "progression_pct": -9.2
     },
     {
       "ticker": "AAPL",
@@ -277,10 +309,10 @@
       "status": "open",
       "issued_at": "2026-11-24T23:45:49.035159",
       "last_seen": "2026-11-25T01:40:21.610558",
-      "current_price": 354.19,
-      "current_price_time": "2026-11-25T02:46:38.966935+00:00",
-      "pnl_pct_live": 0.0,
-      "progression_pct": 0.0
+      "current_price": 352.63,
+      "current_price_time": "2026-11-25T17:45:28.125132+00:00",
+      "pnl_pct_live": -0.44,
+      "progression_pct": -18.8
     },
     {
       "ticker": "CEG",
