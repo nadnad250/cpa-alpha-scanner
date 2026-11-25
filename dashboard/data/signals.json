@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-25T00:59:31.463788",
+  "generated_at": "2026-11-25T01:40:21.610558",
   "date": "2026-11-25",
   "stats": {
     "total": 8,
@@ -50,7 +50,7 @@
       "top_news_url": null,
       "status": "open",
       "issued_at": "2026-11-24T23:14:56.289597",
-      "last_seen": "2026-11-25T00:59:31.463788"
+      "last_seen": "2026-11-25T01:40:21.610558"
     },
     {
       "ticker": "MU",
@@ -238,7 +238,7 @@
       "top_news_url": null,
       "status": "open",
       "issued_at": "2026-11-24T23:14:56.289608",
-      "last_seen": "2026-11-25T00:59:31.463788"
+      "last_seen": "2026-11-25T01:40:21.610558"
     },
     {
       "ticker": "AAPL",
@@ -272,7 +272,7 @@
       "top_news_url": null,
       "status": "open",
       "issued_at": "2026-11-24T23:45:49.035159",
-      "last_seen": "2026-11-25T00:59:31.463788"
+      "last_seen": "2026-11-25T01:40:21.610558"
     },
     {
       "ticker": "CEG",
