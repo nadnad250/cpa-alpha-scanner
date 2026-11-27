@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-11-26T23:29:10.365261",
-  "date": "2026-11-26",
+  "generated_at": "2026-11-27T00:44:31.006849",
+  "date": "2026-11-27",
   "stats": {
     "total": 10,
     "buy_signals": 10,
@@ -260,7 +260,7 @@
       "top_news_url": null,
       "status": "open",
       "issued_at": "2026-11-26T17:51:20.189653",
-      "last_seen": "2026-11-26T17:51:20.190694"
+      "last_seen": "2026-11-27T00:44:31.006849"
     },
     {
       "ticker": "BNTX",
@@ -294,7 +294,7 @@
       "top_news_url": null,
       "status": "open",
       "issued_at": "2026-11-26T22:33:00.119396",
-      "last_seen": "2026-11-26T22:33:00.120020"
+      "last_seen": "2026-11-27T00:44:31.006849"
     },
     {
       "ticker": "ADI",
@@ -328,7 +328,7 @@
       "top_news_url": null,
       "status": "open",
       "issued_at": "2026-11-26T17:51:20.189662",
-      "last_seen": "2026-11-26T17:51:20.190694"
+      "last_seen": "2026-11-27T00:44:31.006849"
     },
     {
       "ticker": "KDP",
