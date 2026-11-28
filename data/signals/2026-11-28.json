@@ -1,0 +1,25 @@
+[
+  {
+    "ticker": "TXN",
+    "action": "STRONG_BUY",
+    "entry_price": 281.80999755859375,
+    "stop_loss": 273.35569763183594,
+    "take_profit": 300.4094573974609,
+    "score": 0.5650622632104503,
+    "confidence": 0.8051514618644414,
+    "universe": "NASDAQ100",
+    "issued_at": "2026-11-28T00:44:44.568083",
+    "horizon_days": 1,
+    "horizon_hours": 24,
+    "status": "open",
+    "exit_price": null,
+    "exit_date": null,
+    "pnl_pct": null,
+    "max_favorable": null,
+    "max_adverse": null,
+    "sector": "",
+    "ml_proba_up": null,
+    "risk_reward": 2.2,
+    "primary_reason": "Cassure ORB haussière (RVOL 1.7x, +VWAP) +gap"
+  }
+]
