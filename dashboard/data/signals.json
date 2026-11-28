@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-11-27T23:13:25.231775",
-  "date": "2026-11-27",
+  "generated_at": "2026-11-28T00:10:39.032362",
+  "date": "2026-11-28",
   "stats": {
     "total": 9,
     "buy_signals": 9,
@@ -50,7 +50,7 @@
       "top_news_url": null,
       "status": "open",
       "issued_at": "2026-11-27T17:35:51.782355",
-      "last_seen": "2026-11-27T23:13:25.231775"
+      "last_seen": "2026-11-28T00:10:39.032362"
     },
     {
       "ticker": "TSLA",
@@ -84,7 +84,7 @@
       "top_news_url": null,
       "status": "open",
       "issued_at": "2026-11-27T17:35:51.782338",
-      "last_seen": "2026-11-27T23:13:25.231775"
+      "last_seen": "2026-11-28T00:10:39.032362"
     },
     {
       "ticker": "PLTR",
@@ -152,7 +152,7 @@
       "top_news_url": null,
       "status": "open",
       "issued_at": "2026-11-27T17:35:51.782350",
-      "last_seen": "2026-11-27T23:13:25.231775"
+      "last_seen": "2026-11-28T00:10:39.032362"
     },
     {
       "ticker": "PINS",
