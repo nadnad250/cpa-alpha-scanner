@@ -1,21 +1,21 @@
 {
-  "generated_at": "2026-11-28T00:10:39.032362",
+  "generated_at": "2026-11-28T00:32:09.147308+00:00",
   "date": "2026-11-28",
   "stats": {
-    "total": 9,
-    "buy_signals": 9,
+    "total": 5,
+    "buy_signals": 5,
     "sell_signals": 0,
     "avg_confidence": 0.799,
     "avg_rr": 2.2,
-    "win_rate": 0.48,
-    "active_positions": 9,
-    "daily_pnl": -0.1085
+    "win_rate": 0.5,
+    "active_positions": 5,
+    "daily_pnl": -0.0134
   },
   "eod": {
-    "tp_hit": 24,
-    "sl_hit": 26,
-    "open": 9,
-    "cumulative_pnl": -0.1085
+    "tp_hit": 27,
+    "sl_hit": 27,
+    "open": 5,
+    "cumulative_pnl": -0.0134
   },
   "signals": [
     {
@@ -50,7 +50,11 @@
       "top_news_url": null,
       "status": "open",
       "issued_at": "2026-11-27T17:35:51.782355",
-      "last_seen": "2026-11-28T00:10:39.032362"
+      "last_seen": "2026-11-28T00:10:39.032362",
+      "current_price": 645.37,
+      "current_price_time": "2026-11-28T00:32:09.147308+00:00",
+      "pnl_pct_live": 0.0,
+      "progression_pct": 0.0
     },
     {
       "ticker": "TSLA",
@@ -84,7 +88,11 @@
       "top_news_url": null,
       "status": "open",
       "issued_at": "2026-11-27T17:35:51.782338",
-      "last_seen": "2026-11-28T00:10:39.032362"
+      "last_seen": "2026-11-28T00:10:39.032362",
+      "current_price": 400.36,
+      "current_price_time": "2026-11-28T00:32:09.147308+00:00",
+      "pnl_pct_live": 0.0,
+      "progression_pct": 0.0
     },
     {
       "ticker": "PLTR",
@@ -118,7 +126,11 @@
       "top_news_url": null,
       "status": "open",
       "issued_at": "2026-11-27T22:17:35.870885",
-      "last_seen": "2026-11-27T22:17:35.871436"
+      "last_seen": "2026-11-27T22:17:35.871436",
+      "current_price": 172.25,
+      "current_price_time": "2026-11-28T00:32:09.147308+00:00",
+      "pnl_pct_live": 0.0,
+      "progression_pct": 0.0
     },
     {
       "ticker": "VRTX",
@@ -152,7 +164,11 @@
       "top_news_url": null,
       "status": "open",
       "issued_at": "2026-11-27T17:35:51.782350",
-      "last_seen": "2026-11-28T00:10:39.032362"
+      "last_seen": "2026-11-28T00:10:39.032362",
+      "current_price": 534.99,
+      "current_price_time": "2026-11-28T00:32:09.147308+00:00",
+      "pnl_pct_live": 0.0,
+      "progression_pct": 0.0
     },
     {
       "ticker": "PINS",
@@ -180,9 +196,15 @@
       "news_score": null,
       "top_news_title": null,
       "top_news_url": null,
-      "status": "open",
+      "status": "expired",
       "issued_at": "2026-11-26T17:51:20.189653",
-      "last_seen": "2026-11-27T22:17:35.871436"
+      "last_seen": "2026-11-27T22:17:35.871436",
+      "current_price": 20.38,
+      "current_price_time": "2026-11-28T00:32:09.147308+00:00",
+      "exit_price": 20.38,
+      "exit_date": "2026-11-28T00:32:09.147308+00:00",
+      "pnl_pct": 3.5,
+      "pnl_pct_live": 3.5
     },
     {
       "ticker": "BNTX",
@@ -210,16 +232,22 @@
       "news_score": null,
       "top_news_title": null,
       "top_news_url": null,
-      "status": "open",
+      "status": "expired",
       "issued_at": "2026-11-26T22:33:00.119396",
-      "last_seen": "2026-11-27T22:17:35.871436"
+      "last_seen": "2026-11-27T22:17:35.871436",
+      "current_price": 88.61,
+      "current_price_time": "2026-11-28T00:32:09.147308+00:00",
+      "exit_price": 88.61,
+      "exit_date": "2026-11-28T00:32:09.147308+00:00",
+      "pnl_pct": -2.01,
+      "pnl_pct_live": -2.01
     },
     {
       "ticker": "PINS",
       "action": "BUY",
       "price": 19.69,
       "take_profit": 20.99,
-      "stop_loss": 19.1,
+      "stop_loss": 19.69,
       "upside_pct": 6.6,
       "confidence": 0.726,
       "score": 0.3777,
@@ -242,7 +270,12 @@
       "top_news_url": null,
       "status": "open",
       "issued_at": "2026-11-27T02:21:30.620979",
-      "last_seen": "2026-11-27T22:17:35.871436"
+      "last_seen": "2026-11-27T22:17:35.871436",
+      "current_price": 20.38,
+      "current_price_time": "2026-11-28T00:32:09.147308+00:00",
+      "pnl_pct_live": 3.5,
+      "trail_level": 1,
+      "progression_pct": 53.1
     },
     {
       "ticker": "ADI",
@@ -270,9 +303,15 @@
       "news_score": null,
       "top_news_title": null,
       "top_news_url": null,
-      "status": "open",
+      "status": "expired",
       "issued_at": "2026-11-26T17:51:20.189662",
-      "last_seen": "2026-11-27T17:35:51.783078"
+      "last_seen": "2026-11-27T17:35:51.783078",
+      "current_price": 345.86,
+      "current_price_time": "2026-11-28T00:32:09.147308+00:00",
+      "exit_price": 345.86,
+      "exit_date": "2026-11-28T00:32:09.147308+00:00",
+      "pnl_pct": 3.83,
+      "pnl_pct_live": 3.83
     },
     {
       "ticker": "LRCX",
@@ -300,9 +339,15 @@
       "news_score": null,
       "top_news_title": null,
       "top_news_url": null,
-      "status": "open",
+      "status": "expired",
       "issued_at": "2026-11-26T17:51:20.189664",
-      "last_seen": "2026-11-27T17:35:51.783078"
+      "last_seen": "2026-11-27T17:35:51.783078",
+      "current_price": 192.68,
+      "current_price_time": "2026-11-28T00:32:09.147308+00:00",
+      "exit_price": 192.68,
+      "exit_date": "2026-11-28T00:32:09.147308+00:00",
+      "pnl_pct": 4.19,
+      "pnl_pct_live": 4.19
     },
     {
       "ticker": "KDP",
